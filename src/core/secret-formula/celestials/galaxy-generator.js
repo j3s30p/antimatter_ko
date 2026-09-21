@@ -40,7 +40,7 @@ export const pelleGalaxyGeneratorUpgrades = {
     effect: x => Decimal.pow(2, x),
     formatEffect: x => formatX(x, 2),
     currency: () => Currency.antimatter,
-    currencyLabel: "Antimatter"
+    currencyLabel: "반물질"
   }),
   IPMult: rebuyable({
     id: "galaxyGeneratorIPMult",
@@ -49,7 +49,7 @@ export const pelleGalaxyGeneratorUpgrades = {
     effect: x => Decimal.pow(2, x),
     formatEffect: x => formatX(x, 2),
     currency: () => Currency.infinityPoints,
-    currencyLabel: "Infinity Point"
+    currencyLabel: "무한 포인트"
   }),
   EPMult: rebuyable({
     id: "galaxyGeneratorEPMult",
@@ -58,6 +58,6 @@ export const pelleGalaxyGeneratorUpgrades = {
     effect: x => Decimal.pow(2, x),
     formatEffect: x => formatX(x, 2),
     currency: () => Currency.eternityPoints,
-    currencyLabel: "Eternity Point"
+    currencyLabel: "영원 포인트"
   }),
 };

@@ -23,24 +23,24 @@ export default {
   },
   computed: {
     formatMachinesGained() {
-      if (this.machinesGained.gt(0)) return `Machines gained: ${format(this.machinesGained, 2)}`;
-      return "No Machines gained";
+      if (this.machinesGained.gt(0)) return `획득 머신: ${format(this.machinesGained, 2)}`;
+      return "획득한 머신 없음";
     },
     formatMachineStats() {
       if (!PlayerProgress.realityUnlocked() && this.nextMachineEP.gt("1e8000")) {
-        return `(Capped this Reality!)`;
+        return `(이번 현실에서 상한 도달!)`;
       }
       if (this.machinesGained.gt(0) && this.machinesGained.lt(100)) {
-        return `(Next at ${format(this.nextMachineEP, 2)} EP)`;
+        return `(다음 획득: ${format(this.nextMachineEP, 2)} EP)`;
       }
       if (this.machinesGained.eq(0) && this.newIMCap === 0) {
-        return `(Projected: ${format(this.projectedRM, 2)} RM)`;
+        return `(예상: ${format(this.projectedRM, 2)} RM)`;
       }
       if (this.newIMCap !== 0) {
         return `(iM Cap: ${formatMachines(0, this.newIMCap)})`;
       }
       if (this.machinesGained.lt(Number.MAX_VALUE)) {
-        return `(${format(this.machinesGained.divide(this.realityTime), 2, 2)} RM/min)`;
+        return `(분당 ${format(this.machinesGained.divide(this.realityTime), 2, 2)} RM)`;
       }
       return "";
     },
@@ -52,7 +52,7 @@ export default {
       return this.currentShardsRate;
     },
     shardsGainedText() {
-      return quantify("Relic Shard", this.shardsGained, 2);
+      return quantify("유물 파편", this.shardsGained, 2);
     },
     classObject() {
       return {
@@ -105,13 +105,13 @@ export default {
       this.bestShardRateVal = player.records.thisReality.bestRSminVal * multiplier;
 
       const teresaReward = this.formatScalingMultiplierText(
-        "Glyph Sacrifice",
+        "글리프 희생",
         Teresa.runRewardMultiplier,
         Math.max(Teresa.runRewardMultiplier, Teresa.rewardMultiplier(Currency.antimatter.value)));
       const teresaThreshold = this.formatThresholdText(
         Teresa.rewardMultiplier(Currency.antimatter.value) > Teresa.runRewardMultiplier,
         player.celestials.teresa.bestRunAM,
-        "antimatter");
+        "반물질");
       this.celestialRunText = [
         [Teresa.isRunning, teresaReward, teresaThreshold]];
     },
@@ -125,7 +125,7 @@ export default {
     },
     formatThresholdText(condition, threshold, resourceName) {
       if (condition) return "";
-      return `(${format(threshold, 2, 2)} ${resourceName} to improve)`;
+      return `(개선하려면 ${resourceName} ${format(threshold, 2, 2)} 필요)`;
     },
     // Make the button have a visual animation if Realitying will give a reward
     hasSpecialReward() {
@@ -149,16 +149,16 @@ export default {
       <div class="l-reality-button__contents">
         <template v-if="canReality">
           <div class="c-reality-button__header">
-            Make a new Reality
+            새로운 현실 만들기
           </div>
           <div>{{ formatMachinesGained }} {{ formatMachineStats }}</div>
           <div>{{ formatGlyphLevel }}</div>
         </template>
         <template v-else-if="hasRealityStudy">
-          <div>Get {{ format("1e4000") }} Eternity Points to unlock a new Reality</div>
+          <div>새로운 현실을 해금하려면 영원 포인트 {{ format("1e4000") }} 획득</div>
         </template>
         <template v-else>
-          <div>Purchase the study in the Eternity tab to unlock a new Reality</div>
+          <div>영원 탭에서 연구를 구매하여 새로운 현실을 해금하세요</div>
         </template>
         <div
           v-if="canReality"
@@ -167,9 +167,9 @@ export default {
           <div>Other resources gained:</div>
           <div>{{ quantifyInt("Perk Point", ppGained) }}</div>
           <div v-if="shardsGained !== 0">
-            {{ shardsGainedText }} ({{ format(currentShardsRate, 2) }}/min)
+            {{ shardsGainedText }} (분당 {{ format(currentShardsRate, 2) }})
             <br>
-            Peak: {{ format(bestShardRate, 2) }}/min at {{ format(bestShardRateVal, 2) }} RS
+            최고: 분당 {{ format(bestShardRate, 2) }} ({{ format(bestShardRateVal, 2) }} RS에서 달성)
           </div>
           <div
             v-for="(celestialInfo, i) in celestialRunText"

@@ -29,7 +29,7 @@ export default {
     },
     createRealityGlyph() {
       if (GameCache.glyphInventorySpace.value === 0) {
-        Modal.message.show("No available inventory space; Sacrifice some Glyphs to free up space.",
+        Modal.message.show("보관함에 빈칸이 없습니다. 글리프를 희생하여 공간을 확보하세요.",
           { closeEvent: GAME_EVENT.GLYPHS_CHANGED });
         return;
       }
@@ -52,7 +52,7 @@ export default {
 <template>
   <ModalWrapper>
     <template #header>
-      Reality Glyph Creation
+      현실 글리프 생성
     </template>
     <div class="c-reality-glyph-creation">
       <div>
@@ -65,7 +65,7 @@ export default {
       </div>
       <div class="o-available-effects-container">
         <div class="o-available-effects">
-          Available Effects:
+          사용 가능한 효과:
         </div>
         <div
           v-for="(effect, index) in possibleEffects"
@@ -78,19 +78,19 @@ export default {
         v-if="isDoomed"
         :enabled="false"
       >
-        You cannot create Reality Glyphs while Doomed
+        파멸 상태에서는 현실 글리프를 생성할 수 없습니다
       </PrimaryButton>
       <PrimaryButton
         v-else-if="realityGlyphLevel !== 0"
         @click="createRealityGlyph"
       >
-        Create a Reality Glyph!
+        현실 글리프 생성!
       </PrimaryButton>
       <PrimaryButton
         v-else
         :enabled="false"
       >
-        Reality Glyph level must be higher than {{ formatInt(0) }}
+        현실 글리프 레벨이 {{ formatInt(0) }}보다 높아야 합니다
       </PrimaryButton>
     </div>
   </ModalWrapper>

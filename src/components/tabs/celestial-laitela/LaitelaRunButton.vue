@@ -65,7 +65,7 @@ export default {
 <template>
   <button :class="classObject()">
     <span :class="{ 'o-pelle-disabled': isDoomed }">
-      <b>Start Lai'tela's Reality</b>
+      <b>Lai'tela의 현실 시작</b>
     </span>
     <div
       :class="runButtonClassObject()"
@@ -73,19 +73,19 @@ export default {
     />
     <div v-if="realityReward > 1">
       <b>
-        All Dark Matter multipliers are {{ formatX(realityReward, 2, 2) }} higher.
+        모든 암흑 물질 배율이 {{ formatX(realityReward, 2, 2) }} 증가합니다.
       </b>
       <span v-if="maxDimTier > 0">
         <br><br>
         {{ completionTime }}
         <br>
         <span v-if="maxDimTier <= 7">
-          <b>Highest active dimension: {{ formatInt(maxDimTier) }}</b>
+          <b>활성화된 최고 차원: {{ formatInt(maxDimTier) }}</b>
         </span>
         <br><br>
-        Glyph Set:
+        글리프 세트:
         <GlyphSetPreview
-          text="Fastest Destabilization Glyph Set"
+          text="최단 불안정화 글리프 세트"
           :text-hidden="true"
           :force-name-color="false"
           :glyphs="bestSet"
@@ -97,7 +97,7 @@ export default {
           You also gain an additional {{ formatX(8) }} Dark Energy.
         </b>
         <br><br>
-        Lai'tela's Reality has been fully destabilized and cannot have its reward further improved.
+        Lai'tela의 현실이 완전히 불안정화되어 보상을 더 개선할 수 없습니다.
       </span>
       <br>
     </div>

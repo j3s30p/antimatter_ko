@@ -85,35 +85,35 @@ export default {
         class="o-primary-btn--subtab-option"
         @click="showLaitelaHowTo()"
       >
-        Click for Lai'tela info
+        Lai'tela 정보 보기
       </PrimaryButton>
       <PrimaryButton
         class="o-primary-btn--subtab-option"
         @click="maxAll"
       >
-        Max all Dark Matter Dimensions
+        모든 암흑 물질 차원 최대 구매
       </PrimaryButton>
     </div>
     <div class="o-laitela-matter-amount">
-      You have
+      암흑 물질을
       <span :style="styleObject">{{ format(darkMatter, 2) }}</span>
-      Dark Matter<span v-if="isDMCapped"> (capped)</span>.
-      <span v-if="!isDMCapped">(Average: {{ format(darkMatterGain, 2, 2) }}/s)</span>
+      보유하고 있습니다<span v-if="isDMCapped"> (상한 도달)</span>.
+      <span v-if="!isDMCapped">(평균: {{ format(darkMatterGain, 2, 2) }}/초)</span>
     </div>
     <div class="o-laitela-matter-amount">
-      Your maximum Dark Matter ever is
+      역대 암흑 물질 최대치는
       <span :style="styleObject">{{ format(maxDarkMatter, 2) }}</span><span v-if="!isDoomed">,
         giving {{ formatPercents(matterExtraPurchasePercentage, 2) }} more purchases from Continuum</span>.
     </div>
     <div class="o-laitela-matter-amount">
-      Dark Matter Dimensions are unaffected by storing real time.
+      암흑 물질 차원은 실제 시간 저장의 영향을 받지 않습니다.
     </div>
     <h2
       v-if="!singularitiesUnlocked"
       class="c-laitela-singularity-container"
     >
-      Unlock Singularities in {{ singularityWaitTime }}.
-      ({{ format(darkEnergy, 2, 2) }}/{{ format(singularityCap, 2) }} Dark Energy)
+      {{ singularityWaitTime }} 후 특이점을 해금합니다.
+      (암흑 에너지 {{ format(darkEnergy, 2, 2) }}/{{ format(singularityCap, 2) }})
     </h2>
     <SingularityPane v-if="singularitiesUnlocked" />
     <LaitelaAutobuyerPane v-if="autobuyersUnlocked" />

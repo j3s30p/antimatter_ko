@@ -51,25 +51,25 @@ export default {
       v-if="darkMatter.lt(matterRequirement)"
       class="l-laitela-annihilation-button"
     >
-      Annihilation requires {{ format(matterRequirement, 2) }} Dark Matter
+      소멸에는 암흑 물질 {{ format(matterRequirement, 2) }}이 필요합니다.
     </button>
     <button
       v-else
       class="l-laitela-annihilation-button c-laitela-annihilation-button"
       @click="annihilate"
     >
-      <b>Annihilate your Dark Matter Dimensions</b>
+      <b>암흑 물질 차원 소멸</b>
     </button>
     <br>
     <br>
     <span v-if="darkMatterMult > 1">
-      Current multiplier to all Dark Matter Dimensions: <b>{{ formatX(darkMatterMult, 2, 2) }}</b>
+      모든 암흑 물질 차원의 현재 배율: <b>{{ formatX(darkMatterMult, 2, 2) }}</b>
       <br>
       <br>
-      Annihilation will reset your Dark Matter and Dark Matter Dimension amounts, but also add
-      <b>+{{ format(darkMatterMultGain, 2, 2) }}</b> to your Annihilation multiplier.
+      소멸하면 암흑 물질과 암흑 물질 차원 보유량이 초기화되지만, 소멸 배율에
+      <b>+{{ format(darkMatterMultGain, 2, 2) }}</b>를 더합니다.
       <br>
-      (<b>{{ formatX(darkMatterMultRatio, 2, 2) }}</b> from previous multiplier)
+      (이전 배율의 <b>{{ formatX(darkMatterMultRatio, 2, 2) }}</b>)
       <span v-if="autobuyerUnlocked">
         <br>
         <br>

@@ -15,10 +15,10 @@ Status values: `not started`, `in progress`, `translated`, `QA complete`.
 | Challenges | in progress | Normal Challenge data and start/exit UI translated; Infinity and Eternity Challenge residue remains |
 | Infinity systems | translated | Build and residue scan complete; full unlocked-state layout QA remains |
 | Eternity systems | in progress | Core systems, Time Study interface, and compatible base-game Time Study data translated; residue remains |
-| Dilation systems | not started | |
+| Dilation systems | in progress | Core tab, entry/exit dialogs, upgrades, and compatible base-game data imported; residue and layout QA remain |
 | Reality and Glyph systems | in progress | Compatible base-game Reality/Imaginary upgrades, perks, Glyph dialogs, and filters imported; screen QA and residue remain |
 | Automator UI and documentation | in progress | Most editor UI, transfer screens, templates, errors, and documentation imported; commands remain English intentionally for script compatibility |
-| Celestials and story dialogue | not started | |
+| Celestials and story dialogue | in progress | Compatible base-game tabs, mechanics, navigation text, and quote data imported; residue and story QA remain |
 | Help and catch-up documentation | translated | All compatible base-game H2P articles and catch-up entries imported; terminology and layout QA remain |
 | News ticker | in progress | 1,302 previously untouched base-game message properties imported from the reference translation; mixed-language wordplay and a smaller incompatible residue remain |
 | Changelog | not started | Final content batch |
@@ -59,6 +59,11 @@ Update this file whenever a translation batch is committed. An area becomes `QA 
   save creation timestamps use `YYYY년 MM월 DD일 HH:MM:SS`. Achievement 172's formula-preserving Korean description
   was added manually because the base and reference use different constant names. The updated Steam package was built,
   checked for absence of an Endgame marker, installed, and launched with five responding Electron processes.
+- Exact-hunk base import: imported 1,343 additional Korean diff hunks only when the removed English lines appeared
+  exactly once in both the official Steam base and current source. Endgame-only additions had no base match and were
+  excluded. This covered Celestial dialogue/UI, Glyph and Reality screens, Automator help/errors, Black Hole,
+  Replicanti, Dilation, save dialogs, and assorted shared status text. Audit candidates fell from 9,834 to 8,194;
+  the Steam build, ASAR hash, 304-file native sidecar, absence of an Endgame marker, and five responding processes passed.
 
 ## Steam packaging note
 

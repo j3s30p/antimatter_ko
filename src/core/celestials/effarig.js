@@ -14,7 +14,7 @@ export const EFFARIG_STAGES = {
 
 export const Effarig = {
   displayName: "Effarig",
-  possessiveName: "Effarig's",
+  possessiveName: "Effarig의",
   initializeRun() {
     clearCelestialRuns();
     player.celestials.effarig.run = true;
@@ -39,12 +39,12 @@ export const Effarig = {
   get currentStageName() {
     switch (this.currentStage) {
       case EFFARIG_STAGES.INFINITY:
-        return "Infinity";
+        return "무한";
       case EFFARIG_STAGES.ETERNITY:
-        return "Eternity";
+        return "영원";
       case EFFARIG_STAGES.REALITY:
       default:
-        return "Reality";
+        return "현실";
     }
   },
   get eternityCap() {

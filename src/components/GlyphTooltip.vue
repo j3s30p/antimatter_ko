@@ -109,13 +109,16 @@ export default {
       const glyphName = `${this.type.capitalize()}`;
       switch (this.type) {
         case "companion":
-          return "Companion Glyph";
+          return "동료 글리프";
         case "cursed":
-          return "Cursed Glyph";
+          return "저주받은 글리프";
         case "reality":
-          return `Pure Glyph of ${glyphName}`;
-        default:
-          return `${this.rarityInfo.name} Glyph of ${glyphName}`;
+          return `순수한 ${glyphName} 글리프`;
+        default: {
+          const description = `${this.rarityInfo.name} ${glyphName} 글리프`;
+          return description.replace(this.rarityInfo.name,
+            GLYPH_RARITY_NAMES[this.rarityInfo.name] ?? this.rarityInfo.name);
+        }
       }
     },
     isLevelCapped() {
@@ -127,7 +130,7 @@ export default {
     rarityText() {
       if (!GlyphTypes[this.type].hasRarity) return "";
       const strength = Pelle.isDoomed ? Pelle.glyphStrength : this.strength;
-      return `| Rarity:
+      return `| 희귀도:
         <span style="color: ${this.descriptionStyle.color}">${formatRarity(strengthToRarity(strength))}</span>`;
     },
     levelText() {
@@ -140,7 +143,7 @@ export default {
       const color = this.isLevelCapped
         ? "#ff4444"
         : (this.isLevelBoosted ? "#44FF44" : undefined);
-      return `Level: <span style="color: ${color}">
+      return `레벨: <span style="color: ${color}">
               ${arrow}${formatInt(this.effectiveLevel)}${arrow}
               </span>`;
     },
@@ -231,7 +234,7 @@ export default {
       const powerText = `${format(this.sacrificeReward, 2, 2)}`;
       const isCurrentAction = this.currentAction === "sacrifice";
       return `<span style="font-weight: ${isCurrentAction ? "bold" : ""};">
-              Sacrifice: ${powerText}
+              희생: ${powerText}
               </span>`;
     },
     refineText() {
@@ -239,18 +242,18 @@ export default {
       if (!AlchemyResource[this.type].isUnlocked) return "";
       let refinementText = `${format(this.uncappedRefineReward, 2, 2)} ${GLYPH_SYMBOLS[this.type]}`;
       if (this.uncappedRefineReward !== this.refineReward) {
-        refinementText += ` (Actual value due to cap: ${format(this.refineReward, 2, 2)} ${GLYPH_SYMBOLS[this.type]})`;
+        refinementText += ` (상한 적용 실제 가치: ${format(this.refineReward, 2, 2)} ${GLYPH_SYMBOLS[this.type]})`;
       }
       const isCurrentAction = this.currentAction === "refine";
       return `<span style="font-weight: ${isCurrentAction ? "bold" : ""};">
-              Refine: ${refinementText}
+              정제: ${refinementText}
               </span>`;
     },
     scoreText() {
       if (this.type === "companion" || this.type === "cursed" || this.type === "reality") return "";
       const showFilterScoreModes = [AUTO_GLYPH_SCORE.SPECIFIED_EFFECT, AUTO_GLYPH_SCORE.EFFECT_SCORE];
       if (!showFilterScoreModes.includes(this.scoreMode)) return "";
-      return `Score: ${format(AutoGlyphProcessor.filterValue(this.$parent.glyph), 1, 1)}`;
+      return `점수: ${format(AutoGlyphProcessor.filterValue(this.$parent.glyph), 1, 1)}`;
     }
   }
 };

@@ -73,7 +73,7 @@ export default {
       };
     },
     pourText() {
-      return this.isPouredAmountCapped ? "Filled" : "Pour RM";
+      return this.isPouredAmountCapped ? "가득 참" : "리얼리티 머신 붓기";
     },
     runDescription() {
       return GameDatabase.celestials.descriptions[0].effects();
@@ -145,7 +145,7 @@ export default {
   <div class="l-teresa-celestial-tab">
     <CelestialQuoteHistory celestial="teresa" />
     <div>
-      You have {{ quantify("Reality Machine", rm, 2, 2) }}.
+      리얼리티 머신을 {{ quantify("개", rm, 2, 2) }} 보유하고 있습니다.
     </div>
     <div class="l-mechanics-container">
       <div
@@ -154,7 +154,7 @@ export default {
       >
         <div class="c-teresa-unlock c-teresa-run-button">
           <span :class="{ 'o-pelle-disabled': isDoomed }">
-            Start Teresa's Reality.
+            Teresa의 현실을 시작합니다.
           </span>
           <div
             :class="runButtonClassObject"
@@ -165,22 +165,22 @@ export default {
           {{ runDescription }}
           <br><br>
           <div>
-            This Reality can be repeated for a stronger reward based on the antimatter gained within it.
+            이 현실을 반복하면 그 안에서 획득한 반물질에 따라 보상이 강해집니다.
             <br><br>
             <span v-if="showRunReward">
-              Your record antimatter in Teresa's Reality is {{ format(bestAM, 2) }},
-              achieved with {{ lastMachinesString }}.
+              Teresa의 현실에서 기록한 최고 반물질은 {{ format(bestAM, 2) }}이며,
+              {{ lastMachinesString }}으로 달성했습니다.
               <br><br>
-              Glyph Set used:
+              사용한 글리프 세트:
               <GlyphSetPreview
-                text="Teresa's Best Glyph Set"
+                text="Teresa의 최고 글리프 세트"
                 :text-hidden="true"
                 :force-name-color="false"
                 :glyphs="bestAMSet"
               />
             </span>
             <span v-else>
-              You have not completed Teresa's Reality yet.
+              아직 Teresa의 현실을 완료하지 못했습니다.
             </span>
           </div>
         </div>
@@ -188,14 +188,14 @@ export default {
           v-if="showRunReward"
           class="c-teresa-unlock"
         >
-          Teresa Reality reward: Glyph Sacrifice power {{ formatX(runReward, 2, 2) }}
+          Teresa의 현실 보상: 글리프 희생 파워 {{ formatX(runReward, 2, 2) }}
         </div>
         <div
           v-if="hasEPGen"
           class="c-teresa-unlock"
         >
           <span :class="{ 'o-pelle-disabled': isDoomed }">
-            Every second, you gain {{ formatPercents(0.01) }} of your peaked Eternity Points per minute this Reality.
+            매초 이 현실에서 기록한 분당 최고 영원 포인트의 {{ formatPercents(0.01) }}를 획득합니다.
           </span>
         </div>
       </div>
@@ -220,7 +220,7 @@ export default {
             :style="{ height: percentage}"
           >
             <div class="c-rm-store-label">
-              {{ formatX(rmMult, 2, 2) }} RM gain
+              리얼리티 머신 획득량 {{ formatX(rmMult, 2, 2) }}
               <br>
               {{ format(pouredAmount, 2, 2) }}/{{ format(pouredAmountCap, 2, 2) }}
             </div>
@@ -255,14 +255,14 @@ export default {
         class="c-teresa-shop"
       >
         <span class="o-teresa-pp">
-          You have {{ quantify("Perk Point", perkPoints, 2, 0) }}.
+          퍼크 포인트를 {{ quantify("개", perkPoints, 2, 0) }} 보유하고 있습니다.
         </span>
         <PerkShopUpgradeButton
           v-for="upgrade in upgrades"
           :key="upgrade.id"
           :upgrade="upgrade"
         />
-        You can now modify the appearance of your Glyphs to look like Music Glyphs.
+        이제 글리프의 외형을 음악 글리프처럼 바꿀 수 있습니다.
       </div>
       <div
         v-else

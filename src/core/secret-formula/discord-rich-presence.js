@@ -38,7 +38,7 @@ export const discordRichPresence = {
    */
   challenges: [
     {
-      name: () => `${Teresa.possessiveName} Reality`,
+      name: () => `${Teresa.possessiveName} 현실`,
       activityToken: () => Teresa.isRunning,
       // Reward is based on antimatter, but EP is more meaningful pre-completion
       resource: () => (Teresa.runCompleted
@@ -46,7 +46,7 @@ export const discordRichPresence = {
         : `${format(player.eternityPoints, 2)} EP`),
     },
     {
-      name: () => `${Effarig.possessiveName} Reality - ${Effarig.currentStageName}`,
+      name: () => `${Effarig.possessiveName} 현실 - ${Effarig.currentStageName}`,
       activityToken: () => Effarig.isRunning,
       resource: () => {
         switch (Effarig.currentStage) {
@@ -61,18 +61,18 @@ export const discordRichPresence = {
       },
     },
     {
-      name: () => `${Enslaved.possessiveName} Reality`,
+      name: () => `${Enslaved.possessiveName} 현실`,
       activityToken: () => Enslaved.isRunning,
       resource: () => `${format(player.eternityPoints, 2)} EP`,
     },
     {
-      name: () => `${V.possessiveName} Reality`,
+      name: () => `${V.possessiveName} 현실`,
       activityToken: () => V.isRunning,
       resource: () => null,
       // V displays achievements normally and its value is standardized outside of its era
     },
     {
-      name: () => `${Ra.possessiveName} Reality`,
+      name: () => `${Ra.possessiveName} 현실`,
       activityToken: () => Ra.isRunning,
       resource: () => null,
       // Ra doesn't have a meaningful in-reality resource to display
@@ -80,19 +80,19 @@ export const discordRichPresence = {
     {
       name: () => {
         const dims = Laitela.maxAllowedDimension;
-        const dimStr = dims ? `D${dims} max` : "Final";
-        return `${Laitela.possessiveName} Reality - ${dimStr}`;
+        const dimStr = dims ? `D${dims} 최대` : "최종";
+        return `${Laitela.possessiveName} 현실 - ${dimStr}`;
       },
       activityToken: () => Laitela.isRunning,
       resource: () => `${formatPercents(player.celestials.laitela.entropy, 2, 2)} Entropy`,
     },
     {
-      name: () => "Dilation",
+      name: () => "시간 팽창",
       activityToken: () => player.dilation.active,
       resource: () => `${format(player.antimatter, 2, 1)} AM`,
     },
     {
-      name: token => `EC ${token}`,
+      name: token => `영원 도전 ${token}`,
       // This results in "EC 3x3" (for example) when there are remaining completions, and just "EC 3" if not
       activityToken: () => {
         if (!player.challenge.eternity.current) return false;
@@ -103,12 +103,12 @@ export const discordRichPresence = {
       resource: () => `${format(player.infinityPoints, 2)} IP`,
     },
     {
-      name: token => `IC ${token}`,
+      name: token => `무한 도전 ${token}`,
       activityToken: () => player.challenge.infinity.current,
       resource: () => `${format(player.antimatter, 2, 1)} AM`,
     },
     {
-      name: token => `NC ${token}`,
+      name: token => `일반 도전 ${token}`,
       activityToken: () => player.challenge.normal.current,
       resource: () => `${format(player.antimatter, 2, 1)} AM`,
     },
@@ -132,31 +132,31 @@ export const discordRichPresence = {
    */
   stages: [
     {
-      name: "Pre-Infinity",
+      name: "무한 이전",
       hasReached: () => true,
       mainResource: () => `${format(player.antimatter, 2, 1)} AM`,
       resourceList: [
-        () => quantify("Boost", player.dimensionBoosts, 0, 0, formatInt),
-        () => quantify("Galaxy", player.galaxies, 0, 0, formatInt),
+        () => quantify("차원 가속", player.dimensionBoosts, 0, 0, formatInt),
+        () => quantify("은하", player.galaxies, 0, 0, formatInt),
       ],
     },
     {
-      name: "Infinity",
+      name: "무한",
       hasReached: () => PlayerProgress.infinityUnlocked(),
       mainResource: () => `${format(player.infinityPoints, 2)} IP`,
-      resourceList: [() => quantify("Infinity", player.infinities, 0, 0, formatInt)],
+      resourceList: [() => quantify("무한", player.infinities, 0, 0, formatInt)],
     },
     {
-      name: "Broken Infinity",
+      name: "무한 돌파",
       hasReached: () => player.break,
       mainResource: () => `${format(player.infinityPoints, 2)} IP`,
-      resourceList: [() => quantify("Infinity", player.infinities, 2, 0, format)],
+      resourceList: [() => quantify("무한", player.infinities, 2, 0, format)],
     },
     {
       name: "Eternity",
       hasReached: () => PlayerProgress.eternityUnlocked(),
       mainResource: () => `${format(player.eternityPoints, 2)} EP`,
-      resourceList: [() => quantify("Eternity", player.eternities, 0, 0, formatInt)],
+      resourceList: [() => quantify("영원", player.eternities, 0, 0, formatInt)],
     },
     {
       // Eternity Challenge era
@@ -164,18 +164,18 @@ export const discordRichPresence = {
       hasReached: () => player.eternityChalls.eterc1 > 0,
       mainResource: () => `${format(player.eternityPoints, 2)} EP`,
       resourceList: [
-        () => quantify("EC completion",
+        () => quantify("영원 도전 완료",
           Object.values(player.eternityChalls).reduce((sum, c) => sum + c, 0), 0, 0, formatInt)
       ]
     },
     {
-      name: "Time Dilation",
+      name: "시간 팽창",
       hasReached: () => PlayerProgress.dilationUnlocked(),
       mainResource: () => `${format(player.eternityPoints, 2)} EP`,
       resourceList: [() => `${format(player.dilation.dilatedTime, 2, 2)} DT`],
     },
     {
-      name: "Reality",
+      name: "현실",
       hasReached: () => player.realities > 0,
       mainResource: () => `${format(player.reality.realityMachines, 2)} RM`,
       resourceList: [
@@ -252,14 +252,14 @@ export const discordRichPresence = {
       // the text scramble to get put on DRP
       name: "Pelle",
       hasReached: () => Pelle.isDoomed,
-      mainResource: () => quantify("Reality Shard", player.celestials.pelle.realityShards, 2),
-      resourceList: [() => quantify("Remnant", player.celestials.pelle.remnants, 2)],
+      mainResource: () => quantify("현실 파편", player.celestials.pelle.realityShards, 2),
+      resourceList: [() => quantify("잔재", player.celestials.pelle.remnants, 2)],
     },
     {
-      name: "END",
+      name: "끝",
       hasReached: () => GameEnd.endState >= END_STATE_MARKERS.GAME_END,
-      mainResource: () => "END Antimatter",
-      resourceList: [() => "Nothing remains."],
+      mainResource: () => "끝 반물질",
+      resourceList: [() => "아무것도 남지 않았습니다."],
     },
   ]
 };

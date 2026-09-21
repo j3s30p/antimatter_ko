@@ -56,7 +56,7 @@ const disabledMechanicUnlocks = {
 export const Pelle = {
   symbol: "♅",
   // Suppress the randomness for this form
-  possessiveName: "Pelle's",
+  possessiveName: "Pelle의",
 
   // This is called upon initial Dooming and after every Armageddon when using the modal
   initializeRun() {
@@ -68,15 +68,15 @@ export const Pelle = {
     Glyphs.harshAutoClean();
     if (!Glyphs.unequipAll()) {
       Modal.hideAll();
-      Modal.message.show(`Dooming your Reality will unequip your Glyphs. Some of your
-        Glyphs could not be unequipped due to lack of inventory space.`, 1);
+      Modal.message.show(`현실을 파멸시키면 글리프가 장착 해제됩니다. 인벤토리 공간이 부족하여
+        일부 글리프를 장착 해제할 수 없습니다.`, 1);
       return;
     }
     Glyphs.harshAutoClean();
     if (Glyphs.freeInventorySpace < 5) {
       Modal.hideAll();
-      Modal.message.show(`You must have enough empty unprotected Glyph slots for
-        ${formatInt(5)} additional Glyphs in order to Doom your Reality.`, 1);
+      Modal.message.show(`현실을 파멸시키려면 보호되지 않은 빈 글리프 슬롯이
+        추가로 ${formatInt(5)}개 이상 필요합니다.`, 1);
       return;
     }
     for (const type of BASIC_GLYPH_TYPES) Glyphs.addToInventory(GlyphGenerator.doomedGlyph(type));
@@ -249,7 +249,7 @@ export const Pelle = {
       case "power":
         return `Galaxies are ${formatPercents(0.02)} stronger`;
       case "companion":
-        return `You feel ${formatPercents(0.34)} better`;
+        return `기분이 ${formatPercents(0.34)} 더 좋아집니다`;
       // Undefined means that there is no glyph equipped, needs to be here since this function is used in
       // both Current Glyph Effects and Glyph Tooltip
       case undefined:

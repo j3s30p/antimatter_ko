@@ -20,43 +20,43 @@ GameDatabase.celestials.descriptions = [
   {
     name: "Teresa",
     effects() {
-      return `Glyph Time Theorem generation is disabled.
-      You gain less Infinity Points and Eternity Points (x^${format(0.55, 2, 2)}).`;
+      return `글리프의 시간 정리 생성 효과가 비활성화됩니다.
+      무한 포인트와 영원 포인트 획득량이 감소합니다(x^${format(0.55, 2, 2)}).`;
     },
   },
   {
     name: "Effarig",
     effects() {
-      return `All Dimension multipliers, game speed, and tickspeed are severely lowered, like Dilation.
-      Infinity Power reduces the production and game speed penalties and Time Shards reduce the tickspeed penalty.
-      Glyph levels are temporarily capped to ${formatInt(Effarig.glyphLevelCap)}, rarity is unaffected.`;
+      return `시간 팽창처럼 모든 차원 배율, 게임 속도, 틱스피드가 크게 감소합니다.
+      무한력은 생산량과 게임 속도 페널티를 줄이고, 시간 파편은 틱스피드 페널티를 줄입니다.
+      글리프 레벨은 일시적으로 ${formatInt(Effarig.glyphLevelCap)}에서 제한되며 희귀도는 영향을 받지 않습니다.`;
     },
     description() {
-      return `You will exit Effarig's Reality when you complete a Layer of it for the first time.`;
+      return `Effarig의 현실에서 한 단계를 처음 완료하면 해당 현실에서 나갑니다.`;
     }
   },
   {
     name: "The Nameless Ones",
     effects() {
-      return `Glyph levels are boosted to a minimum of ${formatInt(5000)}.
-      Infinity, Time, and 8th Antimatter Dimension purchases are limited to ${formatInt(1)} each.
-      Antimatter Dimension multipliers are always Dilated (the Glyph effect still only applies in actual Dilation).
-      Time Study 192 (uncapped Replicanti) is locked.
-      The Black Hole is disabled.
-      Tachyon Particle production and Dilated Time production are severely reduced.
-      Time Theorem generation from Dilation Glyphs is disabled.
-      Certain challenge goals are increased.
-      Stored game time is discharged at a reduced effectiveness (exponent^${format(0.55, 2, 2)}).`;
+      return `글리프 레벨이 최소 ${formatInt(5000)}까지 증가합니다.
+      무한 차원, 시간 차원, 제8 반물질 차원은 각각 ${formatInt(1)}번만 구매할 수 있습니다.
+      반물질 차원 배율에 항상 시간 팽창이 적용됩니다(글리프 효과는 실제 시간 팽창에서만 적용됩니다).
+      시간 연구 192(복제자 상한 해제)가 잠깁니다.
+      블랙홀이 비활성화됩니다.
+      타키온 입자와 팽창된 시간 생산량이 크게 감소합니다.
+      팽창 글리프의 시간 정리 생성 효과가 비활성화됩니다.
+      일부 도전 목표가 증가합니다.
+      저장한 게임 시간이 감소된 효율(지수^${format(0.55, 2, 2)})로 방출됩니다.`;
     }
   },
   {
     name: "V",
     effects() {
-      const vEffect = `All Dimension multipliers, Eternity Point gain, Infinity Point gain, and Dilated Time gain\
-      per second are square-rooted. 
-      The Replicanti interval is squared.`;
+      const vEffect = `모든 차원 배율, 영원 포인트 및 무한 포인트 획득량, 초당 팽창된 시간 획득량에\
+      제곱근이 적용됩니다.
+      복제자 간격은 제곱됩니다.`;
       const vEffectAdditional = `
-      The Exponential Glyph Alchemy effect is disabled.`;
+      지수 글리프 연금술 효과가 비활성화됩니다.`;
 
       return Ra.unlocks.unlockGlyphAlchemy.canBeApplied
         ? vEffect + vEffectAdditional
@@ -66,8 +66,8 @@ GameDatabase.celestials.descriptions = [
   {
     name: "Ra",
     effects() {
-      return `You only have ${formatInt(4)} Dimension Boosts and can not gain any more.
-      The Tickspeed purchase multiplier is fixed at ${formatX(1.1245, 0, 3)}.`;
+      return `차원 가속을 ${formatInt(4)}개만 보유하며 더 얻을 수 없습니다.
+      틱스피드 구매 배율이 ${formatX(1.1245, 0, 3)}로 고정됩니다.`;
     },
   },
   {
@@ -77,28 +77,28 @@ GameDatabase.celestials.descriptions = [
       const highestActive = 8 - Laitela.difficultyTier;
       switch (highestActive) {
         case 0:
-          disabledDims = "all Dimensions";
+          disabledDims = "모든 차원";
           break;
         case 1:
-          disabledDims = "2nd and higher Dimensions";
+          disabledDims = "제2 이상의 차원";
           break;
         case 2:
-          disabledDims = "3rd and higher Dimensions";
+          disabledDims = "제3 이상의 차원";
           break;
         case 7:
-          disabledDims = "8th Dimensions";
+          disabledDims = "제8 차원";
           break;
         default:
-          disabledDims = `${highestActive + 1}th and higher Dimensions`;
+          disabledDims = `제${highestActive + 1} 이상의 차원`;
           break;
       }
       const disabledText = highestActive === 8
         ? ""
-        : `Production from ${disabledDims} is disabled.`;
+        : `${disabledDims}의 생산이 비활성화됩니다.`;
 
-      return `Infinity Point and Eternity Point gain are Dilated.
-      Game speed is reduced to ${formatInt(1)} and gradually comes back over ${formatInt(10)} minutes.
-      Black Hole storing, discharging, pulsing, and inversion are all disabled.
+      return `무한 포인트와 영원 포인트 획득량에 시간 팽창이 적용됩니다.
+      게임 속도가 ${formatInt(1)}로 감소한 뒤 ${formatInt(10)}분에 걸쳐 점차 회복됩니다.
+      블랙홀의 저장, 방출, 파동, 반전이 모두 비활성화됩니다.
       ${disabledText}`;
     },
     description() {

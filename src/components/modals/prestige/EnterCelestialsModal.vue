@@ -38,31 +38,31 @@ export default {
       return description ? description() : "";
     },
     topLabel() {
-      return `${this.name} Reality`;
+      return `${this.name}의 현실`;
     },
     message() {
-      return `Perform a Reality reset and enter ${this.name} Reality, in which:`;
+      return `현실을 초기화하고 ${this.name}의 현실에 진입합니다. 이곳에서는:`;
     },
     extraLine() {
       switch (this.number) {
         case 0:
           return this.teresaBestAM.eq(1)
-            ? `You have not unlocked the reward for Teresa's Reality yet. Unlocking the reward requires
-              purchasing the Reality study and completing the Reality for the first time.`
-            : `Your highest Teresa completion was for ${format(this.teresaBestAM, 2, 2)} antimatter,
-              gaining you a ${formatX(this.teresaRunMult, 2)} multiplier to Glyph Sacrifice power.`;
+            ? `아직 Teresa의 현실 보상을 해금하지 못했습니다. 보상을 해금하려면
+              현실 연구를 구매하고 현실을 처음으로 완료해야 합니다.`
+            : `Teresa의 현실 최고 기록은 반물질 ${format(this.teresaBestAM, 2, 2)}이며,
+              이에 따라 글리프 희생 효과에 ${formatX(this.teresaRunMult, 2)} 배율이 적용됩니다.`;
         case 1: return this.effarigDone
-          ? "Effarig is completed!"
-          : `You are currently on the ${this.effarigLayer} Layer.`;
+          ? "Effarig를 완료했습니다!"
+          : `현재 ${this.effarigLayer} 단계입니다.`;
         case 2: return this.enslavedDone
-          ? "Have... we... not helped enough..."
-          : "We... can help... Let us... help...";
+          ? "우리가... 아직... 충분히 돕지 못했나..."
+          : "우리는... 도울 수 있어... 우리가... 돕게 해줘...";
         case 3: return "";
-        case 4: return `Within Ra's Reality, some resources will generate Memory Chunks
-          for Celestial Memories based on their amounts:`;
+        case 4: return `Ra의 현실 안에서는 일부 자원이 보유량에 따라
+          셀레스티얼 기억을 위한 기억 조각을 생성합니다:`;
         case 5: return this.laitelaFastest >= 300
-          ? "You have not completed Lai'tela at this tier."
-          : `Your fastest completion on this tier is ${this.laitelaTime}.`;
+          ? "이 단계의 Lai'tela를 완료하지 못했습니다."
+          : `이 단계의 최단 완료 시간은 ${this.laitelaTime}입니다.`;
         case 6: return "";
         default: throw new Error(`Attempted to start an Unknown Celestial in Celestial Modal Confirmation.`);
       }
@@ -136,7 +136,7 @@ export default {
       </span>
     </div>
     <template #confirm-text>
-      Begin
+      시작
     </template>
   </ModalWrapperChoice>
 </template>

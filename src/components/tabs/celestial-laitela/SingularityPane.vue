@@ -28,9 +28,9 @@ export default {
       const formText = this.singularitiesGained === 1 ? "all Dark Energy into a Singularity"
         : `all Dark Energy into ${quantify("Singularity", this.singularitiesGained, 2)}`;
       if (this.canPerformSingularity) {
-        return `Condense ${formText}`;
+        return `${formText} 응축`;
       }
-      return `Reach ${format(this.singularityCap)} Dark Energy to condense ${formText}`;
+      return `암흑 에너지 ${format(this.singularityCap)}에 도달하여 ${formText} 응축`;
     },
     singularityWaitText() {
       let singularityTime = this.currentTimeToSingularity;
@@ -54,7 +54,7 @@ export default {
       return this.formatRate(this.singularitiesGained / totalTime);
     },
     autoSingularityRate() {
-      if (this.hasAutoSingularity && !this.isAutoEnabled) return "Auto-Singularity is OFF";
+      if (this.hasAutoSingularity && !this.isAutoEnabled) return "자동 특이점 꺼짐";
       const totalTime = this.baseTimeToSingularity + this.extraTimeAfterSingularity;
       return this.formatRate(this.singularitiesGained / totalTime);
     },
@@ -62,8 +62,8 @@ export default {
       if (this.singularityCapIncreases === 0) return "You cannot decrease the cap any further!";
       const singularities = this.singularitiesGained / this.perStepFactor;
       return this.willCondenseOnDecrease
-        ? `Decreasing the cap will immediately auto-condense for
-          ${quantify("Singularity", singularities, 2)}!`
+        ? `상한을 낮추면 즉시 자동 응축하여
+          ${quantify("개의 특이점", singularities, 2)}을 얻습니다!`
         : null;
     },
     increaseTooltip() {
@@ -123,7 +123,7 @@ export default {
   <div class="c-laitela-singularity-container">
     <div>
       <h2>
-        You have {{ quantify("Singularity", singularities, 2) }}
+        특이점을 {{ quantify("개", singularities, 2) }} 보유하고 있습니다.
       </h2>
       <button
         :class="condenseClassObject()"
@@ -140,7 +140,7 @@ export default {
     </div>
     <div v-if="singularities !== 0">
       <div class="o-laitela-matter-amount">
-        You have {{ format(darkEnergy, 2, 4) }} Dark Energy. (+{{ format(darkEnergyGainPerSecond, 2, 4) }}/s)
+        암흑 에너지를 {{ format(darkEnergy, 2, 4) }} 보유하고 있습니다. (+{{ format(darkEnergyGainPerSecond, 2, 4) }}/초)
       </div>
       <div v-if="unlockedBulkSingularity">
         <button
@@ -149,7 +149,7 @@ export default {
           :ach-tooltip="decreaseTooltip"
           @click="decreaseCap"
         >
-          Decrease Singularity cap.
+          특이점 상한 감소
         </button>
         <button
           class="c-laitela-singularity__cap-control"
@@ -157,32 +157,32 @@ export default {
           :ach-tooltip="increaseTooltip"
           @click="increaseCap"
         >
-          Increase Singularity cap.
+          특이점 상한 증가
         </button>
         <br>
-        Each step increases the required Dark Energy by {{ formatX(10) }},
+        한 단계마다 필요한 암흑 에너지가 {{ formatX(10) }} 증가하지만,
         <br>
-        but also increases gained Singularities by {{ formatX(perStepFactor) }}.
+        획득하는 특이점도 {{ formatX(perStepFactor) }} 증가합니다.
       </div>
       <div v-else>
         <br>
-        Reach {{ format(10) }} Singularities
+        특이점 {{ format(10) }}개에 도달하여
         <br>
-        to unlock Bulk Singularities.
+        특이점 일괄 획득을 해금하세요.
         <br>
       </div>
       <br>
-      Total time to <span v-if="hasAutoSingularity">(auto-)</span>condense:
+      <span v-if="hasAutoSingularity">자동 </span>응축까지 걸리는 총 시간:
       {{ baseSingularityTime }}
       <span v-if="hasAutoSingularity && autoSingularityFactor !== 1">
         (+{{ additionalSingularityTime }})
       </span>
       <br>
-      <span v-if="hasAutoSingularity && autoSingularityFactor !== 1">Manual </span>
-      Singularity gain rate: {{ manualSingularityRate }}
+      <span v-if="hasAutoSingularity && autoSingularityFactor !== 1">수동 </span>
+      특이점 획득 속도: {{ manualSingularityRate }}
       <br>
       <span v-if="hasAutoSingularity && autoSingularityFactor !== 1">
-        Automatic Singularity gain rate: {{ autoSingularityRate }}
+        자동 특이점 획득 속도: {{ autoSingularityRate }}
       </span>
     </div>
   </div>

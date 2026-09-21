@@ -36,10 +36,10 @@ export default {
         const timeToThousand = coeff.times(nextMilestone.divide(replicantiAmount).pow(postScale).minus(1));
         // The calculation seems to choke and return zero if the time is too large, probably because of rounding issues
         const timeEstimateText = timeToThousand.eq(0)
-          ? "an extremely long time"
+          ? "매우 오랜 시간"
           : `${TimeSpan.fromSeconds(timeToThousand.toNumber())}`;
-        this.remainingTimeText = `You are gaining ${formatX(gainFactorPerSecond, 2, 1)} Replicanti per second` +
-          ` (${timeEstimateText} until ${format(nextMilestone)})`;
+        this.remainingTimeText = `복제자 초당 증가율: ${formatX(gainFactorPerSecond, 2, 1)}` +
+          ` (${format(nextMilestone)}까지 ${timeEstimateText})`;
       } else {
         this.remainingTimeText = "";
       }
@@ -90,12 +90,12 @@ export default {
       if (Replicanti.galaxies.max > 0) {
         // If the player has max RGs, don't display the "You are gaining blah" text
         if (player.replicanti.galaxies === Replicanti.galaxies.max) {
-          this.galaxyText = "You have reached the maximum amount of Replicanti Galaxies";
+          this.galaxyText = "복제자 은하의 최대 개수에 도달했습니다.";
         } else {
-          this.galaxyText = `You are gaining a Replicanti Galaxy every
+          this.galaxyText = `복제자 은하 획득 간격:
             ${TimeSpan.fromSeconds(secondsPerGalaxy.toNumber())}`;
           if (galaxiesPerSecond.gte(1)) {
-            this.galaxyText = `You are gaining ${quantify("Replicanti Galaxy", galaxiesPerSecond, 2, 1)} per second`;
+            this.galaxyText = `초당 복제자 은하 획득량: ${quantify("개", galaxiesPerSecond, 2, 1)}`;
           }
           // Take the total time from zero replicanti to max RG + e308 replicanti and then subtract away the time which
           // has already elapsed. The time elapsed is calculated from your current RG total (including the current one)
@@ -118,7 +118,7 @@ export default {
             pendingTime += leftPercentAfterGalaxy * secondsPerGalaxy.toNumber();
           }
           const thisGalaxyTime = pending > 0 ? pendingTime : secondsPerGalaxy.toNumber() - remainingTime;
-          this.galaxyText += ` (all Replicanti Galaxies within
+          this.galaxyText += ` (모든 복제자 은하 획득까지
             ${TimeSpan.fromSeconds(Math.clampMin(allGalaxyTime - thisGalaxyTime, 0))})`;
         }
       } else {

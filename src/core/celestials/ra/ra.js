@@ -16,8 +16,8 @@ class RaUnlockState extends BitUpgradeState {
   get requirementText() {
     const pet = this.pet.name;
     return this.level === 1
-      ? `Unlock ${pet}`
-      : `Get ${pet} to level ${this.level}`;
+      ? `${pet} 해금`
+      : `${pet} 레벨 ${this.level} 달성`;
   }
 
   get reward() {
@@ -227,7 +227,7 @@ const pets = mapGameDataToObject(
 
 export const Ra = {
   displayName: "Ra",
-  possessiveName: "Ra's",
+  possessiveName: "Ra의",
   unlocks,
   pets,
   remembrance: {
@@ -268,8 +268,8 @@ export const Ra = {
     if (Ra.unlocks.continuousTTBoost.canBeApplied) boostList.push("current TT");
 
     if (boostList.length === 1) return `${boostList[0]}`;
-    if (boostList.length === 2) return `${boostList[0]} and ${boostList[1]}`;
-    return `${boostList.slice(0, -1).join(", ")}, and ${boostList[boostList.length - 1]}`;
+    if (boostList.length === 2) return `${boostList[0]} 및 ${boostList[1]}`;
+    return `${boostList.slice(0, -1).join(", ")}, 그리고 ${boostList[boostList.length - 1]}`;
   },
   // This is the exp required ON "level" in order to reach "level + 1"
   requiredMemoriesForLevel(level) {
@@ -290,7 +290,7 @@ export const Ra = {
       ? -c / b
       : (Math.sqrt(Math.pow(b, 2) - 4 * a * c) - b) / (2 * a);
     if (Number.isFinite(estimate)) {
-      return `in ${TimeSpan.fromSeconds(estimate).toStringShort()}`;
+      return `${TimeSpan.fromSeconds(estimate).toStringShort()} 후`;
     }
     return "";
   },

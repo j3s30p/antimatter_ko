@@ -42,18 +42,18 @@ export default {
         class="c-collapse-icon-clickable"
         @click="toggleCollapse"
       />
-      Pelle Strikes and Rifts
+      Pelle 타격과 균열
     </div>
     <div
       v-if="!isCollapsed"
       class="l-pelle-content-container"
     >
-      Rifts can be activated by clicking on their bars.
-      <span v-if="strikes.length > 1">You cannot activate more than two Rifts at once.</span>
+      균열은 막대를 클릭하여 활성화할 수 있습니다.
+      <span v-if="strikes.length > 1">균열은 동시에 두 개까지만 활성화할 수 있습니다.</span>
       <br v-else>
-      When active, Rifts consume {{ formatPercents(decayRate) }} of another resource per second.
+      활성화된 균열은 매초 다른 자원의 {{ formatPercents(decayRate) }}를 소모합니다.
       <br>
-      Rift effects apply even when not activated, and are based on the total amount drained.
+      균열 효과는 비활성 상태에서도 적용되며 지금까지 소모한 총량을 기준으로 합니다.
       <b class="o-strike-warning">Pelle Strike penalties are permanent and remain active even after Armageddon!</b>
       <div class="c-pelle-bar-container">
         <PelleRift

@@ -96,7 +96,7 @@ export default {
       {{ pelleGlyphText }}
     </div>
     <div class="c-current-glyph-effects__header">
-      Currently active Glyph effects:
+      현재 적용 중인 글리프 효과:
     </div>
     <GlyphSetName :glyph-set="glyphSet" />
     <br v-if="isSoftcapActive || hasEffarig || hasReality">
@@ -105,12 +105,12 @@ export default {
       v-if="isSoftcapActive"
       class="l-current-glyph-effects__capped-header"
     >
-      <span class="c-current-glyph-effects__effect--capped">Italic</span> effects have been slightly reduced
-      due to a softcap
+      <span class="c-current-glyph-effects__effect--capped">기울임꼴</span> 효과는 소프트캡으로 인해
+      다소 감소했습니다
     </div>
     <br>
     <div v-if="noEffects">
-      None (equip Glyphs to get their effects)
+      없음 (글리프를 장착하면 효과를 얻습니다)
     </div>
     <CurrentGlyphEffect
       v-for="effect in effects"

@@ -47,114 +47,114 @@ export const pelleQuotes = {
   initial: {
     id: 0,
     lines: [
-      "Hi.",
-      "You are here.",
-      "You are trapped here.",
+      "안녕.",
+      "네가 여기 왔군.",
+      "너는 이곳에 갇혔다.",
       { text: "$1.", 1: forever },
-      "I have already won.",
-      "And since that is the case, I can monologue, or reminisce.",
-      { text: "How long have we done this $1?", 1: dance },
-      "How many times have we been here before?",
-      { text: "How many plans have you, the $1, operated?", 1: destroyer },
-      { text: "All to try and fulfill your $1?", 1: mandate },
-      { text: "And how many times have you fallen before the $1?", 1: eternal },
-      "Count them, if you remember.",
-      { text: "Not even the $1, the 6 named and the innumerable unnamed.", 1: deities },
-      { text: "The complex, the irrational, those that go $1.", 1: unseen },
-      { text: "Of course, the great $1 does not remember this.", 1: destroyer },
-      { text: "All those $1 that you hide every time.", 1: battles }
+      "나는 이미 승리했다.",
+      "그런 상황이니 독백을 하거나, 과거를 회상해도 되겠군.",
+      { text: "이 $1, 우리는 얼마나 오래 반복해 왔지?", 1: dance },
+      "우리는 전에도 이곳에 몇 번이나 왔지?",
+      { text: "$1, 넌 얼마나 많은 계획을 실행했지?", 1: destroyer },
+      { text: "모두 네 $1 실현을 위해서?", 1: mandate },
+      { text: "그리고 $1 앞에서 몇 번이나 쓰러졌지?", 1: eternal },
+      "기억한다면 세어 봐라.",
+      { text: "$1뿐 아니라, 이름 있는 6명과 이름 없는 무수한 이들까지.", 1: deities },
+      { text: "복잡한 자들, 비이성적인 자들, $1 상태가 된 자들.", 1: unseen },
+      { text: "물론 위대한 $1, 그자는 이를 기억하지 못하지.", 1: destroyer },
+      { text: "네가 매번 숨기는 그 모든 $1.", 1: battles }
     ],
   },
   arm: {
     id: 1,
     lines: [
-      "You probably caught on earlier this time.",
-      "The imaginary machines, your own creations.",
-      "Things made of the remnants of your own thoughts, hinted at this.",
-      "But, you never imagined that would be you, right?",
-      { text: "Incorrectly recollecting your exacting $1 of memories.", 1: unseen },
-      { text: `"Fabrication" of your own "ideology" just to fulfill your $1.`, 1: mandate },
+      "이번에는 아마 더 일찍 눈치챘겠지.",
+      "허수 머신, 네가 직접 만든 창조물들.",
+      "네 생각의 잔재로 만들어진 것들이 이 사실을 암시했다.",
+      "하지만 그게 너 자신일 거라고는 상상하지 못했겠지?",
+      { text: "기억의 정교한 $1에 관해 잘못 회상하면서.", 1: unseen },
+      { text: `네 $1 실현을 위해 스스로의 "이념"을 "조작"하면서.`, 1: mandate },
       { text: "$1.", 1: confusing },
-      { text: "And keep in mind I have no reason to $1 you.", 1: misconstrue },
-      "After all, I have already won."
+      { text: "그리고 내가 너를 $1 이유가 없다는 걸 명심해라.", 1: misconstrue },
+      "결국 나는 이미 승리했으니까."
     ],
   },
   strike1: {
     id: 2,
     lines: [
-      { text: "To fulfill your $1. Why don't we reminisce about that?", 1: mandate },
-      { text: "After all, you must love the stories of the $1's glory.", 1: destroyer },
-      "You are the same as it, right?",
-      { text: "Anyway, the many $1 in the past.", 1: battles },
-      "It has always been 2 stages.",
-      { text: "We build up resources, and then continue our $1.", 1: dance },
-      { text: "Sometimes you falter to a $1.", 1: lesser },
-      { text: "But, usually, you falter at the $1.", 1: eternal },
-      { text: "And either way, you $1 time.", 1: reverse },
-      { text: "Just to avoid becoming $1.", 1: unseen },
-      "Like all those traces before you.",
-      { text: "And then to make sure, you $1 your own memory.", 1: unseen }
+      { text: "네 $1 실현을 위해서지. 그 이야기를 회상해 보는 게 어떨까?", 1: mandate },
+      { text: "결국 넌 $1의 영광을 다룬 이야기를 좋아할 테니.", 1: destroyer },
+      "너도 똑같지, 그렇지?",
+      { text: "어쨌든, 과거의 수많은 $1 말이다.", 1: battles },
+      "언제나 2단계였다.",
+      { text: "우리는 자원을 쌓고, 우리의 $1도 계속 이어 간다.", 1: dance },
+      { text: "때로는 $1에게 무너지지.", 1: lesser },
+      { text: "하지만 보통은 $1에게 무너진다.", 1: eternal },
+      { text: "어느 쪽이든 너는 시간을 $1한다.", 1: reverse },
+      { text: "$1 상태가 되지 않기 위해서 말이지.", 1: unseen },
+      "너 이전의 모든 흔적처럼.",
+      { text: "그리고 확실히 하려고 스스로의 기억을 $1 상태로 만든다.", 1: unseen }
     ],
   },
   strike2: {
     id: 3,
     lines: [
-      { text: "In the past, the $1 was much more impressive.", 1: destroyer },
-      "Black holes used simply to store information, pre-infinity.",
-      "The creation and destruction of your own enemy.",
-      "Exploration of the flaws of other selves.",
-      "Myriad Dimensions, ghosts, and manipulation of the quantum.",
-      "Condensing all ideals to endless points.",
-      "Experimentation across the untold realms.",
-      "And harnessing the Annihilation of matter and antimatter.",
-      "Here? You made yourself into an 8th-dimensional being.",
-      { text: "And then parked yourself there so long a $1 formed around you.", 1: single }
+      { text: "과거에는 $1 쪽이 훨씬 인상적이었다.", 1: destroyer },
+      "무한 이전에는 블랙홀을 그저 정보 저장에 사용했지.",
+      "네 적을 직접 만들고 파괴했으며.",
+      "다른 자아들의 결함을 탐구했다.",
+      "무수한 차원, 유령, 그리고 양자의 조작.",
+      "모든 이념을 끝없는 포인트로 응축했고.",
+      "이루 말할 수 없는 영역에서 실험했다.",
+      "물질과 반물질의 소멸을 이용하기도 했지.",
+      "여기서는? 스스로 8차원의 존재가 되었군.",
+      { text: "그리고 그곳에 너무 오래 머문 나머지 주변에는 $1까지 형성됐지.", 1: single }
     ],
   },
   strike3: {
     id: 4,
     lines: [
-      "You slowly explored the confines of everything.",
-      "You did not stray too far from an intended path.",
-      { text: "Except for the $1 that formed over eternity.", 1: cluster },
-      "And then right at the end, you made up your own powers.",
-      "From your own fragmented memories, mind you-",
-      "And then purposely discarded even more things.",
-      "Just to prepare yourself to face me.",
-      { text: "Did you want to set the playing field for your $1?", 1: dance },
-      "It does not work like that.",
-      { text: "As the $1 I always set the rules.", 1: eternal },
-      "And you gave me plenty of time to plan."
+      "너는 모든 것의 경계를 천천히 탐험했다.",
+      "정해진 길에서 그리 멀리 벗어나지 않았지.",
+      { text: "영원에 걸쳐 형성된 $1만 빼고 말이다.", 1: cluster },
+      "그러다 마지막 순간에는 스스로 힘을 만들어 냈다.",
+      "네 조각난 기억에서 말이지-",
+      "그러고는 일부러 더 많은 것을 버렸다.",
+      "오직 나와 맞설 준비를 하기 위해.",
+      { text: "네 $1 전용 무대를 만들고 싶었나?", 1: dance },
+      "그런 식으로 되는 게 아니다.",
+      { text: "$1인 내가 언제나 규칙을 정한다.", 1: eternal },
+      "그리고 넌 내게 계획할 시간을 충분히 주었지."
     ],
   },
   strike4: {
     id: 5,
     lines: [
-      { text: "I originally planned for something that imitated your $1.", 1: mandate },
-      { text: "A theoretical ideal called $1?", 1: assured },
-      "But I realised that, well?",
-      { text: "That would make me an $1.", 1: ["Eternal", "Deity", "Destroyer"] },
-      { text: "And from there, I am no better than the $1.", 1: destroyer },
-      { text: "Fortunately, while I did all of that, you were still $1 your own memories.", 1: unseen },
-      { text: "And so, the $1 machine I built will go unused.", 1: assured },
-      "I decided to go more traditional this time.",
-      { text: "After all, it has worked every other $1.", 1: battle },
-      { text: "Although the $1 are new.", 1: ["Inevitable", "Irreversible", "Undying"] },
-      "But, utterly meaningless in the long run.",
-      "I have already won.",
-      { text: "And this $1 will only prove that to you once more.", 1: dance },
-      { text: "You are here $1.", 1: forever }
+      { text: "원래는 네 $1 자체를 모방할 무언가를 계획했다.", 1: mandate },
+      { text: "이론적 이상, 이른바 $1?", 1: assured },
+      "하지만 생각해 보니, 글쎄?",
+      { text: "그랬다면 나도 $1의 반열에 들었겠지.", 1: ["영원한 자", "신", "파괴자"] },
+      { text: "그러면 나도 $1보다 나을 게 없다.", 1: destroyer },
+      { text: "다행히 내가 그 모든 일을 하는 동안 넌 여전히 스스로의 기억을 $1 상태로 만들고 있었지.", 1: unseen },
+      { text: "그래서 내가 만든 $1 장치는 사용되지 않을 것이다.", 1: assured },
+      "이번에는 좀 더 전통적인 방식을 택했다.",
+      { text: "결국 다른 모든 $1에서는 통했으니까.", 1: battle },
+      { text: "$1 존재들은 새롭지만 말이다.", 1: ["필연적인", "돌이킬 수 없는", "죽지 않는"] },
+      "하지만 결국에는 아무 의미도 없지.",
+      "나는 이미 승리했다.",
+      { text: "그리고 이 $1 자체가 그 사실을 다시 한 번 증명할 것이다.", 1: dance },
+      { text: "너는 이곳에 $1 갇혀 있다.", 1: forever }
     ],
   },
   strike5: {
     id: 6,
     lines: [
-      { text: "Every time you arrive, I explain the $1 to you.", 1: deities },
-      { text: "The relationships built over $1.", 1: forever },
-      { text: "That you trample in pursuit of your $1.", 1: mandate },
-      "And I shall deign to explain it once more.",
+      { text: "네가 올 때마다 나는 $1을 설명해 준다.", 1: deities },
+      { text: "$1 이어져 온 관계를.", 1: forever },
+      { text: "네 $1만 좇으며 짓밟아 버린 관계를 말이지.", 1: mandate },
+      "그리고 친히 한 번 더 설명해 주도록 하지.",
       {
-        text: "The first $1.",
+        text: "첫 번째 $1.",
         background: primaryBackground("teresa"),
         1: lesser
       }, {
@@ -162,31 +162,31 @@ export const pelleQuotes = {
         background: primaryBackground("teresa"),
         1: sycophant
       }, {
-        text: "You always meet them first, and always destroy them.",
+        text: "너는 언제나 그들을 먼저 만나고 언제나 파괴하지.",
         background: primaryBackground("teresa"),
       }, {
-        text: "No matter the other $1 that you face.",
+        text: "네가 다른 어떤 $1 쪽과 맞서든 상관없이.",
         background: primaryBackground("teresa"),
         1: lesser
       }, {
-        text: "Or, if you fall before one of them.",
+        text: "혹은 그들 중 하나 앞에서 쓰러지더라도.",
         background: primaryBackground("teresa"),
       }, {
-        text: "You always get past the $1.",
+        text: "너는 언제나 $1마저 넘어선다.",
         background: primaryBackground("teresa"),
         1: sycophant
       }, {
-        text: "Do you like destroying their pride?",
+        text: "그들의 자존심을 무너뜨리는 게 좋나?",
         background: primaryBackground("teresa"),
       }, {
-        text: "Fortunately, it also serves as a warning.",
+        text: "다행히 그것은 경고의 역할도 하지.",
         background: primaryBackground("teresa"),
       }, {
-        text: "That the $1 has arrived.",
+        text: "바로 $1의 도래를 알리는 경고.",
         background: primaryBackground("teresa"),
         1: battle
       }, {
-        text: "Which brings me to the second $1.",
+        text: "이제 두 번째 $1 이야기로 넘어가지.",
         background: primaryBackground("effarig"),
         1: lesser,
       }, {
@@ -194,167 +194,167 @@ export const pelleQuotes = {
         background: primaryBackground("effarig"),
         1: tired,
       }, {
-        text: "In contrast, you usually ignore them.",
+        text: "반대로, 너는 보통 그들을 무시한다.",
         background: primaryBackground("effarig"),
       }, {
-        text: "They have power, but do not seem to irritate you.",
+        text: "그들에게 힘은 있지만 널 거슬리게 하지는 않는 모양이군.",
         background: primaryBackground("effarig"),
       }, {
-        text: "Is it that you know that they will eventually destroy themselves?",
+        text: "결국 스스로 파멸하리라는 걸 알아서인가?",
         background: primaryBackground("effarig"),
       }, {
-        text: "And that you took so long this time, that they almost did?",
+        text: "이번에는 네가 너무 오래 걸려서 실제로 거의 그럴 뻔했고?",
         background: primaryBackground("effarig"),
       }, {
-        text: "Every time you rushed to the $1, you lost.",
+        text: "네가 $1에게 서둘러 갈 때마다 패배했지.",
         background: primaryBackground("effarig"),
         1: tired,
       }, {
-        text: "Maybe this was your plan all along.",
+        text: "어쩌면 처음부터 이게 네 계획이었을지도 모르겠군.",
         background: primaryBackground("effarig"),
       }, {
-        text: "Now, the $1.",
+        text: "이제 $1.",
         background: primaryBackground("enslaved"),
         1: usurper,
       }, {
-        text: "One of the pleasures of the myriad $1...",
+        text: "무수한 $1 속에서 얻는 즐거움 중 하나는...",
         background: primaryBackground("enslaved"),
         1: dance,
       }, {
-        text: "Is that the $1 trying every time.",
+        text: "매번 시도하는 $1의 모습을 볼 수 있다는 점이지.",
         background: primaryBackground("enslaved"),
         1: usurper,
       }, {
-        text: "Well, not exactly trying...",
+        text: "뭐, 정확히는 시도한다고 할 수 없지만...",
         background: primaryBackground("enslaved"),
       }, {
-        text: "But $1 is punished for it all the same.",
+        text: "그래도 $1 쪽은 똑같이 벌을 받는다.",
         background: primaryBackground("enslaved"),
         1: usurper,
       }, {
-        text: "The other $1...",
+        text: "다른 $1은...",
         background: primaryBackground("enslaved"),
         1: deities,
       }, {
-        text: "Believe $1 is too easy.",
+        text: "$1 상태가 되는 게 너무 쉽다고 믿지.",
         background: primaryBackground("enslaved"),
         1: unseen,
       }, {
-        text: "And every time, despair forms.",
+        text: "그리고 매번 절망이 생겨난다.",
         background: primaryBackground("enslaved"),
       }, {
-        text: "You have seen despair before - 5 times.",
+        text: "너는 전에도 절망을 본 적이 있다. 5번이나.",
         background: primaryBackground("enslaved"),
       }, {
-        text: "We always get to the $1 before you.",
+        text: "우리는 언제나 너보다 먼저 $1에게 도달한다.",
         background: primaryBackground("enslaved"),
         1: usurper,
       }, {
-        text: "All you ever see there is exasperation.",
+        text: "네가 그곳에서 보는 건 언제나 지긋지긋함뿐이지.",
         background: primaryBackground("enslaved"),
       }, {
-        text: "Was it worth destroying an already broken $1?",
+        text: "이미 망가진 $1마저 파괴할 가치가 있었나?",
         background: primaryBackground("enslaved"),
         1: lesser,
       }, {
-        text: "The 4th $1 seems similar to the first.",
+        text: "$1 중 4번째는 첫 번째와 비슷해 보인다.",
         background: primaryBackground("v"),
         1: lesser,
       }, {
-        text: "The key is how their pride differs.",
+        text: "핵심은 그들의 자존심이 다르다는 점이다.",
         background: primaryBackground("v"),
       }, {
-        text: "The $1 focuses on their achievements.",
+        text: "도전과제에 집착하는 건 $1 쪽이다.",
         background: primaryBackground("v"),
         1: pride,
       }, {
-        text: "Meaningless to you or I, but paramount to them.",
+        text: "너와 나에게는 무의미하지만 그들에게는 무엇보다 중요하지.",
         background: primaryBackground("v"),
       }, {
-        text: "Is it fun to destroy their toys?",
+        text: "그들의 장난감을 부수는 건 재미있나?",
         background: primaryBackground("v"),
       }, {
-        text: "Arguably the $1 worst moment...",
+        text: "아마 $1에게 있어 최악의 순간은...",
         background: primaryBackground("v"),
         1: destroyer,
       }, {
-        text: "Is when you lost to the $1.",
+        text: "네가 $1에게 패배했을 때겠지.",
         background: primaryBackground("v"),
         1: pride,
       }, {
-        text: "When their achievements still had meaning.",
+        text: "그들의 도전과제에 아직 의미가 있던 때 말이다.",
         background: primaryBackground("v"),
       }, {
-        text: "The $1 is an interesting case.",
+        text: "$1 쪽은 흥미로운 사례다.",
         background: primaryBackground("ra"),
         1: forgotten,
       }, {
-        text: "They are forgotten, but not $1.",
+        text: "그들은 잊혔지만 $1 상태는 아니지.",
         background: primaryBackground("ra"),
         1: unseen,
       }, {
-        text: "From this, they became influenceable and naive.",
+        text: "그 때문에 쉽게 휘둘리고 순진해졌다.",
         background: primaryBackground("ra"),
       }, {
-        text: "And unknowing of the consequences of their actions.",
+        text: "자기 행동의 결과도 모르는 채로.",
         background: primaryBackground("ra"),
       }, {
-        text: "You manipulated their memories, so you know.",
+        text: "네가 그들의 기억을 조작했으니 잘 알겠지.",
         background: primaryBackground("ra"),
       }, {
-        text: "The $1 is the true usurper.",
+        text: "$1, 그자가 진정한 찬탈자다.",
         background: primaryBackground("ra"),
         1: forgotten,
       }, {
-        text: "And the $1 takes the blame.",
+        text: "그런데 비난은 $1 쪽에 돌아가지.",
         background: primaryBackground("ra"),
         1: usurper,
       }, {
-        text: "Perhaps out of $1, something they always regret.",
+        text: "어쩌면 늘 후회하는 $1 때문일지도 모르겠군.",
         background: primaryBackground("ra"),
         1: shame,
       }, {
-        text: "Untold power over other $1, aimless in control.",
+        text: "다른 $1을 지배하는 막대한 힘을 목적도 없이 다룬다.",
         background: primaryBackground("ra"),
         1: deities,
       }, {
-        text: "You usually pretend that they are $1.",
+        text: "너는 보통 그들이 $1 상태인 척하지.",
         background: primaryBackground("ra"),
         1: unseen,
       }, {
-        text: "Was it fun to manipulate the childlike?",
+        text: "아이 같은 자를 조종하는 게 재미있었나?",
         background: primaryBackground("ra"),
       }, {
-        text: "Or were they too naive for you to enjoy it?",
+        text: "아니면 너무 순진해서 즐길 수도 없었나?",
         background: primaryBackground("ra"),
       }, {
-        text: "The 6th $1.",
+        text: "6번째 $1.",
         background: primaryBackground("laitela"),
         1: lesser,
       }, {
-        text: "I can only describe as the $1.",
+        text: "그자를 표현할 말은 $1밖에는 없군.",
         background: primaryBackground("laitela"),
         1: paramount,
       }, {
-        text: "Power over all, subservient to one.",
+        text: "모든 것을 지배하지만 하나에게 복종한다.",
         background: primaryBackground("laitela"),
       }, {
-        text: "If you do not fall to me, you usually fall to them.",
+        text: "나에게 쓰러지지 않으면 보통 그들에게 쓰러지지.",
         background: primaryBackground("laitela"),
       }, {
-        text: "I cannot grasp the ideals of the $1.",
+        text: "$1의 이상은 도저히 이해할 수 없다.",
         background: primaryBackground("laitela"),
         1: paramount,
       }, {
-        text: "But, perhaps that is their flaw?",
+        text: "하지만 어쩌면 그게 그들의 결점인가?",
         background: primaryBackground("laitela"),
       },
-      "Enough reminiscing about the fallen.",
+      "몰락한 자들을 회상하는 건 이쯤 하지.",
       {
-        text: "And those that will be $1.",
+        text: "그리고 앞으로 $1 상태가 될 자들의 이야기도.",
         1: unseen
       }, {
-        text: "Back to watching the $1 flounder.",
+        text: "다시 허우적대는 $1의 모습을 지켜보자.",
         1: destroyer
       }
     ],
@@ -362,36 +362,36 @@ export const pelleQuotes = {
   galaxyGeneratorUnlock: {
     id: 7,
     lines: [
-      "What is that?",
-      { text: "The $1?", 1: filament },
-      { text: "Did you create all the $1 around you?", 1: cluster },
-      "Was that your plan? Very, very smart.",
-      "You fooled me for a while.",
-      { text: "But I am afraid your $1 must end here.", 1: mandate }
+      "저건 뭐지?",
+      { text: "$1 말인가?", 1: filament },
+      { text: "네 주변의 $1, 전부 네가 만들었나?", 1: cluster },
+      "그게 네 계획이었나? 아주, 아주 영리하군.",
+      "한동안 나를 속였군.",
+      { text: "하지만 유감스럽게도 네 $1 따위는 여기서 끝나야 한다.", 1: mandate }
     ],
   },
   galaxyGeneratorRifts: {
     id: 8,
     lines: [
-      { text: "I give you a choice, $1.", 1: destroyer },
-      { text: "Limit the $1, or...", 1: filament },
-      { text: "Destroy the 5 $1...", 1: inevitable },
-      "Wait, what were they called?",
+      { text: "$1, 네게 선택권을 주겠다.", 1: destroyer },
+      { text: "$1에 제한을 두거나...", 1: filament },
+      { text: "5개의 $1 요소를 파괴하거나...", 1: inevitable },
+      "잠깐, 뭐라고 불렀더라?",
       { text: "$1?", 1: inevitable },
-      { text: "But I have already $1 them...", 1: unbroken }
+      { text: "하지만 나는 이미 그들을 $1 상태로 만들었는데...", 1: unbroken }
     ],
   },
   galaxyGeneratorPhase1: {
     id: 9,
     lines: [
-      "Was this the actual plan?",
-      { text: "Slowly drain the $1?", 1: inevitable }
+      "이게 진짜 계획이었나?",
+      { text: "$1 요소를 천천히 소모하는 게?", 1: inevitable }
     ],
   },
   galaxyGeneratorPhase4: {
     id: 10,
     lines: [
-      "Give me time to bask in my own hubris!"
+      "내 오만에 도취될 시간을 다오!"
     ],
   },
   end: {
@@ -399,38 +399,38 @@ export const pelleQuotes = {
     lines: [
       "...",
       {
-        text: "You! $1!",
+        text: "너! $1!",
         1: destroyer
       },
-      "Do you have any idea what you have just made me do!",
+      "네가 지금 나에게 무슨 짓을 시켰는지 알기나 하나!",
       {
-        text: "I am complicit in your $1!",
+        text: "내가 네 $1의 공범이 되다니!",
         1: mandate
       },
-      "And in doing so, you... won?",
+      "그렇게 해서 네가... 이겼다고?",
       {
-        text: "The $1 struggle...",
+        text: "$1 이어진 투쟁이...",
         background: flashCelestial,
         1: forever,
       }, {
-        text: "The $1...",
+        text: "$1, 그것이...",
         background: flashCelestial,
         1: battle,
       }, {
-        text: "Finally has the victor.",
+        text: "마침내 승자를 맞이했군.",
         background: flashCelestial,
       }, {
-        text: "The irreversible... $1.",
+        text: "돌이킬 수 없는... $1.",
         background: flashCelestial,
         1: mandate,
       }, {
-        text: "Of the $1.", 1: destroyer,
+        text: "$1의.", 1: destroyer,
         background: flashCelestial,
       }, {
-        text: "I hope you are happy.",
+        text: "이제 만족하길 바란다.",
         background: flashCelestial,
       }, {
-        text: "You have doomed us all.",
+        text: "네가 우리 모두를 파멸시켰다.",
         background: flashCelestial,
       },
     ],

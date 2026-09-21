@@ -55,12 +55,12 @@ export default {
       this.isAutoReleasing = player.celestials.enslaved.isAutoReleasing;
     },
     pauseButtonText() {
-      if (BlackHoles.arePaused && player.blackHoleNegative < 1) return "Uninvert BH";
-      if (BlackHoles.arePaused) return "Unpause BH";
+      if (BlackHoles.arePaused && player.blackHoleNegative < 1) return "블랙홀 역전 해제";
+      if (BlackHoles.arePaused) return "블랙홀 재개";
       const accel = BlackHoles.unpauseAccelerationFactor;
-      if (accel !== 1) return `${formatPercents(accel, 1)} speed`;
-      if (player.blackHoleNegative < 1) return "Invert BH";
-      return "Pause BH";
+      if (accel !== 1) return `속도 ${formatPercents(accel, 1)}`;
+      if (player.blackHoleNegative < 1) return "블랙홀 역전";
+      return "블랙홀 일시 정지";
     },
     timeDisplayShort(ms) {
       return timeDisplayShort(ms);

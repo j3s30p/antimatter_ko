@@ -35,7 +35,7 @@ class PelleStrikeState extends BitUpgradeState {
   }
 
   onUnlock() {
-    GameUI.notify.strike(`You encountered a Pelle Strike: ${this.requirement}`);
+    GameUI.notify.strike(`Pelle의 공격이 발생했습니다: ${this.requirement}`);
     player.celestials.pelle.collapsed.rifts = false;
 
     // If it's paradox, reset the records

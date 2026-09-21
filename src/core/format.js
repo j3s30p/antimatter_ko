@@ -210,8 +210,9 @@ window.quantifyInt = function quantifyInt(name, value) {
 window.makeEnumeration = function makeEnumeration(items) {
   if (items.length === 0) return "";
   if (items.length === 1) return items[0];
-  if (items.length === 2) return `${items[0]} and ${items[1]}`;
+  const isKorean = items.some(item => /[가-힣]/u.test(item));
+  if (items.length === 2) return `${items[0]}${isKorean ? " 그리고 " : " and "}${items[1]}`;
   const commaSeparated = items.slice(0, items.length - 1).join(", ");
   const last = items[items.length - 1];
-  return `${commaSeparated}, and ${last}`;
+  return `${commaSeparated}${isKorean ? ", 그리고 " : ", and "}${last}`;
 };

@@ -82,7 +82,7 @@ export default {
         class="c-collapse-icon-clickable"
         @click="toggleCollapse"
       />
-      Galaxy Generator
+      은하 생성기
     </div>
     <div
       v-if="!isCollapsed"
@@ -90,10 +90,10 @@ export default {
     >
       <div v-if="isUnlocked">
         <div>
-          You have a total of
+          은하를 총
           <span class="c-galaxies-amount">{{ galaxyText }}</span>
-          Galaxies.
-          <span class="c-galaxies-amount">+{{ format(galaxiesPerSecond, 2, 1) }}/s</span>
+          보유하고 있습니다.
+          <span class="c-galaxies-amount">+{{ format(galaxiesPerSecond, 2, 1) }}/초</span>
         </div>
         <div>
           <button
@@ -117,20 +117,20 @@ export default {
                 v-if="!sacrificeActive"
                 class="c-big-text"
               >
-                Sacrifice your {{ capRiftName }}
+                {{ capRiftName }} 희생
               </span>
               <span
                 v-else
                 class="c-big-text"
               >
-                Getting rid of all that {{ capRiftName }}...
+                모든 {{ capRiftName }} 제거 중...
               </span>
             </div>
             <div
               v-else
               class="c-increase-cap-text c-medium-text"
             >
-              {{ format(generatedGalaxies, 2) }} / {{ format(cap, 2) }} Galaxies generated
+              생성된 은하: {{ format(generatedGalaxies, 2) }} / {{ format(cap, 2) }}
             </div>
           </button>
         </div>
@@ -148,7 +148,7 @@ export default {
         class="c-generator-unlock-button"
         @click="unlock"
       >
-        Unlock the Galaxy Generator
+        은하 생성기 해금
       </button>
     </div>
   </div>

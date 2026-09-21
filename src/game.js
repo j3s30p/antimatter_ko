@@ -185,8 +185,8 @@ export function ratePerMinute(amount, time) {
 // eslint-disable-next-line max-params
 export function addInfinityTime(time, realTime, ip, infinities) {
   let challenge = "";
-  if (player.challenge.normal.current) challenge = `Normal Challenge ${player.challenge.normal.current}`;
-  if (player.challenge.infinity.current) challenge = `Infinity Challenge ${player.challenge.infinity.current}`;
+  if (player.challenge.normal.current) challenge = `일반 도전 ${player.challenge.normal.current}`;
+  if (player.challenge.infinity.current) challenge = `무한 도전 ${player.challenge.infinity.current}`;
   player.records.recentInfinities.pop();
   player.records.recentInfinities.unshift([time, realTime, ip, infinities, challenge]);
   GameCache.bestRunIPPM.invalidate();
@@ -730,7 +730,7 @@ function laitelaRealityTick(realDiff) {
 
   // Setting entropy to -1 on completion prevents the modal from showing up repeatedly
   if (laitelaInfo.entropy >= 1) {
-    let completionText = `Lai'tela's Reality has been destabilized after ${Time.thisRealityRealTime.toStringShort()}.`;
+    let completionText = `${Time.thisRealityRealTime.toStringShort()} 만에 Lai'tela의 현실을 불안정화했습니다.`;
     laitelaInfo.entropy = -1;
     const oldInfo = {
       fastestCompletion: laitelaInfo.fastestCompletion,
@@ -751,19 +751,19 @@ function laitelaRealityTick(realDiff) {
       }
     }
     if (Laitela.realityReward > oldInfo.realityReward) {
-      completionText += `<br><br>Dark Matter Multiplier: ${formatX(oldInfo.realityReward, 2, 2)}
+      completionText += `<br><br>암흑 물질 배율: ${formatX(oldInfo.realityReward, 2, 2)}
       ➜ ${formatX(Laitela.realityReward, 2, 2)}`;
       if (oldInfo.fastestCompletion === 3600 || oldInfo.fastestCompletion === 300 && oldInfo.difficultyTier > 0) {
         if (Time.thisRealityRealTime.totalSeconds < 30) {
           // First attempt - destabilising
-          completionText += `<br>Best Completion Time: None ➜ Destabilized
-          <br>Highest Active Dimension: ${formatInt(8 - oldInfo.difficultyTier)} ➜
+          completionText += `<br>최단 완료 시간: 없음 ➜ 불안정화
+          <br>활성화된 가장 높은 차원: ${formatInt(8 - oldInfo.difficultyTier)} ➜
           ${formatInt(8 - laitelaInfo.difficultyTier)}`;
         } else {
           // First attempt - not destabilising
-          completionText += `<br>Best Completion Time: None ➜
+          completionText += `<br>최단 완료 시간: 없음 ➜
             ${TimeSpan.fromSeconds(laitelaInfo.fastestCompletion).toStringShort()}
-            <br>Highest Active Dimension: ${formatInt(8 - laitelaInfo.difficultyTier)}`;
+            <br>활성화된 가장 높은 차원: ${formatInt(8 - laitelaInfo.difficultyTier)}`;
         }
       } else if (Time.thisRealityRealTime.totalSeconds < 30) {
         // Second+ attempt - destabilising
@@ -775,7 +775,7 @@ function laitelaRealityTick(realDiff) {
         // Second+ attempt - not destabilising
         completionText += `<br>Best Completion Time: ${TimeSpan.fromSeconds(oldInfo.fastestCompletion).toStringShort()}
         ➜ ${TimeSpan.fromSeconds(laitelaInfo.fastestCompletion).toStringShort()}
-        <br>Highest Active Dimension: ${formatInt(8 - oldInfo.difficultyTier)}`;
+        <br>활성화된 가장 높은 차원: ${formatInt(8 - oldInfo.difficultyTier)}`;
       }
       player.records.bestReality.laitelaSet = Glyphs.copyForRecords(Glyphs.active.filter(g => g !== null));
     } else {
@@ -994,19 +994,18 @@ export function simulateTime(seconds, real, fast) {
         asyncEntry: doneSoFar => {
           GameIntervals.stop();
           ui.$viewModel.modal.progressBar = {
-            label: "Offline Progress Simulation",
-            info: () => `The game is being run at a lower accuracy in order to quickly calculate the resources you
-              gained while you were away. See the How To Play entry on "Offline Progress" for technical details. If
-              you are impatient and want to get back to the game sooner, you can click the "Speed up" button to
-              simulate the rest of the time with half as many ticks (down to a minimum of ${formatInt(500)} ticks
-              remaining). The "SKIP" button will instead use all the remaining offline time in ${formatInt(10)}
-              ticks.`,
-            progressName: "Ticks",
+            label: "오프라인 진행 시뮬레이션",
+            info: () => `자리를 비운 동안 얻은 자원을 빠르게 계산하기 위해 낮은 정확도로 게임을 실행하고 있습니다.
+              기술적인 세부 사항은 게임 방법의 "오프라인 진행" 항목에서 확인할 수 있습니다. 게임으로 더 빨리
+              돌아가고 싶다면 "속도 높이기" 버튼을 눌러 남은 시간을 절반의 틱으로 시뮬레이션할 수 있습니다
+              (남은 틱은 최소 ${formatInt(500)}개). "건너뛰기" 버튼은 남은 오프라인 시간을 ${formatInt(10)}틱으로
+              처리합니다.`,
+            progressName: "틱",
             current: doneSoFar,
             max: ticks,
             startTime: Date.now(),
             buttons: [{
-              text: "Speed up",
+              text: "속도 높이기",
               condition: (current, max) => max - current > 500,
               click: () => {
                 const newRemaining = Math.clampMin(Math.floor(progress.remaining / 2), 500);
@@ -1020,7 +1019,7 @@ export function simulateTime(seconds, real, fast) {
               }
             },
             {
-              text: "SKIP",
+              text: "스킵",
               condition: (current, max) => max - current > 10,
               click: () => {
                 // We jump to 10 from the end (condition guarantees there are at least 10 left).
@@ -1087,7 +1086,7 @@ export function init() {
   console.log("🌌 Antimatter Dimensions: Reality Update 🌌");
   if (DEV) {
     // eslint-disable-next-line no-console
-    console.log("👨‍💻 Development Mode 👩‍💻");
+    console.log("👨‍💻 개발 모드 👩‍💻");
   }
   ElectronRuntime.initialize();
   SteamRuntime.initialize();

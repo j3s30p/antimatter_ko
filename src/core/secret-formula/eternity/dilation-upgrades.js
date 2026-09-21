@@ -30,8 +30,8 @@ export const dilationUpgrades = {
         ? `${formatX(2 * Effects.product(
           SingularityMilestone.dilatedTimeFromSingularities,
           Achievement(187)
-        ), 2, 2)} Dilated Time gain`
-        : "Double Dilated Time gain"),
+        ), 2, 2)} 팽창 시간 획득량`
+        : "팽창 시간 획득량 두 배"),
     effect: bought => {
       const base = 2 * Effects.product(
         SingularityMilestone.dilatedTimeFromSingularities,
@@ -53,8 +53,8 @@ export const dilationUpgrades = {
     increment: 100,
     description: () =>
       (Perk.bypassTGReset.isBought && !Pelle.isDoomed
-        ? "Reset Tachyon Galaxies, but lower their threshold"
-        : "Reset Dilated Time and Tachyon Galaxies, but lower their threshold"),
+        ? "타키온 은하를 초기화하지만 요구 기준을 낮춥니다"
+        : "팽창 시간과 타키온 은하를 초기화하지만 요구 기준을 낮춥니다"),
     // The 38th purchase is at 1e80, and is the last purchase.
     effect: bought => (bought < 38 ? Math.pow(0.8, bought) : 0),
     formatEffect: effect => {
@@ -102,8 +102,8 @@ export const dilationUpgrades = {
           multiplier = ratio.toFixed(2);
         }
       }
-      return `Time Dimensions are affected by Replicanti multiplier ${formatPow(multiplier, 1, 3)}, reduced
-        effect above ${formatX(DC.E9000)}`;
+      return `시간 차원이 ${formatPow(multiplier, 1, 3)}만큼 거듭제곱된 복제자 배율의 영향을 받으며,
+        ${formatX(DC.E9000)} 이상에서는 효과가 감소합니다`;
     },
     effect: () => {
       let rep10 = replicantiMult().pLog10() * 0.1;

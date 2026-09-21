@@ -57,7 +57,11 @@ export default {
       return this.layer.condition();
     },
     plural() {
-      return this.layer.plural;
+      return {
+        Realities: "현실",
+        Eternities: "영원",
+        Infinities: "무한",
+      }[this.layer.plural];
     },
     singular() {
       return this.layer.name;

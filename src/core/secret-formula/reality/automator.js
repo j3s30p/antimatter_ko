@@ -2,11 +2,11 @@ import { automatorTemplates } from "../script-templates";
 
 export const automator = {
   categoryNames: [
-    "Time Studies",
-    "Event Triggers",
-    "Alter Settings",
-    "Information",
-    "Script Flow",
+    "시간 연구",
+    "이벤트 실행",
+    "설정 변경",
+    "정보",
+    "스크립트 흐름",
   ],
   commands: [
     {
@@ -45,12 +45,12 @@ export const automator = {
             {
               header: "<i>selector</i>",
               description: `
-                Finds and loads the specified Time Study preset by its slot number. This is numbered one through six,
-                ordered from left to right.`
+                슬롯 번호로 지정한 시간 연구 프리셋을 찾아 불러옵니다. 슬롯은 왼쪽부터 오른쪽 순서로
+                1부터 6까지 번호가 매겨집니다.`
             },
             {
               header: "<i>name</i>",
-              description: "Finds and loads the specified Time Study preset by its given name. This is case-sensitive."
+              description: "지정한 이름으로 시간 연구 프리셋을 찾아 불러옵니다. 대소문자를 구분합니다."
             },
           ]
         }
@@ -83,12 +83,11 @@ export const automator = {
             {
               header: "<i>study_list</i>",
               description: `
-                The exported Time Study tree format is supported here, which is simply a list of Time Study IDs
-                separated by commas. This command also supports a more flexible formatting, additionally allowing
-                ranges of studies (for example, <u>11-62</u>) and the following aliases:<br>
+                여기에서는 쉼표로 구분한 시간 연구 ID 목록인 시간 연구 트리 내보내기 형식을 지원합니다.
+                이 명령어는 더 유연한 형식도 지원하여 연구 범위(예: <u>11-62</u>)와 다음 별칭을 사용할 수 있습니다:<br>
                 <blockquote><b>antimatter, infinity, time, active, passive, idle, light, dark</b></blockquote>
-                A variable name may be used in place of the entire Time Study list as well (see the definition panel),
-                although in that case the shorthand ranges and aliases are not allowed.`
+                전체 시간 연구 목록 대신 변수 이름을 사용할 수도 있지만(정의 패널 참조), 이 경우에는
+                범위 축약과 별칭을 사용할 수 없습니다.`
             },
           ]
         }
@@ -119,8 +118,8 @@ export const automator = {
             {
               header: "<i>nowait</i>",
               description: `
-                If present, the Automator will move on to the next command instead of repeatedly trying on this
-                command in situations where the prestige is not possible (eg. within an EC below the goal).
+                이 옵션이 있으면 프레스티지가 불가능한 상황(예: 목표에 미달한 영원 도전 내부)에서 이 명령어를
+                반복해서 시도하지 않고 오토메이터가 다음 명령어로 넘어갑니다.
               `
             },
             {
@@ -154,8 +153,8 @@ export const automator = {
             {
               header: "<i>nowait</i>",
               description: `
-                If present, the Automator will move on to the next command even if unlocking the feature fails. By
-                default, the Automator will keep running this command until the unlock succeeds.
+                이 옵션이 있으면 기능 해금에 실패해도 오토메이터가 다음 명령어로 넘어갑니다. 기본적으로
+                오토메이터는 해금에 성공할 때까지 이 명령어를 계속 실행합니다.
               `
             },
           ]
@@ -196,27 +195,27 @@ export const automator = {
         설정을 변경하려 하면 이 명령어는 작동하지 않습니다.</b>`,
       sections: [
         {
-          name: "SETTINGS",
+          name: "설정",
           items: [
             {
               header: "<i>on</i> | <i>off</i>",
-              description: "Turns specified Autobuyer on or off.",
+              description: "지정한 자동구매기를 켜거나 끕니다.",
             },
             {
               header: "<u><i>number</i></u> <u><i>time units</i></u>",
-              description: `Usable with Infinity and Eternity only.
-                Turns the Autobuyer on and set it to trigger at the given interval.`
+              description: `무한과 영원에서만 사용할 수 있습니다.
+                자동구매기를 켜고 지정한 간격마다 실행되도록 설정합니다.`
             },
             {
               header: "<u><i>number</i></u> x highest",
-              description: `Usable with Infinity and Eternity only. Turns the Autobuyer on and sets it to
-                "X times highest" mode.`
+              description: `무한과 영원에서만 사용할 수 있습니다. 자동구매기를 켜고
+                "최고 기록의 X배" 모드로 설정합니다.`
             },
             {
               header: "<i><u>number</u> <u>currency</u></i>",
-              description: `Turns the Autobuyer on and sets it to trigger at a specific amount. The currency must
-                match the autobuyer type (IP, EP, or RM). This will select "Reality Machines" mode for the Reality
-                Autobuyer. Glyph Level mode cannot be changed or set via the Automator, only manually.`,
+              description: `자동구매기를 켜고 지정한 양에서 실행되도록 설정합니다. 화폐는 자동구매기 종류
+                (IP, EP 또는 RM)와 일치해야 합니다. 현실 자동구매기는 "리얼리티 머신" 모드로 설정됩니다.
+                글리프 레벨 모드는 오토메이터로 변경하거나 설정할 수 없으며 수동으로만 바꿀 수 있습니다.`,
             },
           ]
         }
@@ -251,18 +250,18 @@ export const automator = {
       description: `블랙홀이 시간을 저장할지 설정합니다. 저장한 시간을 사용할 수도 있습니다.`,
       sections: [
         {
-          name: "ACTIONS",
+          name: "작업",
           items: [
             {
               header: "<i>on</i> | <i>off</i>",
               description: `
-                Turns storing game time on or off.
+                게임 시간 저장을 켜거나 끕니다.
               `
             },
             {
               header: "<i>use</i>",
               description: `
-                Uses all stored game time. Does not alter the on/off state of time storage.
+                저장한 게임 시간을 모두 사용합니다. 시간 저장의 켜짐/꺼짐 상태는 바꾸지 않습니다.
               `
             }
           ]
@@ -291,7 +290,7 @@ export const automator = {
     {
       id: 10,
       isUnlocked: () => true,
-      keyword: "Adding Comments",
+      keyword: "주석 추가",
       category: 3,
       syntax: "<b>#</b> text<br><b>//</b> text",
       description: `스크립트 안에 자신을 위한 메모를 남길 수 있습니다. 명령어만 나열하는 것보다 읽기 쉽게
@@ -299,24 +298,22 @@ export const automator = {
         스크립트의 단계를 더 쉽게 파악하도록 돕는 도구입니다.`,
       sections: [
         {
-          name: "NOTES",
+          name: "참고",
           items: [
             {
-              header: "<i>Inline comments</i>",
+              header: "<i>인라인 주석</i>",
               description: `
-                The Automator does not support comments which are placed after an already functional
-                line of code, on the same line. As an example, the single line "studies load name TDI // Load push"
-                will be an invalid command. In this case, you will need to move the comment to a separate line
-                in the automator.
+                오토메이터는 정상적인 코드 뒤 같은 줄에 붙인 주석을 지원하지 않습니다. 예를 들어
+                "studies load name TDI // Load push" 한 줄은 유효하지 않은 명령어입니다. 이 경우 주석을
+                오토메이터의 별도 줄로 옮겨야 합니다.
               `
             },
             {
-              header: "<i>Execution speed</i>",
+              header: "<i>실행 속도</i>",
               description: `
-                Having comments will not slow down your script, as they are completely skipped during
-                execution and do not count as a command for the purposes of running. For example, even if you have
-                a really long explanation in the form of comments on lines 20-40, the Automator will still
-                <i>immediately</i> skip from line 19 to 41 during execution.
+                주석은 실행 중 완전히 건너뛰며 명령어로 계산되지 않으므로 스크립트 속도를 늦추지 않습니다.
+                예를 들어 20-40번째 줄에 매우 긴 설명을 주석으로 적어도 오토메이터는 실행 중 19번째 줄에서
+                41번째 줄로 <i>즉시</i> 건너뜁니다.
               `
             },
           ]
@@ -337,29 +334,28 @@ export const automator = {
         PAUSE 명령어를 사용하세요.`,
       sections: [
         {
-          name: "POSSIBLE CONDITIONS",
+          name: "사용 가능한 조건",
           items: [
             {
               header: "<i>comparison</i>",
               description: `
-                Wait until the comparison statement is true. Check the entry for "Formatting Comparisons" for details
-                on how to properly input this option.
+                비교식이 참이 될 때까지 기다립니다. 이 옵션을 올바르게 입력하는 방법은
+                "비교식 형식" 항목을 확인하세요.
               `
             },
             {
               header: "<i>prestige</i>",
               description: `
-                Wait until the specified prestige (Infinity, Eternity, or Reality) has been triggered by its respective
-                Autobuyer. This must happen <i>after</i> this command is reached; if the Autobuyer triggers
-                <i>before</i> the command is reached, your script may get stuck.
+                해당 자동구매기가 지정한 프레스티지(무한, 영원 또는 현실)를 실행할 때까지 기다립니다.
+                이는 이 명령어에 도달한 <i>후</i>에 일어나야 합니다. 명령어에 도달하기 <i>전에</i>
+                자동구매기가 실행되면 스크립트가 멈출 수 있습니다.
               `
             },
             {
               header: "<i>black hole (state)</i>",
               description: `
-                Wait until the Black Hole(s) are in the specified state. Valid inputs for state are
-                "off", "bh1", and "bh2", corresponding to no active Black Hole(s), at least the first Black Hole active,
-                and both Black Holes active.
+                블랙홀이 지정한 상태가 될 때까지 기다립니다. 유효한 상태 입력값은 "off", "bh1", "bh2"이며,
+                각각 활성화된 블랙홀이 없음, 첫 번째 블랙홀 이상이 활성화됨, 두 블랙홀이 모두 활성화됨을 뜻합니다.
               `
             }
           ]
@@ -388,41 +384,39 @@ export const automator = {
       ],
       sections: [
         {
-          name: "INTERVAL FORMATTING",
+          name: "시간 간격 형식",
           items: [
             {
-              header: "<i>Specified Interval</i>",
-              description: `This command accepts time units of milliseconds ("ms"), seconds ("s", "sec", or "seconds"),
-                minutes ("m", "min", or "minutes"), and hours ("h" or "hours"). You cannot provide just a number and
-                nothing else; a unit of time must be specified.`,
+              header: "<i>지정한 시간 간격</i>",
+              description: `이 명령어는 밀리초("ms"), 초("s", "sec" 또는 "seconds"), 분("m", "min" 또는 "minutes"),
+                시간("h" 또는 "hours") 단위를 받습니다. 숫자만 입력할 수는 없으며 시간 단위를 반드시 지정해야 합니다.`,
             },
             {
-              header: "<i>Defined Constant</i>",
-              description: `A defined constant may be used instead, see the definition panel. The defined value will
-                be assumed to be in units of seconds.`
+              header: "<i>정의된 상수</i>",
+              description: `그 대신 정의한 상수를 사용할 수 있습니다. 정의 패널을 확인하세요. 정의한 값의 단위는
+                초로 간주합니다.`
             },
           ]
         },
         {
-          name: "OTHER",
+          name: "기타",
           items: [
             {
-              header: "<i>Offline Side-effects</i>",
-              description: `This command may behave undesirably when it runs during offline progress due to limited
-                tick count. A 1-second pause that is usually 20-30 ticks might be only 1 game tick when processing
-                hours of offline progress, which might not be enough for the resources needed for the rest of the
-                script.`,
+              header: "<i>오프라인 부작용</i>",
+              description: `오프라인 진행 중에는 틱 수가 제한되므로 이 명령어가 의도와 다르게 작동할 수 있습니다.
+                보통 20-30틱인 1초 일시 정지가 수 시간의 오프라인 진행을 처리할 때는 게임 틱 1회뿐일 수 있으며,
+                그러면 스크립트의 나머지 부분에 필요한 자원을 얻기에 부족할 수 있습니다.`,
             },
             {
-              header: "<i>Alternatives</i>",
-              description: `Using another command like 'WAIT' will allow you to set it for a certain resource amount,
-                in order to ensure that the game has the proper state before moving onward.`
+              header: "<i>대안</i>",
+              description: `'WAIT'와 같은 다른 명령어를 사용하면 특정 자원량을 조건으로 설정하여,
+                다음으로 넘어가기 전에 게임이 적절한 상태인지 확인할 수 있습니다.`
             },
             {
-              header: "<i>Manual Skip</i>",
-              description: `You can manually force the Automator to continue execution past a PAUSE command without
-                waiting the entire specified time by stepping forward one line (to put it on the next one) and then
-                resuming execution. If you find yourself doing this regularly, consider modifying your script.`
+              header: "<i>수동 건너뛰기</i>",
+              description: `한 줄 앞으로 이동하여 다음 줄에 놓은 뒤 실행을 재개하면, 지정한 시간을 모두 기다리지 않고
+                오토메이터가 PAUSE 명령어 다음부터 실행하도록 강제할 수 있습니다. 이 작업을 자주 하게 된다면
+                스크립트를 수정하는 것이 좋습니다.`
             }
           ]
         }
@@ -496,16 +490,16 @@ export const automator = {
     {
       id: 17,
       isUnlocked: () => true,
-      keyword: "Currency List",
+      keyword: "화폐 목록",
       category: 4,
-      syntax: "<i>You can use these in any IF, WHILE, UNTIL, or WAIT command</i>",
+      syntax: "<i>모든 IF, WHILE, UNTIL 또는 WAIT 명령어에서 사용할 수 있습니다</i>",
       description: () => {
         const filterText = EffarigUnlock.glyphFilter.isUnlocked
-          ? `<b>filter score</b> - Glyph filter score of the Glyph which your filter will select this Reality<br>`
+          ? `<b>filter score</b> - 이번 현실에서 필터가 선택할 글리프의 글리프 필터 점수<br>`
           : "";
         const stText = V.spaceTheorems > 0
-          ? `<b>space theorems</b> - Current unspent Space Theorem amount<br>
-            <b>total space theorems</b> - TOTAL Space Theorems, including ones spent on current Studies<br>`
+          ? `<b>space theorems</b> - 현재 사용하지 않은 공간 정리의 양<br>
+            <b>total space theorems</b> - 현재 연구에 사용한 양을 포함한 공간 정리의 총량<br>`
           : "";
         return `This is a list of "currencies" or numbers that you can use within the Automator.<br>
           Note that when used, most currencies will need to be in scientific notation.<br>
@@ -540,7 +534,7 @@ export const automator = {
     {
       id: 18,
       isUnlocked: () => true,
-      keyword: "Formatting Comparisons",
+      keyword: "비교식 형식",
       category: 4,
       syntax: "<u>resource1</u> <u>condition</u> <u>resource2</u>",
       description: `
@@ -548,23 +542,22 @@ export const automator = {
         두 값과 비교 연산자로 이루어진 표준 형식을 사용하지만, 전체 형식만 올바르면 값에는 무엇이든 입력할 수 있습니다.`,
       sections: [
         {
-          name: "CONDITIONS",
+          name: "조건",
           items: [
             {
               header: "<i>resource</i>",
               description: `
-                This can be any Automator Currency, a defined constant, or a number which must be formatted in
-                scientific notation (eg. 1000, 1e100, 1.8e308). Unlike more general programming languages, this must
-                be a single value (ie. math expressions such as "ip + pending ip" are not allowed).
+                오토메이터 화폐, 정의한 상수 또는 과학적 표기법으로 나타낸 숫자(예: 1000, 1e100, 1.8e308)를
+                사용할 수 있습니다. 일반적인 프로그래밍 언어와 달리 반드시 단일 값이어야 합니다
+                (즉, "ip + pending ip"와 같은 수식은 허용되지 않음).
               `
             },
             {
               header: "<i>condition</i>",
               description: `
-                This must be an inequality operator (<, <=, >, >=), which takes on its typical mathematical meaning.
-                Equality operators (==, !=) are not allowed, as the nature of the game means that numbers will often
-                never be exactly equal and thus checking based on direct equality may lead to unexpected script
-                behavior.
+                일반적인 수학적 의미의 부등호 연산자(<, <=, >, >=)여야 합니다. 게임 특성상 숫자가 정확히
+                같아지지 않는 경우가 많아 직접 등호를 확인하면 스크립트가 예상치 못하게 작동할 수 있으므로,
+                등호 연산자(==, !=)는 허용되지 않습니다.
               `
             },
           ]
@@ -578,7 +571,7 @@ export const automator = {
     {
       id: 19,
       isUnlocked: () => true,
-      keyword: "Commands with inner blocks",
+      keyword: "내부 블록이 있는 명령어",
       category: 4,
       syntax: `<b>header_command</b> {<br>
         <blockquote>inner_commands</blockquote>
@@ -613,15 +606,15 @@ export const automator = {
   ],
   otherAutomatorPoints: [
     {
-      name: "Reality Count",
+      name: "현실 횟수",
       automatorPoints: () => 2 * Math.clampMax(Currency.realities.value, 50),
-      shortDescription: () => `+${formatInt(2)} per Reality, up to ${formatInt(50)} Realities`,
+      shortDescription: () => `현실마다 +${formatInt(2)}, 최대 ${formatInt(50)}회`,
       symbol: "Ϟ",
     },
     {
-      name: "Black Hole",
+      name: "블랙홀",
       automatorPoints: () => (BlackHole(1).isUnlocked ? 10 : 0),
-      shortDescription: () => `Unlocking gives ${formatInt(10)} AP`,
+      shortDescription: () => `해금 시 AP ${formatInt(10)} 획득`,
       symbol: "<i class='fas fa-circle'></i>",
     },
   ],

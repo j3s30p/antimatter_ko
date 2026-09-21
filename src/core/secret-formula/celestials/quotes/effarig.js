@@ -2,65 +2,65 @@ export const effarigQuotes = {
   initial: {
     id: 0,
     lines: [
-      "Welcome to my humble abode.",
-      "I am Effarig, and I govern Glyphs.",
-      "I am different from Teresa; not as simplistic as you think.",
-      "I use the shards of Glyphs to enforce my will.",
-      "I collect them for the bounty of this realm.",
-      "What are you waiting for? Get started.",
+      "내 소박한 거처에 온 걸 환영해.",
+      "나는 Effarig, 글리프를 관장하지.",
+      "나는 Teresa와는 달라. 네 생각만큼 단순하지 않다고.",
+      "나는 글리프의 파편으로 내 뜻을 관철한다.",
+      "이 영역의 풍요를 위해 그것들을 모으지.",
+      "뭘 기다리는 거지? 시작해.",
     ]
   },
   unlockWeights: {
     id: 1,
     lines: [
-      "Do you like my little shop? It is not much, but it is mine."
+      "내 작은 상점이 마음에 드나? 별것 아니지만, 내 것이지."
     ]
   },
   unlockGlyphFilter: {
     id: 2,
     lines: [
-      "This purchase will help you out."
+      "이 구매가 네게 도움이 될 거야."
     ]
   },
   unlockSetSaves: {
     id: 3,
     lines: [
-      "Is that too much? I think it is too much."
+      "너무 많은가? 내 생각에도 너무 많군."
     ]
   },
   unlockRun: {
     id: 4,
     lines: [
-      "You bought out my entire stock... well, at least I am rich now.",
-      "The heart of my Reality is suffering. Each Layer is harder than the last.",
-      "I hope you never complete it.",
+      "내 재고를 전부 사들였군... 뭐, 적어도 이제 나는 부자가 됐어.",
+      "내 현실의 핵심은 고통이다. 단계가 깊어질수록 더 어려워지지.",
+      "네가 절대 완료하지 못하길 바라지.",
     ]
   },
   completeInfinity: {
     id: 5,
     lines: [
-      { text: "You have completed Effarig's Infinity.", showCelestialName: false },
-      "This is the first threshold. It only gets worse from here.",
-      "None but me know enough about my domain to get further.",
+      { text: "Effarig의 무한을 완료했습니다.", showCelestialName: false },
+      "이게 첫 번째 관문이다. 여기서부터 더 어려워질 뿐이지.",
+      "내 영역을 더 깊이 나아갈 만큼 잘 아는 건 나뿐이다.",
     ]
   },
   completeEternity: {
     id: 6,
     lines: [
-      { text: "You have completed Effarig's Eternity.", showCelestialName: false },
-      "This is the limit. I do not want you to proceed past this point.",
-      "You will not finish this in your lifetime.",
-      "I will just wait here until you give up.",
+      { text: "Effarig의 영원을 완료했습니다.", showCelestialName: false },
+      "여기가 한계다. 이 지점을 넘어 진행하지 않았으면 좋겠군.",
+      "네 평생 안에는 끝내지 못할 거야.",
+      "네가 포기할 때까지 여기서 기다리기만 하면 되겠군.",
     ]
   },
   completeReality: {
     id: 7,
     lines: [
-      { text: "You have completed Effarig's Reality.", showCelestialName: false },
-      "So this is the diabolical power... what frightened the others...",
-      "Do you think this was worth it? Trampling on what I have done?",
-      "And for what purpose? You could have joined, we could have cooperated.",
-      "But no. It is over. Leave while I cling onto what is left.",
+      { text: "Effarig의 현실을 완료했습니다.", showCelestialName: false },
+      "그러니까 이게 그 사악한 힘이군... 다른 이들이 두려워했던...",
+      "이럴 가치가 있었다고 생각하나? 내가 이룬 것을 짓밟으면서까지?",
+      "대체 무엇을 위해서지? 넌 우리와 함께할 수도 있었고, 우린 협력할 수도 있었는데.",
+      "하지만 넌 그러지 않았지. 이제 끝났다. 나는 남은 것에 매달릴 테니 떠나라.",
     ]
   }
 };

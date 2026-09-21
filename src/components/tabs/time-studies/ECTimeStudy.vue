@@ -81,7 +81,7 @@ export default {
       type="studies"
       class="l-hint-text--time-study"
     >
-      EC{{ id }}
+      영원 도전 {{ id }}
     </HintText>
     영원 도전 {{ id }}
     ({{ formatInt(completions) }}<span v-if="showTotalCompletions">/{{ formatInt(5) }}</span>)

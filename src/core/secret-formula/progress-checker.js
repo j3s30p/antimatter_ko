@@ -31,7 +31,7 @@ export const progressStages = [
   },
   {
     id: PROGRESS_STAGE.EARLY_INFINITY,
-    name: "Infinity",
+    name: "무한",
     hasReached: save => new Decimal(save.infinities).gt(0),
     suggestedResource: "무한 포인트",
     // Half from infinity count, half from crunch autobuyer state
@@ -54,7 +54,7 @@ export const progressStages = [
   },
   {
     id: PROGRESS_STAGE.EARLY_ETERNITY,
-    name: "Eternity",
+    name: "영원",
     hasReached: save => new Decimal(save.eternities).gt(0),
     suggestedResource: "이터니티 포인트와 이터니티 횟수",
     subProgressValue: save => new Decimal(save.eternities).clampMax(1e5).toNumber() / 1e5,
@@ -89,7 +89,7 @@ export const progressStages = [
   },
   {
     id: PROGRESS_STAGE.EARLY_REALITY,
-    name: "Reality",
+    name: "현실",
     hasReached: save => save.realities > 0,
     // For the first few realities, we give a bit of extra suggestion just in case the player ended up taking a break
     // and returned in the middle of a reality while they're still relatively slow
@@ -104,59 +104,59 @@ export const progressStages = [
   },
   {
     id: PROGRESS_STAGE.TERESA,
-    name: "Teresa (1st Celestial)",
+    name: "Teresa (첫 번째 셀레스티얼)",
     hasReached: save => save.celestials?.teresa?.quoteBits > 0,
-    suggestedResource: "Reality Machines",
+    suggestedResource: "리얼리티 머신",
     subProgressValue: save => Math.log10(1 + save.celestials.teresa.pouredAmount) / 21,
   },
   {
     id: PROGRESS_STAGE.EFFARIG,
-    name: "Effarig (2nd Celestial)",
+    name: "Effarig (두 번째 셀레스티얼)",
     hasReached: save => save.celestials?.effarig?.quoteBits > 0,
-    suggestedResource: "Reality Machines and Relic Shards",
+    suggestedResource: "리얼리티 머신 및 유물 파편",
     subProgressValue: save => Math.log10(1 + save.celestials.effarig.relicShards) / 14,
   },
   {
     id: PROGRESS_STAGE.ENSLAVED,
-    name: "The Nameless Ones (3rd Celestial)",
+    name: "The Nameless Ones (세 번째 셀레스티얼)",
     hasReached: save => save.celestials?.enslaved?.quoteBits > 0,
-    suggestedResource: "Reality Machines and Glyph Level",
+    suggestedResource: "리얼리티 머신 및 글리프 레벨",
     subProgressValue: save => Math.sqrt((new Decimal(save.reality.realityMachines).log10() - 30) / 30),
   },
   {
     id: PROGRESS_STAGE.V,
-    name: "V (4th Celestial)",
+    name: "V (네 번째 셀레스티얼)",
     hasReached: save => save.celestials?.v?.quoteBits > 0,
-    suggestedResource: "Number of V-Achievements",
+    suggestedResource: "V 도전과제 수",
     subProgressValue: save => 0.0277 * Object.values(save.celestials.v.runUnlocks)
       .reduce((total, ach) => total + ach, 0),
   },
   {
     id: PROGRESS_STAGE.RA,
-    name: "Ra (5th Celestial)",
+    name: "Ra (다섯 번째 셀레스티얼)",
     hasReached: save => save.celestials?.ra?.quoteBits > 0,
-    suggestedResource: "Celestial Memories",
+    suggestedResource: "셀레스티얼 기억",
     subProgressValue: save => Object.values(save.celestials.ra.pets).reduce((sum, pet) => sum + pet.level, 0) / 100,
   },
   {
     id: PROGRESS_STAGE.IMAGINARY_MACHINES,
-    name: "Imaginary Machines",
+    name: "허수 머신",
     hasReached: save => save.reality?.iMCap > 0,
-    suggestedResource: "Imaginary Machines",
+    suggestedResource: "허수 머신",
     subProgressValue: save => Math.log10(1 + save.reality.iMCap) / 9,
   },
   {
     id: PROGRESS_STAGE.LAITELA,
-    name: "Lai'tela (6th Celestial)",
+    name: "Lai'tela (여섯 번째 셀레스티얼)",
     hasReached: save => save.celestials?.laitela?.quoteBits > 0,
-    suggestedResource: "Dark Matter and Singularities",
+    suggestedResource: "암흑 물질 및 특이점",
     subProgressValue: save => new Decimal(save.celestials.laitela.darkMatter).log10() / 308.25,
   },
   {
     id: PROGRESS_STAGE.PELLE,
-    name: "Pelle (7th Celestial)",
+    name: "Pelle (일곱 번째 셀레스티얼)",
     hasReached: save => save.celestials?.pelle?.doomed,
-    suggestedResource: "Remnants",
+    suggestedResource: "잔재",
     subProgressValue: save => Math.log10(1 + save.celestials.pelle.remnants) / 9,
   },
 ];

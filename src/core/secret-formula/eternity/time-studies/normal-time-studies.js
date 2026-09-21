@@ -273,9 +273,8 @@ export const normalTimeStudies = [
     reqType: TS_REQUIREMENT_TYPE.AT_LEAST_ONE,
     requiresST: [122, 123],
     description: () => (Perk.studyActiveEP.isBought
-      ? `You gain ${formatX(50)} more Eternity Points`
-      : `You gain more EP based on how fast your last ten Eternities
-      were${PlayerProgress.realityUnlocked() ? " (real time)" : ""}`),
+      ? `영원 포인트를 ${formatX(50)} 더 얻는다.`
+      : `최근 영원 10회의 속도에 따라 영원 포인트를 더 얻는다${PlayerProgress.realityUnlocked() ? " (실제 시간)" : ""}`),
     effect: () => (Perk.studyActiveEP.isBought
       ? 50
       : Math.clamp(250 / Player.averageRealTimePerEternity, 1, 50)),
@@ -290,8 +289,8 @@ export const normalTimeStudies = [
     reqType: TS_REQUIREMENT_TYPE.AT_LEAST_ONE,
     requiresST: [121, 123],
     description: () => (Perk.studyPassive.isBought
-      ? `You gain ${formatX(50)} more Eternity Points`
-      : `You gain ${formatX(35)} more Eternity Points`),
+      ? `영원 포인트를 ${formatX(50)} 더 얻는다.`
+      : `영원 포인트를 ${formatX(35)} 더 얻는다.`),
     effect: () => (Perk.studyPassive.isBought ? 50 : 35)
   },
   {
@@ -355,8 +354,8 @@ export const normalTimeStudies = [
     reqType: TS_REQUIREMENT_TYPE.AT_LEAST_ONE,
     requiresST: [142, 143],
     description: () => (Perk.studyActiveEP.isBought
-      ? `You gain ${formatX(DC.E45)} more Infinity Points`
-      : "Multiplier to Infinity Points, which decays over this Infinity"),
+      ? `무한 포인트를 ${formatX(DC.E45)} 더 얻는다.`
+      : "현재 무한에서 지낸 시간에 반비례하여 무한 포인트의 획득량을 증폭한다."),
     effect: () => (Perk.studyActiveEP.isBought
       ? DC.E45
       : DC.E45.divide(thisInfinityMult(Time.thisInfinity.totalSeconds)).clampMin(1)),

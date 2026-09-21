@@ -44,7 +44,7 @@ export default {
         link="https://discord.gg/ST9NaXa"
       />
       <InformationModalButton
-        name="Antimatter Dimensions on Google Play"
+        name="Google Play의 Antimatter Dimensions"
         icon="fa-brands fa-google-play"
         link="https://play.google.com/store/apps/details?id=kajfosz.antimatterdimensions"
       />
@@ -54,7 +54,7 @@ export default {
         link="https://apps.apple.com/us/app/antimatter-dimensions/id6738206800"
       />
       <InformationModalButton
-        name="Antimatter Dimensions on Steam"
+        name="Steam의 Antimatter Dimensions"
         icon="fa-brands fa-steam"
         link="https://store.steampowered.com/app/1399720/Antimatter_Dimensions/"
       />

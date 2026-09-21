@@ -54,7 +54,7 @@ export default {
       return `구매 횟수: ${formatInt(this.bought)}회`;
     },
     costUnit() {
-      return `${AntimatterDimension(this.tier - 2).shortDisplayName} AD`;
+      return `${AntimatterDimension(this.tier - 2).shortDisplayName} 반물질 차원`;
     },
     buttonPrefix() {
       if (!this.isUnlocked) return "잠김";

@@ -8,7 +8,7 @@ export const Teresa = {
   lastUnlock: "effarig",
   pouredAmountCap: 1e24,
   displayName: "Teresa",
-  possessiveName: "Teresa's",
+  possessiveName: "Teresa의",
   get isUnlocked() {
     return Achievement(147).isUnlocked;
   },
@@ -100,10 +100,10 @@ class PerkShopUpgradeState extends RebuyableMechanicState {
       if (GameCache.glyphInventorySpace.value === 0) {
         // Refund the perk point if they didn't actually get a glyph
         Currency.perkPoints.add(1);
-        GameUI.notify.error("You have no empty inventory space!");
+        GameUI.notify.error("인벤토리에 빈 공간이 없습니다!");
       } else {
         Glyphs.addToInventory(GlyphGenerator.musicGlyph());
-        GameUI.notify.success("Created a Music Glyph");
+        GameUI.notify.success("음악 글리프를 생성했습니다");
       }
     }
     // Fill the inventory with music glyphs

@@ -345,7 +345,7 @@ export default {
       const formatFn = resource.isBase
         ? x => format(x, 2, 2)
         : x => formatX(x, 2, 2);
-      return `Dilation Effect: Exponent${formatPow(this.dilationExponent, 2, 3)}
+      return `시간 팽창 효과: 지수${formatPow(this.dilationExponent, 2, 3)}
         (${formatFn(beforeMult, 2, 2)} ➜ ${formatFn(afterMult, 2, 2)})`;
     },
     isRecent(date) {
@@ -403,7 +403,7 @@ export default {
         v-if="isEmpty"
         class="c-no-effect"
       >
-        No Active Effects
+        활성 효과 없음
         <br>
         <br>
         {{ disabledText }}

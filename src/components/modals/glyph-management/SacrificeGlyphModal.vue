@@ -43,7 +43,7 @@ export default {
         // the sac will break things so this is the best I could do. - Scar
 
         this.emitClose();
-        Modal.message.show("The selected Glyph changed position or was otherwise changed!");
+        Modal.message.show("선택한 글리프의 위치나 상태가 변경되었습니다!");
       }
     },
     handleYesClick() {
@@ -60,7 +60,7 @@ export default {
     @confirm="handleYesClick"
   >
     <template #header>
-      You are about to sacrifice a Glyph
+      글리프를 희생하려고 합니다
     </template>
     <div class="c-modal-message__text">
       {{ message }}

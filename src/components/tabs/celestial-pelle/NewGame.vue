@@ -22,7 +22,7 @@ export default {
       this.visible = GameEnd.endState > END_STATE_MARKERS.SHOW_NEW_GAME && !GameEnd.removeAdditionalEnd;
       this.opacity = (GameEnd.endState - END_STATE_MARKERS.SHOW_NEW_GAME) * 2;
       this.hasMoreCosmetics = GlyphAppearanceHandler.lockedSets.length > 0;
-      this.selectedSetName = GlyphAppearanceHandler.chosenFromModal?.name ?? "None (will choose randomly)";
+      this.selectedSetName = GlyphAppearanceHandler.chosenFromModal?.name ?? "없음 (무작위 선택)";
     },
     startNewGame() {
       NG.startNewGame();
@@ -43,7 +43,7 @@ export default {
       Reset the entire game, but keep Automator Scripts, Study Presets, Secret Themes, Secret Achievements, Options,
       and Companion Glyph.
     </h2>
-    <h3>You can use the button in the top-right to view the game as it is right now.</h3>
+    <h3>오른쪽 위 버튼을 사용하면 현재 상태의 게임을 볼 수 있습니다.</h3>
     <div class="c-new-game-button-container">
       <button
         class="c-new-game-button"
@@ -61,14 +61,14 @@ export default {
         class="c-new-game-button"
         @click="openSelectionModal"
       >
-        Choose Cosmetic Set
+        장식 세트 선택
       </button>
       <br>
       <br>
-      Selected Set: {{ selectedSetName }}
+      선택한 세트: {{ selectedSetName }}
     </h3>
     <h3 v-else>
-      You have unlocked all Glyph cosmetic sets!
+      모든 글리프 장식 세트를 해금했습니다!
     </h3>
     <br>
     <h3>

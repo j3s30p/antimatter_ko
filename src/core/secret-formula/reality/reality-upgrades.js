@@ -31,7 +31,7 @@ export const realityUpgrades = [
     id: 1,
     initialCost: 1,
     costMult: 30,
-    textTemplate: "You gain Dilated Time {value} times faster",
+    textTemplate: "팽창된 시간을 {value}배 빠르게 획득",
     effect: 3
   }),
   rebuyable({
@@ -39,7 +39,7 @@ export const realityUpgrades = [
     id: 2,
     initialCost: 1,
     costMult: 30,
-    textTemplate: "You gain Replicanti {value} times faster",
+    textTemplate: "복제자를 {value}배 빠르게 획득",
     effect: 3
   }),
   rebuyable({
@@ -47,7 +47,7 @@ export const realityUpgrades = [
     id: 3,
     initialCost: 2,
     costMult: 30,
-    textTemplate: "You gain {value} times more Eternities",
+    textTemplate: "영원 횟수를 {value}배 더 획득",
     effect: 3
   }),
   rebuyable({
@@ -55,7 +55,7 @@ export const realityUpgrades = [
     id: 4,
     initialCost: 2,
     costMult: 30,
-    textTemplate: "You gain {value} times more Tachyon Particles",
+    textTemplate: "타키온 입자를 {value}배 더 획득",
     effect: 3
   }),
   rebuyable({
@@ -63,7 +63,7 @@ export const realityUpgrades = [
     id: 5,
     initialCost: 3,
     costMult: 50,
-    textTemplate: "You gain {value} times more Infinities",
+    textTemplate: "무한 횟수를 {value}배 더 획득",
     effect: 5
   }),
   {
@@ -144,7 +144,7 @@ export const realityUpgrades = [
     bypassLock: () => Currency.infinityPoints.exponent >= 400,
     description: () => `모든 현실을 영원 횟수 ${formatInt(100)}회로 시작 (현재 현실에도 적용)`,
     automatorPoints: 15,
-    shortDescription: () => `Start with ${formatInt(100)} Eternities`,
+    shortDescription: () => `영원 횟수 ${formatInt(100)}회로 시작`,
     effect: () => 100
   },
   {
@@ -156,7 +156,7 @@ export const realityUpgrades = [
     checkEvent: [GAME_EVENT.ETERNITY_RESET_AFTER, GAME_EVENT.REALITY_FIRST_UNLOCKED],
     description: "매초 무한 달성으로 얻을 무한 횟수의 10% 획득",
     automatorPoints: 5,
-    shortDescription: () => `Continuous Infinity generation`,
+    shortDescription: () => `무한 횟수 지속 생산`,
     effect: () => gainedInfinities().times(0.1),
     formatEffect: value => `초당 ${format(value)}`
   },
@@ -189,7 +189,7 @@ export const realityUpgrades = [
     lockEvent: "제4보다 높은 시간 차원 구매",
     description: () => `영원 자동구매기를 개선하고 시간 차원 및 ${formatX(5)} 영원 포인트 자동구매기 해금`,
     automatorPoints: 10,
-    shortDescription: () => `TD and ${formatX(5)} EP Autobuyers, improved Eternity Autobuyer`,
+    shortDescription: () => `시간 차원 및 ${formatX(5)} 영원 포인트 자동구매기, 영원 자동구매기 개선`,
   },
   {
     name: "영원한 흐름",
@@ -200,7 +200,7 @@ export const realityUpgrades = [
     checkEvent: [GAME_EVENT.ETERNITY_RESET_AFTER, GAME_EVENT.REALITY_FIRST_UNLOCKED],
     description: "매초 현실 횟수만큼 영원 횟수 획득",
     automatorPoints: 5,
-    shortDescription: () => `Continuous Eternity generation`,
+    shortDescription: () => `영원 횟수 지속 생산`,
     effect: () => Currency.realities.value * Ra.unlocks.continuousTTBoost.effects.eternity.effectOrDefault(1),
     formatEffect: value => `초당 ${format(value)}`
   },
@@ -297,7 +297,7 @@ export const realityUpgrades = [
     checkEvent: GAME_EVENT.GAME_TICK_AFTER,
     description: "두 번째 블랙홀 해금",
     automatorPoints: 10,
-    shortDescription: () => `Second Black Hole`,
+    shortDescription: () => `두 번째 블랙홀`,
     formatCost: value => format(value, 1, 0)
   },
   {
@@ -360,6 +360,6 @@ export const realityUpgrades = [
     checkEvent: GAME_EVENT.ETERNITY_RESET_AFTER,
     description: "현실 자동구매기 및 오토메이터 명령어 해금",
     automatorPoints: 100,
-    shortDescription: () => `Reality Autobuyer`,
+    shortDescription: () => `현실 자동구매기`,
   },
 ];

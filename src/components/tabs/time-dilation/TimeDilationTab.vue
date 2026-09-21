@@ -116,8 +116,8 @@ export default {
       this.maxDT.copyFrom(player.records.thisReality.maxDT);
 
       const estimateText = getDilationTimeEstimate(this.maxDT);
-      if (this.dilatedTimeIncome.lte(0)) this.toMaxTooltip = "No DT gain";
-      else this.toMaxTooltip = estimateText.startsWith("<") ? "Currently Increasing" : estimateText;
+      if (this.dilatedTimeIncome.lte(0)) this.toMaxTooltip = "팽창된 시간 획득 없음";
+      else this.toMaxTooltip = estimateText.startsWith("<") ? "현재 증가 중" : estimateText;
     }
   }
 };
@@ -128,7 +128,7 @@ export default {
     <span>
       You have
       <span class="c-dilation-tab__tachyons">{{ format(tachyons, 2, 1) }}</span>
-      {{ pluralize("Tachyon Particle", tachyons) }}.
+      {{ pluralize("개", tachyons) }} 보유하고 있습니다.
     </span>
     <div
       @mouseover="isHovering = true"
@@ -139,26 +139,26 @@ export default {
     <span>
       You have
       <span class="c-dilation-tab__dilated-time">{{ format(dilatedTime, 2, 1) }}</span>
-      Dilated Time.
+      보유하고 있습니다.
       <span class="c-dilation-tab__dilated-time-income">{{ dilatedTimeGainText }}/s</span>
     </span>
     <span>
-      Next
+      다음
       <span v-if="tachyonGalaxyGain > 1">{{ formatInt(tachyonGalaxyGain) }}</span>
-      {{ pluralize("Tachyon Galaxy", tachyonGalaxyGain) }} at
+      {{ pluralize("타키온 은하", tachyonGalaxyGain) }} 획득 기준:
       <span
         class="c-dilation-tab__galaxy-threshold"
         :ach-tooltip="galaxyTimeEstimate"
       >{{ format(galaxyThreshold, 2, 1) }}</span>
-      Dilated Time, gained total of
+      팽창된 시간, 총
       <span
         class="c-dilation-tab__galaxies"
         :ach-tooltip="baseGalaxyText"
       >{{ formatInt(totalGalaxies) }}</span>
-      {{ pluralize("Tachyon Galaxy", totalGalaxies) }}
+      {{ pluralize("타키온 은하", totalGalaxies) }} 획득
     </span>
     <span v-if="hasMaxText">
-      Your maximum Dilated Time reached this Reality is
+      이번 현실에서 도달한 최대 팽창된 시간은
       <span
         v-tooltip="toMaxTooltip"
         class="max-accent"
