@@ -1,26 +1,26 @@
 export const eternityMilestones = {
   autobuyerIPMult: {
     eternities: 1,
-    reward: "Unlock the Infinity Point multiplier autobuyer",
+    reward: "무한 포인트 배율 자동 구매기 해금",
     pelleUseless: true
   },
   keepAutobuyers: {
     eternities: 2,
-    reward: "You start Eternity with all Normal Challenges complete, all normal autobuyers, and infinity broken"
+    reward: "모든 일반 도전 완료, 모든 일반 자동 구매기 및 무한 돌파 상태로 영원 시작"
   },
   autobuyerReplicantiGalaxy: {
     eternities: 3,
-    reward: "Unlock the Replicanti Galaxy Autobuyer"
+    reward: "복제자 은하 자동 구매기 해금"
   },
   keepInfinityUpgrades: {
     eternities: 4,
-    reward: "You start Eternity with all Infinity Upgrades",
+    reward: "모든 무한 업그레이드를 보유한 상태로 영원 시작",
     givenByPelle: () => PelleUpgrade.keepInfinityUpgrades.isBought,
     pelleUseless: true
   },
   bigCrunchModes: {
     eternities: 5,
-    reward: "Unlock more Big Crunch Autobuyer options"
+    reward: "빅 크런치 자동 구매기 옵션 추가 해금"
   },
   autoEP: {
     eternities: 6,
@@ -30,160 +30,159 @@ export const eternityMilestones = {
         EternityMilestone.autoEternities.isReached).gt(0);
       const em1000 = getInfinitiedMilestoneReward(TimeSpan.fromHours(1).totalMilliseconds,
         EternityMilestone.autoInfinities.isReached).gt(0);
-      if (!player.options.offlineProgress) return `This milestone would give offline EP generation, but offline progress
-        is currently disabled`;
-      const effectText = (em200 || em1000) ? "Inactive" : `Currently ${format(EPmin, 2, 2)} EP/min`;
-      return `While offline, gain ${formatPercents(0.25)} of your best Eternity Points per minute from previous
-        Eternities (${effectText})`;
+      if (!player.options.offlineProgress) return `오프라인 EP 생산 마일스톤이지만
+        현재 오프라인 진행이 비활성화되어 있습니다`;
+      const effectText = (em200 || em1000) ? "비활성" : `현재 ${format(EPmin, 2, 2)} EP/분`;
+      return `오프라인일 때 이전 영원의 최고 영원 포인트/분 중
+        ${formatPercents(0.25)} 획득 (${effectText})`;
     },
     activeCondition: () => (player.options.offlineProgress
-      ? `Active as long as neither of the other offline milestones
-        (${formatInt(200)} or ${formatInt(1000)}) are also active`
+      ? `다른 오프라인 마일스톤(${formatInt(200)}회 또는 ${formatInt(1000)}회)이
+        모두 비활성 상태일 때 활성화`
       : ""),
   },
   autoIC: {
     eternities: 7,
-    reward: `You complete Infinity Challenges as soon as you unlock them,
-      and keep the Dimensional Sacrifice Autobuyer`,
+    reward: `무한 도전을 해금하는 즉시 완료하며
+      차원 희생 자동 구매기 유지`,
     pelleUseless: true
   },
   keepBreakUpgrades: {
     eternities: 8,
-    reward: "You start Eternity with all Break Infinity Upgrades",
+    reward: "모든 무한 돌파 업그레이드를 보유한 상태로 영원 시작",
     givenByPelle: () => PelleUpgrade.keepBreakInfinityUpgrades.isBought,
     pelleUseless: true
   },
   autobuyMaxGalaxies: {
     eternities: 9,
-    reward: "Unlock the buy max Antimatter Galaxies Autobuyer mode"
+    reward: "반물질 은하 자동 구매기의 최대 구매 모드 해금"
   },
   unlockReplicanti: {
     eternities: 10,
-    reward: "You start with Replicanti unlocked",
+    reward: "복제자가 해금된 상태로 시작",
     givenByPelle: () => PelleUpgrade.replicantiStayUnlocked.isBought,
     pelleUseless: true
   },
   autobuyerID1: {
     eternities: 11,
-    reward: "Unlock the 1st Infinity Dimension Autobuyer",
+    reward: "1차 무한 차원 자동 구매기 해금",
     givenByPelle: () => PelleUpgrade.IDAutobuyers.isBought,
     pelleUseless: true
   },
   autobuyerID2: {
     eternities: 12,
-    reward: "Unlock the 2nd Infinity Dimension Autobuyer",
+    reward: "2차 무한 차원 자동 구매기 해금",
     givenByPelle: () => PelleUpgrade.IDAutobuyers.isBought,
     pelleUseless: true
   },
   autobuyerID3: {
     eternities: 13,
-    reward: "Unlock the 3rd Infinity Dimension Autobuyer",
+    reward: "3차 무한 차원 자동 구매기 해금",
     givenByPelle: () => PelleUpgrade.IDAutobuyers.isBought,
     pelleUseless: true
   },
   autobuyerID4: {
     eternities: 14,
-    reward: "Unlock the 4th Infinity Dimension Autobuyer",
+    reward: "4차 무한 차원 자동 구매기 해금",
     givenByPelle: () => PelleUpgrade.IDAutobuyers.isBought,
     pelleUseless: true
   },
   autobuyerID5: {
     eternities: 15,
-    reward: "Unlock the 5th Infinity Dimension Autobuyer",
+    reward: "5차 무한 차원 자동 구매기 해금",
     givenByPelle: () => PelleUpgrade.IDAutobuyers.isBought,
     pelleUseless: true
   },
   autobuyerID6: {
     eternities: 16,
-    reward: "Unlock the 6th Infinity Dimension Autobuyer",
+    reward: "6차 무한 차원 자동 구매기 해금",
     givenByPelle: () => PelleUpgrade.IDAutobuyers.isBought,
     pelleUseless: true
   },
   autobuyerID7: {
     eternities: 17,
-    reward: "Unlock the 7th Infinity Dimension Autobuyer",
+    reward: "7차 무한 차원 자동 구매기 해금",
     givenByPelle: () => PelleUpgrade.IDAutobuyers.isBought,
     pelleUseless: true
   },
   autobuyerID8: {
     eternities: 18,
-    reward: "Unlock the 8th Infinity Dimension Autobuyer",
+    reward: "8차 무한 차원 자동 구매기 해금",
     givenByPelle: () => PelleUpgrade.IDAutobuyers.isBought,
     pelleUseless: true
   },
   autoUnlockID: {
     eternities: 25,
-    reward: "You automatically unlock Infinity Dimensions upon reaching them"
+    reward: "조건에 도달하면 무한 차원 자동 해금"
   },
   unlockAllND: {
     eternities: 30,
-    reward: "Start with all Antimatter Dimensions available for purchase"
+    reward: "모든 반물질 차원을 구매 가능한 상태로 시작"
   },
   replicantiNoReset: {
     eternities: 40,
-    reward: `Replicanti Galaxies no longer reset Antimatter, Antimatter Dimensions,
-      Tickspeed, Dimensional Sacrifice, or Dimension Boosts`,
+    reward: `복제자 은하가 반물질, 반물질 차원, 틱스피드,
+      차원 희생 및 차원 가속을 더 이상 초기화하지 않음`,
     pelleUseless: true
   },
   autobuyerReplicantiChance: {
     eternities: 50,
-    reward: "Unlock the Replicanti Chance Upgrade Autobuyer",
+    reward: "복제자 확률 업그레이드 자동 구매기 해금",
     givenByPelle: () => PelleUpgrade.replicantiAutobuyers.isBought,
     pelleUseless: true
   },
   autobuyerReplicantiInterval: {
     eternities: 60,
-    reward: "Unlock the Replicanti Interval Upgrade Autobuyer",
+    reward: "복제자 간격 업그레이드 자동 구매기 해금",
     givenByPelle: () => PelleUpgrade.replicantiAutobuyers.isBought,
     pelleUseless: true
   },
   autobuyerReplicantiMaxGalaxies: {
     eternities: 80,
-    reward: "Unlock the Max Replicanti Galaxy Upgrade Autobuyer",
+    reward: "복제자 은하 최대치 업그레이드 자동 구매기 해금",
     givenByPelle: () => PelleUpgrade.replicantiAutobuyers.isBought,
     pelleUseless: true
   },
   autobuyerEternity: {
     eternities: 100,
-    reward: "Unlock autobuyer for Eternities"
+    reward: "영원 자동 구매기 해금"
   },
   autoEternities: {
     eternities: 200,
     reward: () => {
-      if (!player.options.offlineProgress) return `This milestone would generate eternities offline, but offline
-        progress is currently disabled`;
+      if (!player.options.offlineProgress) return `오프라인에서 영원 횟수를 생산하는 마일스톤이지만
+        현재 오프라인 진행이 비활성화되어 있습니다`;
       const eternities = getEternitiedMilestoneReward(TimeSpan.fromHours(1).totalMilliseconds,
         player.eternities.gte(200));
       // As far as I can tell, using templates here as Codefactor wants would lead to nested templates,
       // which seems messy to say the least.
-      const realTime = PlayerProgress.seenAlteredSpeed() ? " real-time" : "";
+      const realTime = PlayerProgress.seenAlteredSpeed() ? " 현실 시간 기준" : "";
       // eslint-disable-next-line prefer-template
-      return `While offline, gain Eternities at ${formatPercents(0.5)} the rate of your fastest${realTime} Eternity ` +
-        (eternities.gt(0) ? `(Currently ${format(eternities, 2, 2)}/hour)` : "(Inactive)");
+      return `오프라인일 때 가장 빠른${realTime} 영원 속도의 ${formatPercents(0.5)}만큼 영원 횟수 획득 ` +
+        (eternities.gt(0) ? `(현재 ${format(eternities, 2, 2)}회/시간)` : "(비활성)");
     },
     activeCondition: () => (player.options.offlineProgress
-      ? `Must be outside of all Challenges and Dilation, and the Eternity Autobuyer must be set to Eternity at zero EP.
-        This milestone's effect is capped at ${formatInt(33)}ms.`
+      ? `모든 도전과 시간 팽창 밖에 있어야 하며, 영원 자동 구매기를 EP 0에서 영원 실행으로 설정해야 합니다.
+        이 마일스톤의 효과는 ${formatInt(33)}ms가 상한입니다.`
       : ""),
-      pelleUseless: true
+    pelleUseless: true
   },
   autoInfinities: {
     eternities: 1000,
     reward: () => {
-      if (!player.options.offlineProgress) return `This milestone would generate infinities offline, but offline
-        progress is currently disabled`;
+      if (!player.options.offlineProgress) return `오프라인에서 무한 횟수를 생산하는 마일스톤이지만
+        현재 오프라인 진행이 비활성화되어 있습니다`;
       const infinities = getInfinitiedMilestoneReward(TimeSpan.fromHours(1).totalMilliseconds,
         player.eternities.gte(1000));
       // eslint-disable-next-line prefer-template
-      return `While offline, gain Infinities equal to ${formatPercents(0.5)}
-        your best Infinities/hour this Eternity ` +
-        (infinities.gt(0) ? `(Currently ${format(infinities, 2, 2)}/hour)` : "(Inactive)");
+      return `오프라인일 때 이번 영원의 최고 무한/시간 중 ${formatPercents(0.5)}만큼 무한 횟수 획득 ` +
+        (infinities.gt(0) ? `(현재 ${format(infinities, 2, 2)}회/시간)` : "(비활성)");
     },
     activeCondition: () => (player.options.offlineProgress
-      ? `Must be outside of Normal/Infinity Challenges and outside of EC4 and EC12,
-        the Big Crunch Autobuyer must be turned on and set to time mode with ${formatInt(5)} seconds or less,
-        and the Eternity Autobuyer must be turned off.`
+      ? `일반/무한 도전 및 영원 도전 4·12 밖에 있어야 하고,
+        빅 크런치 자동 구매기를 켜서 ${formatInt(5)}초 이하의 시간 모드로 설정해야 하며,
+        영원 자동 구매기는 꺼져 있어야 합니다.`
       : ""),
-      pelleUseless: true
+    pelleUseless: true
   }
 };

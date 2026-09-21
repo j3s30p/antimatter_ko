@@ -34,9 +34,9 @@ export default {
 
 <template>
   <div class="l-eternity-milestone-grid">
-    <div>You have {{ quantify("Eternity", eternityCount, 3) }}.</div>
+    <div>영원 횟수: {{ format(eternityCount, 3) }}회</div>
     <div>
-      Offline generation milestones are only active under certain conditions, mouse-over to see these conditions.
+      오프라인 생산 마일스톤은 특정 조건에서만 활성화됩니다. 마우스를 올리면 조건을 볼 수 있습니다.
     </div>
     <div
       v-for="row in rows"
