@@ -8,13 +8,13 @@ import { MultiplierTabIcons } from "./icons";
 export const ID = {
   total: {
     name: dim => {
-      if (dim) return `ID ${dim} Multiplier`;
-      if (EternityChallenge(7).isRunning) return "AD7 Production";
-      return "Infinity Power Production";
+      if (dim) return `제${dim} 무한 차원 배율`;
+      if (EternityChallenge(7).isRunning) return "제7 반물질 차원 생산량";
+      return "무한력 생산량";
     },
     displayOverride: dim => (dim
       ? formatX(InfinityDimension(dim).multiplier, 2)
-      : `${format(InfinityDimension(1).productionPerSecond, 2)}/sec`
+      : `${format(InfinityDimension(1).productionPerSecond, 2)}/초`
     ),
     multValue: dim => (dim
       ? InfinityDimension(dim).multiplier
@@ -36,7 +36,7 @@ export const ID = {
     icon: dim => MultiplierTabIcons.DIMENSION("ID", dim),
   },
   purchase: {
-    name: dim => (dim ? `Purchased ID ${dim}` : "Purchases"),
+    name: dim => (dim ? `구매한 제${dim} 무한 차원` : "구매"),
     multValue: dim => {
       const getMult = id => Decimal.pow(InfinityDimension(id).powerMultiplier,
         Math.floor(InfinityDimension(id).baseAmount / 10));
@@ -50,10 +50,10 @@ export const ID = {
     icon: dim => MultiplierTabIcons.PURCHASE("ID", dim),
   },
   highestDim: {
-    name: () => `Amount of highest Dimension`,
+    name: () => `가장 높은 차원 보유량`,
     displayOverride: () => {
       const dim = MultiplierTabHelper.activeDimCount("ID");
-      return `ID ${dim}, ${format(InfinityDimension(dim).amount, 2)}`;
+      return `제${dim} 무한 차원, ${format(InfinityDimension(dim).amount, 2)}`;
     },
     multValue: () => InfinityDimension(MultiplierTabHelper.activeDimCount("ID")).amount,
     isActive: () => InfinityDimension(1).isProducing,
@@ -61,7 +61,7 @@ export const ID = {
   },
 
   basePurchase: {
-    name: "Base purchases",
+    name: "기본 구매",
     multValue: dim => {
       const getMult = id => {
         const purchases = id === 8
@@ -80,7 +80,7 @@ export const ID = {
     icon: MultiplierTabIcons.PURCHASE("baseID"),
   },
   tesseractPurchase: {
-    name: "Tesseracts",
+    name: "테서랙트",
     multValue: dim => {
       const getMult = id => {
         if (id === 8) return DC.D1;
@@ -98,7 +98,7 @@ export const ID = {
     icon: MultiplierTabIcons.PURCHASE("tesseractID"),
   },
   infinityGlyphSacrifice: {
-    name: "Infinity Glyph sacrifice",
+    name: "무한 글리프 희생",
     multValue: () => (InfinityDimension(8).isProducing
       ? Decimal.pow(GlyphSacrifice.infinity.effectValue, Math.floor(InfinityDimension(8).baseAmount / 10))
       : DC.D1),
@@ -106,33 +106,33 @@ export const ID = {
     icon: MultiplierTabIcons.SACRIFICE("infinity"),
   },
   powPurchase: {
-    name: "Imaginary Upgrade - Recollection of Intrusion",
+    name: "허수 업그레이드 - 침입의 회상",
     powValue: () => ImaginaryUpgrade(14).effectOrDefault(1),
     isActive: () => ImaginaryUpgrade(14).canBeApplied,
     icon: MultiplierTabIcons.UPGRADE("imaginary"),
   },
 
   replicanti: {
-    name: "Replicanti Multiplier",
+    name: "복제자 배율",
     multValue: dim => Decimal.pow(replicantiMult(), dim ? 1 : MultiplierTabHelper.activeDimCount("ID")),
     isActive: () => Replicanti.areUnlocked,
     icon: MultiplierTabIcons.SPECIFIC_GLYPH("replication"),
   },
   achievementMult: {
-    name: "Achievement Multiplier",
+    name: "도전과제 배율",
     multValue: dim => Decimal.pow(Achievements.power, dim ? 1 : MultiplierTabHelper.activeDimCount("ID")),
     isActive: () => Achievement(75).canBeApplied && !Pelle.isDoomed,
     icon: MultiplierTabIcons.ACHIEVEMENT,
   },
   achievement: {
     // Note: This only applies to ID1
-    name: () => "Achievement 94",
+    name: () => "도전과제 94",
     multValue: dim => ((dim ?? 1) === 1 ? Achievement(94).effectOrDefault(1) : 1),
     isActive: () => Achievement(94).canBeApplied,
     icon: MultiplierTabIcons.ACHIEVEMENT,
   },
   timeStudy: {
-    name: dim => (dim ? `Time Studies (ID ${dim})` : "Time Studies"),
+    name: dim => (dim ? `시간 연구 (제${dim} 무한 차원)` : "시간 연구"),
     multValue: dim => {
       const allMult = DC.D1.timesEffectsOf(
         TimeStudy(82),
@@ -147,7 +147,7 @@ export const ID = {
     icon: MultiplierTabIcons.TIME_STUDY,
   },
   eternityUpgrade: {
-    name: "Eternity Upgrades",
+    name: "영원 업그레이드",
     multValue: dim => {
       const allMult = DC.D1.timesEffectsOf(
         EternityUpgrade.idMultEP,
@@ -161,21 +161,21 @@ export const ID = {
   },
 
   eu1: {
-    name: () => "Unspent Eternity Points",
+    name: () => "사용하지 않은 영원 포인트",
     multValue: dim => Decimal.pow(EternityUpgrade.idMultEP.effectOrDefault(1),
       dim ? 1 : MultiplierTabHelper.activeDimCount("ID")),
     isActive: () => EternityUpgrade.idMultEP.canBeApplied,
     icon: MultiplierTabIcons.UPGRADE("eternity"),
   },
   eu2: {
-    name: () => "Eternity Count",
+    name: () => "영원 횟수",
     multValue: dim => Decimal.pow(EternityUpgrade.idMultEternities.effectOrDefault(1),
       dim ? 1 : MultiplierTabHelper.activeDimCount("ID")),
     isActive: () => EternityUpgrade.idMultEternities.canBeApplied,
     icon: MultiplierTabIcons.UPGRADE("eternity"),
   },
   eu3: {
-    name: () => "Infinity Challenge Records",
+    name: () => "무한 도전 기록",
     multValue: dim => Decimal.pow(EternityUpgrade.idMultICRecords.effectOrDefault(1),
       dim ? 1 : MultiplierTabHelper.activeDimCount("ID")),
     isActive: () => EternityUpgrade.idMultICRecords.canBeApplied,
@@ -183,7 +183,7 @@ export const ID = {
   },
 
   infinityChallenge: {
-    name: "Infinity Challenges",
+    name: "무한 도전",
     multValue: dim => {
       const allMult = DC.D1.timesEffectsOf(
         InfinityChallenge(1).reward,
@@ -195,7 +195,7 @@ export const ID = {
     icon: MultiplierTabIcons.CHALLENGE("infinity"),
   },
   eternityChallenge: {
-    name: dim => (dim ? `Eternity Challenges (ID ${dim})` : " Eternity Challenges"),
+    name: dim => (dim ? `영원 도전 (제${dim} 무한 차원)` : "영원 도전"),
     multValue: dim => {
       const allMult = DC.D1.timesEffectsOf(
         EternityChallenge(4).reward,
@@ -213,12 +213,12 @@ export const ID = {
     icon: MultiplierTabIcons.CHALLENGE("eternity"),
   },
   tickspeed: {
-    name: () => "Tickspeed (EC7)",
+    name: () => "틱스피드 (영원 도전 7)",
     displayOverride: () => {
       const tickRate = Tickspeed.perSecond;
       const activeDims = MultiplierTabHelper.activeDimCount("ID");
       const dimString = MultiplierTabHelper.pluralizeDimensions(activeDims);
-      return `${format(tickRate, 2, 2)}/sec on ${formatInt(activeDims)} ${dimString}
+      return `${format(tickRate, 2, 2)}/초, ${formatInt(activeDims)}개 ${dimString}적용
         ➜ ${formatX(tickRate.pow(activeDims), 2, 2)}`;
     },
     multValue: () => Tickspeed.perSecond.pow(8),
@@ -226,14 +226,14 @@ export const ID = {
     icon: MultiplierTabIcons.TICKSPEED,
   },
   glyph: {
-    name: "Glyph Effects",
+    name: "글리프 효과",
     multValue: () => 1,
     powValue: () => getAdjustedGlyphEffect("infinitypow") * getAdjustedGlyphEffect("effarigdimensions"),
     isActive: () => PlayerProgress.realityUnlocked(),
     icon: MultiplierTabIcons.GENERIC_GLYPH,
   },
   alchemy: {
-    name: "Glyph Alchemy",
+    name: "글리프 연금술",
     multValue: dim => Decimal.pow(AlchemyResource.dimensionality.effectOrDefault(1),
       dim ? 1 : MultiplierTabHelper.activeDimCount("ID")),
     powValue: () => AlchemyResource.infinity.effectOrDefault(1) * Ra.momentumValue,
@@ -241,14 +241,14 @@ export const ID = {
     icon: MultiplierTabIcons.ALCHEMY,
   },
   imaginaryUpgrade: {
-    name: "Imaginary Upgrade - Hyperbolic Apeirogon",
+    name: "허수 업그레이드 - 쌍곡 무한각형",
     multValue: dim => Decimal.pow(ImaginaryUpgrade(8).effectOrDefault(1),
       dim ? 1 : MultiplierTabHelper.activeDimCount("ID")),
     isActive: () => ImaginaryUpgrade(8).canBeApplied,
     icon: MultiplierTabIcons.UPGRADE("imaginary"),
   },
   pelle: {
-    name: "Pelle Rift Effects",
+    name: "Pelle 균열 효과",
     multValue: dim => {
       const mult = DC.D1.timesEffectsOf(PelleRifts.recursion.milestones[1]);
       const maxActiveDim = MultiplierTabHelper.activeDimCount("ID");
@@ -263,7 +263,7 @@ export const ID = {
     icon: MultiplierTabIcons.PELLE,
   },
   iap: {
-    name: "Shop Tab Purchases",
+    name: "상점 탭 구매",
     multValue: dim => Decimal.pow(ShopPurchase.allDimPurchases.currentMult,
       dim ? 1 : MultiplierTabHelper.activeDimCount("ID")),
     isActive: () => ShopPurchaseData.totalSTD > 0,
@@ -271,26 +271,26 @@ export const ID = {
   },
 
   powerConversion: {
-    name: "Infinity Power Conversion",
+    name: "무한력 변환",
     powValue: () => InfinityDimensions.powerConversionRate,
     isActive: () => Currency.infinityPower.value.gt(1) && !EternityChallenge(9).isRunning,
     icon: MultiplierTabIcons.IPOW_CONVERSION,
   },
 
   nerfV: {
-    name: "V's Reality",
+    name: "V의 현실",
     powValue: () => 0.5,
     isActive: () => V.isRunning,
     icon: MultiplierTabIcons.GENERIC_V,
   },
   nerfCursed: {
-    name: "Cursed Glyphs",
+    name: "저주받은 글리프",
     powValue: () => getAdjustedGlyphEffect("curseddimensions"),
     isActive: () => getAdjustedGlyphEffect("curseddimensions") !== 1,
     icon: MultiplierTabIcons.SPECIFIC_GLYPH("cursed"),
   },
   nerfPelle: {
-    name: "Doomed Reality",
+    name: "파멸한 현실",
     powValue: 0.5,
     isActive: () => PelleStrikes.powerGalaxies.hasStrike,
     icon: MultiplierTabIcons.PELLE,

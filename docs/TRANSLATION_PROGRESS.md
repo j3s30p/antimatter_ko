@@ -10,17 +10,17 @@ Status values: `not started`, `in progress`, `translated`, `QA complete`.
 | Early Modern UI | in progress | Dimension screen, navigation, sidebar resources, and shared modal controls translated; installed for tester recheck |
 | Early Classic UI | translated | Layout QA remains |
 | Options and common modals | in progress | Gameplay, visual, saving, hotkeys, confirmation, animation, news, info display, notation, visible-tabs, backup UI, and early reset confirmations translated; unlocked late-game option dialogs remain |
-| Statistics and records | in progress | Main statistics, matter scale, challenge records, past prestige runs, multiplier shell, and glyph-set records translated; multiplier entry database remains |
-| Achievements | in progress | Main screen chrome, rows 1-13, and all secret achievement data translated; rows 14-18 remain |
+| Statistics and records | translated | Main statistics, matter scale, challenge records, past prestige runs, multiplier breakdown entries, and glyph-set records translated; layout QA remains |
+| Achievements | translated | Main screen chrome, all normal rows, rewards, and secret achievement data translated; layout QA remains |
 | Challenges | not started | |
 | Infinity systems | translated | Build and residue scan complete; full unlocked-state layout QA remains |
 | Eternity systems | in progress | Core systems and Time Study interface translated; individual Time Study data remains |
 | Dilation systems | not started | |
 | Reality and Glyph systems | not started | |
-| Automator UI and documentation | not started | Commands remain English |
+| Automator UI and documentation | in progress | Most editor UI, transfer screens, templates, errors, and documentation imported; commands remain English intentionally for script compatibility |
 | Celestials and story dialogue | not started | |
 | Help and catch-up documentation | in progress | All initially unlocked H2P articles and initial catch-up content translated; later progression articles and catch-up entries remain |
-| News ticker | in progress | General messages a1-a140 translated except long-form a112/a113; a378 translated; later and conditional news remain |
+| News ticker | in progress | 1,302 previously untouched base-game message properties imported from the reference translation; mixed-language wordplay and a smaller incompatible residue remain |
 | Changelog | not started | Final content batch |
 | Release installer and restoration | not started | Must validate Steam version/hash |
 | Clean-install release QA | not started | Includes update/restore test |
@@ -46,6 +46,11 @@ Update this file whenever a translation batch is committed. An area becomes `QA 
 - Early reset confirmations: Dimensional Sacrifice, Dimension Boost, and Antimatter Galaxy confirmation headers,
   consequences, multipliers, buttons, and confirmation-option labels translated and installed; runtime hash, native
   sidecar count (304), and five responding Electron processes verified.
+- Base-game reference import: reused Korean wording from SameMa's Endgame Korean fork only where the Steam base item
+  exists and its English AST matches the Steam source. This imported 124 wholly compatible translated files, 1,302
+  news properties, 91 normal-achievement properties, and the remaining multiplier-breakdown labels without importing
+  Endgame systems or content. Steam build, absence of an `Endgame Skills` marker, ASAR hash, native sidecar count (304),
+  and five responding Electron processes were verified.
 
 ## Steam packaging note
 

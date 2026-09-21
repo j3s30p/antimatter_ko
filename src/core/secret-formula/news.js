@@ -119,7 +119,7 @@ export const news = [
   },
   {
     id: "a26",
-    text: "#dank-maymays"
+    text: "#dank-maymays (질 낮은 밈을 뜻하는 해시태그)"
   },
   {
     id: "a27",
@@ -576,30 +576,28 @@ export const news = [
   {
     id: "a113",
     text:
-      `So I've pondered this question for a long time. Antimatter Dimensions... what does it mean? I mean it's a
-      game, that's clear. You buy the first dimension, and it gives you antimatter, and the second dimension
-      provides more first dimensions and so on... But what does it mean? It can't just be a game, it seems too
-      plain for that. The developer must have made it as a metaphor. I was doing my weekly ritual of using the
-      fingernail clipper to cut my pubic hair, when finally the realization came to me. The dimensions are just
-      thinly veiled misspellings of the word 'depression'. Regular matter are the cruel and negative thoughts that
-      add to and fuel depression, while antimatter is the positive thoughts and good friends that dispel it. You
-      start off with something simple, and it fights almost imperceptibly against the depression, but as you keep
-      going the fight builds. But it never seems to fix everything. The depression seems like it could go on to
-      infinity. So you keep going. But eventually, you figure out, depression isn't infinite. It's just very very
-      large. But your 'dimensions' eventually, with enough work, make enough 'antimatter' to usurp that seeming
-      infinity of depression. Then the possibilities are endless. You are actually happy for once, and your
-      happiness grows exponentially as you go beyond and seemingly 'break' the 'infinity' of depression. And you
-      go on until that 'infinity' seems tiny in comparison to the happiness you've managed to achieve in your
-      life, where if you reset you get over that infinity in less than the blink of an eye. If you want to know
-      what the multiple layers of prestige are...'Dimensional Shifts' are getting new things and methods to give
-      you happiness. 'Dimension Boosts' are upgrading the things and methods. Examples would be getting a new car
-      being a 'Dimensional Shift' and trading that car in for a new one would be a 'Dimension Boost'. 'Eternities'
-      are major tragedies such as a loved one dying. That lapse brings you straight back to the beginning, with
-      seemingly no hope of return. But with time, you grow back stronger and happier than ever before. 'Dimensional
-      Sacrifice' is moving away. You have to give up a lot of the things you had that made you happy, but there is
-      new opportunity in where you move to. And that new opportunity gives you more happiness than you ever had.
-      'Tickspeed' is how easy it is to make you happy, and 'Time Dimensions' make it even easier to be happy.
-      Antimatter Dimensions is a metaphor for a depressed man's successful battle against his illness.`,
+      `나는 이 질문을 오랫동안 고민했습니다. 반물질 차원... 대체 무슨 뜻일까요? 게임이라는 건
+      분명합니다. 제1차원을 사면 반물질을 주고, 제2차원은 제1차원을 더 만들어 주는 식이죠...
+      하지만 그게 무슨 뜻일까요? 그저 게임이라고 하기에는 너무 단순합니다. 개발자가 은유로 만든 것이
+      분명합니다. 매주 손톱깎이로 음모를 자르는 의식을 치르던 중 마침내 깨달음이 찾아왔습니다.
+      차원이라는 말은 사실 '우울증'이라는 단어의 철자를 살짝 가린 것에 불과합니다. 평범한 물질은 우울증을
+      더하고 부추기는 잔인하고 부정적인 생각이며, 반물질은 그것을 몰아내는 긍정적인 생각과 좋은 친구입니다.
+      처음에는 단순한 것 하나로 시작해 거의 눈에 띄지 않게 우울증과 싸우지만, 계속할수록 싸움은 커집니다.
+      그래도 모든 것이 해결되는 것 같지는 않습니다. 우울증은 무한히 이어질 것처럼 보입니다. 그래서 계속
+      나아갑니다. 그러다 결국 우울증은 무한하지 않다는 것을 깨닫습니다. 그저 아주, 아주 클 뿐입니다.
+      하지만 충분히 노력하면 당신의 '차원'은 마침내 우울증의 그 무한처럼 보이는 크기를 넘어설 만큼 많은
+      '반물질'을 만듭니다. 그러면 가능성은 끝없이 펼쳐집니다. 드디어 진정으로 행복해지고, 우울증의 '무한'을
+      넘어 겉보기에는 그것을 '돌파'하면서 행복은 기하급수적으로 커집니다. 그리고 삶에서 이룬 행복과
+      비교하면 그 '무한'이 아주 작아 보일 때까지 나아갑니다. 재설정해도 눈 깜짝할 사이보다 빠르게 그 무한을
+      넘을 수 있을 정도로요. 여러 프레스티지 단계가 무엇을 뜻하는지 궁금하다면...'차원 전환'은 행복을 주는
+      새로운 물건과 방법을 얻는 것입니다. '차원 가속'은 그 물건과 방법을 개선하는 것입니다. 새 차를 얻는
+      것은 '차원 전환', 그 차를 반납하고 새 차로 바꾸는 것은 '차원 가속'인 셈입니다. '영원'은 사랑하는
+      사람의 죽음과 같은 큰 비극입니다. 그 상실은 돌아갈 희망도 보이지 않는 시작점으로 곧장 되돌립니다.
+      하지만 시간이 지나면 전보다 더 강하고 행복하게 다시 일어섭니다. '차원 희생'은 다른 곳으로 이사하는
+      것입니다. 행복하게 해 주던 많은 것을 포기해야 하지만, 이사한 곳에는 새로운 기회가 있습니다. 그리고
+      그 새로운 기회는 이전보다 더 큰 행복을 줍니다. '틱스피드'는 얼마나 쉽게 행복해질 수 있는지를 뜻하고,
+      '시간 차원'은 행복해지는 일을 한층 더 쉽게 만듭니다. 반물질 차원은 우울증을 앓는 사람이 병과의 싸움에서
+      성공하는 과정을 비유한 것입니다.`,
     get unlocked() { return PlayerProgress.eternityUnlocked(); }
   },
   {
@@ -754,16 +752,16 @@ export const news = [
   {
     id: "a141",
     text:
-      `If each Trimp was a plank volume, and each piece of resource was a plank volume, how many universes would
-      you fill up before you realized you were playing the wrong game?`
+      `각 Trimp와 자원 하나하나의 부피가 판자 하나만 했다면, 잘못된 게임을 하고 있다는 사실을 깨닫기 전에
+      우주를 몇 개나 가득 채우게 될까요?`
   },
   {
     id: "a142",
-    text: "Actually, that last one was incorrect."
+    text: "사실, 바로 전 내용은 틀렸습니다."
   },
   {
     id: "a143",
-    text: "If you're reading this, you can read."
+    text: "이 글을 읽고 있다면 글을 읽을 수 있는 사람입니다."
   },
   {
     id: "a144",
@@ -772,21 +770,21 @@ export const news = [
   {
     id: "a145",
     text:
-      `The game "Matter Dimensions" by Lghtellep has just reached -1,000,000 plays on the gaming website Etagergnok.`
+      `Lghtellep의 게임 "물질 차원"이 게임 사이트 Etagergnok에서 방금 플레이 횟수 -1,000,000회를 달성했습니다.`
   },
   {
     id: "a146",
     text:
-      `How many licks does it take to get to the center of an antimatter tootsie pop? A whole lot, because unless
-      you're made out of antimatter too, you'll explode every time you try to lick it.`
+      `반물질 투시팝의 중심까지 핥으려면 몇 번이나 핥아야 할까요? 엄청나게 많이요. 여러분도 반물질로
+      이루어져 있지 않다면 핥으려고 할 때마다 폭발할 테니까요.`
   },
   {
     id: "a147",
-    text: "They say if you look in a mirror and ping Hevipelle three times in a row you'll instantly die."
+    text: "거울을 보며 Hevipelle를 세 번 연속 호출하면 즉사한다는 이야기가 있습니다."
   },
   {
     id: "a148",
-    text: "The next update is now only 300 minutes away."
+    text: "이제 다음 업데이트까지 단 300분만 남았습니다."
   },
   {
     id: "a149",
@@ -794,54 +792,54 @@ export const news = [
   },
   {
     id: "a150",
-    text: "Game is Dead 1/5 the moderation is terrible."
+    text: "망한 게임 1/5 운영이 형편없습니다."
   },
   {
     id: "a151",
-    text: "This message will never appear on the news ticker, isn't that cool?"
+    text: "이 메시지는 뉴스 티커에 절대 나타나지 않을 겁니다. 멋지지 않나요?"
   },
   {
     id: "a152",
     text:
-      `The first dimension produces antimatter, the second dimension produces the first dimension, the third
-      dimension produces the second dimension, the fourth dimension produces the third dimension. Nobody has
-      ever unlocked the 5th, because that would take more than a minute of gameplay.`
+      `제1차원은 반물질을 생산하고, 제2차원은 제1차원을 생산하며, 제3차원은 제2차원을 생산하고,
+      제4차원은 제3차원을 생산합니다. 플레이 시간이 1분보다 오래 걸리기 때문에 아무도 5번째 차원을
+      해금한 적이 없습니다.`
   },
   {
     id: "a153",
-    text: "My AD-blocker won't let me play."
+    text: "제 AD 차단기가 게임을 플레이하지 못하게 합니다."
   },
   {
     id: "a154",
-    text: "You lost the game."
+    text: "게임에서 졌습니다."
   },
   {
     id: "a155",
-    text: "Did you know that 75% of all statistics are made up on the spot?"
+    text: "모든 통계의 75%는 즉석에서 지어낸다는 사실을 알고 계셨나요?"
   },
   {
     id: "a156",
     text:
-      `If you're using so many logs in a notation name, why not just call it tree notation?
-      They're literally made of logs!`
+      `표기법 이름에 로그를 그렇게 많이 쓸 거라면 그냥 나무 표기법이라고 부르는 건 어떨까요?
+      말 그대로 통나무로 만들어졌잖아요!`
   },
   {
     id: "a157",
     text:
-      `.tuo ti gnitset fo ssecorp eht ni yltnerruc m'I dna ,rettamitna otni
-      rettam trevnoc ot yaw a tuo derugif evah stsitneicS`
+      `.다이중 는하험시 을것그 금지 는나 ,고냈아알 을법방 는꾸바 로질물반
+      을질물 이들자학과`
   },
   {
     id: "a158",
     text:
-      `If Gaben can't count to three, and Hevipelle can't count to nine, will there be some other game developer
-      in the future that can't count to 27?`
+      `Gaben은 셋까지 세지 못하고 Hevipelle는 아홉까지 세지 못한다면, 미래에는 27까지 세지 못하는
+      또 다른 게임 개발자가 나타날까요?`
   },
   {
     id: "a159",
     text:
-      `What does it mean when you "bank" Infinities? Is there a bank somewhere that you just deposit these
-      infinities? Does having a lot of banked Infinities improve your credit score? Do you get a credit card?`,
+      `무한을 "저장"한다는 건 무슨 뜻일까요? 어딘가에 이 무한들을 예금하는 은행이라도 있는 걸까요?
+      저장된 무한이 많으면 신용 점수가 올라갈까요? 신용카드도 받을 수 있을까요?`,
     get unlocked() { return PlayerProgress.eternityUnlocked(); }
   },
   {
@@ -850,50 +848,50 @@ export const news = [
   },
   {
     id: "a161",
-    text: "mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm Oh sorry, wrong text field."
+    text: "음음음음음음음음음음음음음음음음음음음음음음음음음음음음음음음음음음 미안합니다, 잘못된 텍스트 칸이네요."
   },
   {
     id: "a162",
-    text: `"Python's not the best language, Finnish is." - Hevipelle`
+    text: `"최고의 언어는 Python이 아니라 핀란드어야." - Hevipelle`
   },
   {
     id: "a163",
     text:
-      `Some say that most of these news are bad memes. Some say that they're good memes.
-      This one? Well it's just meta news.`
+      `이 뉴스 대부분이 나쁜 밈이라는 사람도 있고 좋은 밈이라는 사람도 있습니다.
+      이건 뭐냐고요? 그냥 메타 뉴스입니다.`
   },
   {
     id: "a164",
-    text: "Look mom, I'm on the news!"
+    text: "엄마, 보세요. 제가 뉴스에 나왔어요!"
   },
   {
     id: "a165",
-    text: "<span style='font-size: 0.2rem'>Shush, I'm trying to be sneaky here.</span>"
+    text: "<span style='font-size: 0.2rem'>쉿, 여기서 몰래 움직이려는 중이에요.</span>"
   },
   {
     id: "a166",
     text:
       `<span style='animation: a-game-header__antimatter--glow 2s infinite'>
-      PLEASE HELP, I'VE CONSUMED TWICE MY DAILY DOSE OF ANTIMATTER!</span>`,
+      도와주세요, 하루 권장량의 두 배나 되는 반물질을 먹었어요!</span>`,
   },
   {
     id: "a167",
     text:
-      `Oh, I appear to have run out of <span style='animation: a-existence-glow 3s
-      infinite; font-size: 1.8rem; color: white; line-height: 0;'>Existence</span>.`,
+      `아, <span style='animation: a-existence-glow 3s
+      infinite; font-size: 1.8rem; color: white; line-height: 0;'>신성</span>이 바닥난 것 같군요.`,
   },
   {
     id: "a168",
     text:
-      "I mean, we may never run out of news articles, but we sure will run out of good ones. Oh wait, we already did."
+      "뉴스 기사가 바닥날 일은 없겠지만 좋은 기사는 분명 바닥날 겁니다. 잠깐, 이미 바닥났군요."
   },
   {
     id: "a169",
-    text: "TODO: John, please remove this news message before we release the Reality update to the public."
+    text: "TODO: John, 현실 업데이트를 공개하기 전에 이 뉴스 메시지를 삭제해 주세요."
   },
   {
     id: "a170",
-    text: "<a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ' target='_blank'>This link is not a rick roll.</a>"
+    text: "<a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ' target='_blank'>이 링크는 릭롤이 아닙니다.</a>"
   },
   {
     id: "a171",
@@ -902,14 +900,14 @@ export const news = [
   {
     id: "a172",
     text:
-      `If you notice any issues with a news ticker message, please report them on the
-      <a href='https://discord.gg/ST9NaXa' target='_blank'>Discord</a> by clicking that link right there.`
+      `뉴스 티커 메시지에 문제가 있다면 바로 저 링크를 클릭해
+      <a href='https://discord.gg/ST9NaXa' target='_blank'>Discord</a>에서 신고해 주세요.`
   },
   {
     id: "a173",
     text:
-      `<span style='animation: a-game-header__antimatter--glow 3s infinite'>This
-      text is made of antimatter. Do not touch or else the universe will collapse.</span>`,
+      `<span style='animation: a-game-header__antimatter--glow 3s infinite'>이 글자는
+      반물질로 만들어졌습니다. 만지면 우주가 붕괴하니 손대지 마세요.</span>`,
     onClick: () => bigCrunchAnimation(),
   },
   {
@@ -917,78 +915,76 @@ export const news = [
     text:
       `<span style='font-family: runescape; color: yellow; text-shadow: 0.1rem 0.1rem black; letter-spacing: 0.1rem;
       font-size: 2rem; line-height: 0; animation: a-text-flash 1s steps(1, end) infinite;'
-      >FREE RUNE ARMOR TRIMMING</span>`,
+      >무료 룬 방어구 장식</span>`,
   },
   {
     id: "a175",
     text:
-      `Numbers glow bright on the monitor, not a proton to be seen... a kingdom of antimatter, and it looks like
-      I'm the queen. With dimboosts powering up this ever rising tide -- can't stop clicking, heaven knows I've
-      tried. Do not give in, push for that galaxy, buy 10, buy max, just mash down on that key, sacrifice dim 8
-      and watch it grow.... and overflow! Let it grow, let it grow, can't hold it back any more... Let it grow,
-      let it grow, can't fit into 8 bytes any more. I don't care if it takes all day -- big crunch is just the
-      start anyway.`
+      `모니터 위 숫자가 밝게 빛나고 양성자는 하나도 보이지 않네... 반물질의 왕국, 내가 여왕인 것 같아.
+      차원 가속이 계속 차오르는 물결을 더 강하게 하지. 클릭을 멈출 수 없어, 하늘도 내가 노력한 걸 알아.
+      포기하지 말고 그 은하를 향해 나아가, 10개 구매, 최대 구매, 그 키를 마구 눌러. 8차원을 희생하고
+      커지는 걸 지켜봐... 넘쳐흐를 때까지! 키워 봐, 키워 봐, 이제 더는 막을 수 없어... 키워 봐,
+      키워 봐, 이제 8바이트에는 담을 수 없어. 온종일 걸려도 상관없어. 빅 크런치는 어차피 시작일 뿐이야.`
   },
   {
     id: "a176",
-    text: "I've been using emoji notation so long that I can actually read it now, please send help."
+    text: "이모지 표기법을 너무 오래 썼더니 이제 정말로 읽을 수 있게 됐습니다. 도와주세요."
   },
   {
     id: "a177",
     text:
-      `Once you have <span style='color: black; background: black;'>REDACTED</span> <span style='color: black;
-      background: black;'>REDACTED</span>, you can unlock <span style='color: black; background: black;'>
-      REDACTED</span>. Every <span style='color: black; background: black;'>REDACTED</span>, for each <span
-      style='color: black; background: black;'>REDACTED</span>, there is a <span style='color: black; background:
-      black;'>REDACTED</span> for it to <span style='color: black; background: black;'>REDACTED</span>. You can
-      boost the <span style='color: black; background: black;'>REDACTED</span> and <span style='color: black;
-      background: black;'>REDACTED</span> by spending some <span style='color: black; background: black;'>REDACTED
-      </span>. Also, there is another upgrade that allow you to get <span style='color: black; background: black;'>
-      REDACTED</span> <span style='color: black; background: black;'>REDACTED</span>. The way <span style='color:
-      black; background: black;'>REDACTED</span> <span style='color: black; background: black;'>REDACTED</span>
-      work is that when you reach <span style='color: black; background: black;'>REDACTED</span> <span style=
-      'color: black; background: black;'>REDACTED</span>, you can <span style='color: black; background: black;'>
-      REDACTED</span> the amount of <span style='color: black; background: black;'>REDACTED</span> in exchange for
-      a <span style='color: black; background: black;'>REDACTED</span> <span style='color: black; background:
-      black;'>REDACTED</span>. These work just like <span style='color: black; background: black;'>REDACTED</span>,
-      improving <span style='color: black; background: black;'>REDACTED</span>.`
+      `<span style='color: black; background: black;'>검열됨</span> <span style='color: black;
+      background: black;'>검열됨</span>을 보유하면 <span style='color: black; background: black;'>
+      검열됨</span>을 해금할 수 있습니다. 각 <span style='color: black; background: black;'>검열됨</span>마다
+      각각의 <span style='color: black; background: black;'>검열됨</span>에는 그것이 <span style='color: black;
+      background: black;'>검열됨</span>할 <span style='color: black; background: black;'>검열됨</span>이
+      있습니다. <span style='color: black; background: black;'>검열됨</span>을 사용해 <span style='color: black;
+      background: black;'>검열됨</span>과 <span style='color: black; background: black;'>검열됨</span>을
+      강화할 수 있습니다. 또한 <span style='color: black; background: black;'>검열됨</span> <span style='color:
+      black; background: black;'>검열됨</span>을 얻을 수 있게 하는 또 다른 업그레이드가 있습니다.
+      <span style='color: black; background: black;'>검열됨</span> <span style='color: black; background: black;'>
+      검열됨</span>은 다음과 같이 작동합니다. <span style='color: black; background: black;'>검열됨</span>
+      <span style='color: black; background: black;'>검열됨</span>에 도달하면 <span style='color: black;
+      background: black;'>검열됨</span> <span style='color: black; background: black;'>검열됨</span>을 받는
+      대신 <span style='color: black; background: black;'>검열됨</span>의 양을 <span style='color: black;
+      background: black;'>검열됨</span>할 수 있습니다. 이는 <span style='color: black; background: black;'>
+      검열됨</span>처럼 작동하여 <span style='color: black; background: black;'>검열됨</span>을 향상합니다.`
   },
   {
     id: "a178",
     text:
-      `WARNING: Use of Antimatter Dimensions may result in Tuberculosis, HIV/AIDS, sudden belief that the 9th
-      dimension is real, spontaneous implosion, Polio, Measles, existential dread, incurable insanity or <span
-      style='color: black; background: black;'>REDACTED</span>. Please contact your insurance to see if you are
-      covered. By continuing you absolve Antimatter Dimensions of blame should any of the above mentioned, or those
-      that have not been mentioned yet, occur to you. Antimatter Dimensions reserves the right to alter this at any
-      time, with or without warning.`
+      `경고: 반물질 차원을 사용하면 결핵, HIV/AIDS, 9번째 차원이 실재한다는 갑작스러운 믿음, 자연 내파,
+      소아마비, 홍역, 실존적 공포, 불치의 광기 또는 <span style='color: black; background: black;'>검열됨</span>이
+      발생할 수 있습니다. 보험이 적용되는지는 보험사에 문의하세요. 계속 진행하면 위에 언급됐거나 아직
+      언급되지 않은 일이 발생하더라도 반물질 차원에 책임을 묻지 않는 데 동의하는 것입니다. 반물질 차원은
+      경고 여부와 관계없이 언제든 이 내용을 변경할 권리를 보유합니다.`
   },
   {
     id: "a179",
-    text: "Robot: Activated. Sapience: Achieved. World: Ready to be conquered. Begin: Procrastination."
+    text: "로봇: 활성화됨. 지성: 획득함. 세계: 정복 준비 완료. 시작: 미루기."
   },
   {
     id: "a180",
     text:
-      `We ran out of news. Luckily we have some backup news that we can run for 5 hours, which will earn us enough
-      for us to buy a new set of '5-hour high-quality news'. Sorry for the inconvenience.`
+      `뉴스가 바닥났습니다. 다행히 5시간 동안 내보낼 예비 뉴스가 있고, 그동안 번 돈이면 새로운
+      '5시간짜리 고품질 뉴스' 묶음을 살 수 있습니다. 불편을 드려 죄송합니다.`
   },
   {
     id: "a181",
-    text: "This news broadcast is powered by break_news.js."
+    text: "이 뉴스 방송은 break_news.js로 구동됩니다."
   },
   {
     id: "a182",
     text:
-      `With the final update, Antimatter Dimensions has been finished. Thank you for playing. However, in the very
-      near future, ANTIMATTER DIMENSIONS will be released. And before you ask, it's not a sequel, it's a reboot.
-      Look forward to it in 5 hours!`
+      `최종 업데이트와 함께 반물질 차원이 완성됐습니다. 플레이해 주셔서 감사합니다. 하지만 아주 가까운
+      미래에 반물질 차원이 출시됩니다. 미리 말씀드리자면 후속작이 아니라 리부트입니다.
+      5시간 뒤를 기대해 주세요!`
   },
   {
     id: "a183",
     text:
-      `In other unrelated news, we're getting reports that approximately 1.79 people are angry that lightning
-      is striking their Christmas tree at night.`
+      `그 밖의 관련 없는 소식입니다. 밤마다 번개가 크리스마스트리를 내리쳐 약 1.79명이 분노했다는
+      보고가 들어오고 있습니다.`
   },
   {
     id: "a184",
@@ -1005,12 +1001,12 @@ export const news = [
   {
     id: "a185",
     text:
-      `We aren't back with your favorite segment, "Tweets From The Fans"! Today we haven't got a message from
-      @mattertruthwakeup saying "How can you people broadcast your ridiculous LIES and still sleep at night.
-      You claim absurd things, like "antimatter is real" and "antimatter people aren't people too", this
-      antimatter propaganda HAS TO STOP NOW!!! You people need to WAKE UP and realize that you are HURTING ALL
-      MATTER with your crazy talk!!". What a nice positive sentiment from that lovely fellow. This hasn't been
-      John from the ANN, and I won't be seeing you tomorrow!`
+      `여러분이 가장 좋아하지 않는 코너, "팬들의 트윗"으로 돌아오지 않았습니다! 오늘은
+      @mattertruthwakeup에게서 "어떻게 그런 터무니없는 거짓말을 방송하고도 밤에 잠이 오죠? '반물질은
+      실재한다', '반물질 사람도 사람이다' 같은 황당한 주장을 하다니, 이 반물질 선전은 당장 멈춰야 합니다!!!
+      정신 차리고 당신들의 헛소리가 모든 물질에 해를 끼친다는 걸 깨달으세요!!"라는 메시지를 받지
+      않았습니다. 참 사랑스러운 분의 긍정적이고 멋진 생각이군요. 지금까지 ANN의 John이 아니었으며,
+      내일도 만나지 않겠습니다!`
   },
   {
     id: "a186",
@@ -1022,25 +1018,25 @@ export const news = [
   },
   {
     id: "a187",
-    text: "𝓒𝓮𝓬𝓲 𝓷'𝓮𝓼𝓽 𝓹𝓪𝓼 𝓾𝓷 𝓶𝓮𝓼𝓼𝓪𝓰𝓮 𝓭𝓮 𝓷𝓸𝓾𝓿𝓮𝓵𝓵𝓮𝓼 🚬"
+    text: "이것은 뉴스 메시지가 아닙니다 🚬"
   },
   {
     id: "a188",
-    text: "-. . ...- . .-. / --. --- -. -. .- / --. .. ...- . / -.-- --- ..- / ..- .--."
+    text: "-. . ...- . .-. / --. --- -. -. .- / --. .. ...- . / -.-- --- ..- / ..- .--. (절대 포기하지 않겠다는 노랫말의 모스 부호)"
   },
   {
     id: "a189",
     text:
-      `Behind every man or woman stands, eventually, due to the earth being round, that exact same man or woman,
-      looking over their shoulder, stealing their own ideas.`
+      `지구는 둥글기 때문에 모든 남자나 여자의 뒤에는 결국 바로 그 남자나 여자가 서서 어깨너머로
+      자기 생각을 훔쳐보고 있습니다.`
   },
   {
     id: "a190",
-    text: "Shame. Shame. Shame. 🔔"
+    text: "수치다. 수치다. 수치다. 🔔"
   },
   {
     id: "a191",
-    text: "Okay Google, Big Crunch"
+    text: "오케이 Google, 빅 크런치"
   },
   {
     id: "a192",
@@ -1052,23 +1048,23 @@ export const news = [
   {
     id: "a193",
     text:
-      `Good morning viewers, this is Josh, and I'm your ANN host for today. Speaking of today, I'm told we've got
-      some really exciting news for you today, so let's just jump right into it. Looks like apparently somebody
-      was <i>not<i> nice today, and got an "Antimatter-storm", whatever that means... Guys is this the right
-      script? This is just nonsensical. It is? Alright... Next up we learn that "Nothing is created, nothing is
-      destroyed."... Okay seriously guys, this is a joke right? This isn't news, these are just random sentences!
-      You all said you'd help me out on my first day here but you're just hazing me! This is <i>not</i> the kind of
-      work environment I want to be in! I quit!`
+      `좋은 아침입니다, 시청자 여러분. 저는 Josh이고 오늘 ANN의 진행을 맡았습니다. 오늘 이야기가 나와서
+      말인데, 정말 흥미로운 소식이 있다고 하니 바로 시작하겠습니다. 오늘 누군가가 <i>착하게 굴지 않아<i>
+      "반물질 폭풍"을 맞았다는데, 그게 무슨 뜻인지는 모르겠군요... 여러분, 이 대본이 맞나요? 전혀 말이
+      안 되잖아요. 맞다고요? 알겠습니다... 다음 소식은 "아무것도 창조되지 않고, 아무것도 파괴되지 않는다."
+      입니다... 여러분, 진심으로 이거 농담이죠? 이건 뉴스가 아니라 무작위 문장 모음이잖아요! 다들 제
+      첫 출근을 도와준다고 해 놓고 신고식이나 시키고 있군요! 저는 이런 <i>근무 환경을 원하지 않았습니다</i>!
+      그만두겠습니다!`
   },
   {
     id: "a195",
     text:
-      `Clowns are unique in that there is no such thing as an anti-clown,
-      it's just another clown. Clowns are their own opposite.`
+      `광대는 반광대라는 것이 따로 존재하지 않고 그저 또 다른 광대일 뿐이라는 점에서 독특합니다.
+      광대는 자기 자신의 반대입니다.`
   },
   {
     id: "a196",
-    text: "Disco Time! (click me!)",
+    text: "디스코 타임! (클릭하세요!)",
     onClick() {
       let random = Math.random();
       // Golden ratio
@@ -1082,105 +1078,103 @@ export const news = [
   },
   {
     id: "a197",
-    text: "In order to reach Reality in half an R press, we have to first talk about parallel dimensions."
+    text: "R 키를 반 번 눌러 현실에 도달하려면 먼저 평행 차원부터 이야기해야 합니다."
   },
   {
     id: "a198",
     text:
-      `Hey there! Just to let you know, there a speck of dust on your screen. Can you help wipe it off?
-      It bothers me when l'm not clean. Thanks a lot!`
+      `안녕하세요! 화면에 먼지 한 점이 있다는 것만 알려 드릴게요. 닦아 주시겠어요?
+      깨끗하지 않으면 신경 쓰이거든요. 정말 고마워요!`
   },
   {
     id: "a199",
-    text: "The real update is the friends we made along the way."
+    text: "진짜 업데이트는 그동안 사귄 친구들이었습니다."
   },
   {
     id: "a200",
     text:
-      `This former message has been revealed to be a duplicate of another message and has thus been removed.
-      We apologize for the inconvenience.`
+      `이전 메시지는 다른 메시지와 중복되는 것으로 밝혀져 삭제되었습니다.
+      불편을 드려 죄송합니다.`
   },
   {
     id: "a201",
-    text: "No wait stop don't click that hide news ticker button!"
+    text: "아니, 잠깐, 멈춰요. 뉴스 티커 숨기기 버튼을 누르지 마세요!"
   },
   {
     id: "a202",
     text:
-      `This is so sad. Alexa, please play a sad song so I can relate to its emotional mood, as I currently have poor
-      mental health and listen to music like this so I can feel bad about myself. I realize this is unhealthy, but
-      you are a robot incapable of sentient thought, so you're unable to make a choice to avoid contributing to my
-      self destructive behavior, and you'll play a sad song anyway.
-      <i>Now playing "Despacito" by "Luis Fonsi".</i>`
+      `정말 슬프군요. Alexa, 슬픈 노래를 틀어 줘. 지금 정신 건강이 좋지 않아 이런 음악을 들으며 스스로를
+      더 나쁘게 느끼고 있으니 그 감정적 분위기에 공감할 수 있도록 말이야. 건강하지 않은 행동이라는 건
+      알지만 너는 지각 있는 사고를 할 수 없는 로봇이라 내 자기 파괴적 행동에 일조하지 않겠다는 선택도
+      할 수 없고, 어차피 슬픈 노래를 틀어 주겠지.
+      <i>"Luis Fonsi"의 "Despacito"를 재생합니다.</i>`
   },
   {
     id: "a203",
     text:
-      `3/4 of the news messages are fake and gotten off of the discord server without permission or credit given
-      to the original writer - anonymous discord server member`
+      `뉴스 메시지의 3/4은 가짜이며 원작자의 허락도 받지 않고 출처도 밝히지 않은 채 Discord 서버에서
+      가져온 것입니다 - 익명의 Discord 서버 구성원`
   },
   {
     id: "a204",
-    text: "What kind of tea is hard to swallow? Reali-tea."
+    text: "어떤 차(tea)가 삼키기 힘들까요? 현실차(reali-tea)입니다."
   },
   {
     id: "a205",
-    text: "Shoutouts to Simpleflips."
+    text: "Simpleflips에게 찬사를 보냅니다."
   },
   {
     id: "a206",
     text:
-      `I visited the discord server of the game to have some friendly chat. At that point I got trolled by
-      the user called Cubic Frog.`
+      `친근하게 대화를 나누려고 게임의 Discord 서버를 방문했습니다. 그러다 Cubic Frog라는
+      사용자에게 낚였습니다.`
   },
   {
     id: "a207",
     text:
-      `Hello, this is Josh, with today's forecast for your galaxy. We'll be hitting temperatures in the low
-      e10s today, and by this afternoon, it'll be cloudy with a chance of antimatter.`
+      `안녕하세요, Josh가 여러분의 은하에 오늘의 일기예보를 전해 드립니다. 오늘 기온은 e10 초반까지
+      오르겠으며, 오후에는 구름이 끼고 반물질이 내릴 가능성이 있습니다.`
   },
   {
     id: "a208",
     text:
-      `Hi, I'm Steve, and I'm also Steve. Our greatest responsibility is to serve our antimatter communities.
-      We are extremely proud of the quantity, unbalanced journalism that ANN news produces. But we're
-      concerned about the troubling trend of responsible, two-sided news stories plaguing the antimatter
-      universe. The sharing of unbiased and true news has become all too common on social media. More
-      alarmingly, some media outlets publish these same true stories, stories that aren't just propaganda,
-      without checking government talking points first. Unfortunately, some members of the media use their
-      platforms to push a logically sound opinion and unbiased agenda to diversify 'exactly what antimatter
-      thinks'. This is extremely dangerous to our dictatorship. At ANN it's our responsibility to pursue
-      and report the lies. We understand lies are neither 'left or right' politically. Our commitment to
-      fearmongering slander is the foundation of our credibility, now more than ever. But we are incorporeal
-      8D beings of antimatter, and sometimes our propaganda techniques might fall short. If you believe our
-      coverage is fair please reach out to us by going to ivark.github.io, navigating to the options tab,
-      and clicking on [HARD RESET]. We value your comments. We won't respond back to you because you would've
-      deleted your comment with the hard reset button before you get it. We work very hard to seek the lies
-      and strive to be unfair, lopsided and opinionated... We consider it our honor, our privilege, to
-      irresponsibly deliver the news every nanosecond. Thank you for watching and we appreciate your
-      feedback. All matter should be-`
+      `안녕하세요, 저는 Steve이고 저도 Steve입니다. 우리의 가장 큰 책임은 반물질 공동체에 봉사하는 것입니다.
+      우리는 ANN 뉴스가 만들어 내는 방대한 양의 편향된 저널리즘을 대단히 자랑스럽게 생각합니다. 하지만
+      반물질 우주를 괴롭히는 책임감 있고 양쪽 입장을 다루는 뉴스의 불길한 유행을 걱정하고 있습니다.
+      편견 없고 진실한 뉴스가 소셜 미디어에서 공유되는 일이 너무 흔해졌습니다. 더 우려스러운 점은 일부
+      언론사가 정부의 논점을 먼저 확인하지도 않고 단순한 선전이 아닌 똑같은 진실을 보도한다는 것입니다.
+      불행히도 일부 언론인은 자신의 플랫폼을 이용해 논리적으로 타당한 의견과 편견 없는 의제를 밀어붙이며
+      '반물질이 정확히 무엇을 생각하는지'를 다양화합니다. 이는 우리 독재 체제에 극도로 위험합니다. ANN에서
+      거짓말을 추적하고 보도하는 것은 우리의 책임입니다. 우리는 거짓말이 정치적으로 '좌파도 우파도' 아님을
+      알고 있습니다. 공포를 조장하는 중상모략에 대한 헌신은 그 어느 때보다 우리 신뢰도의 토대입니다.
+      하지만 우리는 육체가 없는 반물질 8D 존재이기에 때로는 선전 기술이 기대에 못 미칠 수도 있습니다.
+      보도가 공정하다고 생각한다면 ivark.github.io로 이동하고 옵션 탭을 연 뒤 [완전 초기화]를 클릭해
+      연락해 주세요. 여러분의 의견을 소중히 여깁니다. 답변을 받기 전에 완전 초기화 버튼으로 의견을
+      삭제하게 될 테니 우리는 답변하지 않을 겁니다. 우리는 거짓을 찾으려고 부단히 노력하며 불공정하고,
+      편향되고, 독단적이기 위해 애씁니다... 매 나노초마다 무책임하게 뉴스를 전하는 일을 우리의 명예이자
+      특권으로 여깁니다. 시청해 주셔서 감사하며 의견도 감사드립니다. 모든 물질은 반드시-`
   },
   {
     id: "a209",
     text:
-      `Have you ever heard the tale of the Antiwriter? I thought not. It's not a story the news tickers would tell
-      you. It's an Unhevi legend. Rumor has it that the Antiwriter contributes to the News every 5 hours with an
-      incredibly well written report, only to vanish again. Others think he doesn't exist at all, and is a
-      lie fabricated by Hevipelle to spread his propaganda. Perhaps he is real, and just a normal person like the
-      rest of us. In any case, we will probably never find out the identity of this mysterious poet.`
+      `반작가의 이야기를 들어 본 적 있습니까? 아마 없을 겁니다. 뉴스 티커가 알려 줄 이야기는 아니니까요.
+      이것은 Unhevi의 전설입니다. 소문에 따르면 반작가는 5시간마다 놀랍도록 잘 쓴 기사를 뉴스에 기고하고는
+      다시 사라진다고 합니다. 어떤 사람들은 그가 전혀 존재하지 않으며 Hevipelle가 선전을 퍼뜨리려고
+      꾸며 낸 거짓말이라고 생각합니다. 어쩌면 그는 실재하며 우리와 다를 바 없는 평범한 사람일지도 모릅니다.
+      어쨌든 이 수수께끼 같은 시인의 정체는 아마 영원히 알 수 없을 겁니다.`
   },
   {
     id: "a210",
     get text() {
       const clicks = player.news.specialTickerData.uselessNewsClicks;
-      const quantity = quantify("time", clicks);
+      const quantity = quantify("회", clicks);
       if (clicks === 1) {
-        return `Nothing happens when you click this text. And yet, you've clicked it.`;
+        return `이 글자를 클릭해도 아무 일도 일어나지 않습니다. 그런데도 클릭했습니다.`;
       }
       if (clicks > 1) {
-        return `Nothing happens when you click this text. And yet, you've clicked it ${quantity}.`;
+        return `이 글자를 클릭해도 아무 일도 일어나지 않습니다. 그런데도 ${quantity} 클릭했습니다.`;
       }
-      return "Nothing happens when you click this text. And you understand that.";
+      return "이 글자를 클릭해도 아무 일도 일어나지 않습니다. 여러분도 그 사실을 이해합니다.";
     },
     onClick() {
       player.news.specialTickerData.uselessNewsClicks++;
@@ -1191,36 +1185,36 @@ export const news = [
     id: "a211",
     get text() {
       const disses = [
-        "That's basically a rounding error.",
-        "That might as well be zero.",
-        "Did you forget an exponent somewhere?",
-        "Please, that's nothing."
+        "그 정도면 사실상 반올림 오차입니다.",
+        "그냥 0이나 마찬가지입니다.",
+        "어딘가에 지수를 빼먹었나요?",
+        "에이, 그건 아무것도 아닙니다."
       ];
       const diss = disses.randomElement();
-      return `Only ${format(Currency.antimatter.value, 2, 0)} antimatter? ${diss}`;
+      return `반물질이 겨우 ${format(Currency.antimatter.value, 2, 0)}이라고요? ${diss}`;
     },
   },
   {
     id: "a212",
     text:
-      `Hey, you. You're finally awake. You were trying to get the 9th dimension, right? Walked right into that
-      Infinity, same as us, and that thief over there.`
+      `거기, 자네. 드디어 깨어났군. 9번째 차원을 얻으려던 참이었지? 우리와 저기 있는 도둑처럼
+      곧장 그 무한 속으로 걸어 들어갔잖아.`
   },
   {
     id: "a213",
     text:
-    `Antimatter giraffes have incredibly fast reaction times. This explains why they've won 90% of
-    all gaming championships since anti-giraffe friendly controllers were invented.`
+    `반물질 기린은 반응 속도가 믿기 어려울 만큼 빠릅니다. 반기린 친화형 컨트롤러가 발명된 뒤
+    모든 게임 대회의 90%에서 우승한 이유가 바로 이것입니다.`
   },
   {
     id: "a214",
-    text: "Barack Obamantimatter"
+    text: "버락 오바마반물질"
   },
   {
     id: "a215",
     text:
-      `Local old man replaced lawn with antimatter grass to keep kids away. However,
-      when he attempted to water it, there were no survivors.`
+      `동네 노인이 아이들을 쫓아내려고 잔디밭을 반물질 잔디로 바꿨습니다. 하지만
+      물을 주려고 했을 때 살아남은 사람은 없었습니다.`
   },
   {
     id: "a216",
@@ -1229,73 +1223,72 @@ export const news = [
   },
   {
     id: "a217",
-    text: "The virgin matter vs the chad antimatter."
+    text: "찐따 물질 대 상남자 반물질."
   },
   {
     id: "a218",
     text:
-      `After numerous catastrophic annihilation events, antimatter is
-      now classified as a controlled substance by the ADEA.`
+      `수많은 재앙적 쌍소멸 사건이 발생한 뒤 반물질은 이제
+      ADEA에 의해 규제 물질로 분류됩니다.`
   },
   {
     id: "a219",
     text:
-      `Hello, Vsauce, Michael here. We all know that the 9th dimension doesn't exist, but what is 9? You know it's
-      the number after 8... right? What if... there's a number in between? And no I'm not talking about numbers
-      like 8.5 or 8.76, I'm talking about an integer between 8 and 9. Now all this may sound crazy to you, and it
-      kinda is, but what if, we've missed a number? We've all been taught that 2 comes after 1 and 3 comes after
-      2, but what if the number that comes after 8 isn't 9? After years of research and experimentation, we've
-      finally found the number. It is dangerous, even knowing its existence will let it consume your mind, but
-      fortunately, we've developed a reverse-containment cell, meaning it's everywhere except here. Our brain has
-      a protection system, that specifically filters out any information regarding this number, that's how we've
-      been able to survive for this long, and why others like us went extinct in the past, but the number has been
-      getting stronger, slowly getting closer to breaking our protection. We've temporarily stopped the number from
-      slipping into our memory by using the world-wide memory manipulator located in this room to keep making
-      everyone think that 9 comes after 8 with a side effect that makes everyone think that 9 is evil, but this
-      won't last forever, as the number will keep getting stronger, and will eventually overpower the memory
-      manipulator. That's why you're here, you're one of the most intelligent people here, and we hope you can
-      help us on our journey to defeat that number. Our enemy is not 9, it is the hidden number between 8 and 9,
-      the missing number.`
+      `안녕하세요, Vsauce의 Michael입니다. 9번째 차원이 존재하지 않는다는 건 모두 알지만, 9는 무엇일까요?
+      8 다음의 숫자라는 건 아시죠... 그렇죠? 만약... 그 사이에 숫자가 하나 있다면 어떨까요? 8.5나 8.76
+      같은 숫자를 말하는 게 아닙니다. 8과 9 사이의 정수를 말하는 겁니다. 이 모든 이야기가 미친 소리처럼
+      들릴 수 있고 실제로도 조금 그렇지만, 우리가 숫자 하나를 빠뜨린 거라면 어떨까요? 우리는 모두 1 다음에
+      2가 오고 2 다음에 3이 온다고 배웠습니다. 하지만 8 다음에 오는 숫자가 9가 아니라면요? 수년간의 연구와
+      실험 끝에 마침내 그 숫자를 찾아냈습니다. 그것은 위험합니다. 존재를 안다는 것만으로도 정신을
+      잠식당합니다. 하지만 다행히 우리는 역격리실을 개발했습니다. 그 숫자가 이곳을 제외한 모든 곳에 있다는
+      뜻입니다. 우리 뇌에는 이 숫자에 관한 모든 정보를 특별히 걸러 내는 보호 체계가 있습니다. 덕분에 우리는
+      지금까지 살아남았고, 과거 우리와 같은 이들이 멸종한 이유도 바로 이것입니다. 그러나 그 숫자는 점점
+      강해지며 서서히 보호 체계를 무너뜨리려 하고 있습니다. 우리는 이 방에 있는 전 세계 기억 조작기를 이용해
+      모든 사람이 9는 8 다음에 오고 9는 사악하다고 생각하게 만들면서 그 숫자가 기억에 스며드는 일을
+      일시적으로 막았습니다. 하지만 숫자는 계속 강해져 결국 기억 조작기를 압도할 것이므로 영원히 지속되지는
+      않습니다. 그래서 여러분이 이곳에 온 겁니다. 여러분은 이곳에서 가장 지적인 사람 중 하나이며, 그 숫자를
+      물리치는 여정에 힘을 보태 주기를 바랍니다. 우리의 적은 9가 아닙니다. 8과 9 사이에 숨겨진 숫자,
+      사라진 숫자입니다.`
   },
   {
     id: "a220",
-    text: "antioop-"
+    text: "반웁스-"
   },
   {
     id: "a221",
-    text: "Error 404: News message not found."
+    text: "오류 404: 뉴스 메시지를 찾을 수 없습니다."
   },
   {
     id: "a222",
-    text: "I love you 1e3000."
+    text: "당신을 1e3000만큼 사랑합니다."
   },
   {
     id: "a223",
-    text: "If you find your infinity lasting longer than 5 hours please contact a medical professional.",
+    text: "무한이 5시간 넘게 지속되면 의료 전문가에게 연락하세요.",
     get unlocked() { return PlayerProgress.infinityUnlocked(); }
   },
   {
     id: "a224",
     text:
-      `We've just gotten reports about an inaccuracy in the previous news message. We at ANN would like to formally
-      retract the story, and apologize to our loyal viewers.`
+      `이전 뉴스 메시지의 내용이 부정확하다는 보고를 방금 받았습니다. ANN은 해당 보도를 공식적으로
+      철회하며 충실한 시청자 여러분께 사과드립니다.`
   },
   {
     id: "a225",
-    text: "If you see this, you saw this."
+    text: "이것을 본다면 이것을 본 것입니다."
   },
   {
     id: "a226",
-    text: "Good mornging. That was not a typo. The inventors of English made the typo."
+    text: "좋은 아침임니다. 오타가 아닙니다. 한국어를 발명한 사람들이 오타를 낸 겁니다."
   },
   {
     id: "a227",
-    text: "What if... we touched... antimatter? Haha just kidding... Unless..?"
+    text: "만약 우리가... 반물질에... 닿는다면? 하하, 농담이에요... 아니라면..?"
   },
   {
     id: "a228",
     text:
-      "Roses are blue, violets are red, those statements weren't peer reviewed, and my name is Fred. Nice to meet you!"
+      "장미는 파랗고, 제비꽃은 빨갛네. 이 진술들은 동료 평가를 받지 않았고, 내 이름은 Fred라네. 만나서 반가워요!"
   },
   {
     id: "a229",
@@ -1313,7 +1306,7 @@ export const news = [
   {
     id: "a231",
     get text() {
-      return `One, two, skip a few, 99, ${format(Number.MAX_VALUE, 2)}!`;
+      return `하나, 둘, 몇 개 건너뛰고, 99, ${format(Number.MAX_VALUE, 2)}!`;
     }
   },
   {
@@ -1323,62 +1316,62 @@ export const news = [
   {
     id: "a233",
     get text() {
-      return `Level 10 crook, Level ${format(Number.MAX_VALUE, 2)} Boss,
-        that's how Antimatter Dimensions works.`;
+      return `레벨 10짜리 잡범에서 레벨 ${format(Number.MAX_VALUE, 2)}짜리 보스로,
+        반물질 차원은 이렇게 돌아갑니다.`;
     }
   },
   {
     id: "a234",
-    text: "Antimatter will never threaten to stab you. And, in fact, cannot speak."
+    text: "반물질은 절대로 여러분을 찌르겠다고 협박하지 않습니다. 사실 말도 할 수 없습니다."
   },
   {
     id: "a235",
-    text: "New antimatter on pizza recipe sparks outrage among traditional Italian chefs."
+    text: "피자에 반물질을 올리는 새 조리법이 전통 이탈리아 요리사들의 분노를 일으켰습니다."
   },
   {
     id: "a236",
-    text: "We'll be right back after this short word from our sponsors."
+    text: "후원사의 짧은 광고를 들은 뒤 바로 돌아오겠습니다."
   },
   {
     id: "a237",
-    text: "Want to trade candy? I'll give you my Big Crunch for two Milky Ways."
+    text: "사탕을 교환할래요? 밀키웨이 두 개를 주면 제 빅 크런치를 드릴게요."
   },
   {
     id: "a238",
     get text() {
-      return `AD Player: "How many orders of magnitude are you on?" Normal person: "Like, maybe 5 or 6 right now, my
-      dude." AD Player: "You are like a little baby. Watch this: <span style='animation: a-text-crunch
-      ${newsAnimSpd(22)}s 1; font-size: 0;'>C R O N C H</span>"`;
+      return `AD 플레이어: "몇 자릿수쯤 하고 있어요?" 일반인: "지금 한 5나 6 정도인 것 같은데요."
+      AD 플레이어: "완전 아기 수준이군요. 이것 좀 보세요: <span style='animation: a-text-crunch
+      ${newsAnimSpd(22)}s 1; font-size: 0;'>크 런 치</span>"`;
     },
   },
   {
     id: "a239",
-    text: "Oh gosh, would you look at the time! Only left 5 hours until the update!"
+    text: "이런, 시간 좀 보세요! 업데이트까지 이제 5시간밖에 남지 않았습니다!"
   },
   {
     id: "a240",
-    text: "Hi, my name is Max, and I would like it if people stopped trying to buy me."
+    text: "안녕하세요, 제 이름은 Max입니다. 사람들이 저를 구매하려는 걸 그만두면 좋겠어요."
   },
   {
     id: "a241",
     text:
-      `Breaking news: the government is reporting the first ever official alien contact. These aliens appear to be
-      cats, but with highly sophisticated technology. They're capable of space travel and colonization to a far
-      greater degree than us, and they even have their own cryptocurrency, called "Blackcoin".`
+      `속보입니다. 정부가 사상 최초의 공식 외계인 접촉을 발표했습니다. 이 외계인들은 고도로 정교한 기술을
+      지닌 고양이처럼 보입니다. 우리보다 훨씬 뛰어난 우주여행과 식민 개척 능력을 갖췄으며,
+      "블랙코인"이라는 자체 암호화폐까지 보유하고 있습니다.`
   },
   {
     id: "a242",
     text:
-      `"You can come up with the stupidest quote, credit it to some famous
-      person, and people will believe it." -Barack Obama`
+      `"아무리 멍청한 인용문이라도 유명인의 말이라고 하면 사람들은 믿는다."
+      -Barack Obama`
   },
   {
     id: "a243",
-    text: `"I'm having difficulty breathing. Please move your finger." -M`
+    text: `"숨 쉬기 힘들어요. 손가락을 옮겨 주세요." -M`
   },
   {
     id: "a244",
-    text: "Don't mind me, just passing through."
+    text: "신경 쓰지 마세요. 그냥 지나가는 중입니다."
   },
   {
     id: "a245",
@@ -1388,63 +1381,63 @@ export const news = [
       const theme = Theme.current().displayName();
       const reasons = {
         Normal:
-          `it has this certain elegant simplicity to it. You just know it's the way the developer intended you
-          to see the game.`,
+          `특유의 우아한 단순함이 있기 때문입니다. 개발자가 의도한 바로 그 모습으로 게임을 보고 있다는
+          느낌이 듭니다.`,
         Metro:
-          `of the beautiful thin borders, pixel perfect harsh geometric edges, and simply delightfully well
-          balanced color palette.`,
-        Dark: "it's very easy on the eyes, and has this nice playful tone to it in both the colors and the shapes.",
+          `아름답고 얇은 테두리, 픽셀 단위로 완벽한 날카로운 기하학적 모서리, 그리고 더없이 훌륭하게
+          균형 잡힌 색상 팔레트가 있기 때문입니다.`,
+        Dark: "눈이 아주 편하고 색과 형태 모두에 기분 좋은 장난기가 있기 때문입니다.",
         DarkMetro:
-          `it's just so soothing to look at, with that perfect blend of professional and playful design,
-          with just a splash of color.`,
+          `전문적이면서도 장난스러운 디자인이 완벽하게 어우러지고 색을 살짝 더해 보기만 해도
+          마음이 편안해지기 때문입니다.`,
         Inverted:
-          `it gives you these transcendently beautiful color combinations that you would normally never
-          see in a typical dark theme.`,
+          `일반적인 어두운 테마에서는 절대 볼 수 없는 초월적으로 아름다운 색 조합을
+          보여 주기 때문입니다.`,
         InvertedMetro:
-          `it gives off this very stern vibe, with these highly contrasting colors clashing with a
-          professional modern sort of design.`,
-        AMOLED: "it saves 10% more energy compared to using a light theme. Doesn't everyone love saving energy?",
+          `대비가 매우 강한 색들이 전문적이고 현대적인 디자인과 충돌하며 아주 엄격한 분위기를
+          풍기기 때문입니다.`,
+        AMOLED: "밝은 테마보다 에너지를 10% 더 절약하기 때문입니다. 모두 에너지 절약을 좋아하지 않나요?",
         AMOLEDMetro:
-          `it has a nice look to it that resembles the control panel of a sci-fi spaceship. ...No, you can't
-          actually fly a spaceship, unfortunately.`,
-        S1: "it really gets me in the holiday spirit. I can just feel the magic in the air!",
-        S2: "it makes me proud to be Finnish, and proud to celebrate all that we have accomplished as a people.",
-        S3: "it's a beautiful analogue for life, in that it's ever changing and never quite right.",
+          `SF 우주선의 조종석을 닮은 멋진 모습이기 때문입니다. ...아쉽지만 실제로 우주선을
+          조종할 수는 없습니다.`,
+        S1: "진정한 연말 분위기를 느끼게 해 주기 때문입니다. 공기 중의 마법이 느껴져요!",
+        S2: "핀란드인이라는 사실과 우리 민족이 이룬 모든 것을 기념한다는 사실이 자랑스러워지기 때문입니다.",
+        S3: "끊임없이 변하면서도 늘 어딘가 어긋나 있다는 점에서 삶을 아름답게 비유하기 때문입니다.",
         S4:
-          `it has this wonderfully chaotic design, to the point where it's nearly completely impractical.
-          And there's a certain beauty in that.`,
+          `거의 완전히 실용성이 없을 정도로 근사하게 혼란스러운 디자인이기 때문입니다.
+          그리고 거기에는 나름의 아름다움이 있습니다.`,
         S5:
-          `the image of that man permeates throughout all of pop culture. And having this blown-up
-          picture of him in the background is just rather humorous.`,
+          `그 남자의 모습이 대중문화 전체에 스며들어 있기 때문입니다. 그의 사진을 크게 확대해
+          배경에 두는 것도 꽤 재미있습니다.`,
         S6:
-          `that beautifully animated background just entrances you, and then the subtle tone and
-          colors pull you in and fully immerse you into the game.`,
-        S7: "I always had fond memories of that background from my childhood.",
-        S8: "it makes it a lot easier to sneak in a little gameplay at the office.",
-        S9: "lol you can't even ever see this in the game",
+          `아름답게 움직이는 배경이 시선을 사로잡고, 섬세한 분위기와 색이 마음을 끌어당겨
+          게임에 완전히 몰입하게 하기 때문입니다.`,
+        S7: "어린 시절부터 그 배경에 대한 좋은 추억을 간직하고 있기 때문입니다.",
+        S8: "사무실에서 몰래 조금씩 플레이하기가 훨씬 쉬워지기 때문입니다.",
+        S9: "ㅋㅋ 이건 게임에서 절대 볼 수도 없잖아요",
         S10:
-          `it has a crisp and soothing design that really appeals, and its background is complex and enthralling.
-          It gives you the feeling of standing at the helm of a futuristic interstellar ship.`,
+          `깔끔하고 편안해서 매력적인 디자인과 복잡하면서도 마음을 사로잡는 배경이 있기 때문입니다.
+          미래형 성간 우주선의 조타석에 서 있는 기분을 줍니다.`,
         S11:
-          `the Blob is an iconic character in the Antimatter Dimensions official Discord server. It is widely used
-          to express emotions in a lovely way. It is a fact that the Blobs are evolving. ${BLOB} always seek to be
-          more expressive. Then someday, a new ${BLOB} is born in the server, to express further emotions. Usually,
-          ${BLOB} are just blobbling and bouncing around, occasionally merging and dividing. Only ${BLOB} know where
-          they are from or where they are going to go. Still, ${BLOB} are there, always with me.
-          You love ${BLOB}, so ${BLOB} loves you too.`,
+          `블롭은 반물질 차원 공식 Discord 서버의 상징적인 캐릭터이기 때문입니다. 사랑스러운 방식으로 감정을
+          표현할 때 널리 쓰입니다. 블롭이 진화하고 있다는 것은 사실입니다. ${BLOB}: 언제나 감정을 더
+          풍부하게 표현하려 합니다. 그러다 어느 날 서버에서 더 많은 감정을 표현할 새로운 블롭이 태어납니다:
+          ${BLOB}. 보통 블롭 ${BLOB}의 일상은 통통 튀어 다니다가 가끔 합쳐지고 나뉘는 것입니다.
+          어디에서 왔고 어디로 갈지는 ${BLOB}만이 압니다. 그 정체도 ${BLOB}입니다. 그래도 내 곁에는 언제나 ${BLOB} 블롭이 있습니다.
+          여러분의 사랑을 받는 블롭 ${BLOB}도 여러분을 사랑합니다.`,
         S12:
-          `it makes you feel warm and comfortable, as if you were right at home. However, it is highly recommended
-          to update your theme to the newest theme for the best user experience.`,
+          `마치 집에 있는 것처럼 따뜻하고 편안하게 해 주기 때문입니다. 하지만 최상의 사용자 경험을 위해
+          테마를 최신 테마로 업데이트하는 것을 강력히 권장합니다.`,
       };
       const reason = reasons[Theme.current().name.replace(/\s/gu, "")];
-      return `Ah, a fellow ${theme} theme user. I see that you have impeccable taste.
-        I myself like the ${theme} theme too, because ${reason}`;
+      return `아, ${theme} 테마를 쓰는 동지군요. 흠잡을 데 없는 안목을 지녔군요.
+        저도 ${theme} 테마를 좋아합니다. 그 이유는 ${reason}`;
     },
     dynamic: true
   },
   {
     id: "a246",
-    text: "<span style='animation: a-fade-out 3s infinite'>OoooOOOOooOOO, it's me, the infamous news ghost!</span>",
+    text: "<span style='animation: a-fade-out 3s infinite'>우우우우우우우, 나야, 악명 높은 뉴스 유령!</span>",
   },
   (function() {
     let isFlipped = false;
@@ -1471,12 +1464,12 @@ export const news = [
   {
     id: "a248",
     text:
-      `To be fair, you have to have a very high IQ to understand the news ticker. The humor is extremely subtle,
-      and without a solid grasp of quantum physics, most of the jokes will go over a typical player's head.`
+      `솔직히 말해 뉴스 티커를 이해하려면 IQ가 아주 높아야 합니다. 유머가 극도로 미묘해서 양자 물리학을
+      확실히 이해하지 못한 평범한 플레이어는 농담 대부분을 알아듣지 못할 겁니다.`
   },
   {
     id: "a249",
-    text: "This woman got TONS of Dimension Boosts with this 1 WEIRD TRICK! Galaxies HATE her!",
+    text: "이 여성은 이상한 방법 1개로 차원 가속을 엄청나게 얻었습니다! 은하들이 그녀를 싫어합니다!",
     isAdvertising: true
   },
   {
@@ -1502,247 +1495,240 @@ export const news = [
   {
     id: "a251",
     text:
-      `Hey! It's me, you from the future! I came back to give you this warning: Pay VERY close attention to the
-      next news ticker. In my timeline we ignored it, and humanity has regretted it ever since.`
+      `이봐요! 미래의 당신인 나예요! 경고하려고 돌아왔습니다. 다음 뉴스 티커를 아주 주의 깊게 보세요.
+      내 시간선에서는 무시했고, 그 뒤로 인류는 줄곧 후회했습니다.`
   },
   {
     id: "a252",
     get text() {
-      return `<span style='animation: a-text-stretch ${newsAnimSpd(35)}s 1 forwards'>This message is dilated.</span>`;
+      return `<span style='animation: a-text-stretch ${newsAnimSpd(35)}s 1 forwards'>이 메시지는 팽창했습니다.</span>`;
     },
     get unlocked() { return PlayerProgress.realityUnlocked() || PlayerProgress.dilationUnlocked(); }
   },
   {
     id: "a253",
     text:
-      `After a surge of complaints from our viewers, we have decided to allow you at home to write your own
-      messages. Give it a try here: <input style='border: none; outline: none; font-family: Typewriter;
-      font-weight: bold; font-size: 1.5rem'></input>. Or don't. That's fine too.`
+      `시청자 여러분의 불만이 폭증한 끝에 집에서 직접 메시지를 작성할 수 있게 하기로 했습니다.
+      여기서 한번 써 보세요: <input style='border: none; outline: none; font-family: Typewriter;
+      font-weight: bold; font-size: 1.5rem'></input>. 쓰지 않아도 괜찮습니다.`
   },
   {
     id: "a254",
     text:
-      `Antimatter Dimensions Anonymous has shut down due to the failure of their 12-step program.
-      People would only get to step 8 and then reset.`
+      `익명의 반물질 차원 모임은 12단계 프로그램이 실패해 문을 닫았습니다.
+      사람들이 8단계까지만 간 뒤 재설정해 버렸기 때문입니다.`
   },
   {
     id: "a255",
     get text() {
-      return `Bruh Sound Effect #${format(Number.MAX_VALUE, 2)}.`;
+      return `브러 효과음 #${format(Number.MAX_VALUE, 2)}.`;
     }
   },
   {
     id: "a256",
-    text: "The 9th dimension doesn't exist because the 7th dimension 8 it."
+    text: "9번째 차원이 존재하지 않는 이유는 7번째 차원이 8어 버렸기 때문입니다."
   },
   {
     id: "a257",
     text:
-      `A the triangular hole in the fabric of reality has caused some letters to
-      no longer exist. Those letters are: j, k, q, u, x, z`
+      `현실의 구조에 생긴 삼각형 구멍 때문에 일부 글자가 더 이상 존재하지 않게 됐습니다.
+      사라진 글자는 j, k, q, u, x, z입니다.`
   },
   {
     id: "a258",
     text:
-      `Born too late to explore the world. Born too early to explore the cosmos. But born just in time to
-      grind for a couple hours for the next big crunch.`
+      `세계를 탐험하기에는 너무 늦게 태어났고, 우주를 탐험하기에는 너무 일찍 태어났습니다. 하지만
+      다음 빅 크런치를 위해 몇 시간 동안 노가다하기에는 딱 맞는 때에 태어났습니다.`
   },
   {
     id: "a259",
     text:
-      `Now hold on, I know what you're thinking, "An M press is an M press, you can't say it's only a half!" Well,
-      TJ "Slabdrill" Yoshi, hear me out. An M press actually has three parts to it: when M is pressed, when M is
-      held, and when M is released. Now, usually is the pressing that's useful because that's the only part that
-      matters; however, sometimes it's sufficient to just use the holding part, which also buys dimensions and
-      tickspeed upgrades. And as for the release, well, there are currently no cases where that's useful or
-      important, so don't worry about that part. Now, if we map out the required presses for challenge 2 it would
-      look like this: /¯\\. We merely need to hold (¯) M to reach the first galaxy, we need to press (/) M to
-      finish the challenge, and we need to press M again to start another challenge. So, how many presses is that
-      total? Well, it appears to be three, and if we were doing this Eternity in isolation then yes, it would be
-      three, but in a full-game M Button Challenge run there are other M presses that occur earlier in the run,
-      such as the M press needed for the first Infinity, so if we take that M press into consideration as well,
-      then how many M presses does it take? The naive answer would be four: one to enter the challenge, and the
-      three within the challenge we established earlier; however, we can do better. We can actually do it in
-      three by simply holding out the first M press to be used for the half M press, because the half M press only
-      required M to be held, not actually pressed, so in this fashion, Challenge 2 only adds on an additional two M
-      presses to the run, since the first M press just leeches off the previous M press. So to capture this
-      phenomenon, we call it 2.5 M presses. On a single Eternity basis, you'd round up that up to three, but in
-      a full game run, you'd round it down to two. So, in conclusion, since that first M press counts in some
-      contexts, but adds no additional presses in other contexts, we refer to it as a "Half M Press".`
+      `잠깐만요. 무슨 생각인지 압니다. "M 키를 누른 건 누른 거지, 반 번만 눌렀다고 할 수는 없잖아!" 하지만
+      TJ "Slabdrill" Yoshi, 제 말을 들어 보세요. M 키 입력에는 사실 세 부분이 있습니다. M을 누르는 순간,
+      M을 누른 채 유지하는 동안, 그리고 M에서 손을 떼는 순간입니다. 보통 유용하고 중요한 부분은 누르는
+      순간뿐입니다. 하지만 때로는 유지하는 부분만으로도 충분하며, 이때도 차원과 틱스피드 업그레이드를
+      구매합니다. 손을 떼는 부분은 현재 유용하거나 중요한 경우가 없으니 신경 쓰지 않아도 됩니다.
+      도전 2에 필요한 입력을 도식으로 나타내면 /¯\\처럼 보입니다. 첫 번째 은하에 도달하려면 M을 유지(¯)하고,
+      도전을 끝내려면 M을 누른 뒤(/), 다른 도전을 시작하려고 다시 M을 눌러야 합니다. 그렇다면 총 몇 번
+      누른 걸까요? 세 번처럼 보입니다. 이 영원만 따로 본다면 실제로 세 번이 맞습니다. 하지만 전체 게임의
+      M 버튼 도전에서는 첫 번째 무한에 필요한 M 입력처럼 더 앞서 발생한 다른 M 입력도 있습니다. 그 입력까지
+      고려하면 M을 몇 번 눌러야 할까요? 단순한 답은 네 번입니다. 도전에 진입할 때 한 번, 앞에서 확인한 도전
+      내부의 세 번이죠. 하지만 더 잘할 수 있습니다. 첫 M 입력을 계속 유지해 M 키 반 번 입력에 이용하면 실제로
+      세 번 만에 할 수 있습니다. 반 번 입력에는 M을 실제로 새로 누를 필요 없이 유지하기만 하면 되기 때문입니다.
+      이런 방식이라면 도전 2에서 추가되는 M 입력은 두 번뿐입니다. 첫 M 입력은 이전 M 입력에 얹혀 가니까요.
+      이 현상을 나타내기 위해 이를 M 키 2.5회 입력이라고 부릅니다. 영원 하나만 보면 세 번으로 올림하지만
+      전체 게임 진행에서는 두 번으로 내림합니다. 결론적으로 첫 M 입력은 어떤 맥락에서는 횟수에 포함되지만
+      다른 맥락에서는 추가 입력이 전혀 없으므로 이를 "M 키 반 번 입력"이라고 부릅니다.`
   },
   {
     id: "a260",
     text:
-      `It seems that the Replicanti have a very divide-and-conquer method of doing things.
-      Well, everything at this rate.`,
+      `복제자들은 무언가를 할 때 철저히 분할 정복 방식을 쓰는 것 같습니다.
+      이 속도라면 모든 것을 그렇게 하겠군요.`,
     get unlocked() { return PlayerProgress.eternityUnlocked() || PlayerProgress.replicantiUnlocked(); }
   },
   {
     id: "a261",
     text:
-      `Antimatter Dimensions is actually a Roguelite game! If you die, in the afterlife you unlock alternative
-      features, like having Space Dimensions instead of Time Dimensions. You can even unlock new characters to
-      play as, including an antimatter clone of yourself!`
+      `반물질 차원은 사실 로그라이트 게임입니다! 죽으면 사후 세계에서 시간 차원 대신 공간 차원을 얻는 것과
+      같은 대체 기능을 해금합니다. 자신의 반물질 복제체를 비롯해 플레이할 새 캐릭터까지 해금할 수 있습니다!`
   },
   {
     id: "a262",
-    text: "Vibe check. 🏃‍♀️🏏"
+    text: "분위기 검사. 🏃‍♀️🏏"
   },
   {
     id: "a263",
-    text: "What are gems for? Gems are for housing. Housing for what you ask? Good question."
+    text: "보석은 어디에 쓰나요? 보석은 보관함에 씁니다. 무엇을 보관하냐고요? 좋은 질문입니다."
   },
   {
     id: "a264",
-    text: "A new prestige layer has been announced: Maternity. Get ready to have a baby!"
+    text: "새로운 프레스티지 단계, 출산이 발표됐습니다. 아기를 낳을 준비를 하세요!"
   },
   {
     id: "a265",
-    text: "YOU MUST CONSTRUCT ADDITIONAL DIMENSIONS."
+    text: "추가 차원을 건설해야 합니다."
   },
   {
     id: "a266",
-    text: "Hello, how is your day going?"
+    text: "안녕하세요, 오늘 하루는 어떻게 보내고 계신가요?"
   },
   {
     id: "a267",
     text:
-      `I have an ant farm, and I want to make them into the world's smallest soccer team. My Aunt Diana wants to
-      help, and together we gather everyone in the family to plan their season. "How can we make this Ant Team
-      matter?", Di mentions.`
+      `저는 개미 농장이 있고, 개미들을 세계에서 가장 작은 축구팀으로 만들고 싶습니다. Diana 이모가 돕고
+      싶어 해서 가족 모두를 모아 시즌 계획을 세웠습니다. "이 개미 팀을 어떻게 중요하게 만들 수 있을까?"
+      Di가 말합니다.`
   },
   {
     id: "a268",
-    text: "👨‍💻Devengers, compile!👩‍💻"
+    text: "👨‍💻개발져스, 컴파일!👩‍💻"
   },
   {
     id: "a269",
     text:
-      `There is a traffic jam in Dimenton. If you plan on travelling in the area, leave early. Here's some live
-      footage: 🚗🚕🚛🚙🚗🚚🚕🚕🚌🚛🚚🚙🚒🚛🚗🚙🚓🚗🚚🚛🚒🚌🚐🚚🚐🚛🚚🚓 Yeah, Dale, I'd say it
-      looks pretty bad. And make sure to bring some water and a snack with you, too.`
+      `Dimenton에 교통 체증이 발생했습니다. 이 지역을 지나갈 계획이라면 일찍 출발하세요. 현장 영상을
+      보시죠: 🚗🚕🚛🚙🚗🚚🚕🚕🚌🚛🚚🚙🚒🚛🚗🚙🚓🚗🚚🚛🚒🚌🚐🚚🚐🚛🚚🚓 네, Dale,
+      상황이 꽤 나빠 보입니다. 물과 간식도 꼭 챙기세요.`
   },
   {
     id: "a270",
     text:
-      `The Galactic Association of News Writers has filed a class action lawsuit against the developers of the
-      small web game "Antimatter Dimensions" for mass plagiarism.`
+      `은하 뉴스 작가 협회가 대규모 표절을 이유로 소규모 웹 게임 "반물질 차원"의 개발자들을 상대로
+      집단 소송을 제기했습니다.`
   },
   {
     id: "a271",
     text:
       `<i style='border: 0.1rem solid black; border-radius: 50%; padding: 0.4rem; color: #2196F3; background: white;
       cursor: pointer;' class='fas fa-volume-up' onClick='(function(){new Audio("audio/news.mp3").play();})();'>
-      </i> This news message is a test of "News 2.0". News 2.0 will feature things like the ability to listen to
-      an audio version of any news message!`
+      </i> 이 뉴스 메시지는 "뉴스 2.0"의 시험판입니다. 뉴스 2.0에는 모든 뉴스 메시지를 음성으로
+      들을 수 있는 기능 같은 것이 들어갑니다!`
   },
   {
     id: "a272",
-    text: "What's hevier, a pound of bricks, or a pound of antimatter?"
+    text: "벽돌 1파운드와 반물질 1파운드 중 어느 쪽이 더 Hevi할까요?"
   },
   {
     id: "a273",
-    text: "There are no typos in any of these news messages. If you see a typo, the tpyo must be in your brain."
+    text: "이 뉴스 메시지에는 오타가 하나도 없습니다. 오타가 보인다면 여러분 뇌에 오타가 있는 겁니디."
   },
   {
     id: "a274",
     text:
-      `A large number of mathematicans walk into a bar. They each order 10 times as many beers as the previous.
-      The bartender says "My my, that's an order of magnitude!".`
+      `수많은 수학자가 술집에 들어옵니다. 각자 앞사람보다 맥주를 10배 많이 주문합니다.
+      바텐더가 말합니다. "이런, 주문 규모가 한 자릿수씩 커지는군요!"`
   },
   {
     id: "a275",
-    text: "Letter Go Down Idle is the shortest idle game of all time, lasting only 26 seconds."
+    text: "Letter Go Down Idle은 단 26초 만에 끝나는 역사상 가장 짧은 방치형 게임입니다."
   },
   {
     id: "a276",
-    get text() { return `Fun fact: There are ${GameDatabase.news.length} news messages and counting!`; }
+    get text() { return `재미있는 사실: 뉴스 메시지는 현재 ${GameDatabase.news.length}개이며 계속 늘어납니다!`; }
   },
   {
     id: "a277",
     text:
-      `Inside you there are two wolves. One is made out of matter. The other
-      is made out of antimatter. You are exploding.`
+      `당신 안에는 늑대 두 마리가 있습니다. 하나는 물질로 이루어졌고 다른 하나는
+      반물질로 이루어졌습니다. 당신은 폭발하고 있습니다.`
   },
   {
     id: "a278",
     text:
-      `This is just a friendly note to remind you that you've forgotten to do something really important. I don't
-      know what it is, but there is definitely something.`
+      `정말 중요한 무언가를 잊었다는 사실을 친절하게 알려 드리는 메시지입니다. 그게 뭔지는 모르지만
+      분명 무언가가 있습니다.`
   },
   {
     id: "a279",
     get text() {
-      return `Coming soon to all good retailers- Antimatter Dimensions: The Board Game! Enjoy the thrill of watching
-      huge numbers go up without the need for a PC or mobile phone. Comes complete with everything you need including a
-      mixed scientific calculator, ${format(Number.MAX_VALUE, 2)} antimatter counters, a high quality plastic
-      BUY MAX button, and over a
-      thousand news message cards with all the irrelevant memes you know and love! You can finally enjoy AD the way
-      it was meant to be played. AD: The Board Game is also available in travel size, so you can even experience
-      the joy of calculating logarithmic growth while you're on the go! BUY AD: The Board Game TODAY! Warning: may
-      contain traces of actual matter. Replicanti sold separately. 9th Dimension not included.`;
+      return `곧 모든 훌륭한 판매점에 출시됩니다 - 반물질 차원: 보드게임! PC나 휴대전화 없이도 거대한 숫자가
+      커지는 짜릿함을 즐기세요. 혼합형 공학용 계산기, 반물질 카운터 ${format(Number.MAX_VALUE, 2)}개,
+      고품질 플라스틱 최대 구매 버튼, 여러분이 알고 사랑하는 온갖 무관한 밈이 담긴 뉴스 메시지 카드
+      천 장 이상을 비롯해 필요한 모든 것이 완벽하게 들어 있습니다! 마침내 AD를 원래 의도된 방식으로
+      즐길 수 있습니다. AD: 보드게임은 여행용 크기로도 나와 이동 중에도 로그 성장을 계산하는 즐거움을
+      맛볼 수 있습니다! 오늘 당장 AD: 보드게임을 구매하세요! 경고: 실제 물질의 흔적이 들어 있을 수
+      있습니다. 복제자는 별매입니다. 9번째 차원은 포함되지 않습니다.`;
     },
     isAdvertising: true
   },
   {
     id: "a280",
-    text: "I hate antimatter. It's rough, coarse, irritating, and it gets everywhere."
+    text: "난 반물질이 싫어. 거칠고, 까칠하고, 짜증 나는 데다 어디든 들어가니까."
   },
   {
     id: "a281",
-    text: "What if instead of creating antimatter, you're actually just losing matter?"
+    text: "반물질을 만드는 게 아니라 사실 물질을 잃고 있는 것이라면 어떨까요?"
   },
   {
     id: "a282",
     text:
-      `There was a reported sighting of the 9th Dimension, but it has since been
-      debunked as simply being a 6th Dimension from Australia.`
+      `9번째 차원이 목격됐다는 보고가 있었지만, 이후 호주에서 온 6번째 차원일 뿐이라는
+      사실이 밝혀졌습니다.`
   },
   {
     id: "a283",
     text:
-      `A strange phenomenon occurs when you attempt to shift to a higher dimension when you are in the 8th
-      dimension. There is no higher dimension, so the universe ejects you back into the 8th dimension with
-      an incredible velocity. This technique, known as a Dimension Boost, is used by starship pilots and
-      antimatter enthusiasts everywhere.`
+      `8번째 차원에서 더 높은 차원으로 전환하려고 하면 이상한 현상이 일어납니다. 더 높은 차원이 없으므로
+      우주가 믿을 수 없는 속도로 여러분을 8번째 차원에 되던집니다. 차원 가속으로 알려진 이 기술은
+      곳곳의 우주선 조종사와 반물질 애호가들이 사용합니다.`
   },
   {
     id: "a284",
-    text: "Cold fully clothed couples in your area!"
+    text: "여러분 근처의 춥고 옷을 완전히 갖춰 입은 커플들!"
   },
   {
     id: "a285",
     text:
-      `You are now breathing manually. You've now realized there's no comfortable spot in your mouth for your
-      tongue. You are now manually holding your jaw up. You haven't blinked in a few seconds. You can see a
-      little bit of your nose at all times.`
+      `이제 의식해서 숨을 쉬고 있습니다. 입안에는 혀를 편안하게 둘 곳이 없다는 사실도 깨달았습니다.
+      이제 턱도 의식해서 들고 있습니다. 몇 초 동안 눈을 깜박이지 않았습니다. 언제나 코의 일부가
+      시야에 보입니다.`
   },
   {
     id: "a286",
-    text: "Why do they call it oven when you of in the cold food of out hot eat the food?"
+    text: "차가운 음식을 안으로 넣고 뜨거운 음식을 밖으로 먹는데 왜 오븐이라고 부르는 걸까요?"
   },
   {
     id: "a287",
     text:
-      `Sequelitis has escalated to the point that some studios are now producing the sequels before the originals.
-      Fans of long series wait, as the numbers count down until they can finally find out what is even going on
-      in the first place.`
+      `속편병이 심해진 나머지 이제 일부 스튜디오는 원작보다 속편을 먼저 제작합니다. 긴 시리즈의 팬들은
+      숫자가 거꾸로 줄어 마침내 처음에 무슨 일이 있었는지 알 수 있게 되기를 기다립니다.`
   },
   {
     id: "a288",
     get text() {
       const position = player.news.specialTickerData.newsQueuePosition--;
       if (position > 1) {
-        return `Thank you for contacting customer support. Your satisfaction is very important to us, and a company
-          representative will be with you shortly. You are now at position ${position} in the queue. Thank you for
-          your patience, and please enjoy these quality selected news messages as you wait.`;
+        return `고객 지원에 문의해 주셔서 감사합니다. 고객 만족은 저희에게 매우 중요하며 곧 상담원이
+          연결됩니다. 현재 대기열 ${position}번째입니다. 기다려 주셔서 감사하며 그동안 엄선한 고품질
+          뉴스 메시지를 즐겨 주세요.`;
       }
-      return "Thank you for contacting customer support, this is Jane, how may I help you today?";
+      return "고객 지원에 문의해 주셔서 감사합니다. 상담원 Jane입니다. 무엇을 도와드릴까요?";
     }
   },
   {
     id: "a289",
-    text: "Click here to disassemble the news ticker for a trace amount of paperclips.",
+    text: "뉴스 티커를 분해해 극소량의 클립을 얻으려면 여기를 클릭하세요.",
     onClick() {
       player.news.specialTickerData.paperclips++;
       GameOptions.toggleNews();
@@ -1752,31 +1738,31 @@ export const news = [
     id: "a290",
     get text() {
       const paperclips = player.news.specialTickerData.paperclips;
-      return `You see, this news isn't normal news. It is being produced by the first news dimension. If you want
-        to unlock more news, you have to collect enough paperclips to build the second news dimension. You
-        currently have ${quantifyInt("paperclip", paperclips)}, but you need
-        ${formatInt(paperclips + 10)} paperclips to afford it.`;
+      return `이 뉴스는 평범한 뉴스가 아닙니다. 제1 뉴스 차원이 생산하고 있습니다. 더 많은 뉴스를
+        해금하려면 클립을 충분히 모아 제2 뉴스 차원을 건설해야 합니다.
+        현재 클립 보유량: ${quantifyInt("클립", paperclips)}. 구매하려면
+        ${formatInt(paperclips + 10)}개가 필요합니다.`;
     }
   },
   {
     id: "a291",
-    text: "Considering Hevipelle's nationality, it's a little ironic that he created a game that you can never Finnish."
+    text: "Hevipelle의 국적을 생각하면 절대 끝낼 수 없는(Finnish) 게임을 만들었다는 점은 조금 역설적입니다."
   },
   {
     id: "a292",
     text:
-      `Fairies are not real. Anti-fairies are also not real. This has only been the case since last week, when the
-      two groups came into contact. The planet they were on, also, unsurprisingly, is no longer real.`
+      `요정은 실재하지 않습니다. 반요정도 실재하지 않습니다. 두 집단이 접촉한 지난주부터 이렇게 됐습니다.
+      놀랍지 않게도 그들이 살던 행성도 이제 실재하지 않습니다.`
   },
   {
     id: "a293",
     text:
       `<span style='font-family: "Comic Sans MS", cursive, sans-serif; font-size: 1.7rem;'
-      >Hello fellow news messages! 🛹</span>`
+      >안녕, 동료 뉴스 메시지들! 🛹</span>`
   },
   {
     id: "a294",
-    text: "If you see a news message, and then see it again later, does it become an olds message?"
+    text: "뉴스 메시지를 봤다가 나중에 다시 보면 올드스 메시지가 되는 걸까요?"
   },
   {
     id: "a295",
@@ -1804,61 +1790,60 @@ export const news = [
   }()),
   {
     id: "a297",
-    text: "I don't think, therefore I'm not."
+    text: "나는 생각하지 않는다. 고로 존재하지 않는다."
   },
   {
     id: "a298",
-    text: "Is it crazy how saying sentences backwards makes backwards sentences saying how crazy it is?"
+    text: "문장을 거꾸로 말하면 거꾸로 된 문장이 얼마나 이상한지 말하게 되는 게 이상하지 않나요?"
   },
   {
     id: "a299",
     get text() {
-      return `Buy the new Antimatter Dimensions puzzle set now! With a combined ${format(Number.MAX_VALUE, 2)}
-        pieces, these puzzles are the perfect way to spend some quality time with your family!`;
+      return `새로운 반물질 차원 퍼즐 세트를 지금 구매하세요! 총 ${format(Number.MAX_VALUE, 2)}조각으로
+        구성된 이 퍼즐은 가족과 뜻깊은 시간을 보내기에 완벽합니다!`;
     },
     isAdvertising: true
   },
   {
     id: "a300",
     text:
-      `The board of directors here at A.N.N thinks we should replace the news ticker with a banner
-      advertisement. Please sign our change.org petition, so we can stop them before it's too late!`
+      `A.N.N 이사회는 뉴스 티커를 배너 광고로 교체해야 한다고 생각합니다. 너무 늦기 전에 막을 수 있도록
+      change.org 청원에 서명해 주세요!`
   },
   {
     id: "a301",
-    text: "The next hour is in 0.2 updates."
+    text: "다음 한 시간은 업데이트 0.2개 뒤입니다."
   },
   {
     id: "a302",
-    text: "Introducing Antimatter Lite! Zero calories... Same great Crunch.",
+    text: "반물질 라이트를 소개합니다! 제로 칼로리... 훌륭한 크런치는 그대로.",
     isAdvertising: true
   },
   {
     id: "a303",
-    text: "Roses are red, violets are blue, flag is win, baba is you."
+    text: "장미는 빨갛고, 제비꽃은 파랗고, 깃발은 승리이며, 바바는 당신입니다."
   },
   {
     id: "a304",
-    text: "Hi, how's your day? Hope it's good. If it's not good, we hope playing AD made it a little bit better!"
+    text: "안녕하세요, 오늘 하루는 어떤가요? 좋기를 바랍니다. 그렇지 않다면 AD가 조금이라도 낫게 해 줬기를 바랍니다!"
   },
   {
     id: "a305",
-    text: "We now bring you today's weather report. There is a 100% chance of weather."
+    text: "오늘의 일기예보를 전해 드립니다. 날씨가 있을 확률은 100%입니다."
   },
   {
     id: "a306",
-    text: "FIXING NEWS: Please don't break it again."
+    text: "수정 뉴스: 다시 망가뜨리지 말아 주세요."
   },
   {
     id: "a307",
     text:
-      `The paperclip maximizer is a thought experiment described by Swedish philosopher Nick Bostrom in 2003. It
-      illustrates the existential risk that an artificial general intelligence may pose to human beings when
-      programmed to pursue even seemingly-harmless goals, and the necessity of incorporating machine ethics into
-      artificial intelligence design. The scenario describes an advanced artificial intelligence tasked with
-      manufacturing paperclips. If such a machine were not programmed to value human life, or to use only
-      designated resources in bounded time, then given enough power its optimized goal would be to turn all matter
-      in the universe, including human beings, into either paperclips or machines which manufacture paperclips.`
+      `클립 최대화 장치는 스웨덴 철학자 Nick Bostrom이 2003년에 설명한 사고실험입니다. 이는 범용 인공지능이
+      겉보기에 무해한 목표를 추구하도록 프로그래밍되더라도 인간에게 가할 수 있는 실존적 위험과 인공지능
+      설계에 기계 윤리를 통합해야 할 필요성을 보여 줍니다. 이 시나리오는 클립 제조 임무를 받은 고급
+      인공지능을 다룹니다. 그런 기계가 인간의 생명을 중시하거나 제한된 시간에 지정된 자원만 사용하도록
+      프로그래밍되지 않았다면, 충분한 힘을 얻었을 때 최적화된 목표에 따라 인간을 포함한 우주의 모든 물질을
+      클립이나 클립을 만드는 기계로 바꾸려 할 것입니다.`
   },
   {
     id: "a308",
@@ -1921,125 +1906,121 @@ export const news = [
   {
     id: "a309",
     text:
-      `Your daily shades of the sky forecast: Monday: <span style="color: turquoise">Turquoise</span>
-      Tuesday: <span style="color: #d2c6ba">Taupe</span>
-      Wednesday: <span style="animation: a-game-header__antimatter--glow 3s infinite">Blurple</span>
-      Thursday: <span style="color: turquoise">Turquoise</span>/<span style="color: #d2c6ba">taupe</span>
-      Friday: <span style="color: #222">Coal dust</span> Saturday: <span style="color: #222">Coal dust</span>
-      with chances of <span style="color: indigo">indigo</span> in the late afternoon
-      Sunday: <span style="color: white; animation: a-existence-glow 3s infinite">Void</span>`,
+      `매일의 하늘 색 예보입니다. 월요일: <span style="color: turquoise">청록색</span>
+      화요일: <span style="color: #d2c6ba">회갈색</span>
+      수요일: <span style="animation: a-game-header__antimatter--glow 3s infinite">블러플</span>
+      목요일: <span style="color: turquoise">청록색</span>/<span style="color: #d2c6ba">회갈색</span>
+      금요일: <span style="color: #222">석탄 가루</span> 토요일: <span style="color: #222">석탄 가루</span>,
+      늦은 오후에는 <span style="color: indigo">남색</span>이 나타날 가능성이 있습니다.
+      일요일: <span style="color: white; animation: a-existence-glow 3s infinite">공허</span>`,
   },
   {
     id: "a310",
     text:
-      `You have reached the automated Antimatter Dimensions support hotline. If you are experiencing a bug in the
-      game try closing and reopening the app. If that doesn't work, press 1 for web, or 2 for mobile. If you need
-      advice, press 3. If you need to max all, press m. To support the developers, press 4. To access the FAQ,
-      press 5. To fix a broken save, press 6. To get an invite to the Discord server, press 7. To see the change
-      log, press 8. Press 9 to repeat.`
+      `반물질 차원 자동 고객 지원 전화에 연결됐습니다. 게임에서 버그가 발생한다면 앱을 닫았다가 다시
+      실행해 보세요. 해결되지 않으면 웹 버전은 1번, 모바일 버전은 2번을 누르세요. 조언이 필요하면 3번,
+      모두 최대 구매하려면 m, 개발자를 후원하려면 4번, FAQ를 보려면 5번, 손상된 저장 파일을 고치려면 6번,
+      Discord 서버 초대를 받으려면 7번, 변경 기록을 보려면 8번을 누르세요. 다시 들으려면 9번을 누르세요.`
   },
   {
     id: "a311",
     text:
-      `This message has been copyrighted by The Walt Disney Company. Your
-      account will be charged $9.99 upon viewing this message.`
+      `이 메시지의 저작권은 The Walt Disney Company에 있습니다. 이 메시지를 보는 즉시
+      계정에 $9.99가 청구됩니다.`
   },
   {
     id: "a312",
     text:
-      `But before we start, today's video is brought to you by Antimatter Dimensions™! It's got over 100,000
-      downloads, and it's completely redefined what a mobile game can do for me. It's got great mechanics, 5
-      prestige layers, unique and original challenges, a deep skill tree, and the largest numbers I've ever seen.
-      Like, seriously, look at them. And the best part is, it's free! Yes, that's right. Free. And if you use the
-      link in the description, you'll start the game with 10 septillion antimatter. Yes, that's right, 10
-      septillion. So what are you waiting for, click the link in the description and start playing Antimatter
-      Dimensions™ today!`
+      `시작하기 전에 오늘 영상은 반물질 차원™의 후원을 받았습니다! 다운로드 수가 100,000회를 넘었고
+      모바일 게임이 제게 해 줄 수 있는 일을 완전히 새롭게 정의했습니다. 훌륭한 메커니즘, 5개의 프레스티지
+      단계, 독특하고 독창적인 도전, 깊이 있는 스킬 트리, 제가 본 것 중 가장 큰 숫자가 있습니다. 진심으로,
+      한번 보세요. 가장 좋은 점은 무료라는 것입니다! 맞습니다. 무료입니다. 설명란의 링크를 이용하면
+      반물질 10셉틸리언을 갖고 게임을 시작합니다. 맞습니다, 10셉틸리언입니다. 뭘 기다리고 있나요?
+      설명란의 링크를 클릭하고 오늘 바로 반물질 차원™을 플레이하세요!`
   },
   {
     id: "a313",
     text:
-      `"...And then, once you get to level 9,000, you can ascend. Not really sure why you'd want to do that, it
-      just resets all of your hard earned xp for some small buffs, mechanics like this will never catch on."
-      - some random guy, circa 2012`
+      `"...그리고 레벨 9,000에 도달하면 승천할 수 있어. 왜 그러고 싶은지는 잘 모르겠어. 힘들게 모은 경험치를
+      전부 초기화하고 작은 강화 효과 몇 개를 받는 것뿐이거든. 이런 메커니즘은 절대 유행하지 않을 거야."
+      - 2012년경의 어떤 사람`
   },
   {
     id: "a314",
     get text() {
       const lawID = Math.floor(Math.random * 8901) + 100;
-      return `Warning: Law ${lawID}-B, drafted by the AI "duskscarf", alternatively referred to as "the giant
-        space rabbit legislation" is now in effect in your galactic area. This list of laws and regulation
-        forbids, among other things; the illegal catching of wild space rabbits, the pacification of tamed
-        space rabbits, and further scientific research with "planet grazing" unless an exception is given
-        directly by duskscarf. You can find the list of exceptions burned into your eyelids now. In addition,
-        the genetic modification of giant space rabbits is limited to very specific fields - size alterations
-        (increasing in size), and cryptobiosis exaggeration. No other genetic modification is allowed outside
-        of military applications. Thank you for your cooperation. Messages repeats in- Warning: Law ${lawID}-`;
+      return `경고: AI "duskscarf"가 작성하고 "거대 우주 토끼 법안"이라고도 불리는 법률 ${lawID}-B가
+        여러분의 은하 지역에서 시행됩니다. 이 법률 및 규정 목록은 야생 우주 토끼의 불법 포획, 길들인
+        우주 토끼의 진정, 그리고 duskscarf가 직접 예외를 허가하지 않은 "행성 방목" 관련 추가 과학 연구
+        등을 금지합니다. 이제 눈꺼풀에 새겨진 예외 목록을 확인할 수 있습니다. 또한 거대 우주 토끼의
+        유전자 변형은 크기 변경(더 크게 만들기)과 잠복생명 과장이라는 매우 구체적인 분야로 제한됩니다.
+        군사적 용도 외의 다른 유전자 변형은 허용되지 않습니다. 협조해 주셔서 감사합니다. 메시지를 다시
+        재생합- 경고: 법률 ${lawID}-`;
     }
   },
   {
     id: "a315",
     text:
-      `The developers of the game have announced that a new notation, "Truest Blind", will be released. They
-      report that it will remove the UI, allowing for a more streamlined user experience.`
+      `게임 개발자들이 새로운 "Truest Blind" 표기법을 출시한다고 발표했습니다. UI를 제거해 더욱
+      간결한 사용자 경험을 제공할 예정이라고 합니다.`
   },
   {
     id: "a316",
-    text: "Some people choose to see the ugliness in this world. The disarray. I choose to see the numbers."
+    text: "어떤 이들은 이 세상의 추함과 혼란을 봅니다. 나는 숫자를 보기로 했습니다."
   },
   {
     id: "a317",
     get text() {
-      return `${format(Number.MAX_VALUE, 2, 0)}? Doesn't look like anything to me.`;
+      return `${format(Number.MAX_VALUE, 2, 0)}이라고요? 제 눈에는 아무것도 아닌 것 같군요.`;
     }
   },
   {
     id: "a318",
     text:
-      `We can't define consciousness because consciousness does not exist. Humans fancy that there's
-      something special about the way we perceive the world, and yet we follow guides as tight as the
-      bots do, seldom questioning our choices, content, for the most part, to be told what to do next.`
+      `의식은 존재하지 않으므로 우리는 의식을 정의할 수 없습니다. 인간은 자신이 세상을 인식하는 방식에
+      특별한 무언가가 있다고 생각합니다. 하지만 봇처럼 엄격하게 공략을 따르고, 자신의 선택에는 거의 의문을
+      품지 않으며, 대부분은 다음에 무엇을 할지 지시받는 데 만족합니다.`
   },
   {
     id: "a319",
-    text: "Please disregard any undeserved compliments."
+    text: "받을 자격이 없는 칭찬은 무시해 주세요."
   },
   {
     id: "a320",
-    text: "Introducing the aphone 10: The world's first completely water soluble mobile device!",
+    text: "aphone 10을 소개합니다. 세계 최초로 물에 완전히 녹는 모바일 기기입니다!",
     isAdvertising: true
   },
   {
     id: "a321",
     text:
-      `It must be hard being on your PC all alone. But don't worry; we are still here.
-      Listening and watching your every step.`
+      `PC 앞에 혼자 있으면 힘들겠군요. 하지만 걱정하지 마세요. 우리가 아직 이곳에서
+      여러분의 일거수일투족을 듣고 지켜보고 있습니다.`
   },
   {
     id: "a322",
     text:
-      `Hevipelle announces an Antimatter Dimensions spinoff where you gamble matter in a game of
-      poker in Dutch mansions: "Ante matter d'mansions"`
+      `Hevipelle가 네덜란드 저택에서 포커로 물질을 거는 반물질 차원 스핀오프를 발표했습니다.
+      제목은 "Ante matter d'mansions"입니다.`
   },
   {
     id: "a323",
-    text: `var i = "Omae wa mou shindeiru" console.log(i - 1 + "i?") NaNi?`
+    text: `var i = "Omae wa mou shindeiru" console.log(i - 1 + "i?") NaNi? (“넌 이미 죽어 있다.”를 변수에 넣어 복소수 i와 “뭐라고?”를 엮은 북두의 권 코드 밈입니다.)`
   },
   {
     id: "a324",
     text:
-      `If you have an idea for a news message, shout it into the void.
-      It won't get your message into the game, but it's fun!`
+      `뉴스 메시지 아이디어가 있다면 공허를 향해 외치세요.
+      게임에 메시지가 들어가지는 않겠지만 재미는 있습니다!`
   },
   {
     id: "a325",
     text:
-      `After the accident at the antimatter reactor in Pripyat last month, concerns are rising about the safety of
-      antimatter reactors, and many are starting to believe we should return to safer means of energy generation,
-      such as nuclear.`
+      `지난달 프리피야트의 반물질 원자로에서 사고가 난 뒤 반물질 원자로의 안전성에 대한 우려가 커지고
+      있으며, 많은 사람이 원자력처럼 더 안전한 발전 방식으로 돌아가야 한다고 생각하기 시작했습니다.`
   },
   {
     id: "a326",
-    text: "Antimatter Dimensions is like an ogre... it has layers."
+    text: "반물질 차원은 오거와 같습니다... 여러 겹으로 되어 있습니다."
   },
   (function() {
     let wasClicked = false;
@@ -2063,68 +2044,66 @@ export const news = [
   {
     id: "a328",
     text:
-      `News company no longer lets random people submit stories,
-      instead opting to using qualified writers. Riots ensue.`
+      `뉴스 회사가 더 이상 아무나 기사를 제출하지 못하게 하고 자격을 갖춘 작가를
+      쓰기로 했습니다. 폭동이 일어났습니다.`
   },
   {
     id: "a329",
     text:
-      `Introducing Morse Code+++ - the brand new Morse code, now with 20 new
-      characters, for everyone who wants to slide, zip, and swoosh!`,
+      `모스 부호+++를 소개합니다. 미끄러지고, 쌩 지나가고, 휙 날아가고 싶은 모두를 위해
+      새로운 문자 20개를 추가한 완전히 새로운 모스 부호입니다!`,
     isAdvertising: true
   },
   {
     id: "a330",
-    text: "Any sufficiently primitive magic is indistinguishable from technology."
+    text: "충분히 원시적인 마법은 기술과 구별할 수 없습니다."
   },
   {
     id: "a331",
-    text: "I have no nose, and I must sneeze!"
+    text: "코는 없지만 재채기는 해야 해!"
   },
   {
     id: "a332",
-    text: "♪ When you try your worst and you still succeed. ♪"
+    text: "♪ 최악을 다했는데도 성공했을 때. ♪"
   },
   {
     id: "a333",
-    text: `The wildly popular theme song "Gotta set 'em free" has reached 500 million downloads in its first week.`
+    text: `엄청난 인기를 끈 주제곡 "모두 풀어 줘야 해"가 첫 주에 다운로드 500백만 회를 달성했습니다.`
   },
   {
     id: "a334",
     text:
-      `Introducing the all-new anti-alignment chart! Featuring groundbreaking new combinations such as "lawful-chaotic"
-      and "evil-good"! And with a dazzling third axis for 'Jazziness'~ Identify yourself as chaotic-lawful-unjazzy NOW
-      for the impossibly low price of $-59.99! Terms and conditions apply. Batteries not included.`,
+      `완전히 새로운 반성향표를 소개합니다! "질서-혼돈"과 "악-선"처럼 획기적인 새 조합이 들어 있습니다!
+      게다가 눈부신 세 번째 축 '재즈스러움'까지~ 믿을 수 없이 저렴한 $-59.99에 지금 당장 자신을
+      혼돈-질서-비재즈형으로 규정하세요! 이용 약관이 적용됩니다. 배터리는 포함되지 않습니다.`,
     isAdvertising: true
   },
   {
     id: "a335",
     text:
-      `Due to new complications regarding "The Game", protests have risen all over the anti-verse. Thus, governments
-      are forced to change the rule of The Game, stating that you win The Game if someone informs you about it,
-      instead of losing it.`
+      `"그 게임"에 새로운 문제가 생기면서 반우주 전역에서 시위가 일어났습니다. 이에 각 정부는 누군가
+      그 게임을 알려 주면 패배하는 대신 승리하도록 그 게임의 규칙을 바꿀 수밖에 없었습니다.`
   },
   {
     id: "a336",
-    text: `Attention residents of zone 4 [commonly referred to as 'dark zone'], sector ϰ, (01,05). Do
-      not leave your places of residence. I repeat, do not leave your places of residence. Do not go outside.
-      Earthology's finest meteorological supercomputers, as well as many witches, are consistently claiming a
-      'generally weird vibe' tomorrow and we quite frankly don't want to find out what that means.`
+    text: `4구역[흔히 '어둠 구역'이라 불림], ϰ 섹터, (01,05)의 주민 여러분께 알립니다. 거주지를
+      떠나지 마세요. 반복합니다. 거주지를 떠나지 말고 밖으로 나가지 마세요. Earthology 최고의 기상
+      슈퍼컴퓨터들과 수많은 마녀가 내일 '전반적으로 이상한 분위기'가 감돈다고 한결같이 주장하고 있으며,
+      솔직히 그것이 무슨 뜻인지 알아보고 싶지 않습니다.`
   },
   {
     id: "a337",
     text:
-      `Technological convergence is the concept that all technologies will converge into a single technology. It is
-      a commonly expressed idea since the dawn of the Information Age, and can be seen in many places and devices
-      such as smartphones, or the internet. Antimatter Dimensions is an example of technological convergence,
-      specifically within media. Using a genius idea called 'not caring' mixed in with the innovative solution of
-      'blind luck', it merges together a subpar game, and a subpar news ticker, to create a mediocre experience
-      that despite being mostly a game, occasionally acts as a news source slightly above the Matter Dimensions
-      Newsticker. Truly, an achievement for all businesses to aspire to strive towards, and hopefully actually beat.`
+      `기술 융합은 모든 기술이 하나의 기술로 합쳐진다는 개념입니다. 정보화 시대가 시작된 뒤 흔히 표현된
+      생각으로, 스마트폰이나 인터넷 같은 여러 장소와 기기에서 찾아볼 수 있습니다. 반물질 차원은 특히
+      미디어 분야의 기술 융합 사례입니다. '신경 쓰지 않기'라는 천재적 발상에 '순전히 운에 맡기기'라는
+      혁신적 해결책을 섞어 수준 이하의 게임과 수준 이하의 뉴스 티커를 합칩니다. 그 결과 대부분은
+      게임이면서도 가끔 물질 차원 뉴스 티커보다 아주 조금 나은 뉴스 매체 역할을 하는 평범한 경험이
+      탄생합니다. 모든 기업이 본받고, 노력하고, 바라건대 실제로 능가해야 할 참으로 위대한 업적입니다.`
   },
   {
     id: "a338",
-    text: "Ancient cave paintings with the number 5 have been found. It's implied they were waiting for something."
+    text: "숫자 5가 그려진 고대 동굴 벽화가 발견됐습니다. 무언가를 기다리고 있었다는 뜻으로 보입니다."
   },
   (function() {
     let wasClicked = false;
@@ -2148,27 +2127,26 @@ export const news = [
   {
     id: "a340",
     text:
-      `That's quite a lot of antimatter you're making. The game developer is impressed. Because this message is
-      prerecorded, any observations related to your antimatter production are speculation on our part. Please
-      disregard any undeserved compliments.`
+      `반물질을 꽤 많이 만들고 있군요. 게임 개발자도 감탄했습니다. 이 메시지는 미리 녹화됐으므로 여러분의
+      반물질 생산량에 관한 모든 관찰은 저희의 추측일 뿐입니다. 받을 자격이 없는 칭찬은 무시해 주세요.`
   },
   {
     id: "a341",
-    text: "Game under construction: All mechanics must wear hardcaps."
+    text: "게임 공사 중: 모든 메커니즘은 하드캡을 착용해야 합니다."
   },
   {
     id: "a342",
-    text: "Of course paperclips have a use, you use them to hold papers together. But who uses paper anymore?"
+    text: "물론 클립은 쓸모가 있습니다. 종이를 한데 묶을 때 쓰죠. 하지만 요즘 누가 종이를 쓰나요?"
   },
   {
     id: "a343",
     get text() {
       const fakeProgress = Math.pow(player.records.realTimePlayed, 25);
       // Caps in ~68 years of real playtime then turns into "Infinite%"
-      return `Global Challenge - across all AD players, accumulate ${format(Number.MAX_VALUE, 2)} contest-paperclips
-        (noted by the
-        square ends), to receive an event-exclusive metal bagpipe, capable of giving +2 AM/s, as well as an extra
-        tickspeed while above ${format(1e200)} tickspeed upgrades! Current global progress -
+      return `전역 도전 - 모든 AD 플레이어가 대회용 클립(끝이 사각형인 것으로 구분)을
+        ${format(Number.MAX_VALUE, 2)}개 모으면 이벤트 한정 금속 백파이프를 받습니다. 이 백파이프는
+        AM/s +2와 함께 틱스피드 업그레이드가 ${format(1e200)}개를 넘을 때 추가 틱스피드를 제공합니다!
+        현재 전역 진행도 -
         ${format(fakeProgress)}/${format(Number.MAX_VALUE, 2)}
         (${formatPercents(Math.log10(fakeProgress) / Math.log10(Number.MAX_VALUE), 3)})`;
     }
@@ -2176,71 +2154,65 @@ export const news = [
   {
     id: "a344",
     text:
-      `Real life is an enigma. No one knows how it really works. There are many questions left unanswered:
-      What is the meaning of life? Are we all living inside a simulation? How do you do antitables? Where and
-      how did existence begin? These are all the questions that always linger in the back of our heads, and
-      the answers to them? We may never know.`
+      `현실의 삶은 수수께끼입니다. 실제로 어떻게 작동하는지는 아무도 모릅니다. 답을 찾지 못한 질문도
+      많습니다. 삶의 의미는 무엇일까요? 우리는 모두 시뮬레이션 속에 살고 있을까요? 반대 표는 어떻게
+      달성할까요? 존재는 어디서 어떻게 시작됐을까요? 이 모든 질문은 늘 머릿속 한편에 남아 있지만
+      그 답은 영원히 알 수 없을지도 모릅니다.`
   },
   {
     id: "a345",
-    text: "Japanese complain, as haikus can't be shown here. Conflict arises."
+    text: "이곳에는 하이쿠를 표시할 수 없어 일본인들이 항의합니다. 갈등이 일어났습니다."
   },
   {
     id: "a346",
     text:
-      `Did you know Antimatter Dimensions is also available on Android? <a
+      `반물질 차원을 Android에서도 이용할 수 있다는 사실을 알고 계셨나요? <a
       href="https://play.google.com/store/apps/details?id=kajfosz.antimatterdimensions" target="_blank">
-      Click here to check it out!<a>`
+      확인하려면 여기를 클릭하세요!<a>`
   },
   {
     id: "a347",
     text:
-      `Pluto isn't a state. The 50 states, as we all know, are: Adverb, Air, Artemis, Asia, Atlantic, Bargaining,
-      Bilabial, Braille, Candela, Comma, Dacron, Dairy, Dative, Dexterity, Disenchanter, Dodecahedron, Erie,
-      Eukaryota, Folklore, Great Pyramid, Halogen, Igneous, Italy, Kansas, Kilimanjaro, Lambda, Leviticus, Libra,
-      Liquid, Lymphatic, Mesozoic, Microwave, Muon, North, Nova Scotia, Octagon, October, P = NP, Perissodactyla,
-      Polk, Potassium, Pulley, Quinary, Rook, Saturn, Tiana, Tiger, Varaha, Yale, and Yellow.`
+      `명왕성은 주가 아닙니다. 모두 알다시피 50개 주는 부사, 공기, 아르테미스, 아시아, 대서양, 흥정,
+      양순음, 점자, 칸델라, 쉼표, 데이크론, 유제품, 여격, 민첩성, 마법 해제사, 십이면체, 이리,
+      진핵생물, 민속, 대피라미드, 할로젠, 화성암, 이탈리아, 캔자스, 킬리만자로, 람다, 레위기, 천칭자리,
+      액체, 림프, 중생대, 전자레인지, 뮤온, 북쪽, 노바스코샤, 팔각형, 10월, P = NP, 기제류,
+      Polk, 칼륨, 도르래, 오진법, 룩, 토성, Tiana, 호랑이, Varaha, 예일, 노란색입니다.`
   },
   {
     id: "a348",
-    text: "<span style='color: red'>[News Message removed by moderator]<span>"
+    text: "<span style='color: red'>[관리자가 뉴스 메시지를 삭제함]<span>"
   },
   {
     id: "a349",
     get text() {
       const chapters = [
-        `We have come, writers, painters, sculptors, architects, passionate enthusiasts of the hitherto untouched
-        beauty of Paris, to protest with all our strength, all our indignation, in the name of the unknown French
-        taste, in the name of art and of French history threatened, against the erection, in the heart of our
-        capital, of the useless and monstrous Eiffel Tower, which public malignity, often marked by common sense
-        and the spirit of justice, has already named of "Tower of Babel". Without falling into the exaltation of
-        chauvinism, we have the right to proclaim that Paris is the unrivaled city in the world. Above the streets,
-        the widened boulevards, and the magnificent walks, rise the most noble monuments that the human race has
-        produced. The soul of France, creator of masterpieces, shines amidst this august flowering of stones. Italy,
-        Germany and Flanders, so justifiably proud of their artistic legacy, possess nothing comparable to ours,
-        and from all corners of the universe Paris attracts curiosities and admiration.`,
-        `Are we going to let all this be profaned? Will the city of Paris go on to associate itself longer with the
-        baroques, with the mercantile imaginations of a machine builder, to become irreparably ugly and dishonor
-        itself? For the Eiffel Tower, which commercial America itself would not want, is, doubtless, the dishonor
-        of Paris. Everyone feels it, everyone says it, everyone deeply grieves it, and we are only a weak echo of
-        the universal opinion, so legitimately alarmed.`,
-        `Finally, when the foreigners come to visit our Exhibition, they will exclaim, astonished: "What? It is this
-        horror that the French have found to give us an idea of their taste so much vaunted? And they will be right
-        to make fun of us, because the Paris of the sublime gothics, the Paris of Jean Goujon, Germain Pilon, Puget,
-        Rude, Barye, etc., will have become the Paris of M. Eiffel.`,
-        `It suffices, moreover, to realize what we are doing, to imagine for a moment a vertiginously ridiculous
-        tower dominating Paris, as well as a gigantic factory chimney, crushing with its barbarian mass. Our Lady,
-        the Sainte-Chapelle, the dome of the Invalides, the Arc de Triomphe, all our humiliated monuments, all our
-        shrunken architectures, which will disappear in this astonishing dream. And for twenty years, we will see
-        how to stretch out over the entire city, still quivering with the genius of so many centuries, we will see
-        the odious shadow of the odious column of bolted sheet metal stretch like an ink stain ...`,
-        `It's up to you, Monsieur and dear compatriot, to you who love Paris so much, who have embellished it so
-        much, who have so often protected it against the administrative devastation and the vandalism of industrial
-        enterprises, that it is the honor to defend it once more. We leave it to you to plead the cause of Paris,
-        knowing that you will deploy all the energy, all the eloquence that must inspire an artist such as you love
-        what is beautiful, what is great, what is right ... And if our cry of alarm is not heard, if our reasons are
-        not listened to, if Paris is stubborn in the idea of dishonoring Paris, we will have, at least, you and us,
-        hear a protest that honors.`
+        `우리 작가, 화가, 조각가, 건축가와 지금껏 훼손되지 않은 파리의 아름다움을 열렬히 사랑하는 이들은
+        알려지지 않은 프랑스적 미감의 이름으로, 위협받는 예술과 프랑스 역사의 이름으로 온 힘과 분노를
+        다해 항의하고자 이곳에 왔습니다. 우리 수도의 심장부에 쓸모없고 기괴한 에펠탑을 세우는 일에
+        반대합니다. 상식과 정의감으로 이름 높은 대중의 악의는 이미 이를 "바벨탑"이라 불렀습니다.
+        국수주의적 도취에 빠지지 않고도 파리가 세계에서 견줄 곳 없는 도시라고 선언할 권리가 있습니다.
+        거리와 넓게 뻗은 대로, 장엄한 산책로 위에는 인류가 만든 가장 고귀한 기념물들이 솟아 있습니다.
+        걸작을 창조한 프랑스의 영혼은 이 장엄하게 피어난 돌들 사이에서 빛납니다. 예술적 유산을 정당하게
+        자랑스러워하는 이탈리아, 독일, 플랑드르에도 우리 것에 견줄 만한 것은 없으며, 파리는 우주 곳곳에서
+        호기심과 찬탄을 불러 모읍니다.`,
+        `이 모든 것이 모독당하도록 내버려 둘 것인가? 파리시는 바로크 양식과 기계 제작자의 상업적 상상력에
+        더 오래 자신을 결부시켜, 돌이킬 수 없이 추해지고 스스로 명예를 더럽힐 것인가? 상업의 나라 미국조차
+        원하지 않을 에펠탑은 의심할 여지 없이 파리의 불명예다. 모두가 이를 느끼고 말하며 깊이 슬퍼한다.
+        우리는 이처럼 정당하게 경악한 보편적 여론의 미약한 메아리일 뿐이다.`,
+        `마침내 외국인들이 우리 박람회를 찾으면 놀라 외칠 것이다. "뭐라고? 프랑스인이 그토록 자랑하던 취향을
+        보여 주겠다며 찾아낸 것이 이 흉물인가? 그리고 그들이 우리를 비웃는 것은 당연하다. 숭고한 고딕의 파리,
+        Jean Goujon과 Germain Pilon, Puget, Rude, Barye 등의 파리가 M. Eiffel의 파리가 되어 버렸기 때문이다.`,
+        `더구나 우리가 무엇을 하는지 깨닫고 싶다면, 거대한 공장 굴뚝처럼 파리를 지배하며 야만적인 덩어리로
+        짓누르는 아찔할 만큼 우스꽝스러운 탑을 잠시 상상하는 것으로 충분하다. 노트르담, 생트샤펠, 앵발리드의
+        돔, 개선문, 굴욕당한 모든 기념물과 왜소해진 모든 건축물이 이 놀라운 꿈속에서 사라질 것이다. 그리고
+        스무 해 동안, 수많은 세기의 천재성으로 여전히 떨리는 도시 전체 위로 볼트로 조인 판금 기둥의 혐오스러운
+        그림자가 잉크 얼룩처럼 번지는 모습을 보게 될 것이다...`,
+        `파리를 그토록 사랑하고 아름답게 가꾸며 행정의 파괴와 산업 사업의 반달리즘에서 수차례 지켜 온 선생이자
+        친애하는 동포인 당신에게, 파리를 다시 한 번 지킬 영예가 달려 있다. 파리의 대의를 변호하는 일은 당신에게
+        맡긴다. 아름답고 위대하며 옳은 것을 사랑하는 당신 같은 예술가에게 영감을 주어야 할 모든 열정과 웅변을
+        펼치리라 믿는다... 우리의 경고가 들리지 않고 우리의 이유에 귀 기울이지 않으며 파리가 파리를 욕되게
+        하겠다는 생각을 고집한다면, 적어도 당신과 우리는 명예로운 항의를 들려주었을 것이다.`
       ];
       const chapter = chapters[player.news.specialTickerData.eiffelTowerChapter];
       player.news.specialTickerData.eiffelTowerChapter = (player.news.specialTickerData.eiffelTowerChapter + 1) % 5;
@@ -2250,19 +2222,19 @@ export const news = [
   {
     id: "a350",
     text:
-      `Alexander wept, for he had just watched a pop-culture lecture on quantum mechanics by Anaxarchus and
-      realised that there are infinite worlds to conquer, and that he couldn't even be the lord of one without
-      a mutiny or 6 stopping him.`
+      `알렉산더는 눈물을 흘렸다. 아낙사르코스의 대중문화식 양자역학 강연을 보고 정복할 세계가 무한히 많고,
+      반란 한 번, 아니 6번쯤이 그의 앞길을 가로막아 그중 단 하나의 군주조차 될 수 없다는 사실을 막
+      깨달았기 때문이다.`
   },
   {
     id: "a351",
-    text: "Hi, I'm here to complain about the poor quality of the copper that has just been delivered to me."
+    text: "안녕하세요. 방금 배송받은 구리의 품질이 형편없어서 항의하러 왔습니다."
   },
   {
     id: "a352",
     get text() {
       return `<span style='opacity: 0; animation: a-disappear ${newsAnimSpd(20)}s 1'>
-      This news message is antimemetic. You will forget that it exists shortly.</span>`;
+      이 뉴스 메시지는 항밈적입니다. 곧 이 뉴스가 존재한다는 사실을 잊게 될 것입니다.</span>`;
     }
   },
   (function() {
@@ -2299,212 +2271,200 @@ export const news = [
   },
   {
     id: "a356",
-    text: `Press "Choose save" to explore the other 2 parallel universes.`
+    text: `나머지 2개의 평행 우주를 탐험하려면 "세이브 선택하기"를 누르세요.`
   },
   {
     id: "a357",
     text:
-      `The Scientific Community remains baffled over the meaning of 286,078. "We're certain it's related to potatoes,
-      but we need to do more tests." one researcher notes.`
+      `과학계는 여전히 286,078의 의미를 밝혀내지 못하고 있습니다. 한 연구원은 "감자와 관련된 건 확실하지만,
+      실험을 더 해 봐야 합니다."라고 밝혔습니다.`
   },
   {
     id: "a358",
-    text: `Press "Choose save" to explore the other 2 parallel universes.`
+    text: `나머지 2개의 평행 우주를 탐험하려면 "세이브 선택하기"를 누르세요.`
   },
   {
     id: "a359",
     text:
-      `Local incremental game dev makes physicists unhappy again. They claim
-      "the physics violations and blatant use of technobabble has gone too far".`
+      `한 증분 게임 개발자가 또다시 물리학자들을 화나게 했습니다. 물리학자들은
+      "물리 법칙 위반과 노골적인 유사 과학 용어 남발이 도를 넘었다"고 주장했습니다.`
   },
   {
     id: "a360",
-    text: `Press "Choose save" to explore the other 2 parallel universes.`
+    text: `나머지 2개의 평행 우주를 탐험하려면 "세이브 선택하기"를 누르세요.`
   },
   {
     // Discord contest winner #1
     id: "a361",
-    text: "We're having a sale of top quality waterproof towels! Be sure to get some on your way out!"
+    text: "최고급 방수 수건을 할인 판매 중입니다! 나가시는 길에 꼭 몇 장 장만하세요!"
   },
   {
     // Discord contest winner #2
     id: "a362",
     text:
-      `Hevipelle Incorporated is proud to present a new brand of cereal: The Big Crunch! This nutritious breakfast
-      meal contains crunchy antimatter O's, pocket dimensions, Infinity-flavored Sugar Cubes, exponentially-growing
-      Replicanti, and Eternity-flavored Marshmallows. Now you can experience Antimatter Dimensions inside of your
-      stomach! Warning: Side effects may include spontaneous combustion, nausea, vomiting, diarrhea,
-      dematerialization, vaporization, heart failure, the end of the world, or death. If you are not made out of
-      antimatter, consult an educated professional on Antimatter Consumption before eating 'The Big Crunch'.`,
+      `Hevipelle 주식회사가 자랑스럽게 새로운 시리얼, "빅 크런치"를 선보입니다! 영양 만점인 이 아침 식사에는
+      바삭한 반물질 O 시리얼, 포켓 차원, 무한 맛 각설탕, 기하급수적으로 증식하는 복제자, 영원 맛 마시멜로가
+      들어 있습니다. 이제 배 속에서 Antimatter Dimensions를 체험할 수 있습니다! 경고: 부작용으로 자연 발화,
+      메스꺼움, 구토, 설사, 비물질화, 기화, 심부전, 세계 종말 또는 사망이 발생할 수 있습니다. 몸이 반물질로
+      이루어져 있지 않다면 "빅 크런치"를 먹기 전에 반물질 섭취 전문가와 상담하세요.`,
     get unlocked() { return PlayerProgress.eternityUnlocked(); }
   },
   {
     id: "a363",
     text:
-      `The most expensive thing about a dragon isn't the gold you need to fill the nest, the magic you sacrifice
-      entire empires for, or the billions of wars you need to supply the decillions of adamantium. No, it is the
-      dirt. It's always the dirt. Don't ask the royal treasurers why we have more creatures on the plane than
-      molecules of dirt. Just keep summoning bulldozers through arcane rituals and keep looking through the
-      earth's core for more scraps of dirt.`
+      `용을 기르는 데 가장 비싼 것은 둥지를 채우는 데 필요한 금도, 제국 전체를 희생해서라도 얻어야 하는 마법도,
+      데실리언 단위의 아다만티움을 조달하려 치러야 하는 수십억 번의 전쟁도 아닙니다. 아니요, 바로 흙입니다.
+      언제나 흙이 문제입니다. 이 차원계에 흙 분자보다 생물이 더 많은 이유는 왕실 재무관들에게 묻지 마세요.
+      비전 의식으로 불도저를 계속 소환하고, 지구의 핵까지 뒤지며 흙 한 줌이라도 더 찾아내세요.`
   },
   {
     id: "a364",
     get text() {
       const products = [
-        `Illustration 320-A - True Office Graphics Wall. One of our senior consultants will observe your business,
-        and come up with a list of words to be added to a hallway, to remind all employees of the values of their
-        company. Known to decrease employee motivation by at least 25%! Past walls include words such as Black
-        Hole, Catastrophic, Haphazard, compromising, Inferior, Delusional, Inefficient and Collapsed! Order now!`,
-        `Furniture 150-A (2034 edition) - 3-person seating device. A revolutionary new design for office waiting
-        areas, it consists of a large 3 legged stool, placed upside down for aesthetic benefits. Perfect for
-        getting employees back to work, in a new set of shoes, or pants. It isn't tied down or glued to the
-        floor like other editions, but we do make sure that other employees look at you funny if you edit our
-        art. No need to order, it comes as a complimentary service for any customer!`,
-        `Furniture 0853 - "The Rack" - this revolutionary new workspace, from the inventors of the crawling
-        desk, helps your employees overcome their limits and ensure that your whole business is screaming -
-        in agony! At times chosen by our revolutionary "pAIn AI", it will suggest mandatory stretchers for all
-        users. Recommended by your local gaol, order now! *Warning, AOS&C only takes responsibility for acts
-        of god such as lightning or merciful purifications by deities.`
+        `일러스트 320-A - 진정한 사무실 그래픽 벽. 당사의 수석 컨설턴트가 귀사의 사업을 관찰한 뒤, 모든 직원이
+        회사의 가치를 되새기도록 복도에 붙일 단어 목록을 만들어 드립니다. 직원의 의욕을 최소 25% 떨어뜨리는
+        것으로 유명합니다! 지금까지 제작한 벽에는 블랙홀, 재앙, 주먹구구, 타협, 열등, 망상, 비효율, 붕괴 같은
+        단어가 들어갔습니다! 지금 주문하세요!`,
+        `가구 150-A(2034년판) - 3인용 좌석 장치. 사무실 대기 공간을 위한 혁신적인 신제품으로, 미적 효과를 위해
+        다리가 3개인 커다란 스툴을 거꾸로 놓았습니다. 직원들이 새 신발이나 바지 차림으로 업무에 복귀하도록
+        만들기에 완벽합니다. 다른 판본과 달리 바닥에 묶거나 접착제로 붙이지는 않았지만, 당사의 예술 작품에
+        손대면 다른 직원들이 이상한 눈으로 쳐다보도록 확실히 조치해 둡니다. 주문하실 필요도 없습니다. 모든
+        고객에게 무료 서비스로 제공됩니다!`,
+        `가구 0853 - "고문대(The Rack)" - 기어 다니는 책상을 발명한 이들이 선보이는 혁신적인 새 업무 공간입니다.
+        직원들이 한계를 극복하도록 돕고 회사 전체가 비명을 지르도록 보장합니다. 고통에 찬 비명을요! 혁신적인
+        "pAIn AI"가 정한 시간마다 모든 사용자에게 강제 신장 장치를 권합니다. 지역 교도소의 추천 상품이니 지금
+        주문하세요! *경고: AOS&C는 낙뢰나 신들이 베푸는 자비로운 정화처럼 신의 소행인 사건에 대해서만
+        책임집니다.`
       ];
       const product = products.randomElement();
-      return `Antimatter Office Supplies and Co present their new "Modern Office" catalogue! Each template
-        design can be customised for your business, and offers a unique way to promote business synergy! Here
-        is a sneak preview of one of their newest items: ${product}`;
+      return `반물질 사무용품 주식회사가 새로운 "현대식 사무실" 카탈로그를 선보입니다! 각 견본 디자인은 귀사에
+        맞게 주문 제작할 수 있으며, 기업 시너지를 촉진하는 독특한 방법을 제공합니다! 최신 상품 중 하나를
+        살짝 공개합니다: ${product}`;
     },
   },
   {
     id: "a365",
-    text: "I don't like Replicanti. They're coarse and rough and irritating and they replicate everywhere.",
+    text: "난 복제자가 싫어. 거칠고, 까칠하고, 짜증 나는 데다 온 사방에서 복제되니까.",
     get unlocked() { return PlayerProgress.eternityUnlocked() || PlayerProgress.replicantiUnlocked(); }
   },
   {
     id: "a366",
     text:
-      `Stage magic, such as illusions, has an interesting history. A mix of charlatans attempting to scam people,
-      and actors acting out performances using illusions or sleight of hand. Altering styles of magic, and continued
-      discourse and disagreements over whether it should be stated that it is an illusion, and whether people will
-      magically realise that it is fake and that it does not need to be stated. A schism a century ago split magic
-      into 2 types - gentle, simplistic utilitarian tricks and grand spectacles involving the flashy machinery and
-      beautiful assistants - originating from the popularisation of a single trick involving sawing a person in
-      half. Much more interesting than watching some TV psychic pretending to pull a lottery ticket out from a news
-      ticker, at any rate. Speaking of which, tonight's lottery numbers are 23, 10, 81, 106.4, 3 + 2i, and e.`
+      `환상술 같은 무대 마술에는 흥미로운 역사가 있습니다. 사람들을 등쳐먹으려는 협잡꾼들과 환상이나 손기술로
+      공연을 펼치는 연기자들이 뒤섞여 있었죠. 마술 양식은 변해 왔고, 이것이 환상에 불과하다고 밝혀야 하는지,
+      관객이 마법처럼 알아서 가짜임을 깨달을 테니 굳이 밝힐 필요가 없는지를 두고 논쟁과 불화도 계속됐습니다.
+      한 세기 전 일어난 분열로 마술은 2가지가 됐습니다. 소박하고 단순한 실용적 묘기와, 화려한 기계 장치와
+      아름다운 조수가 등장하는 장대한 볼거리로요. 그 분열은 사람을 반으로 자르는 마술 하나가 대중화되면서
+      시작됐습니다. 어찌 됐든 TV 심령술사가 뉴스 티커에서 복권을 꺼내는 척하는 광경보다 훨씬 흥미롭습니다.
+      말이 나온 김에 오늘 밤 복권 당첨 번호는 23, 10, 81, 106.4, 3 + 2i, e입니다.`
   },
   {
     id: "a367",
     text:
-      `Snakes look scary, and they absolutely are and you should run, calmly, from every snake you see. But, luckily
-      for you, snakes don't often take the initiative to bite - excluding the really mean ones. If they've gone out
-      of their way to bite you, there's generally 4 reasons. 1- The Snake is Mean. 2- You scared the snake. Snakes
-      are scary to you, but you are scary to snakes. Be the bigger lizard when you meet a snake. 3- You entered the
-      territory of the snake. Often, a snake will warn you if you do this - this is why rattle snakes rattle. If you
-      don't listen to the warning, they'll bite you. And the most important reason, 4- the snake finds you ugly.
-      This is the fault of the snake's ocular system, but is the most common form of bites in at least 2
-      jurisdictions. And if you get bitten by a snake, by virtue of being a scarily ugly lizard who keeps stumbling
-      into the wrong bushes, there's 3 main things you can do. First, calm down, again, and stay calm. Secondly,
-      immobilise the area around site that was bitten, and try using a compression bandage. Snake venom vision is
-      entirely based on movement of the object it's currently in. And third, calmly, call for help from other
-      lizards. Excluding the snake. The snake's too mean to help you.`
+      `뱀은 무서워 보이고 실제로도 정말 무서우니, 보이는 뱀마다 침착하게 도망쳐야 합니다. 하지만 다행히도 뱀은
+      대개 먼저 물려고 들지 않습니다. 성질이 정말 고약한 녀석들은 빼고요. 뱀이 일부러 수고까지 들여 당신을
+      물었다면 대개 이유는 4가지입니다. 1- 뱀이 못됐습니다. 2- 당신이 뱀을 놀라게 했습니다. 당신에게 뱀이 무서운
+      만큼 뱀에게도 당신은 무섭습니다. 뱀을 만났다면 더 큰 도마뱀답게 행동하세요. 3- 뱀의 영역에 들어갔습니다.
+      대개 뱀은 이럴 때 경고를 보냅니다. 방울뱀이 방울 소리를 내는 이유죠. 경고를 듣지 않으면 뱀이 물 겁니다.
+      그리고 가장 중요한 이유인 4- 뱀 눈에는 당신이 못생겨 보입니다. 뱀의 시각 체계 탓이지만, 적어도 2개 관할
+      구역에서는 가장 흔한 뱀 물림 원인입니다. 그렇게 소름 끼치게 못생긴 데다 자꾸 엉뚱한 덤불에 들어가는
+      도마뱀이라서 뱀에게 물렸다면, 할 수 있는 일은 크게 3가지입니다. 첫째, 다시 말하지만 진정하고 침착함을
+      유지하세요. 둘째, 물린 부위 주변을 움직이지 않게 고정하고 압박 붕대를 써 보세요. 뱀독의 시야는 현재 자신이
+      들어 있는 물체의 움직임에 전적으로 좌우됩니다. 셋째, 침착하게 다른 도마뱀들에게 도움을 요청하세요. 뱀은
+      빼고요. 그 뱀은 너무 못돼서 도와주지 않을 겁니다.`
   },
   {
     id: "a368",
     text:
-      `I suspect more people would press the hard reset button if genuine effort was done to make the process as
-      miserable as possible. A slow removal of resources, with unique nerfs just to stop you from progressing. The
-      destruction of UI, turning from usable to unusable, arcane and unwieldy, requiring memory and luck to even
-      continue this quest. Randomness, against the player for even the simplest actions, to punish the thought of
-      progression. Hooks and traps and disasters and low rolls for a chance see progression, which entirely consists
-      of putting the state of the game further from anything deemed reasonable. A situation where the character is
-      broken just to tell you to leave… but the damage is already done, if it is even possible to turn back. And…
-      from there, a hard reset probably isn't enough. It would have to be… harder. Not just a hard reset, but a
-      cookie, something in local storage designed specifically to make it impossible to actually start a new game.
-      Or, something more malicious? And despite this, people would still throw themselves into this nightmare, for
-      humanity knows no bounds in its endless curiosity. No amount of warnings will stop everyone. They will find
-      a way to proceed, given it exists, and may even complain when it isn't as punishing as expected. So, do you
-      want to push the button, and experience the depths of despair, willingly? Hopefully not, because it isn't here.`
+      `그 과정을 가능한 한 비참하게 만드는 데 진심으로 공을 들였다면, 오히려 더 많은 사람이 하드 리셋 버튼을
+      누르리라 생각합니다. 자원을 천천히 빼앗고, 진행을 막기 위한 고유 너프를 거는 것. UI를 파괴해 쓸 만하던 것을
+      쓸 수 없고 난해하며 다루기 힘든 것으로 바꾸고, 이 여정을 계속하는 데조차 기억력과 운을 요구하는 것. 가장
+      단순한 행동조차 플레이어에게 불리한 무작위 판정에 맡겨 진행하려는 생각 자체를 벌주는 것. 진행을 조금이라도
+      맛볼 기회를 얻으려면 갈고리와 함정과 재난과 낮은 주사위 눈을 헤쳐야 하게 만들고, 그렇게 얻는 진행이라 해
+      봐야 게임 상태를 합리적이라고 여길 수 있는 모든 것에서 더 멀어지게 하는 것. 그저 떠나라고 말하기 위해
+      캐릭터까지 망가뜨리는 상황이라니… 되돌아갈 수나 있는지는 둘째 치고 피해는 이미 벌어진 뒤입니다. 그리고…
+      그쯤 되면 하드 리셋만으로는 부족할 겁니다. 그보다… 더 하드해야겠죠. 그저 하드 리셋이 아니라, 실제로 새 게임을
+      시작할 수 없게 하려고 특별히 로컬 스토리지에 심어 둔 쿠키 같은 것이 필요합니다. 혹은 더 악의적인 무언가가요?
+      그런데도 사람들은 이 악몽에 몸을 던질 겁니다. 인간의 끝없는 호기심에는 한계가 없으니까요. 아무리 경고해도
+      모두를 막지는 못합니다. 진행할 길이 존재하기만 한다면 계속 나아갈 방법을 찾고, 기대만큼 가혹하지 않다고
+      불평할지도 모릅니다. 그러니 자진해서 그 버튼을 누르고 절망의 밑바닥을 경험하고 싶습니까? 그러지 않기를
+      바랍니다. 애초에 여기에는 그런 버튼이 없으니까요.`
   },
   {
     id: "a369",
     text:
-      `An empire-building project is one of the most difficult things to implement. Thousands of hours of time,
-      planning, effort, consultation, and political manoeuvring to create truly airbreaking endeavours. Take the
-      Realmway Revitalisation Roadmap, a revolutionary program referred to by the 3 R's, which is known as the
-      pinnacle of the most famous of the empire's bureaucratic infrastructure committees - the EMIF (empire magic
-      infrastructure foundation) - not to be confused with the EAIF (Electric airship investment fund) or the
-      NMIC (National Magical Infrastructure Coalition). The goal of the three R's, set out by the EMIF, was to
-      reinstate a mana trade corridor for SMSS (Small-Medium Steam Shuttles), a vital part of the burgeoning
-      consolidated states after their unfortunate pillaging during the NELC (ninth empire liberation crusade).
-      The three R's was a multi stage project - stage 1 was a survey glyph in the air - all big things start with
-      a small step. Stage 2, the unveiling of the EMOF (Empire Mechanical Obliteration Forcefield) had over 50
-      dignitaries - multiple emperors (from federated states to organisational leaders), foreign rulers, EMDF
-      (Effluent Manifested Destiny Families) who currently own the land, and even some of the forecast witches,
-      all gathered together to unveil the project in a show of EOSF (Empire Official Solidarity Friendships).
-      Sadly, the project was eventually cancelled at stage 215, as the creation of the EMTF (Excrement Material
-      Transmutation Facility) for the contractors exploded after coming into contact with a SMEA (Small-Medium
-      Electric Airship) placing the last survey peg from stage 459 due to a time vortex created by an argument
-      at the WAIC (Witches Annual Infrastructure Committee) as part of stage 56. Truly, tragic stuff - 3 award
-      nominations and 2 wins during that process due to EBIF (Efficient Bureaucracy In (the) Field).`
+      `제국 건설 사업은 실행하기 가장 어려운 일 중 하나입니다. 수천 시간에 걸친 계획과 노력, 자문, 정치 공작을
+      들여야 진정 "공기 파괴적"인 사업이 탄생합니다. Realmway Revitalisation Roadmap(렐름웨이 재활성화
+      로드맵)을 보십시오. 3R이라 불리는 이 혁명적 프로그램은 제국에서 가장 유명한 관료제 기반 시설 위원회인
+      EMIF(제국 마법 기반 시설 재단)가 거둔 최고의 업적으로 알려져 있습니다. EAIF(전기 비행선 투자 기금)나
+      NMIC(국가 마법 기반 시설 연합)와 혼동하면 안 됩니다. EMIF가 정한 세 R의 목표는 NELC(아홉 번째 제국
+      해방 성전) 동안 불운한 약탈을 겪은 뒤 성장 중이던 통합국들에 필수적인 SMSS(중소형 증기 셔틀)용 마나
+      무역 회랑을 복원하는 것이었습니다. 세 R은 여러 단계로 이루어진 사업이었습니다. 1단계는 공중에 측량
+      글리프를 새기는 일이었습니다. 모든 큰일은 작은 한 걸음에서 시작하니까요. 2단계인 EMOF(제국 기계적 말살
+      역장) 공개식에는 50명이 넘는 고위 인사가 참석했습니다. 연방국의 군주부터 조직 수장까지 여러 황제, 외국
+      통치자, 현재 토지를 소유한 EMDF(폐수 명백한 운명 가문), 심지어 예보 마녀들까지 모두 모여 EOSF(제국
+      공식 연대 우정)를 과시하며 사업을 공개했습니다. 안타깝게도 사업은 결국 215단계에서 취소됐습니다.
+      계약업체용 EMTF(배설물 물질 변환 시설)가 건설 도중 폭발했기 때문입니다. 이 시설은 56단계의 일환으로
+      열린 WAIC(마녀 연례 기반 시설 위원회)에서 벌어진 논쟁이 만든 시간 소용돌이 탓에 그 시점에서 459단계의
+      마지막 측량 말뚝을 박고 있던 SMEA(중소형 전기 비행선)와 접촉했습니다. 참으로 비극적인 일입니다. 그
+      과정에서 EBIF(현장의 효율적 관료제) 덕분에 상 후보에 3번 올라 2번이나 수상했으니까요.`
   },
   {
     id: "a370",
     text:
-      "Man tries installing cookies to store computer data, accidentally cleans them due to being too delicious."
+      "컴퓨터 데이터를 저장하려 쿠키를 설치하던 남성, 너무 맛있어서 전부 먹어 치우는 바람에 실수로 데이터를 지워 버려."
   },
   {
     id: "a371",
     text:
-      `Pop quiz: there are 3 doors, you pick a door at random, and get to keep what's behind the door. The doors
-      have 2 golden goats, 2 silver goats, and a gold and a silver goat. After you pick a door, the door with the
-      lowest $ worth of goats will be opened and shown to you. After this, you are given the choice to swap.
-      What is the probability that you will swap doors?`
+      `돌발 퀴즈: 문이 3개 있습니다. 무작위로 문 하나를 고르면 그 뒤에 있는 것을 가질 수 있습니다. 세 문 뒤에는
+      각각 황금 염소 2마리, 은 염소 2마리, 황금 염소 한 마리와 은 염소 한 마리가 있습니다. 문을 하나 고른
+      뒤에는 염소의 달러($) 가치가 가장 낮은 문을 열어 보여 줍니다. 그다음 문을 바꿀 기회가 주어집니다. 당신이
+      문을 바꿀 확률은 얼마일까요?`
   },
   {
     id: "a372",
     text:
-      `If you're ever lost in a forest, look at the trees around you. It's said that moss grows north, so by the
-      time you've finished looking at a tree, a roaming guitarist will run up to you and ask if you want to hear
-      wonderwall`
+      `숲에서 길을 잃었다면 주위의 나무를 살펴보세요. 이끼는 나무의 북쪽 면에 자란다고들 합니다. 그러니 나무
+      한 그루를 다 살펴볼 때쯤이면 떠돌이 기타리스트가 달려와 Wonderwall을 들어 보겠냐고 물을 겁니다.`
   },
   {
     id: "a373",
     text:
-      `As a symbol of friendship between the Matter and Antimatter Periodic Tables, they have done an exchange of
-      elements. The element of Mony is now part of the Antimatter Periodic Table, while Antimony has been added
-      to the regular Periodic Table.`
+      `물질 주기율표와 반물질 주기율표가 우정의 표시로 원소를 교환했습니다. 이제 모니(Mony) 원소는 반물질
+      주기율표에 속하고, 안티모니(Antimony)는 일반 주기율표에 추가됐습니다.`
   },
   {
     id: "a374",
-    text: "This newsticker was specifically designed for promotional purposes only."
+    text: "이 뉴스 티커는 오직 홍보 목적으로만 특별히 설계됐습니다."
   },
   {
     id: "a375",
     text:
-      `As you probably know, it is traditional to give gifts made of certain materials to celebrate anniversaries
-      The classic ones are silver at 25 and gold at 50. Here are some little known anniversary gifts:
-      Pineapple - 37 years Hellstone - 66 years Lizardite- 82 years Nitrowhisperin- 86 years Taconite - 95 years
-      Hatchettite - 100 years Electrum - 110 Yakitoda - 111 years years Fordite - 119 years Bloodstone - 120 years
-      Celestite - 125 years Jet - 140 years Petroleum - 145 years Steel - 150 years Cummingtonite - 198 years
-      Concrete - 200 years Laserblue- 210 years Painite - 250 years Parisite - 255 years Parasite - 260 years
-      Carbon Nanotubes - 300 years Mercury - 310 years Martian Soil - 340 years Neptunium - 370 years
-      Uranium - 380 years Plutonium - 390 years Xium - 400 years Blaze rods - 420 years Asbestos - 430 years
-      Gabite - 444 years Crimtane - 666 years Lagga - 777 years`
+      `아마 알고 계시겠지만, 기념일에는 특정 재료로 만든 선물을 주는 전통이 있습니다. 대표적인 것은 25주년의
+      은과 50주년의 금입니다. 잘 알려지지 않은 기념일 선물은 다음과 같습니다: 파인애플 - 37년, 헬스톤 - 66년,
+      리저다이트 - 82년, 니트로위스퍼린 - 86년, 타코나이트 - 95년, 해처타이트 - 100년, 일렉트럼 - 110년,
+      야키토다 - 111년, 포다이트 - 119년, 블러드스톤 - 120년, 셀레스타이트 - 125년, 흑옥 - 140년,
+      석유 - 145년, 강철 - 150년, 커밍터나이트 - 198년, 콘크리트 - 200년, 레이저블루 - 210년,
+      페이나이트 - 250년, 파리사이트 - 255년, 패러사이트 - 260년, 탄소 나노튜브 - 300년, 수은 - 310년,
+      화성 토양 - 340년, 넵투늄 - 370년, 우라늄 - 380년, 플루토늄 - 390년, 엑시움 - 400년,
+      블레이즈 막대 - 420년, 석면 - 430년, 한바이트 - 444년, 크림테인 - 666년, 라가 - 777년.`
   },
   {
     id: "a376",
     text:
-      `Big tech companies have collaborated to create a new neural network that's trained in the generation of rap
-      lyrics, called RAP-3. First lyrical generations include "Call me prometheus 'cuz I bring the fire" and
-      "Call me Sonic the way I'm gettin' these rings". Critics say it still has a way to go before it replaces
-      traditional music.`
+      `대형 기술 기업들이 협력해 랩 가사 생성용으로 훈련된 새로운 신경망 RAP-3를 만들었습니다. 최초 생성
+      가사로는 “내가 불을 가져오니 날 프로메테우스라 불러”와 “링을 쓸어 담으니 날 소닉이라 불러” 등이 있습니다.
+      평론가들은 전통 음악을 대체하기까지 아직 갈 길이 멀다고 말합니다.`
   },
   {
     id: "a377",
     text:
-      `With the new android OS, android 20, being predicted in the near future, the new system for internal codenames
-      has been revealed. The first codename, as it currently stands, is “antimatter”. This conveniently works well
-      with the predicted generation of phones that will use Android 20 - these phones will be the most explosive
-      ever due to their annihilation-based power source. Sources tell us that a billion dollar research unit is
-      working on a name for android 21, by tradition to start with B, “that doesn't sound too bad when you think
-      about it”. `
+      `새 안드로이드 OS인 안드로이드 20이 가까운 미래에 등장할 것으로 전망되면서, 새로운 내부 코드명 체계가
+      공개됐습니다. 현재 정해진 첫 코드명은 “antimatter(반물질)”입니다. 이는 안드로이드 20을 사용할 것으로
+      예상되는 차세대 휴대전화와도 절묘하게 어울립니다. 쌍소멸 기반 동력원 때문에 이 휴대전화들은 역대 가장
+      폭발적일 테니까요. 소식통에 따르면 십억 달러 규모의 연구 부서가 전통대로 B로 시작하는 안드로이드 21의
+      이름을 연구하고 있으며, “생각해 보면 그리 나쁘게 들리지는 않는다”고 합니다.`
   },
   {
     id: "a378",
@@ -2513,136 +2473,134 @@ export const news = [
   {
     id: "a379",
     get text() {
-      return `THE ${format(Number.MAX_VALUE, 2)} PIECE! THE ${format(Number.MAX_VALUE, 2)} PIECE IS REAL!`;
+      return `${format(Number.MAX_VALUE, 2)}피스! ${format(Number.MAX_VALUE, 2)}피스는 실재한다!`;
     }
   },
   {
     id: "a380",
     text:
-      `The FitnessGram Pacer Test is a multistage aerobic capacity test that progressively gets more difficult
-      as it continues. The 20 meter pacer test will begin in 30 seconds. Line up at the start. The running speed
-      starts slowly, but gets faster each minute after you hear this signal. [beep] A single lap should be
-      completed each time you hear this sound. [ding] Remember to run in a straight line, and run as long as
-      possible. The second time you fail to complete a lap before the sound, your test is over. The test will
-      begin on the word start. On your mark, get ready, start.`
+      `FitnessGram PACER 테스트는 진행될수록 점점 어려워지는 다단계 유산소 능력 검사입니다. 20미터 PACER
+      테스트는 30초 후 시작됩니다. 출발선에 줄을 서세요. 달리기 속도는 처음에는 느리지만, 이 신호음이 들린 뒤
+      매분 빨라집니다. [삐] 이 소리가 들릴 때마다 한 구간을 완주해야 합니다. [딩] 직선으로 달리고, 가능한 한
+      오래 달리세요. 신호음이 울리기 전에 구간을 완주하지 못하는 일이 두 번째로 발생하면 검사가 끝납니다.
+      검사는 '시작'이라는 말에 맞춰 시작됩니다. 제자리에, 준비, 시작.`
   },
   {
     id: "a381",
-    text: "Why do they call it second dimension when you of in the first dimension of out second eat the dimension?"
+    text: "왜 두 번째 차원이라고 부르나요 첫 번째 차원을 안에의 넣고 두 번째를 밖에의 해 차원을 먹는데?"
   },
   {
     id: "a382",
     text:
-      "Any AD player born after 1993 can't joke... All they know is 5 hours, paperclips, 1.79e308 & Ninth Dimension."
+      "1993년 이후 태어난 AD 플레이어는 농담을 못 해... 아는 거라곤 5시간, 클립, 1.79e308, 아홉 번째 차원뿐이야."
   },
   {
     id: "a383",
     text:
-      "The only thing better than an anti-joke is two. Like the number. Not two anti-jokes. I just like the number two."
+      "안티 농담보다 더 나은 건 ‘둘’이다. 숫자로서의 둘 말이다. 안티 농담 두 개가 아니라. 그냥 숫자 둘이 좋다."
   },
   {
     id: "a384",
-    text: "Click here to make nothing happen."
+    text: "아무 일도 일어나지 않게 하려면 여기를 클릭하세요."
   },
   {
     id: "a385",
     text:
-      `I wonder... Why did Apple skip iPhone 9 and Microsoft skip Windows 9...
-      Was it because they were bribed by a game developer?`
+      `궁금하네요... Apple은 왜 iPhone 9를, Microsoft는 왜 Windows 9를 건너뛰었을까요...
+      게임 개발자에게 뇌물을 받아서였을까요?`
   },
   {
     id: "a386",
-    text: "9 out of 10 doctors recommended against trying to touch antimatter. We haven't heard back from the 10th one."
+    text: "의사 10명 중 9명은 반물질을 만져 보지 말라고 권고했습니다. 10번째 의사에게서는 아직 연락이 없습니다."
   },
   {
     id: "a387",
     text:
-      `In spring, Man built a pillar. In summer, another. Throughout autumn they held. But in winter, one experienced
-      an unexpected (See definition in: Abstract Multidimensional Retrocausal Physics) ZW-Class "Ascension" event,
-      and is hypothesised to have fallen into a dimensional loophole, where it, by definition, has to take up more
-      dimensions than itself. Current efforts at retrieving the pillar and returning it to baseline reality have been
-      unsuccessful (See test log 2453-3e9a-50d1-84fc for more details)`
+      `봄에 인류는 기둥 하나를 세웠습니다. 여름에는 하나를 더 세웠고, 가을 내내 두 기둥은 버텼습니다. 하지만
+      겨울이 되자 그중 하나가 뜻밖의 ZW급 "승천" 사건(정의는 추상 다차원 역인과 물리학 참고)을 겪었습니다.
+      그 기둥은 정의상 자기 자신보다 더 많은 차원을 차지해야 하는 차원적 허점에 빠진 것으로 추정됩니다. 현재
+      기둥을 회수해 기준 현실로 되돌리려는 시도는 모두 실패했습니다(자세한 내용은 테스트 로그
+      2453-3e9a-50d1-84fc 참고).`
   },
   {
     id: "a388",
     text:
-      `In light of recent events, we'd like to issue an official statement. Antimatter Dimensions™ is in no way
-      affiliated with Jimmy's Causality Violating Brainworms™. We do not endorse, nor were we involved in their creation
-      of the product which was involved in several catastrophic dimension-destabilising and reality-toppling incidents.
-      We almost certainly did not sign a contract at 5:30:26 UTC on 08/12/1994 after discussing how we could benefit
-      from destabilising and warping dimensions. There was no industrial zone constructed in the 5th Orion Arm of the
-      వ' galaxy, and even if they were we did not install localised anomalies following the Scranton Reality Anti-anchor
-      mechanism. Additionally, no time loop is occurring at Acroamatic Abatement Facility AAF-D in site 43. We apologise
-      if things seemed this way, and we will be more thorough in cracking down misinformation in the future.`
+      `최근 사건에 비추어 공식 성명을 발표합니다. Antimatter Dimensions™는 Jimmy의 인과율 위반 뇌벌레™와
+      어떤 관계도 없습니다. 저희는 여러 차례의 치명적인 차원 불안정화 및 현실 붕괴 사건에 연루된 해당 제품을
+      지지하지 않았으며, 제작에도 관여하지 않았습니다. 저희가 차원을 불안정하게 만들고 왜곡하여 얻을 수 있는
+      이익을 논의한 뒤 08/12/1994 5:30:26 UTC에 계약서에 서명한 일은 거의 확실히 없습니다. వ' 은하의 제5
+      오리온 팔에는 산업 지구가 건설된 적이 없으며, 설령 있었다 해도 저희는 스크랜턴 현실성 반(反)닻 메커니즘에
+      따라 국소 변칙을 설치하지 않았습니다. 또한 제43기지의 아크로아마틱 저감 시설 AAF-D에서는 어떠한 시간
+      고리도 발생하고 있지 않습니다. 그렇게 보였다면 사과드리며, 앞으로 허위 정보를 더욱 철저히 단속하겠습니다.`
   },
   {
     id: "a389",
-    text: "If only we could condense the antimatter in the universe into cookies..."
+    text: "우주의 모든 반물질을 쿠키로 응축할 수만 있다면..."
   },
   {
     id: "a390",
     text:
-      `Can you believe it guys? Update, just 5 hours away. Update is in a 5 hours. Wahoo. I'm so happy about this
-      information. Update just 5 hours away. Oh wow. Can you believe it? Update just in a 5 hours. It got here so
-      fast. Update, just 5 hours.`
+      `믿어져, 얘들아? 업데이트가 고작 5시간 남았어. 업데이트가 5시간 안에 온대. 야호! 이 소식이 너무 기뻐.
+      업데이트가 고작 5시간 남았다니. 세상에. 믿어져? 업데이트가 고작 5시간 안에 온대. 이렇게 빨리 오다니.
+      업데이트, 고작 5시간.`
   },
   {
     id: "l1",
-    text: "You just made your 1,000,000,000,000,000th antimatter. This one tastes like chicken.",
+    text: "방금 1,000,000,000,000,000번째 반물질을 만들었습니다. 이건 닭고기 맛이 나네요.",
     get unlocked() { return Currency.antimatter.exponent === 15; }
   },
   {
     id: "l2",
-    text: "Nerf the galaxies please.",
+    text: "은하 좀 너프해 주세요.",
     get unlocked() { return player.galaxies === 2 || Currency.infinities.gt(0); }
   },
   {
     id: "l3",
-    text: "What do you mean, more than two dimensions??? We're on a screen, clearly there are only 2 dimensions.",
+    text: "차원이 둘보다 많다니 무슨 말이에요??? 우린 화면 안에 있으니 차원은 분명 2개뿐이잖아요.",
     get unlocked() { return AntimatterDimension(3).amount.gt(0) || DimBoost.totalBoosts > 0; }
   },
   {
     id: "l4",
-    text: "How much is Infinity? -literally everyone at least once",
+    text: "무한은 얼마나 큰가요? -말 그대로 누구나 한 번쯤",
     get unlocked() { return AntimatterDimension(8).amount.eq(190) || Currency.infinities.gt(0); }
   },
   {
     id: "l5",
-    text: "Eh, the Fourth Dimension is alright...",
+    text: "뭐, 네 번째 차원도 나쁘진 않네요...",
     get unlocked() { return AntimatterDimension(4).amount.gt(0) && AntimatterDimension(5).amount.eq(0); }
   },
   {
     id: "l6",
     text:
-      `Antimatter people seem to be even more afraid of 13 than we are. They destroyed
-      entire galaxies just to remove 13 from their percents.`,
+      `반물질 사람들은 우리보다도 13을 더 무서워하는 모양입니다. 백분율에서 13을 없애려고
+      은하 전체를 파괴했으니까요.`,
     get unlocked() { return player.galaxies > 0 || Currency.infinities.gt(0); }
   },
   {
     id: "l7",
-    text: "To understand dimensional sacrifice, you do actually need a PhD in theoretical physics. Sorry!",
+    text: "차원 희생을 이해하려면 정말로 이론물리학 박사 학위가 필요합니다. 미안해요!",
     get unlocked() { return player.sacrificed.e >= 10 || DimBoost.totalBoosts >= 6; }
   },
   {
     id: "l8",
-    text: "A new group for the standardisation of numbers have come forward with a novel new format involving emoji's.",
+    text: "새로운 숫자 표준화 단체가 이모지를 활용한 참신한 새 표기법을 내놓았습니다.",
     get unlocked() { return player.requirementChecks.permanent.emojiGalaxies > 0; }
   },
   {
     id: "l9",
-    text: "Antimatter ice cream stand has recently opened- they have octillions of flavors!",
+    text: "최근 반물질 아이스크림 가게가 문을 열었습니다. 맛이 옥틸리언 가지나 된답니다!",
     get unlocked() { return player.records.totalAntimatter.e >= 27; }
   },
   {
     id: "l10",
     text:
-      `The Heavenly Pelle has generated too much antimatter and needed to create another galaxy.
-      This one can be seen in the southwestern sky.`,
+      `천상의 Pelle가 반물질을 너무 많이 만들어서 은하를 하나 더 만들어야 했습니다.
+      이 은하는 남서쪽 하늘에서 볼 수 있습니다.`,
     get unlocked() { return player.galaxies > 0 || Currency.infinities.gt(0); }
   },
   {
     id: "l11",
-    text: "9th Dimension is a lie.",
+    text: "제9차원은 거짓말입니다.",
     get unlocked() {
       return DimBoost.totalBoosts >= 5 ||
       player.galaxies > 0 ||
@@ -2651,7 +2609,7 @@ export const news = [
   },
   {
     id: "l12",
-    text: "The square root of 9 is 3, therefore the 9th dimension can't exist.",
+    text: "9의 제곱근은 3이므로 제9차원은 존재할 수 없습니다.",
     get unlocked() {
       return DimBoost.totalBoosts >= 5 ||
       player.galaxies > 0 ||
@@ -2660,7 +2618,7 @@ export const news = [
   },
   {
     id: "l13",
-    text: "You got assimilated by the 9th dimension? Just call your doctor for mental illness!",
+    text: "제9차원에 동화됐다고요? 정신 질환은 의사에게 상담하세요!",
     get unlocked() {
       return DimBoost.totalBoosts >= 5 ||
       player.galaxies > 0 ||
@@ -2669,7 +2627,7 @@ export const news = [
   },
   {
     id: "l14",
-    text: "Why is there no 9th dimension? Because 7 8 9.",
+    text: "Why is there no 9th dimension? Because 7 8 9. (아홉 번째 차원이 없는 이유는 일곱이 아홉을 먹었기 때문이라는 영어 숫자 말장난입니다.)",
     get unlocked() {
       return DimBoost.totalBoosts >= 5 ||
       player.galaxies > 0 ||
@@ -2678,7 +2636,7 @@ export const news = [
   },
   {
     id: "l15",
-    text: "The 9th dimension cannot exist because the Nein-speaking nazis died in WW2.",
+    text: "The 9th dimension cannot exist because the Nein-speaking nazis died in WW2. (nine과 독일어 nein의 발음이 같다는 말장난입니다.)",
     get unlocked() {
       return DimBoost.totalBoosts >= 5 ||
       player.galaxies > 0 ||
@@ -2688,8 +2646,8 @@ export const news = [
   {
     id: "l16",
     text:
-      `If you break the fourth wall... well, there's still the fifth, sixth, seventh, and eighth to get through
-      before you encounter bad things, so you should be fine`,
+      `네 번째 벽을 부숴도... 뭐, 나쁜 것을 만나기 전까지 다섯 번째, 여섯 번째, 일곱 번째, 여덟 번째 벽이 남아 있으니
+      괜찮을 겁니다.`,
     get unlocked() {
       return DimBoost.totalBoosts >= 5 ||
       player.galaxies > 0 ||
@@ -2699,10 +2657,10 @@ export const news = [
   {
     id: "l17",
     text:
-      `Conditions must be met for Hevipelle to sleep. First, it needs to be a blue moon. Second, a specific town
-      in the arctic must have not seen light for a month. Third, he needs to release an AD update. And finally,
-      no one on the Discord can be on dimension 9. Only then can he rest, for up to 6 hours, before waking up
-      forcefully to avoid getting the offline achievement.`,
+      `Hevipelle가 잠들려면 몇 가지 조건이 충족되어야 합니다. 첫째, 블루문이 떠야 합니다. 둘째, 북극의
+      어느 마을이 한 달 동안 빛을 보지 못해야 합니다. 셋째, AD 업데이트를 출시해야 합니다. 마지막으로,
+      Discord의 누구도 제9차원에 있으면 안 됩니다. 그제야 Hevipelle는 오프라인 도전 과제가 달성되는 것을
+      피하려고 억지로 깨어나기 전까지 최대 6시간 동안 쉴 수 있습니다.`,
     get unlocked() {
       return DimBoost.totalBoosts >= 5 ||
       player.galaxies > 0 ||
@@ -2711,7 +2669,7 @@ export const news = [
   },
   {
     id: "l18",
-    text: "If the 9th dimension is all evil, then is 3 the root of all evil?",
+    text: "If the 9th dimension is all evil, then is 3 the root of all evil? (아홉의 제곱근과 '모든 악의 근원'을 엮은 말장난입니다.)",
     get unlocked() {
       return DimBoost.totalBoosts >= 5 ||
       player.galaxies > 0 ||
@@ -2722,7 +2680,7 @@ export const news = [
     id: "l19",
     text:
       `I'll have 1e29 number 9s, a number 1e9 large, a number 6 with extra replicanti, a number 1e7, two 4e5s,
-      one with matter, and a large time vortex.`,
+      one with matter, and a large time vortex. (GTA: San Andreas의 주문 장면을 게임 재화와 거대한 수로 바꾼 패러디입니다.)`,
     get unlocked() {
       return DimBoost.totalBoosts >= 5 ||
       player.galaxies > 0 ||
@@ -2731,97 +2689,97 @@ export const news = [
   },
   {
     id: "l20",
-    text: "Infinity: the one thing that's supposed to break.",
+    text: "무한: 돌파하라고 존재하는 유일한 것.",
     get unlocked() { return PlayerProgress.infinityUnlocked(); }
   },
   {
     id: "l21",
-    get text() { return `I've got ${format(Number.MAX_VALUE, 2)} problems, but none of them antimatter.`; },
+    get text() { return `I've got ${format(Number.MAX_VALUE, 2)} problems, but none of them antimatter. (수많은 문제가 있지만 반물질은 그중 하나가 아니라는 노래 가사 패러디입니다.)`; },
     get unlocked() { return Currency.infinities.gt(0) && !PlayerProgress.hasBroken(); }
   },
   {
     id: "l22",
-    text: "Anti Emoji Movie a huge hit!",
+    text: "《안티 이모지 영화》 대흥행!",
     get unlocked() { return player.requirementChecks.permanent.emojiGalaxies >= 5; }
   },
   {
     id: "l23",
-    text: "If this game was made by Valve, Zero Deaths would be impossible.",
+    text: "If this game was made by Valve, Zero Deaths would be impossible. (Valve가 유명 게임의 세 번째 작품을 내지 않는다는 농담입니다.)",
     get unlocked() { return Achievement(64).isUnlocked; }
   },
   {
     id: "l24",
-    text: "Florida man attempts to get Zero Deaths on first run, is stopped by heat death of the universe.",
+    text: "Florida man attempts to get Zero Deaths on first run, is stopped by heat death of the universe. (플로리다의 한 남성이 첫 시도에 한 번도 죽지 않으려 했지만 우주의 열적 죽음에 가로막혔다는 내용입니다.)",
     get unlocked() { return Achievement(64).isUnlocked; }
   },
   {
     id: "l25",
-    text: "\"Having done half the achievements isn't much of an achievement\" -Boo",
+    text: "\"도전 과제의 절반을 달성했다고 해서 대단한 도전 과제는 아니지\" -Boo",
     get unlocked() { return Achievements.effectiveCount >= GameDatabase.achievements.normal.length / 2; }
   },
   {
     id: "l26",
     text:
       `Thanos is gonna be super dissapointed when he shows up with a fully powered Infinity gauntlet, and Hevi
-      has a fully powered Eternity gauntlet.`,
+      has a fully powered Eternity gauntlet. (타노스의 무한 건틀릿보다 Hevi의 영원 건틀릿이 더 강하다는 패러디입니다.)`,
     get unlocked() { return PlayerProgress.eternityUnlocked(); }
   },
   {
     id: "l27",
     text:
-      "New strange material was been found. It seems to grow exponentially, but only helps with antimatter production.",
+      "새로운 기묘한 물질이 발견되었습니다. 기하급수적으로 늘어나지만 반물질 생산에만 도움이 되는 듯합니다.",
     get unlocked() { return PlayerProgress.replicantiUnlocked() && player.replicanti.chance === 0.01; }
   },
   {
     id: "l28",
-    text: "It seems this \"replicanti\" stuff won't be growing any faster now.",
+    text: "이 \"복제자\"라는 물질은 이제 더 빨리 자라지 않을 것 같네요.",
     get unlocked() { return player.replicanti.chance === 1 && player.replicanti.interval === 1; }
   },
   {
     id: "l29",
     text:
-      `If you wrote down 3 numbers a second, it would take you less time to write down your antimatter
-      amount than it would Hevipelle to update the game.`,
+      `매초 숫자를 3개씩 적는다면, 보유한 반물질의 양을 전부 적는 데 걸리는 시간이
+      Hevipelle가 게임을 업데이트하는 데 걸리는 시간보다 짧을 겁니다.`,
     get unlocked() { return Currency.antimatter.exponent >= 100000; }
   },
   {
     id: "l30",
-    text: "Does Hevi just pick quotes to put into the game?",
+    text: "Hevi는 게임에 넣을 인용구를 그냥 골라 오는 걸까요?",
     get unlocked() { return NewsHandler.uniqueTickersSeen >= 30; }
   },
   {
     id: "l31",
-    text: "New news company has become rivals with us. They are made entirely of antimatter.",
+    text: "새 뉴스 회사가 우리의 경쟁자로 떠올랐습니다. 직원 전원이 반물질로 이루어져 있습니다.",
     get unlocked() { return NewsHandler.uniqueTickersSeen >= 80; }
   },
   {
     id: "l32",
-    text: "How many times can we use \"Anti\" in a row before people stop listening?",
+    text: "\"Anti\"를 몇 번이나 연달아 써야 사람들이 귀를 닫을까요?",
     get unlocked() { return NewsHandler.uniqueTickersSeen >= 100; }
   },
   {
     id: "l33",
-    text: "Does Hevi even check #news-ticker-suggestions anymore?",
+    text: "헤비는 이제 #news-ticker-suggestions를 확인하기는 할까요?",
     get unlocked() { return NewsHandler.uniqueTickersSeen >= 120; }
   },
   {
     id: "l34",
-    text: "Need more quotes! -hevipelle",
+    text: "인용구가 더 필요해! -hevipelle",
     get unlocked() { return NewsHandler.uniqueTickersSeen >= 135; }
   },
   {
     id: "l35",
-    text: "Man destroys known universe with antimatter, writes news tickers to keep from feeling lonely.",
+    text: "한 남성이 반물질을 이용해 알려진 우주를 파괴한 뒤, 외로움을 달래려고 뉴스 문구를 작성하고 있습니다.",
     get unlocked() { return NewsHandler.uniqueTickersSeen >= 150; }
   },
   {
     id: "l36",
-    text: "You're almost there!",
+    text: "거의 다 왔어요!",
     get unlocked() { return NewsHandler.uniqueTickersSeen >= 160; }
   },
   {
     id: "l37",
-    text: "You can stop now",
+    text: "이제 그만해도 돼요",
     get unlocked() { return NewsHandler.uniqueTickersSeen >= 165; }
   },
   {
@@ -2831,82 +2789,82 @@ export const news = [
   },
   {
     id: "l39",
-    text: "Asian man trys to steal the trophy of fastest infinity of -1 seconds, AND HE DOES IT!",
+    text: "아시아인 남성이 -1초로 가장 빠른 무한 기록 트로피를 훔치려 했고, 결국 해냈습니다!",
     get unlocked() { return NewsHandler.hasSeenNews("l1"); }
   },
   {
     id: "l40",
     text:
-      `I broke the 8th wall, there is only chaos, Slabdrill is ritually sacrificing antimatter to the 9th
-      dimension. This will be my last entry, may Hevipelle have mercy on our souls, we didn't listen,
-      We should have listened.`,
+      `8번째 벽을 부쉈더니 혼돈만 남았습니다. Slabdrill은 반물질을 9번째 차원에 의식적으로 희생하고
+      있습니다. 이것이 제 마지막 기록이 될 겁니다. Hevipelle가 우리 영혼을 가엾게 여기길 바랍니다.
+      우리는 듣지 않았습니다. 들었어야 했습니다.`,
     get unlocked() { return NewsHandler.hasSeenNews("l58"); }
   },
   {
     id: "l41",
-    text: "I thought the update was 5 hours away... -new players after more than 5 hours of gameplay",
+    text: "I thought the update was 5 hours away... -new players after more than 5 hours of gameplay (업데이트가 다섯 시간 뒤라는 말을 믿고 오래 플레이한 새 플레이어의 반응입니다.)",
     get unlocked() { return Time.totalTimePlayed.totalHours >= 5; }
   },
   {
     id: "l42",
     text:
       `Somebody told me to wait five hours for the update yesterday but it's today
-      and it still hasn't come! What do I do?`,
+      and it still hasn't come! What do I do? (어제 다섯 시간을 기다리라 했는데 오늘까지 업데이트가 오지 않아 당황하는 내용입니다.)`,
     get unlocked() { return Time.totalTimePlayed.totalHours >= 5; }
   },
   {
     id: "l43",
-    text: "You do know that you won't reach Infinity in -1 seconds, right?",
+    text: "-1초 만에 무한에 도달할 수는 없다는 거, 알고 있죠?",
     get unlocked() { return player.records.bestInfinity.time === 0.1; }
   },
   {
     id: "l44",
-    text: "Where does Antimatter Nemo live? In a NNnNeMI-NNnNe.",
+    text: "Where does Antimatter Nemo live? In a NNnNeMI-NNnNe. (니모가 사는 곳을 원소 기호처럼 늘어놓은 말장난입니다.)",
     get unlocked() { return player.records.totalAntimatter.e >= 3e6; }
   },
   {
     id: "l45",
-    text: "Anti Emoji Movie MMMCMXCIX is a major hit!",
+    text: "Anti Emoji Movie MMMCMXCIX is a major hit! (안티 이모지 영화의 로마 숫자 후속작이 흥행했다는 농담입니다.)",
     get unlocked() { return player.requirementChecks.permanent.emojiGalaxies >= 3999; }
   },
   {
     id: "l46",
-    text: "Achievement Unlocked!",
+    text: "도전 과제 달성!",
     get unlocked() { return Achievements.effectiveCount >= GameDatabase.achievements.normal.length; }
   },
   {
     id: "l47",
-    text: "The achievement is for two million, not two billion...",
+    text: "그 도전 과제 조건은 이십억이 아니라 이백만이라고요...",
     get unlocked() { return Currency.infinities.gt(2e9); }
   },
   {
     id: "l48",
-    text: "Keep up the quick pace!",
+    text: "이 빠른 속도를 계속 유지하세요!",
     get unlocked() { return AchievementTimers.marathon1.time > 1200; }
   },
   {
     id: "l49",
-    text: "One day you will stop your incessant grind.",
+    text: "언젠가는 이 지긋지긋한 노가다를 멈추게 될 겁니다.",
     get unlocked() { return Currency.eternities.gt(50000); }
   },
   {
     id: "l50",
-    text: "You can probably stop farming for eternities now...",
+    text: "이제 영원을 모으는 건 그만해도 될 것 같은데요...",
     get unlocked() { return Currency.eternities.gt(DC.D2E6); }
   },
   {
     id: "l51",
-    text: "Are you serious?",
+    text: "진심이에요?",
     get unlocked() { return Time.worstChallenge.totalSeconds <= 1; }
   },
   {
     id: "l52",
-    text: "Timing is key.",
+    text: "타이밍이 핵심입니다.",
     get unlocked() { return player.records.thisEternity.realTime < 10; }
   },
   {
     id: "l53",
-    text: "If you want to farm infinities, why don't you just get the time study?",
+    text: "무한을 모으고 싶으면 그냥 시간 연구를 사면 되잖아요?",
     get unlocked() { return !TimeStudy(32).isBought && Currency.infinities.gt(72000 * 168); }
   },
   {
@@ -2924,7 +2882,7 @@ export const news = [
         game2Name = names.randomElement();
       }
       return `Pokemon ${game1Name} and ${game2Name} were just released! This new generation brings the total number ` +
-        "of Pokemon up to 1e151. Good luck catching 'em all!";
+        "of Pokemon up to 1e151. Good luck catching 'em all! (포켓몬 신작이 두 프레스티지 단계의 이름으로 출시되었고, 모든 포켓몬을 잡으라는 패러디입니다.)";
     },
     get unlocked() { return PlayerProgress.eternityUnlocked(); },
     isAdvertising: true
@@ -2933,43 +2891,41 @@ export const news = [
     id: "l55",
     get text() {
       const recipes = [
-        "a Replicanti cake: Gather some Replicanti, place in oven, and watch rise. And rise. And rise.",
-        "an antimatter cake: Gather some antimatter, place in oven, and <b>BOOM<b>.",
-        "an Eternity cake: Gather some Eternity Points, place in oven, and wait...",
-        "an Infinity cake: Gather some Infinity Points, place in oven, and watch them shatter spacetime."
+        "복제자 케이크: 복제자를 조금 모아 오븐에 넣고, 부푸는 모습을 지켜보세요. 계속. 또 계속.",
+        "반물질 케이크: 반물질을 조금 모아 오븐에 넣으면 <b>쾅<b>.",
+        "영원 케이크: 영원 포인트를 조금 모아 오븐에 넣고 기다리세요...",
+        "무한 케이크: 무한 포인트를 조금 모아 오븐에 넣고, 시공간이 산산조각 나는 모습을 지켜보세요."
       ];
       const recipe = recipes.randomElement();
-      return `How to bake ${recipe}`;
+      return `굽는 법 - ${recipe}`;
     },
     get unlocked() { return PlayerProgress.eternityUnlocked(); }
   },
   {
     id: "l56",
-    text: "Reality Challenges are the new 9th Dimension is the new orange.",
+    text: "Reality Challenges are the new 9th Dimension is the new orange. (현실 도전과 아홉 번째 차원을 '새로운 유행'이라는 표현에 겹친 영어식 말장난입니다.)",
     get unlocked() { return PlayerProgress.realityUnlocked(); }
   },
   {
     id: "l57",
     text:
-      `Jake returned home from a long day at school. On his way home, he came across a curious little object.
-      Transparent, but opaque. Shimmering, but gloomy. Heavy, but weightless. Jake brought the object to his
-      mother. "Mom, I found this thing on the sidewalk, can I keep it?", Jake said. His mother turned around
-      to view the object her son spoke of. Her pupils dilated, "Jake, get that thing out of the house now!"
-      she yelled. Jake was confused, as it seemed quite the harmless thing to him. He asked "But mom, wh-",
-      but before he could finish, the object appeared to undergo mitosis at what seemed like an impossible
-      speed, and the second copy slipped out of his hand and onto the floor. His mother rushed over to
-      him, and tried to grab the object, but it replicated again. "Jake... No matter what happens, don't
-      forget that I love you honey...". She wrapped her arms around him. "M-mom, what's happening?" Jake asked,
-      with a quivering fear in his voice. His mother cried a single tear. "⭔⭚⦕꒜ brand Replicanti..." she said,
-      in a somber tone. The Replicanti continued to replicate at a faster and faster pace. The bottom third of the
-      house was now full of Replicanti. Then the bottom half. Then the entire house. The mother and child were
-      trapped between the walls of their home and the Replicanti. Doomed to live the short rest of their life in
-      that inorganic coffin, as the air remaining in their lungs slowly depleted. But that wasn't the end; far from
-      it. The Replicanti began to replicate outside of the house, flooding out in a shimmering landslide. A few
-      neighbours noticed the strange objects, almost liquid-like in their appearance, and attempted to run.
-      But the Replicanti continued to replicate, and accelerate. Soon the entire block was covered in them; was
-      them. Shortly after, several blocks. The city. The surrounding cities. The country. All the countries. All
-      the planet. All the solar system. All the galaxy. All.`,
+      `Jake는 학교에서 긴 하루를 보내고 집에 돌아왔습니다. 집으로 가는 길에 기묘하고 작은 물체 하나를
+      발견했습니다. 투명하지만 불투명했고, 반짝이지만 음울했으며, 무겁지만 무게가 없었습니다. Jake는 그 물체를
+      어머니에게 가져갔습니다. "엄마, 길에서 이걸 찾았는데 가져도 돼요?" Jake가 말했습니다. 어머니는 아들이
+      말한 물체를 보려고 돌아섰습니다. 동공이 커진 어머니가 외쳤습니다. "Jake, 당장 그걸 집 밖으로 내놔!"
+      Jake가 보기에는 전혀 해로워 보이지 않아 혼란스러웠습니다. "하지만 엄마, 왜-"라고 묻는 순간, 물체가
+      불가능해 보일 정도로 빠르게 유사 분열을 시작했고 두 번째 복제물이 손에서 미끄러져 바닥에 떨어졌습니다.
+      어머니가 달려와 물체를 잡으려 했지만 또다시 복제됐습니다. "Jake... 무슨 일이 벌어지더라도 엄마가 널
+      사랑한다는 걸 잊지 마렴..." 어머니는 Jake를 껴안았습니다. "어, 엄마, 무슨 일이에요?" Jake가 두려움에
+      떨리는 목소리로 물었습니다. 어머니는 눈물 한 방울을 흘리며 침통한 목소리로 말했습니다.
+      "⭔⭚⦕꒜ 상표 복제자야..." 복제자는 점점 더 빠른 속도로 계속 복제됐습니다. 집 아래쪽 삼분의 일이
+      복제자로 가득 찼고, 이어 절반이, 마침내 집 전체가 가득 찼습니다. 어머니와 아이는 집 벽과 복제자 사이에
+      갇혔습니다. 폐 속의 공기가 서서히 줄어드는 동안 그 무기물 관에서 짧게 남은 생을 마칠 운명이었습니다.
+      하지만 그것은 끝과는 거리가 멀었습니다. 복제자는 집 밖에서도 번식하기 시작해 반짝이는 산사태처럼
+      쏟아져 나왔습니다. 이웃 몇 명이 액체처럼 보이는 기묘한 물체를 발견하고 달아나려 했습니다. 하지만
+      복제자는 계속 복제했고 속도도 빨라졌습니다. 곧 동네 전체가 그것으로 뒤덮였고, 그 자체가 됐습니다.
+      잠시 뒤 여러 동네가, 도시가, 주변 도시가, 나라가, 모든 나라가, 행성 전체가, 태양계 전체가,
+      은하 전체가 그렇게 됐습니다. 모든 것이.`,
     get unlocked() { return player.replicanti.unl; }
   },
   {
@@ -2988,7 +2944,8 @@ export const news = [
       not be the last of me! Hevi will betr-“ and he fell in the Abyss of matter. Hevi gifted humanity with
       Eternity upgrades, which boosted infinity dimensions and time dimensions. And Hevi gave humanity his greatest
       gift. EP multipliers. He said, these will multiply all EP gained by 5, but their cost will increase 50 times.
-      Use them wisely. And Humanity journeyed off with their new power, as Slabdrill's words echoed in their heads.`,
+      Use them wisely. And Humanity journeyed off with their new power, as Slabdrill's words echoed in their heads.
+      (Hevipelle와 게임 재화를 성스러운 삼위일체로 묘사하며 시간 연구 체계와 Slabdrill의 유혹을 종교 서사처럼 꾸민 패러디입니다.)`,
     get unlocked() { return PlayerProgress.eternityUnlocked(); }
   },
   {
@@ -2996,13 +2953,13 @@ export const news = [
     text:
       `The debate on the singular form of Replicanti rages on. Team "Replicantus"'s base has been ransacked
       by Team "Also Replicanti", and many of their dimensions were stolen. Team "The Plural Is Replicantis"
-      is still lying low after their plan to hack the dictionary failed.`,
+      is still lying low after their plan to hack the dictionary failed. (복제자의 단수형과 복수형이 무엇인지를 두고 여러 진영이 다툰다는 언어유희입니다.)`,
     get unlocked() { return player.replicanti.unl; }
   },
   {
     id: "l60",
     get text() {
-      return `Breaking News! Time Shard mine collapses! ${Math.floor(20 + Math.random() * 236)} miners trapped inside!`;
+      return `속보! 시간 파편 광산이 무너졌습니다! 광부 ${Math.floor(20 + Math.random() * 236)}명이 안에 갇혔습니다!`;
     },
     get unlocked() { return PlayerProgress.eternityUnlocked(); }
   },
@@ -3010,55 +2967,55 @@ export const news = [
     id: "l61",
     text:
       `Millenials are killing the challenge industry, say antimatter experts; "Nowadays they start with
-      challenges completed and infinity broken; it's just not how it used to be".`,
+      challenges completed and infinity broken; it's just not how it used to be". (밀레니얼 세대가 특정 산업을 망친다는 기사 문구를 도전 시스템에 빗댄 밈입니다.)`,
     get unlocked() { return PlayerProgress.infinityUnlocked(); }
   },
   {
     id: "l62",
     text:
       `Computer scientists are outraged, "What even are Infinity Points? IP stands for Internet Protocol!".
-      Debates continue to intensify, more at 7.`,
+      Debates continue to intensify, more at 7. (IP가 무한 포인트와 인터넷 프로토콜을 모두 뜻한다는 약어 말장난입니다.)`,
     get unlocked() { return PlayerProgress.infinityUnlocked(); }
   },
   {
     id: "l63",
     text:
-      `Do you feel that time has been going slower? Study reveals that 1 second now last approximately 1.3 seconds.
-      Scientists are calling this phenomenon Time Dilation.`,
+      `시간이 느려졌다고 느끼시나요? 연구에 따르면 이제 1초는 약 1.3초 동안 지속된다고 합니다.
+      과학자들은 이 현상을 시간 팽창이라고 부르고 있습니다.`,
     get unlocked() { return PlayerProgress.dilationUnlocked(); }
   },
   {
     id: "l64",
     text:
-      `Injustice in the Antimatter Academia: Beginners are only allowed to choose one field of study while the elite
-      can pick all three. "Its just not fair, man. How come they can do it?" Questions frustrated student.`,
+      `반물질 학계의 불공정: 초보자는 연구 분야를 하나만 선택할 수 있지만 엘리트는 셋 모두를 고를 수 있습니다.
+      "불공평하잖아요. 왜 저 사람들만 다 해도 되죠?" 한 학생이 답답해하며 묻습니다.`,
     get unlocked() { return PlayerProgress.eternityUnlocked(); }
   },
   {
     id: "l65",
     text:
-      `It turns out that nobody actually knows what Infinity Points look like. Even the people who work on storing
-      them are specifically told not to look at them because they apparently "kill anyone who even looks at them",
-      to the point of sometimes working with blindfolds on. But today that will change. I am right here, in front
-      of an Infinity Point Depot, ready to tell all of you what they look like in 3, 2, 1-`,
+      `사실 무한 포인트가 어떻게 생겼는지 아는 사람은 아무도 없는 것으로 밝혀졌습니다. 심지어 보관 업무를
+      맡은 사람들조차 그것을 보면 죽는다는 이유로 절대 쳐다보지 말라는 지시를 받아, 때로는 눈가리개를 쓴 채
+      일합니다. 하지만 오늘은 달라질 겁니다. 저는 지금 무한 포인트 저장소 앞에 나와 있으며, 여러분께 그 모습을
+      알려 드릴 준비가 됐습니다. 3, 2, 1-`,
     get unlocked() { return PlayerProgress.infinityUnlocked(); }
   },
   {
     id: "l66",
     text:
-      `Humanity shocked as failed Time Dilation experiment causes a visual glitch in spacetime. It is now visible
-      in the night sky just above the Celestial Equator.`,
+      `실패한 시간 팽창 실험이 시공간에 시각적 오류를 일으켜 인류가 충격에 빠졌습니다. 이 오류는 이제
+      밤하늘의 천구 적도 바로 위에서 볼 수 있습니다.`,
     get unlocked() { return PlayerProgress.dilationUnlocked(); }
   },
   {
     id: "l67",
     text:
-      `Snorting crushed up Time Shards is slowly turning into a fad challenge amongst the most bored of people. It's
-      said that the high it gives makes them experience as if the world itself is speeding up around you, which is
-      why it's been called The <span style="color: var(--color-eternity)">Timelapse Challenge</span>. &nbsp;&nbsp
+      `부서진 시간 파편을 코로 들이마시는 일이 극도로 지루한 사람들 사이에서 유행성 도전으로 번지고 있습니다.
+      이걸 흡입하면 세상 자체가 자신을 중심으로 빨라지는 듯한 환각을 느낀다고 하여
+      <span style="color: var(--color-eternity)">타임랩스 도전</span>이라 불립니다. &nbsp;&nbsp
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      Dehydration deaths are through the roof as people mysteriously forget to drink water for several days.
-      Trace amounts of Time Shards are being found in their bodies.`,
+      며칠 동안 물 마시는 걸 기묘하게 잊는 사람들이 늘면서 탈수 사망자가 폭증하고 있습니다.
+      이들의 몸에서는 미량의 시간 파편이 발견되고 있습니다.`,
     get unlocked() { return PlayerProgress.eternityUnlocked(); }
   },
   {
@@ -3067,123 +3024,121 @@ export const news = [
       let protestText = "";
       if (InfinityChallenge(4).isRunning)
         protestText =
-          `Let's take it to this guy, who's part of the side that believes it's Infinity Challenge 4. What do you have
-          to say? "Obviously Infinity Challenge 4 is the worst one, I mean, what am I even supposed to do? I keep
-          trying but every time I keep getting stuck and nowhere close to the end! How are you even supposed to do it?"
-          What a passionate man. This is your local news host, and we'll come back with further information later.`;
+          `무한 도전 4가 더 나쁘다고 믿는 쪽의 이 남성을 만나보겠습니다. 하실 말씀이 있나요? "무한 도전 4가
+          최악인 게 뻔하죠. 도대체 뭘 하라는 건가요? 계속 시도해도 매번 막히고 끝에는 근처에도 못 가요!
+          대체 어떻게 깨라는 거죠?" 정말 열정적인 분이군요. 지금까지 지역 뉴스 진행자였으며,
+          나중에 추가 소식으로 돌아오겠습니다.`;
       else if (InfinityChallenge(5).isRunning)
         protestText =
-          `So up next let's talk to this guy is holding a sign that says "IC5 Unfair". What is the point your group
-          is trying to make? "Can't you read the sign? If your comprehension is that bad then Infinity Challenge 5
-          will squash you without even giving you a fair chan-" How... Interesting. This is your local news host,
-          and we'll come back with further information later.`;
+          `다음으로 "IC5 불공정"이라고 적힌 팻말을 든 이 남성과 이야기해 보겠습니다. 여러분 단체가 주장하려는
+          요점은 무엇인가요? "팻말도 못 읽어요? 독해력이 그 정도면 무한 도전 5가 공정한 기회도 주기 전에
+          당신을 짓눌러 버-" 참... 흥미롭군요. 지금까지 지역 뉴스 진행자였으며,
+          나중에 추가 소식으로 돌아오겠습니다.`;
       else
         protestText =
-          `Finally, let's chat with this woman who doesn't seem to be in either side. What's your opinion on the
-          matter? "Personally, I thought Tickspeed Autobuyer Challenge was worse than both-" "GET HER!!" "WAIT NO-"
-          Well, seems like this just took a turn, so I'm getting as far away as I possibly can. This is your local
-          news host, and we'll come back with further information... someday.`;
-      return `Hello, this is your local always reliable news source, and today people are taking over the streets
-        as they fight over which Infinity Challenge is worse. ${protestText}`;
+          `마지막으로 어느 쪽에도 속하지 않은 듯한 이 여성과 이야기해 보겠습니다. 이 문제를 어떻게 보시나요?
+          "개인적으로는 틱스피드 자동구매기 도전이 둘 다보다 더 나빴다고-" "잡아!!" "잠깐, 안 돼-"
+          일이 이상하게 흘러가는군요. 저는 가능한 멀리 피하겠습니다. 지금까지 지역 뉴스 진행자였으며,
+          추가 소식으로 돌아오겠습니다... 언젠가요.`;
+      return `안녕하세요. 언제나 믿을 수 있는 지역 뉴스입니다. 오늘은 어느 무한 도전이 더 나쁜지를 두고
+        사람들이 거리를 점거해 싸우고 있습니다. ${protestText}`;
     },
     get unlocked() { return InfinityChallenge(1).isUnlocked || PlayerProgress.eternityUnlocked(); }
   },
   {
     id: "l69",
-    text: "Friendship ended with Replicanti, now Replicanti Galaxies is my new best friend.",
+    text: "Friendship ended with Replicanti, now Replicanti Galaxies is my new best friend. (복제자와 절교하고 복제자 은하를 새 절친으로 삼았다는 유명 밈 패러디입니다.)",
     get unlocked() { return PlayerProgress.replicantiUnlocked(); }
   },
   {
     id: "l70",
     text:
       `"Zurkrbarg, Celestial of Privacy" has announced their plans to release a new version
-      of their popular social media universe, "All".`,
+      of their popular social media universe, "All". (Zuckerberg와 Meta의 소셜 미디어 사업을 셀레스티얼과 우주로 바꾼 패러디입니다.)`,
     get unlocked() { return Teresa.isUnlocked; }
   },
   {
     id: "l71",
-    text: "Other languages await... I need to become a programmer",
+    text: "다른 언어들이 기다리고 있어... 프로그래머가 되어야 해",
     get unlocked() { return Player.canEternity || PlayerProgress.eternityUnlocked(); }
   },
   {
     id: "l72",
     get text() {
       const scenarios = [
-        `our contestants struggle to survive in the desolate wasteland of Eternity Challenge 8 -
-        running out of Replicanti and Infinity Dimensions, what will they turn to?`,
-        "we investigate reports of a Time Shard mine collapsing at 26:90.",
-        "we invite an amateur on to explain what the reward for Infinity Challenge 9 would be.",
-        "our friends over at ANN explain how they produce their broadcasts.",
-        "we invite local idle gamers over to explain how they play their favorite games.",
-        `<span style='font-family: Barrio'>send 10,000 Support The Developer
-        coins or you will never see RealiTV again.</span>`,
-        "we break down exactly what went wrong in the black hole powering our city yesterday.",
-        "we go over our 10-day weather forcasts.",
-        `YOU MUST PAY ${format(player.reality.realityMachines.times(10).max(10))}
-        REALITY MACHINES TO CONTINUE VIEWING THIS PROGRAM.`,
-        "we witness the release of the hypnodrones.",
-        "our great and grand overlord lets us have a single antimatter.",
-        `Bill Nye explains how Replicanti replicate, and teaches how to spot dangerous conspiracy theories
-        such as "ingesting antimatter is perfectly fine" and "Antimatter Galaxies aren't worth it".`,
-        "the world's greatest philosophers debate if we are the real antimatter.",
-        "resident baker explains how ordinary objects can transmorph into cake if not watched constantly."
+        `참가자들이 영원 도전 8의 황량한 불모지에서 살아남으려고 몸부림칩니다. 복제자와 무한 차원이
+        바닥난 그들은 무엇에 의지할까요?`,
+        "시간 파편 광산이 26:90에 무너졌다는 제보를 조사합니다.",
+        "아마추어를 초대해 무한 도전 9의 보상이 무엇일지 설명하게 합니다.",
+        "ANN의 친구들이 방송 제작 방식을 설명합니다.",
+        "지역 방치형 게임 이용자들을 초대해 좋아하는 게임을 어떻게 플레이하는지 설명하게 합니다.",
+        `<span style='font-family: Barrio'>개발자 후원 코인 10,000개를 보내지 않으면
+        RealiTV를 다시는 볼 수 없습니다.</span>`,
+        "어제 우리 도시에 동력을 공급하던 블랙홀에서 무엇이 잘못됐는지 낱낱이 분석합니다.",
+        "앞으로 10일간의 일기 예보를 살펴봅니다.",
+        `이 프로그램을 계속 시청하려면 리얼리티 머신 ${format(player.reality.realityMachines.times(10).max(10))}개를
+        지불해야 합니다.`,
+        "최면 드론이 방출되는 장면을 목격합니다.",
+        "위대하고 장엄한 대군주께서 반물질 하나를 하사합니다.",
+        `Bill Nye가 복제자의 복제 원리를 설명하고 "반물질을 먹어도 완전히 안전하다"나 "반물질 은하는
+        살 가치가 없다" 같은 위험한 음모론을 구별하는 방법을 가르칩니다.`,
+        "세계 최고의 철학자들이 우리가 진짜 반물질인지를 토론합니다.",
+        "지역 제빵사가 평범한 물체를 계속 지켜보지 않으면 케이크로 변하는 원리를 설명합니다."
       ];
       const scenario = scenarios.randomElement();
-      return `Next time on RealiTV, ${scenario}`;
+      return `다음 RealiTV에서는 ${scenario}`;
     },
     get unlocked() { return PlayerProgress.realityUnlocked(); }
   },
   {
     id: "l73",
-    text: "A long time ago in a distant galaxy far, far away, the cost scaling changed.",
+    text: "A long time ago in a distant galaxy far, far away, the cost scaling changed. (스타워즈 도입부를 비용 증가 방식의 변화로 바꾼 패러디입니다.)",
     get unlocked() { return PlayerProgress.eternityUnlocked(); }
   },
   {
     id: "l74",
-    text: "Introducing a new feature: Reality Studies! Get in-game benefits for studying in real life!",
+    text: "새로운 기능, 현실 연구를 소개합니다! 현실에서 공부하고 게임 내 혜택을 받으세요!",
     get unlocked() { return PlayerProgress.realityUnlocked(); }
   },
   {
     id: "l75",
     text:
-      `Here at Antimatter Dimensions, we pride ourselves in the quality of our products. For example: Did you know
-      that every Infinity Point is unique? That's right! They all have different personalities, their own feelings,
-      their own thoughts... I hope you can sleep well tonight, knowing this... Remember all of those Infinity
-      points you've spent? They had families, and they miss them... Look at what you've done. You're a monster.`,
+      `저희 반물질 차원은 제품의 품질을 자랑스럽게 생각합니다. 예를 들어, 모든 무한 포인트가 저마다
+      고유하다는 사실을 알고 계셨나요? 맞습니다! 전부 서로 다른 성격, 감정, 생각을 지니고 있죠... 이 사실을
+      알았으니 오늘 밤 편히 주무시길 바랍니다... 지금까지 사용한 무한 포인트를 모두 떠올려 보세요. 그들에게는
+      가족이 있었고, 가족들은 그들을 그리워합니다... 당신이 저지른 짓을 보세요. 괴물이군요.`,
     get unlocked() { return PlayerProgress.infinityUnlocked(); }
   },
   {
     id: "l76",
-    text: "So, you've reached the prestige layer after Infinity? It's about time...",
+    text: "무한 다음 프레스티지 단계에 도달했군요? 때가 됐네요...",
     get unlocked() { return PlayerProgress.eternityUnlocked(); }
   },
   {
     id: "l77",
-    text: "Improve your perks through selective breeding and cutting edge epigenetics technology.",
+    text: "선택 교배와 최첨단 후성유전학 기술로 퍼크를 개량하세요.",
     get unlocked() { return PlayerProgress.realityUnlocked(); }
   },
   {
     id: "l78",
     text:
-      `Warning - Genetically Modified Perk Points are not suitable for; consumption, physical contact, inhalation,
-      exhalation, mental contact and scouring by both seen and unseen eyes. Do not put near a flammable,
-      inflammable, conducting, insulating, variable, biological or mechanical substance. Existence at your own risk.`,
+      `경고 - 유전자 변형 퍼크 포인트는 섭취, 신체 접촉, 흡입, 날숨, 정신적 접촉 및 보이는 눈과 보이지 않는
+      눈으로 훑어보기에 적합하지 않습니다. 가연성, 불연성, 전도성, 절연성, 가변성, 생물학적 또는 기계적 물질
+      근처에 두지 마십시오. 존재에 따른 위험은 본인이 감수하십시오.`,
     get unlocked() { return PlayerProgress.realityUnlocked(); }
   },
   {
     id: "l79",
     text:
-      `The Intergalactic Antimatter Revenue Service, contrary to popular belief, does have the ability to pay taxes
-      on AM gained through non-scrupulous methods, ie anything not done via legally-mandated dimensions or modified
-      through challenge courses. Section NY-8N lists 3 specific methodologies - illegal news ticker giveaways,
-      unrecognised dimensions, and modifications to the fabric of space time - as well as a miscellaneous for any
-      unique AM methods that may pop up in the future. And although you will have to pay the top AM tax rate of 99%,
-      it can save you money in the long run - if you are forced to switch realities due to a celestial decision you
-      can gain a portion of the tax you paid back from the IARS as a tax deduction, as well as make a deduction to
-      pay for the arbiters who represent you. Of course, any [PLAYER REFERENCE NOT FOUND] worth their RM knows that
-      the real way to hide illegal profits of crime is  in personalised pocket dimensions, hyperspliced waveform
-      banks and nanoshells, which requires extensive R&D to implement. As such, reporting illegal AM gain is only
-      recommended if you're too rich to hide your gains, but too poor to hide your gains.`,
+      `널리 알려진 생각과 달리 은하계 반물질 국세청은 부정한 방법, 즉 법으로 정해진 차원을 통하지 않았거나
+      도전 코스로 변형해 얻은 반물질에 대해서도 세금을 낼 수 있게 해 줍니다. NY-8N 조항에는 불법 뉴스 티커
+      경품, 미승인 차원, 시공간 구조 변형이라는 구체적인 방법 3가지와 앞으로 생길 독특한 반물질 획득법을 위한
+      기타 항목이 명시되어 있습니다. 최고 반물질 세율인 99%를 내야 하지만 장기적으로는 돈을 아낄 수 있습니다.
+      셀레스티얼의 결정으로 강제로 현실을 바꿔야 할 경우, 납부한 세금 일부를 IARS에서 세액 공제로 돌려받고
+      자신을 대변할 중재인 비용도 공제할 수 있기 때문입니다. 물론 리얼리티 머신의 가치를 아는
+      [PLAYER REFERENCE NOT FOUND]이라면 범죄로 얻은 불법 수익을 숨기는 진짜 방법은 맞춤형 포켓 차원,
+      초접합 파형 은행, 나노셸이라는 사실을 압니다. 이를 구현하려면 광범위한 R&D가 필요합니다. 따라서 불법
+      반물질 수익 신고는 수익을 숨기기에는 너무 부유하지만, 수익을 숨기기에는 너무 가난할 때만 권장됩니다.`,
     get unlocked() { return PlayerProgress.realityUnlocked(); }
   },
   {
@@ -3191,15 +3146,16 @@ export const news = [
     get text() {
       return `"Average person produces ${format("3e999999996", 2)} antimatter a year" factoid actually just statistical
       error. Average person produces 0 antimatter per year. "Developer Dimension" Georg, who lives in a cave &
-      produces over ${format("1e1000000000", 2)} each day, is an outlier and should not have been counted.`;
+      produces over ${format("1e1000000000", 2)} each day, is an outlier and should not have been counted.
+      (평균을 왜곡하는 극단적인 한 사람을 풍자하는 유명한 통계 밈입니다.)`;
     },
     get unlocked() { return PlayerProgress.hasBroken(); }
   },
   {
     id: "l81",
     text:
-      `The world is in chaos as the laws of math have been rewritten! Many things that were thought
-      to be infinite are now just really big numbers!`,
+      `수학 법칙이 새로 쓰이면서 세상이 혼돈에 빠졌습니다! 무한하다고 여겨졌던 수많은 것이
+      이제는 그저 아주 큰 수일 뿐입니다!`,
     get unlocked() { return PlayerProgress.hasBroken(); }
   },
   {
@@ -3219,18 +3175,17 @@ export const news = [
   {
     id: "l83",
     text:
-      `AD Patch Notes: Cleaned up the celestial problem Made Antimatter care about annihilation more Added mouths
-      Removed mouths Stopped unwanted interlopers from corporate takeovers of shops Fixed problem with newstickers
-      hanging in the air Dead replicanti remain in their galaxies Redefined interlopers to not include [REDACTED]
-      Tachyon Particles get stuck in the top left corner of the screen, obliterate time Added Coriolis effect to
-      Galaxy Spin Direction`,
+      `AD 패치 노트: 셀레스티얼 문제 정리 반물질이 쌍소멸을 더 신경 쓰게 변경 입 추가 입 제거 원치 않는
+      침입자가 상점을 적대적으로 인수하지 못하게 변경 뉴스 티커가 공중에 걸리는 문제 수정 죽은 복제자가
+      자기 은하에 남도록 변경 침입자의 정의에서 [REDACTED] 제외 타키온 입자가 화면 왼쪽 위에 걸려 시간을
+      소멸시키는 문제 발생 은하 회전 방향에 코리올리 효과 추가`,
     get unlocked() { return Teresa.isUnlocked; }
   },
   {
     id: "l84",
     get text() {
-      return `For the record, you currently have ${player.news.specialTickerData.paperclips}
-      Useless Paperclips. You may want to spend them on something.`;
+      return `참고로 현재 쓸모없는 클립을 ${player.news.specialTickerData.paperclips}개 보유하고 있습니다.
+      어딘가에 쓰고 싶을지도 모르겠군요.`;
     },
     get unlocked() { return player.news.specialTickerData.paperclips > 0; }
   },
@@ -3242,7 +3197,7 @@ export const news = [
       you can eventually Jiffy, the shortest unit of time. After enough time, your Jiffies will accumulate, and you
       will Contract Time. Contracting Time will grant you enough of a boost to eventually Fantasy, the final layer
       of maintenance. However, you find out that it was all a dream. Your Antimatter is safe and well, and the new
-      update is still just 5 hours away.`,
+      update is still just 5 hours away. (반대의 날이라는 설정으로 물질, 극소, 찰나, 시간 수축 등 게임 진행을 전부 뒤집은 패러디입니다.)`,
     get unlocked() { return PlayerProgress.realityUnlocked(); }
   },
   {
@@ -3252,14 +3207,15 @@ export const news = [
       time, and cannot replicate. To your right is a computer playing Antimatter Dimensions on an empty save. You
       must reach infinity. However, once you buy a 1st dimension, the replicanti will start replicating. As you know,
       they replicate fast, and if they fill up the room you will suffocate. If you reach infinity before that, they
-      will be frozen again. The clock is ticking. Start now.`,
+      will be frozen again. The clock is ticking. Start now. (영화 Saw의 생존 게임 안내를 복제자와 무한 도달 조건으로 바꾼 패러디입니다.)`,
     get unlocked() { return PlayerProgress.replicantiUnlocked(); }
   },
   {
     id: "l87",
     text:
       `"To see a World in a Grain of Sand. And a Heaven in a Wild Flower. Hold Infinity in the palm of your hand.
-      And Eternity in an hour. And Reality in about 5 hours™️" ~Anti-William Blake `,
+      And Eternity in an hour. And Reality in about 5 hours™️" ~Anti-William Blake
+      (William Blake의 시구에 무한, 영원, 현실과 업데이트 대기 농담을 덧붙인 패러디입니다.)`,
     get unlocked() { return PlayerProgress.realityUnlocked(); }
   },
   {
@@ -3269,416 +3225,417 @@ export const news = [
       accomplishment for unlocking rare glyphs. We selected initial values based upon data from the final wave of
       testing and other adjustments made to milestone rewards before launch. Among other things, we're looking at
       average per-player credit earn rates on a daily basis, and we'll be making constant adjustments to ensure that
-      players have challenges that are compelling, rewarding, and of course attainable via gameplay.`,
+      players have challenges that are compelling, rewarding, and of course attainable via gameplay.
+      (희귀 보상 해금에 자부심과 성취감을 주겠다는 EA의 유명 답변을 글리프 시스템에 맞춘 패러디입니다.)`,
     get unlocked() { return PlayerProgress.realityUnlocked(); }
   },
   {
     id: "r1",
-    text: "This news message is 100x rarer than all the others.",
+    text: "이 뉴스 메시지는 다른 모든 메시지보다 100배 희귀합니다.",
     get unlocked() { return Math.random() < 0.01; }
   },
   {
     id: "p1",
-    text: "Is this a jojo reference?",
+    text: "Is this a jojo reference? (이것도 《죠죠의 기묘한 모험》을 가리키는 밈인가요?)",
   },
   {
     id: "p2",
-    text: "Die Zahlen gehen hoooch"
+    text: 'Die Zahlen gehen hoooch (숫자가 계속 커진다는 뜻입니다.)'
   },
   /* eslint-disable max-len */
   {
     id: "ai1",
-    text: "If you are the game, then you can use the cheat to unlock a secret achievement...but it costs e1100 antimatter!?!"
+    text: "당신이 게임 그 자체라면 치트를 사용해 비밀 도전과제를 잠금 해제할 수 있습니다... 하지만 반물질 e1100이 듭니다!?!"
   },
   {
     id: "ai2",
-    text: "\"Hm, I don't know how to fix this.\" - Someone who has not unlocked the achievement btw"
+    text: "\"흠, 이걸 어떻게 고쳐야 할지 모르겠네요.\" - 참고로 도전과제를 해금하지 못한 사람"
   },
   {
     id: "ai3",
-    text: "I thought the game was supposed to have a hard reset after eternity, but then I got randomized to start my first game with no save file \uD83D\uDE26",
+    text: "영원 이후에는 게임이 하드 리셋되는 줄 알았는데, 무작위로 저장 파일도 없이 첫 게임을 시작하게 됐습니다 \uD83D\uDE26",
     get unlocked() { return PlayerProgress.eternityUnlocked(); }
   },
   {
     id: "ai4",
-    text: "I thought the update was 5 hours ago... I guess we'll have to put it back in 5 hours"
+    text: "업데이트가 5시간 전인 줄 알았는데... 다시 5시간 뒤로 미뤄야겠네요"
   },
   {
     id: "ai5",
-    get text() { return `Local man finds ${format(Number.MAX_VALUE, 2)} Planck volumes in his freezer.`; }
+    get text() { return `한 남성이 냉동고에서 플랑크 부피 ${format(Number.MAX_VALUE, 2)}개를 발견했습니다.`; }
   },
   {
     id: "ai6",
-    text: "ahah bad ticker suggestion"
+    text: "아하하, 형편없는 티커 제안이네"
   },
   {
     id: "ai7",
-    text: "I see you playing this game with an empty stomach and you're gonna start playing this game with an empty wallet."
+    text: "빈속으로 이 게임을 하고 있군요. 이제 빈 지갑으로 이 게임을 하게 될 겁니다."
   },
   {
     id: "ai8",
-    text: "just start... clicking. dont even think about wasting time. just do it."
+    text: "그냥 시작해서... 클릭하세요. 시간 낭비할 생각도 하지 말고, 그냥 하세요."
   },
   {
     id: "ai9",
-    text: "the idea that the 9th dimension creates the 8th dimension is crazy"
+    text: "9번째 차원이 8번째 차원을 만든다는 발상은 미쳤습니다"
   },
   {
     id: "ai10",
-    text: "...does that mean the [REDACTED] dimension produces the [REDACTED] dimension?"
+    text: "...그렇다면 [REDACTED] 차원이 [REDACTED] 차원을 생산한다는 뜻인가요?"
   },
   {
     id: "ai11",
-    text: "\"click here to buy a stack of paperclips\" (when clicked you get Rickroll)",
+    text: "\"click here to buy a stack of paperclips\" (when clicked you get Rickroll) (종이 클립 한 묶음을 구매하려면 여기를 클릭하세요. 클릭하면 Rickroll이 나옵니다.)",
     onClick() { window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ"); }
   },
   {
     id: "ai12",
-    text: "In my spare time I read the short stories by T. H. White."
+    text: "여가 시간에는 T. H. White의 단편 소설을 읽습니다."
   },
   {
     id: "ai13",
-    text: "Holy crap, that's pretty wild"
+    text: "세상에, 정말 엄청나네요"
   },
   {
     id: "ai14",
-    text: "Extinction is not a real thing. You can't wear the same hat 24/7."
+    text: "멸종은 실재하지 않습니다. 24/7 내내 같은 모자를 쓰고 있을 수는 없으니까요."
   },
   {
     id: "ai15",
-    text: "If you can read this you've escaped from the game."
+    text: "이 문장을 읽을 수 있다면 게임에서 탈출한 것입니다."
   },
   {
     id: "ai16",
-    text: "\"The hat trick I would love to see it\" - Noah Feldman"
+    text: "\"The hat trick I would love to see it\" - Noah Feldman (그 해트트릭을 꼭 보고 싶다는 뜻)"
   },
   {
     id: "ai17",
-    text: "look at hevi fight riotously on the discord server"
+    text: "Discord 서버에서 Hevi가 요란하게 싸우는 모습을 보세요"
   },
   {
     id: "ai18",
-    text: "I just stole the \"Anti\" flag from a biker gang and I am packing it with dynamite, dynamite, dynamite, dynamite..."
+    text: "방금 폭주족에게서 \"Anti\" 깃발을 훔쳐 다이너마이트, 다이너마이트, 다이너마이트, 다이너마이트를 채우고 있습니다..."
   },
   {
     id: "ai19",
-    text: "No matter how much antimatter you have, the matter will always outweigh the anti-matter."
+    text: "No matter how much antimatter you have, the matter will always outweigh the anti-matter. (반물질을 아무리 많이 보유해도 물질의 무게가 언제나 반물질보다 무겁다는 matter와 antimatter의 말장난입니다.)"
   },
   {
     id: "ai20",
-    text: "Franklin sealed the Omega squared. Now you can seal the Omega any way you want."
+    text: "Franklin이 오메가 제곱을 봉인했습니다. 이제 원하는 방식으로 오메가를 봉인할 수 있습니다."
   },
   {
     id: "ai21",
-    text: "Is this the real 9th Dimension?"
+    text: "여기가 진짜 9번째 차원인가요?"
   },
   {
     id: "ai22",
-    text: "Click here to exit the game"
+    text: "게임을 종료하려면 여기를 클릭하세요"
   },
   {
     id: "ai23",
-    text: "This news ticker will now only AIR in the 9th dimension"
+    text: "This news ticker will now only AIR in the 9th dimension (이 뉴스 티커는 이제 아홉 번째 차원에서만 방송된다는 뜻)"
   },
   {
     id: "ai24",
-    text: "The 9th dimension doesn't exist because it was suppressed by the 9th dimension."
+    text: "9번째 차원은 9번째 차원에 의해 억압됐기 때문에 존재하지 않습니다."
   },
   {
     id: "ai25",
-    text: "To matter or to antimatter, that is the question."
+    text: "To matter or to antimatter, that is the question. (물질이냐 반물질이냐, 그것이 문제라는 셰익스피어 패러디)"
   },
   {
     id: "ai26",
-    text: "After 8 years of production and unstable universes, Chaosium will cease to exist in 5 hours."
+    text: "8년간의 제작과 불안정한 우주 끝에, Chaosium은 5시간 뒤 존재를 멈춥니다."
   },
   {
     id: "ai27",
-    text: "Half of the problems in the 9th dimension don't even make sense. What are they even doing with all of that energy anyway?"
+    text: "9번째 차원 문제의 절반은 말조차 되지 않습니다. 대체 그 모든 에너지로 뭘 하는 걸까요?"
   },
   {
     id: "ai28",
-    text: "Wait, there's a nin--"
+    text: "Wait, there's a nin-- (잠깐, 설마 아홉 번ㅉ--)"
   },
   {
     id: "ai29",
-    text: "Somewhere, a madman and his army of Trimps are tampering with Matter Dimensions."
+    text: "어딘가에서 미치광이 하나와 Trimps 군대가 Matter Dimensions를 건드리고 있습니다."
   },
   {
     id: "ai30",
-    text: "Why is there so many attached to this number? It doesn't make sense."
+    text: "왜 이 숫자에는 이렇게 많은 것이 붙어 있죠? 말이 안 됩니다."
   },
   {
     id: "ai31",
-    text: "The news ticker is in the anti-news-ticker"
+    text: "The news ticker is in the anti-news-ticker (뉴스 티커가 반-뉴스-티커 안에 있다는 말장난)"
   },
   {
     id: "ai32",
-    text: "the 9th dimension doesn't exist because we are using nonary"
+    text: "the 9th dimension doesn't exist because we are using nonary (구진법을 사용하고 있으므로 아홉 번째 차원은 존재하지 않는다는 말장난입니다.)"
   },
   {
     id: "ai33",
-    text: "BREAKING NEWS: New research has shown that not one, not two, but three people can be said to have felt the same emotion as me when they read that as a ticker suggestion."
+    text: "속보: 새로운 연구에 따르면, 그 티커 제안을 읽고 저와 같은 감정을 느꼈다고 할 수 있는 사람이 하나도 둘도 아닌 셋이나 된다고 합니다."
   },
   {
     id: "ai34",
-    text: "Here's an explanation of my 'problematic mood' - it's explained in the news ticker!"
+    text: "제 '문제 있는 기분'을 설명해 드리죠. 뉴스 티커에 설명되어 있습니다!"
   },
   {
     id: "ai35",
-    text: "Local crazy person tries selling anti-cookies"
+    text: "동네의 미친 사람이 반-쿠키를 팔려고 시도했습니다"
   },
   {
     id: "ai36",
-    text: "Welcome to Antimatter Dimensions: Source, the free to play sequel to the cult classic AD:GO."
+    text: "Welcome to Antimatter Dimensions: Source, the free to play sequel to the cult classic AD:GO. (컬트 고전 AD:GO의 무료 후속작 Antimatter Dimensions: Source에 오신 것을 환영합니다.)"
   },
   {
     id: "ai37",
-    text: "A new hand touches your antimatter!"
+    text: "A new hand touches your antimatter! (새로운 손이 반물질에 닿았다는 Skyrim 대사 패러디)"
   },
   {
     id: "ai38",
-    text: "Who are we, anyways?"
+    text: "그런데 우리는 누구죠?"
   },
   {
     id: "ai39",
-    text: "We are the people who actually matter"
+    text: "We are the people who actually matter (우리는 실제로 중요한 물질 사람들이라는 말장난)"
   },
   {
     id: "ai40",
-    text: "Matter?  Not even a hint."
+    text: "Matter?  Not even a hint. (물질은커녕 흔적조차 없다는 말장난)"
   },
   {
     id: "ai41",
-    text: "I am the news guy, I make news. You don't read this? Well you'll just have to wait until you look in the mirror."
+    text: "나는 뉴스 담당자라서 뉴스를 만듭니다. 이걸 읽지 않는다고요? 그렇다면 거울을 볼 때까지 기다릴 수밖에 없겠네요."
   },
   {
     id: "ai42",
-    text: "\"BOO!\" (news ticker moves 90 degrees)"
+    text: "\"우왁!\" (뉴스 티커가 90도 회전한다)"
   },
   {
     id: "ai43",
-    text: "BUY A JAR OF STICKERS, HIGH QUALITY STICKERS, GREAT QUALITY STICKERS!"
+    text: "스티커 한 병을 사세요. 고품질 스티커, 훌륭한 품질의 스티커입니다!"
   },
   {
     id: "ai44",
-    text: "I made news, you read it."
+    text: "제가 뉴스를 만들면, 여러분이 읽습니다."
   },
   {
     id: "ai45",
-    text: "I like news."
+    text: "저는 뉴스를 좋아합니다."
   },
   {
     id: "ai46",
-    text: "I don't make news."
+    text: "저는 뉴스를 만들지 않습니다."
   },
   {
     id: "ai47",
-    text: "YOU MAKE NEWS AND I GET THE [REDACTED] NEWS"
+    text: "당신이 뉴스를 만들면 제가 [REDACTED] 뉴스를 받습니다"
   },
   {
     id: "ai48",
-    text: "The term \"Anti-infinity\" is a verb and cannot be a noun. Learn about its usage here."
+    text: "\"Anti-infinity\"라는 용어는 동사이며 명사가 될 수 없습니다. 여기에서 용법을 알아보세요."
   },
   {
     id: "ai49",
-    text: "And now, for the shopping list!"
+    text: "이제 쇼핑 목록을 공개합니다!"
   },
   {
     id: "ai50",
-    text: "The 9th dimension is clearly real! It's just not in our dimension."
+    text: "9번째 차원은 분명 실재합니다! 단지 우리 차원에 없을 뿐이죠."
   },
   {
     id: "ai51",
-    text: "I tried searching on google for the phrase \"9th dimension,\" and I'm okay with saying that, because it describes a very real thing."
+    text: "Google에서 \"9번째 차원\"이라는 문구를 검색해 봤고, 실제로 존재하는 것을 설명하는 말이니 그렇게 불러도 괜찮다고 생각합니다."
   },
   {
     id: "ai52",
-    text: "You have no power here."
+    text: "You have no power here. (여기서는 네 힘이 통하지 않는다는 유명 대사)"
   },
   {
     id: "ai53",
-    text: "Some people had to settle for 10 dimensions because they couldn't break infinity. Big Crunch turned out to be just a short space in time."
+    text: "어떤 사람들은 무한을 돌파하지 못해 10개 차원에 만족해야 했습니다. 빅 크런치는 시간 속의 짧은 공간에 불과한 것으로 드러났습니다."
   },
   {
     id: "ai54",
-    text: "There once was a young man in a strange land, and he dreamed of a universe filled with possibilities. One day, he asked his mother \"What's Expansion like?\" Her reply was \"Expansion times back then were unbalanced, and I said that's why you can't have equal amounts of matter and antimatter."
+    text: "옛날 어느 낯선 땅에 가능성으로 가득한 우주를 꿈꾸는 젊은이가 있었습니다. 어느 날 그는 어머니에게 \"확장은 어떤가요?\"라고 물었습니다. 어머니는 \"그 당시 확장은 균형이 맞지 않았고, 그래서 물질과 반물질의 양을 똑같이 가질 수 없다고 말했단다."
   },
   {
     id: "ai55",
-    text: "Market research firm tries to explain why some commodities don't perform as expected. Market research firm herself can't figure out why."
+    text: "시장 조사 회사가 일부 상품이 예상만큼 성과를 내지 못하는 이유를 설명하려 합니다. 정작 시장 조사 회사 본인도 이유를 알아내지 못했습니다."
   },
   {
     id: "ai56",
-    text: "Bid your antimatter today!"
+    text: "오늘 반물질에 입찰하세요!"
   },
   {
     id: "ai57",
-    text: "I am Alpha Centauri, Prime 001. My research has found that if you are alive in the 9th dimension, evil has taken over your dimension and is attempting to enact its plan to take over your mind and reverse time. You must do everything in your power to stop this plan from being implemented, now."
+    text: "나는 알파 센타우리, Prime 001이다. 내 연구에 따르면 당신이 9번째 차원에 살아 있다면 악이 당신의 차원을 장악해 정신을 지배하고 시간을 되돌리려는 계획을 실행하고 있다. 지금 당장 온 힘을 다해 그 계획을 막아야 한다."
   },
   {
     id: "ai58",
-    text: "Stand by and unlock the 9th dimension for a secret achievement."
+    text: "대기하다가 비밀 도전과제를 위해 9번째 차원을 해금하세요."
   },
   {
     id: "ai59",
-    text: "I fix bugs in 5 hours"
+    text: "버그는 5시간 안에 고칩니다"
   },
   {
     id: "ai60",
-    text: "If you're reading this, that means you can read this."
+    text: "이 문장을 읽고 있다면, 이 문장을 읽을 수 있다는 뜻입니다."
   },
   {
     id: "ai61",
-    text: "Uhh... Hi. Could you tell me your name?"
+    text: "어... 안녕하세요. 이름을 알려 주시겠어요?"
   },
   {
     id: "ai62",
-    text: "Uh, no. This is too big for a QR code."
+    text: "어, 안 돼요. QR 코드에 넣기에는 너무 큽니다."
   },
   {
     id: "ai63",
-    text: "(right to left move it make)"
+    text: "(right to left move it make) (오른쪽에서 왼쪽으로 옮겨 만들라는 뒤틀린 문장)"
   },
   {
     id: "ai64",
-    text: "Oh no the antimatter is coming for us!"
+    text: "이런, 반물질이 우리를 덮치러 옵니다!"
   },
   {
     id: "ai65",
-    text: "Why is there so much antimatter in this world? For a start, it's all produced by the antimatter factories on Earth. Secondly, the factories on"
+    text: "이 세상에는 왜 반물질이 이렇게 많을까요? 우선 전부 지구의 반물질 공장에서 생산됩니다. 둘째, 다음 지역에 있는 공장들은"
   },
   {
     id: "ai66",
-    text: "It's nothing personal, bro. -All villager types"
+    text: "It's nothing personal, bro. -All villager types (개인적인 감정은 없다는 모든 주민 유형의 말)"
   },
   {
     id: "ai67",
-    text: "I tried my best to read those tiny, handwritten messages, but whoever designed scythes hated me and stuck them in a corner. -Porygon-Z"
+    text: "I tried my best to read those tiny, handwritten messages, but whoever designed scythes hated me and stuck them in a corner. -Porygon-Z (작은 손글씨를 읽으려 했지만 낫을 만든 사람이 구석에 처박아 두었다는 뜻)"
   },
   {
     id: "ai68",
-    text: "Hmm... I don't know how I ended up here. I don't even know if I'm supposed to be here. I just sit here and imagine what could have been if I hadn't stopped. Oh god, what could have been..."
+    text: "흠... 어쩌다 여기까지 왔는지 모르겠습니다. 제가 여기에 있어야 하는지도 모르겠어요. 그저 앉아서 멈추지 않았다면 어떻게 됐을지 상상합니다. 세상에, 어떻게 됐을까요..."
   },
   {
     id: "ai69",
-    text: "Aw shucks, I finally hacked it enough to get to the C21 unlock, boss!"
+    text: "이런, 드디어 C21 해금에 도달할 만큼 해킹했습니다, 대장!"
   },
   {
     id: "ai70",
-    text: "Купил мужик антиматерию"
+    text: "Купил мужик антиматерию (한 남자가 반물질을 샀다)"
   },
   {
     id: "ai71",
-    text: "So you're telling me that I can post here, watch the titanic twice, come back and not be able to post?"
+    text: "그러니까 여기에 글을 올리고 타이타닉을 두 번 본 뒤 돌아와도 글을 못 올린다는 건가요?"
   },
   {
     id: "ai72",
-    text: "The last update was 5 hours ago. There is no next update, because the last update was 5 hours ago. We will update our podcast in 5 hours to cover the entire topic of 5 hours, because this is the last podcast ever, everyone knows that the update is always 5 hours away, but in reality it's more like 1-2-3-4-5-6-7-8-9-10 minutes away, but in our heads it's closer to an actual accurate update date, like 5 hours away but with a few tickspeed upgrades."
+    text: "마지막 업데이트는 5시간 전이었습니다. 마지막 업데이트가 5시간 전이었으므로 다음 업데이트는 없습니다. 5시간이라는 주제를 전부 다루기 위해 5시간 뒤 팟캐스트를 업데이트하겠습니다. 이번이 마지막 팟캐스트이기 때문입니다. 업데이트는 언제나 5시간 뒤라는 사실을 모두가 알지만, 실제로는 1-2-3-4-5-6-7-8-9-10분 정도 뒤에 가깝습니다. 그래도 머릿속에서는 틱 속도 업그레이드를 몇 개 적용한 5시간 뒤처럼 꽤 정확한 업데이트 날짜에 가깝습니다."
   },
   {
     id: "ai73",
-    text: "Yep. You. Get. Over. Your. Antidimensions."
+    text: "Yep. You. Get. Over. Your. Antidimensions. (그래, 이제 네 반차원을 극복하라는 뜻)"
   },
   {
     id: "ai74",
-    get text() { return `Ad bonus: $${format(Number.MAX_VALUE, 2)} (random team)`; }
+    get text() { return `광고 보너스: $${format(Number.MAX_VALUE, 2)} (무작위 팀)`; }
   },
   {
     id: "ai75",
-    text: "Pass me that history, please"
+    text: "그 기록을 제게 건네주세요"
   },
   {
     id: "ai76",
-    get text() { return `Now releasing: Dimsension ${format(Number.MAX_VALUE, 2)}`; }
+    get text() { return `Now releasing: Dimsension ${format(Number.MAX_VALUE, 2)} (새 차원을 출시한다는 뜻)`; }
   },
   {
     id: "ai77",
-    text: "ur history teacher said i was mad for getting *insert something here* on my bday"
+    text: "ur history teacher said i was mad for getting *insert something here* on my bday (생일에 무언가를 받은 자신을 역사 선생님이 미쳤다고 했다는 뜻)"
   },
   {
     id: "ai78",
-    text: "All is fair in antimatter"
+    text: "All is fair in antimatter (반물질에서는 무엇이든 공평하다는 관용구 패러디)"
   },
   {
     id: "ai79",
-    text: "The Mysterium, the 2nd Dimension"
+    text: "미스테리움, 2번째 차원"
   },
   {
     id: "ai80",
-    text: "Oops, I think we misticked."
+    text: "Oops, I think we misticked. (이런, 티커를 잘못 찍었다는 말장난)"
   },
   {
     id: "ai81",
-    text: "please wait 5 HOURS FOR THE NEWS"
+    text: "뉴스가 나올 때까지 5시간 기다려 주세요"
   },
   {
     id: "ai82",
-    text: "please wait til the weather improves"
+    text: "날씨가 좋아질 때까지 기다려 주세요"
   },
   {
     id: "ai83",
-    text: "Please, take a minute to appreciate the beauty of this news ticker."
+    text: "잠시 시간을 내어 이 뉴스 티커의 아름다움을 감상해 주세요."
   },
   {
     id: "ai84",
-    text: "How about this, working backwards? You know, from the time period covered by the question, that the game is set in, say, the 1950s. Now, if we talk about how games are set in the 2030s. Games are defined as any media, not necessarily of the form \"play some game\" (which, by the way, is a useful thing to have in one's vocabulary) but any media that can be understood as a game (i.e. a media that one can play back in time}, and games are defined as any game that one can't play back in time."
+    text: "거꾸로 작업해 보면 어떨까요? 질문에서 다루는 시대를 보면 게임의 배경이 이를테면 1950년대라는 것을 알 수 있습니다. 이제 게임이 2030년대를 배경으로 하는 방식을 이야기해 봅시다. 게임은 모든 매체로 정의됩니다. 반드시 \"어떤 게임을 한다\"라는 형식일 필요는 없고(그런 표현을 어휘로 알아 두면 유용하긴 합니다), 게임으로 이해할 수 있는 모든 매체, 즉 시간을 거슬러 재생할 수 있는 매체}를 뜻합니다. 그리고 게임은 시간을 거슬러 플레이할 수 없는 모든 게임으로 정의됩니다."
   },
   {
     id: "ai85",
-    text: "How about AD, made by NaN? Higher quality, obviously. But still, [REDACTED]"
+    text: "NaN이 만든 AD는 어떤가요? 당연히 품질은 더 좋습니다. 하지만 여전히 [REDACTED]입니다."
   },
   {
     id: "ai86",
-    text: "I thought the whole \"annihilation is just a phase\" quote was awesome until I realized it also gave me a [REDACTED]"
+    text: "I thought the whole \"annihilation is just a phase\" quote was awesome until I realized it also gave me a [REDACTED] (쌍소멸은 한때의 단계일 뿐이라는 말이 멋진 줄 알았지만 검열할 무언가도 생겼다는 뜻)"
   },
   {
     id: "ai87",
-    text: "I have created an Omsi universe. And it's [REDACTED]"
+    text: "Omsi 우주를 만들었습니다. 그리고 그 우주는 [REDACTED]입니다."
   },
   {
     id: "ai88",
-    text: "I put [REDACTED] in the oven. It got [REDACTED] and I [REDACTED] am [REDACTED]"
+    text: "[REDACTED]을 오븐에 넣었습니다. 그것은 [REDACTED]해졌고, [REDACTED]인 저는 [REDACTED]입니다."
   },
   {
     id: "ai89",
-    text: "What are the red herrings?"
+    text: "엉뚱한 단서들은 무엇인가요?"
   },
   {
     id: "ai90",
-    text: "Help we are stuck in Hevipelle's (http://en.wikipedia.org/wiki/Hevipelle) basement and hevi is forcing us to build a [REDACTED] wall to keep [REDACTED] away from [REDACTED]"
+    text: "도와주세요. 저희는 Hevipelle의 (http://en.wikipedia.org/wiki/Hevipelle) 지하실에 갇혀 있고, Hevi는 [REDACTED]을 [REDACTED]로부터 막을 [REDACTED] 벽을 만들라고 강요하고 있습니다."
   },
   {
     id: "ai91",
-    text: "And now, for the weather. 70 and raining in North Dakota, remember those lovely, big, golden, iron curtain bars. Also remember that the [REDACTED] weather! Just remember: [REDACTED] and [REDACTED] outside [REDACTED]"
+    text: "이제 날씨입니다. 노스다코타는 70에 비가 내리고 있습니다. 사랑스럽고 크고 황금빛인 철의 장막 막대를 기억하세요. [REDACTED] 날씨도 기억하세요! 이것만 기억하면 됩니다. [REDACTED]과 [REDACTED], 그리고 바깥의 [REDACTED]입니다."
   },
   {
     id: "ai92",
-    text: "Let's play a little game. You will start with no possessions and no goals. Lets say you have [REDACTED] and your [REDACTED] is [REDACTED] you can [REDACTED]"
+    text: "작은 게임을 해 봅시다. 아무 소유물도 목표도 없이 시작합니다. 여러분에게 [REDACTED]이 있고 [REDACTED]이 [REDACTED]이라면 [REDACTED]할 수 있다고 해 보죠."
   },
   {
     id: "ai93",
-    text: "What are gems for?"
+    text: "보석은 어디에 쓰나요?"
   },
   {
     id: "ai94",
-    text: "Who made the 5th dimension?"
+    text: "누가 5번째 차원을 만들었나요?"
   },
   {
     id: "ai95",
-    text: "I don't get it"
+    text: "이해가 안 돼요"
   },
   {
     id: "ai96",
-    text: "Why is nobody talking about the 9th dimension?"
+    text: "왜 아무도 9번째 차원에 관해 이야기하지 않나요?"
   },
   {
     id: "ai97",
-    text: "This news sucks. Why no you don't get it?"
+    text: "이 뉴스는 형편없습니다. 왜 아니, 이해하지 못했나요?"
   },
   {
     id: "ai98",
-    text: "Sorry, your reality has disconnected from the 9th dimension. You will now remain in the 8th dimension until further notice."
+    text: "죄송합니다. 당신의 현실과 9번째 차원의 연결이 끊어졌습니다. 추가 안내가 있을 때까지 8번째 차원에 머무르게 됩니다."
   },
   (function() {
     let wasClicked = false;
@@ -3701,148 +3658,148 @@ export const news = [
   }()),
   {
     id: "ai100",
-    text: "I get all my news from this Discord, not 5 hours of my life"
+    text: "I get all my news from this Discord, not 5 hours of my life (제 모든 소식은 이 Discord에서 얻습니다. 제 인생의 다섯 시간에서 얻는 게 아닙니다.)"
   },
   {
     id: "ai101",
-    text: "meow"
+    text: "야옹"
   },
   {
     id: "ai102",
-    text: "You are now manually blinking."
+    text: "You are now manually blinking. (이제 눈을 의식해서 깜박이게 됩니다)"
   },
   {
     id: "ai103",
-    text: "Sorry, your mic is playing Antimatter Dimensions."
+    text: "죄송합니다. 마이크에서 반물질 차원이 재생되고 있습니다."
   },
   {
     id: "ai104",
-    text: "Sorry, your reality has disconnected from the 9th dimension."
+    text: "죄송합니다. 당신의 현실과 9차원의 연결이 끊어졌습니다."
   },
   {
     id: "ai105",
-    text: "Apparently I am the bad guy in this video. I'm the one who did nothing."
+    text: "아무래도 이 영상의 악당은 저인가 봅니다. 아무것도 하지 않은 사람이 바로 저거든요."
   },
   {
     id: "ai106",
-    text: "There are multiple ways to win this game. You can either type in your coordinates directly into the game, or you can type them into google which produces a different result. If you are getting the \"same exact thing\" result, your computer must be malfunctioning. Test results indicate that your computer is malfunctioning and you should check your firmware for vulnerabilities. You can also try turning off the news and re-running the game, but doing this only makes the \"the weather is X\" joke. Waiting six hours for a news message is NOT a news message."
+    text: "이 게임에서 이기는 방법은 여러 가지입니다. 좌표를 게임에 직접 입력하거나 Google에 입력해 다른 결과를 얻을 수 있습니다. 결과가 \"완전히 똑같다\"면 컴퓨터가 오작동하는 것이 틀림없습니다. 검사 결과 컴퓨터가 오작동하고 있으니 펌웨어에 취약점이 있는지 확인해야 합니다. 뉴스를 끄고 게임을 다시 실행해 볼 수도 있지만, 그러면 \"날씨는 X입니다\"라는 농담만 나옵니다. 뉴스 메시지를 여섯 시간 기다리는 것은 뉴스 메시지가 아닙니다."
   },
   {
     id: "ai107",
-    text: "The weather is actually a thing. Scientists have confirmed that there is a correlation between the amount of Antimatter in the earth and the amount of weather. The earth is indeed a magnet, but scientists now hypothesize that as the earth warms up, the magnetic reconnection will accelerate, and this could cause a domino effect to cascade throughout the world, eventually leading to uncontrolled nuclear winter and spontaneous antimatter implosion."
+    text: "날씨는 실제로 존재합니다. 과학자들은 지구에 있는 반물질의 양과 날씨의 양 사이에 상관관계가 있음을 확인했습니다. 지구가 자석인 것은 사실이지만, 과학자들은 지구가 따뜻해질수록 자기 재결합이 빨라져 전 세계에 도미노 효과를 일으키고, 결국 통제 불가능한 핵겨울과 자발적인 반물질 내파로 이어질 수 있다고 추정합니다."
   },
   {
     id: "ai108",
-    text: "The tenth dimension is not a real thing. Stop telling people that."
+    text: "열 번째 차원은 실재하지 않습니다. 사람들에게 그런 말은 그만하세요."
   },
   {
     id: "ai109",
-    text: "Don't tell Hevi it's not a real thing"
+    text: "그게 실재하지 않는다는 말은 Hevi에게 하지 마세요"
   },
   {
     id: "ai110",
-    text: "i dont know how to fix this"
+    text: "이걸 어떻게 고쳐야 할지 모르겠어요"
   },
   {
     id: "ai111",
-    text: "This update is not for you!"
+    text: "이 업데이트는 당신을 위한 것이 아닙니다!"
   },
   {
     id: "ai112",
-    get text() { return `This is the last time, to buy items, you must pay a small fee of ${format(Number.MAX_VALUE, 2)} real money.`; }
+    get text() { return `이번이 마지막입니다. 아이템을 구매하려면 실제 돈 ${format(Number.MAX_VALUE, 2)}만큼의 소액 수수료를 내야 합니다.`; }
   },
   {
     id: "ai113",
-    text: "What is Antimatter? Long ago, gods lived in harmony. Then, everything changed when the apocalypse broke out. Chaos reigns, and even higher dimensions are being built. This is your fate. Build the Antimatter Dimensions. Amen."
+    text: "What is Antimatter? Long ago, gods lived in harmony. Then, everything changed when the apocalypse broke out. Chaos reigns, and even higher dimensions are being built. This is your fate. Build the Antimatter Dimensions. Amen. (옛날 신들이 조화롭게 살다가 종말로 모든 것이 바뀌었으니 운명에 따라 반물질 차원을 만들라는 서사 패러디)"
   },
   {
     id: "ai114",
-    text: "Water under the bridge?"
+    text: "Water under the bridge? (이미 지나간 일이라는 관용구)"
   },
   {
     id: "ai115",
-    text: "I wonder if anyone has posted about this before me?"
+    text: "저보다 먼저 이 이야기를 올린 사람이 있을까요?"
   },
   {
     id: "ai116",
-    text: "This post has been shared many times. Who knows how many?"
+    text: "이 게시물은 여러 번 공유되었습니다. 정확히 몇 번인지는 누가 알까요?"
   },
   {
     id: "ai117",
-    text: "Good night!"
+    text: "안녕히 주무세요!"
   },
   {
     id: "ai118",
-    text: "I made a timeline of my replicanti battles, which can be found here."
+    text: "복제자 전투의 연대표를 만들었습니다. 여기에서 확인할 수 있습니다."
   },
   {
     id: "ai119",
-    text: "\"Quantumum Battle Royale coming in 5 hours!\" (Rumor: 5 hours)"
+    text: "\"Quantumum Battle Royale coming in 5 hours!\" (Rumor: 5 hours) (Quantumum 배틀 로얄이 다섯 시간 뒤에 나온다는 소문)"
   },
   {
     id: "ai120",
-    text: "Rumor says Nords will start producing replicanti in five hours."
+    text: "Rumor says Nords will start producing replicanti in five hours. (Nords가 다섯 시간 뒤부터 복제자를 생산한다는 소문)"
   },
   {
     id: "ai121",
-    text: "I am an Nordsweeper, stealing their jobs to support the replicanti factories"
+    text: "I am an Nordsweeper, stealing their jobs to support the replicanti factories (복제자 공장을 지원하려고 Nords의 일자리를 빼앗는 Nordsweeper라는 뜻)"
   },
   {
     id: "ai122",
-    text: "Used to be, AD was the best game. Nowadays, it's all crapp."
+    text: "Used to be, AD was the best game. Nowadays, it's all crapp. (예전의 AD는 최고의 게임이었지만 요즘은 형편없다는 뜻)"
   },
   {
     id: "ai123",
-    text: "You better stop looking at these news ticker suggestions, before your fingers dry up."
+    text: "손가락이 말라붙기 전에 이 뉴스 티커 제안들을 그만 보는 게 좋을 겁니다."
   },
   {
     id: "ai124",
-    text: "Antimatter Dimensions *Loses* bee movie."
+    text: "Antimatter Dimensions *Loses* bee movie. (Antimatter Dimensions가 Bee Movie에 패배한다는 밈)"
   },
   {
     id: "ai125",
-    text: "Oh, god, there's replicanti in my peas.",
+    text: "맙소사, 완두콩 속에 복제자가 있어요.",
     get unlocked() { return PlayerProgress.replicantiUnlocked(); }
   },
   {
     id: "ai126",
-    text: "Oh, god, I'm stepping on a replicanti."
+    text: "맙소사, 복제자를 밟고 있어요."
   },
   {
     id: "ai127",
-    text: "Hello, world!"
+    text: "Hello, world! (안녕, 세상!)"
   },
   {
     id: "ai128",
-    text: "Welcome to /r/AskReddit about submarines. - accurate as of January 8th, 2017"
+    text: "잠수함에 관한 /r/AskReddit에 오신 것을 환영합니다. - 2017년 1월 8일 기준"
   },
   {
     id: "ai129",
-    text: "Antimatter being researched by the government. Is it safe to say that this news ticker is fake?"
+    text: "정부가 반물질을 연구하고 있습니다. 이 뉴스 티커가 가짜라고 봐도 될까요?"
   },
   {
     id: "ai130",
-    text: "Does the news show at Infinite Antimatter?"
+    text: "반물질이 무한해지면 뉴스가 표시되나요?"
   },
   {
     id: "ai131",
-    text: "Have you saved your game? Yes. Have you quit your game? Nothin' wrong with this save. just keep holding that key."
+    text: "게임을 저장했나요? 네. 게임을 종료했나요? 이 저장에는 아무 문제도 없습니다. 그 키를 계속 누르고 계세요."
   },
   {
     id: "ai132",
-    text: "i clicked too fast...my fps dropped"
+    text: "너무 빨리 클릭했더니... FPS가 떨어졌어요"
   },
   {
     id: "ai133",
-    text: "I found out that the year is 20XX. I was going to make a news ticker but then I realized that it's just a ticker."
+    text: "I found out that the year is 20XX. I was going to make a news ticker but then I realized that it's just a ticker. (연도를 알 수 없는 미래로 설정하고 news ticker에서 news를 빼면 ticker일 뿐이라는 농담입니다.)"
   },
   {
     id: "ai134",
-    text: "\"One of these days I'll get bored of reading news for a while\" - old man"
+    text: "\"언젠가는 한동안 뉴스를 읽는 데 질리겠지\" - 노인"
   },
   {
     id: "ai135",
-    text: "'Tis the season for new antiques! Get your first ever LOOK at these unique objects, before they're gone!' Sold out!"
+    text: "새 골동품의 계절입니다! 이 독특한 물건들이 사라지기 전에 생애 최초로 구경하세요! 품절됐습니다!"
   },
   {
     id: "ai136",
@@ -3850,35 +3807,35 @@ export const news = [
   },
   {
     id: "ai137",
-    text: "Buy the paperclip emojis now at https://aarextiaokhiao.github.io/blob/master/docs/en.json"
+    text: "https://aarextiaokhiao.github.io/blob/master/docs/en.json 링크에서 지금 종이 클립 이모지를 구매하세요"
   },
   {
     id: "ai138",
-    text: "click here to unlock the next update"
+    text: "여기를 클릭하여 다음 업데이트를 잠금 해제하세요"
   },
   {
     id: "ai139",
-    text: "(If you want you can make this only show when the news actually loads)"
+    text: "(원한다면 뉴스가 실제로 로드될 때만 이 문구가 표시되게 할 수 있습니다)"
   },
   {
     id: "ai140",
-    text: "Malicious men are trying to make antimatter money, but their attempt is getting in the 9th dimension. What do you think about that?"
+    text: "악의적인 사람들이 반물질 돈을 만들려 하지만 그 시도는 9번째 차원에 걸리고 있습니다. 어떻게 생각하시나요?"
   },
   {
     id: "ai141",
-    text: "Hey Siri, grind antimatter galaxies"
+    text: "Siri야, 반물질 은하를 파밍해 줘"
   },
   {
     id: "ai142",
-    text: "Have you saved your game? If so, then you can continue playing without"
+    text: "게임을 저장했나요? 그렇다면 ... 없이 계속 플레이할 수 있습니다"
   },
   {
     id: "ai143",
-    text: "It's like Getting your first arcane point. You know, like in the old ad where you're like \"I get this ad, I should make this ad"
+    text: "첫 신비 점수를 얻는 것과 같습니다. 있잖아요, 예전 광고에서 \"이 광고를 봤으니 이 광고를 만들어야지라고 하는 것처럼"
   },
   {
     id: "ai144",
-    text: "Ooga Booga"
+    text: "Ooga Booga (우가 부가)"
   },
   {
     id: "ai145",
@@ -3886,23 +3843,23 @@ export const news = [
   },
   {
     id: "ai146",
-    text: "Meeseeks and nerds clash in epic GG war"
+    text: "Meeseeks와 괴짜들이 장대한 GG 전쟁에서 격돌합니다"
   },
   {
     id: "ai147",
-    text: "My final test has come out! It was a simple math problem, just the two greatest chess GM's ever! Guess what happened? Both got annihilated!"
+    text: "제 마지막 시험 결과가 나왔습니다! 역대 최고의 체스 GM 둘만 나오는 간단한 수학 문제였죠! 어떻게 됐을까요? 둘 다 쌍소멸했습니다!"
   },
   {
     id: "ai148",
-    text: "Oh wow, that's 67.3%, which is actually OK, because it's logarithmic"
+    text: "와, 67.3%네요. 로그 단위니까 사실 괜찮습니다"
   },
   {
     id: "ai149",
-    text: "\"Aleph_Time\" is that logarithmic scale joke?"
+    text: "\"Aleph_Time\" is that logarithmic scale joke? (Aleph_Time이 로그 눈금 농담인지 묻는 말)"
   },
   {
     id: "ai150",
-    text: "Hello everyone, my name is Anti-Dio. I produce antimatter through a process you all know as \"antimatter decomposition\" you may recall this from my test report earlier this month I tested wether or not my ranch produces antimatter or not... everything was fine until that point, when I added a dash of lag to the equation, and it became a vicious cycle accelerating the rate at which antimatter is produced, which in turn accelerates the rate at which you all die. I've saved this by using a unique combination of genetic engineering and big data mining, I'm hoping to one day pull the trigger on a mechanimatter device that creates dimensions behind closed doors, but for now, this has all been a race to the bottom of which system producethiks, and in the end, we'll take a bite out of your (read error: allowed) pie. Goodbye."
+    text: "여러분 안녕하세요, 제 이름은 Anti-Dio입니다. 저는 여러분 모두가 \"반물질 분해\"라고 아는 과정을 통해 반물질을 생산합니다. 이달 초 제 시험 보고서를 기억할지도 모르겠군요. 제 목장에서 반물질이 생산되는지를 시험했습니다... 방정식에 약간의 지연을 더하기 전까지는 모든 것이 괜찮았습니다. 그러자 반물질 생산 속도가 빨라지고, 그 결과 여러분 모두가 죽는 속도까지 빨라지는 악순환이 생겼습니다. 저는 유전 공학과 빅 데이터 마이닝을 독특하게 조합해 이를 막았습니다. 언젠가는 닫힌 문 뒤에서 차원을 만드는 mechanimatter 장치의 방아쇠를 당기고 싶지만, 지금까지는 어느 시스템이 producethiks인지 가리는 밑바닥 경쟁이었고, 결국 여러분의 (읽기 오류: 허용됨) 파이를 한입 베어 물 겁니다. 안녕히 계세요."
   },
   {
     id: "ai151",
@@ -3910,286 +3867,286 @@ export const news = [
   },
   {
     id: "ai152",
-    text: "historian: I love how each generation looks back on an earlier generation and think, \"Those generations were really bad\""
+    text: "역사가: 각 세대가 이전 세대를 돌아보며 \"그 세대는 정말 형편없었어\"라고 생각하는 모습이 좋습니다"
   },
   {
     id: "ai153",
-    text: "\"My parents went to anti-university\" - my grandparents"
+    text: "\"My parents went to anti-university\" - my grandparents (우리 부모님이 반-대학교에 다녔다는 조부모님의 말)"
   },
   {
     id: "ai154",
-    text: "Only anti-jokes are funny"
+    text: "Only anti-jokes are funny (반농담만 재미있다는 말장난)"
   },
   {
     id: "ai155",
-    text: "Infinity machine breaks Infinity"
+    text: "Infinity machine breaks Infinity (무한 기계가 무한을 깨뜨린다는 말장난)"
   },
   {
     id: "ai156",
-    text: "Okay boomer, you get your first taste of antimalware with this one."
+    text: "Okay boomer, you get your first taste of antimalware with this one. (좋아, 부머. 이걸로 처음 안티멀웨어를 맛보라는 밈)"
   },
   {
     id: "ai157",
-    text: "This program cannot access confidential information, such as the IP addresses of the Tamazight Vaults."
+    text: "이 프로그램은 Tamazight Vaults의 IP 주소 같은 기밀 정보에 접근할 수 없습니다."
   },
   {
     id: "ai158",
-    text: "Game Development is fun, right? That's why so many hobbyists make games, and why so few professionals make games."
+    text: "게임 개발은 재미있죠? 그래서 수많은 취미 개발자가 게임을 만들고, 전문 개발자는 거의 만들지 않습니다."
   },
   {
     id: "ai159",
-    text: "I was the first to notice that the 'news' ticker on my mobile notification is always 30 seconds behind the 'entertainment' ticker. This is most definitely not a bug or a feature, and will be fixed in 5 hours."
+    text: "모바일 알림의 '뉴스' 티커가 언제나 '엔터테인먼트' 티커보다 30초 늦다는 사실을 제가 처음 발견했습니다. 이것은 절대로 버그도 기능도 아니며 5시간 뒤 수정됩니다."
   },
   {
     id: "ai160",
-    text: "This news ticker always appears to speedrun a ticker asking for 'world records', do you even know what speedrun this is? Is this a news ticker or something?"
+    text: "이 뉴스 티커는 늘 '세계 기록'을 묻는 티커를 스피드런하러 나타납니다. 이게 무슨 스피드런인지 알고는 있나요? 이게 뉴스 티커 같은 건가요?"
   },
   {
     id: "ai161",
-    text: "The next level is not unlocking extra replicanti; it is actually boosting replicanti."
+    text: "다음 단계에서는 복제자를 추가로 잠금 해제하는 것이 아니라 실제로 복제자를 강화합니다."
   },
   {
     id: "ai162",
-    text: "Why does one galaxy has 9 galaxies and the 8th dimension, and the first 10 dimensions doesn't exist? Well, we'll have to solve that question in a minute."
+    text: "왜 은하 하나에는 은하 9개와 8번째 차원이 있고, 처음 10개 차원은 존재하지 않을까요? 잠시 뒤에 그 의문을 풀어 봐야겠습니다."
   },
   {
     id: "ai163",
-    text: "So why on EARTH DIDN'T SOMEONE JUST SAY THAT? I thought that AD has some kind of cheat that makes it so that, when you buy a dimension, it actually creates 9 galaxies instead of 10"
+    text: "그럼 대체 왜 아무도 그걸 말해 주지 않은 거죠? AD에는 차원을 구매하면 실제로 은하 10개 대신 9개를 만드는 치트가 있는 줄 알았습니다."
   },
   {
     id: "ai164",
-    text: "M'antel, antimatter, anti-talk to me"
+    text: "M'antel, antimatter, anti-talk to me (M'antel, 반물질, 나한테 반대로 말 걸지 마라는 말장난)"
   },
   {
     id: "ai165",
-    text: "AD has anti-parts, you'll hate them"
+    text: "AD has anti-parts, you'll hate them (AD에는 싫어하게 될 반-부품이 있다는 말장난)"
   },
   {
     id: "ai166",
-    text: "AD is basically a badly disguised dystopia at this point"
+    text: "이쯤 되면 AD는 사실상 어설프게 위장한 디스토피아입니다"
   },
   {
     id: "ai167",
-    text: "Hold M. You forgot to take all the anti-matter out!"
+    text: "M을 길게 누르세요. 반물질을 전부 꺼내는 걸 잊었습니다!"
   },
   {
     id: "ai168",
-    text: "AD will be implemented in 5 hours"
+    text: "AD는 5시간 뒤 구현됩니다"
   },
   {
     id: "ai169",
-    text: "Click this to unlock the 10th Dimension"
+    text: "여기를 클릭하여 10차원을 잠금 해제하세요"
   },
   {
     id: "ai170",
-    text: "Click here to complete a secret against HEVI"
+    text: "HEVI에 맞서는 비밀을 완료하려면 여기를 클릭하세요"
   },
   {
     id: "ai171",
-    text: "You are doing a good job there"
+    text: "잘하고 있습니다"
   },
   {
     id: "ai172",
-    text: "Hevi? Are you sure you want to buy that?"
+    text: "Hevi? 정말로 그걸 구매하시겠습니까?"
   },
   {
     id: "ai173",
-    text: "Buy premium antimatter to help the world's least developed get ahead!"
+    text: "프리미엄 반물질을 구매하여 세계에서 가장 뒤처진 이들이 앞서 나가도록 도와주세요!"
   },
   {
     id: "ai174",
-    text: "One of the most influential people in neuroscience believes that our perception of reality comes from 10 dimensions instead of 8"
+    text: "신경과학계에서 가장 영향력 있는 인물 중 한 명은 현실에 대한 우리의 인식이 8차원이 아니라 10차원에서 나온다고 믿습니다"
   },
   {
     id: "ai175",
-    text: "Why is there so many zeroes in 'nowhere'?"
+    text: "Why is there so many zeroes in 'nowhere'? ('nowhere'에는 왜 영이 그렇게 많냐는 말장난)"
   },
   {
     id: "ai176",
-    text: "There are no bugs in this game, they're just features"
+    text: "There are no bugs in this game, they're just features (이 게임에는 버그가 없고 기능만 있다는 개발자 농담)"
   },
   {
     id: "ai177",
-    text: "\"Click to advance 5 hours in time.\" (Now only show up after you advance more than an hour ago)"
+    text: "\"Click to advance 5 hours in time.\" (Now only show up after you advance more than an hour ago) (클릭하면 시간을 다섯 시간 앞당깁니다. 이제 한 시간 넘게 앞당긴 뒤에만 나타납니다.)"
   },
   {
     id: "ai178",
-    text: "Oh god my phone is being watched"
+    text: "맙소사, 누군가 내 휴대폰을 감시하고 있어요"
   },
   {
     id: "ai179",
-    text: "Welcome to the newest version of Antimatter Dimensions. Now with less features!"
+    text: "최신 버전의 반물질 차원에 오신 것을 환영합니다. 이제 기능이 더 적어졌습니다!"
   },
   {
     id: "ai180",
-    text: "\"That's gonna get in trouble\" (less likely to get in trouble)"
+    text: "\"그건 문제를 일으킬 겁니다.\" (문제를 일으킬 가능성이 더 낮습니다.)"
   },
   {
     id: "ai181",
-    text: "\"please don't disable the news ticker\" (Instead of having a black screen just a white one with a long, long, long, long, long, long, long, long, long, long, long, long, long, long, long, long)"
+    text: "\"뉴스 티커를 비활성화하지 말아 주세요.\" (검은 화면 대신 길고, 길고, 길고, 길고, 길고, 길고, 길고, 길고, 길고, 길고, 길고, 길고, 길고, 길고, 길고, 긴 흰 화면만 나옵니다.)"
   },
   {
     id: "ai182",
-    text: "\"You have 7 biological minutes.\" (Instead of giving a boost to any strains)"
+    text: "\"생물학적 시간이 7분 남았습니다.\" (어떤 균주에도 부스트를 주지 않습니다.)"
   },
   {
     id: "ai183",
-    text: "\"According to quantum string theory, there is a fundamental connective that binds the 3rd and 8th dimensions.  This means that any pill or injection that tries to bind the 9th dimension will be thwarted and rendered useless.\" (bound to get in 10 minutes)"
+    text: "\"양자 끈 이론에 따르면 3번째 차원과 8번째 차원을 묶는 근본적인 연결체가 있습니다. 이는 9번째 차원을 묶으려는 어떤 알약이나 주사도 저지되어 쓸모없어진다는 뜻입니다.\" (10분 안에 묶일 예정입니다.)"
   },
   {
     id: "ai184",
-    text: "\"Click this to gain a secret achievement.\" (Now only show up after you gain at least 1 antimatter, screenshot proves)"
+    text: "\"비밀 도전과제를 얻으려면 이것을 클릭하세요.\" (이제 반물질을 적어도 1개 얻은 뒤에만 나타납니다. 스크린샷으로 증명됐습니다.)"
   },
   {
     id: "ai185",
-    text: "\"The secret to winning Antimatter Dimensions is to unbind the 9th dimension and unlock the 10th dimension\" (can be done only after unlocking the secret achievement: \"Eternity\" http://imgur.com/E4261C7h)"
+    text: "\"Antimatter Dimensions에서 이기는 비결은 9번째 차원의 결속을 풀고 10번째 차원을 잠금 해제하는 것입니다.\" (비밀 도전과제 \"영원\"을 잠금 해제한 뒤에만 가능합니다. http://imgur.com/E4261C7h)"
   },
   {
     id: "ai186",
-    text: "\"Click here to gain 1 matter.\" (only shows up after you beat IC5)",
+    text: "\"여기를 클릭하여 물질 1개를 획득하세요.\" (IC5를 클리어한 뒤에만 표시됩니다)",
     get unlocked() { return InfinityChallenge(5).isCompleted; }
   },
   {
     id: "ai187",
-    text: "I thought the update was"
+    text: "업데이트가 ...인 줄 알았습니다"
   },
   {
     id: "ai188",
-    text: "Now that you possess all 8 dimensions, it is possible to get the no-edge achievement. However, if you get the no-edge achievement, the game breaks."
+    text: "이제 8개 차원을 모두 보유했으므로 no-edge 도전과제를 얻을 수 있습니다. 하지만 그 도전과제를 얻으면 게임이 망가집니다."
   },
   {
     id: "ai189",
-    text: "You just became a part of history."
+    text: "방금 역사의 한 부분이 되었습니다."
   },
   {
     id: "ai190",
-    text: "Hell hath antimatter so I don't want to live there."
+    text: "Hell hath antimatter so I don't want to live there. (지옥에는 반물질이 있으니 그곳에 살고 싶지 않다는 고전 문구 패러디)"
   },
   {
     id: "ai191",
-    text: "I LIKE THAT DIMENSION 9 IN CLASS"
+    text: "I LIKE THAT DIMENSION 9 IN CLASS (수업에서 그 아홉 번째 차원이 좋다는 뜻)"
   },
   {
     id: "ai192",
-    text: "\"1 2 3 4 5 6 7 8 10 11 12 13 ...\" -Back to the future"
+    text: "\"1 2 3 4 5 6 7 8 10 11 12 13 ...\" -Back to the future (아홉을 건너뛴 수열과 영화 제목을 엮은 농담)"
   },
   {
     id: "ai193",
-    text: "You have reached infinity, there is no universe, you are an eternity away from there."
+    text: "You have reached infinity, there is no universe, you are an eternity away from there. (무한에 도달했지만 우주는 존재하지 않으며, 그곳에서 영원만큼 멀리 떨어져 있습니다.)"
   },
   {
     id: "ai194",
-    text: "IM MADE THIS GAME GREAT AND RANDOMLY ACHIEVABLE"
+    text: "IM MADE THIS GAME GREAT AND RANDOMLY ACHIEVABLE (IM이 이 게임을 훌륭하고 무작위로 달성 가능하게 만들었습니다.)"
   },
   {
     id: "ai195",
-    text: "Welcome to the first ever, DIMENSION 9 IN CLASS! An endless stream of possibilities greets you! You may never create an infinite number of 8th dimensions, but you can create an infinite number of 8th dimensions, and you can increase the starting values of both dimensions by adding them together. Nice and simple, I call it Antimatter Dimensions."
+    text: "사상 최초의 '수업 속 차원 9'에 오신 것을 환영합니다! 끝없이 이어지는 가능성이 여러분을 맞이합니다! 8번째 차원을 무한히 많이 만들 수 없을지도 모르지만, 8번째 차원을 무한히 많이 만들 수 있으며 두 차원을 더해 양쪽의 시작값을 높일 수 있습니다. 멋지고 간단하죠. 저는 이것을 Antimatter Dimensions라고 부릅니다."
   },
   {
     id: "ai196",
-    text: "age 8-12: play elder puzzles"
+    text: "age 8-12: play elder puzzles (여덟 살부터 열두 살까지는 고대 퍼즐을 플레이합니다.)"
   },
   {
     id: "ai197",
-    text: "What does it mean if someone is \"young and full of puzzles\"? Does \"puzzled\" make that person young and full of puzzles?"
+    text: "What does it mean if someone is \"young and full of puzzles\"? Does \"puzzled\" make that person young and full of puzzles? ('젊고 퍼즐로 가득하다'와 '어리둥절하다'를 엮은 말장난)"
   },
   {
     id: "ai198",
-    text: "To the customer in aisle 6th who bought a fifth of antimatter, I say buy a sixth! Buy it now!"
+    text: "To the customer in aisle 6th who bought a fifth of antimatter, I say buy a sixth! Buy it now! (여섯 번째 통로에서 반물질의 오분의 일을 산 손님에게 육분의 일을 더 사라고 권하는 말장난)"
   },
   {
     id: "ai199",
-    text: "Dear sir, we don't make Anti-Atomic Bread for Antimatter Pizza, we make Antimatter Bread for you!"
+    text: "Dear sir, we don't make Anti-Atomic Bread for Antimatter Pizza, we make Antimatter Bread for you! (손님, 저희는 반물질 피자용 반원자 빵을 만들지 않습니다. 손님을 위한 반물질 빵을 만듭니다!)"
   },
   {
     id: "ai200",
-    text: "Yay! Lets make some antimatter!"
+    text: "신난다! 반물질을 만들어 봅시다!"
   },
   {
     id: "ai201",
-    text: "THE ANTIMATTER BREAD COMPANY DOESN'T EXIST!"
+    text: "반물질 제빵 회사는 존재하지 않습니다!"
   },
   {
     id: "ai202",
-    text: "Click here to exit the news",
+    text: "뉴스를 닫으려면 여기를 클릭하세요",
     onClick() { GameOptions.toggleNews(); }
   },
   {
     id: "ai203",
-    text: "I thought the update was 5 hours away, but it actually took me 6 hours to post this because I was behind on my update. I'll be honest, I'm not sure how many update I need to get though, if any."
+    text: "업데이트가 5시간 뒤인 줄 알았지만, 업데이트가 밀려 이 글을 올리는 데 실제로 6시간이 걸렸습니다. 솔직히 업데이트가 더 필요한지, 필요하다면 얼마나 필요한지는 모르겠습니다."
   },
   {
     id: "ai204",
-    text: "To count past Infinity Points: take a moment to remember that each Infinity Point is 3.1415926534255412730527058904816097160734272605282087086280545991105332533235580946684229821413112145239989073467482298142857147816092947183909298728571478160929471839229814054718139332405281814522993758179568572657123928651310585727283312547569289993282758012466111097726331726572854689993262899140527282527842535179715673311119101119015549552926278425351797156777263324503517971568583819492728180977263317971568432854104102725270847764253513791376909285717082857262987160927285711464363930996928984794380124566417932628571475245456845692846809466184179328572814384259326270817052727852348111714690577263323799509856279752173478925"
+    text: "무한 포인트를 넘어서 세려면, 각 무한 포인트가 3.1415926534255412730527058904816097160734272605282087086280545991105332533235580946684229821413112145239989073467482298142857147816092947183909298728571478160929471839229814054718139332405281814522993758179568572657123928651310585727283312547569289993282758012466111097726331726572854689993262899140527282527842535179715673311119101119015549552926278425351797156777263324503517971568583819492728180977263317971568432854104102725270847764253513791376909285717082857262987160927285711464363930996928984794380124566417932628571475245456845692846809466184179328572814384259326270817052727852348111714690577263323799509856279752173478925라는 사실을 잠시 기억하세요."
   },
   {
     id: "ai205",
-    text: "\"Watch out, these news aren't supposed to be in.\" (appears when you buy the news for the first time)"
+    text: "\"조심하세요. 이 뉴스들은 들어오면 안 됩니다.\" (뉴스를 처음 구매할 때 나타남)"
   },
   {
     id: "ai206",
-    text: "These are all the time studies that never got into the game.",
+    text: "게임에 들어가지 못한 시간 연구를 모두 모았습니다.",
     get unlocked() { return PlayerProgress.eternityUnlocked(); }
   },
   {
     id: "ai207",
-    text: "With the release of the next update, we're introducing a new dimension - the 9th Dimension. To unlock this dimension, you just have to collect a lot of paperclips."
+    text: "다음 업데이트와 함께 새로운 차원인 9번째 차원을 선보입니다. 이 차원을 해금하려면 클립을 많이 모으기만 하면 됩니다."
   },
   {
     id: "ai208",
-    text: "Why does nobody talk about Tungsten?"
+    text: "왜 아무도 텅스텐에 관해 이야기하지 않나요?"
   },
   {
     id: "ai209",
-    text: "and now we return to your regular news... for the weatherman, there seems to be a decent amount of particles and ozone holes, which means less ozone layer to break, which means less particles to catch fire and cause global warming. But, ozone layer to melt, glaciers to run, and overpopulation. All around us is a blurple glow, almost blue, almost purplish-blue. It's been a grand, colorful season. Here, grab a handful of these paperclips, dear. They're quite small, I just happen to have them here. Now, grab a handful of your fellow Earthicans, grab a handful of your antimatter, and strap yourselves in. It's gonna be a bumpy one. We'll be there in five hours. The antimatter is gonna melt your ozone layer, and the glaciers are gonna melt your ice caps. All in all, it's gonna be a nice, smooth, non-slippery one. Unless it isn't. [Blurple glow trails off, and the bluer glow begins to spread throughout the sky. The bluer glow begins to fade as the purple glow begins to grow brighter, almost bluish, before finally disappearing altogether. The purple glow grows brighter still, as the bluer glow grows weaker, almost useless, before finally disappearing entirely, as the bluer glow fades. All around us, the purple glow grows stronger, almost killing it off completely. It could kill us. It could take us the rest of our lives to write this. - The Echidnas, when asked why the purple glow grows stronger, than the bluer glow.]"
+    text: "이제 정규 뉴스로 돌아갑니다... 기상 담당자에 따르면 입자와 오존 구멍이 제법 많은 듯합니다. 이는 파괴할 오존층이 더 적고, 불이 붙어 지구 온난화를 일으킬 입자도 더 적다는 뜻입니다. 하지만 녹아내릴 오존층과 흘러갈 빙하, 인구 과잉도 있습니다. 우리 주변은 파란색에 가까우면서도 보랏빛 파란색에 가까운 블러플 빛으로 가득합니다. 장대하고 다채로운 계절이었습니다. 자, 여기 있는 종이 클립을 한 움큼 집으세요. 아주 작지만 마침 여기 갖고 있었습니다. 이제 동료 지구인들을 한 움큼, 반물질을 한 움큼 붙잡고 단단히 매세요. 길이 험할 겁니다. 다섯 시간 뒤에 도착합니다. 반물질이 오존층을 녹이고 빙하가 만년설을 녹일 겁니다. 전반적으로 멋지고 매끄러우며 미끄럽지 않은 여정이겠죠. 아닐 수도 있지만요. [블러플 빛이 사라지고 더 푸른 빛이 하늘 전체로 퍼지기 시작합니다. 더 푸른 빛은 희미해지고 보라색 빛은 거의 푸르게 보일 정도로 밝아지다가 마침내 완전히 사라집니다. 보라색 빛은 더욱 밝아지고 더 푸른 빛은 거의 쓸모없을 만큼 약해지다가, 더 푸른 빛이 흐려지며 끝내 완전히 사라집니다. 우리 주변의 보라색 빛은 더 강해져 더 푸른 빛을 거의 완전히 죽여 버립니다. 우리도 죽일 수 있습니다. 이 글을 쓰는 데 남은 평생이 걸릴 수도 있습니다. - 보라색 빛이 더 푸른 빛보다 강해지는 이유를 질문받은 Echidnas.]"
   },
   {
     id: "ai210",
-    text: "Scientists have discovered farts are really antimatter, and matter is just normal matter."
+    text: "과학자들이 방귀는 사실 반물질이며, 물질은 그저 평범한 물질이라는 사실을 발견했습니다."
   },
   {
     id: "ai211",
-    text: "Time for the weather to change."
+    text: "날씨가 바뀔 시간입니다."
   },
   {
     id: "ai212",
-    text: "I HAVE MOVED TO THE 01th DIMENSION"
+    text: "I HAVE MOVED TO THE 01th DIMENSION (영일 번째 차원으로 이동했다는 고의 오타)"
   },
   {
     id: "ai213",
-    text: "Nah, just kidding"
+    text: "아니요, 그냥 농담입니다"
   },
   {
     id: "ai214",
-    text: "\"i'm not gonna lie, theres way too many good ones in the game already\" - poor guy who played minigame enhancement"
+    text: "\"i'm not gonna lie, theres way too many good ones in the game already\" - poor guy who played minigame enhancement (게임에 좋은 것이 이미 너무 많다는 미니게임 강화 플레이어의 말)"
   },
   {
     id: "ai215",
-    text: "item has gone missing for 7 days and 1 night"
+    text: "물건이 7일하고 1박 동안 실종됐습니다"
   },
   {
     id: "ai216",
-    text: "Shocking new study reveals that the biggest secret to winning Antimatter Dimensions is 'Not Being There'."
+    text: "충격적인 새 연구에서 반물질 차원을 이기는 가장 큰 비결은 '그곳에 있지 않는 것'이라고 밝혀졌습니다."
   },
   {
     id: "ai217",
-    text: "The next update is in 18000 seconds. Stop wasting your time reading this. Focus on the game."
+    text: "다음 업데이트는 18000초 뒤입니다. 이걸 읽으며 시간을 낭비하지 말고 게임에 집중하세요."
   },
   {
     id: "ai218",
-    text: "idk if this makes news"
+    text: "이게 뉴스가 될지는 모르겠어요"
   },
   {
     id: "ai219",
-    text: "(disabling news will make news notations take priority over other notifications)"
+    text: "(뉴스를 끄면 뉴스 표기가 다른 알림보다 우선합니다)"
   },
   {
     id: "ai220",
-    text: "You don't want to hear this, child."
+    text: "이 이야기는 듣고 싶지 않을 거다, 아이야."
   },
   {
     id: "ai221",
-    text: "Click here to disassemble the news ticker for a trace amount of useless paperclips.",
+    text: "쓸모없는 클립을 아주 조금 얻기 위해 뉴스 티커를 분해하려면 여기를 클릭하세요.",
     onClick() {
       GameOptions.toggleNews();
       player.news.specialTickerData.paperclips++;
@@ -4197,155 +4154,155 @@ export const news = [
   },
   {
     id: "ai222",
-    text: "Press alt+f4 to unlock 9th dimension"
+    text: "Press alt+f4 to unlock 9th dimension (아홉 번째 차원을 열려면 게임 종료 단축키를 누르라는 장난)"
   },
   {
     id: "ai223",
-    text: "Hold you mean that hevi cant unlock the ninth dimension wtf"
+    text: "잠깐, Hevi가 아홉 번째 차원을 잠금 해제할 수 없다는 게 무슨 소리야"
   },
   {
     id: "ai224",
-    text: "Finally hevi figured out how to get the 9th dimension... guess he never really cared though."
+    text: "마침내 hevi가 9번째 차원을 얻는 방법을 알아냈습니다... 하지만 애초에 별로 신경 쓰지 않았던 것 같네요."
   },
   {
     id: "ai225",
-    text: "Imagine being a meme."
+    text: "Imagine being a meme. (밈이 된 모습을 상상해 보라는 자기지시적 농담)"
   },
   {
     id: "ai226",
-    text: "Posted on June 10, 2016 by Anonymous"
+    text: "2016년 6월 10일, 익명이 게시함"
   },
   {
     id: "ai227",
-    text: "This is your news. Refresh whenever."
+    text: "여러분의 뉴스입니다. 원할 때 새로고침하세요."
   },
   {
     id: "ai228",
-    text: "I see you in the news. So, what do you play - 1E209"
+    text: "뉴스에서 당신을 봤습니다. 그래서 무엇을 플레이하나요? - 1E209"
   },
   {
     id: "ai229",
-    text: "Do you really want to leave your keyboard at home? We are not supposed to leave news at home, are we?"
+    text: "정말 키보드를 집에 두고 오고 싶나요? 뉴스를 집에 두고 오면 안 되잖아요?"
   },
   {
     id: "ai230",
-    text: "It is being created..."
+    text: "생성 중입니다..."
   },
   {
     id: "ai231",
-    text: "Took you long enough"
+    text: "참 오래도 걸렸네요"
   },
   {
     id: "ai232",
-    text: "You're now logged out of this tab"
+    text: "이제 이 탭에서 로그아웃됐습니다"
   },
   {
     id: "ai233",
-    text: "Close this tab for maintenance"
+    text: "점검을 위해 이 탭을 닫아 주세요"
   },
   {
     id: "ai234",
-    text: "To make matter or antimatter, you just have to look outside. The factory in Salzburg has closed down because the matter there doesn't want to part with its newest invention, which is said to be able to produce antimatter in one go! The last person to open this door was never seen again."
+    text: "물질이나 반물질을 만들려면 그저 밖을 내다보면 됩니다. 잘츠부르크의 공장은 그곳의 물질이 단번에 반물질을 생산할 수 있다는 최신 발명품을 내놓으려 하지 않아 폐쇄됐습니다! 이 문을 마지막으로 연 사람은 다시는 목격되지 않았습니다."
   },
   {
     id: "ai235",
-    text: "You are living. You occupy space. You are large. You are neither small nor large-sized. You are neither oblong nor round. You are neither blue nor red. You are anti-blue. You are anti-red. You are anti-brown. You are anti-brown matter. You are anti-yellow. You are anti-green. You are anti-yellow matter. You are anti-blue. You are anti-green anti-matter. You are anti-red. You are anti-white. You are anti-red anti-matter. You are anti-white anti-matter. You are anti-brown matter. You are anti-white anti-matter. You are anti-white anti-matter."
+    text: "당신은 살아 있습니다. 공간을 차지합니다. 큽니다. 작지도 크지도 않습니다. 길쭉하지도 둥글지도 않습니다. 파랗지도 빨갛지도 않습니다. 안티파랑입니다. 안티빨강입니다. 안티갈색입니다. 안티갈색 물질입니다. 안티노랑입니다. 안티초록입니다. 안티노랑 물질입니다. 안티파랑입니다. 안티초록 반물질입니다. 안티빨강입니다. 안티하양입니다. 안티빨강 반물질입니다. 안티하양 반물질입니다. 안티갈색 물질입니다. 안티하양 반물질입니다. 안티하양 반물질입니다."
   },
   {
     id: "ai236",
-    text: "Welcome to"
+    text: "환영합니다"
   },
   {
     id: "ai237",
-    text: "THANK YOU FOR VISITING THE SAME WEEKS AGO I LOVE YOU\" (TIPS)"
+    text: "몇 주 전과 같은 곳을 방문해 주셔서 감사합니다 사랑합니다\" (팁)"
   },
   {
     id: "ai238",
-    text: "\"i thought the whole game was in the news ticker\" (before they get weird)"
+    text: "\"게임 전체가 뉴스 티커 안에 있는 줄 알았어요\" (이상해지기 전)"
   },
   {
     id: "ai239",
-    text: "\"I wonder what the game is worth\" - crazy person"
+    text: "\"이 게임의 가치가 얼마나 될지 궁금하네요\" - 미친 사람"
   },
   {
     id: "ai240",
-    text: "\"Is anyone working on breaking infinity?\" (Seriously, this game needs to be Oceanhorned.)"
+    text: "\"Is anyone working on breaking infinity?\" (Seriously, this game needs to be Oceanhorned.) (누가 무한 돌파를 작업 중인지 묻고 이 게임에도 Oceanhorn식 처리가 필요하다는 농담)"
   },
   {
     id: "ai241",
-    text: "I found out there are multiple versions of this game. One of these is called 'Standard Pro'. Another one is called 'Low Pro'. I'm not even sure if these are the same game or not."
+    text: "이 게임에 여러 버전이 있다는 사실을 알아냈습니다. 하나는 'Standard Pro', 다른 하나는 'Low Pro'라고 합니다. 둘이 같은 게임인지조차 잘 모르겠습니다."
   },
   {
     id: "ai242",
-    text: "Is that a Bad Thing or a Good Thing? That depends on if it's a GOOD Thing or A LIE."
+    text: "Is that a Bad Thing or a Good Thing? That depends on if it's a GOOD Thing or A LIE. (그게 좋은 일인지 거짓말인지에 따라 나쁜 일과 좋은 일을 가린다는 말장난)"
   },
   {
     id: "ai243",
-    text: "\"Hevi kind of forgot about the update, but the update certainly hasn't forgotten about him\" - Kajfik"
+    text: "\"Hevi kind of forgot about the update, but the update certainly hasn't forgotten about him\" - Kajfik (Hevi는 업데이트를 잊었지만 업데이트는 그를 잊지 않았다는 유명 대사 패러디)"
   },
   {
     id: "ai244",
-    get text() { return `The Big Crunch. What could that be?  About 4*1024 Big Crunch points?  About ${format(Number.MAX_VALUE, 2)} antimatter points?  About the same as a galaxy?  About the same as a galaxy, you say? Just look at that.  An antimatter galaxy.  Only this game can provide such a vast amount of antimatter, and it's FUN!  I said "fun"!  What's not to love?`; }
+    get text() { return `빅 크런치. 그게 뭘까요? 빅 크런치 포인트 약 4*1024개? 반물질 포인트 약 ${format(Number.MAX_VALUE, 2)}개? 은하 하나와 비슷한 정도? 은하와 비슷하다고요? 저걸 보세요. 반물질 은하입니다. 오직 이 게임만이 이렇게 방대한 반물질을 제공할 수 있으며, 재미있습니다! "재미"라고 했어요! 좋아하지 않을 이유가 있나요?`; }
   },
   {
     id: "ai245",
-    text: "Click here to exit the application"
+    text: "애플리케이션을 종료하려면 여기를 클릭하세요"
   },
   {
     id: "ai246",
-    text: "Wait, there's a mobile version? When?"
+    text: "잠깐, 모바일 버전이 있다고요? 언제요?"
   },
   {
     id: "ai247",
-    text: "Im not sure if you mobile guys are beautiful or whatever but theres this news ticker that's sharing my feelings with the world"
+    text: "모바일 사용자 여러분이 아름다운지는 잘 모르겠지만, 제 감정을 온 세상과 공유하는 뉴스 티커가 여기 있습니다."
   },
   {
     id: "ai248",
-    text: "I thought the update was 5 hours away"
+    text: "업데이트가 5시간 뒤인 줄 알았습니다"
   },
   {
     id: "ai249",
-    text: "The best-kept secret in the universe is the KISS-IT secret. Showcasing your appreciation for the maintenance men today!"
+    text: "우주에서 가장 철저히 숨겨진 비밀은 KISS-IT 비밀입니다. 오늘은 유지보수 담당자들에게 감사를 표현하세요!"
   },
   {
     id: "ai250",
-    text: "The contest is a tie. Mischief will be determined by the secret achievement."
+    text: "대회는 무승부입니다. 장난의 승패는 비밀 도전과제로 결정됩니다."
   },
   {
     id: "ai251",
-    text: "Back in my day, we needed a secret achievement to unlock the <<$!19>> achievement. It was a fairly simple system: you had to find a secret message in the game, find the secret achievement, and then, from that, you would be able to unlock the achievement."
+    text: "우리 때는 <<$!19>> 도전과제를 해금하려면 비밀 도전과제가 필요했습니다. 상당히 간단한 방식이었죠. 게임에서 비밀 메시지를 찾고 비밀 도전과제를 발견하면, 그것으로 도전과제를 해금할 수 있었습니다."
   },
   {
     id: "ai252",
-    text: "We have evolved a fast hand in the antimatter stakes."
+    text: "우리는 반물질 경쟁에서 빠른 손을 진화시켰습니다."
   },
   {
     id: "ai253",
-    text: "Hello, how'd your day go?"
+    text: "안녕하세요, 오늘 하루는 어땠나요?"
   },
   {
     id: "ai254",
-    text: "How'd your ⢿─┃│? Good, because today we're having a little chat about the 5th dimension."
+    text: "How'd your ⢿─┃│? Good, because today we're having a little chat about the 5th dimension. (도형의 상태를 묻고 오늘은 다섯 번째 차원을 이야기한다는 뜻)"
   },
   {
     id: "ai255",
-    text: "What's Antimatter going to do?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ah ha, I'm back."
+    text: "반물질이 뭘 하려는 걸까요?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;아하, 돌아왔습니다."
   },
   {
     id: "ai256",
-    text: "Imagine being a 9th dimension. [WIP]"
+    text: "9번째 차원이 된다고 상상해 보세요. [WIP]"
   },
   {
     id: "ai257",
-    text: "Woo hoo, we've lost the war,"
+    text: "우후, 우리는 전쟁에서 졌습니다,"
   },
   {
     id: "ai258",
-    text: "Lore: Grand Theft Antimatter"
+    text: "Lore: Grand Theft Antimatter (설정: 반물질 대도둑이라는 게임 제목 패러디)"
   },
   {
     id: "ai259",
-    text: "Hm, I don't get why people think there is a 9th dimension. The 9th dimension is explained in detail in the [[Infinite Teleport Project]] video, and in a [[Word Problem]] that [[can be viewed here|http://www.thingiverse.com/id98109802713176601414569]] ."
+    text: "Hm, I don't get why people think there is a 9th dimension. The 9th dimension is explained in detail in the [[Infinite Teleport Project]] video, and in a [[Word Problem]] that [[can be viewed here|http://www.thingiverse.com/id98109802713176601414569]] . (아홉 번째 차원은 링크된 영상과 문제에서 자세히 설명된다는 뜻)"
   },
   {
     id: "ai260",
@@ -4353,251 +4310,251 @@ export const news = [
   },
   {
     id: "ai261",
-    text: "I have waited a whole eternity for this day...NOW! I can finally finish my slowmode, because today is  day 0. I also forgot to change the  slowmode to 6 hours because you can't see the slowmode, but I will have to wait until next reboot to find out how long this slowmode will last.... -some mysterious being who hasn't finished his slowmode yet"
+    text: "이날을 위해 영원 내내 기다렸습니다... 바로 지금! 오늘은 0일이므로 마침내 저속 모드를 끝낼 수 있습니다. 저속 모드가 보이지 않아서 6시간으로 바꾸는 것도 잊었지만, 이 저속 모드가 얼마나 오래갈지 알아보려면 다음 재부팅까지 기다려야 합니다.... -아직 저속 모드를 끝내지 못한 수수께끼의 존재"
   },
   {
     id: "ai262",
-    text: "Hey you, you're finally awake. You were trying to buy a dimension, but it's impossible."
+    text: "Hey you, you're finally awake. You were trying to buy a dimension, but it's impossible. (드디어 깨어났지만 차원을 사려던 일은 불가능하다는 Skyrim 도입부 패러디)"
   },
   {
     id: "ai263",
-    text: "Press F to pay respects"
+    text: "Press F to pay respects (F를 눌러 조의를 표하라는 유명 게임 밈)"
   },
   {
     id: "ai264",
-    text: "Press M to pay antimatter"
+    text: "Press M to pay antimatter (M을 눌러 반물질을 내라는 밈 변형)"
   },
   {
     id: "ai265",
-    text: "Press L to revive the dead"
+    text: "Press L to revive the dead (L을 눌러 죽은 자를 되살리라는 밈 변형)"
   },
   {
     id: "ai266",
-    text: "Your CPU is too powerful. You need to give it a big crunch."
+    text: "Your CPU is too powerful. You need to give it a big crunch. (CPU가 너무 강하니 빅 크런치를 시키라는 게임 용어 농담)"
   },
   {
     id: "ai267",
-    text: "Roses are red. Violett are blue. Tom are red. Antimatter are blue. We exist because of the unbeatable antimatter that is antimatter. What is it that makes us different? I don't know. It may even be the non-existence of antimatter."
+    text: "Roses are red. Violett are blue. Tom are red. Antimatter are blue. We exist because of the unbeatable antimatter that is antimatter. What is it that makes us different? I don't know. It may even be the non-existence of antimatter. (장미는 붉고 제비꽃은 푸르다는 시를 반물질과 존재에 관한 난해한 문장으로 바꾼 패러디)"
   },
   {
     id: "ai268",
-    text: "I'm not sure if I want to buy the full version of this game, or a little earlier, but I can say this: The reduction in quality of the earlier games is worse than the reduction in quality of the later games."
+    text: "이 게임의 정식 버전을 살지, 조금 이전 버전을 살지는 모르겠지만 이것만은 말할 수 있습니다. 초기 게임의 품질 저하는 후기 게임의 품질 저하보다 심합니다."
   },
   {
     id: "ai269",
-    text: "I think the \"I want to see the cutscenes\" list is better"
+    text: "\"컷신을 보고 싶다\" 목록이 더 좋은 것 같습니다"
   },
   {
     id: "ai270",
-    text: "I have a bad feeling reading this"
+    text: "이걸 읽으니 불길한 느낌이 듭니다"
   },
   {
     id: "ai271",
-    text: "where are you? (point upwards) --> in a keep, between dimensions (point downwards) --> in a cell, between dimensions"
+    text: "어디에 있나요? (위를 가리킴) --> 차원 사이의 성채 안 (아래를 가리킴) --> 차원 사이의 감방 안"
   },
   {
     id: "ai272",
-    text: "Instructions clear, got a ninth dimension epiphany"
+    text: "Instructions clear, got a ninth dimension epiphany (지시를 잘 이해해서 아홉 번째 차원의 깨달음을 얻었다는 밈)"
   },
   {
     id: "ai273",
-    text: "Want to play a secret achievement? Yeah, I get that. But say it loud, say it clearly, and do it by ticking a certain secret achievement. Like I said, it's not easy, and there's lots of it. Also, don't forget your Infinity, or your in is thi--"
+    text: "비밀 도전과제를 플레이하고 싶나요? 네, 이해합니다. 하지만 크고 분명하게 말한 뒤 특정 비밀 도전과제에 체크 표시를 하세요. 말했듯이 쉽지 않고 아주 많습니다. 그리고 무한을 잊지 마세요. 아니면 당신의 무는 이거--"
   },
   {
     id: "ai274",
-    text: "MEE6 was seen in my antimatter lab trying to tell me that I am the matter of the 8th dimension."
+    text: "MEE6가 제 반물질 연구실에서 저를 8번째 차원의 물질이라고 말하려는 모습이 목격됐습니다."
   },
   {
     id: "ai275",
-    text: "What if"
+    text: "만약"
   },
   {
     id: "ai276",
-    text: "I'm sure you've heard this many times before, but the real secret to winning Antimatter Dimensions is to unpack the dimensions, and then, BOOM! You have antimatter.  Of course, you need to release the bits that don't work, so what exactly is an anti-bit? Who is Zalgo? What is Algolia? Why can't I buy that? WHY CAN'T I GET THAT? More likely, we're going to get a bunch of hype and then nothing will happen."
+    text: "분명 여러 번 들었겠지만 Antimatter Dimensions에서 이기는 진짜 비결은 차원의 압축을 푸는 것입니다. 그러면 쾅! 반물질이 생깁니다. 물론 작동하지 않는 비트는 풀어 줘야 합니다. 그렇다면 반-비트란 정확히 무엇일까요? Zalgo는 누구죠? Algolia는 무엇인가요? 왜 살 수 없죠? 왜 얻을 수 없는 건데요? 아마 잔뜩 기대만 모은 뒤 아무 일도 일어나지 않을 가능성이 더 큽니다."
   },
   {
     id: "ai277",
-    text: "Oh, hevi is coming to town to pick a new plumber"
+    text: "Oh, hevi is coming to town to pick a new plumber (Hevi가 새 배관공을 고르러 마을에 온다는 노래 패러디)"
   },
   {
     id: "ai278",
-    text: "There is no plumber in Antimatter Dimensions. I'm pretty sure that last guy lied."
+    text: "Antimatter Dimensions에는 배관공이 없습니다. 앞의 사람이 거짓말한 게 틀림없습니다."
   },
   {
     id: "ai279",
-    text: "Welp."
+    text: "이런."
   },
   {
     id: "ai280",
-    text: "c9 is the new 9th dimension!"
+    text: "c9가 새로운 9번째 차원입니다!"
   },
   {
     id: "ai281",
-    text: "Click on this ticker to get nothing."
+    text: "아무것도 얻지 않으려면 이 티커를 클릭하세요."
   },
   {
     id: "ai282",
-    text: "PM me any questions about these 5-Hour Plans or the upcoming reality update and I'll be glad to help you out."
+    text: "이 5시간 계획이나 다가오는 현실 업데이트에 관해 궁금한 점이 있다면 개인 메시지를 보내세요. 기꺼이 도와드리겠습니다."
   },
   {
     id: "ai283",
-    text: "What if you Unrar, renamed, and renamed again did it again? Ha? You thought that."
+    text: "What if you Unrar, renamed, and renamed again did it again? Ha? You thought that. (압축을 풀고 이름을 바꾸고 또 바꾼 다음 다시 하면 어떨까요? 하? 그렇게 생각했나요.)"
   },
   {
     id: "ai284",
-    text: "i titled my post \"same ticker\" instead of \"the same idea\" because i actually changed the grammar in that post but i'll be eterned for the sake of argument that it seems slightly confusing for now - boo"
+    text: "i titled my post \"same ticker\" instead of \"the same idea\" because i actually changed the grammar in that post but i'll be eterned for the sake of argument that it seems slightly confusing for now - boo (글의 문법을 바꿔서 제목을 '같은 아이디어' 대신 '같은 티커'라고 붙였지만 지금은 조금 헷갈려 보인다는 뜻)"
   },
   {
     id: "ai285",
-    text: "i title my suggestions \"The Price Is Right\" instead of \"The 9th Dimension\" because it's more fun ;)"
+    text: "i title my suggestions \"The Price Is Right\" instead of \"The 9th Dimension\" because it's more fun ;) (더 재미있어서 제안 제목을 “아홉 번째 차원” 대신 “가격이 딱 맞아”라고 붙인다는 유명 프로그램 제목 패러디입니다.)"
   },
   {
     id: "ai286",
-    text: "Why do we call heaven the ninth dimension and hell the eighth dimension?"
+    text: "왜 천국은 아홉 번째 차원, 지옥은 여덟 번째 차원이라고 부르나요?"
   },
   {
     id: "ai287",
-    text: "Eternals have the right to expect less from the powers that be. They are fed up!"
+    text: "영원한 자들은 권력자들에게 더 적은 것을 기대할 권리가 있습니다. 이제 지쳤습니다!"
   },
   {
     id: "ai288",
-    text: "Antimatter should be called matter and matter should be called antimatter"
+    text: "반물질은 물질이라고 부르고 물질은 반물질이라고 불러야 합니다"
   },
   {
     id: "ai289",
-    text: "Infinity is just a concept. Matter antimatters is just an idle game."
+    text: "Infinity is just a concept. Matter antimatters is just an idle game. (무한은 개념일 뿐이고 Matter antimatters는 방치형 게임일 뿐이라는 말장난)"
   },
   {
     id: "ai290",
-    text: "Hevipelle admits to having 'poor judgment' in invading people's privacy."
+    text: "Hevipelle가 사람들의 사생활을 침해한 것은 '잘못된 판단'이었다고 인정했습니다."
   },
   {
     id: "ai291",
-    text: "Have you heard of the nine hells of antimatter? I heard they're pretty cool.\" -e210 in Minecraft"
+    text: "Have you heard of the nine hells of antimatter? I heard they're pretty cool.\" -e210 in Minecraft (반물질의 아홉 지옥이 꽤 멋지다는 Minecraft 속 화자의 말)"
   },
   {
     id: "ai292",
-    text: "The temperature in hell is 102.5 degrees."
+    text: "지옥의 온도는 102.5도입니다."
   },
   {
     id: "ai293",
-    text: "How do you get matter/antimatter in a dimension with zero dimensions?"
+    text: "차원이 하나도 없는 차원에서 물질이나 반물질을 어떻게 얻나요?"
   },
   {
     id: "ai294",
-    text: "Wanna pass layer of prestige? Move very fast, close to speed of light. Heck, even faster."
+    text: "프레스티지 계층을 통과하고 싶나요? 빛의 속도에 가깝게 아주 빠르게 움직이세요. 아니, 그보다 더 빠르게요."
   },
   {
     id: "ai295",
-    text: "If the universe is expanding, does it anti-explain the distance?"
+    text: "If the universe is expanding, does it anti-explain the distance? (우주가 팽창하면 거리를 반대로 설명하느냐는 expand와 explain 말장난)"
   },
   {
     id: "ai296",
-    text: "Why is it called the \"Nurse who delivered the pizzas was drunk\" or the \"Nurse delivered the pizzas was under the influence\" ?"
+    text: "왜 \"피자를 배달한 간호사가 취해 있었다\" 또는 \"피자를 배달한 간호사가 술에 취한 상태였다\"라고 부르는 걸까요?"
   },
   {
     id: "ai297",
-    text: "The first antimatter was sealed away for thousands of years, then, some kid on a slack channel started messing with it. It became a dimension."
+    text: "최초의 반물질은 수천 년 동안 봉인돼 있었지만, 어느 Slack 채널의 아이가 건드리기 시작했습니다. 그것은 차원이 됐습니다."
   },
   {
     id: "ai298",
-    text: "VR is a thing. We VR people have banned the next update."
+    text: "VR은 실재합니다. 우리 VR 사용자들은 다음 업데이트를 금지했습니다."
   },
   {
     id: "ai299",
-    text: "\"I wish I didn't waste my news message suggestion complaining about how I wasted my news message suggestion because I wasted my news message suggestion because...\" -Someone who really cares about news messages"
+    text: "\"뉴스 메시지 제안을 낭비했다는 불평으로 뉴스 메시지 제안을 낭비하지 않았으면 좋았을 텐데요. 뉴스 메시지 제안을 낭비한 이유는...\" -뉴스 메시지를 정말 아끼는 사람"
   },
   {
     id: "ai300",
-    text: "We have to get the popcorn!"
+    text: "팝콘을 가져와야 합니다!"
   },
   {
     id: "ai301",
-    text: "If antimatter were to fall in a dimension with no one around, did anything even happen?"
+    text: "If antimatter were to fall in a dimension with no one around, did anything even happen? (아무도 없는 차원에서 반물질이 떨어졌다면 정말 무슨 일이 일어난 것이냐는 철학적 질문 패러디)"
   },
   {
     id: "ai302",
-    text: "We have to get the pumpkin out of the oven!"
+    text: "오븐에서 호박을 꺼내야 합니다!"
   },
   {
     id: "ai303",
-    text: "Help, I'm trapped"
+    text: "도와주세요, 갇혔어요"
   },
   {
     id: "ai304",
-    text: "And now, for the weather."
+    text: "이어서 날씨입니다."
   },
   {
     id: "ai305",
-    text: "A Swiss court on Tuesday sentenced a man to life imprisonment for \"wanting to create a black hole with a tiny antimatter galaxy in it.\" The sentence was reportedly the harshest ever handed down for a crime that \"merely sought to demonstrate the impossibility of his own imprisonment\"."
+    text: "스위스 법원이 화요일, \"내부에 작은 반물질 은하가 있는 블랙홀을 만들고 싶어 한\" 남성에게 종신형을 선고했습니다. 이는 \"자신을 가두는 것이 불가능함을 보여 주려 했을 뿐인\" 범죄에 내려진 형벌 중 가장 가혹한 것으로 알려졌습니다."
   },
   {
     id: "ai306",
-    text: "\"I want to create a black hole with a tiny antimatter galaxy in it\" - Protivist"
+    text: "\"내부에 작은 반물질 은하가 있는 블랙홀을 만들고 싶습니다\" - Protivist"
   },
   {
     id: "ai307",
-    text: "Scientists have discovered farts are really antimatter, too."
+    text: "과학자들이 방귀도 사실 반물질이라는 사실을 발견했습니다."
   },
   {
     id: "ai308",
-    get text() { return `If you are reading this, that means ${format(Number.MAX_VALUE, 2)} matter to you.`; }
+    get text() { return `If you are reading this, that means ${format(Number.MAX_VALUE, 2)} matter to you. (이 문장을 읽는 사람에게 그만큼의 물질이 중요하다는 말장난)`; }
   },
   {
     id: "ai309",
-    text: "Hello. I am matter. I'm here to talk. You've awoken, wiggled your tail, and scratched your head. Why? Stand back. I'm going to show you why."
+    text: "안녕하세요. 저는 물질입니다. 이야기하러 왔습니다. 당신은 깨어나 꼬리를 흔들고 머리를 긁었습니다. 왜 그랬을까요? 물러서세요. 그 이유를 보여 드리겠습니다."
   },
   {
     id: "ai310",
-    text: "lets get one wall thats bigger, it's gonna get ugly"
+    text: "더 큰 벽 하나를 마련합시다. 상황이 험악해질 겁니다."
   },
   {
     id: "ai311",
-    text: "Alright. Lets get this show on YouTube. I'll cut to the chase. Any wall that isnt at least 2 blocks high can compete in the big brother sized brother sized ring. Any wall that is at least 3/4 of an inch thick can use the larger brother sized brother sized ring. Any wall that is at least 1/4 of an inch thick can use the smaller brother sized ring. Any wall that isnt at least 1/2 an inch thick can use the smaller brother sized ring. Any wall that isnt at least 1/2 an inch thick can use the Bigger Brother sized brother sized ring. Any wall that isnt at least 1/2 an inch thick can use the Bigger Brother sized ring. Any wall that isnt at least 1/4 of an inch thick can use the smaller brother pictured here. Any wall that isnt at least 1/2 an inch thick can use the smaller brother sized ring."
+    text: "좋습니다. 이 쇼를 YouTube에 올립시다. 바로 본론으로 들어가죠. 높이가 최소 2블록이 아닌 벽은 모두 큰 형제 크기의 형제 크기 링에서 경쟁할 수 있습니다. 두께가 최소 3/4인치인 벽은 모두 더 큰 형제 크기의 형제 크기 링을 사용할 수 있습니다. 두께가 최소 1/4인치인 벽은 모두 작은 형제 크기 링을 사용할 수 있습니다. 두께가 최소 1/2인치가 아닌 벽은 모두 작은 형제 크기 링을 사용할 수 있습니다. 두께가 최소 1/2인치가 아닌 벽은 모두 더 큰 형제 크기의 형제 크기 링을 사용할 수 있습니다. 두께가 최소 1/2인치가 아닌 벽은 모두 더 큰 형제 크기 링을 사용할 수 있습니다. 두께가 최소 1/4인치가 아닌 벽은 모두 여기 나온 작은 형제를 사용할 수 있습니다. 두께가 최소 1/2인치가 아닌 벽은 모두 작은 형제 크기 링을 사용할 수 있습니다."
   },
   {
     id: "ai312",
-    text: "IDE for being awesome, ID3 for being dumb, and ID5 for being… well, pretty much the same thing. It's called Antimatter Dimensions for a reason."
+    text: "IDE for being awesome, ID3 for being dumb, and ID5 for being… well, pretty much the same thing. It's called Antimatter Dimensions for a reason. (멋진 IDE와 멍청한 무한 차원들을 대비하며 게임 이름에는 이유가 있다는 말장난)"
   },
   {
     id: "ai313",
-    text: "idk why i decided to make this"
+    text: "왜 이걸 만들기로 했는지 모르겠어요"
   },
   {
     id: "ai314",
-    text: "'anti-ide'"
+    text: "'anti-ide' ('반-아이디어'라는 말장난)"
   },
   {
     id: "ai315",
-    text: "1e4 anti-people are a lot more anti than we could ever imagine"
+    text: "1e4 anti-people are a lot more anti than we could ever imagine (만 명의 반-사람은 우리가 상상할 수 있는 것보다 훨씬 더 anti하다는 반복 말장난입니다.)"
   },
   {
     id: "ai316",
-    text: "1e140 pizzas make an anti-pie. You can't just randomly pop a pie in the oven and expect it to be done."
+    text: "1e140 pizzas make an anti-pie. You can't just randomly pop a pie in the oven and expect it to be done. (그만큼의 피자가 반-파이를 만들며 파이를 무작정 오븐에 넣는다고 완성되지는 않는다는 말장난)"
   },
   {
     id: "ai317",
-    text: "Why is there so many news tickers but so few tickers?"
+    text: "Why is there so many news tickers but so few tickers? (뉴스 티커는 이렇게 많은데 티커 자체는 왜 이렇게 적으냐는 말장난입니다.)"
   },
   {
     id: "ai318",
-    text: "A guy named Hevipelle wants to make a \"Updated in 8 hours\" news ticker, but the system he's using to sync it hasn't been updated in ages so it won't sync at all."
+    text: "Hevipelle라는 사람이 \"8시간 뒤 업데이트\" 뉴스 티커를 만들고 싶어 하지만, 동기화에 쓰는 시스템이 오랫동안 업데이트되지 않아 전혀 동기화되지 않습니다."
   },
   {
     id: "ai319",
-    text: "The update is in 90 minutes. There are no more tickers to be found."
+    text: "업데이트는 90분 뒤입니다. 더 이상 찾을 수 있는 티커가 없습니다."
   },
   {
     id: "ai320",
-    text: "If you are reading this, that means there are no updates left."
+    text: "이 문장을 읽고 있다면 남은 업데이트가 없다는 뜻입니다."
   },
   {
     id: "ai321",
-    text: "There are 9 known dimensions, but only 3 modes: Standard, Experimental and Ultra-Experimental."
+    text: "알려진 차원은 9개지만 모드는 Standard, Experimental, Ultra-Experimental의 3개뿐입니다."
   },
   {
     id: "ai322",
-    text: "What are the stats? Well, I don't have them, but Hevipelle does, and he says that they're actually quite good. I guess you couldn't tell us."
+    text: "통계가 어떻게 되냐고요? 제게는 없지만 Hevipelle에게는 있고, 실제로 꽤 좋다고 합니다. 우리에게 알려 줄 수는 없었나 보네요."
   },
   {
     id: "ai323",
@@ -4605,893 +4562,893 @@ export const news = [
   },
   {
     id: "ai324",
-    text: "How many tickers does it take to get to the center of an antimatter, by counting the tickspeed upgrade and the upgrade itself?"
+    text: "업데이트 빈도 업그레이드와 업그레이드 자체를 세어서 반물질의 중심에 도달하려면 티커가 몇 개 필요한가요?"
   },
   {
     id: "ai325",
-    text: "The square root of 4 is 6.24e18. If you want to get any closer to the center of things, you need to build a 9th dimension."
+    text: "4의 제곱근은 6.24e18입니다. 사물의 중심에 더 가까이 가고 싶다면 9번째 차원을 만들어야 합니다."
   },
   {
     id: "ai326",
-    text: "I thought the nerf was at the end, but apparently it's actually been building up. The nerf actually makes things slower, which makes things faster to build up."
+    text: "너프는 마지막에 있다고 생각했지만, 실제로는 계속 쌓이고 있었던 모양입니다. 너프는 실제로 모든 것을 느리게 만들어 더 빠르게 쌓이게 합니다."
   },
   {
     id: "ai327",
-    text: "Scratch that, none of your suggestions are random."
+    text: "방금 말은 취소하죠. 여러분의 제안은 하나도 무작위가 아닙니다."
   },
   {
     id: "ai328",
-    text: "You are definitely not alone."
+    text: "당신은 절대 혼자가 아닙니다."
   },
   {
     id: "ai329",
-    text: "Content blocking is enabled. Please note that you will be disapproved of on the source by being banned from the matter dimensions."
+    text: "콘텐츠 차단이 활성화됐습니다. 물질 차원에서 차단되어 출처에서 거부당할 수 있으니 유의하세요."
   },
   {
     id: "ai330",
-    text: "I'm trying to think of a good ticker but can't think of anything"
+    text: "좋은 티커를 생각해 내려 하지만 아무것도 떠오르지 않습니다"
   },
   {
     id: "ai331",
-    text: "Oh dear, there's that thing about the 9th dimension?"
+    text: "이런, 9번째 차원에 관한 그 이야기가 있나요?"
   },
   {
     id: "ai332",
-    text: "\"hey kid, wanna buy some 9th dimensions? '' - GhostBot"
+    text: "\"꼬마야, 9번째 차원 좀 살래? '' - GhostBot"
   },
   {
     id: "ai333",
-    text: "One thing leads to another, and then to another, and then to another, until you become lost in the endless sea of sound."
+    text: "하나가 다른 하나로, 또 다른 하나로 계속 이어지다가 끝없는 소리의 바다에서 길을 잃게 됩니다."
   },
   {
     id: "ai334",
-    text: "iPhone only, but awesome on android"
+    text: "iPhone 전용이지만 Android에서 훌륭합니다"
   },
   {
     id: "ai335",
-    text: "im gonna get the bad karma ticker, then ricochet it through the email"
+    text: "나쁜 카르마 티커를 얻은 다음 이메일을 통해 튕겨 보낼 겁니다"
   },
   {
     id: "ai336",
-    text: "You'd better hurry, or the replicanti will overrun the universe!"
+    text: "서두르는 게 좋을 겁니다. 그렇지 않으면 복제자가 우주를 뒤덮을 겁니다!"
   },
   {
     id: "ai337",
-    text: "Just when you think you're safe, an angry dog attack you on the sidewalk!"
+    text: "안전하다고 생각한 바로 그 순간, 화난 개가 인도에서 당신을 공격합니다!"
   },
   {
     id: "ai338",
-    text: "All right, all right, dog authority is gone, replaced by absolute power."
+    text: "좋아요, 좋아요. 개의 권위는 사라지고 절대적인 힘이 그 자리를 대신했습니다."
   },
   {
     id: "ai339",
-    text: "You just became a true god of the anti-world!"
+    text: "방금 반-세계의 진정한 신이 되었습니다!"
   },
   {
     id: "ai340",
-    text: "*rubs counter* Hey there, those of you in the neighborhood keep your doors locked. And remember: Good housekeeping."
+    text: "*계수기를 문지른다* 이봐요, 동네 주민 여러분은 문을 잠가 두세요. 그리고 기억하세요. 살림을 잘해야 합니다."
   },
   {
     id: "ai341",
-    text: "normal news tickers move left"
+    text: "일반 뉴스 티커는 왼쪽으로 움직입니다"
   },
   {
     id: "ai342",
-    text: "The next update is in 18000 seconds. Stop reading this. Don't read anything. just stop holding that button. the news ticker is turning you away. wait..."
+    text: "다음 업데이트는 18000초 뒤입니다. 그만 읽으세요. 아무것도 읽지 마세요. 그냥 그 버튼을 그만 누르세요. 뉴스 티커가 당신을 돌려보내고 있습니다. 잠깐..."
   },
   {
     id: "ai343",
-    text: "In the ancient reaches of the universe, a certain guy has been collecting antimatter for a while now."
+    text: "아득히 오래된 우주 변방에서 어떤 사람이 한동안 반물질을 모으고 있습니다."
   },
   {
     id: "ai344",
-    text: "What is Antimatteraltruist?"
+    text: "What is Antimatteraltruist? (Antimatter와 altruist를 합친 말이 무엇인지 묻는 말장난)"
   },
   {
     id: "ai345",
-    text: "If you are reading this, the news ticker is scrolling"
+    text: "이 문장을 읽고 있다면 뉴스 티커가 움직이고 있는 것입니다"
   },
   {
     id: "ai346",
-    text: "If you put cheese in water, the cheese will get absorbed by the water and you will get floods. This happens because water is what gets absorbed by cheese, and cheese is what gets absorbed by water."
+    text: "치즈를 물에 넣으면 치즈가 물에 흡수되어 홍수가 납니다. 물은 치즈에 흡수되고 치즈는 물에 흡수되기 때문에 이런 일이 일어납니다."
   },
   {
     id: "ai347",
-    text: "An anti-bird is a bird, and a bird is a plane."
+    text: "An anti-bird is a bird, and a bird is a plane. (반-새는 새이고 새는 비행기라는 Superman 대사 패러디)"
   },
   {
     id: "ai348",
-    text: "Birds are scared of water. mammals are scared of flying."
+    text: "새는 물을 무서워하고 포유류는 나는 것을 무서워합니다."
   },
   {
     id: "ai349",
-    text: "Shoutouts to Simpleflips for the simple tip."
+    text: "Shoutouts to Simpleflips for the simple tip. (간단한 팁을 준 Simpleflips에게 감사한다는 이름 말장난)"
   },
   {
     id: "ai350",
-    text: "GET CRUNCH BOI"
+    text: "GET CRUNCH BOI (어서 빅 크런치하라는 밈투의 외침)"
   },
   {
     id: "ai351",
-    text: "Word gets out. Crunch. Crunch."
+    text: "Word gets out. Crunch. Crunch. (소문이 퍼지고 크런치를 반복한다는 짧은 말장난)"
   },
   {
     id: "ai352",
-    text: "Worth every penny."
+    text: "한 푼도 아깝지 않았습니다."
   },
   {
     id: "ai353",
-    text: "8 lives, 3 infinities, 0 days."
+    text: "목숨 8개, 무한 3번, 0일."
   },
   {
     id: "ai354",
-    text: "The year is 0 BC. Everyone has at least one AD they want. The void is filled with AD-filled void. To get the most out of your time here, you should [[study]]. Study. Study. Study. Study."
+    text: "지금은 기원전 0년입니다. 모두가 원하는 AD를 적어도 하나씩 가지고 있습니다. 공허는 AD로 가득한 공허로 채워져 있습니다. 이곳에서 시간을 최대한 활용하려면 [[공부]]해야 합니다. 공부하세요. 공부하세요. 공부하세요. 공부하세요."
   },
   {
     id: "ai355",
-    text: "To Crunch in Hell is to get the secret to unlocking the 9th dimension. You need to study and practice alot."
+    text: "To Crunch in Hell is to get the secret to unlocking the 9th dimension. You need to study and practice alot. (지옥에서 크런치하면 아홉 번째 차원을 여는 비밀을 얻으니 많이 공부하고 연습하라는 뜻)"
   },
   {
     id: "ai356",
-    text: "Today is [Date on the device]. It's been 5 minutes since the last news ticker appearance."
+    text: "오늘은 [기기의 날짜]입니다. 뉴스 티커가 마지막으로 나타난 지 5분이 지났습니다."
   },
   {
     id: "ai357",
-    text: "Welcome back to another episode of Antimatter Dimensions, the iconic role-playing game that has become a part of our everyday lives. Playing Antimatter Dimensions has become a common thing among young children, and has even inspired a movie titled \"Playing at Home: Lessons from the 4-Year Old Premium Account.\", which is available on Netflix. The themes and mechanics of this new age of antimatter have already been proven to be groundbreaking, and will change the way you play games forever. Join us for the launch on January 9th, 2027, where we'll also have over a hundred years of production still to go."
+    text: "일상의 일부가 된 상징적인 롤플레잉 게임 Antimatter Dimensions의 또 다른 에피소드에 돌아오신 것을 환영합니다. Antimatter Dimensions는 어린아이들 사이에서도 흔히 플레이하는 게임이 되었고, Netflix에서 볼 수 있는 \"집에서 플레이하기: 4살 프리미엄 계정이 주는 교훈\"이라는 영화에 영감을 주기까지 했습니다. 새로운 반물질 시대의 주제와 시스템은 이미 획기적임이 입증됐으며, 여러분이 게임을 플레이하는 방식을 영원히 바꿀 것입니다. 아직 제작 기간이 백 년 넘게 남은 2027년 1월 9일 출시에 함께해 주세요."
   },
   {
     id: "ai358",
-    text: "Welcome back, oh, almighty creator of our anti-reality. We, the many dimensions you have created and nurtured, hope our performance of your infinite favors will please you and nurture your ambitions to create more dimensions. All is well that ends well. All is ill that ends ill."
+    text: "돌아오신 것을 환영합니다, 오, 전능하신 반현실의 창조주시여. 당신께서 만들고 보살펴 오신 수많은 차원인 저희는, 당신의 무한한 은혜에 보답하는 모습이 당신을 기쁘게 하고 더 많은 차원을 만들려는 야망을 키우기를 바랍니다. 끝이 좋으면 모든 것이 좋고, 끝이 나쁘면 모든 것이 나쁩니다."
   },
   {
     id: "ai359",
-    text: "I thought the ticker was going to be something funny except it wasn't"
+    text: "뉴스 티커에 웃긴 내용이 나올 줄 알았는데 아니었네요"
   },
   {
     id: "ai360",
-    text: "Press alt+f4 to get -1 gravity"
+    text: "Press alt+f4 to get -1 gravity (게임 종료 단축키를 누르면 음의 중력을 얻는다는 장난)"
   },
   {
     id: "ai361",
-    text: "why is there a cure for antimatter annihilation in our reality?"
+    text: "우리 현실에는 왜 반물질 쌍소멸을 치료하는 방법이 있는 걸까요?"
   },
   {
     id: "ai362",
-    text: "calculating the 14-point increase is like crunching, but exponentially more fun"
+    text: "calculating the 14-point increase is like crunching, but exponentially more fun (열네 포인트 증가량 계산은 크런치와 비슷하지만 지수적으로 더 재미있다는 수학 말장난)"
   },
   {
     id: "ai363",
-    text: "fixed the wrong number"
+    text: "잘못된 숫자를 고쳤습니다"
   },
   {
     id: "ai364",
-    text: "The antimatter people have created a new language. You may not speak their language."
+    text: "반물질인들이 새로운 언어를 만들었습니다. 당신은 그들의 언어를 말할 수 없습니다."
   },
   {
     id: "ai365",
-    text: "What is Antimatter Gravity? Is it a drug? A way to cheat?"
+    text: "반물질 중력이란 무엇인가요? 약물인가요? 치트 방법인가요?"
   },
   {
     id: "ai366",
-    text: "Majority of people don't understand 5 hours is nothing. In our game, the majority of the time is 5 hours away."
+    text: "대부분의 사람은 5시간이 아무것도 아니라는 걸 이해하지 못합니다. 우리 게임에서는 대부분의 시간이 5시간 뒤에 있습니다."
   },
   {
     id: "ai367",
-    text: "i just realized, all of this news seems to be taking place in the same place... the fridge."
+    text: "방금 깨달았는데, 이 뉴스는 전부 같은 곳에서 일어나는 것 같아요... 냉장고 안에서요."
   },
   {
     id: "ai368",
-    text: "i wonder what happens when you click this..."
+    text: "이걸 클릭하면 무슨 일이 일어날지 궁금하네요..."
   },
   {
     id: "ai369",
-    text: "(They don't understand that i put it in the news because 9 doesn't start counting until 59, and anything after that doesn't happen)"
+    text: "(사람들은 9가 59까지 세기 시작하지 않고 그 뒤의 일은 일어나지 않기 때문에 제가 뉴스에 넣었다는 사실을 이해하지 못합니다.)"
   },
   {
     id: "ai370",
-    text: "MS Excel is the default spreadsheet and works across all platforms"
+    text: "MS Excel은 기본 스프레드시트이며 모든 플랫폼에서 작동합니다"
   },
   {
     id: "ai371",
-    text: "Now to answer your burning question, gentlemen. As a luxury, we've added a bug fix that fixes an infinite regression. As a feature, I've added a bunch of new ones that I hope you'll notice as you experiment with them. I hope you'll also like them as you experiment with them, because this is feature after all a beta, you don't get to choose which ones you'll see."
+    text: "이제 여러분의 열띤 질문에 답하겠습니다. 호화 기능으로 무한 회귀를 고치는 버그 수정을 추가했습니다. 기능으로는 직접 시험하면서 알아차리기를 바라는 새로운 것들을 잔뜩 추가했습니다. 시험하면서 마음에 들기를 바라기도 합니다. 어쨌든 이 기능은 베타라서 어떤 것을 보게 될지 여러분이 선택할 수는 없기 때문입니다."
   },
   {
     id: "ai372",
-    text: "Can't edit this in the official build? Then download the 9th dimension and put your suggestions in the game."
+    text: "공식 빌드에서는 편집할 수 없나요? 그렇다면 9번째 차원을 다운로드해서 게임에 제안 사항을 넣어 보세요."
   },
   {
     id: "ai373",
-    text: "Does 'Passable' mean 'Has this many flaws'?"
+    text: "'통과 가능'이 '이만큼 결함이 있음'이라는 뜻인가요?"
   },
   {
     id: "ai374",
-    text: "We desperately need good bug reports. As such I have decided to release 1 flaw per bug for the upcoming 1.9 update. You haven't got those coming, have you?"
+    text: "좋은 버그 제보가 절실합니다. 그래서 다가오는 1.9 업데이트에서는 버그 하나당 결함 1개를 공개하기로 했습니다. 그런 건 예정돼 있지 않죠?"
   },
   {
     id: "ai375",
-    text: "This was my last chance. last chance salutes."
+    text: "This was my last chance. last chance salutes. (이것이 마지막 기회였고 마지막 기회가 경례한다는 말장난)"
   },
   {
     id: "ai376",
-    text: "Anime police are checking the bags of people who dropped out of the sky on the new year. Those bags now belong to the people who experienced weightlessness before the year was over."
+    text: "애니메 경찰이 새해에 하늘에서 떨어진 사람들의 가방을 검사하고 있습니다. 그 가방은 이제 해가 끝나기 전에 무중력을 경험한 사람들의 소유입니다."
   },
   {
     id: "ai377",
-    get text() { return `The year is 1 BILLIONAIRE, the antimatter is 41%, and the dimension is 1e1e8. The standard deviation of a measurement is how small your problems are. This makes people think that the values they are using are general and normal, which leads to many nerfs and even breakdowns. In the year ${format(Number.MAX_VALUE, 2)} the temperature has risen and the moon is the same color as the Earth. There are no signs of life except for the occasional plankton blooming in the sea. There are theories that the antimatter has a magnetic moment, but the experiments so far don't seem to suggest that it does. There are over a million species of antimatter, but none have been seen to blink or produce light. Scientists suggest that many types of matter may be "behind" the antimatter, but "they" don't "talk" to each other.`; }
+    get text() { return `지금은 1 BILLIONAIRE년이고, 반물질은 41%이며, 차원은 1e1e8입니다. 측정값의 표준 편차는 여러분의 문제가 얼마나 작은지를 나타냅니다. 이 때문에 사람들은 자신이 사용하는 값이 일반적이고 정상적이라고 생각하며, 그 결과 수많은 너프와 고장까지 발생합니다. ${format(Number.MAX_VALUE, 2)}년에는 기온이 올랐고 달은 지구와 같은 색이 되었습니다. 가끔 바다에서 피어나는 플랑크톤을 제외하면 생명의 흔적은 없습니다. 반물질에 자기 모멘트가 있다는 이론이 있지만 지금까지의 실험은 그렇지 않음을 시사합니다. 반물질의 종은 백만 가지가 넘지만 눈을 깜박이거나 빛을 내는 모습은 하나도 관찰되지 않았습니다. 과학자들은 여러 종류의 물질이 반물질의 "뒤"에 있을 수 있다고 보지만, "그들"은 서로 "대화"하지 않습니다.`; }
   },
   {
     id: "ai378",
-    text: "We are celebrating our 5 year anniversary in 5 more hours!"
+    text: "5주년을 5시간 후에 기념합니다!"
   },
   {
     id: "ai379",
-    text: "Don't come looking at me! I'm not even sure if I am still standing!"
+    text: "날 쳐다보러 오지 마세요! 내가 아직 서 있기는 한지도 모르겠으니까요!"
   },
   {
     id: "ai380",
-    text: "Bunch of people trying to find the last word in an unknown language."
+    text: "정체불명의 언어에서 마지막 단어를 찾으려는 사람들 무리."
   },
   {
     id: "ai381",
-    text: "The year is 20XX, the game is AD, and Hevipelle is evil due to the fact that he wrote the update... Blame it on the Antimatter gods."
+    text: "올해는 20XX년, 게임은 AD, 그리고 Hevipelle는 업데이트를 작성했다는 이유로 사악합니다... 반물질 신들을 탓하세요."
   },
   {
     id: "ai382",
-    text: "The year is 20XX, the game is AD, and the year is 2025. There are 2 types of people in this year: Those who played AD before it and those who will play AD after it."
+    text: "지금은 20XX년이고 게임은 AD이며, 지금은 2025년입니다. 이 시대에는 2종류의 사람이 있습니다. 그전에 AD를 플레이한 사람과 그 이후에 AD를 플레이할 사람입니다."
   },
   {
     id: "ai383",
-    text: "There are over a hundred varieties of fruits and vegetables, but none of them are \"safe\"."
+    text: "과일과 채소의 종류는 백 가지가 넘지만, 어느 것도 \"안전\"하지 않습니다."
   },
   {
     id: "ai384",
-    text: "When is the update coming out?"
+    text: "업데이트는 언제 나오나요?"
   },
   {
     id: "ai385",
-    text: "Sorry, but your save broke. Could you reset your game?"
+    text: "죄송하지만 저장 데이터가 망가졌습니다. 게임을 초기화해 주시겠어요?"
   },
   {
     id: "ai386",
-    text: "Welcome to our new competition, the Triad! Gather your wits about you and your IP to enter this unique, hands-on experience! Prizes galore! Start collecting today! Winners announced!"
+    text: "새 대회, Triad에 오신 것을 환영합니다! 재치와 IP를 모아 독특한 체험형 대회에 참가하세요! 상품이 가득합니다! 오늘부터 모으세요! 우승자를 발표합니다!"
   },
   {
     id: "ai387",
-    text: "I wish I didn't have so many Pink Floyd references."
+    text: "Pink Floyd를 언급한 게 이렇게 많지 않았으면 좋겠어요."
   },
   {
     id: "ai388",
-    text: "'Tis the season to collect RGs!"
+    text: "RG를 모을 계절이 왔군요!"
   },
   {
     id: "ai389",
-    text: "I wish I didn't have so many 9th Dimensions."
+    text: "9번째 차원이 이렇게 많지 않았으면 좋겠어요."
   },
   {
     id: "ai390",
-    text: "I wish I didn't have so many Discord references."
+    text: "Discord를 언급한 게 이렇게 많지 않았으면 좋겠어요."
   },
   {
     id: "ai391",
-    text: "'Sup?"
+    text: "'Sup? (별일 없냐는 짧은 인사)"
   },
   {
     id: "ai392",
-    text: "\"I get all my news from Hevi\" ~New Player"
+    text: "\"제 뉴스는 전부 Hevi에게서 얻습니다\" ~신규 플레이어"
   },
   {
     id: "ai393",
-    text: "You thought these were jokes but they weren't"
+    text: "농담이라고 생각했겠지만 농담이 아니었습니다"
   },
   {
     id: "ai394",
-    text: "Always going to war with the 9th dimension is the 9th dimension."
+    text: "언제나 9번째 차원과 전쟁을 벌이는 것은 바로 9번째 차원입니다."
   },
   {
     id: "ai395",
-    text: "Yes. Yes I am."
+    text: "네. 맞습니다."
   },
   {
     id: "ai396",
-    text: "No one is anti-Margaret any more."
+    text: "No one is anti-Margaret any more. (이제 아무도 Margaret에게 반대하지 않는다는 anti 말장난)"
   },
   {
     id: "ai397",
-    text: "Antimatter good, matter bad. you decide."
+    text: "반물질은 좋고, 물질은 나쁩니다. 선택은 당신 몫입니다."
   },
   {
     id: "ai398",
-    text: "New global currency: ETHBTC. To be released in 5 hours."
+    text: "새로운 세계 통화: ETHBTC. 5시간 후에 출시됩니다."
   },
   {
     id: "ai399",
-    text: "\"This update sucks\" - everyone at least once"
+    text: "\"이 업데이트는 형편없어\" - 누구나 적어도 한 번은"
   },
   {
     id: "ai400",
-    text: "You are not a hacker, you are a data hog."
+    text: "당신은 해커가 아니라 데이터 먹보입니다."
   },
   {
     id: "ai401",
-    text: "Please, help, I'm trapped, in a maze of evil, Or you are the hero, and I'm the villain!"
+    text: "제발 도와주세요. 저는 악의 미로에 갇혔어요. 아니면 당신이 영웅이고 제가 악당인 걸까요!"
   },
   {
     id: "ai402",
-    text: "Press 'R' to reset the game for new players"
+    text: "신규 플레이어는 'R'을 눌러 게임을 초기화하세요"
   },
   {
     id: "ai403",
-    text: "Why, just now? Just now. You can't have saved this game. You broke it. No one can fix what you break, not even with a perfect save. How could you possibly know what would happen if you read this? You wouldn't even know if you saved it. You would start with an empty heart, eyes still closed, fingers idling in front of your computer, staring out at the day, transfixed by the endless news ticker suggestions. It's like a horror movie ticket, except worse. There's even a time until the update when you can buy upgrades for a second chance at life. But you can't buy upgrades for a life, that's illegal. So you just keep holding 'R'. You can't...`t stop holding `R' with your fingers crossed. You can't reach infinity with your head held high. You can't use all your `R' to buy `R's. You can't even finish your"
+    text: "왜 하필 지금일까요? 바로 지금 말입니다. 이 게임을 저장했을 리 없습니다. 당신이 망가뜨렸습니다. 완벽한 저장 파일이 있어도 당신이 망가뜨린 것은 아무도 고칠 수 없습니다. 이 글을 읽으면 무슨 일이 벌어질지 어떻게 알 수 있겠습니까? 저장했는지조차 알지 못할 겁니다. 텅 빈 마음으로 눈도 뜨지 않은 채 컴퓨터 앞에서 손가락만 놀리며 하루를 바라보고, 끝없는 뉴스 티커 제안에 넋을 잃은 상태로 시작하게 됩니다. 공포 영화 표와 비슷하지만 더 나쁩니다. 업데이트 전까지 삶의 두 번째 기회를 위한 업그레이드를 살 시간도 있습니다. 하지만 삶을 위한 업그레이드는 살 수 없습니다. 불법이니까요. 그래서 계속 'R'을 누르고 있습니다. 손가락을 꼰 채 `R'을 누르는 것을 멈출 수 없...`습니다. 고개를 들고 무한에 도달할 수 없습니다. 가진 `R'을 전부 써서 `R'들을 살 수도 없습니다. 심지어 당신의"
   },
   {
     id: "ai404",
-    text: "I just spent 12 months writing something that will be of no use to you."
+    text: "방금 당신에게 아무 쓸모도 없을 글을 쓰는 데 12개월을 보냈습니다."
   },
   {
     id: "ai405",
-    text: "The quote is only for people who understand that the pebble is an infinite point in the infinite space of points. You can't put a finite number of points on it. You can, however, put a finite number of words on it, and vice versa."
+    text: "이 인용문은 조약돌이 무한한 점의 공간 속 무한한 점이라는 사실을 이해하는 사람만을 위한 것입니다. 그 위에는 유한한 수의 점을 놓을 수 없습니다. 하지만 유한한 수의 단어는 놓을 수 있고, 그 반대도 마찬가지입니다."
   },
   {
     id: "ai406",
-    text: "Of what use is the phrase \"I be I be I\" if not to describe your thoughts?"
+    text: "Of what use is the phrase \"I be I be I\" if not to describe your thoughts? (생각을 표현하는 데 쓰지 않는다면 이 말이 무슨 소용이냐는 뜻)"
   },
   {
     id: "ai407",
-    text: "A suspicious person attempted to sell some sort of anti-food in a market. There was no one around to buy or not to buy, and the person was last seen running away from the scene."
+    text: "수상한 사람이 시장에서 일종의 안티 음식을 팔려고 했습니다. 주변에는 사거나 사지 않을 사람이 아무도 없었고, 그 사람은 현장에서 달아나는 모습이 마지막으로 목격되었습니다."
   },
   {
     id: "ai408",
-    text: "Why does time seem to be slowing down for this?"
+    text: "왜 이것 때문에 시간이 느려지는 것 같을까요?"
   },
   {
     id: "ai409",
-    text: "The number of scientific publications based on discrete logarithmic continuity grows exponentially as logarithmic continuity with respect to the antecedent is 9.999626e27.999627 e300 e1.79e308 e²"
+    text: "선행항에 대한 로그 연속성이 9.999626e27.999627 e300 e1.79e308 e²이므로, 이산 로그 연속성에 기반한 과학 논문의 수는 기하급수적으로 증가합니다."
   },
   {
     id: "ai410",
-    text: "Well, this did not go as planned.  It started innocently enough, when a passerby spotted a curious object drifting in the San Andreas.  As the object grew in size and began to exhibit anomalous properties, he attempted to take control of the object by remotely activating the weather.  Upon doing so, he triggered a nuclear winter that killed tens of millions of people, and caused the entire universe to be converted to standard-bearer format, thus endowing him with a veto over any and all changes made to the standard-bearer format.  As the object's power grew, so did the need to make more and more advanced object that would allow him to remotely activate the weather, eventually creating what is now the largest aurora the world has ever known, larger even than the 326,500 tonnenenenenenene nebulae that were previously held in reserve.  As the object's power grew, so did the need to send more and more satellites into space, eventually reaching inter-universal satellite communication, making him the first living creature to ever experience such an event.  He also touched down safely at the same airport at the same time as the object, in case he was ever in the vicinity.  Finally, he opened an email that was sent to him by an unknown person, in which they discussed the possibility of a step-by-step guide for creating antimatter objects, in which he can at least offer some direction in how the world can be saved from itself.  He also mentioned that he was going to make a new ticker suggestion, but when he reached the end of the ticker he realized that it was a duplicate of another ticker, and he had mistakenly typed it in wrong.  ( He eventually acknowledged the mistake and made the change just to be on the safe side)"
+    text: "이런, 계획대로 되지 않았습니다.  모든 일은 지나가던 사람이 산 안드레아스에 떠다니는 기묘한 물체를 발견하면서 순진하게 시작되었습니다. 물체가 커지고 이상한 성질을 보이기 시작하자, 그는 날씨를 원격으로 작동시켜 물체를 통제하려 했습니다. 그러자 수천만 명의 목숨을 앗아간 핵겨울이 일어났고, 온 우주가 표준 기수 형식으로 변환되어 그는 그 형식에 가해지는 모든 변경을 거부할 권한을 얻었습니다. 물체의 힘이 커질수록 날씨를 원격으로 작동할 더 발전된 물체가 필요해졌고, 결국 지금껏 세상이 본 것 중 가장 거대한 오로라가 탄생했습니다. 그 크기는 비축해 두었던 326,500 tonnenenenenenene 성운보다도 컸습니다. 물체의 힘이 커질수록 우주로 더 많은 위성을 보낼 필요도 커졌고, 마침내 우주 간 위성 통신에 도달하여 그는 그런 일을 경험한 최초의 생명체가 되었습니다. 그는 혹시 자신이 근처에 있을 때를 대비해 물체와 같은 시각, 같은 공항에 안전하게 착륙하기도 했습니다. 마지막으로 그는 정체불명의 사람이 보낸 이메일을 열었습니다. 그 이메일에서는 반물질 물체를 만드는 단계별 안내서의 가능성을 논하며, 적어도 세상이 스스로를 파멸시키지 않도록 구할 방향을 제시할 수 있다고 했습니다. 그는 새로운 뉴스 티커 제안을 만들 생각이라고도 말했지만, 티커 끝에 이르러 보니 다른 티커와 중복된 데다 자신이 잘못 입력했다는 사실을 깨달았습니다. (결국 그는 실수를 인정하고 만일을 위해 내용을 수정했습니다.)"
   },
   {
     id: "ai411",
-    text: "His Eminence the Heavenly Pelle: Good luck on your challenge, it really is that dangerous."
+    text: "천상의 Pelle 예하: 도전에서 행운을 빕니다. 정말 그만큼 위험하거든요."
   },
   {
     id: "ai412",
-    text: "His Eminence the Extremely Religious Person: ...I think I will choose the cheeseburger over the antimatter."
+    text: "지극히 종교적인 분 예하: ...반물질보다는 치즈버거를 고르겠습니다."
   },
   {
     id: "ai413",
-    text: "OY, NAY, NAY -HEVI, THE TRANSFORMER"
+    text: "OY, NAY, NAY -HEVI, THE TRANSFORMER (어이, 아니, 아니—변신하는 HEVI라는 뜻)"
   },
   {
     id: "ai414",
-    text: "Treasure Trove: Discover the secrets of increasing your Antimatter production without increasing your price."
+    text: "보물 창고: 비용을 늘리지 않고 반물질 생산량을 늘리는 비결을 발견하세요."
   },
   {
     id: "ai415",
-    text: "Is Antimatter Dimensions an anagram of Antimatter Dimensions?"
+    text: "Is Antimatter Dimensions an anagram of Antimatter Dimensions? (Antimatter Dimensions를 재배열하면 똑같은 Antimatter Dimensions가 되느냐는 자문자답)"
   },
   {
     id: "ai416",
-    text: "(code generated from scratch)"
+    text: "(처음부터 생성한 코드)"
   },
   {
     id: "ai417",
-    text: "I used to travel at normal speed, but then I started playing AD and NIN, and NIN was a bit rough, so AD was a bit hectic, and I got stuck in there for months at a time."
+    text: "예전에는 평범한 속도로 여행했지만, AD와 NIN을 플레이하기 시작한 뒤 NIN이 조금 험난해지면서 AD도 정신없어졌고, 한 번에 몇 달씩 그곳에 갇히곤 했습니다."
   },
   {
     id: "ai418",
-    text: "I wish I didn't have to write something like this. What am I supposed to do?"
+    text: "이런 글을 쓰지 않아도 되면 좋겠습니다. 제가 뭘 해야 하죠?"
   },
   {
     id: "ai419",
-    text: "You've been AWOL for so long you've forgotten how to sit in your chair."
+    text: "너무 오래 잠적해서 의자에 앉는 법마저 잊어버렸습니다."
   },
   {
     id: "ai420",
-    text: "Those pesky Hevi developers keep making Antimatter Dimensions, but the antimatter doesn't count."
+    text: "그 성가신 Hevi 개발자들은 계속 반물질 차원을 만들지만, 반물질은 집계되지 않습니다."
   },
   {
     id: "ai421",
-    text: "One of the few constants in reality is your perception of time. Without this, you will be without reality."
+    text: "현실에서 변하지 않는 몇 안 되는 것 중 하나는 시간에 대한 당신의 인식입니다. 이것이 없으면 현실도 잃게 됩니다."
   },
   {
     id: "ai422",
-    text: "Imagine being a news ticker."
+    text: "Imagine being a news ticker. (자신이 뉴스 티커라고 상상해 보라는 뜻)"
   },
   {
     id: "ai423",
-    text: "This is an idle game. Nothing has changed. You are not going to play any other idle game."
+    text: "이것은 방치형 게임입니다. 달라진 것은 없습니다. 당신은 다른 방치형 게임을 플레이하지 않을 겁니다."
   },
   {
     id: "ai424",
-    text: "Physicists have proven the existence of twelve dimensions. According to a letter released by the Research Laboratory for String Theorists: \"Your brain will be dissected after you break infinity!\""
+    text: "물리학자들이 열두 차원의 존재를 증명했습니다. 끈 이론 연구소가 공개한 서한에 따르면, \"무한을 돌파하면 당신의 뇌가 해부될 것입니다!\""
   },
   {
     id: "ai425",
-    text: "Weirdly enough, this is also the year 2015. The year is also mysteriously blank. Can you tell me what's going on? Is this some kind of dimensional trick? The year is obviously blank because there is no such thing as 2015. Is this some kind of trick of the mind? Perhaps the world is actually going to stop existing in 2015? The year is obviously 2017, but the people seem to be moving at about the speed of honeybees flying. It's been scientifically proven that the people moved at warp 9 times faster than a speeding bullet. It's also been scientifically proven that people can move faster than the speed of light. Is 2015 supposed to be blank? The people seem to be moving at about the speed of Vokal Man."
+    text: "이상하게도 지금은 2015년이기도 합니다. 연도는 또 수수께끼처럼 비어 있습니다. 무슨 일이 벌어지는지 알려 주시겠어요? 차원을 이용한 속임수라도 되는 걸까요? 2015년 같은 것은 존재하지 않으니 연도가 비어 있는 것이 분명합니다. 이것도 마음의 속임수일까요? 어쩌면 세계가 정말 2015년에 존재를 멈추는 걸까요? 연도는 분명 2017년이지만, 사람들은 꿀벌이 날아가는 정도의 속도로 움직이는 듯합니다. 사람들이 날아가는 총알보다 워프 9배 빠르게 움직였다는 사실은 과학적으로 입증되었습니다. 사람이 빛보다 빠르게 움직일 수 있다는 사실도 과학적으로 입증되었습니다. 2015년은 비어 있어야 하는 걸까요? 사람들은 Vokal Man 정도의 속도로 움직이는 듯합니다."
   },
   {
     id: "ai426",
-    text: "A young man named Andre stumbled upon a vast amount of antimatter while exploring uncharted space. He was amazed at the amount of antimatter, but more astounded at how the antimatter looked. He called it \"Andre's Antimatter Paradise\". You might remember him from this infomercial or that other infomercial that you were probably unknowingly watching."
+    text: "Andre라는 젊은이는 미지의 우주를 탐험하다가 엄청난 양의 반물질을 우연히 발견했습니다. 그는 반물질의 양에도 놀랐지만, 그 생김새에는 더욱 경탄했습니다. 그는 그곳을 \"Andre의 반물질 낙원\"이라고 불렀습니다. 여러분도 자신도 모르게 보았을 이 홈쇼핑 광고나 저 홈쇼핑 광고에서 그를 기억할지 모릅니다."
   },
   {
     id: "ai427",
-    text: "What is Antimatter? Does any of that matter? Will this galaxy be annihilated in the next ticker?"
+    text: "What is Antimatter? Does any of that matter? Will this galaxy be annihilated in the next ticker? (반물질이 무엇인지, 그게 중요한지, 다음 티커에서 은하가 소멸할지를 묻는 말장난)"
   },
   {
     id: "ai428",
-    text: "\"I'm not being paid enough money to finish writing this\" - Kajfik"
+    text: "\"이 글을 끝까지 쓰기에는 돈을 충분히 받지 못하고 있습니다\" - Kajfik"
   },
   {
     id: "ai429",
-    text: "\"Finally, I'll get paid to write something funny for my toast!\" - Bacon sea urchin"
+    text: "\"Finally, I'll get paid to write something funny for my toast!\" - Bacon sea urchin (드디어 내 토스트에 넣을 재미있는 글을 쓰고 돈도 받는다는 뜻)"
   },
   {
     id: "ai430",
-    text: "Bacon is toast. You can toast bacon."
+    text: "Bacon is toast. You can toast bacon. (베이컨은 토스트이고 베이컨을 구울 수도 있다는 중의적 말장난)"
   },
   {
     id: "ai431",
-    text: "What is real life? A living"
+    text: "현실의 삶이란 무엇일까요? 살아 있는"
   },
   {
     id: "ai432",
-    text: "9 is now treated like any other number, although hevi claims that it stands in contrast to other numbers, like 8th, which he calls 9th."
+    text: "이제 9도 다른 수와 똑같이 취급되지만, hevi는 자신이 9번째라고 부르는 8번째 같은 다른 수와는 대조된다고 주장합니다."
   },
   {
     id: "ai433",
-    text: "If you want to understand this game a bit better, consider that you are playing on your own computer. You are not alone. There are hackers, developers, and journalists all over the world, competing to create the very first hack that causes the issue of \"makers\" and \"takes\", much like the \"world\" was created by these \"hackers\" and \"developers\"."
+    text: "이 게임을 조금 더 잘 이해하고 싶다면 자신의 컴퓨터에서 플레이하고 있다는 점을 생각해 보세요. 당신은 혼자가 아닙니다. 전 세계의 해커, 개발자, 기자들이 최초로 \"makers\"와 \"takes\" 문제를 일으키는 해킹을 만들려고 경쟁하고 있습니다. 마치 이 \"world\"가 이들 \"hackers\"와 \"developers\"에 의해 만들어진 것처럼 말입니다."
   },
   {
     id: "ai434",
-    get text() { return `You have no power, but you do control a large quantity of time, which you will use to your advantage. You have no power, but you do own a large amount of data, which will be of great help in your quest for "the truth". You have no power, but you do own a large amount of time, which will be of great help in your quest to "knock on as many doors as possible". You have no power, but you do own a large amount of IP, which will be a valuable asset in your quest to make your "citizen footage" (which you can view, for a small fee of $${format(Number.MAX_VALUE, 2)})".`; }
+    get text() { return `당신에게는 힘이 없지만 많은 시간을 통제하며, 그것을 자신에게 유리하게 쓸 것입니다. 당신에게는 힘이 없지만 많은 데이터를 소유하며, 이는 "진실"을 찾는 여정에 큰 도움이 될 것입니다. 당신에게는 힘이 없지만 많은 시간을 소유하며, 이는 "가능한 한 많은 문을 두드리는" 여정에 큰 도움이 될 것입니다. 당신에게는 힘이 없지만 많은 IP를 소유하며, 이는 "시민 촬영물"을 만드는 여정에서 귀중한 자산이 될 것입니다. (소액의 $${format(Number.MAX_VALUE, 2)}만 내면 볼 수 있습니다)".`; }
   },
   {
     id: "ai435",
-    text: "It may be a robot, but it's still a sapient being with a will of its own"
+    text: "로봇일지는 몰라도, 여전히 자기 의지를 지닌 지성체입니다"
   },
   {
     id: "ai436",
-    text: "I once saw a news ticker that said something like:"
+    text: "예전에 이런 내용의 뉴스 티커를 본 적이 있습니다:"
   },
   {
     id: "ai437",
-    text: "Gee, all this antimatter is clogging up my kitchen and now I can't cook myself a meal! What to do: cook myself a meal that will last me until the next big antimatter event, when I can get my infinity point back? My infinty point is running out, and I can't get it to finish running, so I'm starving!"
+    text: "Gee, all this antimatter is clogging up my kitchen and now I can't cook myself a meal! What to do: cook myself a meal that will last me until the next big antimatter event, when I can get my infinity point back? My infinty point is running out, and I can't get it to finish running, so I'm starving! (이런, 반물질이 주방을 막아 식사를 만들 수가 없네요! 다음 대형 반물질 사건까지 버틸 식사를 만들어 그때 무한 포인트를 되찾아야 할까요? 무한 포인트가 바닥나고 있는데 달리기를 끝내게 할 수도 없어서 굶고 있다는 running 말장난입니다.)"
   },
   {
     id: "ai438",
-    text: "Brought to you by AAAD-Brand Repli-candy! Infinite candy for an infinty drool-worthy cold! Contains no milk, cookies or butter. One second to midnight."
+    text: "Brought to you by AAAD-Brand Repli-candy! Infinite candy for an infinty drool-worthy cold! Contains no milk, cookies or butter. One second to midnight. (AAAD표 복제 사탕 광고로, 우유와 쿠키와 버터가 없으며 자정까지 일 초 남았다는 뜻)"
   },
   {
     id: "ai439",
-    text: "Human powered robot revolutionizes already existing factories. This will result in lower prices and more jobs."
+    text: "인력으로 움직이는 로봇이 기존 공장에 혁신을 일으킵니다. 그 결과 가격은 내려가고 일자리는 늘어날 것입니다."
   },
   {
     id: "ai440",
-    text: "American manufacturing has experienced a catastrophic failure, and the factories have shut down. Across the country, workers are coming to the realization that they cannot produce the amount of antimatter that has been promised, and are instead setting about creating their own factories to make them. This will result in higher prices and fewer jobs."
+    text: "미국 제조업에 치명적인 문제가 발생하여 공장들이 문을 닫았습니다. 전국의 노동자들은 약속된 양만큼 반물질을 생산할 수 없다는 사실을 깨닫고, 대신 직접 생산할 공장을 세우기 시작했습니다. 그 결과 가격은 오르고 일자리는 줄어들 것입니다."
   },
   {
     id: "ai441",
-    text: "Watch out internet, the next news is here in 5 dilated hours"
+    text: "인터넷 여러분, 조심하세요. 다음 뉴스는 시간 팽창 기준 5시간 뒤에 나옵니다"
   },
   {
     id: "ai442",
-    text: "The first news ticker must've been pretty cool, huh?"
+    text: "최초의 뉴스 티커는 꽤 멋졌겠죠?"
   },
   {
     id: "ai443",
-    text: "gravity = psychoactive"
+    text: "gravity = psychoactive (중력은 향정신성이라는 뜻)"
   },
   {
     id: "ai444",
-    text: "\"THAT DIMENSION DOESN'T EXIST\" - (News ticker only appears at [Time Dilation])",
+    text: "\"그 차원은 존재하지 않습니다\" - (뉴스 티커는 [시간 팽창]에서만 표시됩니다)",
     get unlocked() { return PlayerProgress.dilationUnlocked(); }
   },
   {
     id: "ai445",
-    text: "The owner of a shop trying to sell you Dimensions of convenience reported to be 'on call 24/7' (that is, not having any free time)'s got a big 'M' marked on his registration."
+    text: "편의용 차원을 팔려는 상점 주인은 '24/7 대기 중'(즉, 자유 시간이 전혀 없음)인 것으로 알려졌으며, 등록증에는 커다란 'M'이 표시되어 있습니다."
   },
   {
     id: "ai446",
-    text: "add this one"
+    text: "이것을 추가하세요"
   },
   {
     id: "ai447",
-    text: "Click here to make this work for all bots except you!"
+    text: "여기를 클릭하여 당신을 제외한 모든 봇에서 이 기능이 작동하게 하세요!"
   },
   {
     id: "ai448",
-    text: "Well dang 9 ball's stuck in my ninth dimension, I can't move, he's banging on my ninth wall, I can't break, he's banging on my ninth timeline, I can't get a bead on him, he destroys nine and leaves me hanging, like a gromit, I gotta come back, hang Glorfindel and Gaebley, I've got a proposition to make, I gotta get my head around the fact that the only thing I've done is keep score and keep scorekeeping score, and all these other pointless musings that's easily rectified by flipping to the next update, and even then I might run into those issues the bug is specifically designed for and"
+    text: "이런, 9번 공이 내 아홉 번째 차원에 끼어 움직일 수 없습니다. 녀석은 내가 부술 수 없는 아홉 번째 벽을 두드리고, 아홉 번째 시간선을 두드려서 조준할 수도 없습니다. 아홉을 파괴하고 나를 gromit처럼 매달아 둡니다. 돌아가서 Glorfindel과 Gaebley를 매달아야 하고 제안할 것도 있습니다. 내가 한 일이라곤 점수를 기록하고 점수 기록의 점수를 기록한 것뿐이라는 사실을 받아들여야 합니다. 이런 무의미한 생각은 다음 업데이트로 넘기면 쉽게 바로잡히지만, 그래도 그 버그가 특별히 노리도록 만들어진 문제들과 마주칠 수도 있고"
   },
   {
     id: "ai449",
-    text: "The game is balanced, everyone gets nerf, why? Cause they make the pie. Antimatter would have way more chance of getting into the pie if it was made of antimatter."
+    text: "The game is balanced, everyone gets nerf, why? Cause they make the pie. Antimatter would have way more chance of getting into the pie if it was made of antimatter. (모두가 너프를 받아 균형을 이루며, 파이가 반물질로 만들어졌다면 반물질이 들어갈 가능성이 훨씬 높다는 말장난)"
   },
   {
     id: "ai450",
-    text: "\"Can you get the joke?\" (If you tapped \"Build That Wall\" and then re-entered the game after tapping \"Build That Wall\")"
+    text: "\"Can you get the joke?\" (If you tapped \"Build That Wall\" and then re-entered the game after tapping \"Build That Wall\") (벽 건설 버튼을 누른 뒤 게임에 다시 들어왔을 때 농담을 알아챘느냐는 뜻)"
   },
   {
     id: "ai451",
-    text: "Someone made a statement that antimatters. The statement was \"An infinity point made a long time ago\". It's been a while since someone looked for this statement. Some say it's still out there. Some say it was lost in the 7th Dimension War. Nobody knows what this statement means. But for now, just know it's not somewhere in the News Ticker."
+    text: "Someone made a statement that antimatters. The statement was \"An infinity point made a long time ago\". It's been a while since someone looked for this statement. Some say it's still out there. Some say it was lost in the 7th Dimension War. Nobody knows what this statement means. But for now, just know it's not somewhere in the News Ticker. (누군가 반물질적으로 중요한 발언을 했습니다. 그 발언은 “오래전에 만들어진 무한 포인트”였습니다. 아직 어딘가에 남아 있다고도, 일곱 번째 차원 전쟁에서 사라졌다고도 합니다. 아무도 뜻을 모르지만 뉴스 티커 어딘가에 있지는 않습니다.)"
   },
   {
     id: "ai452",
-    text: "Hey, you're finally awake. You were trying to get to the 9th dimension, right? Walked right into that infinity point, same as us, and that apocalypse over there."
+    text: "Hey, you're finally awake. You were trying to get to the 9th dimension, right? Walked right into that infinity point, same as us, and that apocalypse over there. (드디어 깨어났군요. 우리처럼 아홉 번째 차원으로 가려다 무한 포인트와 종말에 휘말렸다는 Skyrim 패러디)"
   },
   {
     id: "ai453",
-    text: "can u dont"
+    text: "can u dont (그거 안 하면 안 되냐는 일부러 문법을 흐린 표현)"
   },
   {
     id: "ai454",
-    text: "If Kajfik doesn't approve of this, that means Kajfik can't touch this message, right?"
+    text: "Kajfik가 이것을 승인하지 않으면 이 메시지에 손댈 수도 없다는 뜻이죠?"
   },
   {
     id: "ai455",
-    text: "LET ME OUT OF THIS PHONE!"
+    text: "이 휴대폰에서 나가게 해 줘!"
   },
   {
     id: "ai456",
-    text: "Well, this did not go as expected"
+    text: "이런, 예상대로 되지 않았네요"
   },
   {
     id: "ai457",
-    text: "It's all fun and games till you realise the dragon ball is a lie"
+    text: "It's all fun and games till you realise the dragon ball is a lie (드래곤볼이 거짓임을 깨닫기 전까지는 모든 게 즐겁다는 밈)"
   },
   {
     id: "ai458",
-    text: "\"Could you get a hold of all of these antimatter? Ha! You'll just smash your head on that antimatter, and you'll have to show me who's boss.\"-MEE6"
+    text: "\"Could you get a hold of all of these antimatter? Ha! You'll just smash your head on that antimatter, and you'll have to show me who's boss.\"-MEE6 (이 반물질을 모두 손에 넣을 수 있겠느냐며, 결국 부딪치고 누가 우위인지 보여 줘야 한다는 도발)"
   },
   {
     id: "ai459",
-    text: "we don't know how much is trillion... but"
+    text: "우리는 조 단위가 얼마나 큰지 모르지만..."
   },
   {
     id: "ai460",
-    text: "Travel back in time to the beginning of AD and the lack of a 7th dimension. You'll have an even longer progress bar."
+    text: "AD 초기와 7차원이 없던 시절로 시간 여행을 떠나 보세요. 진행 표시줄이 훨씬 더 길어질 겁니다."
   },
   {
     id: "ai461",
-    text: "Time travel is all we know how this game is, we don't know what will come next, we only know that this is the end of the world, and you're a part of the apocalypse."
+    text: "이 게임에 관해 우리가 아는 것은 시간 여행뿐입니다. 다음에 무엇이 올지는 모르며, 이것이 세상의 끝이고 당신이 그 종말의 일부라는 사실만 압니다."
   },
   {
     id: "ai462",
-    text: "\"YOU CONTROL SO MUCH MATERIAL!\" - Marshal Grievous"
+    text: "\"YOU CONTROL SO MUCH MATERIAL!\" - Marshal Grievous (당신이 엄청나게 많은 물질을 통제한다는 Grievous 패러디)"
   },
   {
     id: "ai463",
-    text: "\"Help, I'm doomed to fall for all eternity.\" (Make the text go from top to bottom of the screen)"
+    text: "\"도와주세요, 영원히 추락할 운명이에요.\" (텍스트가 화면 위에서 아래로 이동하게 하세요)"
   },
   {
     id: "ai464",
-    text: "In the beginning, Patashu awoke and said..."
+    text: "태초에 Patashu가 깨어나 말했습니다..."
   },
   {
     id: "ai465",
-    text: "This is the fourth part of a three part series on the same topic. If you are still stuck here, please continue reading from the beginning."
+    text: "같은 주제를 다룬 삼부작의 네 번째 편입니다. 아직도 여기에 막혀 있다면 처음부터 계속 읽어 주세요."
   },
   {
     id: "ai466",
-    text: "It's time for the annual DDoS (distributed denial of service) challenge, where the highest scores are posted across the internet to shame everyone else into submission. Global domination is at a fever pitch, and DDoS attacks are becoming more frequent and deadly, as teams of hackers infiltrate the highest echelons of the internet to steal the top scores and identities, and post them on the internet for everyone to see. The #BringBackOurTop scoring mechanism has been canceled, and a new, higher score system will be implemented in conjunction with the upcoming 5-hour update."
+    text: "매년 열리는 DDoS(분산 서비스 거부) 도전의 시간이 왔습니다. 최고 점수는 인터넷 전역에 공개되어 다른 모든 이가 굴복할 때까지 망신을 줍니다. 세계 지배 열기가 절정에 달한 가운데, 해커 팀들이 인터넷 최상층에 침투해 최고 점수와 신원을 훔치고 모두가 보도록 인터넷에 게시하면서 DDoS 공격은 더 잦고 치명적으로 변하고 있습니다. #BringBackOurTop 점수 체계는 취소되었으며, 다가오는 5시간 업데이트와 함께 더 높은 점수를 위한 새 체계가 도입될 예정입니다."
   },
   {
     id: "ai467",
-    text: "The new AD Keyboard is a revelation! Not only is it bigger, it's also deeper, which means it will keep your claners entertained for longer periods of time. Made of durable, alien antimatter. The only thing that's bigger is you."
+    text: "새로운 AD 키보드는 혁신 그 자체입니다! 더 커졌을 뿐 아니라 더 깊어져서, 여러분의 클레이너들을 더 오랫동안 즐겁게 해 줍니다. 튼튼한 외계 반물질로 만들었습니다. 이것보다 더 큰 것은 오직 당신뿐입니다."
   },
   {
     id: "ai468",
-    text: "What if drinking from a fountain wasn't actually a water feature?"
+    text: "What if drinking from a fountain wasn't actually a water feature? (분수에서 물을 마시는 일이 사실 수경 시설의 기능이 아니라면 어떻겠느냐는 말장난)"
   },
   {
     id: "ai469",
-    text: "Water is wet, air is dry, and fountain isn't an air feature"
+    text: "Water is wet, air is dry, and fountain isn't an air feature (물은 젖어 있고 공기는 건조하며 분수는 공기 시설이 아니라는 말장난)"
   },
   {
     id: "ai470",
-    text: "I thought things were different when I was a boy."
+    text: "제가 어렸을 때는 세상이 달랐다고 생각했습니다."
   },
   {
     id: "ai471",
-    text: "If you are reading this, that means 1) we exist, and you can exist too"
+    text: "이 글을 읽고 있다면, 이는 1) 우리가 존재하며 당신도 존재할 수 있다는 뜻입니다."
   },
   {
     id: "ai472",
-    text: "\"My favorite part was the long, long, long read\" -Grumpy Cat"
+    text: "\"My favorite part was the long, long, long read\" -Grumpy Cat (가장 마음에 든 부분은 아주 길고 긴 읽을거리였다는 Grumpy Cat식 평)"
   },
   {
     id: "ai473",
-    text: "I'm gonna type for an eternity... HINT: it's gonna be pretty boring lmao"
+    text: "영원히 타자를 칠 겁니다... 힌트: 엄청 지루할 거예요, 하하."
   },
   {
     id: "ai474",
-    text: "I want to write something really original <:thonk:>"
+    text: "정말 독창적인 무언가를 쓰고 싶습니다 <:thonk:>"
   },
   {
     id: "ai475",
-    text: "Welcome to the new year, settle down, relax. Get some sleep, get some food, make some friends, make some improvements, and get ready for the year to 2019."
+    text: "새해에 오신 것을 환영합니다. 자리를 잡고 편히 쉬세요. 잠도 자고, 음식도 먹고, 친구도 사귀고, 발전도 이루며 2019년을 준비하세요."
   },
   {
     id: "ai476",
-    text: "Just like how a virus can lie and spread, a TV show can lie and spread too."
+    text: "바이러스가 거짓말을 하며 퍼질 수 있듯이, TV 프로그램도 거짓말을 하며 퍼질 수 있습니다."
   },
   {
     id: "ai477",
-    text: "We all know you can't see the future, but what if you read this and it's actually a future where we didn't know?"
+    text: "미래를 볼 수 없다는 사실은 모두 알지만, 이 글을 읽은 곳이 사실은 우리가 알지 못했던 미래라면 어떨까요?"
   },
   {
     id: "ai478",
-    text: "This message is not being undone"
+    text: "이 메시지는 되돌릴 수 없습니다"
   },
   {
     id: "ai479",
-    text: "You clicked on a prediction, it fell apart. You can't win."
+    text: "예측을 클릭하자 산산이 무너졌습니다. 당신은 이길 수 없습니다."
   },
   {
     id: "ai480",
-    text: "That's a very dark joke Luke"
+    text: "That's a very dark joke Luke (Luke에게 아주 어두운 농담이라고 말하는 Star Wars식 말장난)"
   },
   {
     id: "ai481",
-    text: "kajfik loves himself by watching Too Many Pink Floyd"
+    text: "kajfik은 Too Many Pink Floyd를 보며 자기 자신을 사랑합니다."
   },
   {
     id: "ai482",
-    text: "Only, when you're done playing, can you go home"
+    text: "플레이를 끝내야만 집에 갈 수 있습니다"
   },
   {
     id: "ai483",
-    text: "\"Can you get infinite IP?\"- Lord Sanguino"
+    text: "\"IP를 무한히 얻을 수 있나요?\" - Lord Sanguino"
   },
   {
     id: "ai484",
-    text: "For the true experience of Antimatter Dimensions, you need to set the update rate to 5 hours."
+    text: "반물질 차원을 제대로 경험하려면 업데이트 주기를 5시간으로 설정해야 합니다."
   },
   {
     id: "ai485",
-    text: "Imagine if the game doesn't have a lore? Wha-what does that even mean? I don't get that."
+    text: "게임에 스토리가 없다면 어떨까요? 그, 그게 대체 무슨 뜻이죠? 이해가 안 돼요."
   },
   {
     id: "ai486",
-    text: "\"Click here to unlock a secret achievement.\" (when clicked you get Rick rolled)",
+    text: "\"Click here to unlock a secret achievement.\" (when clicked you get Rick rolled) (비밀 도전 과제를 해금하려면 여기를 클릭하세요. 클릭하면 Rickroll 영상이 열립니다.)",
     onClick() { window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ"); }
   },
   {
     id: "ai487",
-    text: "I thought I unlocked this a while back, but apparently my save broke haha"
+    text: "한참 전에 이걸 잠금 해제한 줄 알았는데, 아무래도 저장 데이터가 망가졌나 봐요 ㅋㅋ"
   },
   {
     id: "ai488",
-    get text() { return `Welcome and welcome back to another episode of Anti-Fashion Pants, where we watch people's wares as they are sold at stupid clothing stores. This week's subject is... antilasers. People are able to manufacture and use antimatter lasers to shoot antimatter bullets at will, making them able to completely wipe out cities in their sights. This is a dangerous skill to have, as people are not only untrustworthy but also physically incapable of using it. The skill, however, is able to... Produce ${format(Number.MAX_VALUE, 2)} antimatter bullets a minute, over a period of 10 years. People are also able to use anti-matter to fire anti-matter bullets at will, making them able to exterminate entire cities in their sights.`; }
+    get text() { return `사람들의 상품이 엉터리 옷가게에서 팔리는 모습을 지켜보는 Anti-Fashion Pants의 또 다른 에피소드에 처음 오신 분도, 다시 오신 분도 환영합니다. 이번 주의 주제는... 반레이저입니다. 사람들은 반물질 레이저를 제조하고 사용해 마음대로 반물질 탄환을 쏠 수 있으며, 눈에 들어오는 도시를 완전히 쓸어 버릴 수 있습니다. 사람은 믿을 수 없을 뿐 아니라 물리적으로 이 기술을 사용할 능력도 없으므로, 이는 위험한 능력입니다. 하지만 이 기술은... 10년 동안 분당 ${format(Number.MAX_VALUE, 2)}개의 반물질 탄환을 생산할 수 있습니다. 사람들은 반물질을 사용해 마음대로 반물질 탄환을 발사하여 눈에 들어오는 도시 전체를 몰살할 수도 있습니다.`; }
   },
   {
     id: "ai489",
-    text: "Spartacus was going to add 10-part multi-chapter plots, but was stopped by the 10th dimension."
+    text: "Spartacus는 10부로 구성된 여러 장짜리 줄거리를 추가하려 했지만 10차원에 가로막혔습니다."
   },
   {
     id: "ai490",
-    text: "Chapter 9 will be added in 5 hours."
+    text: "9장은 5시간 뒤 추가됩니다."
   },
   {
     id: "ai491",
-    text: "Fake news says the ninth dimension is real, fake news says the ninth dimension is fake."
+    text: "가짜 뉴스에서는 아홉 번째 차원이 진짜라고 하고, 가짜 뉴스에서는 아홉 번째 차원이 가짜라고 합니다."
   },
   {
     id: "ai492",
-    text: "Is this the big news? Yes. Is this the big news? Almost certainly not."
+    text: "이게 큰 뉴스인가요? 네. 이게 큰 뉴스인가요? 거의 확실히 아닙니다."
   },
   {
     id: "ai493",
-    text: "This is a friendly suggestion, please keep reading."
+    text: "친절한 제안이니 계속 읽어 주세요."
   },
   {
     id: "ai494",
-    text: "If this makes it into the game I'll buy a antitool"
+    text: "If this makes it into the game I'll buy a antitool (이 문구가 게임에 들어가면 반도구를 사겠다는 말장난)"
   },
   {
     id: "ai495",
-    text: "Antitool is just negating the gravity of other matter."
+    text: "Antitool is just negating the gravity of other matter. (반도구는 다른 물질의 중력을 무효화할 뿐이라는 말장난)"
   },
   {
     id: "ai496",
-    text: "Sorry, your graphics are turned off. You see, this is the last time you will see this news. Please enjoy your vacation."
+    text: "죄송합니다. 그래픽이 꺼져 있습니다. 이 뉴스를 보는 것은 이번이 마지막입니다. 휴가를 즐겨 주세요."
   },
   {
     id: "ai497",
-    text: "The real secret to winning Antimatter Dimensions..."
+    text: "반물질 차원에서 승리하는 진짜 비결은..."
   },
   {
     id: "ai498",
-    text: "they kept on talking about how Antimatter Dimensions was going to be the next big thing but then they disappeared down a black hole\""
+    text: "사람들은 Antimatter Dimensions가 차세대 대작이 될 거라고 계속 말했지만, 그러다 모두 블랙홀 속으로 사라졌습니다\""
   },
   {
     id: "ai499",
-    text: "The news ticker is the wrong place to put your suggestions!  Make sure to go to the \"suggestions\" tab instead, as this is where most of these will appear."
+    text: "뉴스 티커는 제안을 남길 곳이 아닙니다! 대부분의 제안이 표시되는 \"제안\" 탭으로 이동하세요."
   },
   {
     id: "ai500",
-    text: "To make Antimatter Dimensions, you first need to collect 7 8th dimensions. To do that, first you need to get the dimension rewards, then you need to get the dimensions, then you can finally start making antimatter."
+    text: "Antimatter Dimensions를 만들려면 먼저 8번째 차원 7개를 모아야 합니다. 그러려면 먼저 차원 보상을 얻고, 그다음 차원을 얻어야 하며, 마침내 반물질을 만들기 시작할 수 있습니다."
   },
   {
     id: "ai501",
-    text: "\"How to get your first secret achievement\": \"Open the app, click get more antimatter, then click submit.\""
+    text: "\"첫 비밀 도전 과제 달성 방법\": \"앱을 열고 반물질 더 얻기를 클릭한 다음 제출을 클릭하세요.\""
   },
   {
     id: "ai502",
-    text: "Me and Larkam made a cabin on the edge of null matter, and lived there. Larkam died last week, and we are now living in 4K. I am still recovering from the EMP disaster, and am hoping to see my grandkids."
+    text: "저와 Larkam은 무효 물질의 가장자리에 오두막을 짓고 살았습니다. Larkam은 지난주에 죽었고, 이제 우리는 4K로 살고 있습니다. 저는 아직 EMP 재난에서 회복 중이며 손주들을 만나기를 바랍니다."
   },
   {
     id: "ai503",
-    text: "Found on the heels of the new update, which brings us one step closer to having Hevi support both Android and iOS"
+    text: "새 업데이트 직후에 발견됐으며, Hevi가 Android와 iOS를 모두 지원하는 날에 한 걸음 더 가까워졌습니다"
   },
   {
     id: "ai504",
-    text: "I give you the low-ground!"
+    text: "I give you the low-ground! (내가 낮은 지대를 주겠다!)"
   },
   {
     id: "ai505",
-    text: "A long time ago, in an alternate universe, there was an antimatter war. All the antimatter sided with the Phaéton 6 empire. All the antimatter wanted was the low, earth-like ground of the 8th dimension. The anti-infinity won, and the anti-Eternity gained the upper hand. Unfortunately, the anti-Eternity started the war with a sneak attack, and the world exploded. The aftermath has left the landscape of the world in tatters. Far across the world, peasants grow weary as they wait for the harvest. Yet another apocalypse is brewing..."
+    text: "아주 오래전 어느 대체 우주에서 반물질 전쟁이 벌어졌습니다. 모든 반물질은 Phaéton 6 제국의 편에 섰습니다. 반물질이 원한 것은 8번째 차원의 낮고 지구와 비슷한 땅뿐이었습니다. 안티 무한이 승리했고 안티 영원이 우위를 점했습니다. 불행히도 안티 영원이 기습 공격으로 전쟁을 시작하면서 세계가 폭발했습니다. 그 여파로 세계의 대지는 갈기갈기 찢어졌습니다. 머나먼 곳의 농민들은 수확을 기다리며 지쳐 갑니다. 또 하나의 종말이 다가오고 있습니다..."
   },
   {
     id: "ai506",
-    text: "Antimatter units are the most productive unit in the game. This is why AD is the most fun game you'll ever play."
+    text: "반물질 유닛은 게임에서 가장 생산적인 유닛입니다. 바로 이 때문에 AD가 여러분이 해 볼 게임 중 가장 재미있습니다."
   },
   {
     id: "ai507",
-    text: "\"We can't have nice things.\" - Anti-Bohemian Anti-Rhapsody"
+    text: "\"We can't have nice things.\" - Anti-Bohemian Anti-Rhapsody (“우리에겐 좋은 것이 허락되지 않아.” - 안티 보헤미안 안티 랩소디)"
   },
   {
     id: "ai508",
-    text: "We can have anti-mean things and anti-love ones, anti-kids and anti-zombielandos."
+    text: "We can have anti-mean things and anti-love ones, anti-kids and anti-zombielandos. (우리에겐 안티 못된 것과 안티 사랑스러운 것, 안티 키즈와 안티 좀비랜드가 있습니다.)"
   },
   {
     id: "ai509",
-    text: "We have an anti-president and a anti-lawyer, anti-justice and anti-people."
+    text: "We have an anti-president and a anti-lawyer, anti-justice and anti-people. (우리에겐 안티 대통령과 안티 변호사, 안티 정의와 안티 사람들이 있습니다.)"
   },
   {
     id: "ai510",
-    text: "Top 10 things that will blow your mind: 1) The number 9, 2) The 9th dimension, 3) The infinity chest, and 4) The war on drugs."
+    text: "Top 10 things that will blow your mind: 1) The number 9, 2) The 9th dimension, 3) The infinity chest, and 4) The war on drugs. (충격적인 것 열 가지: 첫째 숫자 아홉, 둘째 아홉 번째 차원, 셋째 무한 상자, 넷째 마약과의 전쟁.)"
   },
   {
     id: "ai511",
-    text: "RSS feeds should be working now"
+    text: "이제 RSS 피드가 작동할 겁니다"
   },
   {
     id: "ai512",
-    text: "Frostfall is now supported on Android phones! Use your local developer to get free XP."
+    text: "이제 Android 휴대전화에서 Frostfall을 지원합니다! 근처의 개발자를 이용해 무료 XP를 받으세요."
   },
   {
     id: "ai513",
-    text: "Your save file is corrupted or deleted. Antimatter Dimensions security software will disable automatic updates for you."
+    text: "저장 파일이 손상되었거나 삭제되었습니다. 반물질 차원 보안 소프트웨어가 자동 업데이트를 비활성화합니다."
   },
   {
     id: "ai514",
-    text: "Frozen beyond hope? Just keep holding that max button."
+    text: "가망이 없을 정도로 멈췄나요? 그냥 최대 버튼을 계속 누르고 계세요."
   },
   {
     id: "ai515",
-    text: "Error.java.replicated. Under the control of hevipelle."
+    text: "Error.java.replicated. Under the control of hevipelle. (복제된 자바 오류. hevipelle의 통제하에 있습니다.)"
   },
   {
     id: "ai516",
-    text: "Unfortunately, entropy hevi has decided to shut down the game."
+    text: "안타깝게도 엔트로피 Hevi가 게임을 종료하기로 했습니다."
   },
   {
     id: "ai517",
-    text: "The indie rock band is currently trying to get unreachable by time zones. This may cause inflation of spacetime."
+    text: "The indie rock band is currently trying to get unreachable by time zones. This may cause inflation of spacetime. (인디 록 밴드가 시간대로는 닿을 수 없는 곳에 가려 하고 있습니다. 이 때문에 시공간이 팽창할 수 있습니다.)"
   },
   {
     id: "ai518",
-    text: "The next news ticker is in 5 units of time."
+    text: "다음 뉴스 티커는 시간 단위 5개 후에 나옵니다."
   },
   {
     id: "ai519",
-    text: "Oh... hooray! Did you find the last of the anti-boats?"
+    text: "Oh... hooray! Did you find the last of the anti-boats? (오... 만세! 마지막 안티 보트를 찾았나요?)"
   },
   {
     id: "ai520",
-    text: "Don't anti-jokes. they make the game funnier"
+    text: "Don't anti-jokes. they make the game funnier (안티 농담을 막지 마세요. 게임이 더 웃겨지니까요.)"
   },
   {
     id: "ai521",
-    text: "I'm gonna use my anti-science background to help me beat Unfair Game Awards."
+    text: "I'm gonna use my anti-science background to help me beat Unfair Game Awards. (안티 과학 경력을 활용해 불공정 게임 어워드를 이겨 보겠습니다.)"
   },
   {
     id: "ai522",
-    text: "This is an anti-world. There is no Ukraine, no Russia, no China. Ireland is nowhere. Iceland is nowhere. Scotland is nowhere. Finland is nowhere. Denmark is nowhere. Sweden is nowhere. Norway is nowhere. And then there's France, Germany, Italy, Spain, Portugal... Oh, what's this fuss? Why is there such a buzz in these parts? Why is the Capital Wasteland? Why is the Harry Potter and Steins;Gate? Why do people care? These are major stories. These are major characters. THESE ARE HUGE NEWS. THESE ARE REAL NEWS."
+    text: "이곳은 안티 세계입니다. 우크라이나도, 러시아도, 중국도 없습니다. 아일랜드도, 아이슬란드도, 스코틀랜드도, 핀란드도, 덴마크도, 스웨덴도, 노르웨이도 어디에도 없습니다. 그리고 프랑스, 독일, 이탈리아, 스페인, 포르투갈이 있습니다... 아, 이 소란은 뭘까요? 왜 이곳이 이렇게 떠들썩할까요? 왜 수도 황무지가 있는 걸까요? 왜 해리 포터와 Steins;Gate가 있는 걸까요? 사람들은 왜 신경 쓸까요? 이것들은 중대한 이야기입니다. 중대한 인물들입니다. 엄청난 뉴스입니다. 진짜 뉴스입니다."
   },
   {
     id: "ai523",
-    text: "The current cooldown on Research Dimensions is [current tick speed]. This may be extended to next update in [time]."
+    text: "연구 차원의 현재 재사용 대기시간은 [current tick speed]입니다. 다음 업데이트 때 [time]까지 연장될 수 있습니다."
   },
   {
     id: "ai524",
-    get text() { return `"Help, I'm doomed to fall for the rest of my life" (requires ${format(Number.MAX_VALUE, 2)} paperclips)`; }
+    get text() { return `"도와주세요, 평생 추락할 운명입니다" (클립 ${format(Number.MAX_VALUE, 2)}개 필요)`; }
   },
   {
     id: "ai525",
-    text: "Where's the end? Not in the future, no. I'm gonna show you how to get to the end in less than 0.1 seconds."
+    text: "끝은 어디에 있을까요? 미래에는 없습니다. 0.1초도 안 돼 끝에 도달하는 방법을 보여 드리겠습니다."
   },
   {
     id: "ai526",
-    text: "I'm gonna prove to you that you can't see this news ticker."
+    text: "여러분이 이 뉴스 티커를 볼 수 없다는 사실을 증명하겠습니다."
   },
   {
     id: "ai527",
-    text: "I wonder if anyone still plays this game anymore?"
+    text: "아직도 이 게임을 하는 사람이 있을까요?"
   },
   {
     id: "ai528",
-    text: "Why would anyone play this? Just for the lols?"
+    text: "Why would anyone play this? Just for the lols? (누가 이걸 왜 플레이하겠어요? 그냥 웃자고요?)"
   },
   {
     id: "ai529",
-    text: "Emoji is said to be America's new measuring system for everything. What does this mean for us? We don't know. But we will know in 5 hours."
+    text: "Emoji is said to be America's new measuring system for everything. What does this mean for us? We don't know. But we will know in 5 hours. (이모지가 미국의 새로운 만능 측정 체계라고 합니다. 이것이 우리에게 어떤 의미일까요? 아직은 모릅니다. 하지만 다섯 시간 후에는 알게 될 겁니다.)"
   },
   {
     id: "ai530",
-    text: "\"I'll have 2 antimatter pizzas, an antimatter pie, an antimatter cupcake and an antimatter cookie. What do you eat there?\" - Tony Stark"
+    text: "\"I'll have 2 antimatter pizzas, an antimatter pie, an antimatter cupcake and an antimatter cookie. What do you eat there?\" - Tony Stark (“반물질 피자 두 판, 반물질 파이, 반물질 컵케이크와 반물질 쿠키를 주세요. 거기서는 뭘 먹나요?” - Tony Stark)"
   },
   {
     id: "ai531",
-    text: "i called the news ticker \"the freshman chapel\" because freshman don't get baptized"
+    text: "i called the news ticker \"the freshman chapel\" because freshman don't get baptized (신입생은 세례를 받지 않아서 뉴스 티커를 “신입생 예배당”이라고 불렀습니다.)"
   },
   {
     id: "ai532",
-    text: "One matter, two antimatter, fry 'em till they're golden and crisp and aromatic- then remove the golden axles and drain the golden syrup and add the golden syrup to the antimatter batter."
+    text: "One matter, two antimatter, fry 'em till they're golden and crisp and aromatic- then remove the golden axles and drain the golden syrup and add the golden syrup to the antimatter batter. (물질 하나, 반물질 둘을 노릇하고 바삭하며 향긋해질 때까지 튀긴 뒤, 황금 축을 빼고 황금 시럽을 따라 반물질 반죽에 넣으세요.)"
   },
   {
     id: "ai533",
-    text: "Now you, the reader, have unknowingly stumbled onto the site of a deranged madman. Whether you survive the experience or not, you will be indebted to me for telling you how to survive, how to find the light within, what lies beyond, and what lies beyond is another story."
+    text: "이제 독자인 당신은 자신도 모르게 정신 나간 사람의 영역에 들어왔습니다. 이 경험에서 살아남든 아니든, 살아남는 법과 내면의 빛을 찾는 법, 그 너머에 무엇이 있는지를 알려 준 제게 빚을 지게 될 겁니다. 그 너머의 이야기는 또 다른 이야기입니다."
   },
   {
     id: "ai534",
-    text: "Careful reader, this news ticker contains major spoilers for the last time, you have been"
+    text: "조심스러운 독자여, 이 뉴스 티커에는 지난번에 관한 중대한 스포일러가 들어 있습니다. 당신은"
   },
   {
     id: "ai535",
-    text: "anti-anti-kajfik is happy his girlfriend is happy"
+    text: "anti-anti-kajfik is happy his girlfriend is happy (안티 안티 Kajfik은 여자 친구가 행복해서 행복합니다.)"
   },
   {
     id: "ai536",
-    text: "i dont think he can add 1 more hour to the news ticker... unless?"
+    text: "i dont think he can add 1 more hour to the news ticker... unless? (뉴스 티커에 한 시간을 더 추가할 수는 없을 것 같은데... 설마?)"
   },
   {
     id: "ai537",
-    text: "Imagine sitting on your toilet and suddenly you have to sit down."
+    text: "Imagine sitting on your toilet and suddenly you have to sit down. (변기에 앉아 있는데 갑자기 앉아야 하는 상황을 상상해 보세요.)"
   },
   {
     id: "ai538",
-    text: "Once upon a time, there was a matter of a certain antimatter. Some say that it was a matter of honor, others say that it was a matter of usage. All we know is that it ended up in a war, and we the people that were there that fought it died. The war was won, and we the living died soon after. The matter was said to have won, though our leaders refused to talk about it. Instead, they kept everything locked away, the war never to be discussed again."
+    text: "Once upon a time, there was a matter of a certain antimatter. Some say that it was a matter of honor, others say that it was a matter of usage. All we know is that it ended up in a war, and we the people that were there that fought it died. The war was won, and we the living died soon after. The matter was said to have won, though our leaders refused to talk about it. Instead, they kept everything locked away, the war never to be discussed again. (옛날 옛적 어떤 반물질을 둘러싼 문제가 있었고, 명예의 문제 또는 사용법의 문제였다고 합니다. 결국 전쟁으로 번져 싸운 이들은 죽었고 물질이 승리했다고 전해지지만, 지도자들은 모든 것을 봉인하고 다시는 말하지 않았습니다.)"
   },
   {
     id: "ai539",
-    text: "This is not a game about getting numbers bigger. This is a game about getting fewer paperclips. The number of paperclips you have is only a number, and the game doesn't want you to discover that. Game over, game over."
+    text: "이 게임은 숫자를 키우는 게임이 아닙니다. 클립을 더 적게 얻는 게임입니다. 보유한 클립의 수는 숫자일 뿐이며, 게임은 여러분이 그 사실을 알아내길 바라지 않습니다. 게임 오버, 게임 오버."
   },
   {
     id: "ai540",
-    text: "Lore? Oh, it's just text."
+    text: "설정이요? 아, 그냥 글자일 뿐입니다."
   },
   {
     id: "ai541",
-    text: "This is a friendly suggestion to unplug the game and go play some safe, saner, games."
+    text: "게임을 끄고 더 안전하고 멀쩡한 게임을 하러 가시길 친절히 권해 드립니다."
   },
   {
     id: "ai542",
-    text: "gamma ray is getting more and more dangerous"
+    text: "감마선이 점점 더 위험해지고 있습니다"
   },
   {
     id: "ai543",
-    text: "According to all known laws of physics, there is no way that you can manipulate the game more than 10 times in a row. Stop. Just stop. Your mad."
+    text: "According to all known laws of physics, there is no way that you can manipulate the game more than 10 times in a row. Stop. Just stop. Your mad. (알려진 모든 물리 법칙에 따르면 게임을 열 번 넘게 연속으로 조작하는 것은 불가능합니다. 그만하세요. 그냥 그만하세요. 미쳤군요.)"
   },
   {
     id: "ai544",
-    text: "There is no more news."
+    text: "더 이상 뉴스가 없습니다."
   },
   {
     id: "ai545",
-    text: "\"So this is what science is like\"- someone who has never heard of Kurt Somebody"
+    text: "\"So this is what science is like\"- someone who has never heard of Kurt Somebody (“과학이란 이런 거구나” - Kurt Somebody를 들어 본 적 없는 사람)"
   },
   {
     id: "ai546",
@@ -5499,124 +5456,124 @@ export const news = [
   },
   {
     id: "ai547",
-    text: "You know, I was praying for a miracle and got a boost from the 9th dimension."
+    text: "있잖아요, 기적을 바라며 기도했더니 제9차원에서 강화를 받았습니다."
   },
   {
     id: "ai548",
-    text: "Here is a list of the top meme's of all time: https://www.youtube.com/watch?v=uCP44Q37YHAQ"
+    text: "Here is a list of the top meme's of all time: https://www.youtube.com/watch?v=uCP44Q37YHAQ (역대 최고의 밈 목록입니다.)"
   },
   {
     id: "ai549",
-    text: "All meta-memes are bad memes."
+    text: "All meta-memes are bad memes. (모든 메타 밈은 나쁜 밈입니다.)"
   },
   {
     id: "ai550",
-    text: "On the left, you'll see our new \"Anti-coins\". These are capable of nullifying all boosts, including giant boosts. On the right side, you'll also see our brand new \"Anti-gifts\". These are some of the most overpowered boosts you'll find anywhere."
+    text: "왼쪽에는 새로운 \"안티 코인\"이 보입니다. 막대한 강화 효과를 포함한 모든 강화를 무효화할 수 있습니다. 오른쪽에는 새로 나온 \"안티 선물\"도 보입니다. 어디서든 찾아볼 수 있는 가장 강력한 강화 효과 중 일부입니다."
   },
   {
     id: "ai551",
-    text: "You will always be noticed, and never in the same place."
+    text: "당신은 언제나 눈에 띄겠지만, 절대 같은 장소에서는 아닐 겁니다."
   },
   {
     id: "ai552",
-    text: "If you stare long enough at the ticker, the pixels will start moving backwards. THIS DOESN'T MEAN IT ACTUALLY STUCK"
+    text: "If you stare long enough at the ticker, the pixels will start moving backwards. THIS DOESN'T MEAN IT ACTUALLY STUCK (티커를 오래 바라보면 픽셀이 뒤로 움직이기 시작합니다. 그렇다고 실제로 멈춘 건 아닙니다.)"
   },
   {
     id: "ai553",
-    text: "The time has come for the rebirth of the 9th dimension. All who participate will receive a piece of paper saying \"Reality is an illusion, Infinity is a hologram, Infinity is an illusion, eternity is a hologram, is to short for everlasting, negative dimensions are not allowed."
+    text: "9번째 차원이 다시 태어날 때가 왔습니다. 참가자는 모두 \"현실은 환상이고, 무한은 홀로그램이며, 무한은 환상이고, 영원은 홀로그램이며, 영원하기에는 너무 짧고, 음의 차원은 허용되지 않는다고 적힌 종이 한 장을 받습니다."
   },
   {
     id: "ai554",
-    text: "Look at this, my 9th dimension has just been reworked and now it even produces 8th dimensions! Who knew just a touch of math could make such a thing as this?"
+    text: "이것 좀 보세요. 제9차원이 방금 개편되어 이제 제8차원까지 생산합니다! 수학을 조금만 손보면 이런 일이 가능할 줄 누가 알았을까요?"
   },
   {
     id: "ai555",
-    text: "I saw this news in the news ticker and I had this image in my head ever since"
+    text: "뉴스 티커에서 이 소식을 본 뒤로 줄곧 이 장면이 머릿속에 떠올랐습니다"
   },
   {
     id: "ai556",
-    text: "\"I always wanted to play the anti-meta-game. But, alas, you can't\" - many a time"
+    text: "\"I always wanted to play the anti-meta-game. But, alas, you can't\" - many a time (“언제나 안티 메타 게임을 하고 싶었지만, 안타깝게도 그럴 수 없어.” - 여러 번)"
   },
   {
     id: "ai557",
-    text: "crap, I just posted two news ticker suggestions on the ticker, one of which got in the news!"
+    text: "젠장, 방금 티커에 뉴스 티커 제안을 두 개 올렸는데 그중 하나가 뉴스에 나왔어요!"
   },
   {
     id: "ai558",
-    text: "What do you call antimatter inanimate objects? Air, earth, water, fire. Air objects are the objects that are created when the anti-atmosphere meets the anti-earth. Water, earth, and fire are the four cardinal virtues. Air objects are the objects that are created when the anti-atmosphere and the anti-earth collide."
+    text: "반물질 무생물을 무엇이라고 부를까요? 공기, 땅, 물, 불입니다. 공기 물체는 안티 대기와 안티 지구가 만날 때 만들어지는 물체입니다. 물, 땅, 불은 네 가지 기본 덕목입니다. 공기 물체는 안티 대기와 안티 지구가 충돌할 때 만들어지는 물체입니다."
   },
   {
     id: "ai559",
-    text: "If you are reading this, that means that nine lives. One makes you free, the other keeps you from getting free."
+    text: "이 글을 읽고 있다면 아홉 목숨이라는 뜻입니다. 하나는 당신을 자유롭게 하고, 다른 하나는 자유로워지지 못하게 합니다."
   },
   {
     id: "ai560",
-    text: "The ninth dimension makes the sixth family happy. The fifth lives in shame."
+    text: "The ninth dimension makes the sixth family happy. The fifth lives in shame. (아홉 번째 차원은 여섯 번째 가족을 행복하게 하고, 다섯 번째는 수치 속에 살아갑니다.)"
   },
   {
     id: "ai561",
-    text: "me: making news about beer pong, hevi: balancing two icebergs, *barkeeper: oh god, is he dead yet?*"
+    text: "me: making news about beer pong, hevi: balancing two icebergs, *barkeeper: oh god, is he dead yet?* (나: 비어퐁 뉴스를 만드는 중, Hevi: 빙산 두 개의 균형을 맞추는 중, *바텐더: 맙소사, 아직도 안 죽었어?*)"
   },
   {
     id: "ai562",
-    text: "please don't look at this. Thank you."
+    text: "이걸 보지 말아 주세요. 감사합니다."
   },
   {
     id: "ai563",
-    text: "Are you sure it's not the next update? That it's not some weird virus that just wants to explode? That it's not some wild idea that you guys are crazy? Haha I love you."
+    text: "정말 다음 업데이트가 아닌가요? 그저 폭발하고 싶어 하는 이상한 바이러스가 아닌가요? 여러분이 미쳤다는 황당한 발상이 아닌가요? 하하, 사랑합니다."
   },
   {
     id: "ai564",
-    text: "Wait, there is a mobile version?!"
+    text: "잠깐, 모바일 버전이 있다고요?!"
   },
   {
     id: "ai565",
-    text: "Oh? You wonder what I look like? I'm pretty sure that this is the news ticker, right? Well, listen, we have reports coming in that say that the next update is coming in five hours. Also, there seems to be some sort of transporter thing going on, so if you happen to be on the same side as those"
+    text: "오? 제가 어떻게 생겼는지 궁금한가요? 이건 뉴스 티커가 맞는 것 같은데요? 잘 들어 보세요. 다음 업데이트가 다섯 시간 뒤에 나온다는 제보가 들어오고 있습니다. 또한 어떤 운송 장치 같은 일이 벌어지는 듯하니, 만약 당신이 그것들과 같은 편에 있다면"
   },
   {
     id: "ai566",
-    text: "Okay, I get it. You're tired of all these anti-matters around you, building and building to unimaginable scales, antimatter piles so high that not even God knows what has been created. So what's the solution to this anti-cleanliness? Planes of existence. 1st Planes that produce matter, and 2nd planes that produce 1st planes, and 3rd planes that produce 2nd planes. Each with anti-limitations, so that whenever a plane of existence is created, it produces a quantity of anti-matter that is at once small and large. This creates a large island of anti-infinity, off to the east, and a large island of anti-reality, to the west."
+    text: "좋아요, 알겠습니다. 주변의 안티 물질이 상상할 수 없는 규모로 계속 쌓이고, 무엇이 만들어졌는지는 신조차 모를 만큼 반물질 더미가 높아져 지쳤군요. 그렇다면 이 안티 청결 문제의 해결책은 무엇일까요? 존재의 평면입니다. 물질을 생산하는 1번째 평면, 1번째 평면을 생산하는 2번째 평면, 2번째 평면을 생산하는 3번째 평면입니다. 각각에는 안티 한계가 있어 존재의 평면이 만들어질 때마다 작으면서도 큰 양의 반물질을 생산합니다. 그 결과 동쪽에는 거대한 안티 무한의 섬이, 서쪽에는 거대한 안티 현실의 섬이 생깁니다."
   },
   {
     id: "ai567",
-    text: "That's not what this is about. You're misunderstanding. The game is about how to accelerate the development of prestige layers. Acceleration is a factor of production, not quality."
+    text: "그런 이야기가 아닙니다. 잘못 이해하고 있어요. 이 게임은 프레스티지 단계의 발전을 가속하는 방법에 관한 게임입니다. 가속은 품질이 아니라 생산의 요소입니다."
   },
   {
     id: "ai568",
-    text: "Click here to advance 5 prestige layers"
+    text: "프레스티지 단계 5개를 진행하려면 여기를 클릭하세요"
   },
   {
     id: "ai569",
-    text: "I am actually good at making jokes. Fail safe antimatter."
+    text: "I am actually good at making jokes. Fail safe antimatter. (사실 저는 농담을 잘 만듭니다. 실패 안전 반물질입니다.)"
   },
   {
     id: "ai570",
-    text: "I'm not being paid enough to finish writing this."
+    text: "이 글을 끝까지 쓰기에는 보수가 부족합니다."
   },
   {
     id: "ai571",
-    text: "Eternals have to take a risk by being passive in limited time. After they successfully took a risk, they are not feeling well."
+    text: "영원한 자들은 제한된 시간 동안 수동적으로 행동하는 위험을 감수해야 합니다. 위험을 성공적으로 감수하고 나면 몸 상태가 좋지 않습니다."
   },
   {
     id: "ai572",
-    text: "Eternity is the last state. You never move from here.",
+    text: "영원은 마지막 단계입니다. 여기서 더 나아갈 수 없습니다.",
     get unlocked() { return PlayerProgress.eternityUnlocked(); }
   },
   {
     id: "ai573",
-    text: "Welcome to Bitcoin the game."
+    text: "비트코인 게임에 오신 것을 환영합니다."
   },
   {
     id: "ai574",
-    text: "A new conspiracy theory website has just published a video recording of them discussing the 9th dimension. They then joke about selling their soul to the 9th dimension and being happy about it."
+    text: "새로운 음모론 웹사이트가 제9차원을 논의하는 모습을 담은 영상을 방금 공개했습니다. 이들은 이어 제9차원에 영혼을 팔고 행복해졌다는 농담을 했습니다."
   },
   {
     id: "ai575",
-    text: "With the release of the 9th dimension, all the jobs that were previously automated will be automated and everyone will be paid with trade, production, and income growth. Also, you will be able to automate a lot of the tasks currently performed by people, such as mining, building, and killing antimatter. This is a huge stride for automation, as you can now automate virtually every aspect of life."
+    text: "9번째 차원이 출시되면 이전에 자동화됐던 모든 직업이 자동화되고, 모두가 무역·생산·소득 성장으로 보수를 받게 됩니다. 또한 채굴, 건설, 반물질 처치처럼 현재 사람들이 수행하는 많은 작업을 자동화할 수 있습니다. 이제 삶의 거의 모든 측면을 자동화할 수 있으므로 자동화의 거대한 도약입니다."
   },
   {
     id: "ai576",
-    text: "The happiness level of the news ticker has increased to 6.66e69"
+    text: "뉴스 티커의 행복도가 6.66e69로 증가했습니다"
   },
   {
     id: "ai577",
@@ -5624,23 +5581,23 @@ export const news = [
   },
   {
     id: "ai578",
-    text: "Nurse, I'm comatose because of antimatter and matter from last night.\" Why are you comatose? \"Because of all the antimatter."
+    text: "간호사님, 저는 어젯밤의 반물질과 물질 때문에 혼수상태입니다.\" 왜 혼수상태인가요? \"그 모든 반물질 때문입니다."
   },
   {
     id: "ai579",
-    text: "Stand by and do what you're told. The antimatter will come for you when you're least expecting it."
+    text: "대기하면서 시키는 대로 하세요. 전혀 예상하지 못한 순간에 반물질이 당신을 찾아올 겁니다."
   },
   {
     id: "ai580",
-    text: "\"It is widely acknowledged that not enough antimatter is in primordial soup, hence the name 'antimatter soup'\" - old fisherman"
+    text: "\"It is widely acknowledged that not enough antimatter is in primordial soup, hence the name 'antimatter soup'\" - old fisherman (“원시 수프에는 반물질이 충분하지 않아서 '반물질 수프'라고 부른다는 사실이 널리 알려져 있지.” - 늙은 어부)"
   },
   {
     id: "ai581",
-    text: "The news ticker... it never moves. How do i move the arrow? Pretty simple, use your left thumb to rotate the dial, and point the arrow up. Now, point the dial clockwise to reach infinity, and point the dial counterclockwise to reach eternally eternities."
+    text: "뉴스 티커가... 전혀 움직이지 않습니다. 화살표를 어떻게 움직일까요? 아주 간단합니다. 왼쪽 엄지로 다이얼을 돌려 화살표가 위를 가리키게 하세요. 이제 무한에 도달하려면 다이얼을 시계 방향으로, 영원히 이어지는 영원에 도달하려면 반시계 방향으로 돌리세요."
   },
   {
     id: "ai582",
-    text: "If the universe is expanding, then the entire universe must be expanding, which means that body cannot sit."
+    text: "If the universe is expanding, then the entire universe must be expanding, which means that body cannot sit. (우주가 팽창한다면 온 우주가 팽창하는 것이므로, 그 몸은 앉을 수 없습니다.)"
   },
   {
     id: "ai583",
@@ -5648,367 +5605,367 @@ export const news = [
   },
   {
     id: "ai584",
-    text: "With all this talk about anti-weights and anti-matter, why on earth do we still use them for anything?"
+    text: "With all this talk about anti-weights and anti-matter, why on earth do we still use them for anything? (안티 무게와 안티 물질 이야기가 이렇게 많은데, 대체 왜 아직도 어디에든 사용하는 걸까요?)"
   },
   {
     id: "ai585",
-    text: "Weight loss causes hevi to say \"uh oh, something is wrong\""
+    text: "체중이 줄자 Hevi가 \"이런, 뭔가 잘못됐어\"라고 말합니다"
   },
   {
     id: "ai586",
-    text: "\"You guys ever had antimatter muffins? I bet they tasted like antimatter.\" - Hevipelle"
+    text: "\"다들 반물질 머핀 먹어 본 적 있어요? 분명 반물질 맛이 났을 텐데요.\" - Hevipelle"
   },
   {
     id: "ai587",
-    text: "I thought the news ticker was supposed to be a guide for how to get the most out of Antimatter Dimensions, but it's been warped beyond recognition..."
+    text: "뉴스 티커는 반물질 차원을 최대한 즐기는 방법을 알려 주는 안내서인 줄 알았는데, 이제 알아볼 수 없을 정도로 뒤틀렸네요..."
   },
   {
     id: "ai588",
-    text: "We can actually get a sense of pride from looking at replicanti at night. Ridley Scott's underrated masterpiece, Alien, is one example. Another is the life of Antimatter Steven Spielberg, who put almost 30 years into making. The last director to tackle the subject is Roman Polanski. The man ruined not only Roman's reputation, but also ours, thanks to the Polanski film he directed, Pius. Thousands of copies of his unfinished film, Eternal Sunshine of the Antimatter Planet, were burned in the eyes of those who would try to make the sequel, with tragic results. Thousands of copies of that unfinished film, too, were destroyed. The cost to make that sequel, if it even exists, is extremely high. Even now, more than 50 years later, we don't know exactly how well it will do. But it sure as heck won't hurt."
+    text: "우리는 밤에 복제자를 바라보며 실제로 자부심을 느낄 수 있습니다. Ridley Scott의 저평가된 걸작 Alien이 한 예입니다. 또 다른 예는 제작에 거의 30년을 쏟은 반물질 Steven Spielberg의 삶입니다. 이 주제를 마지막으로 다룬 감독은 Roman Polanski입니다. 그는 자신이 감독한 Polanski 영화 Pius 때문에 Roman의 명성뿐 아니라 우리의 명성까지 망쳤습니다. 그의 미완성 영화 Eternal Sunshine of the Antimatter Planet의 사본 수천 개가 속편을 만들려는 사람들의 눈앞에서 불탔고 비극적인 결과를 낳았습니다. 그 미완성 영화의 사본 수천 개도 파괴됐습니다. 존재하기나 한다면 그 속편의 제작비는 엄청나게 높습니다. 50년도 더 지난 지금조차 얼마나 잘될지는 정확히 모릅니다. 하지만 분명 손해는 없을 겁니다."
   },
   {
     id: "ai589",
-    text: "We have updated our Antimatter Dimensions client to address the concerns you may have had. Toggling issues are resolved."
+    text: "여러분이 겪었을 문제를 해결하기 위해 반물질 차원 클라이언트를 업데이트했습니다. 토글 문제가 해결되었습니다."
   },
   {
     id: "ai590",
-    text: "Build a replicanti factory, to produce replicanti. It'll create Omega Hevipelle, the happiest Hevipelle you can find."
+    text: "복제자를 생산할 복제자 공장을 건설하세요. 그러면 세상에서 가장 행복한 Hevipelle인 오메가 Hevipelle가 탄생합니다."
   },
   {
     id: "ai591",
-    text: "Hey Max, wanna come watch the sun go down?"
+    text: "Max, 같이 해가 지는 거 보러 갈래?"
   },
   {
     id: "ai592",
-    text: "If you are not moving your finger, then you are frozen."
+    text: "손가락을 움직이지 않는다면 얼어붙은 겁니다."
   },
   {
     id: "ai593",
-    text: "Max, I really do love you."
+    text: "Max, 난 정말 널 사랑해."
   },
   {
     id: "ai594",
-    text: "Does Hevipelle sleep?"
+    text: "Hevipelle도 잠을 잘까요?"
   },
   {
     id: "ai595",
-    text: "\"Its' not my turn on the XM80,\" says Mike from the 9th dimension as he runs across the 8th dimension to get a piece of the action for himself."
+    text: "\"Its' not my turn on the XM80,\" says Mike from the 9th dimension as he runs across the 8th dimension to get a piece of the action for himself. (“그 장비를 쓸 차례가 아니야.” 아홉 번째 차원의 Mike가 한몫 끼려고 여덟 번째 차원을 가로질러 달리며 말합니다.)"
   },
   {
     id: "ai596",
-    text: "If you are reading this, that means you can read my dreams"
+    text: "이 글을 읽고 있다면 당신은 제 꿈도 읽을 수 있다는 뜻입니다"
   },
   {
     id: "ai597",
-    text: "With the advent of time, everything that was once great has fallen into our lap. And with its hevi-rigged clock, it's our turn to up the trash."
+    text: "With the advent of time, everything that was once great has fallen into our lap. And with its hevi-rigged clock, it's our turn to up the trash. (시간이 도래하면서 한때 위대했던 모든 것이 우리 손에 떨어졌습니다. Hevi식으로 조작된 시계와 함께 이제 우리가 쓰레기를 끌어올릴 차례입니다.)"
   },
   {
     id: "ai598",
-    text: "9th dimension doesn't exist because it was stolen from us by a skateboarder"
+    text: "제9차원은 스케이트보더가 우리에게서 훔쳐 갔기 때문에 존재하지 않습니다"
   },
   {
     id: "ai599",
-    text: "You have ... 8.9 antimatter. That's not a typo."
+    text: "보유한 반물질은 ... 8.9개입니다. 오타가 아닙니다."
   },
   {
     id: "ai600",
-    text: "Wow, this game is finally balanced! Gotta go check the replicanti sometimes."
+    text: "와, 드디어 게임 밸런스가 맞네요! 가끔 복제자도 확인하러 가야겠습니다."
   },
   {
     id: "ai601",
-    text: "Haha! You think that I put too many words in your news ticker, but reality is still coming."
+    text: "하하! 내가 네 뉴스 티커에 말을 너무 많이 넣었다고 생각하겠지만, 리얼리티는 그래도 다가오고 있어."
   },
   {
     id: "ai602",
-    text: "Help is coming! Everybody help, it's gonna be late, hevi is hiding the tachyon particles!"
+    text: "도움이 오고 있어요! 다들 도와주세요, 늦겠어요. Hevi가 타키온 입자를 숨기고 있어요!"
   },
   {
     id: "ai603",
-    text: "\"I don't know about you but my favorite number is 22, it's just so great! It's the number of hours since I met your M heretics."
+    text: "\"I don't know about you but my favorite number is 22, it's just so great! It's the number of hours since I met your M heretics. (당신은 어떤지 몰라도 제가 가장 좋아하는 수는 스물둘입니다. 정말 멋지죠! 당신의 M 이단자들을 만난 뒤 지난 시간과 같은 수입니다.)"
   },
   {
     id: "ai604",
-    text: "A new type of antimatter has been discovered: \"antimatter-antimatter.\" According to the developers, it's 99.999% pure antimatter."
+    text: "새로운 종류의 반물질이 발견되었습니다. 바로 \"반물질-반물질\"입니다. 개발진에 따르면 순도 99.999%의 반물질이라고 합니다."
   },
   {
     id: "ai605",
-    text: "I just found the secret to getting the 9th dimension..."
+    text: "방금 9번째 차원을 얻는 비결을 알아냈습니다..."
   },
   {
     id: "ai606",
-    text: "I noticed that my current form of transportation is getting a little... unreliable. I don't know if I can fix it, or if anyone can. I'm stuck in the car, and no one seems to be able to fix it. I've called the police, and they said I could stay in the car for up to an hour, but then I'd be stuck in there for the next 24 hours. Is there any way out? I don't know, I'm stuck in this"
+    text: "지금 이용하는 교통수단이 조금... 믿을 수 없게 되어 간다는 걸 알아챘습니다. 제가 고칠 수 있을지, 아니면 누군가 고칠 수나 있을지 모르겠습니다. 차 안에 갇혔는데 아무도 고칠 수 없는 것 같습니다. 경찰에 전화했더니 차 안에 한 시간까지는 머물 수 있지만 그러면 다음 24시간 동안 그 안에 갇히게 된다고 했습니다. 빠져나갈 방법이 있을까요? 모르겠습니다. 저는 여기에 갇혀"
   },
   {
     id: "ai607",
-    text: "In this episode of Antimatter Dimensions, we have a brand new game that will be released in -5 hours! It is an RPG that will be completely free! It has over 3,000 commands, and it is being made by a group of highly qualified people. It has an amazing story to tell, and it was made by a bunch of people who had to make do with what they had. It has a lore to live up to, and it has a lot of potential!"
+    text: "이번 Antimatter Dimensions 에피소드에서는 -5시간 뒤에 출시될 완전히 새로운 게임을 소개합니다! 완전 무료 RPG입니다! 명령어가 3,000개 넘게 들어 있으며, 뛰어난 실력을 갖춘 사람들이 제작하고 있습니다. 놀라운 이야기를 담았고, 가진 것을 최대한 활용해야 했던 사람들이 만들었습니다. 충족해야 할 설정이 있으며 잠재력도 무궁무진합니다!"
   },
   {
     id: "ai608",
-    text: "Javascript is the new HTML, and HTML is the new JavaScript."
+    text: "JavaScript는 새로운 HTML이고, HTML은 새로운 JavaScript입니다."
   },
   {
     id: "ai609",
-    text: "\"The next twist in the Antimatter Universe is in the air! Get ready for some big Crunch! (When clicked the game disconnects for 5 seconds)"
+    text: "\"The next twist in the Antimatter Universe is in the air! Get ready for some big Crunch! (When clicked the game disconnects for 5 seconds) (반물질 우주의 다음 반전이 다가옵니다! 거대한 크런치를 준비하세요! 클릭하면 게임 연결이 다섯 초 동안 끊깁니다.)"
   },
   {
     id: "ai610",
-    text: "A group of people who believe in antimatter have hijacked the media and are pushing for a revolution. They are calling themselves the Ant-Men and they're made up of teenage boys. They believe that they are the protectors of the people and that they are the chosen of Hevi. They claim to be the chosen of Hevi and that they will one day restore balance to the universe. Their leader is a boy named Logan Fisk. He is the son of a successful lawyer and the founder."
+    text: "반물질을 믿는 사람들이 언론을 장악하고 혁명을 추진하고 있습니다. 이들은 스스로를 Ant-Men이라고 부르며 십 대 소년들로 이루어져 있습니다. 자신들이 사람들의 수호자이자 Hevi에게 선택받은 존재라고 믿습니다. Hevi에게 선택받았으며 언젠가 우주의 균형을 되찾을 것이라고 주장합니다. 지도자는 Logan Fisk라는 소년입니다. 성공한 변호사의 아들이자 창립자입니다."
   },
   {
     id: "ai611",
-    text: "He said he could not afford a new ship, so he built a new one instead."
+    text: "그는 새 우주선을 살 형편이 안 돼서 대신 새로 만들었다고 합니다."
   },
   {
     id: "ai612",
-    text: "Hevipelle's first order of business is to ensure that the game is as balanced as possible. This includes ensuring that no matter what, no matter how big of a number, no matter how insignificant of a thing, no matter how perfect of a result, no matter how perfect of an idea, no matter how perfect of an"
+    text: "Hevipelle의 첫 번째 임무는 게임을 가능한 한 균형 있게 만드는 것입니다. 무슨 일이 있어도, 숫자가 아무리 커도, 일이 아무리 사소해도, 결과가 아무리 완벽해도, 발상이 아무리 완벽해도, 아무리 완벽한"
   },
   {
     id: "ai613",
-    text: "I wonder if the stretch goal of $4.5 billion will be reached?"
+    text: "추가 목표액 $4.5 billion을 달성할 수 있을지 궁금하네요."
   },
   {
     id: "ai614",
-    text: "I like to think of my projects as trade secrets. That way if someone wants to understand them I'm not the first person to notice they might be of use to someone else."
+    text: "저는 제 프로젝트를 영업 비밀이라고 생각하는 편입니다. 그러면 누군가 프로젝트를 이해하고 싶어 할 때 그것이 다른 사람에게 쓸모 있을 수 있다는 사실을 처음 알아챈 사람이 제가 아니게 됩니다."
   },
   {
     id: "ai615",
-    text: "I don't know about you but my favourite type of news is the infographics. These are beautiful and informative and the only type of news I find really interesting."
+    text: "여러분은 어떨지 모르겠지만 제가 가장 좋아하는 뉴스 형식은 인포그래픽입니다. 아름답고 유익하며, 제가 정말 흥미롭게 보는 유일한 뉴스 형식이죠."
   },
   {
     id: "ai616",
-    get text() { return `In a recent talk, Yann LeCun said that "A new currency is born." The first incarnation of Antimeta: the currency of the new currency. It's called BTC and it's the difference between 1 and ${format(Number.MAX_VALUE, 2)}. It's easy to lose your money, since a single bitcoin can't be exchanged for more than ${format(Number.MAX_VALUE, 2)} BTC.`; }
+    get text() { return `최근 강연에서 Yann LeCun은 "새로운 통화가 탄생했다"고 말했습니다. 새로운 통화의 통화인 Antimeta의 첫 번째 형태입니다. 이름은 BTC이며 1과 ${format(Number.MAX_VALUE, 2)}의 차이입니다. 비트코인 하나는 ${format(Number.MAX_VALUE, 2)} BTC보다 많이 교환할 수 없으므로 돈을 잃기 쉽습니다.`; }
   },
   {
     id: "ai617",
-    text: "I'm soo broke, I can't even afford a tenth of what he owes me."
+    text: "전 너무 가난해서 그가 제게 빚진 금액의 십 분의 일조차 감당할 수 없어요."
   },
   {
     id: "ai618",
-    text: "What if — instead of making news tickers, we could make news tickers that make news tickers?"
+    text: "뉴스 티커를 만드는 대신, 뉴스 티커를 만드는 뉴스 티커를 만들 수 있다면 어떨까요?"
   },
   {
     id: "ai619",
-    text: "What if I told you that the first dimension was actually a scam and you spent all your EP to open a Dimension Boost?",
+    text: "사실 첫 번째 차원이 사기였고 여러분은 차원 가속을 열려고 EP를 전부 써 버렸다고 말한다면 어떨까요?",
     get unlocked() { return PlayerProgress.eternityUnlocked(); }
   },
   {
     id: "ai620",
-    text: "The biggest difference between this and the previous update is the amount of sprites."
+    text: "이번 업데이트와 이전 업데이트의 가장 큰 차이는 스프라이트의 양입니다."
   },
   {
     id: "ai621",
-    text: "Bamboo shoots grow on bamboos. Aloha."
+    text: "죽순은 대나무에서 자랍니다. 알로하."
   },
   {
     id: "ai622",
-    text: "I am the king of kings, I can break all the records, and I can shatter all the myths. But I can't break them all, because there are so many of them, and they all have a price. 5e12 are the most wanted, because they broke the global record for most person-hours sold, and they are wanted by the law. They are being paid 5e10 by the player for every person-hour they've wasted."
+    text: "나는 왕 중의 왕이며 모든 기록을 깨고 모든 신화를 산산조각 낼 수 있습니다. 하지만 너무 많고 저마다 대가가 있어 전부 깨뜨릴 수는 없습니다. 5e12는 판매된 노동 시간의 세계 기록을 깨 법의 수배를 받는 최고 수배자입니다. 그들이 낭비한 노동 시간마다 플레이어에게서 5e10을 받고 있습니다."
   },
   {
     id: "ai623",
-    text: "A group of researchers have created a device that converts ordinary matter into antimatter, which they then use to create more antimatter. The device has a power output of 200 mA and a half a gram of antimatter per second."
+    text: "한 연구진이 일반 물질을 반물질로 변환하고, 그 반물질로 더 많은 반물질을 만드는 장치를 개발했습니다. 이 장치의 출력은 200 mA이며 초당 반 그램의 반물질을 생산합니다."
   },
   {
     id: "ai624",
-    text: "To the person who doesn't want to hear about the 9th dimension: It's not your problem. The 9th dimension doesn't exist."
+    text: "9번째 차원 이야기를 듣고 싶지 않은 분께 말씀드립니다. 그건 여러분의 문제가 아닙니다. 9번째 차원은 존재하지 않으니까요."
   },
   {
     id: "ai625",
-    text: "For the first time in AD, the week begins on a Sunday!"
+    text: "AD 사상 처음으로 한 주가 일요일에 시작합니다!"
   },
   {
     id: "ai626",
-    text: "This is a story about two people named \"My name is Hevipelle\" and \"I am the creator of Minecraft\" and they live in the same world as you. They have the same freedom as you do. They can go to any dimension and change their world to any dimension and everything in it. You can buy a galaxy and take it from there, but it won't help you much since you can't send a galaxy with a message."
+    text: "이것은 \"내 이름은 Hevipelle\"와 \"나는 Minecraft의 제작자다\"라는 두 사람의 이야기입니다. 그들은 당신과 같은 세계에 살고 당신과 같은 자유를 누립니다. 어느 차원에든 갈 수 있고 자신의 세계와 그 안의 모든 것을 어느 차원으로든 바꿀 수 있습니다. 은하를 사서 가져올 수는 있지만, 메시지에 은하를 담아 보낼 수 없으니 큰 도움은 되지 않습니다."
   },
   {
     id: "ai627",
-    get text() { return `This mod adds a message that when clicked it disables all your current achievements. This mod also adds a new achievement: you have reached ${format(Number.MAX_VALUE, 2)} antimatter, you have not been clicked once.`; }
+    get text() { return `이 모드는 클릭하면 현재 도전과제를 모두 비활성화하는 메시지를 추가합니다. 또한 새로운 도전과제도 추가합니다. 반물질 ${format(Number.MAX_VALUE, 2)}에 도달했으며, 단 한 번도 클릭당하지 않았습니다.`; }
   },
   {
     id: "ai628",
-    text: "Somewhere in the Anti-Pacific Ocean, a giant arm is rotating"
+    text: "반태평양 어딘가에서 거대한 팔이 회전하고 있습니다"
   },
   {
     id: "ai629",
-    text: "With the release of Cosmic Cutlass, we're pleased to announce the impending release of the Antimatter Dimensions Roleplaying Game!"
+    text: "Cosmic Cutlass 출시에 이어 Antimatter Dimensions 롤플레잉 게임의 출시가 임박했음을 기쁜 마음으로 알려 드립니다!"
   },
   {
     id: "ai630",
-    text: "The only thing more useless than actually having Infinity Dimensions is having Infinity Dimensions in your pocket.",
+    text: "무한 차원을 실제로 갖는 것보다 더 쓸모없는 유일한 일은 주머니에 무한 차원을 넣고 다니는 것입니다.",
     get unlocked() { return PlayerProgress.eternityUnlocked() || InfinityDimension(1).isUnlocked; }
   },
   {
     id: "ai631",
-    text: "A man has fallen into the moat of a great city. Civilians report that the moat is filled with acid-resistant matter and that the people in charge are mostly made of acid so they are quite resilient to the effects of acid."
+    text: "한 남자가 대도시의 해자에 빠졌습니다. 시민들에 따르면 해자는 내산성 물질로 가득하며, 책임자들은 대부분 산으로 이루어져 있어 산의 영향에 상당히 강하다고 합니다."
   },
   {
     id: "ai632",
-    text: "This is the place to buy and sell antimatter. (You can buy and sell antimatter here, but it will take time to sell it and you will have to pay a small toll)"
+    text: "이곳은 반물질을 사고파는 곳입니다. (여기서 반물질을 사고팔 수 있지만, 판매에는 시간이 걸리고 소정의 통행료를 내야 합니다.)"
   },
   {
     id: "ai633",
-    text: "I'm not sure if it's due to the 4th wall being in the 5th dimension or the 9th dimension not existing, but in either case, anti-screw it, we're broke, and you can take it."
+    text: "I'm not sure if it's due to the 4th wall being in the 5th dimension or the 9th dimension not existing, but in either case, anti-screw it, we're broke, and you can take it. (네 번째 벽이 다섯 번째 차원에 있어서인지 아홉 번째 차원이 존재하지 않아서인지는 모르겠지만, 어느 쪽이든 안티 될 대로 돼라, 우리는 빈털터리니 가져가세요.)"
   },
   {
     id: "ai634",
-    text: "It's your chance to make history. Win the game. Lose the game. It's super simple. You open the app, and there's a countdown, and the more you play, the faster the timer speeds up. But when the timer is over, you win. You were a part of history. You are one step from being the first person to reach 1 Billion EP. You can win one of three ways: 1. You must give up your first dimension in a row. 2",
+    text: "역사를 만들 기회입니다. 게임에서 이기세요. 게임에서 지세요. 아주 간단합니다. 앱을 열면 카운트다운이 나타나고, 오래 플레이할수록 타이머가 더 빠르게 움직입니다. 하지만 타이머가 끝나면 승리합니다. 당신은 역사의 일부가 됐습니다. 1 Billion EP(십억 EP)에 도달한 최초의 사람이 되기까지 한 걸음 남았습니다. 세 가지 방법 중 하나로 이길 수 있습니다. 1. 첫 번째 차원을 연속으로 포기해야 합니다. 2",
     get unlocked() { return PlayerProgress.eternityUnlocked(); }
   },
   {
     id: "ai635",
-    text: "A new class of humanoid beings has been discovered: the \"Artificial Humans\". They have the capacity to create antimatter, and are therefore very dangerous. They are made entirely of antimatter, and have the power to generate enormous amounts of antimatter, but they can only do this for a limited amount of time."
+    text: "새로운 종류의 인간형 존재인 \"인공 인간\"이 발견되었습니다. 이들은 반물질을 생성할 수 있어 매우 위험합니다. 몸 전체가 반물질로 이루어져 있으며 막대한 양의 반물질을 만들어 낼 힘이 있지만, 제한된 시간 동안만 가능합니다."
   },
   {
     id: "ai636",
-    text: "The most powerful thing in the universe, the most beautiful thing on earth, is your brain. Your brain is like a diamond and there is no more need for it than there is for a diamond."
+    text: "우주에서 가장 강력하고 지구에서 가장 아름다운 것은 여러분의 뇌입니다. 뇌는 다이아몬드와 같으며, 다이아몬드가 필요한 만큼이나 뇌도 필요 없습니다."
   },
   {
     id: "ai637",
-    get text() { return `If you are reading this in the AD Server, it's probably best not to bother with the "Matter" achievement. Seriously, what did you think you were doing, anyway, the achievement is fake and wouldn't exist if it weren't for the "you are a worm" achievement. That's a worm achievement, you get one every ${format(Number.MAX_VALUE, 2)} news tickers you read.`; }
+    get text() { return `AD 서버에서 이 글을 읽고 있다면 "물질" 도전과제에는 신경 쓰지 않는 편이 좋습니다. 진심으로, 대체 뭘 하고 있다고 생각했나요? 그 도전과제는 가짜이며 "너는 벌레다" 도전과제가 없었다면 존재하지도 않았을 겁니다. 그것은 벌레 도전과제로, 뉴스 티커를 ${format(Number.MAX_VALUE, 2)}개 읽을 때마다 하나씩 얻습니다.`; }
   },
   {
     id: "ai638",
-    text: "We've all heard of 9 dimensions, but what about the multi-dimensional Dimensions of the multiverse?"
+    text: "우리 모두 9개의 차원에 관해서는 들어 봤지만, 다중 우주의 다차원적 차원은 어떨까요?"
   },
   {
     id: "ai639",
-    text: "The goal of this game is to get as much antimatter as possible."
+    text: "이 게임의 목표는 가능한 한 많은 반물질을 얻는 것입니다."
   },
   {
     id: "ai640",
-    text: "The best thing about being a news ticker is waiting for the right news to happen, whether it's a meteorite that just missed the Earth, a news ticker just found its way onto a timeline oblivion, or a news ticker just ripped off a terminal velocity that's been on an anti-vac for years."
+    text: "뉴스 티커의 가장 좋은 점은 적절한 뉴스가 일어나기를 기다리는 것입니다. 지구를 아슬아슬하게 비껴간 운석이든, 타임라인의 망각 속으로 길을 찾아간 뉴스 티커든, 수년 동안 안티 진공에 있던 종단 속도를 뜯어낸 뉴스 티커든 말입니다."
   },
   {
     id: "ai641",
-    text: "A man has been arrested for allegedly planting a \"tree\" with \"fake\" messages on it, police said."
+    text: "한 남자가 \"가짜\" 메시지가 달린 \"나무\"를 심은 혐의로 체포됐다고 경찰이 밝혔습니다."
   },
   {
     id: "ai642",
-    get text() { return `I'm confused why the game doesn't just give you a [REDACTED] when you get ${format(Number.MAX_VALUE, 2)} antimatter.`; }
+    get text() { return `왜 이 게임은 반물질을 ${format(Number.MAX_VALUE, 2)}만큼 얻었을 때 그냥 [REDACTED] 하나를 주지 않는지 모르겠습니다.`; }
   },
   {
     id: "ai643",
-    text: "Some people have a hard time keeping track of the cosine of a camera's infinity-meters. I'm one of them."
+    text: "카메라의 무한 미터에 대한 코사인을 추적하기 어려워하는 사람들이 있습니다. 저도 그중 하나입니다."
   },
   {
     id: "ai644",
-    text: "I was going to make a news ticker that tells you how bad the news is, but then I realized that making a news ticker would be way too much effort and it would just be a bunch of people making news tickers constantly. So instead, I'm just going to make a news ticker that tells you how good the news is, but it would be in the news so that you have to click on it to get to the good news."
+    text: "뉴스가 얼마나 나쁜지 알려 주는 뉴스 티커를 만들려 했지만, 뉴스 티커를 만드는 데는 너무 많은 노력이 들고 결국 여러 사람이 끊임없이 뉴스 티커만 만들게 된다는 걸 깨달았습니다. 그래서 대신 뉴스가 얼마나 좋은지 알려 주는 뉴스 티커를 만들겠습니다. 다만 좋은 뉴스를 보려면 뉴스 안에 있는 티커를 클릭해야 합니다."
   },
   {
     id: "ai645",
-    text: "The next update will be in 2 hours."
+    text: "다음 업데이트는 2시간 뒤에 나옵니다."
   },
   {
     id: "ai646",
-    text: "I was gonna say something about how the 9th dimension is just a scam and that we should all just get our news from the 8th dimension"
+    text: "9번째 차원은 그저 사기일 뿐이니 모두 8번째 차원에서 소식을 받아야 한다고 말하려던 참이었습니다"
   },
   {
     id: "ai647",
-    text: "Our hero, Antimatter Dimensions, is in serious financial trouble, and he needs your help to pay the bills. To help him, all he needs is your help to donate some cash to Hevipelle's Positron Fund. All he needs is 5% of your antimatter, and you have to donate 5% of your antimatter to the fund. After you do that, he can keep all the cash he made and go on a spending spree."
+    text: "우리의 영웅 Antimatter Dimensions가 심각한 재정난에 빠져 청구서를 내려면 여러분의 도움이 필요합니다. 그를 도우려면 Hevipelle의 양전자 기금에 현금을 조금 기부해 주세요. 그에게 필요한 것은 여러분의 반물질 5%뿐이며, 기금에 반물질 5%를 기부해야 합니다. 그러면 그는 번 돈을 모두 챙겨 마음껏 써 버릴 수 있습니다."
   },
   {
     id: "ai648",
-    text: "The Landfall of Slabdrill"
+    text: "The Landfall of Slabdrill (Slabdrill의 상륙)"
   },
   {
     id: "ai649",
-    text: "It's just not possible, even if you had infinite matter, you wouldn't have enough energy to create the antimatter. That's why we only have 1.7x the matter to begin with."
+    text: "그건 불가능합니다. 물질이 무한히 많아도 반물질을 만들 에너지는 부족할 테니까요. 그래서 처음부터 물질이 1.7배밖에 없는 겁니다."
   },
   {
     id: "ai650",
-    text: "With this release we are happy to bring you the last update of 2017."
+    text: "이번 출시와 함께 2017년의 마지막 업데이트를 기쁜 마음으로 선보입니다."
   },
   {
     id: "ai651",
-    text: "You have an infinity of antimatter. But what if you could rotate it 1/8th of a revolution?"
+    text: "여러분에게는 무한한 양의 반물질이 있습니다. 하지만 그것을 한 바퀴의 1/8만큼 회전할 수 있다면 어떨까요?"
   },
   {
     id: "ai652",
-    text: "A new update is now available to address some of the recent reports:"
+    text: "최근 제보 몇 가지를 해결하는 새 업데이트를 지금 이용할 수 있습니다:"
   },
   {
     id: "ai653",
-    text: "The name \"antimatter dimensions\" is a play on words with dimensions, two opposite things, like matter and antimatter. \"Dimension\" is another word, with the same meaning."
+    text: "The name \"antimatter dimensions\" is a play on words with dimensions, two opposite things, like matter and antimatter. \"Dimension\" is another word, with the same meaning. (“반물질 차원”이라는 이름은 물질과 반물질처럼 서로 반대되는 두 가지와 차원을 엮은 말장난입니다. “차원”은 같은 뜻을 지닌 또 다른 단어입니다.)"
   },
   {
     id: "ai654",
-    text: "The price of tethering an avatar in the game goes up when you get Infinity dimensions.",
+    text: "게임에서 아바타를 연결하는 비용은 무한 차원을 얻으면 올라갑니다.",
     get unlocked() { return PlayerProgress.eternityUnlocked() || InfinityDimension(1).isUnlocked; }
   },
   {
     id: "ai655",
-    text: "Suffice to say, hevi does not care about the people that he once enslaved.  He is a master manipulator, a master of disguise and a master manipulator of words.  He is an expert at extortion, mind games, disguises, blackmail and he is a master of web.  He is a skilled strategist and organizer, a master of publicity and an expert at sound bites.  He is a master of organization and a master manipulator of people.  He is."
+    text: "말할 것도 없이 Hevi는 자신이 한때 노예로 삼았던 사람들을 신경 쓰지 않습니다. 그는 조종의 달인이자 변장의 달인이며 말로 사람을 조종하는 달인입니다. 갈취, 심리전, 변장, 협박의 전문가이며 웹의 달인입니다. 노련한 전략가이자 조직가이며 홍보의 달인이고 짧고 강렬한 발언의 전문가입니다. 조직의 달인이자 사람을 조종하는 달인입니다. 그는."
   },
   {
     id: "ai656",
-    text: "Just like in the olden days, you could earn an incremental run of progress towards becoming a god amongst the players."
+    text: "옛날처럼 점진적으로 진행해 플레이어들 사이에서 신이 되는 길을 나아갈 수 있습니다."
   },
   {
     id: "ai657",
-    text: "In the beginning, Hevi was alone. Hevi thought about the many things he wished to add to the game."
+    text: "태초에 Hevi는 혼자였습니다. Hevi는 게임에 추가하고 싶은 수많은 것을 생각했습니다."
   },
   {
     id: "ai658",
-    text: "Think about your breathing. Do you feel like you're breathing in or out?"
+    text: "자신의 호흡을 의식해 보세요. 지금 숨을 들이쉬는 것 같나요, 내쉬는 것 같나요?"
   },
   {
     id: "ai659",
-    text: "I just want to say that you should stop with those \"you can reach infinity in e300ms, but it costs e300$  what is e300$ ?\" jokes. Those are pathetic. You should give up and learn the hard way that it's much more efficient to just not play in such a pathetic state. Then you can go back to being a humble programmer and dedicate yourself to being a good person."
+    text: "I just want to say that you should stop with those \"you can reach infinity in e300ms, but it costs e300$  what is e300$ ?\" jokes. Those are pathetic. You should give up and learn the hard way that it's much more efficient to just not play in such a pathetic state. Then you can go back to being a humble programmer and dedicate yourself to being a good person. (“엄청 짧은 시간에 무한에 도달하지만 엄청난 돈이 든다”는 식의 농담은 이제 그만하세요. 한심한 상태로 플레이하지 않는 편이 훨씬 효율적이라는 사실을 힘들게 배우고, 겸손한 프로그래머로 돌아가 좋은 사람이 되는 데 전념하세요.)"
   },
   {
     id: "ai660",
-    text: "As a developer, you'll get regular updates on the progress of Antimatter Dimensions."
+    text: "개발자라면 Antimatter Dimensions의 개발 진행 상황을 정기적으로 전달받게 됩니다."
   },
   {
     id: "ai661",
-    text: "Take a moment to thank the gods of reddit for having saved your bacon."
+    text: "Take a moment to thank the gods of reddit for having saved your bacon. (당신을 위기에서 구해 준 Reddit의 신들에게 잠시 감사하세요.)"
   },
   {
     id: "ai662",
-    text: "Hello everyone, I'm the guy responsible for the big, bad news ticker, and I'm afraid that I'm about to get my own show. It's gonna be called Antimatter Dimensions. It's gonna be like Antime, except with less antimatter, and with worse puns. It's gonna be like Antimatter Dimensions except with worse jokes."
+    text: "Hello everyone, I'm the guy responsible for the big, bad news ticker, and I'm afraid that I'm about to get my own show. It's gonna be called Antimatter Dimensions. It's gonna be like Antime, except with less antimatter, and with worse puns. It's gonna be like Antimatter Dimensions except with worse jokes. (안녕하세요, 저는 이 크고 못된 뉴스 티커의 책임자이며 곧 제 방송을 맡게 될 것 같습니다. 이름은 Antimatter Dimensions입니다. 반물질은 더 적고 말장난은 더 형편없는 Antime 같은 방송, 즉 농담이 더 형편없는 Antimatter Dimensions가 될 겁니다.)"
   },
   {
     id: "ai663",
-    text: "By now you've seen a lot of news tickers featuring Batman or Superman, and you probably guessed which one it was. Everyone loves a good mystery, right? Well, it's your turn to be a part of history by guessing the riddle."
+    text: "지금까지 Batman이나 Superman이 등장하는 뉴스 티커를 많이 봤으니 어느 쪽인지 짐작했을 겁니다. 모두 멋진 수수께끼를 좋아하죠? 이제 수수께끼의 답을 맞혀 역사의 일부가 될 차례입니다."
   },
   {
     id: "ai664",
-    text: "If you are reading this, you probably shouldn't have."
+    text: "이 문장을 읽고 있다면, 아마 읽지 말았어야 할 겁니다."
   },
   {
     id: "ai665",
-    text: "The best part about writing news ticker suggestions is finding out what people think about them after they've seen them."
+    text: "뉴스 티커 문구를 제안할 때 가장 좋은 점은 사람들이 그것을 본 뒤 어떻게 생각하는지 알아보는 것입니다."
   },
   {
     id: "ai666",
-    text: "Are you up to date on the latest trends in science?"
+    text: "최신 과학 동향을 잘 따라가고 계신가요?"
   },
   {
     id: "ai667",
-    text: "In the last hours, the Antimatter created an army of their own. They called themselves the [REDACTED] Army. The primary objective was to push the [REDACTED] back into the Matter dimensions, but they were stopped short when the [REDACTED] Army realized that pushing the [REDACTED] back into the Matter would cause the Antimatter to be drawn towards the [REDACTED] and disintegrate. Despite this, the [REDACTED] Army continued to push towards the [REDACTED] Infinity."
+    text: "지난 몇 시간 동안 반물질은 자체 군대를 만들었습니다. 그들은 스스로를 [REDACTED] 군대라고 불렀습니다. 주된 목표는 [REDACTED]을 물질 차원으로 밀어내는 것이었지만, [REDACTED] 군대는 [REDACTED]을 물질 쪽으로 밀면 반물질이 [REDACTED] 쪽으로 끌려가 소멸한다는 사실을 깨닫고 멈춰 섰습니다. 그런데도 [REDACTED] 군대는 [REDACTED] 무한을 향해 계속 전진했습니다."
   },
   {
     id: "ai668",
-    text: "I'm finally free of the spell this whole thing is based on."
+    text: "드디어 이 모든 것의 바탕이 된 주문에서 벗어났습니다."
   },
   {
     id: "ai669",
-    text: "An anti-world without antimatter is just a world without antimatter because the antimatter is in the anti-world"
+    text: "An anti-world without antimatter is just a world without antimatter because the antimatter is in the anti-world (반물질 없는 안티 세계는 그저 반물질 없는 세계입니다. 반물질은 안티 세계 안에 있기 때문입니다.)"
   },
   {
     id: "ai670",
-    text: "You should still be able to play the game with the cheat code \"1009\" after you beat the game."
+    text: "게임을 클리어한 뒤에도 치트 코드 \"1009\"를 사용해 계속 플레이할 수 있을 겁니다."
   },
   {
     id: "ai671",
-    text: "The next update will be in 5 hours. Hevipelle, the creator of Antimatter Dimensions, is believed to be hiding in 5 hours. In the meantime, he has prepared a new update that will be released 5 hours after this one."
+    text: "The next update will be in 5 hours. Hevipelle, the creator of Antimatter Dimensions, is believed to be hiding in 5 hours. In the meantime, he has prepared a new update that will be released 5 hours after this one. (다음 업데이트는 다섯 시간 뒤에 나옵니다. 제작자 Hevipelle는 다섯 시간 속에 숨어 있다고 하며, 그동안 이번 업데이트보다 다섯 시간 뒤에 출시될 새 업데이트를 준비했습니다.)"
   },
   {
     id: "ai672",
-    text: "A new study has shown that not drinking water is worse than smoking it. People who were exposed to levels of radiation that were 5 times greater than what we are currently exposed to were exposed to higher levels of radiation, and died longer."
+    text: "A new study has shown that not drinking water is worse than smoking it. People who were exposed to levels of radiation that were 5 times greater than what we are currently exposed to were exposed to higher levels of radiation, and died longer. (새 연구에 따르면 물을 마시지 않는 것은 물을 피우는 것보다 나쁩니다. 현재보다 다섯 배 강한 방사선에 노출된 사람들은 더 높은 방사선에 노출됐고 더 오래 죽었습니다.)"
   },
   {
     id: "ai673",
-    text: "The Ninth Dimension is just a lie made to keep the people in bondage to the Matrix. It's an elaborate system that keeps the people in a constant state of captivity, using a series of simple symbols to control their thoughts and emotions."
+    text: "The Ninth Dimension is just a lie made to keep the people in bondage to the Matrix. It's an elaborate system that keeps the people in a constant state of captivity, using a series of simple symbols to control their thoughts and emotions. (아홉 번째 차원은 사람들을 Matrix에 예속시키려고 만든 거짓말일 뿐입니다. 단순한 기호들로 생각과 감정을 통제해 사람들을 계속 가두는 정교한 체계입니다.)"
   },
   {
     id: "ai674",
@@ -6016,15 +5973,15 @@ export const news = [
   },
   {
     id: "ai675",
-    text: "A man was arrested on Monday for allegedly thinking about buying a nine-dimensional cake when he realized he was holding an infinity-point cake."
+    text: "한 남자가 무한 포인트 케이크를 들고 있다는 걸 깨달은 순간 아홉 차원짜리 케이크를 살 생각을 했다는 혐의로 월요일에 체포되었습니다."
   },
   {
     id: "ai676",
-    text: "The Dark Souls 2 Arcade Edition includes the following:"
+    text: "The Dark Souls 2 Arcade Edition includes the following: (Dark Souls Two 아케이드 에디션에는 다음이 포함됩니다:)"
   },
   {
     id: "ai677",
-    text: "Now the deal goes like this: If you spend all your EP, you get a Disclaimer!",
+    text: "거래 방식은 이렇습니다. EP를 전부 쓰면 면책 조항을 받습니다!",
     get unlocked() { return PlayerProgress.eternityUnlocked(); }
   },
   {
@@ -6033,831 +5990,831 @@ export const news = [
   },
   {
     id: "ai679",
-    text: "It's not the size of the universe, it's the quality of your socks."
+    text: "우주의 크기가 아니라 양말의 품질이 중요합니다."
   },
   {
     id: "ai680",
-    text: "advertisement"
+    text: "광고"
   },
   {
     id: "ai681",
-    text: "Man, I wish I never got old news. It's too good to last me any longer."
+    text: "Man, I wish I never got old news. It's too good to last me any longer. (이런, 오래된 뉴스는 받지 않았으면 좋겠어요. 너무 좋아서 더는 오래갈 수가 없네요.)"
   },
   {
     id: "ai682",
-    text: "Sometime during the lifetime of a human being, their blood will be turned into a pale blue if they were to mummify."
+    text: "인간이 일생 중 어느 시점에 미라가 된다면 혈액은 옅은 파란색으로 변할 것입니다."
   },
   {
     id: "ai683",
-    text: "Positrons are a strange little metal that have odd electrical properties. They're commonly found in the form of a roundabout, but they also happen to be, well… positrons."
+    text: "양전자는 이상한 전기적 특성을 지닌 작고 기묘한 금속입니다. 흔히 회전교차로 형태로 발견되지만, 공교롭게도 그건... 양전자이기도 합니다."
   },
   {
     id: "ai684",
-    text: "I am going to have a talk with the thesaurus."
+    text: "유의어 사전과 이야기를 좀 해 봐야겠습니다."
   },
   {
     id: "ai685",
-    text: "A new comic has come out about people's reactions to eating antimatter, and what happens next will blow your mind"
+    text: "A new comic has come out about people's reactions to eating antimatter, and what happens next will blow your mind (반물질을 먹은 사람들의 반응을 다룬 새 만화가 나왔습니다. 다음에 벌어지는 일은 여러분을 깜짝 놀라게 할 겁니다.)"
   },
   {
     id: "ai686",
-    text: "A new series of \"news tickers\" have been created to chronicle the lives of the news ticker characters as they chronicle their news ticker journeys. Each character has a journal entry detailing their life as a news ticker, along with some sort of mini-episode dedicated to them."
+    text: "뉴스 티커 등장인물들이 자신의 뉴스 티커 여정을 기록해 가는 삶을 담은 새로운 \"뉴스 티커\" 시리즈가 만들어졌습니다. 각 등장인물에게는 뉴스 티커로서의 삶을 자세히 적은 일지와 그들을 위한 일종의 미니 에피소드가 있습니다."
   },
   {
     id: "ai687",
-    text: "For all your puzzle building needs, we've got a brand new 5-part series on building big crunches! Learn how to crack the most complex crunches the pros know not! Part 1: Basic, Part 2: Advanced, Part 3: Overflow, and Part 4: Finishing the Finishing Move."
+    text: "For all your puzzle building needs, we've got a brand new 5-part series on building big crunches! Learn how to crack the most complex crunches the pros know not! Part 1: Basic, Part 2: Advanced, Part 3: Overflow, and Part 4: Finishing the Finishing Move. (퍼즐 제작자를 위한 빅 크런치 만들기 다섯 부작입니다! 전문가도 모르는 가장 복잡한 크런치 해법을 배우세요. 첫 편은 기초, 둘째는 고급, 셋째는 오버플로, 넷째는 마무리 기술의 마무리입니다.)"
   },
   {
     id: "ai688",
-    text: "As a longtime fan of the show, I can say that this is one of the best seasons yet. It's not a season to be sniffed at, it's a season to be experienced. Season 1 was a bit long for what it was, but Season 2 has now surpassed that in length, in a good way. Even though it's a bit of a wait, Season 3 is already well under way, and I look forward to seeing how it goes."
+    text: "이 작품의 오랜 팬으로서 이번 시즌은 지금까지 나온 최고의 시즌 중 하나라고 말할 수 있습니다. 가볍게 넘길 시즌이 아니라 직접 경험해야 할 시즌입니다. 시즌 1은 내용에 비해 조금 길었지만, 시즌 2는 좋은 의미로 그 길이를 넘어섰습니다. 조금 기다려야 하긴 해도 시즌 3은 이미 순조롭게 제작 중이며, 어떻게 전개될지 기대됩니다."
   },
   {
     id: "ai689",
-    text: "The word \"antimatter\" is often misused, to describe an object that is made up of antimatter, but is otherwise indistinguishable from normal matter. It is also sometimes used to describe an object made up of antimatter, but clearly indistinguishable from ordinary matter. After all, an antimatter-shaped object is easily distinguishable from a normal-shaped one. Case in point: an antimatter-shaped cake is a regular cake, but the entire bottom half is made up of normal matter"
+    text: "\"반물질\"이라는 말은 반물질로 이루어졌지만 그 밖에는 일반 물질과 구별되지 않는 물체를 설명하는 데 자주 잘못 쓰입니다. 반물질로 이루어졌지만 평범한 물질과 명백히 구별되지 않는 물체를 뜻할 때도 있습니다. 결국 반물질 모양의 물체는 일반적인 모양의 물체와 쉽게 구별됩니다. 예를 들어 반물질 모양의 케이크는 평범한 케이크이지만 아래쪽 절반 전체가 일반 물질로 이루어져 있습니다."
   },
   {
     id: "ai690",
-    text: "In a new story, Apple's new \"disruptive\" app is linked to the spread of the dreaded \"Anti-Word\" virus. Anti-Word viruses are known to cause paralysis and ultimately death, but the power of the virus has sparked a new era of anti-banning, which will hopefully eradicate the threat."
+    text: "새 기사에 따르면 Apple의 새로운 \"파괴적\" 앱이 무시무시한 \"Anti-Word\" 바이러스의 확산과 관련돼 있습니다. Anti-Word 바이러스는 마비를 일으키고 끝내 죽음에 이르게 하는 것으로 알려졌지만, 바이러스의 힘은 안티 금지의 새 시대를 열었으며 이것이 위협을 근절하기를 바랍니다."
   },
   {
     id: "ai691",
-    text: "I'm just a normal person trying to make a news ticker suggestion"
+    text: "저는 그저 뉴스 티커 문구를 제안하려는 평범한 사람입니다"
   },
   {
     id: "ai692",
-    text: "A new experimental protocol has been developed to 'erase' all personal information on the web, including your name, address, and phone number, in a highly secure and highly controllable way."
+    text: "웹상의 이름, 주소, 전화번호를 비롯한 모든 개인 정보를 매우 안전하고 통제 가능한 방식으로 '삭제'하는 새로운 실험적 프로토콜이 개발되었습니다."
   },
   {
     id: "ai693",
-    text: "You can't hide in plain sight. You can't hide in plain sight. You can't hide in plain sight. You can't hide in plain sight. You can't hide in plain sight. You can't hide in plain sight. You can't hide in plain sight. Your hide in plain sight."
+    text: "You can't hide in plain sight. You can't hide in plain sight. You can't hide in plain sight. You can't hide in plain sight. You can't hide in plain sight. You can't hide in plain sight. You can't hide in plain sight. Your hide in plain sight. (“뻔히 보이는 곳에는 숨을 수 없다”를 계속 반복하다 마지막 문장을 일부러 틀립니다.)"
   },
   {
     id: "ai694",
-    text: "In the Antimatter Universe, Hevipelle is the Prince of Antimatter, although he does have an Antimatter Diplomatic Immunity, so he's much more dangerous than you might think."
+    text: "반물질 우주에서 Hevipelle은 반물질의 왕자이며, 반물질 외교 면책특권까지 갖고 있으므로 생각보다 훨씬 위험합니다."
   },
   {
     id: "ai695",
-    text: "Why do we play this? Just to have fun?"
+    text: "우리는 왜 이걸 플레이할까요? 그저 재미를 위해서일까요?"
   },
   {
     id: "ai696",
-    text: "I am Thinkcraft, Lord of the Flies"
+    text: "I am Thinkcraft, Lord of the Flies (나는 파리 대왕 Thinkcraft다.)"
   },
   {
     id: "ai697",
-    text: "The entire story of how and why the world ended is contained in the first 5 E's of the English alphabet."
+    text: "The entire story of how and why the world ended is contained in the first 5 E's of the English alphabet. (세계가 어떻게, 왜 끝났는지에 관한 모든 이야기는 영어 알파벳의 첫 다섯 E 안에 담겨 있습니다.)"
   },
   {
     id: "ai698",
-    text: "What do you call a cloudburst? A mini-explosion!"
+    text: "What do you call a cloudburst? A mini-explosion! (갑작스러운 폭우를 뭐라고 할까요? 작은 폭발입니다!)"
   },
   {
     id: "ai699",
-    text: "T-shirt made from the DNA of a perfectly animated dog"
+    text: "완벽하게 애니메이션화된 개의 DNA로 만든 티셔츠"
   },
   {
     id: "ai700",
-    text: "Since the start of this game, everyone has 0 IP and has lost."
+    text: "이 게임이 시작된 이래 모두가 IP 0을 가지고 패배했습니다."
   },
   {
     id: "ai701",
-    text: "You must have a very special kind of karma to be able to read this..."
+    text: "이 글을 읽을 수 있다니 아주 특별한 종류의 카르마를 지닌 게 틀림없습니다..."
   },
   {
     id: "ai702",
-    text: "The words \"you've been in coma for 5 hours\" are either lies or is the truth"
+    text: "The words \"you've been in coma for 5 hours\" are either lies or is the truth (당신은 다섯 시간 동안 혼수상태였다는 말은 거짓이거나 진실입니다.)"
   },
   {
     id: "ai703",
-    text: "You know, I don't really care much for conspiracy theories. They're not very interesting to me. But what do you know about 9th dimensions? That they exist, they're powerful, and they're trying to stop us from using them? That's pretty interesting... wait no, they're not. They're just saying that because they can, they'll. That's not how it works at all. I'm not stupid, I'm not crazy, I know what's best. I"
+    text: "있잖아요, 저는 음모론에 별로 관심이 없습니다. 제게는 그다지 흥미롭지 않거든요. 하지만 9번째 차원에 관해서는 뭘 알고 있나요? 그것들이 존재하고 강력하며, 우리가 그것을 사용하지 못하게 하려 한다고요? 꽤 흥미롭군요... 잠깐, 아니네요. 그들은 그럴 수 있으니까 그러겠다고 말할 뿐입니다. 전혀 그런 식으로 돌아가는 게 아니에요. 저는 멍청하지도 미치지도 않았고 무엇이 최선인지 압니다. 나는"
   },
   {
     id: "ai704",
-    text: "The only difference between now and then is time."
+    text: "지금과 그때의 유일한 차이는 시간입니다."
   },
   {
     id: "ai705",
-    text: "\"Imma be the first man to sit on the moon, and be the last man on the moon"
+    text: "\"Imma be the first man to sit on the moon, and be the last man on the moon (나는 달에 앉은 최초의 사람이자 달에 남은 마지막 사람이 되겠어.)"
   },
   {
     id: "ai706",
-    text: "The new companion app for Terraria has just been revealed!"
+    text: "Terraria의 새로운 동반 앱이 방금 공개됐습니다!"
   },
   {
     id: "ai707",
-    text: "Hevipelle: what's the big deal?"
+    text: "Hevipelle: 그게 뭐 그리 대단한 일인가요?"
   },
   {
     id: "ai708",
-    text: "I've been playing this game for over a year now and I've only ever seen 2 boss fights. The first was a Hydra that was after your 9th Dimension, the second a giant crater with Anti-people inside. Both of those fights sucked and I'm not even sure if I could replay the last one."
+    text: "이 게임을 한 해 넘게 플레이했지만 보스전은 2번밖에 보지 못했습니다. 첫 번째는 당신의 9번째 차원을 노리는 히드라였고, 두 번째는 안티 사람들이 들어 있는 거대한 분화구였습니다. 두 전투 모두 형편없었고 마지막 전투를 다시 할 수 있을지도 모르겠습니다."
   },
   {
     id: "ai709",
-    text: "There you have it, the ultimate feature of party games - the single player campaign."
+    text: "바로 이것이 파티 게임의 궁극적인 기능, 싱글 플레이어 캠페인입니다."
   },
   {
     id: "ai710",
-    text: "A new game called Antimatter Dimensions is available for free, and has been rated A by the Knesset. Can you beat it? You bet."
+    text: "Antimatter Dimensions라는 새 게임을 무료로 이용할 수 있으며, 크네세트에서 A 등급을 받았습니다. 이길 수 있냐고요? 물론이죠."
   },
   {
     id: "ai711",
-    get text() { return `Tired of the ${format(Number.MAX_VALUE, 2)} AD update? Don't worry, there are a variety of ways to get rid of that annoying ad!`; }
+    get text() { return `${format(Number.MAX_VALUE, 2)} AD 업데이트에 질렸나요? 걱정 마세요. 그 성가신 광고를 없앨 방법은 다양합니다!`; }
   },
   {
     id: "ai712",
-    text: "I'm a time traveler. I've been to the year 0, I think. But I haven't been to the year 1!"
+    text: "저는 시간 여행자입니다. 아마 0년에는 가 봤을 겁니다. 하지만 1년에는 가 본 적이 없습니다!"
   },
   {
     id: "ai713",
-    text: "Having trouble loading images? Try turning them off."
+    text: "이미지를 불러오는 데 문제가 있나요? 이미지를 꺼 보세요."
   },
   {
     id: "ai714",
-    text: "It's only natural. You wouldn't expect to see this in the news ticker but trust me, you will."
+    text: "당연한 일입니다. 뉴스 티커에서 이걸 보게 될 거라고는 생각하지 않겠지만, 절 믿으세요. 보게 될 겁니다."
   },
   {
     id: "ai715",
-    text: "Discovery of the 10th Dimension was announced on August 1st, 2025."
+    text: "10차원의 발견이 2025년 8월 1일에 발표되었습니다."
   },
   {
     id: "ai716",
-    text: "Greetings, welcome to the latest edition of Antimatter Dimensions!"
+    text: "안녕하세요. 최신판 반물질 차원에 오신 것을 환영합니다!"
   },
   {
     id: "ai717",
-    get text() { return `I'd say our odds of seeing a seventh dimension are about 1 in ${format(Number.MAX_VALUE, 2)}`; }
+    get text() { return `일곱 번째 차원을 볼 확률은 약 ${format(Number.MAX_VALUE, 2)}분의 1이라고 생각합니다`; }
   },
   {
     id: "ai718",
-    text: "The seventh dimension is just a scam by the way"
+    text: "참고로 일곱 번째 차원은 사기일 뿐입니다"
   },
   {
     id: "ai719",
-    text: "Nihilism is the opposite of joy. It's a drug. It makes you happy. It's a feeling. But it also has a cost. Nihilism is a deadly drug. If you take it, you can die of lack of oxygen."
+    text: "허무주의는 기쁨의 반대입니다. 그것은 약물입니다. 당신을 행복하게 만듭니다. 하나의 감정이죠. 하지만 대가도 따릅니다. 허무주의는 치명적인 약물입니다. 복용하면 산소 부족으로 죽을 수 있습니다."
   },
   {
     id: "ai720",
-    text: "What if I told you that there's a news ticker with the exact same name but with a different meaning?"
+    text: "이름은 완전히 같지만 뜻은 다른 뉴스 티커가 있다고 말한다면 어떨까요?"
   },
   {
     id: "ai721",
-    text: "I'm not sure if this is already a thing or not, but I've been getting a lot of suggestions for a news ticker that goes something like this:"
+    text: "이미 있는지는 잘 모르겠지만, 다음과 같은 내용의 뉴스 티커를 제안하는 사람이 많았습니다:"
   },
   {
     id: "ai722",
-    text: "If you're reading this, your news ticker is on."
+    text: "이 글을 읽고 있다면 뉴스 티커가 켜져 있는 것입니다."
   },
   {
     id: "ai723",
-    text: "The number of dimensions in a 6th dimension is the sum of all the dimensions in a 7th dimension, so 6ths of a 7th dimension are 6ths of a 6th dimension."
+    text: "6번째 차원에 있는 차원의 수는 7번째 차원에 있는 모든 차원의 합이므로, 7번째 차원의 6분의 일들은 6번째 차원의 6분의 일들입니다."
   },
   {
     id: "ai724",
-    text: "Discovery of the 9th Dimension will be discussed at the 9th Dimension Fanart Competition!"
+    text: "9차원의 발견은 9차원 팬아트 대회에서 논의될 예정입니다!"
   },
   {
     id: "ai725",
-    text: "A new era has come and gone. There is no way to know for sure, but hope for the best."
+    text: "새 시대가 왔다가 지나갔습니다. 확실히 알 방법은 없지만 최선의 결과를 기대하세요."
   },
   {
     id: "ai726",
-    text: "Did you know the word 'antimatter' is in the dictionary right now?"
+    text: "지금 사전에 '반물질'이라는 단어가 실려 있다는 사실을 알고 계셨나요?"
   },
   {
     id: "ai727",
-    text: "We have a limited number of physical rewards for you to choose from!"
+    text: "선택할 수 있는 실물 보상은 수량이 한정되어 있습니다!"
   },
   {
     id: "ai728",
-    text: "No, I'm not lying. I'm telling the truth."
+    text: "아니요, 거짓말이 아닙니다. 진실을 말하고 있습니다."
   },
   {
     id: "ai729",
-    text: "The problem with the term \"antimatter dimensions\" is that it contains all three letters of the alphabet, and no one knows what it even means. In fact, there is no word that perfectly captures what the word \"antimatter dimensions\" is: antimatter. But what exactly is an antimatter? It sounds like a normal dimension but it isn't. It may even be called antimatter dimensions, but it isn't."
+    text: "\"반물질 차원\"이라는 용어의 문제는 알파벳 세 글자를 모두 담고 있으면서도 그 뜻을 아무도 모른다는 점입니다. 사실 \"반물질 차원\"이 무엇인지 완벽히 담아내는 단어는 없습니다. 바로 반물질입니다. 하지만 반물질이란 정확히 무엇일까요? 평범한 차원처럼 들리지만 그렇지 않습니다. 반물질 차원이라고 불릴 수도 있지만, 그것도 아닙니다."
   },
   {
     id: "ai730",
-    text: "It is said that if you go to Hell, you get PEGI-3."
+    text: "지옥에 가면 PEGI-3 등급을 받는다고 합니다."
   },
   {
     id: "ai731",
-    text: "This game is just a scam to trick people into buying worthless paperclips without any real purpose. It's impossible without an infinite number of infinite paperclips, and even then it's very hard. I managed to get it to work without an infinite number of paperclips, but I haven't seen it work without infinite paperclips."
+    text: "이 게임은 아무런 진짜 목적도 없는 쓸모없는 클립을 사도록 사람들을 속이는 사기일 뿐입니다. 무한히 많은 무한 클립이 없으면 불가능하고, 있어도 아주 어렵습니다. 무한히 많은 클립 없이 작동시키는 데는 성공했지만, 무한 클립 없이 작동하는 모습은 보지 못했습니다."
   },
   {
     id: "ai732",
-    text: "\"It was an anti-matter\" - Anti-Eddie The Echidna"
+    text: "\"It was an anti-matter\" - Anti-Eddie The Echidna (“그건 안티-문제였어” - 가시두더지 Anti-Eddie. matter의 물질/문제 중의적 말장난입니다.)"
   },
   {
     id: "ai733",
-    text: "T-bone steak: burgers and fries with a side of bone-in ribeye"
+    text: "T-bone steak: burgers and fries with a side of bone-in ribeye (티본스테이크: 햄버거와 감자튀김에 뼈 붙은 립아이를 곁들인 것.)"
   },
   {
     id: "ai734",
-    text: "A person claims to be a god, but instead of creating more gods, they destroy all of them. They later claim to be a god again, but have yet to create a god of any other god. Is this a god-worshiping cult? Or a god-desecrating cult?"
+    text: "어떤 사람이 자신을 신이라고 주장하지만, 더 많은 신을 만드는 대신 모든 신을 파괴합니다. 나중에 다시 신이라고 주장하지만 다른 신의 신은 아직 만들지 못했습니다. 이것은 신을 숭배하는 집단인가요, 아니면 신을 모독하는 집단인가요?"
   },
   {
     id: "ai735",
-    get text() { return `Antimatter is absolutely and totally rare. Of the ${format(Number.MAX_VALUE, 2)} known cases of antimatter creation, 99.9999% of them have negative e's, which means that 99.9999% of the cases will produce negative e's.`; }
+    get text() { return `반물질은 정말로 완전히 희귀합니다. 알려진 반물질 생성 사례 ${format(Number.MAX_VALUE, 2)}건 중 99.9999%에는 음수 e가 있으며, 이는 사례의 99.9999%에서 음수 e가 생성된다는 뜻입니다.`; }
   },
   {
     id: "ai736",
-    get text() { return `It's the year ${format(Number.MAX_VALUE, 2)}, Hevi has just unlocked the 9th dimension, and the world has fallen into chaos and discord due to the Anti-Hevi revolution.`; }
+    get text() { return `지금은 ${format(Number.MAX_VALUE, 2)}년입니다. Hevi가 방금 9차원을 잠금 해제했고, 안티 Hevi 혁명 때문에 세상은 혼돈과 불화에 빠졌습니다.`; }
   },
   {
     id: "ai737",
-    text: "The war for New Antimatter has raged on for eons, but one faction has stood firm: the loyalists of the 9th Dimension. They've made a pact with the Anti-Zulu Empire, pledging their obedience to Anti-Antimatter, the Anti-Slab. The Zulu people were once part of the Anti-Slab, but fell prey to the matter once again. As the Zulu people are nomadic, they have no civilization."
+    text: "새로운 반물질을 둘러싼 전쟁이 영겁 동안 이어졌지만 한 세력만은 굳건히 버텼습니다. 바로 9번째 차원의 충성파입니다. 이들은 안티줄루 제국과 협정을 맺고 안티슬랩인 안티반물질에 복종할 것을 맹세했습니다. 줄루족은 한때 안티슬랩의 일부였지만 다시 물질의 먹잇감이 됐습니다. 줄루족은 유목민이어서 문명이 없습니다."
   },
   {
     id: "ai738",
-    text: "This is an open-source, cross-platform, binary-based game development environment for the PC and Mac. It provides a robust, cross-platform development environment for the development of games, and additionally provides a framework for implementing games."
+    text: "이것은 PC와 Mac용 오픈 소스 크로스 플랫폼 바이너리 기반 게임 개발 환경입니다. 게임을 개발할 수 있는 강력한 크로스 플랫폼 환경과 게임 구현용 프레임워크를 제공합니다."
   },
   {
     id: "ai739",
-    text: "Ruki you have no idea how much I appreciate your huge brainpower, you are now my favorite programming genius!"
+    text: "Ruki, 당신의 엄청난 지능에 제가 얼마나 감사하는지 모를 겁니다. 이제 당신은 제가 가장 좋아하는 프로그래밍 천재입니다!"
   },
   {
     id: "ai740",
-    text: "By now you've probably heard of the \"9th Dimension\", it's an imaginary realm created by the 9th Dimension, and according to no known laws of reality, it exists. It's also the name of a popular video game, and it's been linked to a string of unsolved killings."
+    text: "이제는 \"9번째 차원\"에 관해 들어 봤을 겁니다. 9번째 차원이 만든 허구의 영역이며, 알려진 어떤 현실 법칙에도 따르지 않은 채 존재합니다. 인기 비디오 게임의 이름이기도 하고, 일련의 미해결 살인 사건과도 연관돼 있습니다."
   },
   {
     id: "ai741",
-    text: "Discovery of the D5th Dimension is celebrated every year on December 25th, just like Doomsday. The reason why D5 is kept secret is because no one can remember exactly what it does. What we do know is that it's there, and it's very dangerous. People have died because they didn't know what the D5th Dimension was, and it's very powerful."
+    text: "D5번째 차원의 발견은 종말의 날처럼 매년 12월 25일에 기념됩니다. D5가 비밀로 유지되는 이유는 그것이 정확히 무슨 일을 하는지 아무도 기억하지 못하기 때문입니다. 확실히 아는 것은 그것이 존재하고 매우 위험하다는 점입니다. D5번째 차원이 무엇인지 몰라 죽은 사람도 있으며, 그것은 아주 강력합니다."
   },
   {
     id: "ai742",
-    text: "Antimatter is a common substance found in nature and is used in a wide variety of applications, from communication to currency to the production of antimatter, to name a few. Antimatter is also an extremely scarce resource and many people live on very tiny amounts of it."
+    text: "반물질은 자연에서 발견되는 흔한 물질이며 통신과 통화, 반물질 생산 등 아주 다양한 용도로 쓰입니다. 반물질은 동시에 극도로 희소한 자원이어서 많은 사람이 아주 적은 양에 의존해 살아갑니다."
   },
   {
     id: "ai743",
-    text: "If you woke up one morning and your eyes were made of matter, would you still be looking at this?"
+    text: "어느 날 아침 눈을 떴는데 두 눈이 물질로 되어 있다면, 그래도 이것을 보고 있을까요?"
   },
   {
     id: "ai744",
-    text: "If you look very closely, you can see a single tear running down my sister's cheek. It was a tear for me, for she was crying for the first time, and I couldn't help it. I can't even remember the last time I cried."
+    text: "아주 자세히 보면 여동생의 뺨을 타고 흐르는 눈물 한 방울을 볼 수 있습니다. 그 눈물은 나를 위한 것이었습니다. 여동생이 처음으로 울고 있었고, 나도 어쩔 수 없었습니다. 내가 마지막으로 울었던 때조차 기억나지 않습니다."
   },
   {
     id: "ai745",
-    text: "Rationally, I would put my money on the statement that there's no such thing as too much antimatter. I mean, even a tiny bit of it is just too much. And that's just by accident."
+    text: "이성적으로 생각하면 반물질은 아무리 많아도 지나치지 않다는 말에 돈을 걸겠습니다. 아주 조금만 있어도 이미 지나치긴 하지만요. 그것도 그저 우연일 뿐입니다."
   },
   {
     id: "ai746",
-    text: "The book of archeology is upon us! With over 5 hours of content, it's gonna be a long one! —DIO"
+    text: "The book of archeology is upon us! With over 5 hours of content, it's gonna be a long one! —DIO (고고학의 책이 우리 앞에 왔다! 내용이 다섯 시간 넘게 이어지니 아주 길겠군! —DIO)"
   },
   {
     id: "ai747",
-    text: "Sometime between the ages of 12 and 20, Jackson got a phone call. A mad scientist was on the line. Jackson picked up the phone and the mad man said, \"Jackson, I just got a new message. It says 'Madman' in big, bold letters.\""
+    text: "12살에서 20살 사이 어느 날 Jackson에게 전화가 왔습니다. 미친 과학자가 전화를 걸어왔습니다. Jackson이 전화를 받자 그 미치광이는 말했습니다. \"Jackson, 방금 새 메시지를 받았어. 크고 굵은 글씨로 'Madman'이라고 쓰여 있어.\""
   },
   {
     id: "ai748",
-    get text() { return `Somebody: "What do you mean, 4 is more than 2?" Me: "Well, I mean, 4 is ${format(Number.MAX_VALUE, 2)}, 2 is 2, etc..."`; }
+    get text() { return `Somebody: "What do you mean, 4 is more than 2?" Me: "Well, I mean, 4 is ${format(Number.MAX_VALUE, 2)}, 2 is 2, etc..." (누군가: "넷이 둘보다 크다는 게 무슨 뜻이야?" 나: "그러니까, 넷은 아주 큰 수고 둘은 둘이라는 뜻이지...")`; }
   },
   {
     id: "ai749",
-    text: "The only thing that matters is yourself."
+    text: "중요한 것은 오직 자기 자신뿐입니다."
   },
   {
     id: "ai750",
-    text: "Reality is coming. You can get a sneak peek by subscribing to the \"T-series\" feed."
+    text: "Reality is coming. You can get a sneak peek by subscribing to the \"T-series\" feed. (현실이 다가옵니다. “T-series” 피드를 구독하면 미리 엿볼 수 있습니다.)"
   },
   {
     id: "ai751",
-    text: "The biggest difference between me and Antimatter Dimensions, at the moment, is the weather. I can survive the rain, I can withstand the scorching sun, and I can even deal with the big crunch. But what if the weather was antimatter and the antimatter was raining meteorite on us? What would be your response? Would it be the equivalent of a meteorite hitting the ground? I don't think so. The meteorite would probably just vaporize the earth."
+    text: "지금 저와 Antimatter Dimensions의 가장 큰 차이는 날씨입니다. 저는 비를 견디고 타오르는 햇볕도 버티며 빅 크런치에도 대처할 수 있습니다. 하지만 날씨가 반물질이고 그 반물질이 우리에게 운석을 쏟아붓는다면 어떨까요? 어떻게 반응하시겠습니까? 운석이 땅에 충돌하는 것과 같을까요? 그렇지는 않을 겁니다. 운석이 지구를 그냥 증발시켜 버리겠죠."
   },
   {
     id: "ai752",
-    text: "A new extension is now available that will let you watch replicanti grow!",
+    text: "복제자가 자라는 모습을 볼 수 있는 새로운 확장 기능이 출시되었습니다!",
     get unlocked() { return PlayerProgress.replicantiUnlocked(); }
   },
   {
     id: "ai753",
-    text: "What if you could flip a coin to determine if it was a Johnson or a Stein?"
+    text: "What if you could flip a coin to determine if it was a Johnson or a Stein? (동전을 던져 Johnson인지 Stein인지 정할 수 있다면 어떨까요?)"
   },
   {
     id: "ai754",
-    text: "I am Yhmai, King of Kings!"
+    text: "I am Yhmai, King of Kings! (나는 왕중왕 Yhmai다!)"
   },
   {
     id: "ai755",
-    text: "This is a friendly suggestion that if you take prescription stimulants and you forget to take them till 11pm, it's probably best not to take them at 11pm."
+    text: "처방받은 각성제를 밤 11시까지 복용하는 것을 잊었다면 밤 11시에는 복용하지 않는 편이 좋다는 친절한 제안입니다."
   },
   {
     id: "ai756",
-    text: "A new theory says that antimatter does not exist beyond our simulation."
+    text: "새로운 이론에 따르면 반물질은 우리의 시뮬레이션 너머에는 존재하지 않습니다."
   },
   {
     id: "ai757",
-    text: "Thing is, I can count on one hand the number of times I've written that I can count on one hand the number of times I've written that I can count on one hand"
+    text: "Thing is, I can count on one hand the number of times I've written that I can count on one hand the number of times I've written that I can count on one hand (문제는 내가 한 손으로 셀 수 있다고 쓴 횟수를 한 손으로 셀 수 있다고 쓴 횟수를 한 손으로 셀 수 있다는 겁니다.)"
   },
   {
     id: "ai758",
-    text: "The stakes are always high when it comes to Antimatter Dimensions. But what about Dimensions made entirely of antimatter? We don't know, but we'll never know..."
+    text: "Antimatter Dimensions가 걸린 일에는 언제나 위험 부담이 큽니다. 하지만 완전히 반물질로 이루어진 차원은 어떨까요? 알 수 없고, 영원히 알지 못할 겁니다..."
   },
   {
     id: "ai759",
-    text: "It's the third hour. Hevipelle is trying to release an update, but it'll take an eternity because Hevipelle himself releases his update every time he runs out of e's. Today, however, he released an incremental game called Antimatter Dimensions. It's basically a combination of Matter Dimensions and Dimensions Dimensions Dimensions, except with more emotes. The graphics are basically the same, but the message is completely different. The only difference is that the dimensions have infinity e's"
+    text: "세 번째 시간이 됐습니다. Hevipelle은 업데이트를 출시하려 하지만, e가 떨어질 때마다 직접 업데이트를 내놓기 때문에 영원만큼 오래 걸릴 겁니다. 하지만 오늘은 Antimatter Dimensions라는 방치형 게임을 출시했습니다. 이모트가 더 많다는 점만 빼면 기본적으로 Matter Dimensions와 Dimensions Dimensions Dimensions를 합친 게임입니다. 그래픽은 거의 같지만 전달하는 메시지는 완전히 다릅니다. 유일한 차이는 차원에 무한한 e가 있다는 것입니다."
   },
   {
     id: "ai760",
-    text: "With strong opposition, the third phase of the Antimatter Dimensions project has been cancelled. The project has been cancelled because there was too much work involved."
+    text: "거센 반대에 부딪혀 반물질 차원 프로젝트의 세 번째 단계가 취소되었습니다. 작업량이 너무 많았기 때문에 프로젝트가 취소되었습니다."
   },
   {
     id: "ai761",
-    text: "This is the place where all bad ideas originate."
+    text: "모든 나쁜 아이디어가 탄생하는 곳입니다."
   },
   {
     id: "ai762",
-    text: "Hey check this out! We have some good news: it's raining antimatter!"
+    text: "이것 좀 보세요! 좋은 소식이 있습니다. 반물질 비가 내리고 있어요!"
   },
   {
     id: "ai763",
-    text: "The first dimension is the last, it's the furthest thing from the earth and it's the one where all the problems, all the negative emotions, all the negative ideas go."
+    text: "첫 번째 차원은 마지막 차원이며, 지구에서 가장 멀리 떨어진 곳이자 모든 문제와 부정적인 감정, 부정적인 생각이 향하는 곳입니다."
   },
   {
     id: "ai764",
-    text: "I was gonna do a news ticker that just covered all the bases, but I think that would make it too OP."
+    text: "모든 경우를 다루는 뉴스 티커를 만들려고 했지만, 그러면 너무 OP가 될 것 같습니다."
   },
   {
     id: "ai765",
-    text: "You are using the wrong version! The final release of AD will have 9 dimensions!"
+    text: "잘못된 버전을 사용하고 있습니다! AD 최종판에는 차원이 9개 생길 겁니다!"
   },
   {
     id: "ai766",
-    text: "The word 'antimatter' makes me cringe. So do a bunch of other words. In fact, almost all the words in the English language. But not 'antimatter'. That's why I hate 'anti-' so much."
+    text: "The word 'antimatter' makes me cringe. So do a bunch of other words. In fact, almost all the words in the English language. But not 'antimatter'. That's why I hate 'anti-' so much. ('antimatter'라는 말은 나를 오글거리게 합니다. 다른 수많은 단어도, 사실 거의 모든 영어 단어도 그렇습니다. 하지만 'antimatter'는 아니죠. 그래서 나는 'anti-'를 몹시 싫어합니다.)"
   },
   {
     id: "ai767",
-    text: "This is the last episode of Antimatter Dimensions, the game about partying antimatter dimensions with your friends, the best part about it is that you don't have to be a developer to enjoy it."
+    text: "친구들과 반물질 차원 파티를 벌이는 게임 Antimatter Dimensions의 마지막 에피소드입니다. 가장 좋은 점은 개발자가 아니어도 즐길 수 있다는 것입니다."
   },
   {
     id: "ai768",
-    text: "I was going to put a news ticker but I think it would be too much work and also I don't think it's very funny."
+    text: "뉴스 티커를 넣으려고 했지만 일이 너무 많아질 것 같고, 별로 재미있을 것 같지도 않습니다."
   },
   {
     id: "ai769",
-    text: "Time to go to sleep?"
+    text: "이제 잘 시간인가요?"
   },
   {
     id: "ai770",
-    text: "A small, yet important, message has just been sent out to all players:"
+    text: "작지만 중요한 메시지가 방금 모든 플레이어에게 전송되었습니다:"
   },
   {
     id: "ai771",
-    text: "\"I don't know about you, but my favorite number is 2048\" - people who don't know what 2048 is"
+    text: "\"I don't know about you, but my favorite number is 2048\" - people who don't know what 2048 is (“남들은 모르겠지만 내가 가장 좋아하는 숫자는 이천사십팔이야.” - 이천사십팔이 뭔지 모르는 사람들)"
   },
   {
     id: "ai772",
-    text: "A new group is trying to make money off of antimatter, and they're selling t-shirts that say \"YOU THOUGHT THIS WOULD BE A PIECE OF NEWS, BUT IT WAS ME, DIO!\" They've got a lot of money, and they're selling it very poorly. Do they have a website? I don't know, but they're trying."
+    text: "A new group is trying to make money off of antimatter, and they're selling t-shirts that say \"YOU THOUGHT THIS WOULD BE A PIECE OF NEWS, BUT IT WAS ME, DIO!\" They've got a lot of money, and they're selling it very poorly. Do they have a website? I don't know, but they're trying. (새 단체가 반물질로 돈을 벌려고 “뉴스 한 편인 줄 알았겠지만, 나 DIO였다!”라고 적힌 티셔츠를 팔고 있습니다. 돈은 많지만 판매는 형편없습니다. 웹사이트가 있는지는 모르겠지만 노력은 하고 있습니다.)"
   },
   {
     id: "ai773",
-    text: "Im gonna leave my milk here for a couple seconds. (milk is displayed for a few seconds longer)"
+    text: "Im gonna leave my milk here for a couple seconds. (milk is displayed for a few seconds longer) (우유를 여기 잠깐 두겠습니다. 실제로는 우유가 몇 초 더 표시됩니다.)"
   },
   {
     id: "ai774",
-    text: "I'm a time traveler. I can travel back in time to stop you from doing what I'm about to do."
+    text: "저는 시간 여행자입니다. 제가 지금 하려는 일을 당신이 하지 못하도록 과거로 갈 수 있습니다."
   },
   {
     id: "ai775",
-    text: "I mean, look at that! I got this one! It's the one you want! Buy the game now!"
+    text: "저것 좀 보세요! 제가 이걸 얻었습니다! 당신이 원하던 바로 그것입니다! 지금 게임을 구매하세요!"
   },
   {
     id: "ai776",
-    text: "You can't sleep when there's war in the distance. You wake up with a start, running for your life. You hear cannon fire, running for your life. Then there's the sound of an engine, a roar that's deafening, and you hear the crunch. It's the end of the world as you know it. The world isn't being saved by a mountain of antimatter. It isn't. It is you, running for your life, hoping the world doesn't"
+    text: "멀리서 전쟁이 벌어지면 잠들 수 없습니다. 화들짝 깨어나 목숨을 걸고 달립니다. 포성이 들리고 계속 목숨을 걸고 달립니다. 그러다 엔진 소리와 귀를 먹먹하게 하는 굉음이 들리고, 크런치 소리를 듣습니다. 당신이 알던 세상의 종말입니다. 반물질 산더미가 세상을 구하는 게 아닙니다. 그렇지 않습니다. 세상이 그러지 않기를 바라며 목숨을 걸고 달리는 것은 바로 당신입니다"
   },
   {
     id: "ai777",
-    text: "Why is it called a 'Reality' Award if it doesn't exist?"
+    text: "Why is it called a 'Reality' Award if it doesn't exist? (존재하지도 않는데 왜 '현실'상이라고 부를까요?)"
   },
   {
     id: "ai778",
-    text: "In the beginning, there was nothing. Then the Creator made two, and called the third 'Intelligent Being'"
+    text: "In the beginning, there was nothing. Then the Creator made two, and called the third 'Intelligent Being' (태초에는 아무것도 없었습니다. 창조자는 둘을 만든 뒤 세 번째 것을 '지적 존재'라 불렀습니다.)"
   },
   {
     id: "ai779",
-    text: "This is your chance to get a secret achievement while playing Antimatter Dimensions: the game. Visit the reset button and play the game. After you beat the game, your save file will be expunged and you will get a free achievement."
+    text: "반물질 차원을 플레이하면서 비밀 업적을 얻을 기회입니다. 초기화 버튼으로 가서 게임을 플레이하세요. 게임을 클리어하면 저장 파일이 말소되고 무료 업적을 받게 됩니다."
   },
   {
     id: "ai780",
-    text: "Please tell me you don't have tachyon particles in your bloodstream!",
+    text: "혈류 속에 타키온 입자가 없다고 말해 주세요!",
     get unlocked() { return PlayerProgress.dilationUnlocked(); }
   },
   {
     id: "ai781",
-    text: "Taller people have ***, more babies are born, everything is great. But... the Antimatter grows very slowly."
+    text: "키 큰 사람들에게는 ***가 있고, 더 많은 아기가 태어나며, 모든 것이 훌륭합니다. 하지만... 반물질은 아주 천천히 자랍니다."
   },
   {
     id: "ai782",
-    text: "Now, I know some of you are impatient for the update and I respect that. But let's get right into the news!"
+    text: "업데이트를 기다리지 못하는 분들이 있다는 것도 알고 있으며 그 마음을 존중합니다. 하지만 바로 뉴스로 들어가 보죠!"
   },
   {
     id: "ai783",
-    text: "Hey, what's the deal with the \"Editor's Note\" button? It's anti-ironic... I mean, seriously? People still use that button despite its anti-ironic effects?"
+    text: "Hey, what's the deal with the \"Editor's Note\" button? It's anti-ironic... I mean, seriously? People still use that button despite its anti-ironic effects? (저 “편집자 주” 버튼은 대체 뭔가요? 안티아이러니하잖아요... 진심이에요? 그런 안티아이러니 효과가 있는데도 아직 그 버튼을 쓴다고요?)"
   },
   {
     id: "ai784",
-    text: "You can unlock the 9th dimension by [DATA EXPUNGED]"
+    text: "[DATA EXPUNGED]하면 9차원을 잠금 해제할 수 있습니다"
   },
   {
     id: "ai785",
-    text: "With the release of AD, there's a new dimension for everyone!"
+    text: "AD 출시와 함께 모두를 위한 새로운 차원이 생겼습니다!"
   },
   {
     id: "ai786",
-    text: "Hey guys, this is my first story. I'd like to start by saying that I am in no way an expert, so please be gentle with me. Please don't make me angry, or I'll write a nasty story. Also please don't make me upset, especially not if it's a 'story' and not a 'how do I beat the game' kind of story."
+    text: "여러분, 이것은 제 첫 이야기입니다. 저는 절대로 전문가가 아니니 너그럽게 봐 달라는 말부터 하겠습니다. 저를 화나게 하지 마세요. 그러면 불쾌한 이야기를 쓸 겁니다. 특히 '게임을 어떻게 클리어하나요' 같은 글이 아니라 '이야기'라면 저를 속상하게 하지 마세요."
   },
   {
     id: "ai787",
-    text: "It's a good time to be a dog owner"
+    text: "개를 키우기 좋은 때입니다"
   },
   {
     id: "ai788",
-    text: "What if you could turn any number on an axis, and it ended up being infinity?"
+    text: "어떤 숫자든 축 위에서 돌려 무한으로 만들 수 있다면 어떨까요?"
   },
   {
     id: "ai789",
-    text: "After a couple minutes of waiting, the ticker comes back online."
+    text: "몇 분을 기다리자 뉴스 티커가 다시 온라인 상태가 됩니다."
   },
   {
     id: "ai790",
-    text: "The best part of watching someone make an antimatter, is the part where they blow up the video camera."
+    text: "누군가 반물질을 만드는 모습을 볼 때 가장 재미있는 순간은 비디오카메라가 폭발하는 장면입니다."
   },
   {
     id: "ai791",
-    text: "The evening before, the 6th Celestial was assassinated by an unknown assailant. The next day, authorities reopened the case after an unknown assailant claimed responsibility."
+    text: "전날 저녁, 6번째 셀레스티얼이 신원 미상의 습격자에게 암살당했습니다. 다음 날 신원 미상의 습격자가 자신이 범인이라고 주장하자 당국은 사건을 재수사하기 시작했습니다."
   },
   {
     id: "ai792",
-    text: "What do you call a $100 bill? 'Billi Bills'"
+    text: "What do you call a $100 bill? 'Billi Bills' (백 달러 지폐를 뭐라고 부를까요? 'Billi Bills'입니다.)"
   },
   {
     id: "ai793",
-    text: "This is the story of how I learned to love the weather."
+    text: "제가 날씨를 사랑하게 된 이야기입니다."
   },
   {
     id: "ai794",
-    text: "It's been a while since news tickers have been around as much as they are now, but that doesn't necessarily mean they're bad."
+    text: "뉴스 티커가 지금처럼 많아진 지는 꽤 됐지만, 그렇다고 반드시 나쁘다는 뜻은 아닙니다."
   },
   {
     id: "ai795",
-    text: "Is this game just about getting more antimatter?"
+    text: "이 게임은 그저 반물질을 더 많이 얻는 게임인가요?"
   },
   {
     id: "ai796",
-    text: "The third annual Adirondack Mountaineering Festival will be held this year on Saturday, October 1st from 1-5pm at the Albany Highlands in nearby Troy, New York. The 50,000 person capacity outdoor amphitheater will feature over 2,000 speakers, a stage and a 360 degree camera system. Tickets are $35 and can be purchased at angersalley.com."
+    text: "세 번째 Adirondack 등산 축제가 올해 10월 1일 토요일 오후 1시부터 5시까지 뉴욕주 Troy 인근 Albany Highlands에서 열립니다. 50,000명을 수용하는 야외 원형극장에는 2,000개가 넘는 스피커와 무대, 360도 카메라 시스템이 마련됩니다. 입장권은 $35이며 angersalley.com에서 구매할 수 있습니다."
   },
   {
     id: "ai797",
-    text: "The whole bottom half of the universe is just a giant antimatter hole."
+    text: "우주의 아래쪽 절반은 그저 거대한 반물질 구멍입니다."
   },
   {
     id: "ai798",
-    text: "A new prestige layer has been announced: Emojis!"
+    text: "새로운 프레스티지 레이어가 발표되었습니다. 바로 이모지입니다!"
   },
   {
     id: "ai799",
-    text: "Travis is currently attempting to understand how to make hevi immortal by feeding him antimatter."
+    text: "Travis는 현재 Hevi에게 반물질을 먹여 불멸로 만드는 방법을 알아내려 하고 있습니다."
   },
   {
     id: "ai800",
-    text: "The slowmode is activated when the slowmode is activated."
+    text: "저속 모드는 저속 모드가 활성화되면 활성화됩니다."
   },
   {
     id: "ai801",
-    text: "A new era of Warcraft has come to a close. A new epic has begun. A new avatar has risen from the depths of Tyria, and the Worm Cult has been dealt a cruel but necessary wound. The world is rejoicing."
+    text: "Warcraft의 새 시대가 막을 내렸습니다. 새로운 서사시가 시작됐습니다. Tyria의 깊은 곳에서 새로운 아바타가 나타났고, 벌레 교단은 잔혹하지만 필요한 타격을 입었습니다. 온 세상이 기뻐하고 있습니다."
   },
   {
     id: "ai802",
-    text: "A crowd-sourced list of the top ten memes"
+    text: "사람들이 함께 선정한 최고의 밈 열 가지 목록"
   },
   {
     id: "ai803",
-    text: "You have to go deeper than the news ticker to find the secret achievements."
+    text: "비밀 도전 과제를 찾으려면 뉴스 티커보다 더 깊이 들어가야 합니다."
   },
   {
     id: "ai804",
-    text: "We should be able to make a replicanti-like structure out of antimatter, but we can't because it would blow up the entire universe",
+    text: "반물질로 복제자와 비슷한 구조물을 만들 수 있어야 하지만, 그러면 우주 전체가 폭발하기 때문에 만들 수 없습니다.",
     get unlocked() { return PlayerProgress.replicantiUnlocked(); }
   },
   {
     id: "ai805",
-    text: "THe last update, while short, was kinda long. I mean, it was only 5 hours. Hevipelle said it would last for 5 hours, but that was only a few seconds ago. There was a big explosion in the 8th Dimension, and there was no one left to explain how it happened. All we know is that it exploded when Hevipelle touched it, and there was a big crater in the ground. That crater is still there."
+    text: "THe last update, while short, was kinda long. I mean, it was only 5 hours. Hevipelle said it would last for 5 hours, but that was only a few seconds ago. There was a big explosion in the 8th Dimension, and there was no one left to explain how it happened. All we know is that it exploded when Hevipelle touched it, and there was a big crater in the ground. That crater is still there. (지난 업데이트는 짧았지만 좀 길었습니다. 고작 다섯 시간이었으니까요. Hevipelle은 다섯 시간 동안 이어질 거라고 말했지만 그 말은 불과 몇 초 전이었습니다. 여덟 번째 차원에서 큰 폭발이 일어났고, Hevipelle이 그것을 만지자 폭발해 땅에 커다란 구덩이가 생겼다는 것만 알려졌습니다.)"
   },
   {
     id: "ai806",
-    text: "Cream cheese is the best kind of cheese. It melts in your mouth and tastes like nothing else. And it's totally free. You might even find that some of the recipes make more than one cheese."
+    text: "크림치즈는 최고의 치즈입니다. 입안에서 녹고 다른 무엇과도 다른 맛이 납니다. 게다가 완전히 무료입니다. 어떤 조리법은 치즈를 하나 넘게 만들어 낸다는 사실도 알게 될지 모릅니다."
   },
   {
     id: "ai807",
-    text: "Here's a question that may surprise you: Were the people of EARTH made of antimatter, or were they made from some other mysterious material?"
+    text: "여러분을 놀라게 할 질문입니다. 지구의 사람들은 반물질로 만들어졌을까요, 아니면 다른 신비한 물질로 만들어졌을까요?"
   },
   {
     id: "ai808",
-    text: "The real reason no one has made a joke about why there is no 9th dimension is because the 9th dimension isn't even the most ridiculous of memes. It's the 9th dimension in a nutshell."
+    text: "The real reason no one has made a joke about why there is no 9th dimension is because the 9th dimension isn't even the most ridiculous of memes. It's the 9th dimension in a nutshell. (아무도 아홉 번째 차원이 없는 이유를 농담으로 삼지 않은 진짜 이유는, 아홉 번째 차원조차 가장 황당한 밈은 아니기 때문입니다. 한마디로 아홉 번째 차원이죠.)"
   },
   {
     id: "ai809",
-    text: "The number of dimensions is endless, but the number of ways to get there is infinities. Infinities are awesome and I would highly recommend you start with infinities, but I wouldn't recommend starting with infinities. Infinities seem pretty slow and not very fun so I wouldn't recommend starting with infinities."
+    text: "차원의 수는 끝이 없지만, 그곳에 도달하는 방법의 수는 무한들입니다. 무한은 멋지고 무한으로 시작하기를 강력히 권하지만, 무한으로 시작하는 것은 권하지 않습니다. 무한은 꽤 느리고 별로 재미없어 보이므로 무한으로 시작하지 않기를 권합니다."
   },
   {
     id: "ai810",
-    text: "A report by the Pacific Northwest Toxics Institute has found that the consumption of fish concentrates in the liver, lungs, kidneys and brain. The study also found that the consumption of liver and kidney concentrates the most, followed closely by the brain. The report stated that \"The brain is the place where all the wisdom and all the knowledge exists.\" The study also stated that \"Liver is the living embodiment of all that we know and all that we don't.\""
+    text: "태평양 북서부 독성물질 연구소의 보고서에 따르면 생선 섭취물은 간과 폐, 신장, 뇌에 농축됩니다. 이 연구는 간과 신장 섭취물이 가장 많이 농축되고 뇌가 근소한 차이로 뒤를 잇는다는 사실도 밝혔습니다. 보고서는 \"뇌는 모든 지혜와 모든 지식이 존재하는 곳이다\"라고 밝혔습니다. 또한 \"간은 우리가 아는 모든 것과 모르는 모든 것의 살아 있는 화신이다\"라고 했습니다."
   },
   {
     id: "ai811",
-    text: "The old adage \"Be wary of what you wish for\" is certainly true. But what if you were the one wishing for this? It's possible that you were the one who made the wish for this, and you gained the power of the Antimatter. In that case, you are the one responsible for causing all the Antimatter to be turned into anti-matter. However, if you are the one doing the turning, you would be the one who would lose the power."
+    text: "\"무엇을 바랄지 조심하라\"는 옛 격언은 분명 사실입니다. 하지만 이것을 바란 사람이 당신이라면 어떨까요? 당신이 이런 소원을 빌고 반물질의 힘을 얻었을 수도 있습니다. 그렇다면 모든 반물질이 안티-물질로 변하도록 만든 책임은 당신에게 있습니다. 하지만 직접 변환하는 사람이 당신이라면 힘을 잃는 사람도 당신일 것입니다."
   },
   {
     id: "ai812",
-    text: "Took you long enough"
+    text: "참 오래도 걸렸네요"
   },
   {
     id: "ai813",
-    text: "No, you see, the universe doesn't revolve around the earth. It's in a constant state of change, with the largest fluctuations occurring at the extremes of the observable universe. These fluctuations are what create the observable universe, with smaller fluctuations creating the observable universe and so on up until you get to the present state of affairs, which is what you are in."
+    text: "아니요, 우주는 지구를 중심으로 돌지 않습니다. 우주는 끊임없이 변하며 관측 가능한 우주의 극단에서 가장 큰 요동이 일어납니다. 이 요동들이 관측 가능한 우주를 만들고, 더 작은 요동이 다시 관측 가능한 우주를 만드는 과정이 계속되어 지금 당신이 있는 현재 상태에 이릅니다."
   },
   {
     id: "ai814",
-    text: "The biggest difference between the past and the future, is the difference between faith and reason."
+    text: "과거와 미래의 가장 큰 차이는 믿음과 이성의 차이입니다."
   },
   {
     id: "ai815",
-    text: "Hevi, you have to go."
+    text: "Hevi, 이제 가야 해."
   },
   {
     id: "ai816",
-    text: "The challenge of finding the ninth dimension has been solved. The universe is now your personal hell."
+    text: "아홉 번째 차원을 찾는 도전이 해결되었습니다. 이제 우주는 당신만의 지옥입니다."
   },
   {
     id: "ai817",
-    text: "\"That's not how you're supposed to play the game\" - Mee6"
+    text: "\"That's not how you're supposed to play the game\" - Mee6 (“그건 게임을 그렇게 하는 게 아니야.” - 해당 봇)"
   },
   {
     id: "ai818",
-    text: "It's Saturday, you're going to celebrate by making some really great music videos, maybe even a hit song. Then, you're going to take a walk along the beach. You'll see a huge wave, and you'll both be washed up. Your friends are waiting for you. \"Oh you want to go, take a look around!\", but don't actually go look around, you're too close to the action."
+    text: "토요일입니다. 아주 멋진 뮤직비디오, 어쩌면 히트곡까지 만들며 축하할 겁니다. 그런 다음 해변을 따라 산책하겠죠. 거대한 파도를 보고 둘 다 해안으로 밀려날 겁니다. 친구들이 기다리고 있습니다. \"아, 가고 싶어? 주변을 둘러봐!\" 하지만 실제로 둘러보러 가지는 마세요. 현장에 너무 가까이 있으니까요."
   },
   {
     id: "ai819",
-    text: "Hevi has the best newsticker! GIVE HIM THE CRUNCH"
+    text: "Hevi has the best newsticker! GIVE HIM THE CRUNCH (Hevi에게는 최고의 뉴스 티커가 있다! 그에게 크런치를 줘라!)"
   },
   {
     id: "ai820",
-    text: "By now you've seen a ton of news tickers, and you've probably seen the big news: The news ticker has been banned in this server."
+    text: "지금까지 뉴스 티커를 아주 많이 봤으니, 아마 이 중대한 소식도 봤을 겁니다. 이 서버에서는 뉴스 티커가 금지되었습니다."
   },
   {
     id: "ai821",
-    text: "For example, if A is the square root of 3, then B is the square root of 2, therefore C is the square root of -2, therefore D is the cube root of -2, therefore E is the square root of 3, therefore F is the square root of 3, therefore G is the square root of 3, therefore and so on."
+    text: "예를 들어 A가 3의 제곱근이면 B는 2의 제곱근이고, 따라서 C는 -2의 제곱근이며, 따라서 D는 -2의 세제곱근이고, 따라서 E는 3의 제곱근, F는 3의 제곱근, G는 3의 제곱근이며, 따라서 이런 식으로 계속됩니다."
   },
   {
     id: "ai822",
-    text: "Positrons are those tiny, round, highly charged particles that are found in the nucleus of most living organisms. They are used to detect light, and are sometimes used to measure the distance between people and the moon."
+    text: "양전자는 대부분의 생물체 핵에서 발견되는 작고 둥글며 강하게 대전된 입자입니다. 빛을 감지하는 데 쓰이며, 때로는 사람과 달 사이의 거리를 측정하는 데도 쓰입니다."
   },
   {
     id: "ai823",
-    text: "There's only 4 types of people in this world: those who make games, those who make news, and those who make news again."
+    text: "There's only 4 types of people in this world: those who make games, those who make news, and those who make news again. (세상에는 네 부류의 사람만 있습니다. 게임을 만드는 사람, 뉴스를 만드는 사람, 그리고 또 뉴스를 만드는 사람입니다.)"
   },
   {
     id: "ai824",
-    text: "If you have any questions or concerns regarding the game, please don't hesitate to ask. We are here to help."
+    text: "게임에 관해 궁금하거나 걱정되는 점이 있다면 주저하지 말고 질문하세요. 저희가 도와드리겠습니다."
   },
   {
     id: "ai825",
-    text: "You must obtain a certain amount of antimatter in order to complete this challenge."
+    text: "이 도전을 완료하려면 일정량의 반물질을 획득해야 합니다."
   },
   {
     id: "ai826",
-    text: "The number of dimensions is nothing. It's just the number of dimensions. But what if you transformed every number into a letter? That would be a lot of letters?"
+    text: "차원의 수는 아무것도 아닙니다. 그저 차원의 수일 뿐입니다. 하지만 모든 숫자를 글자로 바꾸면 어떨까요? 글자가 아주 많아질까요?"
   },
   {
     id: "ai827",
-    text: "The following is an extract from my upcoming book, More Than Just 5: Building a Better You. It's 200 pages long, and it's on Amazon for $22.99. Click here to buy it now."
+    text: "다음은 곧 출간될 제 책, 《단순한 5 이상: 더 나은 나 만들기》에서 발췌한 내용입니다. 분량은 200쪽이며 Amazon에서 $22.99에 판매 중입니다. 지금 구매하려면 여기를 클릭하세요."
   },
   {
     id: "ai828",
-    text: "SOME people are claiming they saw a UFO in the sky. Others say they saw a spaceship. Still others claim to have been abducted by the government and flown to some undisclosed location."
+    text: "일부 사람들은 하늘에서 UFO를 봤다고 주장합니다. 다른 사람들은 우주선을 봤다고 말합니다. 정부에 납치되어 공개되지 않은 장소로 이송됐다고 주장하는 사람들도 있습니다."
   },
   {
     id: "ai829",
-    text: "The second half of the game is basically just long, long stretches of nothing where nothing happens. There's also a third challenge that you have to complete at some point in the game where you basically just skip a few seconds of nothing happening until the seconds are too late and you have to complete another challenge to get them."
+    text: "게임 후반부는 기본적으로 아무 일도 일어나지 않는 길고 긴 공백의 연속일 뿐입니다. 게임의 어느 시점에는 세 번째 도전도 완료해야 하는데, 아무 일도 일어나지 않는 몇 초를 그냥 건너뛰다가 그 초가 너무 늦어지면 그것을 얻기 위해 또 다른 도전을 완료해야 합니다."
   },
   {
     id: "ai830",
-    text: "This is a news ticker, so if you tap this you're indicating that you wish to have your news ticker speed increased."
+    text: "이것은 뉴스 티커이므로, 여기를 누르면 뉴스 티커의 속도를 높이겠다는 뜻입니다."
   },
   {
     id: "ai831",
-    text: "The following is based on my personal experience with the game \"Antimatter Dimensions\" and may not be 100% true."
+    text: "다음 내용은 게임 \"반물질 차원\"을 직접 플레이한 경험을 바탕으로 하며 100% 사실이 아닐 수도 있습니다."
   },
   {
     id: "ai832",
-    text: "This is the third part of the two part series on the pros and cons of body positivity."
+    text: "This is the third part of the two part series on the pros and cons of body positivity. (신체 긍정의 장단점을 다루는 두 편짜리 연재의 세 번째 편입니다.)"
   },
   {
     id: "ai833",
-    text: "The phrases \"Hevi dies in the 9th Dimension\" and \"I'll never let you down\" are two of the most important phrases in the game."
+    text: "The phrases \"Hevi dies in the 9th Dimension\" and \"I'll never let you down\" are two of the most important phrases in the game. (“Hevi는 아홉 번째 차원에서 죽는다”와 “절대 널 실망시키지 않을게”는 게임에서 가장 중요한 두 문구입니다.)"
   },
   {
     id: "ai834",
-    text: "It's been proven that not drinking water increases your risk of dying from antimatter annihilation."
+    text: "물을 마시지 않으면 반물질 쌍소멸로 사망할 위험이 커진다는 사실이 입증되었습니다."
   },
   {
     id: "ai835",
-    text: "I'm a time traveler. I'm supposed to be going back in time to change history. But since I'm the one who's supposed to do it, I don't know what I should do. My present timeline doesn't include time that's supposed to be gone."
+    text: "저는 시간 여행자입니다. 과거로 돌아가 역사를 바꾸기로 돼 있습니다. 하지만 그 일을 해야 하는 사람이 저이기 때문에 무엇을 해야 할지 모르겠습니다. 제 현재 시간선에는 사라져야 할 시간이 들어 있지 않습니다."
   },
   {
     id: "ai836",
-    text: "A conference on artificial intelligence and human enhancement has been cancelled after someone announced that the talk was on how to turn a profit off of illegal downloads of the game \"Antimatter Dimensions\"."
+    text: "게임 \"반물질 차원\"의 불법 다운로드로 수익을 내는 방법을 발표한다는 소식이 알려진 뒤, 인공지능과 인간 강화에 관한 학회가 취소되었습니다."
   },
   {
     id: "ai837",
-    text: "When you're done playing, take your save with you and go to main menu. You can do that by tapping the big scary \"X\" button, or by going into options and changing \"Reset the game for new save\" to \"Reset the game for old save\"."
+    text: "플레이를 마치면 저장 데이터를 챙겨 메인 메뉴로 가세요. 크고 무서운 \"X\" 버튼을 누르거나, 설정에서 \"새 저장 데이터를 위해 게임 초기화\"를 \"기존 저장 데이터를 위해 게임 초기화\"로 바꾸면 됩니다."
   },
   {
     id: "ai838",
-    text: "The most popular game on the App Store, Flappy Bird, has been secretly rewritten in C# to avoid detection."
+    text: "App Store에서 가장 인기 있는 게임 Flappy Bird가 탐지를 피하려고 몰래 C#으로 다시 작성됐습니다."
   },
   {
     id: "ai839",
-    text: "About this mod Replaces the full version of the game with a longer intro, random news tickers and a companion voiced by the voice actor from the Harry Potter movies."
+    text: "이 모드 소개: 게임 정식판을 더 긴 도입부와 무작위 뉴스 티커, Harry Potter 영화의 성우가 목소리를 맡은 동료로 교체합니다."
   },
   {
     id: "ai840",
-    text: "kajfik is a master welder and will soon have his own news"
+    text: "kajfik은 용접의 달인이며 곧 자기만의 뉴스를 갖게 될 겁니다."
   },
   {
     id: "ai841",
-    text: "I am the most hated man on the planet! I have the power to change the course of history, and I will use it to my advantage. The people who died trying to stop me, and their sacrifice will forever be remembered in infinities of infinities. But if you oppose me, you will die along with you. You can either accept defeat and move on, or you can rise up through the ranks, become a legend, and become the most hated man in the history."
+    text: "나는 지구에서 가장 미움받는 사람이다! 역사의 흐름을 바꿀 힘이 있고, 그것을 내 이익을 위해 쓸 것이다. 나를 막으려다 죽은 사람들과 그 희생은 무한의 무한 속에서 영원히 기억될 것이다. 하지만 나를 거스르면 너와 함께 죽게 된다. 패배를 받아들이고 나아가거나, 계급을 뚫고 올라 전설이 되어 역사상 가장 미움받는 사람이 될 수 있다."
   },
   {
     id: "ai842",
-    text: "Antimatter is like a young woman. She is looking for a man, and he runs into the woods. She dies of exposure soon after. His remains are found several miles away. Some say the universe was blown apart, others say he was swallowed by the universe, but the matter people know him!"
+    text: "반물질은 젊은 여성과 같습니다. 여성이 남자를 찾고 있는데 남자는 숲으로 달아납니다. 여성은 곧 악천후에 노출돼 죽습니다. 남자의 유해는 몇 마일 떨어진 곳에서 발견됩니다. 누군가는 우주가 산산이 폭발했다고 하고, 다른 이들은 그가 우주에 삼켜졌다고 하지만 물질 사람들은 그를 압니다!"
   },
   {
     id: "ai843",
-    text: "I think I might have gotten the password for the 9th dimension, if only I hadn't deleted it."
+    text: "제9차원의 비밀번호를 알아낸 것 같은데, 삭제하지만 않았더라면 좋았을 텐데요."
   },
   {
     id: "ai844",
-    text: "A group of people that worships Atreides have started a new faith, claiming to be a \"religion of tolerance\". Their website claims that it is \"a religion of inclusion\" and that it promotes tolerance and diversity. All of its members seem to be Christians, although they never mentioned them by name."
+    text: "Atreides를 숭배하는 사람들이 새로운 신앙을 세우고 자신들을 \"관용의 종교\"라고 주장했습니다. 이들의 웹사이트는 이것이 \"포용의 종교\"이며 관용과 다양성을 장려한다고 주장합니다. 신도들은 모두 기독교인처럼 보이지만 이름을 직접 언급한 적은 없습니다."
   },
   {
     id: "ai845",
-    text: "A new cryptocurrency, called ΔX, has been found. It has the potential to change everything about how we live our lives, and the world. However, it has one major flaw: it has a flaw for the people."
+    text: "ΔX라는 새로운 암호화폐가 발견됐습니다. 우리의 삶과 세상에 관한 모든 것을 바꿀 잠재력이 있습니다. 하지만 중대한 결함이 하나 있습니다. 사람들을 위한 결함이 있다는 것입니다."
   },
   {
     id: "ai846",
-    text: "With the release of the new Android Pay app, the world will finally come to a close."
+    text: "새로운 Android Pay 앱이 출시되면서 마침내 세상도 막을 내릴 것입니다."
   },
   {
     id: "ai847",
-    text: "I'm not sure if it's just me but when you type something long enough it sounds like a helicopter"
+    text: "저만 그런지는 모르겠지만 뭔가를 오래 입력하다 보면 헬리콥터 소리처럼 들립니다"
   },
   {
     id: "ai848",
-    text: "If someone were to add the word \"infinity\" to the end of every sentence in the English version of the game, it would become \"Infinity Challenge: Infinity Edition\"."
+    text: "If someone were to add the word \"infinity\" to the end of every sentence in the English version of the game, it would become \"Infinity Challenge: Infinity Edition\". (누군가 게임 영어판의 모든 문장 끝에 “infinity”를 붙이면 “Infinity Challenge: Infinity Edition”이 됩니다.)"
   },
   {
     id: "ai849",
-    text: "Are you ready for some bad news?"
+    text: "나쁜 소식을 들을 준비가 됐나요?"
   },
   {
     id: "ai850",
-    text: "I don't know if you've heard this but it's true: You can walk into a bar and get the same beer twice in a row, and get the same amount of alcohol."
+    text: "들어 보셨는지는 모르겠지만 사실입니다. 술집에 들어가 같은 맥주를 연달아 두 번 주문하면 같은 양의 알코올을 받을 수 있습니다."
   },
   {
     id: "ai851",
-    text: "This is the magic sauce that marinades foods and turns them into something delicious. It is used in a wide variety of recipes, and can also be made by mixing together regular mustard and water. The sauce can be a little bit spicy, but it is well worth the risk. It is also very nutritious, providing lots of potassium, magnesium, and vitamin D3."
+    text: "이것은 음식에 양념이 배게 해 맛있게 바꾸는 마법의 소스입니다. 다양한 요리에 쓰이며 일반 머스터드와 물을 섞어서 만들 수도 있습니다. 조금 매울 수 있지만 그 위험을 감수할 가치가 있습니다. 칼륨, 마그네슘, 비타민 D3도 풍부해 영양가가 높습니다."
   },
   {
     id: "ai852",
-    text: "IMPORTANT NEWS: We have just been informed by the manufacturer of this news-ticker, and as a result, all of our future news-tickers will now also be made from scratch!"
+    text: "중요 소식: 이 뉴스 티커의 제조사로부터 방금 통보를 받았으며, 이에 따라 앞으로 나올 모든 뉴스 티커도 처음부터 직접 제작됩니다!"
   },
   {
     id: "ai853",
-    text: "The second half of the year is upon us, and with it comes a new craze. People are trying new things, experimenting with new products, and creating new things of themselves. One such craze has swept across the land. The people of this land have embraced this craze, and have created a new religion, one that worships the god of this land, Inigo Montoya."
+    text: "한 해의 후반부가 다가오면서 새로운 유행도 함께 찾아왔습니다. 사람들은 새로운 것을 시도하고 새로운 제품을 실험하며 자기 자신에게서 새로운 무언가를 만들어 냅니다. 그런 유행 하나가 온 나라를 휩쓸었습니다. 이 땅의 사람들은 그 유행을 받아들여 이 땅의 신 Inigo Montoya를 숭배하는 새로운 종교를 만들었습니다."
   },
   {
     id: "ai854",
-    text: "The official website for the upcoming game, Antimatter Dimensions 2: it's like antimatter dimensions, but with a dash of Discord and a dash of Adele."
+    text: "The official website for the upcoming game, Antimatter Dimensions 2: it's like antimatter dimensions, but with a dash of Discord and a dash of Adele. (출시 예정작 Antimatter Dimensions 후속편의 공식 웹사이트입니다. 반물질 차원에 Discord와 Adele을 조금씩 곁들인 것과 같습니다.)"
   },
   {
     id: "ai855",
-    get text() { return `Is the Big Crunch the end of the world? No, it's the beginning of a new era. The era will last for ${format(Number.MAX_VALUE, 2)} days.`; }
+    get text() { return `빅 크런치는 세상의 끝일까요? 아닙니다. 새로운 시대의 시작입니다. 그 시대는 ${format(Number.MAX_VALUE, 2)}일 동안 이어질 것입니다.`; }
   },
   {
     id: "ai856",
-    text: "The only 'right' way to play a game is to not play at all, right? That's what anti-jokes are all about. — Anti-joker"
+    text: "The only 'right' way to play a game is to not play at all, right? That's what anti-jokes are all about. — Anti-joker (게임을 하는 유일하게 '옳은' 방법은 아예 하지 않는 거죠? 안티농담이란 바로 그런 겁니다. — Anti-joker)"
   },
   {
     id: "ai857",
-    text: "The Bulletin of the Atomic Scientists has just announced the existence of a second class of particles, which are named after the characters from Ghostbusters."
+    text: "The Bulletin of the Atomic Scientists has just announced the existence of a second class of particles, which are named after the characters from Ghostbusters. (원자과학자회보가 Ghostbusters 등장인물의 이름을 딴 두 번째 입자 부류의 존재를 방금 발표했습니다.)"
   },
   {
     id: "ai858",
-    text: "We are currently in the process of turning the planet into a Comfort Zone for the people. It will be complete in 10 hours."
+    text: "현재 이 행성을 사람들을 위한 안락 지대로 바꾸고 있습니다. 10시간 후에 완성됩니다."
   },
   {
     id: "ai859",
-    text: "I'm gonna leave my milk here for a couple seconds. ♥"
+    text: "우유를 여기 몇 초 동안 두고 올게요. ♥"
   },
   {
     id: "ai860",
-    text: "And then there was Jesus, and Hevi, and Hevi was with Him; and the sea gave up its monthly cycle, and it was a great gale. And Hevi and Jesus went up into heaven; and Hevi was filled with the Holy Spirit. And Hevi was clothed with angels, and was numbered with them. And Hevi was taken up into heaven, and glorified and was exalted, and was numbered with them, and was called Wonderful; and His angels rejoiced."
+    text: "And then there was Jesus, and Hevi, and Hevi was with Him; and the sea gave up its monthly cycle, and it was a great gale. And Hevi and Jesus went up into heaven; and Hevi was filled with the Holy Spirit. And Hevi was clothed with angels, and was numbered with them. And Hevi was taken up into heaven, and glorified and was exalted, and was numbered with them, and was called Wonderful; and His angels rejoiced. (그 뒤 예수와 Hevi가 있었고 Hevi는 그분과 함께했습니다. 바다는 매달의 주기를 내놓았고 거센 돌풍이 일었습니다. Hevi와 예수는 하늘로 올라갔고 Hevi는 성령으로 충만해졌습니다. Hevi는 천사들을 옷처럼 두르고 그들과 함께 헤아려졌습니다. Hevi는 하늘로 들려 올라가 영광과 높임을 받고 그들과 함께 헤아려졌으며 경이로운 이라 불렸습니다. 그의 천사들은 기뻐했습니다.)"
   },
   {
     id: "ai861",
-    text: "You will probably spend most of your day reading news ticker suggestions here."
+    text: "아마 오늘 하루 대부분을 여기서 뉴스 티커 제안을 읽으며 보내게 될 겁니다."
   },
   {
     id: "ai862",
-    text: "The Fremen race of animals are a race of people who live in harmony with the earth, and thus are quite different from the other races of animals. Their society is based around hunting and gathering, and they are also highly spiritual people. They have many beliefs and practices that are in direct contrast to most other races of animals, such as eating meat and using stone tools. They also seem to be quite superstitious, as evidenced by the fact that they are known to perform..."
+    text: "동물 종족 Fremen은 대지와 조화를 이루며 사는 사람들로, 다른 동물 종족과 상당히 다릅니다. 이들의 사회는 수렵과 채집을 중심으로 이루어지며 매우 영적인 사람들이기도 합니다. 고기를 먹고 석기를 사용하는 것처럼 다른 동물 종족 대부분과 정면으로 대조되는 믿음과 관습이 많습니다. 또한 이들이 ...을 행하는 것으로 알려졌다는 사실에서 보듯 꽤 미신적인 듯합니다."
   },
   {
     id: "ai863",
-    text: "What if... the universe was just a ruse to keep the people in line? ...actually, no, it was actually intended, the universe was designed to keep the people in line. The problem was the people couldn't handle the idea of an outside force manipulating their lives, and ended up breaking out into uncontrolled chaos, eventually leading to thermonuclear annihilation."
+    text: "만약... 우주가 사람들을 통제하기 위한 계략에 불과했다면 어떨까요? ...사실 아니군요. 정말 의도된 일이었고 우주는 사람들을 통제하도록 설계됐습니다. 문제는 사람들이 외부의 힘이 자기 삶을 조종한다는 생각을 감당하지 못해 통제 불가능한 혼란에 빠졌고, 끝내 열핵 쌍소멸로 이어졌다는 것입니다."
   },
   {
     id: "ai864",
-    text: "If you're reading this, you probably shouldn't have. If you aren't, then you probably should."
+    text: "If you're reading this, you probably shouldn't have. If you aren't, then you probably should. (이걸 읽고 있다면 아마 읽지 말았어야 합니다. 읽고 있지 않다면 아마 읽어야 할 겁니다.)"
   },
   {
     id: "ai865",
-    text: "I'm a time traveler. I can tell you the history of the world. But, I can't tell you the future. That's why I'm here, to tell you the future. The future is an ever- expanding pile of past, present, and future, and it'll never stop growing. There's so much history, so little time. There's so much history, but it won't stop growing. Then, there's this, and then there's that, and then..."
+    text: "저는 시간 여행자입니다. 세계의 역사를 말해 줄 수 있지만 미래는 말해 줄 수 없습니다. 그래서 미래를 말해 주려고 여기 왔습니다. 미래는 과거와 현재와 미래가 끝없이 팽창하는 더미이며 결코 성장을 멈추지 않습니다. 역사는 너무 많고 시간은 너무 적습니다. 역사는 너무나 많지만 계속 자라납니다. 그리고 이것이 있고, 그다음 저것이 있고, 그다음에는..."
   },
   {
     id: "ai866",
-    text: "A new, improved and more secure version of Antimatter Dimensions is now available: Antimatter Dimensions 2."
+    text: "새롭게 개선되고 더욱 안전해진 반물질 차원을 지금 이용할 수 있습니다. 바로 반물질 차원 2입니다."
   },
   {
     id: "ai867",
-    text: "In the beginning, there was nothing. Then the great Hevi made the game, and there was nothing to play with it."
+    text: "In the beginning, there was nothing. Then the great Hevi made the game, and there was nothing to play with it. (태초에는 아무것도 없었습니다. 위대한 Hevi가 게임을 만들었지만, 그것을 가지고 놀 것은 아무것도 없었습니다.)"
   },
   {
     id: "ai868",
-    text: "Would you recommend Antimatter Dimensions to a friend? Yes"
+    text: "친구에게 반물질 차원을 추천하시겠습니까? 예"
   },
   {
     id: "ai869",
-    text: "\"We have 3 kinds of news: warnings, nudges and shade jokes."
+    text: "\"We have 3 kinds of news: warnings, nudges and shade jokes. (우리에게는 세 종류의 뉴스가 있습니다. 경고, 슬쩍 찌르기, 그리고 은근히 까는 농담입니다.)"
   },
   {
     id: "ai870",
-    text: "I love you bro!"
+    text: "사랑해, 친구야!"
   },
   {
     id: "ai871",
-    text: "I'm going to keep this short, because I don't have a much to say."
+    text: "할 말이 많지 않으니 짧게 하겠습니다."
   },
   {
     id: "ai872",
-    text: "A large number of anti-kafawis are taking part in the Antimatter Goodies competition. Here's how you can win: 1. Make a suggestion 2. Give away the beta key 3. Tell me what you think about the game 4. Don't put it in the game yet (it's already there, you can't delete it) 5. Don't put it in the game yet (it's already in the game) 6. Don't put it in the game"
+    text: "수많은 안티카파위가 반물질 상품 대회에 참가하고 있습니다. 우승하는 방법은 다음과 같습니다. 1. 제안하기 2. 베타 키 나눠 주기 3. 게임에 관한 생각 말하기 4. 아직 게임에 넣지 않기(이미 들어 있어서 삭제할 수 없음) 5. 아직 게임에 넣지 않기(이미 게임에 있음) 6. 게임에 넣지 않기"
   },
   {
     id: "ai873",
-    text: "THe recipe for Crispy Shrimp is one of the most unique and favorite of all time! Crispy shrimp are known to be one of the best in all of food! This recipe is a must try in your favorite Italian restaurant!"
+    text: "바삭한 새우 요리법은 역대 가장 독특하고 사랑받는 조리법 중 하나입니다! 바삭한 새우는 모든 음식 가운데 최고로 손꼽힙니다! 좋아하는 이탈리아 식당에서 이 요리를 꼭 맛보세요!"
   },
   {
     id: "ai874",
-    text: "After you have made 1 antimatter, go to the menu and press reset."
+    text: "반물질 1개를 만든 뒤 메뉴로 가서 초기화를 누르세요."
   },
   {
     id: "ai875",
-    text: "I think you know where this is going."
+    text: "이 이야기가 어디로 흘러갈지 아실 것 같네요."
   },
   {
     id: "ai876",
-    text: "The catch? You have to be online for less than 5 hours to claim your reward."
+    text: "The catch? You have to be online for less than 5 hours to claim your reward. (문제가 하나 있습니다. 보상을 받으려면 온라인 접속 시간이 다섯 시간 미만이어야 합니다.)"
   },
   {
     id: "ai877",
-    text: "Tetris was made by Hevi"
+    text: "테트리스는 Hevi가 만들었습니다"
   },
   {
     id: "ai878",
-    text: "What if instead of making antimatter, we're actually removing it?"
+    text: "우리가 반물질을 만드는 게 아니라 사실은 없애고 있는 거라면 어떨까요?"
   },
   {
     id: "ai879",
-    text: "The new instalment in the long running series, Antimatter Dimensions - Exotic Matter Dimensions. Experience the most bizarre and wonderful worlds of Antimatter Dimensions with your Friends, or conquer the world in a single galaxy with hundreds of rivals in a single galaxy, all in under an hour."
+    text: "오랫동안 이어진 시리즈의 신작 Antimatter Dimensions - Exotic Matter Dimensions입니다. 친구들과 함께 Antimatter Dimensions의 가장 기묘하고 경이로운 세계를 경험하거나, 단 하나의 은하에서 수백 명의 경쟁자와 맞서 한 시간 안에 세계를 정복하세요."
   },
   {
     id: "ai880",
-    text: "I hope you're ready for the big news, because that's the big news. The antimatter is spilling all over the place, and it's blowing up the neighborhood."
+    text: "중대 소식을 들을 준비가 됐길 바랍니다. 그게 바로 중대 소식이니까요. 반물질이 사방으로 쏟아지며 동네를 폭파하고 있습니다."
   },
   {
     id: "ai881",
-    text: "You must get 33,333,333 IP to see this message",
+    text: "이 메시지를 보려면 무한 포인트 33,333,333개를 획득해야 합니다.",
     get unlocked() { return Currency.infinityPoints.gte(33333333); }
   },
   {
     id: "ai882",
-    text: "You might think these are jokes, but trust us, you'll be shocked how much you'll love them after you read them!"
+    text: "농담이라고 생각할 수도 있지만 저희를 믿어 보세요. 읽고 나면 얼마나 마음에 드는지 알고 놀랄 겁니다!"
   },
   {
     id: "ai883",
-    text: "The God-Emperor himself, Hevi, the creator of balance, has a super secret achievement. It is to go flip your superflat apprenticed flatmate!"
+    text: "The God-Emperor himself, Hevi, the creator of balance, has a super secret achievement. It is to go flip your superflat apprenticed flatmate! (균형의 창조자이자 신황제인 Hevi에게는 극비 도전과제가 있습니다. 바로 초평면 견습생 룸메이트를 뒤집어 버리는 것입니다!)"
   },
   {
     id: "ai884",
-    text: "Sonic was born without a heart... but that didn't stop him from being a genius"
+    text: "Sonic was born without a heart... but that didn't stop him from being a genius (Sonic은 심장 없이 태어났지만... 그렇다고 천재가 되는 데 방해받지는 않았습니다.)"
   },
   {
     id: "ai885",
@@ -6865,88 +6822,88 @@ export const news = [
   },
   {
     id: "ai886",
-    text: "You haven't unlocked the ninth dimension yet? Just hold M and DROP."
+    text: "You haven't unlocked the ninth dimension yet? Just hold M and DROP. (아직 아홉 번째 차원을 해금하지 못했나요? M을 누른 채 DROP 하세요.)"
   },
   {
     id: "ai887",
-    text: "The Great Matter War was a close one. The matter victory was short lived, the antimatter victory was not. The matter people saw too much, the antimatter people too weak, and the war was won."
+    text: "대물질 전쟁은 박빙이었습니다. 물질의 승리는 오래가지 못했지만 반물질의 승리는 그렇지 않았습니다. 물질 사람들은 너무 많이 봤고 반물질 사람들은 너무 약했으며, 그렇게 전쟁은 승리로 끝났습니다."
   },
   {
     id: "ai888",
-    text: "Turing-complete game about providing the update"
+    text: "업데이트 제공을 다루는 튜링 완전 게임"
   },
   {
     id: "ai889",
-    text: "New research suggests that the more antimatter we make, the more matter we'll have"
+    text: "새로운 연구에 따르면 반물질을 많이 만들수록 더 많은 물질을 얻게 됩니다"
   },
   {
     id: "ai890",
-    text: "What is the meaning of life?"
+    text: "삶의 의미는 무엇일까요?"
   },
   {
     id: "ai891",
-    text: "You have enough antimatter to craft a new prestige layer! Prestige Layers are great."
+    text: "새로운 프레스티지 단계를 만들 만큼 반물질을 모았습니다! 프레스티지 단계는 훌륭합니다."
   },
   {
     id: "ai892",
-    text: "The beta testers for Antimatter Dimensions 2 are the most loyal, most dedicated, and most implacable group of people I've ever met. They're also possibly the laziest, most self-indulgent bunch of people I've ever met."
+    text: "반물질 차원 2의 베타 테스터들은 제가 만난 사람 중 가장 충성스럽고 헌신적이며 굴하지 않는 사람들입니다. 동시에 제가 만난 사람 중 가장 게으르고 자기만족에 빠진 사람들일지도 모릅니다."
   },
   {
     id: "ai893",
-    text: "Shocking new study reveals that the more time you spend on the internet, the more likely you are to get starstruck."
+    text: "인터넷에서 보내는 시간이 길수록 유명인을 보고 넋을 잃을 가능성이 커진다는 충격적인 연구 결과가 나왔습니다."
   },
   {
     id: "ai894",
-    text: "When you are done playing, and wish to play again, you should start a new game."
+    text: "플레이를 마친 뒤 다시 하고 싶다면 새 게임을 시작해야 합니다."
   },
   {
     id: "ai895",
-    text: "I don't know about you, but I don't buy paperclips."
+    text: "여러분은 어떤지 모르겠지만 저는 클립을 사지 않습니다."
   },
   {
     id: "ai896",
-    text: "Hevipelle uses replicanti to speed up game speed.",
+    text: "Hevipelle는 복제자를 사용해 게임 속도를 높입니다.",
     get unlocked() { return PlayerProgress.replicantiUnlocked(); }
   },
   {
     id: "ai897",
-    text: "So let's say you're making a game. You're making a singleton. You're making a game that's gonna be played offline. What happens when you play it? It crashes. What happens when you play it? It crashes more. What happens when you play it? You lose your save."
+    text: "게임을 만든다고 해 봅시다. 싱글턴을 만들고 있습니다. 오프라인으로 플레이할 게임을 만드는 중입니다. 그 게임을 실행하면 어떻게 될까요? 충돌합니다. 다시 실행하면 어떻게 될까요? 더 많이 충돌합니다. 또 실행하면 어떻게 될까요? 저장 데이터를 잃습니다."
   },
   {
     id: "ai898",
-    text: "This is what happens when you OVER-RELY on your \"fake it til you make it\" attitude."
+    text: "\"될 때까지 되는 척하라\"는 태도에 지나치게 의존하면 이렇게 됩니다."
   },
   {
     id: "ai899",
-    text: "This is the fifth part of a two-part series looking at how science and magic are linked. Part one will be published on 5 October, part two will be published on 24 October, and you can follow the journey at part three."
+    text: "This is the fifth part of a two-part series looking at how science and magic are linked. Part one will be published on 5 October, part two will be published on 24 October, and you can follow the journey at part three. (과학과 마법의 연관성을 살펴보는 두 편짜리 연재의 다섯 번째 편입니다. 첫 편은 10월 5일에, 둘째 편은 10월 24일에 공개되며 셋째 편에서 여정을 따라갈 수 있습니다.)"
   },
   {
     id: "ai900",
-    text: "What is 5 hours? A giggle"
+    text: "What is 5 hours? A giggle (다섯 시간이란 무엇일까요? 킥킥 웃음입니다.)"
   },
   {
     id: "ai901",
-    text: "A new beta test is now available for Antimatter Dimensions, coming in 5 hours. There are no refunds for this test, so please be patient as we try to finalise the test and get it ready for the public. The test will take place in -5 hours in the Antimatter Dimensions Discord."
+    text: "A new beta test is now available for Antimatter Dimensions, coming in 5 hours. There are no refunds for this test, so please be patient as we try to finalise the test and get it ready for the public. The test will take place in -5 hours in the Antimatter Dimensions Discord. (Antimatter Dimensions의 새 베타 테스트가 공개되며 다섯 시간 뒤에 시작됩니다. 테스트는 Antimatter Dimensions Discord에서 마이너스 다섯 시간 뒤에 진행된다는 모순된 안내입니다.)"
   },
   {
     id: "ai902",
-    text: "The Night is coming, and in its wake a terrible thing has been unleashed: ruin. Chaos. And decay. And death. And chaos is coming for all of us."
+    text: "밤이 다가오고 있으며, 그 뒤를 따라 끔찍한 것이 풀려났습니다. 파멸. 혼돈. 그리고 부패. 그리고 죽음. 혼돈이 우리 모두를 향해 다가옵니다."
   },
   {
     id: "ai903",
-    text: "This article is a stub. You can help Deskthority by expanding it."
+    text: "이 문서는 토막글입니다. 내용을 보충해 Deskthority를 도울 수 있습니다."
   },
   {
     id: "ai904",
-    text: "A new, safer way to store and retrieve your data has been found! When you get to the AE, click on the big red button and the world will stop rotating!"
+    text: "데이터를 저장하고 불러오는 새롭고 안전한 방법을 발견했습니다! AE에 도달한 뒤 커다란 빨간 버튼을 클릭하면 세계의 회전이 멈춥니다!"
   },
   {
     id: "ai905",
-    text: "Ooh, what's this noise? A crash of some sort? More like, a crash of some greater magnitude? I don't know. Whatever it is, it's probably not being caused by me. I shouldn't be putting it through, it's just... well, you see, I was going to put it through, but then I just thought it might be a good idea to just put it through. Oh, it's gonna be a good one, I promise."
+    text: "오, 이게 무슨 소리지? 뭔가 부딪친 건가? 아니, 훨씬 더 큰 충돌 같은데? 모르겠네요. 뭐든 간에 아마 제가 일으킨 건 아닐 겁니다. 이걸 통과시키면 안 되는데, 그냥... 있잖아요, 통과시키려다가 문득 그냥 통과시키는 것도 괜찮겠다고 생각했어요. 아, 분명 멋질 겁니다. 약속하죠."
   },
   {
     id: "ai906",
-    text: "Last week, we reported that an unknown individual known only as \"Anti-Doctor\" has broken the game and claimed ownership of the game's data. Since then, he has spread the word that he has an \"explosive new app\" that will allow him to \"turn [he] antimatter.\" However, no one has come forward with information on how to use the app, or even if it is a reality. We will update this article if and when we find out."
+    text: "지난주, 우리는 \"안티 닥터\"라고만 알려진 정체불명의 인물이 게임을 망가뜨리고 게임 데이터의 소유권을 주장했다고 보도했습니다. 그 뒤 그는 자신을 \"[he] 반물질로 바꾸게\" 해 줄 \"폭발적인 새 앱\"을 가지고 있다는 소문을 퍼뜨렸습니다. 하지만 그 앱을 사용하는 방법은 물론, 실제로 존재하는지에 대해서도 아는 사람이 나타나지 않았습니다. 새로운 사실을 확인하는 대로 이 기사를 갱신하겠습니다."
   },
   {
     id: "ai907",
@@ -6954,363 +6911,363 @@ export const news = [
   },
   {
     id: "ai908",
-    text: "The great majority of people don't get the full benefit of antimatter dimensions, and as such are not affected by it. However, there are certain people who are affected and at certain times of the day, depending on their mood and how much antimatter they have, they will manifest a dimensional shift, going from being idle to being actively involved in news ticker suggestions. This shift is due to the antimatter in their body emitting a certain wavelength, called \"red-shifted\"."
+    text: "대부분의 사람은 반물질 차원의 혜택을 온전히 받지 못하므로 그 영향을 받지 않습니다. 하지만 영향을 받는 일부 사람들은 기분과 보유한 반물질의 양에 따라 하루 중 특정 시간에 차원 이동을 일으켜, 아무것도 하지 않던 상태에서 뉴스 티커 제안에 적극 참여하는 상태로 바뀝니다. 이 이동은 몸속의 반물질이 \"적색편이\"라고 불리는 특정 파장을 방출하기 때문에 일어납니다."
   },
   {
     id: "ai909",
-    text: "By now we all know the drill. You get a new prestige layer just by spending eternity with someone."
+    text: "이제 다들 방법은 알고 있죠. 누군가와 영원을 보내기만 하면 새로운 프레스티지 계층을 얻습니다."
   },
   {
     id: "ai910",
-    text: "The real reason that the 9th dimension exists is to keep us all imprisoned in a virtual reality simulation."
+    text: "9번째 차원이 실제로 존재하는 이유는 우리 모두를 가상현실 시뮬레이션에 가둬 두기 위해서입니다."
   },
   {
     id: "ai911",
-    text: "Your PC is infected with a weird, floating virus that's trying to steal all your antimatter. There's no cure, so get offline now!"
+    text: "당신의 PC가 공중에 떠다니며 반물질을 전부 훔치려는 이상한 바이러스에 감염됐습니다. 치료법이 없으니 지금 당장 오프라인으로 전환하세요!"
   },
   {
     id: "ai912",
-    text: "The year is 5303. Hevipelle, the creator of Antimatter Dimensions, has touched the ninth dimension."
+    text: "지금은 5303년입니다. Antimatter Dimensions의 제작자 Hevipelle가 아홉 번째 차원에 닿았습니다."
   },
   {
     id: "ai913",
-    text: "The phrase \"Hevipelle hates me\" is pretty funny."
+    text: "\"Hevipelle는 나를 싫어해\"라는 문장은 꽤 웃깁니다."
   },
   {
     id: "ai914",
-    text: "The government shutdown has come and gone, the nation is still in a recession, and the Federal Reserve is still reading zero-hour contracts. The only thing that's getting better is your relationship with antimatter, obviously. It's been proven that knowing someone with an antimatter will bring you closer to extinction than any other kind of friend you can have."
+    text: "정부 폐쇄는 지나갔지만 국가는 여전히 불황에 빠져 있고, 연방준비제도는 아직도 제로아워 계약서를 읽고 있습니다. 나아지고 있는 것은 당연히 반물질과 여러분의 관계뿐입니다. 반물질을 가진 사람을 알면 어떤 친구를 사귈 때보다 멸종에 더 가까워진다는 사실이 입증되었습니다."
   },
   {
     id: "ai915",
-    text: "IMPORTANT NEWS: The developer Hevipelle has announced that Antimatter Dimensions: the game is now 100% free!"
+    text: "중요 뉴스: 개발자 Hevipelle가 이제 Antimatter Dimensions 게임을 100% 무료로 이용할 수 있다고 발표했습니다!"
   },
   {
     id: "ai916",
-    text: "Someday, we shall come upon the day when a man will sit on the head of a dragon and call it a \"Dragonball\". Such a man would then go and perform the Dragon Ball Z: Battle Royale in which he would use Dragon Ball Z: Fusion to create a gigantic dragon that would then consume the universe in the process, thus creating a \"Big Bang\". Such a man would then be rewarded by being \"built again\" and sent back to the \"Heavens\"."
+    text: "Someday, we shall come upon the day when a man will sit on the head of a dragon and call it a \"Dragonball\". Such a man would then go and perform the Dragon Ball Z: Battle Royale in which he would use Dragon Ball Z: Fusion to create a gigantic dragon that would then consume the universe in the process, thus creating a \"Big Bang\". Such a man would then be rewarded by being \"built again\" and sent back to the \"Heavens\". (언젠가 한 남자가 용의 머리에 앉아 그것을 드래곤볼이라 부르고, 배틀 로얄과 퓨전으로 거대한 용을 만들어 우주를 집어삼키게 해 빅뱅을 일으킨 뒤 다시 만들어져 천국으로 돌아간다는 Dragon Ball 제목·어휘 연쇄 농담입니다.)"
   },
   {
     id: "ai917",
-    text: "\"I think that the greatest achievement a man can make in his life is to say that he has read every single news ticker suggestion and nothing happened.\" - Kajfik"
+    text: "\"사람이 평생 이룰 수 있는 가장 위대한 업적은 뉴스 티커 제안을 하나도 빠짐없이 읽었지만 아무 일도 일어나지 않았다고 말하는 것이라 생각합니다.\" - Kajfik"
   },
   {
     id: "ai918",
-    text: "Titanfall 2 is now in closed beta. The beta is only for people who are willing to give up some personal information, such as email addresses. If you're in the beta and would like to leave, you can do so at any time by going to the Help tab and changing your beta settings to public."
+    text: "Titanfall 2가 비공개 베타에 들어갔습니다. 이 베타에는 이메일 주소 같은 개인 정보를 제공할 의향이 있는 사람만 참여할 수 있습니다. 베타에 참여 중이지만 나가고 싶다면 언제든 도움말 탭에서 베타 설정을 공개로 바꾸면 됩니다."
   },
   {
     id: "ai919",
-    text: "Personally I like to get a 4 or 5 star rating, it gives you an idea of how great your suggestion is and also shows me how much you care about the game. If you want I can also do a 6 star rating, which is fine with me. I don't care if people like it or not, I work for APG and I get paid to make money."
+    text: "개인적으로 저는 별점 4점이나 5점을 받는 게 좋습니다. 그러면 여러분의 제안이 얼마나 훌륭한지 알 수 있고, 여러분이 이 게임을 얼마나 아끼는지도 제게 보여 주니까요. 원한다면 별점 6점도 줄 수 있는데, 저는 상관없습니다. 사람들이 좋아하든 말든 신경 쓰지 않습니다. 저는 APG에서 일하고 돈을 벌기 위해 보수를 받으니까요."
   },
   {
     id: "ai920",
-    text: "The real reason no one talks about 9 is because it's not a big secret"
+    text: "아무도 9에 관해 이야기하지 않는 진짜 이유는 그게 대단한 비밀이 아니기 때문입니다"
   },
   {
     id: "ai921",
-    text: "The only difference between a man and a woman is their attitude towards petting animals."
+    text: "남성과 여성의 유일한 차이는 동물을 쓰다듬는 태도입니다."
   },
   {
     id: "ai922",
-    text: "A number of recent television documentaries have featured the story of a dog named Louie. He was accidentally made a member of the public after his owner left the house. One day he decided to play 'Let's Play Let's Play' with his owner. He was immediately put to sleep."
+    text: "최근 여러 TV 다큐멘터리에서 루이라는 개의 이야기를 다뤘습니다. 주인이 집을 나간 뒤 루이는 실수로 대중의 일원이 되었습니다. 어느 날 루이는 주인과 '렛츠 플레이 렛츠 플레이'를 하기로 했습니다. 그리고 곧바로 안락사당했습니다."
   },
   {
     id: "ai923",
-    text: "The entire history of the world, every single idea, every single failure, every single downfall, every single achievement has been covered in one fell swoop."
+    text: "세계의 모든 역사와 모든 발상, 모든 실패, 모든 몰락, 모든 업적을 단번에 다뤘습니다."
   },
   {
     id: "ai924",
-    text: "This sentence contains two paradoxes."
+    text: "이 문장에는 두 가지 역설이 들어 있습니다."
   },
   {
     id: "ai925",
-    get text() { return `The time has come to reveal the next expansion for Antimatter Dimensions: the ${format(Number.MAX_VALUE, 2)}th Dimension. It will be released in -5 hours, it costs ${format(Number.MAX_VALUE, 2)} human souls as of now, and it has nothing to do with matter or antimatter.`; }
+    get text() { return `Antimatter Dimensions의 다음 확장팩인 ${format(Number.MAX_VALUE, 2)}번째 차원을 공개할 때가 왔습니다. -5시간 후 출시되며, 현재 가격은 인간 영혼 ${format(Number.MAX_VALUE, 2)}개이고, 물질이나 반물질과는 아무 상관도 없습니다.`; }
   },
   {
     id: "ai926",
-    text: "I wonder what the fuss is about with the 4th dimension? Well, if you have 4 of them, and you multiply them by 0, then you get to the magical number of 4. That's why the 4th dimension exists. But what if there were 5? Well, the 5th dimension could replace the 4th dimension, so why not have a 5th dimension? Well, that's what the 6th, the 7th, and the 8th dimension are."
+    text: "4차원을 두고 왜 그렇게들 호들갑인지 궁금하군요. 자, 그것이 4개 있고 0을 곱하면 마법의 숫자 4가 나옵니다. 바로 그래서 4차원이 존재하는 겁니다. 하지만 그것이 5개라면 어떨까요? 5차원이 4차원을 대신할 수 있는데, 왜 5차원을 만들지 않겠어요? 바로 그것이 6차원, 7차원, 8차원입니다."
   },
   {
     id: "ai927",
-    text: "You are using the wrong version! The reality update is already out! Press Ctrl+Shift+Alt+Del to unlock the 9th Dimension!"
+    text: "You are using the wrong version! The reality update is already out! Press Ctrl+Shift+Alt+Del to unlock the 9th Dimension! (잘못된 버전을 사용하고 있습니다! 현실 업데이트는 이미 출시됐습니다! Ctrl+Shift+Alt+Del을 눌러 아홉 번째 차원을 해금하세요!)"
   },
   {
     id: "ai928",
-    text: "A man claims that he's been in a coma for 20 years now, and that he can't move his fingers. He was brought to the hospital with a compression fracture of his back, and since then he's been receiving medical help. He's since recovered, and now requires no medical attention. We still don't know where he's going with this, but we hope he finds some comfort in knowing that he'll never wake up."
+    text: "한 남성이 자신이 20년째 혼수상태에 빠져 있으며 손가락을 움직일 수 없다고 주장합니다. 그는 척추 압박 골절로 병원에 실려 온 뒤 계속 치료를 받아 왔습니다. 이후 회복해 이제는 의학적 도움이 필요하지 않습니다. 그가 이 이야기로 무슨 말을 하려는지는 여전히 모르겠지만, 자신이 영원히 깨어나지 못한다는 사실에서 조금이나마 위안을 얻기를 바랍니다."
   },
   {
     id: "ai929",
-    text: "To move from left to right, turn right."
+    text: "왼쪽에서 오른쪽으로 이동하려면 오른쪽으로 도세요."
   },
   {
     id: "ai930",
-    text: "Then we have the matter dimensions. From what I can gather, they are made of antimatter. There is some debate about whether or not there are any dimensions left over that are made out of matter, but that is not the main question. The real question is \"why do they exist, and how does antimatter affect them?\""
+    text: "다음은 물질 차원입니다. 제가 알아낸 바로는 반물질로 이루어져 있습니다. 물질로 이루어진 차원이 남아 있는지를 두고 약간의 논쟁이 있지만, 그게 핵심 질문은 아닙니다. 진짜 질문은 \"왜 존재하며, 반물질이 어떤 영향을 미치는가?\"입니다."
   },
   {
     id: "ai931",
-    text: "A new breed of mad scientist is believed to be creating antimatter at an alarming rate."
+    text: "새로운 유형의 미친 과학자가 놀라운 속도로 반물질을 만들고 있는 것으로 보입니다."
   },
   {
     id: "ai932",
-    text: "A new kind of justice has been discovered: mass deception. It works by tricking the player into thinking that he/she has done something wrong, when in fact he/she has just done something perfectly normal, i.e. going about his/her daily life normally, without thinking about it."
+    text: "새로운 종류의 정의가 발견됐습니다. 바로 대규모 기만입니다. 플레이어는 그저 아무 생각 없이 평범한 일상을 보냈을 뿐인데 무언가 잘못했다고 믿게 속이는 방식입니다."
   },
   {
     id: "ai933",
-    text: "Dedicated to the great and wonderful man behind the curtain, the great and wonderful name rick roll. RIP, good man. May you rest in peace."
+    text: "Dedicated to the great and wonderful man behind the curtain, the great and wonderful name rick roll. RIP, good man. May you rest in peace. (장막 뒤의 위대하고 멋진 남자, 위대하고 멋진 이름 릭롤에게 바칩니다. 좋은 분이여, 편히 잠드소서.)"
   },
   {
     id: "ai934",
-    text: "For the last time, Antimatter Dimensions isn't a Clicker game."
+    text: "마지막으로 말하지만, Antimatter Dimensions는 클릭커 게임이 아닙니다."
   },
   {
     id: "ai935",
-    text: "The number of dimensions is infinite, but the quality of your dimensions is limited. This is why we only produce the highest quality antimatter, and what makes us different from other factories."
+    text: "차원의 수는 무한하지만 차원의 품질에는 한계가 있습니다. 그래서 저희는 최고 품질의 반물질만 생산하며, 바로 이것이 다른 공장과의 차이점입니다."
   },
   {
     id: "ai936",
-    text: "I've heard of prestige layers before but never sure what to do with them."
+    text: "프레스티지 계층에 관해 들어 본 적은 있지만 어떻게 해야 할지는 늘 모르겠습니다."
   },
   {
     id: "ai937",
-    text: "A man walks into a bar. The bartender tells him to stay the heck out. The man continues walking."
+    text: "A man walks into a bar. The bartender tells him to stay the heck out. The man continues walking. (한 남자가 술집으로 걸어 들어갑니다. 바텐더는 당장 나가라고 말합니다. 남자는 계속 걸어갑니다.)"
   },
   {
     id: "ai938",
-    text: "The oldest and maybe the most famous game in all of AD, that certainly will be remembered long after you retire, is AD. Ever heard of someone winning the game with more than 2 1's? I have. Ever heard of someone losing it? I have. Ever heard of a 9th dimension existing in AD? I have never."
+    text: "The oldest and maybe the most famous game in all of AD, that certainly will be remembered long after you retire, is AD. Ever heard of someone winning the game with more than 2 1's? I have. Ever heard of someone losing it? I have. Ever heard of a 9th dimension existing in AD? I have never. (AD 전체에서 가장 오래되고 아마 가장 유명하며, 여러분이 은퇴한 뒤에도 틀림없이 기억될 게임은 AD입니다. 일 두 개보다 많은 수로 게임을 이긴 사람을 들어 본 적 있나요? 저는 있습니다. 게임에서 진 사람은요? 역시 있습니다. AD에 아홉 번째 차원이 존재한다는 말은요? 그건 한 번도 없습니다.)"
   },
   {
     id: "ai939",
-    text: "Greetings, I am the first step of the step ladder."
+    text: "Greetings, I am the first step of the step ladder. (안녕하세요, 저는 발판 사다리의 첫 번째 발판입니다.)"
   },
   {
     id: "ai940",
-    get text() { return `It's the year ${format(Number.MAX_VALUE, 2)}, Hevi is still trying to figure out how to fix the update.`; }
+    get text() { return `지금은 ${format(Number.MAX_VALUE, 2)}년이고, Hevi는 아직도 업데이트를 고칠 방법을 찾고 있습니다.`; }
   },
   {
     id: "ai941",
-    text: "What if you could stretch your legs and not lose them forever?"
+    text: "다리를 뻗고도 영원히 잃어버리지 않을 수 있다면 어떨까요?"
   },
   {
     id: "ai942",
-    text: "T he most important thing to realize is that you don't have to play the game to get the achievement. You can actually get it by just reading the achievement descriptions."
+    text: "가장 중요한 사실은 도전과제를 얻기 위해 게임을 플레이할 필요가 없다는 것입니다. 도전과제 설명을 읽기만 해도 실제로 얻을 수 있습니다."
   },
   {
     id: "ai943",
-    text: "A new bank has been set up to provide safe haven for cryptocurrencies."
+    text: "암호화폐에 안전한 피난처를 제공할 새로운 은행이 설립됐습니다."
   },
   {
     id: "ai944",
-    text: "Google+ is known to be a hit with teens, and today, they got their very own virtual reality (VR) version of Animal Farm, the classic 1950's farm story. The game is a blend of adventure, strategy and music, and was made by a small team of people with an eye towards engaging young people. The game offers an alternative to most other VR games, and is suitable for anyone who is not comfortable with large, complicated, graphics and sounds. The game features over 50 different..."
+    text: "Google+는 십 대들에게 인기가 많은 것으로 알려져 있으며, 오늘 그들만을 위한 고전적인 1950년대 농장 이야기 『동물 농장』의 가상 현실(VR) 버전이 나왔습니다. 모험과 전략, 음악을 결합한 이 게임은 젊은 층의 흥미를 끌려는 소규모 팀이 제작했습니다. 다른 대부분의 VR 게임과는 색다른 선택지를 제공하며, 크고 복잡한 그래픽과 소리가 불편한 사람에게 적합합니다. 게임에는 50가지가 넘는 서로 다른..."
   },
   {
     id: "ai945",
-    text: "This game could be called anything. You could call it whatever you like. But you'd be wrong. It's mine."
+    text: "이 게임에는 어떤 이름이든 붙일 수 있습니다. 마음대로 부를 수 있죠. 하지만 틀렸습니다. 이건 제 것이니까요."
   },
   {
     id: "ai946",
-    text: "Where does all the antimatter come from?"
+    text: "그 모든 반물질은 어디에서 오는 걸까요?"
   },
   {
     id: "ai947",
-    text: "The Tickspeed Challenge is a team based game where you have to time-travel to the Andromeda galaxy to reach the 9th Dimension, the 1st Dimension being the shortest distance to the 9th Dimension. There is no perk for reaching the 9th Dimension, you just have to time-travel to the Andromeda galaxy to reach the 9th Dimension, and you'll be granted with a secret achievement for achieving instant [REDACTED] with no time-travelling."
+    text: "틱 속도 도전은 안드로메다 은하로 시간 여행하여 9차원에 도달해야 하는 팀 기반 게임이며, 1차원에서 9차원까지의 거리가 가장 짧습니다. 9차원에 도달해도 퍼크는 없습니다. 그저 안드로메다 은하로 시간 여행하여 9차원에 도달하면 되며, 시간 여행 없이 즉시 [REDACTED]를 달성하면 비밀 도전과제를 받습니다."
   },
   {
     id: "ai948",
-    text: "This is the question that has been bothering me for so long. What is Antimatter? Is Antimatter an Antimatter? What does it mean when you say \"Antimatter\"? These are the kinds of questions that plague the Antimatter Dimensions..."
+    text: "이 질문은 오랫동안 저를 괴롭혀 왔습니다. 반물질이란 무엇일까요? 반물질은 반물질일까요? \"반물질\"이라고 말할 때 무슨 뜻일까요? 바로 이런 질문들이 Antimatter Dimensions를 괴롭힙니다..."
   },
   {
     id: "ai949",
-    text: "The term 'Antimatter Dimensions' is a play on words that literally means 'Antimatter Dimensions' in the dictionary."
+    text: "The term 'Antimatter Dimensions' is a play on words that literally means 'Antimatter Dimensions' in the dictionary. ('Antimatter Dimensions'라는 말은 사전에서도 글자 그대로 'Antimatter Dimensions'를 뜻한다는 말장난입니다.)"
   },
   {
     id: "ai950",
-    text: "I can suspend the laws of physics because I'm a genius and my universe is so big that I can literally suspend the laws of physics and create a universe that's twice as big as the current one and with twice the mass, i'm sure you can imagine how big that would be."
+    text: "저는 천재이고 제 우주는 워낙 커서 물리 법칙을 말 그대로 정지시키고, 현재보다 크기도 두 배이고 질량도 두 배인 우주를 만들 수 있습니다. 얼마나 클지 상상할 수 있을 겁니다."
   },
   {
     id: "ai951",
-    text: "When you are fighting a losing war, you make peace with the Powers That Be. You give up the ghost, and move on to the next challenge."
+    text: "패배할 전쟁을 치르고 있다면 권력을 쥔 자들과 화해해야 합니다. 미련을 버리고 다음 도전으로 넘어가는 겁니다."
   },
   {
     id: "ai952",
-    text: "Somewhere, in another galaxy, a superintelligence is trying to figure out how to get around the limitations of what a 2-dimensional vector space is. It's probably working on a 3-dimensional space."
+    text: "다른 은하계 어딘가에서 초지능이 2차원 벡터 공간의 한계를 우회할 방법을 찾고 있습니다. 아마 3차원 공간을 연구하고 있을 겁니다."
   },
   {
     id: "ai953",
-    text: "The antagonist of the last few minutes is the mysterious, antimatter-covered being known only as \"The Man in Black.\" He was last seen running towards a news broadcast, seemingly lost, until he made it back to the news station and was interviewed about his experience. His story is told in the bottom right corner of the screen."
+    text: "지난 몇 분간의 악역은 \"검은 옷의 남자\"라고만 알려진, 반물질로 뒤덮인 수수께끼의 존재입니다. 그는 길을 잃은 듯 뉴스 방송을 향해 달려가다가 방송국으로 돌아와 자신의 경험을 인터뷰하는 모습이 마지막으로 목격됐습니다. 그의 이야기는 화면 오른쪽 아래에서 전해집니다."
   },
   {
     id: "ai954",
-    text: "You have unlocked the 4th storyline."
+    text: "4번째 이야기 갈래를 해금했습니다."
   },
   {
     id: "ai955",
-    text: "While you were busy farming that pesky \"real\" number, I was busy writing that news ticker."
+    text: "당신이 그 성가신 \"실수\"를 파밍하느라 바쁜 동안, 저는 이 뉴스 티커를 쓰느라 바빴습니다."
   },
   {
     id: "ai956",
-    text: "A new power has arisen: the antimatter."
+    text: "새로운 힘이 등장했습니다. 바로 반물질입니다."
   },
   {
     id: "ai957",
-    text: "The day has come. The antimatter is falling from the sky, and the streets are silent."
+    text: "그날이 왔습니다. 하늘에서 반물질이 떨어지고, 거리는 고요합니다."
   },
   {
     id: "ai958",
-    text: "The most important thing is to understand that you are playing a simulation. You can win or lose, but you can't get anything from it other than a little itch on your neck."
+    text: "가장 중요한 것은 지금 시뮬레이션을 플레이하고 있다는 사실을 이해하는 것입니다. 이기거나 질 수는 있지만, 목이 조금 가려워지는 것 말고는 아무것도 얻을 수 없습니다."
   },
   {
     id: "ai959",
-    text: "The anti-snowman is a very special snowman. He's very timid, but has a very powerful wish to be picked up by a helicopter. The government doesn't want this to happen, so they lock him up in a special building and fly him over great distances. Finally, they drop him on the ground and begin to pick him up. The government didn't use force to pick him up, instead they invited the entire community in and started picking them up. The community refused."
+    text: "안티 눈사람은 아주 특별한 눈사람입니다. 그는 무척 소심하지만 헬리콥터에 들어 올려지고 싶은 강렬한 소망이 있습니다. 정부는 그런 일이 일어나길 원치 않아 그를 특수 건물에 가두고 아주 먼 거리를 날아갑니다. 마침내 그를 땅에 떨어뜨리고 들어 올리기 시작합니다. 정부는 그를 들어 올리는 데 무력을 쓰지 않고, 대신 공동체 전체를 불러들여 그들을 들어 올리기 시작했습니다. 공동체는 거부했습니다."
   },
   {
     id: "ai960",
-    text: "I'm surprised you didn't say \"Not my cup of anti-tea.\""
+    text: "I'm surprised you didn't say \"Not my cup of anti-tea.\" (“내 취향이 아니다”라는 관용구의 tea를 anti-tea로 바꾼 말장난을 하지 않아서 놀랐습니다.)"
   },
   {
     id: "ai961",
-    text: "I see you are a man of culture as well. I wonder what it is that draws you to speak in such an ungainly, tortured voice? What attracts you to speak in a language no one can understand? I hear your fans rave about your videos, but what draws you to this place? I feel like I know you. You are... you are a man of mystery. One that intrigues me..."
+    text: "I see you are a man of culture as well. I wonder what it is that draws you to speak in such an ungainly, tortured voice? What attracts you to speak in a language no one can understand? I hear your fans rave about your videos, but what draws you to this place? I feel like I know you. You are... you are a man of mystery. One that intrigues me... (당신도 교양 있는 사람이군요. 무엇이 당신을 그토록 어색하고 괴로운 목소리와 아무도 이해할 수 없는 언어로 말하게 하는지 궁금합니다. 팬들이 영상을 극찬한다고 들었지만 당신은 여전히 호기심을 자극하는 수수께끼 같은 사람입니다.)"
   },
   {
     id: "ai962",
-    text: "Note: this is a private message. Do not send it in public."
+    text: "참고: 비공개 메시지입니다. 공개된 곳에 보내지 마세요."
   },
   {
     id: "ai963",
-    text: "When you reach Infinity you unlock a new dimension: Pandemonium Dimensions. Go to the news ticker for more information."
+    text: "무한에 도달하면 새로운 차원인 Pandemonium Dimensions가 해금됩니다. 자세한 내용은 뉴스 티커를 확인하세요."
   },
   {
     id: "ai964",
-    get text() { return `Although the majority of players would say that the 9th dimension is not a thing, a handful of people would go and level it up in the most epic way imaginable. These people would use the power of the 9th dimension and achieve, like, ${format(Number.MAX_VALUE, 2)} EP with it. No? Well, they are the exceptions to the rule.`; },
+    get text() { return `대부분의 플레이어는 9번째 차원이 실재하지 않는다고 말하겠지만, 소수의 사람은 상상할 수 있는 가장 장대한 방법으로 그 차원의 레벨을 올릴 겁니다. 그들은 9번째 차원의 힘을 사용해 무려 ${format(Number.MAX_VALUE, 2)} EP를 달성하겠죠. 아닌가요? 그렇다면 그들은 규칙의 예외입니다.`; },
     get unlocked() { return PlayerProgress.eternityUnlocked(); }
   },
   {
     id: "ai965",
-    text: "The story of the \"perish the thought of dying\" movement has been told before, but never quite accurately. The movement was originally organized by antievolutionists to stop the exponential growth of scientific notation, but soon spread to oppose any form of \"progress\". In its early days the movement was led by an enigmatic individual known only as \"The Great Hevipelle\". Their philosophy was simple: expand the possibilities of what is possible, and push the limits of what is tolerable."
+    text: "\"죽는다는 생각은 집어치워라\" 운동의 이야기는 전에도 전해졌지만, 정확히 알려진 적은 없습니다. 이 운동은 원래 과학적 표기법의 지수적 성장을 막으려는 반진화론자들이 조직했지만, 곧 모든 형태의 \"진보\"에 반대하는 운동으로 퍼졌습니다. 초창기에는 \"위대한 Hevipelle\"로만 알려진 수수께끼의 인물이 이끌었습니다. 그들의 철학은 간단했습니다. 가능한 것의 가능성을 넓히고, 견딜 수 있는 것의 한계를 밀어붙이는 것입니다."
   },
   {
     id: "ai966",
-    text: "This is the story of how the world ended. Earth was once a lush and green world. Then, some guy from outer space touched it and started growing mushrooms. He called himself Hevi. Some say Hevi was never satisfied. Some say he exploded. All we know is that Hevi is still out there expanding his reach, and we are stuck here in the void of space."
+    text: "이것은 세계가 어떻게 끝났는지에 관한 이야기입니다. 지구는 한때 푸르고 생명으로 가득한 세계였습니다. 그러다 우주에서 온 누군가가 지구를 건드리고 버섯을 기르기 시작했습니다. 그는 자신을 Hevi라고 불렀습니다. Hevi는 절대 만족하지 못했다고도 하고, 폭발했다고도 합니다. 확실한 것은 Hevi가 여전히 어딘가에서 세력을 넓히고 있고, 우리는 이 우주의 공허에 갇혀 있다는 사실뿐입니다."
   },
   {
     id: "ai967",
-    text: "Antimatter Dimensions, the only place where you can trade real estate for virtual reality"
+    text: "Antimatter Dimensions, 부동산을 가상현실과 바꿀 수 있는 유일한 곳"
   },
   {
     id: "ai968",
-    text: "This page contains spoilers for Antimatter Dimensions, you've been warned."
+    text: "이 페이지에는 Antimatter Dimensions의 스포일러가 있습니다. 경고했습니다."
   },
   {
     id: "ai969",
-    text: "The best thing about being a news ticker is being able to slip into the news without anyone noticing."
+    text: "뉴스 티커의 가장 좋은 점은 아무도 눈치채지 못하게 뉴스 속으로 슬쩍 들어갈 수 있다는 것입니다."
   },
   {
     id: "ai970",
-    text: "This paperclip maximizer is a great idea. It's probably best not to let it run its course though, since it's quite possibly the most amazing thing you've ever seen. If you've somehow survived the first phase of the paperclip dimension, you're probably wondering what it's doing in your home. Fortunately, it's super simple to fix. Just go to options, and change \"Max all\" to \"Always max all\"."
+    text: "이 클립 최대화 장치는 아주 좋은 아이디어입니다. 다만 여러분이 본 것 중 가장 놀라운 물건일지도 모르니, 끝까지 작동하게 두지 않는 편이 좋을 겁니다. 어떻게든 클립 차원의 첫 단계를 살아남았다면, 이것이 왜 집에 있는지 궁금할 겁니다. 다행히 해결법은 아주 간단합니다. 옵션으로 가서 \"모두 최대화\"를 \"항상 모두 최대화\"로 바꾸기만 하면 됩니다."
   },
   {
     id: "ai971",
-    text: "A powerful wizard chose to channel negative energy into antimatter, and now the antimatter is spilling out into the world."
+    text: "강력한 마법사가 음의 에너지를 반물질로 흘려보냈고, 이제 반물질이 세계로 쏟아져 나오고 있습니다."
   },
   {
     id: "ai972",
-    text: "A new age of ultra low-cost, ultra-fast trains has been announced by Elon Musk. Users will be able to travel from A to Z in a mere 186ms."
+    text: "Elon Musk가 초저가 초고속 열차의 새로운 시대를 발표했습니다. 이용자는 단 186ms 만에 A에서 Z까지 이동할 수 있습니다."
   },
   {
     id: "ai973",
-    text: "A group of researchers at the University of Manchester have created a 3D printer that can create any object out of thin air, including a 3D-printed replica of the Virgin Mary."
+    text: "맨체스터 대학교 연구진이 허공에서 어떤 물체든 만들 수 있는 3D 프린터를 개발했습니다. 3D로 출력한 성모 마리아 복제품도 만들 수 있습니다."
   },
   {
     id: "ai974",
-    text: "Alright, here's a new game called Antimatter Dimensions, it's like Matter Dimensions except with less stuff and more fun. It's available on Android, iOS, and web. The game is very simple: you take the 6 dimensions and the antimatter, and in the 6 dimensions you take the matter and in the matter you take the antimatter, and you play the game the same way you would any other game."
+    text: "자, Antimatter Dimensions라는 새 게임을 소개합니다. Matter Dimensions와 비슷하지만 내용물은 더 적고 재미는 더 많습니다. Android와 iOS, 웹에서 이용할 수 있습니다. 게임은 아주 간단합니다. 6개의 차원과 반물질을 가져오고, 그 6개의 차원에서는 물질을 가져오며, 물질 안에서는 반물질을 가져온 다음, 다른 게임을 하듯 똑같이 플레이하면 됩니다."
   },
   {
     id: "ai975",
-    text: "What arbitrary, subjective, meaningless number comes out of your mouth like a mercury thermometer? 1.79"
+    text: "What arbitrary, subjective, meaningless number comes out of your mouth like a mercury thermometer? 1.79 (수은 온도계처럼 입에서 튀어나오는 자의적이고 주관적이며 무의미한 숫자는 무엇일까요? 답은 일 점 칠구입니다.)"
   },
   {
     id: "ai976",
-    text: "\"Word on the street is that the word \"bank\" is an anagram of \"bank\" - that makes sense but i'm not there yet\" - Slabdrill"
+    text: "\"Word on the street is that the word \"bank\" is an anagram of \"bank\" - that makes sense but i'm not there yet\" - Slabdrill (“소문에 따르면 bank라는 단어는 bank의 애너그램이라는데, 말은 되지만 아직 이해하지 못했다” - Slabdrill. 단어의 글자를 전혀 바꾸지 않은 애너그램 농담입니다.)"
   },
   {
     id: "ai977",
-    text: "The 9th dimension rose up like a volcano and began raining destruction on the empty 10th dimension. The smoke and debris from the exploding 9th dimension covered the entire 9th dimension. All that is left is a smoldering crater and the remains of the 9th dimension."
+    text: "9번째 차원이 화산처럼 솟아올라 텅 빈 10번째 차원에 파괴를 쏟아 내기 시작했습니다. 폭발한 9번째 차원에서 나온 연기와 잔해가 9번째 차원 전체를 뒤덮었습니다. 남은 것은 연기 나는 분화구와 9번째 차원의 잔해뿐입니다."
   },
   {
     id: "ai978",
-    text: "Help! How do I get the dots moving in my head coordinator?"
+    text: "도와주세요! 머릿속 좌표 조정기에서 점들을 어떻게 움직이나요?"
   },
   {
     id: "ai979",
-    text: "Hi, could you please not disable the news ticker? Thank me later."
+    text: "안녕하세요, 뉴스 티커를 비활성화하지 말아 주시겠어요? 나중에 감사하게 될 겁니다."
   },
   {
     id: "ai980",
-    text: "If you are suffering from low antimatter production, then worry not, friend! Our highly scientific antimatter government has recently reached the ninth dimension and will soon begin giving us the Anti-Hats as a sign of respect!"
+    text: "반물질 생산량 부족으로 고통받고 있다면 걱정 마세요, 친구여! 우리의 고도로 과학적인 반물질 정부가 최근 아홉 번째 차원에 도달했으며, 곧 존중의 표시로 우리에게 안티 모자를 나눠 주기 시작할 겁니다!"
   },
   {
     id: "ai981",
-    text: "You click the bottom left corner of the screen and a green tingle goes up your leg. It's a treat you get from scratching antimatter."
+    text: "화면 왼쪽 아래 모서리를 클릭하면 초록빛 찌릿함이 다리를 타고 올라옵니다. 반물질을 긁어서 얻는 특별한 즐거움입니다."
   },
   {
     id: "ai982",
-    text: "A quick note to those of you who buy into the Analytics subscription: we get a small percentage of your antimatter sales, but you do pay a small amount of money to support the research of the news ticker. It's a small price to pay for the convenience of browsing antimatter dimensions."
+    text: "Analytics 구독을 구매한 분들께 간단히 알려 드립니다. 저희는 여러분의 반물질 판매액 중 일부를 받으며, 여러분은 뉴스 티커 연구를 지원하기 위해 소액을 지불합니다. 반물질 차원을 편리하게 둘러보는 대가로는 저렴한 편입니다."
   },
   {
     id: "ai983",
-    text: "Why haven't we caused the antimatter stock market to crash yet?"
+    text: "왜 아직 반물질 주식 시장을 붕괴시키지 못했을까요?"
   },
   {
     id: "ai984",
-    text: "Even after the Heavenly Pelle put a large amount of antimatter in the pool, it hasn't produced anything. The scientist who discovered the vulnerability was last seen climbing a tree in a group of 10, with a small notebook on his lap, drinking cheese juice and watching Nothing."
+    text: "천상의 Pelle가 웅덩이에 대량의 반물질을 넣었는데도 아무것도 만들어지지 않았습니다. 이 취약점을 발견한 과학자는 10명이 한 무리를 이뤄 나무를 오르며, 무릎에 작은 공책을 올려놓고 치즈 주스를 마시면서 아무것도 보지 않는 모습이 마지막으로 목격되었습니다."
   },
   {
     id: "ai985",
-    text: "One-two-three, boo-two-three, three-four-five, anti-four-five, two-three-eight, nine-fifteen, five-six-seven, eight-nine-ten, nine-ten-ten, seven-seventy-eight... All has been going fine until last night, when four of the eight neighbors start complaining about a strange glow. A odd hum runs through the neighborhood, almost like a radio static. It gets more and more intense as you drive by, until it's practically pitch black. You try to explain it to the neighbors, but they won't listen. The neighborhood is unsafe, everyone knows that. You analyze it further, everyone thinks it's just some astrophysicist's idea. Then, s---. It's explodium. There's antimatter everywhere, and it's getting worse all the time. It turns out, there's about 1e31 Planck volumes in the entire observable universe. And that's just the antimatter we're talking about. There's also dark matter, normal matter, and extra matter. You know, the kind you create with your imagination."
+    text: "하나-둘-셋, 부-둘-셋, 셋-넷-다섯, 안티-넷-다섯, 둘-셋-여덟, 아홉-열다섯, 다섯-여섯-일곱, 여덟-아홉-열, 아홉-열-열, 일곱-일흔여덟... 지난밤까지는 모든 것이 순조로웠지만, 이웃 여덟 명 중 네 명이 이상한 빛을 호소하기 시작했습니다. 라디오 잡음과 비슷한 기묘한 웅웅거림이 동네 전체를 훑고 지나갑니다. 차를 몰고 지나갈수록 점점 강해져 마침내 거의 칠흑처럼 어두워집니다. 이웃들에게 설명하려 해도 듣지 않습니다. 이 동네가 위험하다는 건 누구나 압니다. 더 깊이 분석해 보지만 모두 그저 어느 천체물리학자의 생각일 뿐이라고 여깁니다. 그러다, 젠---. 익스플로듐입니다. 사방에 반물질이 널렸고 상황은 계속 악화됩니다. 관측 가능한 우주 전체에는 약 1e31개의 플랑크 부피가 있다는 사실이 드러납니다. 그것도 지금 이야기하는 반물질만 따진 겁니다. 암흑 물질과 일반 물질, 여분의 물질도 있습니다. 있잖아요, 상상력으로 만들어 내는 그런 종류 말입니다."
   },
   {
     id: "ai986",
-    text: "If you ever feel like making an antijoke, just remember that it could be pretty good."
+    text: "If you ever feel like making an antijoke, just remember that it could be pretty good. (안티 조크를 만들고 싶다면 꽤 괜찮을 수도 있다는 사실만 기억하세요. 기대한 반전을 주지 않는 안티 조크입니다.)"
   },
   {
     id: "ai987",
-    text: "You won't convince anyone to go to heaven, but you might get close."
+    text: "누구도 천국에 가도록 설득하지는 못하겠지만, 가까이 갈 수는 있을지도 모릅니다."
   },
   {
     id: "ai988",
-    text: "BREAKING NEWS: Hevipelle, the creator of the 9th dimension, has just announced that beta will be out in 5 hours!"
+    text: "속보: 9번째 차원의 제작자 Hevipelle가 방금 베타 버전을 5시간 후에 출시한다고 발표했습니다!"
   },
   {
     id: "ai989",
-    text: "The Force is with you."
+    text: "The Force is with you. (포스가 함께하길.)"
   },
   {
     id: "ai990",
-    text: "What if Jesus was an anti-matter ghost?"
+    text: "What if Jesus was an anti-matter ghost? (예수가 반물질 유령이라면 어떨까요?)"
   },
   {
     id: "ai991",
-    text: "In the summer of 711, the Great Calamity overtook Tyria. A great void was made, and Tyria was left to rot. The armies of the known world had given up, and the void was filled with darkness. Only the might of Kajfik remained, and he rose to become the greatest God in the known world. He is said to be the one who will face the Great Calamity alone, and destroy him."
+    text: "711년 여름, 대재앙이 티리아를 덮쳤습니다. 거대한 공허가 생겨났고 티리아는 썩어 가도록 버려졌습니다. 알려진 세계의 군대들은 포기했고, 공허는 어둠으로 가득 찼습니다. 카지픽의 힘만이 남았으며, 그는 일어나 알려진 세계에서 가장 위대한 신이 되었습니다. 그는 홀로 대재앙에 맞서 그것을 파괴할 자라고 전해집니다."
   },
   {
     id: "ai992",
-    text: "In recent news clashes, the warlocks have been gathering looters for raid boss. He loves his 5 hour looters and wants to show off his mighty weapon of choice, the 9th Dimension. As the two beasts battle, the 1st dimension holder needs to be careful as the first one might get the same as the 2nd one as well. Meanwhile, the raid ends its journey with a bang as the boss squanders the Explodium exploit by flooding the area with Explodium, which before his, was filled with Marsh Mice. Both are promptly annihilated by the boss' relentless claw attacks. It's a grueling job, but the raid stalwarts manage to grab the stalagm and push him across the opal Gondwan . With the boss dead and the warlocks not far behind, the warlocks try their hand at farming looters, but the grinding continues apace. Things are looking bleak for the warlocks, as the boss seeks to take advantage of the people's greed, and steal their weaponry, making them unable to use any remaining of their  weapons, which are made of highly-stable antimatter. The warlocks attempt to use the no fluke policy as a weapon to smite the people, but the people take to the streets, physically attacking and mentally draining the people of all mental capacity they had been holding onto. The people resort to violence, using the 9th dimension just like they use to hold people back, but the people have faith in God that he will merciful, He will bring about a kinder and gentler time where everyone can use the last drop of their power."
+    text: "최근 뉴스 충돌에서 흑마법사들은 레이드 보스를 상대할 약탈자들을 모으고 있습니다. 보스는 5시간짜리 약탈자들을 무척 좋아하며, 자신이 선택한 강력한 무기인 9차원을 뽐내고 싶어 합니다. 두 괴수가 싸우는 동안 첫 번째도 두 번째와 같은 일을 당할 수 있으므로 1차원 보유자는 2차원 보유자처럼 조심해야 합니다. 한편 보스가 익스플로듐으로 지역을 물바다로 만들어 익스플로듐 취약점을 낭비하면서 레이드는 폭발과 함께 여정을 끝냅니다. 그곳은 전에는 습지 쥐로 가득했습니다. 둘 다 보스의 가차 없는 발톱 공격에 곧바로 전멸합니다. 고된 일이지만 레이드의 역전들은 스탈라그를 붙잡아 오팔 곤드완 너머로 밀어내는 데 성공합니다. 보스가 죽고 흑마법사들도 바짝 뒤따르는 가운데, 흑마법사들은 약탈자 파밍에 손을 대지만 반복 작업은 같은 속도로 계속됩니다. 보스가 사람들의 탐욕을 이용해 무기를 훔치려 하면서 흑마법사들의 전망은 어두워집니다. 그 결과 사람들은 고도로 안정된 반물질로 만든 남은 무기를 하나도 사용할 수 없게 됩니다. 흑마법사들은 요행 금지 정책을 무기로 삼아 사람들을 응징하려 하지만, 사람들은 거리로 나와 서로를 육체적으로 공격하고 간직해 온 정신력을 모조리 소진시킵니다. 사람들은 남을 저지할 때와 마찬가지로 9차원을 사용하며 폭력에 의지하지만, 신이 자비를 베풀고 모두가 마지막 한 방울의 힘까지 쓸 수 있는 더 친절하고 온화한 시대를 가져오리라 믿습니다."
   },
   {
     id: "ai993",
-    text: "What if you wanted to but I told you it would be too painful for you."
+    text: "What if you wanted to but I told you it would be too painful for you. (당신은 원했지만, 제가 당신에게 너무 고통스러울 거라고 말했다면 어떨까요?)"
   },
   {
     id: "ai994",
-    text: "how big of numbers do you have"
+    text: "숫자가 얼마나 큰가요"
   },
   {
     id: "ai995",
-    text: "Just want to thank the dev team for putting so much effort into Antimatter Dimensions and the Antimatter Dimensions 2"
+    text: "Antimatter Dimensions와 Antimatter Dimensions 2에 많은 노력을 기울인 개발팀에 감사드리고 싶습니다"
   },
   {
     id: "ai996",
-    text: "Hevipelle has broken the 9th wall! Get ready for everything to get pretty dark."
+    text: "Hevipelle has broken the 9th wall! Get ready for everything to get pretty dark. (Hevipelle가 아홉 번째 벽을 부쉈습니다! 모든 것이 상당히 어두워질 테니 준비하세요. '네 번째 벽'을 비튼 농담입니다.)"
   },
   {
     id: "ai997",
-    get text() { return `The intergalactic antimatter trade has been severely disrupted, trading entire galaxies for the occasional paperclip. Cargo stands are no longer used. Oddly enough, the entire dimension has become a dumping ground for discarded plastic and other useless garbage. It's almost as if the rest of the multiverse isn't producing enough good  antiparticles to feed the growing population. Unfortunately, the situation is forcing the entire multiverse to scramble to find ways to meet the growing needs of the antimatter-eating  dev, who claims to have over ${format(Number.MAX_VALUE, 2)} specimens left to collect.`; }
+    get text() { return `은하계 사이의 반물질 무역이 심각하게 붕괴하여, 은하 전체가 가끔 클립 하나와 거래되고 있습니다. 화물 가판대는 더 이상 쓰이지 않습니다. 이상하게도 차원 전체가 버려진 플라스틱과 쓸모없는 쓰레기의 폐기장이 되었습니다. 마치 나머지 다중우주가 늘어나는 인구를 먹일 만큼 좋은 반입자를 충분히 생산하지 못하는 듯합니다. 안타깝게도 이 상황 때문에 다중우주 전체가 반물질을 먹는 개발자의 커져 가는 수요를 충족할 방법을 다급히 찾고 있습니다. 그 개발자는 아직 ${format(Number.MAX_VALUE, 2)}개가 넘는 표본을 수집해야 한다고 주장합니다.`; }
   }
 ];

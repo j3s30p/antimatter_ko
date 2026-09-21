@@ -1017,13 +1017,13 @@ export const normalAchievements = [
   },
   {
     id: 141,
-    name: "Snap back to reality",
-    description: "Make a new Reality.",
+    name: "현실로 돌아와",
+    description: "새로운 현실에 도달한다.",
     checkRequirement: () => true,
     checkEvent: GAME_EVENT.REALITY_RESET_BEFORE,
     get reward() {
-      return `${formatX(4)} Infinity Point gain, and increase the multiplier for buying ${formatInt(10)}
-      Antimatter Dimensions by +${format(0.1, 0, 1)}.`;
+      return `무한 포인트 획득량이 ${formatX(4)} 증가하고, 반물질 차원 ${formatInt(10)}개 구매 배율이
+      +${format(0.1, 0, 1)} 증가한다.`;
     },
     effects: {
       ipGain: 4,
@@ -1032,20 +1032,20 @@ export const normalAchievements = [
   },
   {
     id: 142,
-    name: "How does this work?",
-    description: "Unlock the automator.",
+    name: "이게 어떻게 작동하지?",
+    description: "오토메이터를 해금한다.",
     checkRequirement: () => Player.automatorUnlocked,
     checkEvent: [GAME_EVENT.REALITY_RESET_AFTER, GAME_EVENT.REALITY_UPGRADE_BOUGHT, GAME_EVENT.PERK_BOUGHT,
       GAME_EVENT.BLACK_HOLE_UNLOCKED],
-    get reward() { return `Dimension Boosts are ${formatPercents(0.5)} stronger.`; },
+    get reward() { return `차원 가속이 ${formatPercents(0.5)} 강해진다.`; },
     effect: 1.5,
   },
   {
     id: 143,
-    name: "Yo dawg, I heard you liked reskins...",
+    name: "친구야, 네가 재탕을 좋아한다고 들었어...",
     get description() {
-      return `Have all your Eternities in your past ${formatInt(10)} Eternities be at least
-      ${format(Decimal.NUMBER_MAX_VALUE, 1, 0)} times higher Eternity Points than the previous one.`;
+      return `최근 이터니티 ${formatInt(10)}회의 영원 포인트가 매번 직전 기록보다
+      ${format(Decimal.NUMBER_MAX_VALUE, 1, 0)}배 이상 높아야 한다.`;
     },
     checkRequirement: () => {
       if (player.records.recentEternities.some(i => i[0] === Number.MAX_VALUE)) return false;
@@ -1056,81 +1056,81 @@ export const normalAchievements = [
       return true;
     },
     checkEvent: GAME_EVENT.ETERNITY_RESET_AFTER,
-    reward: "Galaxies no longer reset Dimension Boosts."
+    reward: "은하가 더 이상 차원 가속을 초기화하지 않는다."
   },
   {
     id: 144,
-    name: "Is this an Interstellar reference?",
-    description: "Unlock the Black Hole.",
+    name: "이거 인터스텔라 패러디인가?",
+    description: "블랙홀을 해금한다.",
     checkRequirement: () => BlackHole(1).isUnlocked,
     checkEvent: GAME_EVENT.BLACK_HOLE_UNLOCKED,
   },
   {
     id: 145,
-    name: "Are you sure these are the right way around?",
-    description: "Have either Black Hole interval smaller than its duration.",
+    name: "이 둘의 순서가 맞는 거 확실해?",
+    description: "두 블랙홀 중 하나의 간격을 지속 시간보다 짧게 만든다.",
     checkRequirement: () => BlackHoles.list.some(bh => bh.interval < bh.duration),
     checkEvent: GAME_EVENT.BLACK_HOLE_UPGRADE_BOUGHT,
-    get reward() { return `Black Hole intervals are ${formatPercents(0.1)} shorter.`; },
+    get reward() { return `블랙홀의 간격이 ${formatPercents(0.1)} 짧아진다.`; },
     effect: 0.9
   },
   {
     id: 146,
-    name: "Perks of living",
-    description: "Have all Perks bought.",
+    name: "살아가는 퍼크",
+    description: "모든 퍼크를 구매한다.",
     checkRequirement: () => player.reality.perks.size === Perks.all.length,
     checkEvent: GAME_EVENT.PERK_BOUGHT,
-    get reward() { return `+${formatPercents(0.01)} Glyph rarity.`; },
+    get reward() { return `글리프 희귀도 +${formatPercents(0.01)}.`; },
     effect: 1
   },
   {
     id: 147,
-    name: "Master of Reality",
-    description: "Have all Reality upgrades bought.",
+    name: "현실의 달인",
+    description: "모든 현실 업그레이드를 구매한다.",
     checkRequirement: () => RealityUpgrades.allBought,
     checkEvent: GAME_EVENT.REALITY_UPGRADE_BOUGHT,
-    reward: "Unlock Teresa, the Celestial of Reality."
+    reward: "현실의 셀레스티얼 Teresa를 해금한다."
   },
   {
     id: 148,
-    name: "Royal flush",
-    description: "Reality with one of each basic Glyph type.",
+    name: "로열 플러시",
+    description: "각 기본 글리프 종류를 하나씩 장착하고 현실에 도달한다.",
     checkRequirement: () => BASIC_GLYPH_TYPES
       .every(type => Glyphs.activeList.some(g => g.type === type)),
     checkEvent: GAME_EVENT.REALITY_RESET_BEFORE,
-    reward: "Gained Glyph level is increased by number of distinct Glyph types equipped.",
+    reward: "장착한 서로 다른 글리프 종류 수만큼 획득할 글리프 레벨이 증가한다.",
     effect: () => (new Set(Glyphs.activeWithoutCompanion.map(g => g.type))).size,
     formatEffect: value => `+${formatInt(value)}`
   },
   {
     id: 151,
-    name: "You really didn't need it anyway",
+    name: "정말 없어도 됐잖아",
     get description() {
-      return `Get ${formatInt(800)} Antimatter Galaxies without
-      buying 8th Antimatter Dimensions in your current Infinity.`;
+      return `이번 무한에서 제8 반물질 차원을 구매하지 않고
+      반물질 은하 ${formatInt(800)}개를 획득한다.`;
     },
     checkRequirement: () => player.galaxies >= 800 && player.requirementChecks.infinity.noAD8,
     checkEvent: GAME_EVENT.GALAXY_RESET_AFTER,
-    reward: "Unlock V, the Celestial of Achievements."
+    reward: "도전과제의 셀레스티얼 V를 해금한다."
   },
   {
     id: 152,
-    name: "Y'all got any more of them Glyphs?",
-    get description() { return `Have ${formatInt(100)} Glyphs in your inventory.`; },
+    name: "글리프 좀 더 없나?",
+    get description() { return `보관함에 글리프 ${formatInt(100)}개를 보유한다.`; },
     checkRequirement: () => Glyphs.inventoryList.length >= 100,
     checkEvent: GAME_EVENT.GLYPHS_CHANGED
   },
   {
     id: 153,
-    name: "More like \"reallydoesn'tmatter\"",
-    description: "Reality without producing antimatter.",
+    name: "차라리 \"현실은정말상관없어\"",
+    description: "반물질을 생산하지 않고 현실에 도달한다.",
     checkRequirement: () => player.requirementChecks.reality.noAM,
     checkEvent: GAME_EVENT.REALITY_RESET_BEFORE,
   },
   {
     id: 154,
-    name: "I am speed",
-    get description() { return `Reality in under ${formatInt(5)} seconds (game time).`; },
+    name: "나는 속도다",
+    get description() { return `게임 시간 ${formatInt(5)}초 이내에 현실에 도달한다.`; },
     checkRequirement: () => Time.thisReality.totalSeconds <= 5,
     checkEvent: GAME_EVENT.REALITY_RESET_BEFORE,
     get reward() { return `${formatPercents(0.1)} chance each Reality of ${formatX(2)} Realities and Perk Points.`; },
@@ -1138,26 +1138,26 @@ export const normalAchievements = [
   },
   {
     id: 155,
-    name: "Achievement #15983",
-    get description() { return `Play for ${formatFloat(13.7, 1)} billion years.`; },
+    name: "도전과제 #15983",
+    get description() { return `${formatFloat(13.7, 1)}십억 년 동안 플레이한다.`; },
     checkRequirement: () => Time.totalTimePlayed.totalYears > 13.7e9,
     checkEvent: GAME_EVENT.GAME_TICK_AFTER,
-    get reward() { return `Black Hole durations are ${formatPercents(0.1)} longer.`; },
+    get reward() { return `블랙홀 지속 시간이 ${formatPercents(0.1)} 길어진다.`; },
     effect: 1.1
   },
   {
     id: 156,
-    name: "College Dropout",
-    description: "Reality without buying Time Theorems.",
+    name: "대학 중퇴",
+    description: "시간 정리를 구매하지 않고 현실에 도달한다.",
     checkRequirement: () => player.requirementChecks.reality.noPurchasedTT,
     checkEvent: GAME_EVENT.REALITY_RESET_BEFORE,
-    get reward() { return `Gain ${formatX(2.5, 0, 1)} generated Time Theorems, and a free coupon to McDonalds™️.`; },
+    get reward() { return `생성되는 시간 정리를 ${formatX(2.5, 0, 1)} 획득하고 맥도날드™️ 무료 쿠폰을 받는다.`; },
     effect: 2.5
   },
   {
     id: 157,
-    name: "It's super effective!",
-    get description() { return `Get a Glyph with ${formatInt(4)} effects.`; },
+    name: "효과가 굉장했다!",
+    get description() { return `효과가 ${formatInt(4)}개인 글리프를 획득한다.`; },
     checkRequirement: () => Glyphs.activeList.concat(Glyphs.inventoryList).map(
       glyph => getGlyphEffectsFromBitmask(glyph.effects, 0, 0)
         .filter(effect => effect.isGenerated).length
@@ -1166,33 +1166,33 @@ export const normalAchievements = [
   },
   {
     id: 158,
-    name: "Bruh, are you like, inside the hole?",
-    description: "Make both Black Holes permanent.",
+    name: "야, 너 블랙홀 안에라도 있냐?",
+    description: "두 블랙홀을 모두 영구화한다.",
     checkRequirement: () => BlackHole(1).isPermanent && BlackHole(2).isPermanent,
     checkEvent: GAME_EVENT.BLACK_HOLE_UPGRADE_BOUGHT,
-    get reward() { return `Black Hole power increased by ${formatPercents(0.1)}.`; },
+    get reward() { return `블랙홀의 성능이 ${formatPercents(0.1)} 증가한다.`; },
     effect: 1.1
   },
   {
     id: 161,
-    name: "that's where you're wrong kiddo",
-    get description() { return `Get ${formatPostBreak(DC.E1E8)} antimatter while Dilated.`; },
+    name: "꼬마야, 바로 그게 틀렸어",
+    get description() { return `시간 팽창 중 반물질 ${formatPostBreak(DC.E1E8)}개를 획득한다.`; },
     checkRequirement: () => Currency.antimatter.exponent >= 100000000 && player.dilation.active,
     checkEvent: GAME_EVENT.GAME_TICK_AFTER
   },
   {
     id: 162,
-    name: "Reinstalled the game and rejoined the server",
-    description: "Have every Time Study at once.",
+    name: "게임을 다시 설치하고 서버에 재접속했다",
+    description: "모든 시간 연구를 동시에 보유한다.",
     checkRequirement: () => player.timestudy.studies.length >= 58,
     checkEvent: GAME_EVENT.GAME_TICK_AFTER
   },
   {
     id: 163,
-    name: "Actually, super easy! Barely an inconvenience!",
+    name: "사실 엄청 쉬워! 불편할 것도 없고!",
     get description() {
-      return `Complete all the Eternity Challenges ${formatInt(5)} times with less than ${formatInt(1)}
-      second (game time) in your current Reality.`;
+      return `이번 현실에서 모든 영원 도전을 ${formatInt(5)}회 완료하고,
+      게임 시간 기록을 ${formatInt(1)}초 미만으로 만든다.`;
     },
     checkRequirement: () => EternityChallenges.all.map(ec => ec.completions).min() >= 5 &&
       Time.thisReality.totalSeconds <= 1,
@@ -1200,63 +1200,63 @@ export const normalAchievements = [
   },
   {
     id: 164,
-    name: "Infinity times two",
-    get description() { return `Get ${format(Decimal.NUMBER_MAX_VALUE, 1)} Infinities.`; },
+    name: "무한 두 배",
+    get description() { return `무한 횟수를 ${format(Decimal.NUMBER_MAX_VALUE, 1)}회 획득한다.`; },
     checkRequirement: () => Currency.infinitiesTotal.gte(Decimal.NUMBER_MAX_VALUE),
     checkEvent: GAME_EVENT.GAME_TICK_AFTER,
-    get reward() { return `Gain ×${formatInt(1024)} more Infinities.`; },
+    get reward() { return `무한 횟수를 ×${formatInt(1024)} 더 획득한다.`; },
     effect: 1024
   },
   {
     id: 165,
-    name: "Perfectly balanced",
-    get description() { return `Get a level ${formatInt(5000)} Glyph with all Glyph level factors equally weighted.`; },
+    name: "완벽한 균형",
+    get description() { return `모든 글리프 레벨 요소의 가중치가 같은 레벨 ${formatInt(5000)} 글리프를 획득한다.`; },
     checkRequirement: () => gainedGlyphLevel().actualLevel >= 5000 &&
       ["repl", "dt", "eternities"].every(
         i => player.celestials.effarig.glyphWeights[i] === player.celestials.effarig.glyphWeights.ep),
     checkEvent: GAME_EVENT.REALITY_RESET_BEFORE,
-    reward: "Unlock optimal automatic Glyph level factor adjustment."
+    reward: "글리프 레벨 요소의 최적 자동 조정을 해금한다."
   },
   {
     id: 166,
-    name: "Nicenice.",
-    get description() { return `Get a Glyph with level exactly ${formatInt(6969)}.`; },
+    name: "좋아좋아.",
+    get description() { return `정확히 ${formatInt(6969)}레벨인 글리프를 획득한다.`; },
     checkRequirement: () => gainedGlyphLevel().actualLevel === 6969,
     checkEvent: GAME_EVENT.REALITY_RESET_BEFORE,
-    get reward() { return `+${formatInt(69)} to Glyph level.`; },
+    get reward() { return `글리프 레벨 +${formatInt(69)}.`; },
     effect: 69
   },
   {
     id: 167,
-    name: "Mr. Layer? Sorry, you're not on the list",
-    get description() { return `Reach ${format(Decimal.NUMBER_MAX_VALUE, 1, 0)} Reality Machines.`; },
+    name: "레이어 씨? 죄송하지만 명단에 없네요",
+    get description() { return `리얼리티 머신 ${format(Decimal.NUMBER_MAX_VALUE, 1, 0)}개에 도달한다.`; },
     checkRequirement: () => Currency.realityMachines.gte(Decimal.NUMBER_MAX_VALUE),
     checkEvent: GAME_EVENT.GAME_TICK_AFTER,
-    reward: "Gain more Reality Machines based on your current Reality Machines.",
+    reward: "현재 리얼리티 머신에 따라 리얼리티 머신을 더 많이 획득한다.",
     effect: () => Math.clampMin(1, Currency.realityMachines.value.log2()),
     formatEffect: value => `${formatX(value, 2, 2)}`
   },
   {
     id: 168,
-    name: "Woah, we're halfway there",
-    get description() { return `Get ${formatInt(50)} total Ra Celestial Memory levels.`; },
+    name: "와, 절반 왔네",
+    get description() { return `Ra의 셀레스티얼 기억 레벨 합계 ${formatInt(50)}을 달성한다.`; },
     checkRequirement: () => Ra.totalPetLevel >= 50,
     checkEvent: GAME_EVENT.GAME_TICK_AFTER,
-    get reward() { return `Get ${formatPercents(0.1)} more memories.`; },
+    get reward() { return `기억을 ${formatPercents(0.1)} 더 획득한다.`; },
     effect: 1.1
   },
   {
     id: 171,
-    name: "The god is delighted",
-    description: "Sacrifice every sacrificable Glyph type at least once.",
+    name: "신께서 기뻐하신다",
+    description: "희생할 수 있는 모든 글리프 종류를 한 번 이상 희생한다.",
     checkRequirement: () => Object.values(player.reality.glyphs.sac).every(s => s > 0),
     checkEvent: GAME_EVENT.GLYPHS_CHANGED,
-    get reward() { return `Glyph sacrifice is ${formatX(2)} stronger.`; },
+    get reward() { return `글리프 희생이 ${formatX(2)} 강해진다.`; },
     effect: 2,
   },
   {
     id: 172,
-    name: "Hitchhiker's Guide to Reality",
+    name: "은하수를 여행하는 현실을 위한 안내서",
     get description() {
       return `Reality for ${format(Decimal.NUMBER_MAX_VALUE, 1)} Reality Machines without having
       any Charged Infinity Upgrades, having any equipped Glyphs, or buying any Triad Studies.`;
@@ -1268,115 +1268,115 @@ export const normalAchievements = [
   },
   {
     id: 173,
-    name: "Cet accomplissement n'existe pas III",
-    get description() { return `Reach ${formatPostBreak(DC.D9_99999E999, 5, 0)} Reality Machines.`; },
+    name: "Oㅣ 도JㅓN과제는 존재하ㅈ1 않습LIㄷㅏ III",
+    get description() { return `리얼리티 머신 ${formatPostBreak(DC.D9_99999E999, 5, 0)}개에 도달한다.`; },
     checkRequirement: () => player.reality.realityMachines.gte(DC.D9_99999E999),
     checkEvent: GAME_EVENT.GAME_TICK_AFTER
   },
   {
     id: 174,
-    name: "Don't you already have two of these?",
-    description: "Get a Singularity.",
+    name: "이거 이미 두 개 있지 않아?",
+    description: "특이점을 획득한다.",
     checkRequirement: () => true,
     checkEvent: GAME_EVENT.SINGULARITY_RESET_BEFORE
   },
   {
     id: 175,
-    name: "The First Antihistorian",
-    get description() { return `Get ${formatInt(Ra.alchemyResourceCap)} of all Alchemy Resources.`; },
+    name: "최초의 반역사가",
+    get description() { return `모든 연금술 자원을 각각 ${formatInt(Ra.alchemyResourceCap)}개 획득한다.`; },
     checkRequirement: () => AlchemyResources.all.every(x => x.amount >= Ra.alchemyResourceCap),
     checkEvent: GAME_EVENT.REALITY_RESET_AFTER,
     get reward() {
-      return `Synergism can go above ${formatPercents(1)} and Momentum increases ${formatX(10)} faster.`;
+      return `시너지 효과가 ${formatPercents(1)}를 넘을 수 있고 모멘텀이 ${formatX(10)} 빠르게 증가한다.`;
     },
     effect: 10,
   },
   {
     id: 176,
-    name: "Mom counted to 3",
-    description: "Annihilate your Dark Matter Dimensions.",
+    name: "엄마가 3까지 셌다",
+    description: "암흑 물질 차원을 소멸시킨다.",
   },
   {
     id: 177,
-    name: "This mile took a celestial",
-    description: "Complete all Singularity Milestones at least once.",
+    name: "이 마일에는 셀레스티얼 하나가 걸렸다",
+    description: "모든 특이점 마일스톤을 한 번 이상 완료한다.",
     checkRequirement: () => SingularityMilestones.all.every(x => x.completions > 0),
     checkEvent: GAME_EVENT.SINGULARITY_RESET_AFTER,
   },
   {
     id: 178,
-    name: "Destroyer of Worlds",
-    get description() { return `Get ${formatInt(100000)} Antimatter Galaxies.`; },
+    name: "세계의 파괴자",
+    get description() { return `반물질 은하 ${formatInt(100000)}개를 획득한다.`; },
     checkRequirement: () => player.galaxies >= 100000,
     checkEvent: GAME_EVENT.GALAXY_RESET_AFTER,
-    get reward() { return `All Galaxies are ${formatPercents(0.01)} stronger.`; },
+    get reward() { return `모든 은하가 ${formatPercents(0.01)} 강해진다.`; },
     effect: 1.01
   },
   {
     id: 181,
     displayId: 666,
-    name: "Antimatter Dimensions Eternal",
-    description: "Doom your Reality.",
+    name: "영원한 반물질 차원",
+    description: "현실을 파멸시킨다.",
     checkRequirement: () => Pelle.isDoomed,
     checkEvent: GAME_EVENT.REALITY_RESET_AFTER,
   },
   {
     id: 182,
-    name: "One more time",
-    description: "Permanently gain back all Antimatter Dimension autobuyers.",
+    name: "한 번 더",
+    description: "모든 반물질 차원 자동구매기를 영구적으로 되찾는다.",
     checkRequirement: () => PelleUpgrade.antimatterDimAutobuyers1.canBeApplied &&
       PelleUpgrade.antimatterDimAutobuyers2.canBeApplied,
     checkEvent: GAME_EVENT.GAME_TICK_AFTER
   },
   {
     id: 183,
-    name: "Déjà vOoM",
-    description: "Complete Infinity Challenge 5 while Doomed.",
+    name: "데자 붐",
+    description: "파멸 중 무한 도전 5를 완료한다.",
     checkRequirement: () => Pelle.isDoomed && InfinityChallenge(5).isCompleted,
     checkEvent: GAME_EVENT.INFINITY_CHALLENGE_COMPLETED,
     // Weirdly specific reward? Yes, its V's ST bonus because we forgot to disable it
     // when balancing Pelle and only realised too late.
-    get reward() { return `All Antimatter Dimensions are raised to ${formatPow(1.0812403840463596, 0, 3)}`; },
+    get reward() { return `모든 반물질 차원 배율이 ${formatPow(1.0812403840463596, 0, 3)}만큼 거듭제곱된다.`; },
     effect: 1.0812403840463596
   },
   {
     id: 184,
-    name: "You're out!",
-    description: "Encounter the third Pelle Strike.",
+    name: "넌 아웃이야!",
+    description: "세 번째 Pelle 스트라이크를 마주한다.",
     checkRequirement: () => PelleStrikes.eternity.hasStrike,
     checkEvent: GAME_EVENT.PELLE_STRIKE_UNLOCKED
   },
   {
     id: 185,
-    name: "Four score and seven years ago",
-    description: "Encounter the fourth Pelle Strike.",
+    name: "87년 전",
+    description: "네 번째 Pelle 스트라이크를 마주한다.",
     checkRequirement: () => PelleStrikes.ECs.hasStrike,
     checkEvent: GAME_EVENT.PELLE_STRIKE_UNLOCKED
   },
   {
     id: 186,
     displayId: 181,
-    name: "An unhealthy obsession",
-    description: `Purchase Time Study 181 while Doomed.`,
+    name: "건강하지 못한 집착",
+    description: `파멸 중 시간 연구 181을 구매한다.`,
   },
   {
     id: 187,
-    name: "The One with Dilated Time",
-    description: "Unlock Dilation while Doomed.",
+    name: "팽창된 시간 편",
+    description: "파멸 중 시간 팽창을 해금한다.",
     checkRequirement: () => PelleStrikes.dilation.hasStrike,
     checkEvent: GAME_EVENT.PELLE_STRIKE_UNLOCKED,
     // We forgot to disable a singularity milestone while balancing Pelle; now it's disabled
     // and this upgrade has the same effect as it used to.
     get reward() {
-      return `Increase the multiplier per repeatable Dilated Time
-      multiplier upgrade by ${formatX(1.35, 0, 2)}.`;
+      return `반복 구매 가능한 팽창된 시간 배율 업그레이드의
+      구매당 배율을 ${formatX(1.35, 0, 2)} 증가시킨다.`;
     },
     effect: 1.35
   },
   {
     id: 188,
-    name: "The End",
-    description: "Beat the game.",
+    name: "끝",
+    description: "게임을 완료한다.",
     checkRequirement: () => GameEnd.endState > END_STATE_MARKERS.GAME_END && !GameEnd.removeAdditionalEnd,
     checkEvent: GAME_EVENT.GAME_TICK_AFTER
   },

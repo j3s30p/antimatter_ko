@@ -18,7 +18,12 @@ export default {
       return this.petConfig.pet;
     },
     name() {
-      return this.pet.name;
+      return {
+        Teresa: "Teresa",
+        Effarig: "Effarig",
+        Enslaved: "The Nameless Ones",
+        V: "V",
+      }[this.pet.name] ?? this.pet.name;
     },
     petStyle() {
       return {
@@ -50,10 +55,10 @@ export default {
     @click="toggleRemembrance"
   >
     <span v-if="hasRemembrance">
-      Remembrance given to {{ name }}
+      {{ name }}에게 회상 부여됨
     </span>
     <span v-else>
-      Give Remembrance to {{ name }}
+      {{ name }}에게 회상 부여
     </span>
   </button>
 </template>
