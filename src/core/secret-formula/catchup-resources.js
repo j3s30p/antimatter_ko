@@ -19,7 +19,7 @@ export const catchupResources = [
   {
     name: "자동 구매기",
     id: 2,
-    openH2pEntry: "Autobuyers",
+    openH2pEntry: "자동 구매기",
     requiredStage: PROGRESS_STAGE.PRE_INFINITY,
     description: `자동 구매기는 비용을 감당할 수 있을 때 반물질 차원과 업그레이드를 자동으로 구매하는
       게임 내 기능입니다.`

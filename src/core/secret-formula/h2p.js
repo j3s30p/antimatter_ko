@@ -336,21 +336,21 @@ ${formatX(4)}, 제3 차원은 ${formatX(2)}를 얻고 나머지 차원은 영향
     }, {
       name: "차원 희생",
       info: () => `
-<b>You unlock Dimensional Sacrifice after your fifth Dimension Boost.</b>
+<b>다섯 번째 차원 부스트 이후 차원 희생이 해금됩니다.</b>
 <br>
 <br>
-Sacrificing will immediately reset the owned quantity of all non-Eighth Dimensions to zero, without reducing the
-multiplier or the current cost. In return, it will multiply the Eighth Dimension Multiplier by the shown value.
-It will take time to get back to the production you previously had, but you will end up with a net increase.
+희생하면 제8 차원을 제외한 모든 차원의 보유량이 즉시 0으로 초기화되지만 배율과 현재 비용은 줄어들지
+않습니다. 그 대신 제8 차원 배율에 표시된 값을 곱합니다. 이전 생산량을 회복하는 데 시간이 걸리지만
+결과적으로는 생산량이 증가합니다.
 <br>
 <br>
-The Dimensional Sacrifice multiplier scales with the number of 1st Dimensions you had at the time of sacrifice,
-and the scaling can be improved by completing certain Achievements and challenges. The multiplier is kept between
-sacrifices, meaning that sacrificing once at ${formatX(10)} and then once at ${formatX(4)} will be the same as
-${formatX(8)} then ${formatX(5)}; in both cases you will end up with a total sacrifice multiplier of ${formatX(40)}.
+차원 희생 배율은 희생할 때 보유한 제1 차원 수에 따라 증가하며, 특정 도전 과제와 도전을 완료하면 증가
+공식을 강화할 수 있습니다. 배율은 희생 사이에 유지됩니다. 따라서 ${formatX(10)}에서 한 번, ${formatX(4)}에서
+한 번 희생하는 것은 ${formatX(8)}과 ${formatX(5)}에서 희생하는 것과 같으며, 두 경우 모두 최종 희생 배율은
+${formatX(40)}가 됩니다.
 <br>
 <br>
-<b>Hotkey: S</b> will try to sacrifice.
+<b>단축키: S</b>는 차원 희생을 시도합니다.
 `,
       isUnlocked: () => Sacrifice.isVisible,
       tags: ["8th", "reset", "earlygame", "gods", "earlygame"],
@@ -425,68 +425,63 @@ The rightmost column of Infinity Upgrades does not work in challenges.
       tags: ["infinity", "autobuyer", "earlygame"],
       tab: "challenges/normal"
     }, {
-      name: "Autobuyers",
+      name: "자동 구매기",
       info: () => `
-Autobuyers allow you to automatically purchase dimensions, upgrades, or prestiges. All autobuyer
-controls are located under the "Autobuyers" subtab of the "Automation" tab, including any additional autobuyers
-unlocked later in the game.
+자동 구매기는 차원, 업그레이드 또는 프레스티지를 자동으로 구매합니다. 게임 후반에 해금되는 추가 자동
+구매기를 포함한 모든 자동 구매기 설정은 "자동화" 탭의 "자동 구매기" 하위 탭에 있습니다.
 <br>
 <br>
-Antimatter Dimension Autobuyers and the Tickspeed Upgrade Autobuyer can be unlocked based on your total antimatter,
-but most other autobuyers require upgrades to be purchased or challenges to be beaten.
+반물질 차원 및 틱 속도 업그레이드 자동 구매기는 총 반물질량에 따라 해금되지만, 대부분의 다른 자동
+구매기는 업그레이드를 구매하거나 도전을 완료해야 해금됩니다.
 <br>
 <br>
-Most Autobuyers have similar attributes:
+대부분의 자동 구매기에는 다음과 같은 공통 설정이 있습니다.
 <br>
 <br>
-<b>Autobuyer Interval:</b> The cooldown period before the autobuyer attempts to make another purchase.
-Antimatter Dimension Autobuyers and the Tickspeed Upgrade Autobuyer require their respective challenges to be beaten
-before their interval can be upgraded.
+<b>자동 구매기 간격:</b> 자동 구매기가 다음 구매를 시도하기까지 기다리는 시간입니다. 반물질 차원 및
+틱 속도 업그레이드 자동 구매기는 각각에 해당하는 도전을 완료해야 간격을 강화할 수 있습니다.
 <br>
 <br>
-<b>Antimatter Dimension Autobuyer Bulk Buy:</b> Once the interval of an autobuyer reaches its minimum
-(at ${formatInt(100)} ms), all future upgrades will double the maximum amount the autobuyer can purchase per tick.
-This can be disabled.
+<b>반물질 차원 자동 구매기 일괄 구매:</b> 자동 구매기 간격이 최솟값(${formatInt(100)}밀리초)에 도달한 뒤부터는
+업그레이드할 때마다 한 틱에 구매할 수 있는 최대 수량이 두 배가 됩니다. 이 기능은 끌 수 있습니다.
 <br>
 <br>
-<b>Antimatter Dimension Autobuyer Buy Quantity:</b> Autobuyers for Dimensions can be set to buy a single Dimension,
-or until ${formatInt(10)}. Bulk buy is disabled when the autobuyer is set to singles.
+<b>반물질 차원 자동 구매 수량:</b> 차원 자동 구매기는 차원 1개 또는 ${formatInt(10)}개 단위로 구매하도록 설정할
+수 있습니다. 1개 구매로 설정하면 일괄 구매가 비활성화됩니다.
 <br>
 <br>
-<b>Tickspeed Autobuyer Buy Quantity:</b> The tickspeed autobuyer can be set to buy a single upgrade per activation
-or to buy the max possible once the Tickspeed Challenge (C9) has been beaten.
+<b>틱 속도 자동 구매 수량:</b> 틱 속도 자동 구매기는 작동할 때마다 업그레이드 하나를 구매하도록 설정할 수
+있으며, 틱 속도 도전(C9)을 완료한 뒤에는 가능한 만큼 최대로 구매하도록 설정할 수 있습니다.
 <br>
 <br>
-<b>Automatic Dimension Boost Customization:</b> With the Dimension Boost autobuyer you can set the max number of
-Boosts it will attempt to buy, a minimum number of Antimatter Galaxies before Dimension Boosts are
-always auto-purchased, and (when unlocked) the ability to buy an exact number of Dimension Boosts in bulk.
-If you reach your specified Galaxy threshold, the autobuyer will ignore your max Boost limit.
+<b>차원 부스트 자동 구매 설정:</b> 구매를 시도할 최대 부스트 수, 차원 부스트를 항상 자동 구매하기 시작할
+최소 반물질 은하 수, 그리고 해금 시 정확한 수의 차원 부스트를 일괄 구매하도록 설정할 수 있습니다.
+지정한 은하 기준에 도달하면 자동 구매기는 최대 부스트 제한을 무시합니다.
 <br>
 <br>
-<b>Max Galaxies:</b> The highest amount of Galaxies the Galaxies autobuyer will buy.
+<b>최대 은하:</b> 은하 자동 구매기가 구매할 최대 은하 수입니다.
 <br>
 <br>
-<b>IP on crunch:</b> Once you Break Infinity, you can set how many IP you would like to wait for before crunching.
+<b>크런치 시 무한 포인트:</b> 무한 돌파 후 빅 크런치를 실행하기 전에 기다릴 무한 포인트량을 설정할 수 있습니다.
 <br>
 <br>
-<b>Sacrifice Autobuyer:</b> This autobuyer starts with a maxed interval, potentially triggering every tick.
+<b>희생 자동 구매기:</b> 처음부터 간격이 최대로 강화되어 있어 매 틱 작동할 수 있습니다.
 <br>
 <br>
-<b>Dynamic Amount:</b> Upgraded prestige autobuyers have a mode that triggers a prestige when a specified threshold
-is passed. Turning on "Dynamic Amount" will allow this threshold value to be automatically increased when unlocking
-certain upgrades or achievements which apply a multiplier to this value.
+<b>동적 수량:</b> 강화된 프레스티지 자동 구매기는 지정한 기준을 넘으면 프레스티지를 실행하는 모드를
+가집니다. "동적 수량"을 켜면 해당 값에 배율을 적용하는 특정 업그레이드나 도전 과제를 해금할 때 기준값도
+자동으로 증가합니다.
 <br>
 <br>
-<b>Pause/Resume Autobuyers:</b> This button will pause or resume autobuyers which are turned on.
-It does not change individual autobuyer settings. Think of it like a master switch.
+<b>자동 구매기 일시정지/재개:</b> 켜져 있는 자동 구매기를 일시정지하거나 다시 작동시킵니다. 개별 자동
+구매기 설정은 바꾸지 않으며 전체 전원 스위치처럼 작동합니다.
 <br>
 <br>
-<b>Enable/Disable All Autobuyers:</b> This button will turn all of your autobuyers on or off individually.
+<b>모든 자동 구매기 켜기/끄기:</b> 모든 자동 구매기의 개별 설정을 한꺼번에 켜거나 끕니다.
 <br>
 <br>
-<b>Hotkey: A</b> (for pausing/resuming autobuyers).
-Additionally, holding <b>Alt</b> when pressing a hotkey associated with an upgrade, dimension, or prestige will
-toggle the associated autobuyer.
+<b>단축키: A</b>는 자동 구매기를 일시정지하거나 재개합니다. 또한 <b>Alt</b>를 누른 채 업그레이드, 차원 또는
+프레스티지에 해당하는 단축키를 누르면 관련 자동 구매기를 켜거나 끕니다.
 `,
       isUnlocked: () => true,
       tags: ["infinity", "automation", "challenges", "rewards", "interval", "earlygame"],
