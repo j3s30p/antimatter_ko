@@ -5,6 +5,7 @@ param(
 )
 
 $ErrorActionPreference = "Stop"
+$repoRoot = Split-Path -Parent $PSScriptRoot
 $manifestPath = Join-Path $PSScriptRoot "patch-manifest.json"
 $manifest = Get-Content -LiteralPath $manifestPath -Raw | ConvertFrom-Json
 
@@ -25,11 +26,18 @@ if ($actualHash -ne $manifest.patchedSha256) {
 $releaseDir = Join-Path $PSScriptRoot "release"
 $stageDir = Join-Path $releaseDir ("stage-" + [guid]::NewGuid().ToString("N"))
 $resourcesDir = Join-Path $stageDir "resources"
+$licensesDir = Join-Path $stageDir "licenses"
 $safeVersion = $Version -replace '[^0-9A-Za-z._-]', '-'
 $zipPath = Join-Path $releaseDir "AntimatterDimensions_KoreanPatch_$safeVersion.zip"
 
-New-Item -ItemType Directory -Force -Path $resourcesDir | Out-Null
+New-Item -ItemType Directory -Force -Path $resourcesDir, $licensesDir | Out-Null
 Copy-Item -LiteralPath $resolvedAsar -Destination (Join-Path $resourcesDir "app.asar")
+Copy-Item -LiteralPath (Join-Path $repoRoot "README.md") -Destination (Join-Path $stageDir "README.md")
+Copy-Item -LiteralPath (Join-Path $PSScriptRoot "README.txt") -Destination (Join-Path $stageDir "한글패치_설치방법.txt")
+Copy-Item -LiteralPath (Join-Path $repoRoot "ATTRIBUTION.md") -Destination (Join-Path $stageDir "ATTRIBUTION.md")
+Copy-Item -LiteralPath (Join-Path $repoRoot "public\licenses\Galmuri-OFL-1.1.txt") `
+  -Destination (Join-Path $licensesDir "Galmuri-OFL-1.1.txt")
+Copy-Item -LiteralPath $manifestPath -Destination (Join-Path $stageDir "patch-manifest.json")
 
 if (Test-Path -LiteralPath $zipPath) {
   Remove-Item -LiteralPath $zipPath -Force
