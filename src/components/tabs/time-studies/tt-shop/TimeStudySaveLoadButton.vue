@@ -52,8 +52,8 @@ export default {
     save() {
       this.hideContextMenu();
       this.preset.studies = GameCache.currentStudyTree.value.exportString;
-      const presetName = this.name ? `Study preset "${this.name}"` : "Study preset";
-      GameUI.notify.eternity(`${presetName} saved in slot ${this.saveslot}`);
+      const presetName = this.name ? `연구 프리셋 "${this.name}"` : "연구 프리셋";
+      GameUI.notify.eternity(`${presetName}을(를) ${this.saveslot}번 슬롯에 저장했습니다`);
     },
     load() {
       this.hideContextMenu();
@@ -65,10 +65,10 @@ export default {
         combinedTree.attemptBuyArray(combinedTree.parseStudyImport(this.preset.studies), true);
         TimeStudyTree.commitToGameState(combinedTree.purchasedStudies, false, combinedTree.startEC);
 
-        const presetName = this.name ? `Study preset "${this.name}"` : "Study preset";
-        GameUI.notify.eternity(`${presetName} loaded from slot ${this.saveslot}`);
+        const presetName = this.name ? `연구 프리셋 "${this.name}"` : "연구 프리셋";
+        GameUI.notify.eternity(`${this.saveslot}번 슬롯에서 ${presetName}을(를) 불러왔습니다`);
       } else {
-        Modal.message.show("This Time Study list currently contains no Time Studies.");
+        Modal.message.show("이 시간 연구 목록에는 시간 연구가 없습니다.");
       }
     },
     respecAndLoad() {
@@ -82,13 +82,13 @@ export default {
     deletePreset() {
       this.hideContextMenu();
       if (this.preset.studies) Modal.studyString.show({ id: this.saveslot - 1, deleting: true });
-      else Modal.message.show("This Time Study list currently contains no Time Studies.");
+      else Modal.message.show("이 시간 연구 목록에는 시간 연구가 없습니다.");
     },
     handleExport() {
       this.hideContextMenu();
       copyToClipboard(this.preset.studies);
-      const presetName = this.name ? `Study preset "${this.name}"` : "Study preset";
-      GameUI.notify.eternity(`${presetName} exported from slot ${this.saveslot} to your clipboard`);
+      const presetName = this.name ? `연구 프리셋 "${this.name}"` : "연구 프리셋";
+      GameUI.notify.eternity(`${this.saveslot}번 슬롯의 ${presetName}을(를) 클립보드로 내보냈습니다`);
     },
     edit() {
       Modal.studyString.show({ id: this.saveslot - 1 });
@@ -110,7 +110,7 @@ export default {
     </template>
     <template #menu>
       <div class="l-tt-save-load-btn__menu c-tt-save-load-btn__menu">
-        <span ach-tooltip="Set a custom name (up to 4 ASCII characters)">
+        <span ach-tooltip="사용자 이름 설정(ASCII 문자 최대 4자)">
           <input
             type="text"
             size="4"
@@ -125,26 +125,26 @@ export default {
           class="l-tt-save-load-btn__menu-item c-tt-save-load-btn__menu-item"
           @click="edit"
         >
-          Edit
+          편집
         </div>
         <div
           class="l-tt-save-load-btn__menu-item c-tt-save-load-btn__menu-item"
           @click="handleExport"
         >
-          Export
+          내보내기
         </div>
         <div
           class="l-tt-save-load-btn__menu-item c-tt-save-load-btn__menu-item"
           @click="save"
         >
-          Save
+          저장
         </div>
         <div class="l-tt-save-load-btn__menu-item">
           <div
             class="c-tt-save-load-btn__menu-item"
             @click="load"
           >
-            Load
+            불러오기
           </div>
           <div class="c-tt-save-load-btn__menu-item__hover-options">
             <div
@@ -154,7 +154,7 @@ export default {
               }"
               @click="respecAndLoad"
             >
-              Respec and Load
+              초기화 후 불러오기
             </div>
           </div>
         </div>
@@ -162,7 +162,7 @@ export default {
           class="l-tt-save-load-btn__menu-item c-tt-save-load-btn__menu-item"
           @click="deletePreset"
         >
-          Delete
+          삭제
         </div>
       </div>
     </template>

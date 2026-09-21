@@ -29,6 +29,7 @@ The preferred terms follow the established Korean mobile/community vocabulary wh
 | Time Shard | 시간 조각 | |
 | Time Study | 시간 연구 | |
 | Time Theorem | 시간 정리 | TT remains TT in compact displays |
+| Space Theorem | 공간 정리 | ST remains ST in compact displays |
 | Time Dilation | 시간 팽창 | |
 | Tachyon Particle | 타키온 입자 | TP remains TP in compact displays |
 | Reality | 현실 | Use consistently as the prestige layer |
