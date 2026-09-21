@@ -80,8 +80,8 @@ export default {
     },
     lastMachinesString() {
       return this.lastMachines.lt(DC.E10000)
-        ? `${quantify("Reality Machine", this.lastMachines, 2)}`
-        : `${quantify("Imaginary Machine", this.lastMachines.dividedBy(DC.E10000), 2)}`;
+        ? `리얼리티 머신 ${format(this.lastMachines, 2)}개`
+        : `허수 머신 ${format(this.lastMachines.dividedBy(DC.E10000), 2)}개`;
     },
     unlockInfoTooltipArrowStyle() {
       return {

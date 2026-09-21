@@ -23,8 +23,8 @@ export default {
     types: () => GLYPH_TYPES.filter(type => type !== "cursed" && type !== "companion"),
     lastMachines() {
       return this.lastMachinesTeresa.lt(DC.E10000)
-        ? `${quantify("Reality Machine", this.lastMachinesTeresa, 2)}`
-        : `${quantify("Imaginary Machine", this.lastMachinesTeresa.dividedBy(DC.E10000), 2)}`;
+        ? `리얼리티 머신 ${format(this.lastMachinesTeresa, 2)}개`
+        : `허수 머신 ${format(this.lastMachinesTeresa.dividedBy(DC.E10000), 2)}개`;
     },
     dropDownIconClass() {
       return this.hideAlteration ? "far fa-plus-square" : "far fa-minus-square";

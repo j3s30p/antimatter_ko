@@ -10,375 +10,364 @@ export const changelog = [
    */
   {
     date: [2026, 7, 17],
-    name: "Celebrate iOS Version Release",
+    name: "iOS 버전 출시 기념",
     info: `
-Celebrating the official iOS launch! It's finally time to perform a Big Crunch right in your pocket.
-A massive thank you to all the contributors who helped expand our dimensions to iOS! 
+iOS 공식 출시를 기념합니다! 이제 주머니 속에서도 빅 크런치를 실행할 수 있습니다.
+우리의 차원을 iOS까지 확장하는 데 도움을 주신 모든 기여자 여러분께 진심으로 감사드립니다!
 <br>
 <br>
-<b>Added things:</b><br>
+<b>추가 사항:</b><br>
 <ul>
-<li>Added iOS Testers in the Credits</li>
-<li>Added a link to the iOS Version</li>
-<li>Added all AD Autobuyers' buy max/singles toggle button</li>
+<li>크레딧에 iOS 테스터 추가</li>
+<li>iOS 버전 링크 추가</li>
+<li>모든 반물질 차원 자동구매기에 최대 구매/낱개 구매 전환 버튼 추가</li>
 </ul>
 <br>
-<b>Text change:</b><br>
+<b>문구 변경:</b><br>
 <ul>
-<li>Changed Android Developer to Mobile Developer in the Credits</li>
+<li>크레딧의 Android 개발자를 모바일 개발자로 변경</li>
 </ul>
 <br>
 `
   },
   {
     date: [2024, 8, 12],
-    name: "Hi Ra",
+    name: "안녕, 라",
     info: `
-<b>Added things:</b><br>
+<b>추가 사항:</b><br>
 <ul>
-<li>Added a Spent TT as an Automator currency</li>
-<li>Added a cel 5 symbol to the celestial Glyph cosmetic set</li>
+<li>사용한 시간 정리를 오토메이터 화폐로 추가</li>
+<li>천상 글리프 외형 세트에 다섯 번째 천상체의 문양 추가</li>
 </ul>
 <br>
-<b>Minor UI Changes:</b><br>
+<b>소규모 UI 변경:</b><br>
 <ul>
-<li>Improved wording of BI upgrades</li>
-<li>Added rounded corners to some buttons</li>
-<li>Added an always use \uE010hole animation option</li>
-<li>Adjusted a cel 3 symbol size in the Glyph cosmetic</li>
-<li>ID and TD purchase buttons are now less often to shrink</li>
-<li>IC rewards are now always visible even if it was not completed yet</li>
-<li>Disabled Sacrifice button if you unlocked Achievement 118 and Sacrifice Autobuyer is enabled</li>
+<li>무한 돌파 업그레이드의 문구 개선</li>
+<li>일부 버튼에 둥근 모서리 적용</li>
+<li>항상 블랙홀 애니메이션을 사용하는 옵션 추가</li>
+<li>글리프 외형에서 세 번째 천상체 문양의 크기 조정</li>
+<li>무한 차원 및 시간 차원 구매 버튼이 축소되는 빈도 감소</li>
+<li>무한 도전 보상을 아직 완료하지 않았어도 항상 표시</li>
+<li>업적 118을 해금하고 차원 희생 자동구매기가 켜져 있으면 희생 버튼 비활성화</li>
 </ul>
 <br>
-<b>Bugfixes:</b><br>
+<b>버그 수정:</b><br>
 <ul>
-<li>Fixed a BH pulse does not apply during offline progess</li>
-<li>Fixed a BH inversion is active while it is being disabled</li>
-<li>Fixed a BH inversion slider is visible while it is being disabled</li>
+<li>오프라인 진행 중 블랙홀 펄스가 적용되지 않던 문제 수정</li>
+<li>블랙홀 역전이 비활성화된 동안에도 작동하던 문제 수정</li>
+<li>블랙홀 역전이 비활성화된 동안에도 슬라이더가 보이던 문제 수정</li>
 </ul>
 <br>
 `
   },
   {
     date: [2024, 5, 2],
-    name: "Celebrate Android Reality Update",
+    name: "Android 리얼리티 업데이트 기념",
     info: `
-Congratulations for the release of Android Reality Update! In order to celebrate this big milestone, we implemented
-some changes mainly based on the player comments and feedback from the Android version.
+Android 리얼리티 업데이트 출시를 축하합니다! 이 큰 이정표를 기념하기 위해 Android 버전 플레이어의
+의견과 피드백을 중심으로 여러 변경 사항을 적용했습니다.
 <br>
 <br>
-<b><i>Once again, thank you so much for playing Antimatter Dimensions!</i></b>
+<b><i>다시 한번 반물질 차원을 플레이해 주셔서 진심으로 감사합니다!</i></b>
 <br>
 <br>
-<b>Major things:</b><br>
+<b>주요 변경 사항:</b><br>
 <ul>
-<li>Added newly joined Android testers in credits</li>
-<li>Added a new perk</li>
+<li>크레딧에 새로 참여한 Android 테스터 추가</li>
+<li>새 특전 추가</li>
 </ul>
 <br>
-<b>Additional QoL and information:</b><br>
+<b>편의성 및 정보 개선:</b><br>
 <ul>
-<li>Study Presets now carry over when you start over, and Companion Glyph will not leave you too</li>
-<li>Swapped cel2 and Perk shop unlocks</li>
-<li>TS131 now has an additional effect</li>
-<li>Enter key now works in autobuyer inputs to apply changes</li>
-<li>Reward of achievement 118 now improves Sacrifice autobuyer</li>
-<li>Glyph preset settings are now including/increased by default</li>
-<li>Glyph recycle now checks the Glyph effects with Glyph level set in Reality autobuyer</li>
-<li>Added a new cel7 upgrade mimicking EM40</li>
-<li>Added a show all tabs button in tab modify modal</li>
-<li>Added a display when Auto EC is disabled by requirement lock</li>
-<li>Added an option to swap symbol and border colors on Glyphs</li>
-<li>Added a functionality to change the visible resource on Modern UI</li>
-<li>Added a new modal for adjusting exponent notation formatting more flexibly</li>
-<li>Automator now ignores blackhole command while it is being disabled</li>
-<li>EM1000 requirement is now Eternity in 5 seconds or less</li>
-<li>Study tree will now automatically respec when exiting an EC</li>
-<li>Disabled a rebuyable TP upgrade in cel7, because it caused confusion to many players</li>
-<li>Rebalanced 3rd milestone of 5th bar due to the above upgrade deletion</li>
-<li>Various minor text changes</li>
+<li>처음부터 다시 시작해도 연구 프리셋이 유지되며, 동료 글리프도 떠나지 않음</li>
+<li>두 번째 천상체와 특전 상점의 해금 순서 교체</li>
+<li>시간 연구 131에 추가 효과 부여</li>
+<li>자동구매기 입력값을 Enter 키로 적용 가능</li>
+<li>업적 118의 보상이 차원 희생 자동구매기를 개선</li>
+<li>글리프 프리셋 설정의 기본값을 포함/증가로 변경</li>
+<li>글리프 재활용 시 리얼리티 자동구매기에 설정한 글리프 레벨을 기준으로 효과 검사</li>
+<li>이매진 머신 40 업그레이드를 모방한 일곱 번째 천상체 업그레이드 추가</li>
+<li>탭 설정 창에 모든 탭 표시 버튼 추가</li>
+<li>조건 잠금으로 자동 영원 도전이 비활성화됐을 때 안내 표시 추가</li>
+<li>글리프의 문양색과 테두리색을 서로 바꾸는 옵션 추가</li>
+<li>모던 UI에 표시되는 자원을 변경하는 기능 추가</li>
+<li>지수 표기법 형식을 더 유연하게 조정하는 새 설정 창 추가</li>
+<li>블랙홀이 비활성화된 동안 오토메이터가 블랙홀 명령을 무시하도록 변경</li>
+<li>이매진 머신 1000 업그레이드 조건을 5초 이내 영원으로 변경</li>
+<li>영원 도전에서 나갈 때 연구 트리가 자동으로 재분배되도록 변경</li>
+<li>혼란을 일으키던 일곱 번째 천상체의 반복 구매 가능한 타키온 입자 업그레이드 비활성화</li>
+<li>위 업그레이드 삭제에 맞춰 다섯 번째 막대의 세 번째 마일스톤 재조정</li>
+<li>여러 소규모 문구 변경</li>
 </ul>
 <br>
-<b>Minor UI Changes:</b><br>
+<b>소규모 UI 변경:</b><br>
 <ul>
-<li>Adjusted perk layouts for new DAB perk</li>
-<li>Made Glyph sorting order consistent in showcase modal</li>
-<li>Added light and dark Glyph rarity colorblind palettes</li>
-<li>Adjusted various minor UI glitches</li>
+<li>새 차원 자동구매기 대량 구매 특전에 맞춰 특전 배치 조정</li>
+<li>글리프 전시 창의 정렬 순서를 일관되게 변경</li>
+<li>밝고 어두운 글리프 희귀도 색각 보정 팔레트 추가</li>
+<li>여러 사소한 UI 문제 수정</li>
 </ul>
 <br>
-<b>Bugfixes:</b><br>
+<b>버그 수정:</b><br>
 <ul>
-<li>Fixed link to Synergism</li>
-<li>Fixed tooltip in TD tab</li>
-<li>Fixed offline progress bug</li>
-<li>Fixed Glyph Rarity color bug in popup</li>
-<li>Fixed automator pause command ticking wrongly</li>
-<li>Fixed a NaN display bug with certain autobuyer inputs</li>
-<li>Fixed some buggy behavior for saves without START perk</li>
-<li>Fixed TS192 gave console error while it is being disabled</li>
-<li>Fixed wording on cel7 dilation modal claiming that EP will not be gained</li>
-<li>Fixed ! not being parsed properly when used in study strings in automator scripts</li>
-<li>Fixed Max All TD button not behaving properly with an active Telemechanical Process lock</li>
-<li>Fixed Effarig Glyphs in presets were messed up bug because of the internal format change</li>
-<li>Fixed Glyph preset did not pick the highest level Glyphs while level:increased is selected</li>
-<li>Fixed remnant count not being properly reset when entering cel7 dilation with animation on</li>
-<li>Fixed EC TT cost being calculated incorrectly when using EC! functionality and tree respec simultaneously</li>
-<li>Fixed constant data not being properly carried over on full completion and migrated data on saves
-affected by this bug</li>
-<li>Removed duplicated achievement page text on Design theme</li>
-<li>Prevented offline progress from going above the 1e6 limit that the options menu has</li>
-<li>Fixed tpyo of the century</li>
+<li>Synergism 링크 수정</li>
+<li>시간 차원 탭의 툴팁 수정</li>
+<li>오프라인 진행 버그 수정</li>
+<li>팝업의 글리프 희귀도 색상 버그 수정</li>
+<li>오토메이터의 일시정지 명령이 잘못 틱을 진행하던 문제 수정</li>
+<li>특정 자동구매기 입력값에서 NaN이 표시되던 문제 수정</li>
+<li>시작 특전이 없는 저장 파일에서 발생하던 일부 오작동 수정</li>
+<li>시간 연구 192가 비활성화됐을 때 콘솔 오류를 내던 문제 수정</li>
+<li>일곱 번째 천상체의 시간 팽창 창에서 영원 포인트를 얻지 못한다고 잘못 안내하던 문구 수정</li>
+<li>오토메이터 연구 문자열의 !가 올바르게 해석되지 않던 문제 수정</li>
+<li>원격 기계 공정 잠금이 활성화됐을 때 모든 시간 차원 최대 구매 버튼이 오작동하던 문제 수정</li>
+<li>내부 형식 변경으로 프리셋의 에파리그 글리프가 뒤섞이던 문제 수정</li>
+<li>글리프 프리셋에서 레벨: 증가를 선택했을 때 가장 높은 레벨의 글리프를 고르지 않던 문제 수정</li>
+<li>애니메이션을 켠 채 일곱 번째 천상체의 시간 팽창에 진입하면 잔재 수가 제대로 초기화되지 않던 문제 수정</li>
+<li>EC! 기능과 연구 트리 재분배를 동시에 사용할 때 영원 도전의 시간 정리 비용이 잘못 계산되던 문제 수정</li>
+<li>완전 완료 시 상수 데이터가 제대로 이어지지 않던 문제와 그 영향을 받은 저장 파일의 데이터 이전 수정</li>
+<li>디자인 테마에서 중복 표시되던 업적 페이지 문구 제거</li>
+<li>오프라인 진행 시간이 옵션의 1e6 제한을 초과하지 않도록 수정</li>
+<li>세기의 오타 수정</li>
 </ul>
 <br>
 `
   },
   {
     date: [2023, 7, 18],
-    name: "Final Official Patch",
+    name: "최종 공식 패치",
     info: `
-All of the previous patches since "The Reality Update" have been with the goal of fixing commonly reported bugs and
-implementing highly suggested features. However, this patch is planned to be the final official patch. There may be
-a few minor patches from bugs/requests in response to this set of changes, but these will likely be fixed or added
-as they come in. We may try to add more beyond that, but this is no longer a guarantee and future changes will
-probably not have their own changelog entries.
+‘리얼리티 업데이트’ 이후의 패치는 주로 자주 보고된 버그를 고치고 많은 요청을 받은 기능을 구현하기 위한 것이었습니다.
+하지만 이번 패치를 마지막 공식 패치로 계획하고 있습니다. 이번 변경에 따른 버그나 요청을 처리하는 소규모 패치가
+몇 차례 있을 수 있으며, 발견되는 대로 수정하거나 추가할 예정입니다. 그 이후에도 더 많은 내용을 추가할 수 있지만
+이제는 보장할 수 없으며, 앞으로의 변경에는 별도의 변경 내역이 없을 가능성이 큽니다.
 <br>
 <br>
-<b><i>At this point, the official version of the game is largely considered to be complete.
-Thank you so much for playing Antimatter Dimensions!</i></b>
+<b><i>이 시점에서 게임의 공식 버전은 사실상 완성된 것으로 간주합니다.
+반물질 차원을 플레이해 주셔서 진심으로 감사합니다!</i></b>
 <br>
 <br>
-<b>New things:</b><br>
+<b>새로운 기능:</b><br>
 <ul>
-<li>Time Study import strings now allow you to immediately enter an Eternity Challenge on importing if the
-string contains an EC and ends with a "!"</li>
-<li>Added hotkeys for Dilation and Glyph respec on Armageddon</li>
-<li>Shift-clicking the Reality button now forces the Glyph selection modal to show up regardless of your settings</li>
-<li>Added 3 more perk layouts (Square, horizontal grid, and distance from START)</li>
-<li>You can now toggle "upgrade locks" for some Reality and Imaginary upgrades, which will automatically prevent
-any manual or automatic actions that would fail their unlock condition</li>
-<li>Glyph Filter settings can now also be imported and exported as text</li>
-<li>You can now tell your filter to immediately Reality (once available, if your autobuyer is on) if none of the
-upcoming choices will be accepted by the filter</li>
-<li>Added Space Theorems (current and total) as an Automator currency</li>
-<li>Added the ability to disable offline time simulation when the game is suspended (due to being out of focus or
-from device hibernation)</li>
-<li>Added information related to save creation time on statistics tab</li>
-<li>The game will now periodically perform automatic local backups, similar to the Android version of the game</li>
+<li>시간 연구 가져오기 문자열에 영원 도전이 포함되고 ‘!’로 끝나면 가져오는 즉시 해당 도전에 진입</li>
+<li>시간 팽창과 아마겟돈 시 글리프 재분배 단축키 추가</li>
+<li>Shift를 누른 채 리얼리티 버튼을 클릭하면 설정과 관계없이 글리프 선택 창 표시</li>
+<li>특전 배치 3종 추가(정사각형, 가로 격자, 시작점과의 거리)</li>
+<li>일부 리얼리티 및 허수 업그레이드에 ‘업그레이드 잠금’을 설정하여 해금 조건을 실패하게 만드는
+수동·자동 행동을 자동으로 방지</li>
+<li>글리프 필터 설정을 텍스트로 가져오고 내보내는 기능 추가</li>
+<li>예정된 선택지가 모두 필터에 거부될 경우, 가능해지는 즉시 자동 리얼리티를 실행하도록 설정 가능
+(자동구매기가 켜져 있어야 함)</li>
+<li>현재 및 총 공간 정리를 오토메이터 화폐로 추가</li>
+<li>게임이 비활성 창이 되거나 기기가 절전 모드에 들어가 중단됐을 때 오프라인 시간 시뮬레이션 비활성화 가능</li>
+<li>통계 탭에 저장 파일 생성 시각 정보 추가</li>
+<li>Android 버전과 마찬가지로 주기적인 로컬 자동 백업 수행</li>
 </ul>
 <br>
-<b>Additional QoL and information:</b><br>
+<b>편의성 및 정보 개선:</b><br>
 <ul>
-<li>The tutorial at the start of the game now also emphasizes the How To Play</li>
-<li>Achievements with rewards now have an additional icon on their bottom-left corner</li>
-<li>Infinity and Eternity autobuyers now have status text on their settings boxes which indicate when they will next
-trigger a prestige when on "time" or "X highest" mode</li>
-<li>Eternity Challenges now stay visible on the EC tab as long as you have unlocked them at some point on that Reality,
-even if you unlock a different one afterwards without completing it first</li>
-<li>Resource catchup modal is now slightly more detailed during the first few Realities</li>
-<li>Upgrades affected by the EU2 perk now show more accurate cost text</li>
-<li>You can no longer accidentally Reality without selecting a Glyph; the confirm option will not appear unless one
-is selected. (Disabling the selection modal after unlocking sacrifice still lets the game choose randomly)</li>
-<li>Recent Prestiges for Reality now displays iM when appropriate</li>
-<li>Numerous How To Play entries have been updated or clarified to more accurately describe the game's features</li>
-<li>Added more display options for Recent Prestiges tab</li>
-<li>Many various minor text changes</li>
+<li>게임 시작 튜토리얼에서 플레이 방법을 더 강조</li>
+<li>보상이 있는 업적의 왼쪽 아래에 추가 아이콘 표시</li>
+<li>무한 및 영원 자동구매기의 ‘시간’ 또는 ‘최고 기록의 X배’ 모드에서 다음 명성 초기화 시점을
+설정 상자의 상태 문구로 표시</li>
+<li>현재 리얼리티에서 한 번이라도 해금한 영원 도전은 완료 전에 다른 도전을 해금하더라도 탭에 계속 표시</li>
+<li>초기 몇 차례의 리얼리티에서 자원 따라잡기 창에 더 자세한 정보 표시</li>
+<li>영원 업그레이드 2 특전의 영향을 받는 업그레이드 비용 문구를 더 정확하게 표시</li>
+<li>글리프를 선택하지 않고 실수로 리얼리티를 실행할 수 없도록 변경. 선택 전에는 확인 옵션이 표시되지 않음
+(희생 해금 후 선택 창을 비활성화하면 여전히 게임이 무작위로 선택)</li>
+<li>최근 명성 초기화의 리얼리티 기록에서 필요할 때 허수 머신 표시</li>
+<li>게임 기능을 더 정확히 설명하도록 여러 플레이 방법 항목을 갱신하거나 명확화</li>
+<li>최근 명성 초기화 탭에 표시 옵션 추가</li>
+<li>여러 소규모 문구 변경</li>
 </ul>
 <br>
-<b>Minor UI Changes:</b><br>
+<b>소규모 UI 변경:</b><br>
 <ul>
-<li>Purchase count tooltips for Dimensions now pop out to the left side instead of above</li>
-<li>Changed Break Infinity tab symbol on Modern UI</li>
-<li>Time Study import modal now shows info an import image as a two-column layout to reduce the need to scroll</li>
-<li>Clarified interactions with TS31 and other upgrades</li>
-<li>Eternity Challenges now have a visual overlay to show how many completions they have</li>
-<li>The Reality reset modal now warns you more firmly if you can otherwise Reality for rewards instead</li>
-<li>Added an icon for recently unequipped Glyphs</li>
-<li>Added an "auto" Glyph BG color mode which matches black/white Glyph backgrounds to your current Theme</li>
-<li>Improved color contrast for different Glyph rarities and added decorative borders to Glyphs depending on their
-rarity and/or type</li>
-<li>Added a message modal to clarify why not all Glyphs could be unequipped in certain cases</li>
-<li>Effarig Glyphs now show their effects in "celestial order"</li>
-<li>All <i>inventory</i> Glyphs now also show reduced levels when global level nerfs are active</li>
-<li>Cursed Glyphs can now also be made on cel4's tab</li>
-<li>The glow for the Singularity milestone button can now be disabled</li>
+<li>차원 구매 횟수 툴팁이 위가 아닌 왼쪽에 표시되도록 변경</li>
+<li>모던 UI의 무한 돌파 탭 문양 변경</li>
+<li>시간 연구 가져오기 창의 정보와 가져오기 이미지를 두 열로 배치해 스크롤 감소</li>
+<li>시간 연구 31과 다른 업그레이드의 상호작용 명확화</li>
+<li>영원 도전에 완료 횟수를 나타내는 시각적 오버레이 추가</li>
+<li>보상을 받을 수 있는데 리얼리티 초기화만 하려 할 경우 더 강한 경고 표시</li>
+<li>최근 장착 해제한 글리프 아이콘 추가</li>
+<li>현재 테마에 맞춰 글리프 배경을 흑백으로 설정하는 ‘자동’ 배경색 모드 추가</li>
+<li>글리프 희귀도별 색상 대비 개선 및 희귀도나 유형에 따른 장식 테두리 추가</li>
+<li>일부 상황에서 모든 글리프를 장착 해제할 수 없는 이유를 설명하는 메시지 창 추가</li>
+<li>에파리그 글리프 효과를 ‘천상 순서’로 표시</li>
+<li>전체 레벨 감소 효과가 활성화되면 <i>보관함</i>의 글리프에도 감소된 레벨 표시</li>
+<li>네 번째 천상체 탭에서도 저주받은 글리프 제작 가능</li>
+<li>특이점 마일스톤 버튼의 빛나는 효과 비활성화 가능</li>
 </ul>
 <br>
-<b>Bugfixes:</b><br>
+<b>버그 수정:</b><br>
 <ul>
-<li>Fixed IP/EP rate display not updating properly when save slot is changed</li>
-<li>Prevented Time Study presets from having duplicate names</li>
-<li>Fixed Eternity button having incorrect styling below Infinite IP in dilation</li>
-<li>Fixed poor Glyph uniformity behavior without START perk</li>
-<li>Fixed some Glyph information being colored based on BG color instead of Theme color</li>
-<li>Disabled automator undo/redo from functioning on tabs other than the editor</li>
-<li>Fixed purchased music Glyphs getting turned into regular Glyphs when cosmetics are reset</li>
-<li>Made Glyph preset loading more forgiving and less likely to fail to load presets</li>
-<li>Fixed cel1 Reality RM record being incorrectly tracked in some cases</li>
-<li>Fixed Glyph filter sometimes not comparing to rarity properly</li>
-<li>Fixed cel7 Glyph slot not appearing/disappearing properly in certain cases</li>
-<li>Fixed misalignment in cel6 icon (credit to @mrkrutaman for the fix)</li>
-<li>Disabled IAP purchase for all Glyph Cosmetics when already purchased</li>
-<li>Fixed Hibernation offline time not giving real-time resources</li>
-<li>Hibernation offline simulation now properly uses offline time settings</li>
-<li>Added a few missing notifications for hotkey presses</li>
-<li>Made Standard notation format larger integers properly</li>
-<li>Removed news ticker with broken link</li>
-<li>Various more minor bugfixes</li>
+<li>저장 슬롯 변경 시 무한 포인트/영원 포인트 획득률이 제대로 갱신되지 않던 문제 수정</li>
+<li>시간 연구 프리셋의 이름이 중복되지 않도록 변경</li>
+<li>시간 팽창 중 무한 포인트가 무한대 미만일 때 영원 버튼의 스타일이 잘못되던 문제 수정</li>
+<li>시작 특전이 없을 때 글리프 균일성 기능이 제대로 작동하지 않던 문제 수정</li>
+<li>일부 글리프 정보가 테마색 대신 배경색을 기준으로 표시되던 문제 수정</li>
+<li>편집기 외 탭에서 오토메이터 실행 취소/다시 실행이 작동하지 않도록 변경</li>
+<li>구매한 음악 글리프가 외형 초기화 시 일반 글리프로 바뀌던 문제 수정</li>
+<li>글리프 프리셋 불러오기의 허용 범위를 넓혀 실패 가능성 감소</li>
+<li>일부 상황에서 첫 번째 천상체의 리얼리티 머신 기록이 잘못 추적되던 문제 수정</li>
+<li>글리프 필터가 가끔 희귀도를 제대로 비교하지 않던 문제 수정</li>
+<li>특정 상황에서 일곱 번째 천상체의 글리프 슬롯이 제대로 나타나거나 사라지지 않던 문제 수정</li>
+<li>여섯 번째 천상체 아이콘의 정렬 문제 수정(@mrkrutaman 제공)</li>
+<li>이미 구매한 모든 글리프 외형의 인앱 구매 비활성화</li>
+<li>절전 모드의 오프라인 시간으로 실제 시간 자원을 얻지 못하던 문제 수정</li>
+<li>절전 모드 오프라인 시뮬레이션이 오프라인 시간 설정을 올바르게 사용하도록 수정</li>
+<li>일부 단축키 입력에 누락된 알림 추가</li>
+<li>표준 표기법이 더 큰 정수를 올바르게 표시하도록 수정</li>
+<li>깨진 링크가 있는 뉴스 티커 제거</li>
+<li>그 밖의 여러 소규모 버그 수정</li>
 </ul>
 <br>
 `
   },
   {
     date: [2023, 5, 25],
-    name: "Multiplier Tab, Automator, and Major mechanics fixes",
+    name: "배수 탭, 오토메이터 및 주요 게임 기능 수정",
     info: `
-<b>Multiplier Tab:</b><br>
+<b>배수 탭:</b><br>
 <ul>
-<li>Added a tab for Replicanti speed multipliers</li>
-<li>Power effects can now also be shown as an equivalent-value multiplier</li>
-<li>AD tab now has special behavior within NC12</li>
-<li>Made general categories (ie. "Achievements" or "Time Studies") still openable even with single entries</li>
-<li>DT nerfs no longer apply to game speed within the multiplier tab</li>
-<li>Entries referring to individual upgrades are now worded more consistently</li>
-<li>Filled in a bunch of miscellaneous missing effects and fixed a few mislabeled effects</li>
+<li>복제자 속도 배수 탭 추가</li>
+<li>거듭제곱 효과를 같은 값의 배수로도 표시 가능</li>
+<li>일반 도전 12에서 반물질 차원 탭이 특별하게 작동</li>
+<li>항목이 하나뿐이어도 ‘업적’, ‘시간 연구’ 같은 일반 범주를 열 수 있도록 변경</li>
+<li>배수 탭의 게임 속도에는 팽창 시간이 주는 감소 효과가 적용되지 않도록 변경</li>
+<li>개별 업그레이드를 가리키는 항목의 문구를 더 일관되게 변경</li>
+<li>누락된 여러 효과를 추가하고 잘못 표시된 효과 수정</li>
 </ul>
 <br>
 
-<b>Automator Features:</b><br>
+<b>오토메이터 기능:</b><br>
 <ul>
-<li>Automator-related notifications in the top-right now have their own coloring</li>
-<li>Constants now stay in a consistent order when refreshing the page</li>
-<li>New scripts now have enforced unique names by default</li>
-<li>NOTIFY command now also supports single-quotes, as well as mixtures of single/double quotes</li>
-<li>Added buttons for deleting individual constants, and another button to delete all of them</li>
-<li>Added undo/redo functionality</li>
-<li>You can now import all your study presets into the automator as constants</li>
-<li>Added WAIT functionality for next BH1/BH2 activation</li>
-<li>Added STOP command to immediately halt script execution</li>
-<li>You can now use the highest filter score out of your available Glyph options as a variable for
-  comparisons</li>
+<li>오른쪽 위의 오토메이터 관련 알림에 전용 색상 적용</li>
+<li>페이지를 새로고침해도 상수 순서가 일정하게 유지</li>
+<li>새 스크립트의 이름이 기본적으로 중복되지 않도록 강제</li>
+<li>NOTIFY 명령에서 작은따옴표와 큰따옴표 혼용 지원</li>
+<li>개별 상수 삭제 버튼과 모든 상수 삭제 버튼 추가</li>
+<li>실행 취소/다시 실행 기능 추가</li>
+<li>모든 연구 프리셋을 오토메이터 상수로 가져오기 가능</li>
+<li>다음 BH1/BH2 활성화를 기다리는 WAIT 기능 추가</li>
+<li>스크립트 실행을 즉시 멈추는 STOP 명령 추가</li>
+<li>선택 가능한 글리프 중 가장 높은 필터 점수를 비교용 변수로 사용 가능</li>
 </ul>
 <br>
 
-<b>Automator Bugfixes:</b><br>
+<b>오토메이터 버그 수정:</b><br>
 <ul>
-<li>Block-to-text conversion should be less aggressive on deleting errored lines</li>
-<li>Fixed block editor wiping internal contents of all later blocks whenever block nesting changes</li>
-<li>Fixed a bug which sometimes caused the automator to attempt to run errored scripts and crash the game</li>
-<li>Fixed automator constants not being compared to built-in keywords correctly</li>
-<li>Fixed execution skipping the first line whenever scripts restart due to a REALITY command</li>
-<li>Fixed a few syntax coloring bugs in the Automator text editor</li>
-<li>Fixed a bug which caused the automator to prevent some resources from being reset after full completions</li>
+<li>블록을 텍스트로 변환할 때 오류가 있는 줄을 지나치게 삭제하지 않도록 변경</li>
+<li>블록 중첩이 바뀔 때 이후 모든 블록의 내부 내용이 지워지던 문제 수정</li>
+<li>오류가 있는 스크립트를 실행하려다 게임이 종료되던 문제 수정</li>
+<li>오토메이터 상수와 내장 키워드가 올바르게 비교되지 않던 문제 수정</li>
+<li>REALITY 명령으로 스크립트가 재시작될 때 첫 줄을 건너뛰던 문제 수정</li>
+<li>오토메이터 텍스트 편집기의 구문 색상 오류 수정</li>
+<li>게임 완전 완료 후 일부 자원의 초기화를 오토메이터가 막던 문제 수정</li>
 </ul>
 <br>
 
-<b>Game Mechanic fixes:</b><br>
+<b>게임 기능 수정:</b><br>
 <ul>
-<li>Dark Energy no longer resets after Annihilation</li>
-<li>Dooming is now prevented if you have less than 5 empty inventory slots</li>
-<li>"Refine to cap, then sacrifice" mode now sacrifices when the related resource is still locked</li>
-<li>Secret achievement 46 is now properly awarded if the condition is met while offline</li>
-<li>Storing real time no longer prevents autobuyers from ticking</li>
-<li>Fixed bugged modal and game crash when attempting to exit a Celestial Reality from the Glyph tab</li>
-<li>IAP flag in speedruns is now updated more consistently</li>
-<li>Fixed Reality button sometimes showing an incorrect projected RM value due to amplification</li>
-<li>Fixed Black Holes getting stuck as permanently inactive in some cases</li>
-<li>Fixed negative Glyph counts not being properly updated when using Glyph undo</li>
-<li>Glyph purge modals now count identical Glyphs properly</li>
-<li>Fixed Glyph purge modals sometimes not appearing</li>
-<li>Fixed a poor interaction between the new Glyph RNG and negative seed values</li>
-<li>Fixed Glyph RNG seed not advancing after amplified realities</li>
+<li>전멸 후 어둠 에너지가 초기화되지 않도록 변경</li>
+<li>빈 보관함 슬롯이 5개 미만이면 파멸을 실행할 수 없도록 변경</li>
+<li>‘한도까지 정제 후 희생’ 모드에서 관련 자원이 잠겨 있으면 희생하도록 변경</li>
+<li>오프라인 상태에서 조건을 충족해도 비밀 업적 46을 정상 획득</li>
+<li>실제 시간을 저장해도 자동구매기가 틱을 진행</li>
+<li>글리프 탭에서 천상체 리얼리티를 나가려 할 때 창이 오작동하고 게임이 종료되던 문제 수정</li>
+<li>스피드런의 인앱 구매 표시를 더 일관되게 갱신</li>
+<li>증폭 때문에 리얼리티 버튼의 예상 리얼리티 머신 값이 잘못 표시되던 문제 수정</li>
+<li>일부 상황에서 블랙홀이 영구 비활성 상태에 갇히던 문제 수정</li>
+<li>글리프 실행 취소 시 음수 글리프 개수가 제대로 갱신되지 않던 문제 수정</li>
+<li>글리프 일괄 정리 창에서 동일한 글리프를 올바르게 계산</li>
+<li>글리프 일괄 정리 창이 가끔 나타나지 않던 문제 수정</li>
+<li>새 글리프 난수 생성과 음수 시드 값의 부자연스러운 상호작용 수정</li>
+<li>증폭된 리얼리티 후 글리프 난수 시드가 진행되지 않던 문제 수정</li>
 </ul>
 
-<br><b>Other changes:</b><br>
+<br><b>기타 변경 사항:</b><br>
 <ul>
-<li>Added confirmation option to hide Glyph purge modals which mass-sacrifice</li>
-<li>Improved UI behavior when importing saves in certain conditions</li>
-<li>Teresa's EU-start upgrade now applies retroactively</li>
-<li>Offline ticks are now limited to a minimum of 33ms instead of 50ms</li>
-<li>"Offline" progress due to device hibernation now gets simulated as if it were offline time
-  instead of being applied as a single large tick</li>
-<li>Offline/hibernation maximum time has been increased from 6 hours to 24 hours</li>
-<li>Text references to Teresa's Perk Shop have been more standardized</li>
-<li>Positioning for V's entries in navigation was adjusted to prevent text overlap</li>
-<li>AMOLED themes now have proper theming on credits scroll</li>
-<li>Fixed Achievement 142 not unlocking when unlocking the Black Hole</li>
-<li>Fixed Reality Glyph cosmetics not handling colors properly</li>
-<li>Exit Dilation modal no longer erroneously appears outside of Dilation</li>
-<li>A handful of more minor text and typo fixes</li>
+<li>글리프를 대량 희생하는 일괄 정리 창을 숨기는 확인 설정 추가</li>
+<li>특정 조건에서 저장 파일을 가져올 때의 UI 동작 개선</li>
+<li>테레사의 영원 업그레이드 시작 업그레이드가 이전 진행에도 소급 적용</li>
+<li>오프라인 틱의 최소 간격을 50ms에서 33ms로 변경</li>
+<li>기기 절전 모드로 생긴 ‘오프라인’ 진행을 한 번의 큰 틱으로 적용하는 대신 오프라인 시간처럼 시뮬레이션</li>
+<li>오프라인/절전 모드 최대 시간을 6시간에서 24시간으로 증가</li>
+<li>테레사의 특전 상점을 가리키는 문구를 더 일관되게 통일</li>
+<li>문구가 겹치지 않도록 천상체 탐색의 V 항목 위치 조정</li>
+<li>AMOLED 테마에서 크레딧 스크롤에 올바른 테마 적용</li>
+<li>블랙홀 해금 시 업적 142가 해금되지 않던 문제 수정</li>
+<li>리얼리티 글리프 외형의 색상이 제대로 처리되지 않던 문제 수정</li>
+<li>시간 팽창 밖에서 시간 팽창 나가기 창이 잘못 나타나지 않도록 수정</li>
+<li>그 밖의 소규모 문구와 오타 수정</li>
 </ul>
 <br>
 `
   },
   {
     date: [2023, 4, 7],
-    name: "Speedrunner and Glyph RNG",
+    name: "스피드러너와 글리프 난수 생성",
     info: `
-<b>Major Changes:</b><br>
+<b>주요 변경 사항:</b><br>
 <ul>
-<li><b>Glyph RNG for Realities 2-21 has been completely overhauled.</b> The new RNG now attempts to give
-you a much more even spread of effects during these Realities; for each group of 5 consecutive Realities,
-you will now see every Glyph type exactly 4 times and every individual effect will always appear <i>at least once</i>
-amongst those 4 choices.
+<li><b>2~21번째 리얼리티의 글리프 난수 생성을 완전히 개편했습니다.</b> 새 방식은 해당 리얼리티에서 효과가
+더 고르게 나오도록 합니다. 연속된 리얼리티 5회마다 모든 글리프 유형이 정확히 4번씩 등장하며,
+각각의 효과는 그 네 선택지 중 <i>최소 한 번</i> 반드시 나타납니다.
 </li>
-<li>Two side effects of the above change: 2-effect glyphs are now a fair bit more common
-(about 30% more common for replication and dilation and 140% more common for the other three) and the Glyph options for
-your <i>current</i> Reality may have changed when first loading up this version of the game.</li>
-<li>Starting a speedrun save now properly carries over all the other stats which would have normally carried over after
-finishing the game</li>
-<li>Previous speedrun records are now also stored in the save and can now be compared on a newly-added subtab</li>
-<li>Glyph RNG seed can now be modified in-game during a speedrun, as long as you have not realitied yet</li>
-<li>Credits page was updated to include people recently brought on for testing the Reality update on Android</li>
-<li>The "Total Termination" upgrade now affects <i>all</i> Glyph types</li>
+<li>위 변경의 두 가지 영향으로 2효과 글리프가 더 흔해졌고(복제와 시간 팽창은 약 30%, 나머지 셋은 약 140%),
+이 버전을 처음 불러올 때 <i>현재</i> 리얼리티의 글리프 선택지가 달라질 수 있습니다.</li>
+<li>스피드런 저장을 시작할 때 게임 완료 후 원래 이어지는 모든 통계가 정상적으로 유지</li>
+<li>이전 스피드런 기록을 저장 파일에 보관하고 새 하위 탭에서 비교 가능</li>
+<li>아직 리얼리티를 실행하지 않았다면 스피드런 중 게임 내에서 글리프 난수 시드 수정 가능</li>
+<li>Android 리얼리티 업데이트 테스트에 최근 참여한 사람들을 크레딧에 추가</li>
+<li>‘완전한 종결’ 업그레이드가 <i>모든</i> 글리프 유형에 적용</li>
 </ul>
 <br>
 
-<b>New QoL/features:</b><br>
+<b>새 편의 기능:</b><br>
 <ul>
-<li>Real time (in stats) is now paused after gaining the final achievement</li>
-<li>Perk tree interactivity has been made generally more responsive</li>
-<li>Added two new default perk tree layouts (an Android-version grid and \uE010)</li>
-<li>Eternity autobuyer now only triggers at full completion count with ECB perk instead of immediately</li>
-<li>Added a button to reset all individual Glyph cosmetics</li>
-<li>Added a confirmation modal for exiting challenges using the header button</li>
-<li>Shift-clicking the icon on the Glyph filter now bumps it to the next <i>lower</i> threshold</li>
-<li>Glyph presets now have 2 additional slots (5 => 7)</li>
-<li>Added time estimates for reaching max Replicanti and Dilated Time this Reality</li>
-<li>Hovering over the dilation button now shows all time estimate tooltips at once</li>
-<li>Clicking already-bought dilation studies now moves you over to the appropriate related tab</li>
-<li>All progress-locked options now remain permanently modifiable after full game completions</li>
+<li>최종 업적 획득 후 통계의 실제 시간 일시정지</li>
+<li>특전 트리의 조작 반응성 전반 개선</li>
+<li>기본 특전 트리 배치 2종 추가(Android 버전 격자와 블랙홀)</li>
+<li>영원 도전 자동구매기 특전 보유 시 영원 자동구매기가 즉시가 아닌 최대 완료 횟수에서만 작동</li>
+<li>각 글리프 외형을 모두 초기화하는 버튼 추가</li>
+<li>상단 버튼으로 도전에서 나갈 때 확인 창 추가</li>
+<li>글리프 필터 아이콘을 Shift+클릭하면 다음으로 <i>낮은</i> 기준값으로 이동</li>
+<li>글리프 프리셋 슬롯 2개 추가(5개 → 7개)</li>
+<li>이번 리얼리티에서 복제자 최대치와 팽창 시간에 도달할 예상 시간 추가</li>
+<li>시간 팽창 버튼에 마우스를 올리면 모든 예상 시간 툴팁을 동시에 표시</li>
+<li>이미 구매한 시간 팽창 연구를 클릭하면 관련 탭으로 이동</li>
+<li>게임 완전 완료 후 진행도에 잠긴 모든 옵션을 영구적으로 변경 가능</li>
 </ul>
 <br>
 
-<b>Improved UI/Layout:</b><br>
+<b>UI 및 배치 개선:</b><br>
 <ul>
-<li>Speedrun time formatting now has 3 hour digits and suppresses END formatting on some subtabs</li>
-<li>Improved autobuyer textbox contrast on some themes</li>
-<li>Reality header in stats tab now shows cel7-related stats as well</li>
-<li>Clarified how Relic Shard rarity boost and cursed Glyphs work</li>
-<li>Added %/sec to ID8 when relevant</li>
-<li>Added TT to offline progress entries</li>
-<li>Added BH cost scaling to its H2P entry</li>
-<li>Changed AD Dimension purchase buttons to be stylized like cel6 when Continuum is active</li>
-<li>Improved light/dark TS contrast between buyable and bought states</li>
-<li>Speedrun widget now takes up less screen space when collapsed</li>
-<li>Other various minor text fixes</li>
+<li>스피드런 시간의 시간 단위를 세 자리로 표시하고 일부 하위 탭에서 END 형식을 숨김</li>
+<li>일부 테마의 자동구매기 입력 상자 대비 개선</li>
+<li>통계 탭의 리얼리티 제목에 일곱 번째 천상체 관련 통계도 표시</li>
+<li>유물 파편 희귀도 보너스와 저주받은 글리프의 작동 방식 명확화</li>
+<li>관련 상황에서 8차 무한 차원에 초당 % 표시 추가</li>
+<li>오프라인 진행 항목에 시간 정리 추가</li>
+<li>플레이 방법의 블랙홀 항목에 비용 증가 방식 추가</li>
+<li>연속체 활성화 시 반물질 차원 구매 버튼을 여섯 번째 천상체 스타일로 변경</li>
+<li>밝은/어두운 시간 연구의 구매 가능 및 구매 완료 상태 대비 개선</li>
+<li>접힌 스피드런 위젯의 화면 점유 공간 감소</li>
+<li>그 밖의 여러 소규모 문구 수정</li>
 </ul>
 <br>
 
-<b>Bugfixes:</b><br>
+<b>버그 수정:</b><br>
 <ul>
-<li>Fixed buggy Glyph set names from reskinned Companion Glyphs</li>
-<li>Fixed broken external links in "About the game"</li>
-<li>Fixed AD autobuyer settings being unmodifiable in some cases</li>
-<li>Fixed some display bugs with fractional Infinity/Eternity count</li>
-<li>Recent prestige tab now properly accounts for amplification</li>
-<li>Fixed subtab switching when switching game saves</li>
-<li>Fixed Replicanti estimate not accounting for update rate correctly in some cases</li>
-<li>Fixed Transience of Information not calculating its RM requirement correctly</li>
-<li>Various more minor bugfixes</li>
+<li>외형을 바꾼 동료 글리프의 글리프 세트 이름 오류 수정</li>
+<li>‘게임 정보’의 깨진 외부 링크 수정</li>
+<li>일부 상황에서 반물질 차원 자동구매기 설정을 변경할 수 없던 문제 수정</li>
+<li>분수 무한/영원 횟수의 표시 오류 수정</li>
+<li>최근 명성 초기화 탭에서 증폭을 올바르게 반영</li>
+<li>저장 파일 전환 시 하위 탭이 바뀌던 문제 수정</li>
+<li>일부 상황에서 복제자 예상치가 갱신 주기를 제대로 반영하지 않던 문제 수정</li>
+<li>‘정보의 덧없음’이 리얼리티 머신 조건을 잘못 계산하던 문제 수정</li>
+<li>그 밖의 여러 소규모 버그 수정</li>
 </ul>
 `
   },

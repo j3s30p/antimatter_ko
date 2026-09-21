@@ -86,12 +86,12 @@ export default {
         case AUTOMATOR_EVENT_TIMESTAMP_MODE.DISABLED:
           return "";
         case AUTOMATOR_EVENT_TIMESTAMP_MODE.THIS_REALITY:
-          return `, ${TimeSpan.fromSeconds(entry.thisReality).toStringShort()} (real-time) in Reality`;
+          return `, 현실 시작 후 실제 시간 ${TimeSpan.fromSeconds(entry.thisReality).toStringShort()}`;
         case AUTOMATOR_EVENT_TIMESTAMP_MODE.RELATIVE_NOW:
-          return `, ${TimeSpan.fromMilliseconds(this.currentTime - entry.timestamp).toStringShort()} ago`;
+          return `, ${TimeSpan.fromMilliseconds(this.currentTime - entry.timestamp).toStringShort()} 전`;
         case AUTOMATOR_EVENT_TIMESTAMP_MODE.RELATIVE_PREV:
-          if (entry.timegap === entry.timestamp) return `, first logged event`;
-          return `, ${TimeSpan.fromMilliseconds(entry.timegap).toStringShort()} after previous event`;
+          if (entry.timegap === entry.timestamp) return `, 첫 기록 이벤트`;
+          return `, 이전 이벤트 ${TimeSpan.fromMilliseconds(entry.timegap).toStringShort()} 후`;
         case AUTOMATOR_EVENT_TIMESTAMP_MODE.DATE_TIME:
           return `, ${Time.toDateTimeString(entry.timestamp)}`;
         default:
