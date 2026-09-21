@@ -7,10 +7,9 @@
 - 한국어 번역 참고:
   [SameMa의 Antimatter Dimensions: Endgame 한국어판](https://github.com/gyeol0710/antimatter-dimensions-endgame-korean),
   기준 커밋 `4e0f216870eb2551446e79f228b1f6ceacd4701d`
-- 위 참고 자료가 바탕으로 삼은 기존 번역:
+- 추가 한국어 번역 참고:
   [SeonjiSoup621(Jihuu621)의 ADKorean](https://github.com/Jihuu621/ADKorean)
 - 글꼴: Galmuri9 Regular, SIL Open Font License 1.1
 
 원작 소스의 MIT 라이선스 고지와 각 서드파티 파일의 개별 라이선스가 적용됩니다.
-현재 패치는 Steam 원문을 기준으로 번역을 검수·작성하며, Endgame 모드의 게임 로직이나 전용 콘텐츠를
-포함하지 않습니다.
+현재 패치의 번역은 Steam 원문을 기준으로 독립적으로 검수·작성했습니다.
