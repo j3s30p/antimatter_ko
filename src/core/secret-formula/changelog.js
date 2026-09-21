@@ -768,313 +768,287 @@ Android 리얼리티 업데이트 출시를 축하합니다! 이 큰 이정표�
   },
   {
     date: [2018, 6, 17],
-    name: "This Update Sucks",
+    name: "이 업데이트는 빨아들인다",
     info: `
-<b>MAJOR STUFF:</b><br>
+<b>주요 내용:</b><br>
 <ul>
-<li>TIME DILATION</li>
-<li>3 ROWS OF SECRET ACHIEVEMENTS</li>
-<li>Added more Nicolas Cage.</li>
-<li>1 new row of achievements.</li>
-<li>Added 3 study tree save slots.</li>
-<li>Greatly improved performance. (up to 5x in certain cases, ~3x in almost all cases)</li>
-<li>Nerfed EC10 reward. ((infinities * EC10 completions * 0.000002+1) >
-(infinities ^ 0.9 * EC10 completions * 0.000002+1))</li>
-<li>Added even more Nicolas Cage.</li>
-<li>Time study 11 has been capped at 1e2500 and now displays its current multiplier.</li>
-<li>Time study 193 has been buffed, requires ~1012680 eternities to cap, rather than 1.5m, and is now capped at 1e13000
-instead of ~1.81e12900/1.5m eternities. (1.02^x) > (1.03^x)</li>
-<li>The second eternity upgrade has been buffed, and now soft caps at 100k, rather than 125k. The end result is very
-slightly higher. ((x/300)^log4(2x)) > ((x/200)^log4(2x))</li>
-<li>EC1 now requires 20k eternities per tier to unlock, down from 25k.</li>
-<li>TD cost scaling has been increased after costs of 1e1300. (this is in addition to the current increase)</li>
-<li>Added additional galaxy cost scaling after 800 galaxies.</li>
-<li>Added a button to buy the maximum amount of eternity point multipliers at once.</li>
-<li>Offline progress processes ~5x faster, and now simulates autobuyers. (please note that offline progress is still
-capped at 1000 ticks, with additional ticks increasing the production of said 1000 ticks)</li>
-<li>Added a new save file system that allows 3 different save files at once all with cloud save enabled, along with
-a new cloud save UI.</li>
-<li>Added an animation to visualize your multiplier gain when you purchase 10 of a dimension, dimension boost/shift,
-or sacrifice.</li>
+<li>시간 팽창</li>
+<li>비밀 업적 3줄</li>
+<li>니콜라스 케이지 추가.</li>
+<li>업적 1줄 추가.</li>
+<li>연구 트리 저장 슬롯 3개 추가.</li>
+<li>성능 대폭 개선(일부 상황에서 최대 5배, 거의 모든 상황에서 약 3배).</li>
+<li>영원 도전 10 보상 하향. ((무한 횟수 * 영원 도전 10 완료 횟수 * 0.000002+1) >
+(무한 횟수 ^ 0.9 * 영원 도전 10 완료 횟수 * 0.000002+1))</li>
+<li>니콜라스 케이지를 더 추가.</li>
+<li>시간 연구 11의 상한을 1e2500으로 설정하고 현재 배수 표시.</li>
+<li>시간 연구 193 상향. 상한 도달에 150만 대신 약 1,012,680 영원이 필요하며, 상한을 약 1.81e12900에서
+1e13000으로 변경. (1.02^x) > (1.03^x)</li>
+<li>두 번째 영원 업그레이드 상향 및 완만한 상한을 125,000에서 100,000으로 변경. 최종 결과도 아주 조금 증가.
+((x/300)^log4(2x)) > ((x/200)^log4(2x))</li>
+<li>영원 도전 1의 단계별 해금 조건을 영원 25,000회에서 20,000회로 감소.</li>
+<li>1e1300 이후 시간 차원 비용 증가 강화(기존 증가에 추가 적용).</li>
+<li>은하 800개 이후 추가 은하 비용 증가 적용.</li>
+<li>영원 포인트 배수를 한 번에 최대 구매하는 버튼 추가.</li>
+<li>오프라인 진행 처리 속도 약 5배 향상 및 자동구매기 시뮬레이션 추가(오프라인 진행은 여전히 1,000틱이
+상한이며 추가 틱은 해당 1,000틱의 생산량을 증가).</li>
+<li>클라우드 저장이 활성화된 서로 다른 저장 파일 3개를 동시에 사용할 수 있는 새 저장 시스템과
+새 클라우드 저장 UI 추가.</li>
+<li>차원 10개 구매, 차원 가속/이동 또는 희생 시 배수 증가를 시각화하는 애니메이션 추가.</li>
 <li>Nicolas Cage.</li>
-<li>Added an animation to big crunches. This will only trigger if you haven't eternitied, have a fastest infinity time
-above 1 minute, and haven't broken infinity.</li>
-<li>Added a button in the options menu to disable individual animations.</li>
-<li>Added more news ticker entries</li>
+<li>빅 크런치 애니메이션 추가. 영원 경험이 없고, 가장 빠른 무한이 1분보다 길며, 무한 돌파를 하지 않았을 때만 재생.</li>
+<li>옵션 메뉴에 개별 애니메이션 비활성화 버튼 추가.</li>
+<li>뉴스 티커 항목 추가.</li>
 </ul>
 <br>
-<b>Minor stuff:</b><br>
+<b>소규모 변경:</b><br>
 <ul>
-<li>Reduced the space between the secondary eternity tab buttons.</li>
-<li>The EC3 description now specifies that dimensional sacrifice is disabled.</li>
-<li>Autobuyer inputs now support commas and notation on exponents.</li>
-<li>When purchasing the EP or IP multipliers, autobuyer inputs will now always format the updated value above 1000.</li>
-<li>The size and placement of the auto IP multiplier and auto RG toggles have been adjusted to fit with the other auto
-toggles.</li>
-<li>Total time played now increases at a normal rate inside EC12.</li>
-<li>Fastest infinity time now updates normally inside EC12.</li>
-<li>The time theorem purchasing background is now 20 pixels wider.</li>
-<li>Changed the wording on time study 133 for clarity.</li>
-<li>Added various missing periods to achievements.</li>
-<li>Improved chart performance. (it's still pretty laggy if your settings are too high)</li>
-<li>You can now purchase study 201 while you have EC11/12 bought, but you cannot purchase another path.</li>
-<li>Purchasing study 131 no longer turns off your replicanti galaxy autobuyer, but instead displays it as disabled.</li>
-<li>You can now purchase another split using shift while you have study 201.</li>
-<li>You now purchase max galaxies manually by clicking or using the hotkey with more than 6 eternities.</li>
-<li>You can now purchase single dimension boosts and galaxies by holding shift while purchasing.</li>
-<li>ID8 will now display a rate of change after completing EC7 at least once.</li>
-<li>Added an oxford comma to formatted time values.</li>
-<li>Made the dimensional sacrifice button 40px wider to prevent the text overflowing.</li>
-<li>Made the all tab eternity and infinity point displays 30px wider to prevent the text overflowing.</li>
-<li>Moved the big crunch button up to prevent blocking the statistics and achievement tab buttons.</li>
-<li>Moved the eternity and infinity buttons inwards to prevent the HTML layout jumping around.</li>
-<li>Fixed the placement of certain footers.</li>
-<li>Fixed a typo where a news ticker said "Dimesional Sacrifice" instead of "Dimensional Sacrifice"</li>
-<li>Fixed a bug where TDs displayed a 2x multiplier per purchase when they actually gave a 4x multiplier.</li>
-<li>Fixed a bug where study 51 wouldn't respect notation.</li>
-<li>Fixed a bug where the infinity challenges tab would always show.</li>
-<li>Fixed a bug where the auto RG toggle would jiggle left and right 1 pixel in certain cases.</li>
-<li>Fixed a bug where the rate of change on the 7th dimension wouldn't take into account ID1 while in EC7.</li>
-<li>Fixed a bug where EC12 displayed 0.1 seconds after 5 completions, but actually required 0.0 seconds.</li>
-<li>Fixed a bug where tickspeed elements wouldn't hide correctly in certain cases.</li>
-<li>Fixed a bug where bought eternity challenge unlock studies would show as gray in the dark theme rather than a deep
-purple.</li>
-<li>Fixed a bug where dimensions 5-8 would hide upon eternity even with the 30 eternity milestone.</li>
-<li>Fixed a bug where popup colors weren't inverted in the inverted and inverted metro themes.</li>
-<li>Fixed a bug where the eternity point amount wouldn't show when you imported a save with eternity points into a save
-without them.</li>
-<li>Fixed a bug where locked eternity challenges didn't have a hover effect in the dark metro theme.</li>
-<li>Fixed a bug where popups weren't properly centered.</li>
-<li>Fixed a bug where ID autobuyers would purchase IDs upon unlock even while disabled.</li>
-<li>Fixed a bug where study tree branches drawn to row 22 were off-centered.</li>
-<li>Fixed a bug where EP/min and IP/min peaks wouldn't update properly upon import.</li>
-<li>Fixed a bug where infinity dimension autobuyers wouldn't hide properly upon import.</li>
-<li>Fixed a bug where the IP multiplier autobuyer wouldn't hide properly upon import.</li>
-<li>Fixed a bug where the option to change big crunch modes wouldn't hide properly upon import.</li>
-<li>Fixed a bug where the max buy galaxy interval setting wouldn't hide properly upon import.</li>
-<li>Fixed a bug where the RG autobuyer wouldn't hide properly upon import.</li>
-<li>Fixed a bug where the eternity confirmation option wouldn't hide properly upon import.</li>
-<li>Fixed a bug where the replicanti upgrade autobuyers wouldn't hide properly upon import.</li>
-<li>Fixed a bug where your update rate wouldn't update upon import.</li>
-<li>Fixed a bug where the chart line color wouldn't update properly upon import.</li>
-<li>Fixed a bug where achievement images were being cut off by 4 pixels on the right and bottom sides.</li>
-<li>Fixed a bug where "Yo dawg, I heard you liked infinities..." only required 1e300 times the previous infinity.</li>
-<li>Fixed a bug where the auto sacrifice interval would still display as 0.10 seconds even with the
-double autobuyer speed breaking infinity upgrade.</li>
-<li>Fixed a bug where certain time studies were 1 pixel too far to the left or right.</li>
-<li>Fixed a bug where studies 223 & 224 weren't taken into account when displaying antimatter galaxies as
-distant antimatter galaxies.</li>
-<li>Fixed a bug where study 227 would multiply your 4th time dimension production by 0
-if you had no sacrifice bonus.</li>
-<li>Fixed a bug where the game would say "You have 1 eternity points." rather than "You have 1 eternity point.".</li>
-<li>Fixed a bug where popups would remain open after changing tabs.</li>
-<li>Fixed a bug where you were able to select the achievement images by clicking and dragging over them.</li>
-<li>Fixed a bug where studies 233 and 234 had the wrong classes assigned to them on load.</li>
+<li>영원 탭의 보조 버튼 사이 간격 감소.</li>
+<li>영원 도전 3 설명에 차원 희생 비활성화를 명시.</li>
+<li>자동구매기 입력에 쉼표와 지수 표기법 지원.</li>
+<li>영원/무한 포인트 배수 구매 시 자동구매기 입력값이 1,000을 넘으면 항상 형식 적용.</li>
+<li>자동 무한 포인트 배수와 자동 복제자 은하 전환 버튼의 크기·위치를 다른 자동 전환 버튼에 맞게 조정.</li>
+<li>영원 도전 12 안에서 총 플레이 시간이 정상 속도로 증가.</li>
+<li>영원 도전 12 안에서 가장 빠른 무한 시간이 정상 갱신.</li>
+<li>시간 정리 구매 배경 너비 20픽셀 증가.</li>
+<li>시간 연구 133의 문구 명확화.</li>
+<li>업적 설명에 누락된 마침표 추가.</li>
+<li>차트 성능 개선(설정이 너무 높으면 여전히 느릴 수 있음).</li>
+<li>영원 도전 11/12 연구를 구매한 상태에서도 연구 201을 살 수 있지만 다른 경로는 구매 불가.</li>
+<li>연구 131 구매 시 복제자 은하 자동구매기를 끄는 대신 비활성 상태로 표시.</li>
+<li>연구 201 보유 중 Shift를 사용해 다른 분기 구매 가능.</li>
+<li>영원 6회 초과 시 클릭이나 단축키로 은하를 수동 최대 구매.</li>
+<li>Shift를 누른 채 구매하면 차원 가속과 은하를 하나씩 구매.</li>
+<li>영원 도전 7을 한 번 이상 완료하면 8차 무한 차원에 변화율 표시.</li>
+<li>형식화된 시간 값에 마지막 쉼표 추가.</li>
+<li>문구 넘침 방지를 위해 차원 희생 버튼 너비 40픽셀 증가.</li>
+<li>모든 탭의 영원/무한 포인트 표시 너비 30픽셀 증가.</li>
+<li>통계 및 업적 탭 버튼을 가리지 않도록 빅 크런치 버튼을 위로 이동.</li>
+<li>HTML 배치가 흔들리지 않도록 영원 및 무한 버튼을 안쪽으로 이동.</li>
+<li>일부 하단 영역 위치 수정.</li>
+<li>뉴스의 ‘Dimensional Sacrifice’ 오타 수정.</li>
+<li>시간 차원이 실제로는 구매당 4배인데 2배로 표시되던 문제 수정.</li>
+<li>시간 연구 51이 표기법을 따르지 않던 문제 수정.</li>
+<li>무한 도전 탭이 항상 표시되던 문제 수정.</li>
+<li>특정 상황에서 자동 복제자 은하 전환 버튼이 좌우로 1픽셀 흔들리던 문제 수정.</li>
+<li>영원 도전 7에서 7차 차원 변화율이 1차 무한 차원을 반영하지 않던 문제 수정.</li>
+<li>영원 도전 12를 5회 완료한 뒤 0.0초가 필요하지만 0.1초로 표시되던 문제 수정.</li>
+<li>일부 상황에서 틱스피드 요소가 제대로 숨겨지지 않던 문제 수정.</li>
+<li>구매한 영원 도전 해금 연구가 어두운 테마에서 진한 보라색 대신 회색으로 표시되던 문제 수정.</li>
+<li>영원 30회 마일스톤이 있어도 영원 시 5~8차원이 숨겨지던 문제 수정.</li>
+<li>반전 및 반전 메트로 테마에서 팝업 색상이 반전되지 않던 문제 수정.</li>
+<li>영원 포인트가 없는 저장에 영원 포인트가 있는 저장을 가져오면 수량이 표시되지 않던 문제 수정.</li>
+<li>어두운 메트로 테마에서 잠긴 영원 도전에 마우스 오버 효과가 없던 문제 수정.</li>
+<li>팝업이 중앙에 제대로 배치되지 않던 문제 수정.</li>
+<li>무한 차원 자동구매기가 꺼져 있어도 해금 즉시 차원을 구매하던 문제 수정.</li>
+<li>22번째 줄까지 그린 연구 트리 가지가 중앙에서 벗어나던 문제 수정.</li>
+<li>가져오기 후 분당 영원/무한 포인트 최고치가 제대로 갱신되지 않던 문제 수정.</li>
+<li>가져오기 후 무한 차원 자동구매기가 제대로 숨겨지지 않던 문제 수정.</li>
+<li>가져오기 후 무한 포인트 배수 자동구매기가 제대로 숨겨지지 않던 문제 수정.</li>
+<li>가져오기 후 빅 크런치 모드 변경 옵션이 제대로 숨겨지지 않던 문제 수정.</li>
+<li>가져오기 후 최대 은하 구매 간격 설정이 제대로 숨겨지지 않던 문제 수정.</li>
+<li>가져오기 후 복제자 은하 자동구매기가 제대로 숨겨지지 않던 문제 수정.</li>
+<li>가져오기 후 영원 확인 옵션이 제대로 숨겨지지 않던 문제 수정.</li>
+<li>가져오기 후 복제자 업그레이드 자동구매기가 제대로 숨겨지지 않던 문제 수정.</li>
+<li>가져오기 후 갱신 속도가 바뀌지 않던 문제 수정.</li>
+<li>가져오기 후 차트 선 색상이 제대로 갱신되지 않던 문제 수정.</li>
+<li>업적 이미지 오른쪽과 아래쪽이 4픽셀 잘리던 문제 수정.</li>
+<li>‘친구, 네가 무한을 좋아한다고 들었어…’에 이전 무한의 1e300배만 필요하던 문제 수정.</li>
+<li>자동구매기 속도 2배 무한 돌파 업그레이드가 있어도 자동 희생 간격이 0.10초로 표시되던 문제 수정.</li>
+<li>일부 시간 연구가 좌우로 1픽셀 벗어나던 문제 수정.</li>
+<li>반물질 은하를 먼 반물질 은하로 표시할 때 연구 223과 224를 반영하지 않던 문제 수정.</li>
+<li>희생 보너스가 없을 때 연구 227이 4차 시간 차원 생산량에 0을 곱하던 문제 수정.</li>
+<li>영원 포인트가 1개일 때 복수형으로 표시되던 문제 수정.</li>
+<li>탭을 바꾼 뒤에도 팝업이 열린 채 남던 문제 수정.</li>
+<li>업적 이미지를 드래그해 선택할 수 있던 문제 수정.</li>
+<li>불러오기 시 연구 233과 234에 잘못된 클래스가 지정되던 문제 수정.</li>
 </ul>
 `
   },
   {
     date: [2018, 4, 1],
-    name: "Fixed a Bug where there wasn't an Update",
+    name: "업데이트가 없던 버그 수정",
     info: `
-Huge thanks to Omsi for helping me a ton with this.<br><br>
-<b>MAJOR STUFF:</b><br>
+이 작업에 큰 도움을 준 Omsi에게 진심으로 감사드립니다.<br><br>
+<b>주요 내용:</b><br>
 <ul>
-<li>2 NEW ETERNITY CHALLENGES</li>
-<li>12 NEW TIME STUDIES</li>
-<li>Time study 132 has been buffed from a 30% bonus to a 40% bonus.</li>
-<li>Added an achievement bonus for "Popular music": "Replicanti galaxies divide your replicanti by 1.79e308 instead of
-resetting them to 1."</li>
-<li>Added an achievement bonus for "IT'S OVER 9000": "Sacrifice doesn't reset your dimensions."</li>
-<li>Added an achievement bonus for "Like feasting on a behind": "IP multiplier based on time spent this infinity."</li>
-<li>Added an achievement bonus for "What do I have to do to get rid of you": "Time dimensions are multiplied by
-the number of studies you have."</li>
-<li>Added "Infinity" notation.</li>
-<li>Added "Brackets" notation.</li>
-<li>Added an import/export system for the time study tree.</li>
-<li>Added an EP/min & peak EP/min display to the eternity button.</li>
-<li>Added an eternity hotkey.</li>
-<li>Added something to help you pick your theme.</li>
-<li>Added a few more IAPs.</li>
-<li>Reduced the cost of "Double IP gain from all sources" IAP from 50 ➜ 40</li>
+<li>새 영원 도전 2개</li>
+<li>새 시간 연구 12개</li>
+<li>시간 연구 132 보너스를 30%에서 40%로 상향.</li>
+<li>‘대중음악’ 업적 보상 추가: ‘복제자 은하가 복제자를 1로 초기화하는 대신 1.79e308로 나눕니다.’</li>
+<li>‘9000을 넘었어’ 업적 보상 추가: ‘희생 시 차원이 초기화되지 않습니다.’</li>
+<li>‘마치 엉덩이를 포식하듯’ 업적 보상 추가: ‘이번 무한에서 보낸 시간에 따라 무한 포인트 배수 증가.’</li>
+<li>‘널 없애려면 뭘 해야 하지’ 업적 보상 추가: ‘보유한 연구 수에 따라 시간 차원 배수 증가.’</li>
+<li>‘무한’ 표기법 추가.</li>
+<li>‘괄호’ 표기법 추가.</li>
+<li>시간 연구 트리 가져오기/내보내기 시스템 추가.</li>
+<li>영원 버튼에 분당 영원 포인트와 최고 분당 영원 포인트 표시 추가.</li>
+<li>영원 단축키 추가.</li>
+<li>테마 선택을 도와주는 무언가 추가.</li>
+<li>인앱 구매 몇 가지 추가.</li>
+<li>‘모든 경로에서 얻는 무한 포인트 2배’ 인앱 구매 비용을 50에서 40으로 감소.</li>
 </ul>
 <br>
-<b>Minor stuff:</b><br>
+<b>소규모 변경:</b><br>
 <ul>
-<li>Added an option to not plot drops in production on the chart. (It will instead copy the newest data point)</li>
-<li>Added displays for the current bonuses from time studies 71, 72, and 73.</li>
-<li>Built up speed for 6 hours to do it in 0.5x A presses.</li>
-<li>Changed study 72 to only work on the 4th infinity dimension, but doubled its power. (No effective change)</li>
-<li>Alchemy 120 (Vivification) scaling decreased.</li>
-<li>Fixed a bug where the buttons to purchase time studies wouldn't move in inverted themes on firefox.</li>
-<li>Fixed a bug. Antman, you're good to go.</li>
-<li>Fixed a bug that gave you the ability to set a custom name for your theme when using a secret theme.</li>
-<li>Fixed BLJ. Shoutout to SimpleFlips.</li>
-<li>Fixed a bug that caused purchasing the EP multiplier to require multiple clicks.</li>
-<li>Removed the ghost from the game. Was annoying.</li>
-<li>Fixed a bug that allowed you to earn "Long lasting relationship" in EC7.</li>
-<li>Monkeys no longer eat humans, as intended.</li>
-<li>Fixed a bug where the reward from EC7 could display -1.</li>
-<li>Increased the drop rate of collector's pendant items by 20%.</li>
-<li>Fixed a bug where the infinity requirement for EC4 could be less than 0.</li>
-<li>Transcension gives less Ancient Souls.</li>
-<li>Fixed a bug where the visual display for autobuyer bulk buy settings wouldn't update upon your first eternity.</li>
-<li>Fixed the rickroll. Now it's properly not working.</li>
-<li>Fixed a bug where the EP multiplier would break if its power exceeded 1.79e308.</li>
-<li>Leeroy Jenkins' Battlecry now doesn't trigger Patches.</li>
-<li>Fixed a bug where the confirmation for starting an infinity challenge would say you need to reach infinity.</li>
-<li>Cursors now do circles around the cookie.</li>
-<li>Fixed a bug where the offline progress popup would simply say "While you were away" if nothing happened.</li>
-<li>Traction has been slightly increased to reduce unwanted drifts.</li>
-<li>Fixed a bug that in rare cases would cause the offline progress popup to say you gained "NaNeInfinity" time shards
-or infinity power.</li>
-<li>Fixed a bug where the tickspeed visual display wouldn't update upon any form of reset.</li>
-<li>Bugged a fix where eternity was dumb.</li>
-<li>CS now makes notes go faster in mania.</li>
-<li>Fixed a bug where replicanti were hidden but still unlocked if you eternitied for the 50th time
-while they were locked.</li>
-<li>Dirt is now more abundant.</li>
-<li>Fixed a bug where the 1st dimension wasn't producing the 0th dimension.</li>
-<li>Fixed a bug where The Nameless Ones were too easy.</li>
-<li>Fixed a bug where in a specific case, 2 eternity challenges would appear as running at the same time.</li>
-<li>Increased TukkunFCG YC rewards by 15%.</li>
-<li>Added more space. SPAAAAAAACE</li>
-<li>Fixed a bug where the eternity challenges tab would hide after refreshing with less than 1e2000 antimatter.</li>
-<li>Fixed a bug where eternity challenges wouldn't update correctly upon import.</li>
-<li>Fixed a bug where dimension display values wouldn't update in certain cases.</li>
-<li>Portals are now not red.</li>
-<li>Fixed a bug where the ON/OFF text on the challenge confirmation option wasn't capitalized upon load.</li>
-<li>Reduced GRB's autokill threshold to 2500/2000 power/toughness.</li>
-<li>Fixed a typo where the eternity confirmation option said "Eternity confimation".</li>
-<li>Added bugs because Omsi wants more bugs to fix. Absolute legend, I'm telling you, the queen is legendary.</li>
-<li>Fixed a typo where the reward for "That's faster!" said you started with 20000 antimatter, rather than 200000.</li>
-<li>Added depression to your themes.</li>
-<li>Fixed inconsistencies with the standard notation naming convention.</li>
-<li>Tried to fix a bug where the game was bad but failed. The game is still bad.</li>
-<li>Changed the wording on EC4 to say "X or less" rather than "less than X".
-(It always worked this way, this is just a correction)</li>
-<li>Made donkeys less fast, so you can actually catch them now.</li>
-<li>Changed the wording on the EC2 reward to say "affects 1st Infinity Dimension" rather than
-"affects Infinity Dimensions". (It always worked this way, this is just a correction)</li>
-<li>Increased the base breeding speed of trimps by 10%.</li>
-<li>You can now click through the footer and progress bar to access buttons that they are overlapping.
-(This is for smaller screens)</li>
-<li>Made periods longer.</li>
-<li>Added loot boxes.</li>
-<li>Removed loot boxes.</li>
-<li>Added various missing periods to achievement descriptions.</li>
-<li>Added a missing period to time spent in this eternity.</li>
-Increased the price of creation count increases from 50 god power to 60.</li>
-<li>Added a missing space to the "Autobuyers work twice as fast." upgrade.</li>
-<li>Manually buying max dimension boosts no longer requires 10 eternities or more, and now only requires the bulk buy
-dimension boosts breaking infinity upgrade.</li>
-<li>Did a barrel roll.</li>
-<li>Added more useless patch notes</li>
+<li>차트에 생산량 감소를 그리지 않는 옵션 추가(대신 최신 데이터 지점을 복사).</li>
+<li>시간 연구 71, 72, 73의 현재 보너스 표시 추가.</li>
+<li>A 버튼 0.5회로 해내기 위해 6시간 동안 속도 축적.</li>
+<li>연구 72가 4차 무한 차원에만 작동하도록 바꾸고 위력은 2배로 증가(실질적 변화 없음).</li>
+<li>연금술 120(생명 부여)의 증가율 감소.</li>
+<li>Firefox의 반전 테마에서 시간 연구 구매 버튼이 움직이지 않던 문제 수정.</li>
+<li>버그 수정. 앤트맨, 이제 가도 좋아.</li>
+<li>비밀 테마 사용 중 테마 이름을 직접 지정할 수 있던 문제 수정.</li>
+<li>BLJ 수정. SimpleFlips에게 감사를.</li>
+<li>영원 포인트 배수 구매에 여러 번 클릭이 필요하던 문제 수정.</li>
+<li>게임에서 유령 제거. 성가셨음.</li>
+<li>영원 도전 7에서 ‘오래가는 관계’ 업적을 얻을 수 있던 문제 수정.</li>
+<li>의도대로 원숭이가 더 이상 인간을 먹지 않음.</li>
+<li>영원 도전 7 보상이 -1로 표시되던 문제 수정.</li>
+<li>수집가의 펜던트 아이템 획득률 20% 증가.</li>
+<li>영원 도전 4의 무한 조건이 0 미만이 될 수 있던 문제 수정.</li>
+<li>초월이 주는 고대 영혼 감소.</li>
+<li>첫 영원 후 자동구매기 대량 구매 설정 표시가 갱신되지 않던 문제 수정.</li>
+<li>릭롤 수정. 이제 제대로 작동하지 않음.</li>
+<li>영원 포인트 배수의 지수가 1.79e308을 넘으면 깨지던 문제 수정.</li>
+<li>리로이 젠킨스의 전투의 함성이 이제 패치를 발동하지 않음.</li>
+<li>무한 도전 시작 확인 창이 무한에 도달해야 한다고 잘못 말하던 문제 수정.</li>
+<li>커서가 이제 쿠키 주위를 원형으로 회전.</li>
+<li>아무 일도 없었을 때 오프라인 진행 창에 ‘자리 비운 동안’만 표시되던 문제 수정.</li>
+<li>원치 않는 드리프트를 줄이도록 접지력 소폭 증가.</li>
+<li>드물게 오프라인 진행 창에서 시간 파편이나 무한 파워를 ‘NaNeInfinity’만큼 얻었다고 표시하던 문제 수정.</li>
+<li>어떤 초기화 후에도 틱스피드 표시가 갱신되지 않던 문제 수정.</li>
+<li>영원이 멍청했던 수정 사항에 버그 추가.</li>
+<li>이제 CS가 매니아에서 노트를 더 빠르게 만듦.</li>
+<li>복제자가 잠긴 상태로 50번째 영원을 실행하면 숨겨졌지만 해금 상태가 되던 문제 수정.</li>
+<li>흙이 더 풍부해짐.</li>
+<li>1차 차원이 0차 차원을 생산하지 않던 문제 수정.</li>
+<li>이름 없는 자들이 너무 쉬웠던 문제 수정.</li>
+<li>특정 상황에서 영원 도전 2개가 동시에 실행 중으로 표시되던 문제 수정.</li>
+<li>TukkunFCG YC 보상 15% 증가.</li>
+<li>우주 추가. 우우우우우주</li>
+<li>반물질 1e2000 미만에서 새로고침하면 영원 도전 탭이 숨겨지던 문제 수정.</li>
+<li>가져오기 후 영원 도전이 제대로 갱신되지 않던 문제 수정.</li>
+<li>일부 상황에서 차원 표시 값이 갱신되지 않던 문제 수정.</li>
+<li>포털이 이제 빨간색이 아님.</li>
+<li>불러오기 후 도전 확인 옵션의 켜기/끄기 문구가 대문자로 표시되지 않던 문제 수정.</li>
+<li>GRB 자동 처치 기준을 공격력/강인함 2500/2000으로 감소.</li>
+<li>영원 확인 옵션의 ‘Eternity confirmation’ 오타 수정.</li>
+<li>Omsi가 고칠 버그를 더 원해서 버그 추가. 정말 전설적인 여왕임.</li>
+<li>‘더 빠르다!’ 보상이 시작 반물질을 200000이 아닌 20000이라고 표시하던 오타 수정.</li>
+<li>테마에 우울함 추가.</li>
+<li>표준 표기법 명명 규칙의 불일치 수정.</li>
+<li>게임이 나쁜 버그를 고치려 했으나 실패. 게임은 여전히 나쁨.</li>
+<li>영원 도전 4 문구를 ‘X 미만’에서 ‘X 이하’로 변경(원래부터 이렇게 작동했으며 문구만 수정).</li>
+<li>당나귀 속도를 낮춰 이제 실제로 잡을 수 있음.</li>
+<li>영원 도전 2 보상 문구를 ‘무한 차원에 적용’에서 ‘1차 무한 차원에 적용’으로 변경
+(원래부터 이렇게 작동했으며 문구만 수정).</li>
+<li>Trimps의 기본 번식 속도 10% 증가.</li>
+<li>하단 영역과 진행 표시줄을 통과해 가려진 버튼을 클릭할 수 있도록 변경(작은 화면용).</li>
+<li>마침표를 더 길게 만듦.</li>
+<li>전리품 상자 추가.</li>
+<li>전리품 상자 제거.</li>
+<li>업적 설명에 누락된 여러 마침표 추가.</li>
+<li>이번 영원에서 보낸 시간에 누락된 마침표 추가.</li>
+<li>생성 횟수 증가 비용을 신의 힘 50에서 60으로 증가.</li>
+<li>‘자동구매기가 2배 빠르게 작동합니다.’ 업그레이드에 누락된 공백 추가.</li>
+<li>차원 가속 대량 구매 무한 돌파 업그레이드만 있으면 영원 10회 없이도 수동으로 차원 가속 최대 구매 가능.</li>
+<li>배럴 롤 실행.</li>
+<li>쓸모없는 패치 노트 추가.</li>
 </ul>
 `
   },
   {
     date: [2018, 2, 1],
-    name: "Eternity Challenges",
+    name: "영원 도전",
     info: `
 <ul>
-<li>NEW TIME STUDIES</li>
-<li>2 new achievement rows</li>
-<li>Made certain news messages only show if you have reached certain levels of progression</li>
-<li>Massively improved performance of calculating dimension costs thanks to SpectralFlame.
-(Cuts cpu usage by up to 2/3 in late-game)</li>
-<li>New news (get it?) ticker entries.</li>
-<li>Added a production chart.</li>
-<li>Added new statistics to replace the scale statistic after 1e100000 antimatter.</li>
-<li>Added a new milestone for 30 eternities: "Start with all normal dimensions available for purchase".</li>
-<li>Added an option to change the update rate of the game, ranging from 33ms to 200ms.
-(before this, it was locked at 50ms)</li>
-<li>The game now partially simulates offline progress, instead of estimating it.</li>
-<li>Added 3 new eternity upgrades.</li>
-<li>Added a reward to the "NEW DIMENSIONS???" achievement, "Your achievement bonus affects Infinity Dimensions."</li>
-<li>Buffed time study 111. (10 ^ (log10(antimatter) / 290- 0.75)) > (10 ^ (log10(antimatter) / 285- 0.75))</li>
-<li>Buffed time study 83. (1.0001^x) > (1.0004^x)</li>
-<li>Nerfed eternity upgrade 1. ((x+1)^3) > (x+1)</li>
-<li>Nerfed eternity upgrade 2. (x^log4(2x)) > ((x/300)^log4(2x) with harsher formula above 125,000)</li>
-<li>Fixed a bunch of bugs and changed a bunch of things. (more detail below)</li>
-<li>Added buy max buttons to Time Dimensions and Time Theorems.</li>
-<li>Added a hotkey for replicanti galaxies. (R)</li><br>
-<li>Nitty gritty:</li>
-<li>Greatly improved the performance of calculating bonus tickspeed from time dimensions.</li>
-<li>Replaced all references to soft resets with references to dimension boosts.</li>
-<li>Made achievements update on import/hardreset.</li>
-<li>Made the game take into account your infinity points gained on crunch for the purposes of
-eternity point gain when you eternity.</li>
-<li>The replicanti interval is now displayed after and reductions / increases.</li>
-<li>Added missing periods to various achievements.</li>
-<li>Made the bonus from time study 131 display next to max replicanti galaxies.</li>
-<li>Added time dimensions to the info scale.</li>
-<li>Changed the description of time study 31 to "Powers up bonuses that are based on your infinitied stat
-(to the power of 4)" from "Powers up existing upgrades based on infinitied stat (to the power of 4)".</li>
-<li>Changed the description of "MAXIMUM OVERDRIVE" to say "Big Crunch with X" instead of "Reach X".</li>
-<li>Added "with reduced effect" to the description of time study 71, 72, and 73.</li>
-<li>Changed the text on autobuy max dimension boosts to "Buy max dimboosts every X seconds:"
-from "Max dimboost interval:". (To achieve parity with the autobuy max galaxies text)</li>
-<li>Made the challenges button always show if you have more than 1 eternity.</li>
-<li>Fixed centering issues with infinity and eternity upgrades.</li>
-<li>Various minor changes to themes to improve consistency. (Too minute to list, even here)</li>
-<li>Made the eternity autobuyer number multiply by 5 when you buy the eternity point multiplier.</li>
-<li>Increased the requirement for "Is This Hell?". (5 > 6.66 seconds)</li>
-<li>Reduced the starting replicanti interval upgrade cost. (1e160 > 1e140)</li>
-<li>Galaxies are labeled "Distant Antimatter Galaxies" when the cost scaling starts. (At 100 galaxies)</li>
-<li>Dimensions no longer produce anything after reaching challenge goal, or after reaching infinity with fixed infinity.
-This is due to the c6 being abusable.</li>
-<li>Made the 7 and 25 eternity milestones work much faster.</li>
-<li>After unlocking bulk dimboosts, clicking dimension boost or pressing D will buy max dimension boosts.</li>
-<li>Moved fake news, don't you dare to sleep, spreading cancer, and one for each dimension to rows 2, 3, 4,
-and 7 respectively.</li>
-<li>Added a visual display of how many galaxies/dim boosts you have next to the cost.</li>
-<li>Added an explanation of hotkeys to the options page.</li>
-<li>Made shift+1-8 purchase singular dimensions and shift+T purchase a singular tickspeed upgrade.</li>
-<li>Reworked the display of the buy time theorem buttons.</li>
-<li>The milestones page now has 2 columns.</li>
-<li>Extended support for standard notation to e3e18, and letter/cancer notation (almost) infinitely.</li>
-<li>Added support for standard, letter and logrithm notation in autobuyer inputs.</li>
-<li>Added "in a challenge" to the description of "Zero Deaths".</li>
-<li>Made most large numbers in achievements be listed in your chosen notation.</li>
-<li>Nerfed "Gift From The Gods"'s achievement reward.</li>
-<li>Made purchasing time theorems with EP require at least 1 time dimension.</li>
-<li>First eternity now takes you to the time dimensions tab.</li>
-<li>Time dimension prices now have 2 decimal places.</li>
-<li>Reformatted the tick interval reduction text for very small numbers.</li>
-<li>The game now keeps track of when you automatically do an infinity, and you can passively gain IP based off the
-IP/min in that run if you go offline (but only if infinity isn't broken).</li>
-<li>Made time study 171 apply retroactively. This was causing an issue with production being much lower than expected
-when going into a long run on the same run as respeccing.</li>
-<li>Fixed a bug where max all wasn't giving achievements when buying dimensions.</li>
-<li>Fixed a bug where the game wouldn't show the default dimensions tab upon hard resetting.</li>
-<li>Fixed a bug where time dimensions were called "X Dimension" rather than "X Time Dimension".</li>
-<li>Fixed a bug where the replicanti galaxy button would show as locked if you had more than
-the listed max replicanti galaxies and study 131.</li>
-<li>Fixed a bug where the last ten eternities average said IP/X rather than EP/X.</li>
-<li>Fixed a bug where the big crunch autobuyer said "X times since last crunch" instead of "X times last crunch".</li>
-<li>Fixed a bug where the challenge records display wouldn't update upon import.</li>
-<li>Fixed a bug where hotkeys wouldn't work sometimes.</li>
-<li>Fixed a bug where secret theme names would display as "0" after refreshing.</li>
-<li>Fixed a bug where time studies would move around when your window size was too small.</li>
-<li>Fixed a bug where infinity dimensions would reset when clicking on a challenge and not entering while
-challenge confirmations were on.</li>
-<li>Fixed a bug where you always had the infinity challenge 1 reward.</li>
-<li>Fixed a bug where eternity milestone classes weren't set correctly upon import.</li>
-<li>Fixed a bug where the eternity autobuyer, sacrifice autobuyer, time dimension tab, and replicanti
-wasn't hiding correctly upon import.</li>
-<li>Fixed a bug where buy max dim boosts was able to buy 1 too many boosts.</li>
-<li>Fixed a bug where the study tree would be off-centered if the game windows wasn't wide enough.</li>
-<li>Fixed a bug where you could buy factions of dimension boosts with dimension boost bulk buy.</li>
-<li>Fixed a bug where your autobuy max dimension boost interval would set itself to itself
-if you eternitied while changing it.</li>
-<li>Fixed a bug where secondary statistic tabs weren't hiding upon import.</li>
-<li>Fixed a bug where replicanti galaxies wouldn't give a bonus if you had less than 3 galaxies.</li>
-<li>Fixed a bug where the dimension boost autobuyer would ignore dimension boost costs until they costed 8th dimensions.
-</li>
-<li>Fixed a bug where the future shop multipliers were displayed before the x rather than after.</li>
-<li>Fixed a bug where the challenge confirmation button's off and on were lowercase.</li>
-<li>Fixed a bug where the static infinity point display would disappear after eternity.</li>
+<li>새 시간 연구</li>
+<li>업적 2줄 추가</li>
+<li>일부 뉴스가 특정 진행 단계에 도달한 뒤에만 표시되도록 변경</li>
+<li>SpectralFlame의 도움으로 차원 비용 계산 성능 대폭 개선(후반 CPU 사용량 최대 2/3 감소)</li>
+<li>새로운 뉴스(말장난 맞음) 티커 항목.</li>
+<li>생산 차트 추가.</li>
+<li>반물질 1e100000 이후 규모 통계를 대체하는 새 통계 추가.</li>
+<li>영원 30회 마일스톤 추가: ‘모든 일반 차원을 구매 가능한 상태로 시작’.</li>
+<li>게임 갱신 주기를 33~200ms로 변경하는 옵션 추가(이전에는 50ms 고정).</li>
+<li>오프라인 진행을 추정하는 대신 부분적으로 시뮬레이션.</li>
+<li>새 영원 업그레이드 3개 추가.</li>
+<li>‘새 차원???’ 업적 보상 추가: ‘업적 보너스가 무한 차원에도 적용됩니다.’</li>
+<li>시간 연구 111 상향. (10 ^ (log10(반물질) / 290- 0.75)) > (10 ^ (log10(반물질) / 285- 0.75))</li>
+<li>시간 연구 83 상향. (1.0001^x) > (1.0004^x)</li>
+<li>영원 업그레이드 1 하향. ((x+1)^3) > (x+1)</li>
+<li>영원 업그레이드 2 하향. (x^log4(2x)) > (125,000 이상에서 더 강한 공식을 쓰는 (x/300)^log4(2x))</li>
+<li>여러 버그를 고치고 여러 내용을 변경(자세한 내용은 아래).</li>
+<li>시간 차원과 시간 정리에 최대 구매 버튼 추가.</li>
+<li>복제자 은하 단축키 추가(R).</li><br>
+<li>세부 사항:</li>
+<li>시간 차원의 보너스 틱스피드 계산 성능 대폭 개선.</li>
+<li>‘소프트 리셋’이라는 표현을 모두 ‘차원 가속’으로 교체.</li>
+<li>가져오기/완전 초기화 시 업적 갱신.</li>
+<li>영원 포인트 계산 시 빅 크런치로 얻을 무한 포인트도 반영.</li>
+<li>감소/증가가 모두 적용된 복제자 간격 표시.</li>
+<li>여러 업적에 누락된 마침표 추가.</li>
+<li>최대 복제자 은하 옆에 시간 연구 131 보너스 표시.</li>
+<li>정보 규모에 시간 차원 추가.</li>
+<li>시간 연구 31 설명을 ‘무한 횟수 기반 기존 업그레이드를 4제곱으로 강화’에서
+‘무한 횟수 기반 보너스를 4제곱으로 강화’로 변경.</li>
+<li>‘최대 과부하’ 설명을 ‘X에 도달’에서 ‘X로 빅 크런치’로 변경.</li>
+<li>시간 연구 71, 72, 73 설명에 ‘감소된 효과로’ 추가.</li>
+<li>차원 가속 최대 자동구매 문구를 ‘최대 차원 가속 간격:’에서 ‘X초마다 차원 가속 최대 구매:’로 변경
+(최대 은하 자동구매 문구와 통일).</li>
+<li>영원 횟수가 1보다 많으면 도전 버튼을 항상 표시.</li>
+<li>무한 및 영원 업그레이드의 중앙 정렬 문제 수정.</li>
+<li>일관성을 높이도록 테마를 소규모로 다수 변경.</li>
+<li>영원 포인트 배수를 구매하면 영원 자동구매기 수치에 5를 곱하도록 변경.</li>
+<li>‘여기가 지옥인가?’ 조건 증가(5초 → 6.66초).</li>
+<li>복제자 간격 업그레이드의 초기 비용 감소(1e160 → 1e140).</li>
+<li>비용 증가가 시작되는 은하 100개부터 ‘먼 반물질 은하’로 표시.</li>
+<li>도전 목표에 도달했거나 고정된 무한 상태에서 무한에 도달하면 차원 생산 중단. 일반 도전 6 악용 방지.</li>
+<li>영원 7회 및 25회 마일스톤 작동 속도 대폭 향상.</li>
+<li>차원 가속 대량 구매 해금 후 버튼 클릭이나 D 입력으로 차원 가속 최대 구매.</li>
+<li>‘가짜 뉴스’, ‘감히 잠들지 마’, ‘암 전파’, ‘각 차원마다 하나’를 각각 2, 3, 4, 7번째 줄로 이동.</li>
+<li>비용 옆에 보유 은하/차원 가속 수 시각적 표시 추가.</li>
+<li>옵션 페이지에 단축키 설명 추가.</li>
+<li>Shift+1~8로 차원 하나, Shift+T로 틱스피드 업그레이드 하나 구매.</li>
+<li>시간 정리 구매 버튼 표시 재작업.</li>
+<li>마일스톤 페이지를 2열로 변경.</li>
+<li>표준 표기법 지원을 e3e18까지, 문자/암 표기법은 거의 무한히 확장.</li>
+<li>자동구매기 입력에서 표준, 문자, 로그 표기법 지원.</li>
+<li>‘죽음 0회’ 설명에 ‘도전 중’ 추가.</li>
+<li>업적의 대부분 큰 수를 선택한 표기법으로 표시.</li>
+<li>‘신들의 선물’ 업적 보상 하향.</li>
+<li>영원 포인트로 시간 정리를 구매하려면 시간 차원 1개 이상 요구.</li>
+<li>첫 영원 후 시간 차원 탭으로 이동.</li>
+<li>시간 차원 가격에 소수점 두 자리 표시.</li>
+<li>매우 작은 수의 틱 간격 감소 문구 형식 개선.</li>
+<li>자동 무한 시점을 기록하고 오프라인일 때 해당 플레이의 분당 무한 포인트에 따라 수동 획득
+(무한 돌파 전만 적용).</li>
+<li>시간 연구 171을 소급 적용. 재분배와 같은 플레이에서 장기 플레이에 들어가면 생산량이 예상보다 낮던 문제 해결.</li>
+<li>모두 최대 구매로 차원을 살 때 업적을 주지 않던 문제 수정.</li>
+<li>완전 초기화 후 기본 차원 탭이 표시되지 않던 문제 수정.</li>
+<li>시간 차원이 ‘X차 시간 차원’이 아닌 ‘X차 차원’으로 표시되던 문제 수정.</li>
+<li>연구 131 보유 중 복제자 은하 수가 표시 최대치를 넘으면 버튼이 잠김으로 보이던 문제 수정.</li>
+<li>최근 영원 10회의 평균이 영원 포인트/X가 아닌 무한 포인트/X로 표시되던 문제 수정.</li>
+<li>빅 크런치 자동구매기가 ‘지난 크런치 이후 X배’라고 잘못 표시하던 문제 수정.</li>
+<li>가져오기 후 도전 기록 표시가 갱신되지 않던 문제 수정.</li>
+<li>단축키가 가끔 작동하지 않던 문제 수정.</li>
+<li>새로고침 후 비밀 테마 이름이 ‘0’으로 표시되던 문제 수정.</li>
+<li>창이 너무 작으면 시간 연구가 움직이던 문제 수정.</li>
+<li>도전 확인을 켠 상태에서 도전을 클릭한 뒤 진입하지 않아도 무한 차원이 초기화되던 문제 수정.</li>
+<li>무한 도전 1 보상을 항상 보유하던 문제 수정.</li>
+<li>가져오기 후 영원 마일스톤 클래스가 잘못 설정되던 문제 수정.</li>
+<li>가져오기 후 영원 자동구매기, 희생 자동구매기, 시간 차원 탭, 복제자가 제대로 숨겨지지 않던 문제 수정.</li>
+<li>차원 가속 최대 구매가 하나를 초과 구매할 수 있던 문제 수정.</li>
+<li>게임 창 너비가 부족하면 연구 트리가 중앙에서 벗어나던 문제 수정.</li>
+<li>차원 가속 대량 구매로 분수 단위의 차원 가속을 살 수 있던 문제 수정.</li>
+<li>차원 가속 최대 자동구매 간격을 변경하던 중 영원하면 값이 자기 자신으로 설정되던 문제 수정.</li>
+<li>가져오기 후 보조 통계 탭이 숨겨지지 않던 문제 수정.</li>
+<li>은하가 3개 미만이면 복제자 은하가 보너스를 주지 않던 문제 수정.</li>
+<li>차원 가속 비용이 8차 차원이 되기 전까지 자동구매기가 비용을 무시하던 문제 수정.</li>
+<li>향후 상점 배수에서 × 기호가 숫자 뒤가 아닌 앞에 표시되던 문제 수정.</li>
+<li>도전 확인 버튼의 켜기/끄기가 소문자로 표시되던 문제 수정.</li>
+<li>영원 후 고정 무한 포인트 표시가 사라지던 문제 수정.</li>
 </ul>`
   },
   {
