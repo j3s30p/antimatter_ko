@@ -162,8 +162,8 @@ export const speedrunMilestones = [
   {
     id: 21,
     key: "completeEnslavedReality",
-    name: "The Nameless Ones의 현실",
-    description: "The Nameless Ones의 현실을 완료합니다",
+    name: "이름 없는 자들의 현실",
+    description: "이름 없는 자들의 현실을 완료합니다",
     checkRequirement: () => Enslaved.isRunning,
     checkEvent: GAME_EVENT.REALITY_RESET_BEFORE,
   },

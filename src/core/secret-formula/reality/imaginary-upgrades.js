@@ -131,7 +131,7 @@ export const imaginaryUpgrades = [
     name: "정보의 덧없음",
     id: 13,
     cost: 5e7,
-    requirement: () => `The Nameless Ones의 현실에서 예상 리얼리티 머신
+    requirement: () => `이름 없는 자들의 현실에서 예상 리얼리티 머신
       ${format(Number.MAX_VALUE, 2)}개 도달`,
     hasFailed: () => !Enslaved.isRunning,
     // This is for consistency with the UI, which displays an amplified "projected RM" value on the reality button

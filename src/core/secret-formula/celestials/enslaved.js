@@ -3,7 +3,7 @@ export const enslaved = {
   progress: {
     hintsUnlocked: {
       id: 0,
-      hint: "The Nameless Ones는 돕고 싶어 하지만, 도움을 받으려면 시간이 필요합니다.",
+      hint: "이름 없는 자들은 돕고 싶어 하지만, 도움을 받으려면 시간이 필요합니다.",
       condition: () => `현실을 완료하지 않은 채 그 안에서 현실 시간으로 ${formatInt(5)}시간 넘게 보냈습니다.
         현실 밖의 시간은 ${formatPercents(0.4)}만큼 계산됩니다. 타이머는 현실을 해금하면 시작되며
         이후 계속 누적됩니다.`,

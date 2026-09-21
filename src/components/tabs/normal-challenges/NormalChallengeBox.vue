@@ -31,7 +31,7 @@ export default {
         return this.challenge.config;
       }
       return {
-        description: `Infinity ${formatInt(this.challenge.config.lockedAt)} times to unlock.`
+        description: `무한 ${formatInt(this.challenge.config.lockedAt)}회 달성 시 해금됩니다.`
       };
     },
     name() {

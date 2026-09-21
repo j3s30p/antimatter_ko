@@ -212,11 +212,11 @@ export const catchupResources = [
       많은 글리프를 자동 선택하고 필터링하는 업그레이드를 구매할 수 있습니다.`
   },
   {
-    name: "The Nameless Ones",
+    name: "이름 없는 자들",
     id: 28,
     openH2pEntry: "Nameless Ones",
     requiredStage: PROGRESS_STAGE.ENSLAVED,
-    description: `The Nameless Ones는 세 번째 셀레스티얼입니다. 그들의 현실에는 수많은 가혹한 약화 효과가
+    description: `이름 없는 자들은 세 번째 셀레스티얼입니다. 그들의 현실에는 수많은 가혹한 약화 효과가
       적용되지만, 이를 극복하면 테서랙트를 해금합니다. 또한 블랙홀을 변경하여 시간을 저장할 수 있게 합니다.`
   },
   {
@@ -280,7 +280,7 @@ export const catchupResources = [
     id: 36,
     openH2pEntry: "Ra",
     requiredStage: PROGRESS_STAGE.RA,
-    description: `The Nameless Ones의 기억은 충전을 증폭하여 실제로 흐른 게임 시간보다 더 많은 게임 시간을
+    description: `이름 없는 자들의 기억은 충전을 증폭하여 실제로 흐른 게임 시간보다 더 많은 게임 시간을
       저장하게 합니다. 이제 방출을 반복해서 자동으로 수행할 수도 있습니다.`
   },
   {

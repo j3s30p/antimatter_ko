@@ -1316,7 +1316,7 @@ ${Enslaved.isCompleted
     }, {
       name: "테서랙트",
       info: () => `
-테서랙트는 The Nameless Ones의 현실을 완료하면 잠금 해제되는 새 자원입니다.
+테서랙트는 이름 없는 자들의 현실을 완료하면 잠금 해제되는 새 자원입니다.
 <br>
 <br>
 무한 차원은 일반적으로 총 구매 횟수가 ${format(InfinityDimensions.HARDCAP_PURCHASES)}회로 제한됩니다.
@@ -1419,10 +1419,10 @@ ${Ra.unlocks.effarigUnlock.canBeApplied
     : "<span style='color: var(--color-bad);'>(잠금 해제 정보를 보려면 Ra 안에서 Effarig를 잠금 해제하세요)</span>"}
 <br>
 <br>
-The Nameless Ones는
+이름 없는 자들은
 ${Ra.unlocks.enslavedUnlock.canBeApplied
     ? "블랙홀 충전과 관련된 추가 메커니즘을 잠금 해제하고 블랙홀을 크게 강화합니다."
-    : "<span style='color: var(--color-bad);'>(잠금 해제 정보를 보려면 Ra 안에서 The Nameless Ones를 잠금 해제하세요)</span>"}
+    : "<span style='color: var(--color-bad);'>(잠금 해제 정보를 보려면 Ra 안에서 이름 없는 자들을 잠금 해제하세요)</span>"}
 <br>
 <br>
 V는

@@ -126,7 +126,6 @@ export default {
 <template>
   <div class="l-dilation-tab">
     <span>
-      You have
       <span class="c-dilation-tab__tachyons">{{ format(tachyons, 2, 1) }}</span>
       {{ pluralize("개", tachyons) }} 보유하고 있습니다.
     </span>
@@ -137,7 +136,6 @@ export default {
       <DilationButton />
     </div>
     <span>
-      You have
       <span class="c-dilation-tab__dilated-time">{{ format(dilatedTime, 2, 1) }}</span>
       보유하고 있습니다.
       <span class="c-dilation-tab__dilated-time-income">{{ dilatedTimeGainText }}/s</span>

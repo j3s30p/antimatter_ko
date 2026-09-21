@@ -22,7 +22,7 @@ export const ra = {
     },
     enslaved: {
       id: "enslaved",
-      name: "The Nameless Ones",
+      name: "이름 없는 자들",
       color: "#f1aa7f",
       chunkGain: "시간 조각",
       memoryGain: "총 플레이 시간",
@@ -133,7 +133,7 @@ export const ra = {
     },
     enslavedUnlock: {
       id: 11,
-      reward: "The Nameless Ones의 기억을 해금합니다",
+      reward: "이름 없는 자들의 기억을 해금합니다",
       pet: "effarig",
       level: 8,
       displayIcon: `<span class="c-ra-pet-milestones-effarig-link">\uf0c1</span>`
@@ -165,7 +165,7 @@ export const ra = {
     },
     improvedStoredTime: {
       id: 15,
-      reward: "저장한 게임 시간이 증폭되고 The Nameless Ones의 레벨에 따라 더 많은 실제 시간을 저장할 수 있습니다",
+      reward: "저장한 게임 시간이 증폭되고 이름 없는 자들의 레벨에 따라 더 많은 실제 시간을 저장할 수 있습니다",
       effects: {
         gameTimeAmplification: () => Math.pow(20, Math.clampMax(Ra.pets.enslaved.level, Ra.levelCap)),
         realTimeCap: () => 1000 * 3600 * Ra.pets.enslaved.level,

@@ -9,14 +9,6 @@ function formatInt(value) {
   return formatWithCommas(typeof value === "number" ? value.toFixed(0) : value.toNumber().toFixed(0));
 }
 
-function formatMachines(realPart, imagPart) {
-  const parts = [];
-  if (Decimal.neq(realPart, 0)) parts.push(format(realPart, 2));
-  if (Decimal.neq(imagPart, 0)) parts.push(`${format(imagPart, 2, 2)}i`);
-  if (Decimal.eq(realPart, 0) && Decimal.eq(imagPart, 0)) return format(0);
-  return parts.join(" + ");
-}
-
 // This is used for Discord Rich Presence, the information which shows up on a person's profile badge in Discord if
 // they are playing a game on Steam which has integration that pushes the info to Discord
 export const discordRichPresence = {
@@ -84,7 +76,7 @@ export const discordRichPresence = {
         return `${Laitela.possessiveName} 현실 - ${dimStr}`;
       },
       activityToken: () => Laitela.isRunning,
-      resource: () => `${formatPercents(player.celestials.laitela.entropy, 2, 2)} Entropy`,
+      resource: () => `${formatPercents(player.celestials.laitela.entropy, 2, 2)} 엔트로피`,
     },
     {
       name: () => "시간 팽창",
@@ -153,14 +145,14 @@ export const discordRichPresence = {
       resourceList: [() => quantify("무한", player.infinities, 2, 0, format)],
     },
     {
-      name: "Eternity",
+      name: "영원",
       hasReached: () => PlayerProgress.eternityUnlocked(),
       mainResource: () => `${format(player.eternityPoints, 2)} EP`,
       resourceList: [() => quantify("영원", player.eternities, 0, 0, formatInt)],
     },
     {
       // Eternity Challenge era
-      name: "Eternity",
+      name: "영원",
       hasReached: () => player.eternityChalls.eterc1 > 0,
       mainResource: () => `${format(player.eternityPoints, 2)} EP`,
       resourceList: [
@@ -179,8 +171,8 @@ export const discordRichPresence = {
       hasReached: () => player.realities > 0,
       mainResource: () => `${format(player.reality.realityMachines, 2)} RM`,
       resourceList: [
-        () => quantify("Reality", player.realities, 0, 0, formatInt),
-        () => `Best Glyph Level: ${formatInt(player.records.bestReality.glyphLevel)}`
+        () => quantify("리얼리티", player.realities, 0, 0, formatInt),
+        () => `최고 글리프 레벨: ${formatInt(player.records.bestReality.glyphLevel)}`
       ]
     },
     {
@@ -188,9 +180,9 @@ export const discordRichPresence = {
       hasReached: () => Teresa.isUnlocked,
       mainResource: () => `${format(player.reality.realityMachines, 2)} RM`,
       resourceList: [
-        () => quantify("Reality", player.realities, 0, 0, formatInt),
-        () => `Best GL: ${formatInt(player.records.bestReality.glyphLevel)}`,
-        () => `Poured: ${format(player.celestials.teresa.pouredAmount, 2)} RM`
+        () => quantify("리얼리티", player.realities, 0, 0, formatInt),
+        () => `최고 GL: ${formatInt(player.records.bestReality.glyphLevel)}`,
+        () => `주입량: ${format(player.celestials.teresa.pouredAmount, 2)} RM`
       ]
     },
     {
@@ -198,8 +190,8 @@ export const discordRichPresence = {
       hasReached: () => TeresaUnlocks.effarig.isUnlocked,
       mainResource: () => `${format(player.reality.realityMachines, 2)} RM`,
       resourceList: [
-        () => `Best GL: ${formatInt(player.records.bestReality.glyphLevel)}`,
-        () => quantify("Relic Shard", player.celestials.effarig.relicShards, 2, 0, format)
+        () => `최고 GL: ${formatInt(player.records.bestReality.glyphLevel)}`,
+        () => quantify("유물 파편", player.celestials.effarig.relicShards, 2, 0, format)
       ]
     },
     {
@@ -207,8 +199,8 @@ export const discordRichPresence = {
       hasReached: () => EffarigUnlock.eternity.isUnlocked,
       mainResource: () => `${format(player.reality.realityMachines, 2)} RM`,
       resourceList: [
-        () => `Best GL: ${formatInt(player.records.bestReality.glyphLevel)}`,
-        () => `Charged: ${format(TimeSpan.fromMilliseconds(player.celestials.enslaved.stored).totalYears, 2)} years`
+        () => `최고 GL: ${formatInt(player.records.bestReality.glyphLevel)}`,
+        () => `충전량: ${format(TimeSpan.fromMilliseconds(player.celestials.enslaved.stored).totalYears, 2)}년`
       ],
     },
     {
@@ -216,16 +208,16 @@ export const discordRichPresence = {
       hasReached: () => Achievement(151).isUnlocked,
       mainResource: () => `${format(player.reality.realityMachines, 2)} RM`,
       resourceList: [
-        () => `Best GL: ${formatInt(player.records.bestReality.glyphLevel)}`,
-        () => quantify("V-Achievement", player.celestials.v.runUnlocks.sum(), 0, 0, formatInt)],
+        () => `최고 GL: ${formatInt(player.records.bestReality.glyphLevel)}`,
+        () => quantify("V 도전과제", player.celestials.v.runUnlocks.sum(), 0, 0, formatInt)],
     },
     {
       name: () => Ra.displayName,
       hasReached: () => VUnlocks.raUnlock.isUnlocked,
       mainResource: () => `${format(player.reality.realityMachines, 2)} RM`,
       resourceList: [
-        () => `Best GL: ${formatInt(player.records.bestReality.glyphLevel)}`,
-        () => `Ra Levels: ${Ra.pets.all.map(p => formatInt(p.level)).join("/")}`],
+        () => `최고 GL: ${formatInt(player.records.bestReality.glyphLevel)}`,
+        () => `Ra 레벨: ${Ra.pets.all.map(p => formatInt(p.level)).join("/")}`],
     },
     {
       // Imaginary Machines unlocked
@@ -234,8 +226,8 @@ export const discordRichPresence = {
       mainResource: () =>
         `${format(player.reality.realityMachines)} RM + ${format(player.reality.imaginaryMachines, 2)} iM`,
       resourceList: [
-        () => `Best GL: ${formatInt(player.records.bestReality.glyphLevel)}`,
-        () => `Ra Levels: ${Ra.pets.all.map(p => formatInt(p.level)).join("/")}`
+        () => `최고 GL: ${formatInt(player.records.bestReality.glyphLevel)}`,
+        () => `Ra 레벨: ${Ra.pets.all.map(p => formatInt(p.level)).join("/")}`
       ],
     },
     {
@@ -244,8 +236,8 @@ export const discordRichPresence = {
       mainResource: () =>
         `${format(player.reality.realityMachines)} RM + ${format(player.reality.imaginaryMachines, 2)} iM`,
       resourceList: [
-        () => `Best GL: ${formatInt(player.records.bestReality.glyphLevel)}`,
-        () => quantify("Singularity", player.celestials.laitela.singularities, 2, 0, format)],
+        () => `최고 GL: ${formatInt(player.records.bestReality.glyphLevel)}`,
+        () => quantify("특이점", player.celestials.laitela.singularities, 2, 0, format)],
     },
     {
       // We can't use celestial displayName here like the others because that will cause

@@ -21,15 +21,15 @@ export const ENSLAVED_UNLOCKS = {
     description() {
       const hasLevelRequirement = player.records.bestReality.glyphLevel >= 5000;
       const hasRarityRequirement = strengthToRarity(player.records.bestReality.glyphStrength) >= 100;
-      return `The Nameless Ones의 현실 해금 (필요: ${hasLevelRequirement ? "[✓]" : "[✗]"} 레벨
+      return `이름 없는 자들의 현실 해금 (필요: ${hasLevelRequirement ? "[✓]" : "[✗]"} 레벨
       ${formatInt(5000)} 글리프 및 ${hasRarityRequirement ? "[✓]" : "[✗]"} 희귀도 ${formatRarity(100)} 글리프)`;
     }
   }
 };
 
 export const Enslaved = {
-  displayName: "The Nameless Ones",
-  possessiveName: "The Nameless Ones의",
+  displayName: "이름 없는 자들",
+  possessiveName: "이름 없는 자들의",
   boostReality: false,
   BROKEN_CHALLENGES: [2, 3, 4, 5, 7, 8, 10, 11, 12],
   nextTickDiff: 50,
@@ -255,7 +255,7 @@ class EnslavedProgressState extends BitUpgradeState {
     // Bump the last hint time appropriately if the player found the hint
     if (this.hasHint && !this.hasProgress) {
       player.celestials.enslaved.zeroHintTime -= Math.log(2) / Math.log(3) * TimeSpan.fromDays(1).totalMilliseconds;
-      GameUI.notify.success("The Nameless Ones의 현실에서 균열을 발견했습니다!", 10000);
+      GameUI.notify.success("이름 없는 자들의 현실에서 균열을 발견했습니다!", 10000);
     }
     player.celestials.enslaved.progressBits |= (1 << this.id);
   }

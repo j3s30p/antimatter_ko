@@ -37,7 +37,7 @@ export default {
         return `(예상: ${format(this.projectedRM, 2)} RM)`;
       }
       if (this.newIMCap !== 0) {
-        return `(iM Cap: ${formatMachines(0, this.newIMCap)})`;
+        return `(iM 상한: ${formatMachines(0, this.newIMCap)})`;
       }
       if (this.machinesGained.lt(Number.MAX_VALUE)) {
         return `(분당 ${format(this.machinesGained.divide(this.realityTime), 2, 2)} RM)`;

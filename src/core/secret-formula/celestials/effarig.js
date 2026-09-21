@@ -53,7 +53,7 @@ export const effarigUnlocks = {
     get description() {
       return ` 영원 횟수가 무한 횟수를 생성합니다
         Effarig의 현실에서 무한 포인트가 더 이상 어떤 방식으로도 제한되지 않습니다
-        The Nameless Ones를 해금했습니다`;
+        이름 없는 자들을 해금했습니다`;
     },
   },
   reality: {

@@ -94,7 +94,7 @@ export default {
 <template>
   <ModalWrapper>
     <template #header>
-      The Nameless Ones의 현실에 생긴 균열
+      이름 없는 자들의 현실에 생긴 균열
     </template>
     <div class="c-enslaved-hint-modal c-modal--short">
       <div>

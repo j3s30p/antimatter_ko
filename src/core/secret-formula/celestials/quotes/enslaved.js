@@ -30,7 +30,7 @@ export const enslavedQuotes = {
     lines: [
       "... 더 열심히... 찾아야 한다...",
       "우리가... 도울 수 있을 것 같다...",
-      { text: "The Nameless Ones의 도움을 해금했습니다.", showCelestialName: false }
+      { text: "이름 없는 자들의 도움을 해금했습니다.", showCelestialName: false }
     ]
   },
   ec6C10: {

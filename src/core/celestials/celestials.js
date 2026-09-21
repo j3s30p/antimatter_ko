@@ -36,7 +36,7 @@ GameDatabase.celestials.descriptions = [
     }
   },
   {
-    name: "The Nameless Ones",
+    name: "이름 없는 자들",
     effects() {
       return `글리프 레벨이 최소 ${formatInt(5000)}까지 증가합니다.
       무한 차원, 시간 차원, 제8 반물질 차원은 각각 ${formatInt(1)}번만 구매할 수 있습니다.

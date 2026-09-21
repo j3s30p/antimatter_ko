@@ -173,7 +173,7 @@ export default {
       };
     },
     showAlchemyHowTo() {
-      ui.view.h2pForcedTab = GameDatabase.h2p.tabs.filter(tab => tab.name === "Glyph Alchemy")[0];
+      ui.view.h2pForcedTab = GameDatabase.h2p.tabs.filter(tab => tab.name === "글리프 연금술 자원")[0];
       Modal.h2p.show();
     },
     toggleAllReactions() {

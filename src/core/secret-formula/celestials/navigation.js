@@ -670,13 +670,13 @@ export const celestialNavigation = {
       alwaysShowLegend: true,
       legend: {
         text: complete => {
-          if (complete >= 1) return "The Nameless Ones의 현실";
+          if (complete >= 1) return "이름 없는 자들의 현실";
           const ep = Enslaved.isRunning ? Currency.eternityPoints.value : 0;
           const goal = DC.E4000;
           return [
-            "The Nameless Ones의 현실",
+            "이름 없는 자들의 현실",
             `${format(ep, 2)} / ${format(goal, 2)}에 도달하세요`,
-            "The Nameless Ones의 현실 안에서 영원 포인트를 획득하세요."
+            "이름 없는 자들의 현실 안에서 영원 포인트를 획득하세요."
           ];
         },
         angle: 45,
@@ -1263,9 +1263,9 @@ export const celestialNavigation = {
           const unlocked = Ra.pets.effarig.level;
           const level = Ra.pets.enslaved.level;
           if (complete < 1) return `Ra의 Effarig 기억 레벨 ${unlocked} / ${formatInt(8)}`;
-          if (level === 25) return `Ra의 The Nameless Ones 기억을 모두 되찾았습니다`;
+          if (level === 25) return `Ra의 이름 없는 자들 기억을 모두 되찾았습니다`;
           return [
-            "Ra의 The Nameless Ones 기억 레벨",
+            "Ra의 이름 없는 자들 기억 레벨",
             `${formatInt(level)} / ${formatInt(25)}`
           ];
         },
@@ -1313,7 +1313,7 @@ export const celestialNavigation = {
         text: complete => {
           const unlocked = Ra.pets.enslaved.level;
           const level = Ra.pets.v.level;
-          if (complete < 1) return `Ra의 The Nameless Ones 기억 레벨 ${unlocked} / ${formatInt(8)}`;
+          if (complete < 1) return `Ra의 이름 없는 자들 기억 레벨 ${unlocked} / ${formatInt(8)}`;
           if (level === 25) return `Ra의 V 기억을 모두 되찾았습니다`;
           return [
             "Ra의 V 기억 레벨",

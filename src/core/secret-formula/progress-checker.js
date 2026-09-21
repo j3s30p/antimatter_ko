@@ -118,7 +118,7 @@ export const progressStages = [
   },
   {
     id: PROGRESS_STAGE.ENSLAVED,
-    name: "The Nameless Ones (세 번째 셀레스티얼)",
+    name: "이름 없는 자들 (세 번째 셀레스티얼)",
     hasReached: save => save.celestials?.enslaved?.quoteBits > 0,
     suggestedResource: "리얼리티 머신 및 글리프 레벨",
     subProgressValue: save => Math.sqrt((new Decimal(save.reality.realityMachines).log10() - 30) / 30),

@@ -22,7 +22,7 @@ export default {
       return {
         Teresa: "Teresa",
         Effarig: "Effarig",
-        Enslaved: "The Nameless Ones",
+        Enslaved: "이름 없는 자들",
         V: "V",
       }[this.unlock.pet.name] ?? this.unlock.pet.name;
     },
