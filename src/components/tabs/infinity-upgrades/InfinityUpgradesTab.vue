@@ -127,20 +127,20 @@ export default {
         :class="disChargeClassObject"
         @click="disCharge = !disCharge"
       >
-        Respec Charged Infinity Upgrades on next Reality
+        다음 현실에서 충전된 무한 업그레이드 재설정
       </PrimaryButton>
     </div>
     <div v-if="chargeUnlocked">
-      You have charged {{ formatInt(chargesUsed) }}/{{ formatInt(totalCharges) }} Infinity Upgrades.
-      Charged Infinity Upgrades have their effect altered.
+      무한 업그레이드 {{ formatInt(chargesUsed) }}/{{ formatInt(totalCharges) }}개를 충전했습니다.
+      충전된 무한 업그레이드는 효과가 달라집니다.
       <br>
-      Hold shift to show Charged Infinity Upgrades. You can freely respec your choices on Reality.
+      Shift 키를 누르면 충전 효과를 볼 수 있습니다. 현실 진입 시 선택을 자유롭게 재설정할 수 있습니다.
     </div>
     <div v-if="isUseless">
-      You cannot Charge Infinity Upgrades while Doomed.
+      파멸 중에는 무한 업그레이드를 충전할 수 없습니다.
     </div>
     <br>
-    Within each column, the upgrades must be purchased from top to bottom.
+    각 열의 업그레이드는 위에서 아래 순서로 구매해야 합니다.
     <br>
     <div class="l-infinity-upgrade-grid l-infinity-upgrades-tab__grid">
       <div
@@ -171,10 +171,10 @@ export default {
       />
     </div>
     <div v-if="eternityUnlocked && bottomRowUnlocked">
-      The Infinity Point multiplier becomes more expensive
+      무한 포인트 배율은 무한 포인트가
       <br>
-      above {{ formatPostBreak(ipMultSoftCap) }} Infinity Points, and cannot be purchased past
-      {{ formatPostBreak(ipMultHardCap) }} Infinity Points.
+      {{ formatPostBreak(ipMultSoftCap) }}를 넘으면 더 비싸지며,
+      {{ formatPostBreak(ipMultHardCap) }}를 넘으면 구매할 수 없습니다.
     </div>
   </div>
 </template>

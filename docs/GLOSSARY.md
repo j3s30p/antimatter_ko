@@ -20,6 +20,7 @@ The preferred terms follow the established Korean mobile/community vocabulary wh
 | Infinity Dimension | 무한 차원 | ID remains ID in compact displays |
 | Infinity Power | 무한력 | |
 | Tesseract | 테서랙트 | |
+| Charged Infinity Upgrade | 충전된 무한 업그레이드 | |
 | Replicanti | 복제자 | Established mobile term |
 | Replicanti Galaxy | 복제자 은하 | |
 | Eternity | 영원 | |

@@ -13,7 +13,7 @@ Status values: `not started`, `in progress`, `translated`, `QA complete`.
 | Statistics and records | not started | |
 | Achievements | not started | |
 | Challenges | not started | |
-| Infinity systems | in progress | Infinity Dimension tabs translated; upgrades, challenges, and Break Infinity remain |
+| Infinity systems | in progress | Entry flow, Infinity Dimensions, and base Infinity Upgrades translated; challenges and Break Infinity upgrades remain |
 | Eternity systems | not started | |
 | Dilation systems | not started | |
 | Reality and Glyph systems | not started | |
