@@ -111,34 +111,34 @@ export default {
   >
     <!-- Cannot Crunch -->
     <template v-if="!canCrunch">
-      Reach {{ format(infinityGoal, 2, 2) }}
+      반물질
       <br>
-      antimatter
+      {{ format(infinityGoal, 2, 2) }} 도달
     </template>
 
     <!-- Can Crunch in challenge -->
     <template v-else-if="inAntimatterChallenge">
-      Big Crunch to
+      빅 크런치하여
       <br>
-      complete the challenge
+      도전 완료
     </template>
 
     <!-- Can Crunch -->
     <template v-else>
       <div v-if="!showIPRate" />
       <b>
-        Big Crunch for
+        빅 크런치 보상:
         <span :style="amountStyle">{{ format(gainedIP, 2) }}</span>
         <span v-if="showIPRate"> IP</span>
-        <span v-else> Infinity {{ pluralize("Point", gainedIP) }}</span>
+        <span v-else> 무한 포인트</span>
       </b>
       <template v-if="showIPRate">
         <br>
-        Current: {{ format(currentIPRate, 2) }} IP/min
+        현재: {{ format(currentIPRate, 2) }} IP/분
         <br>
-        Peak: {{ format(peakIPRate, 2) }} IP/min
+        최고: {{ format(peakIPRate, 2) }} IP/분
         <br>
-        at {{ format(peakIPRateVal, 2) }} IP
+        {{ format(peakIPRateVal, 2) }} IP에서 기록
       </template>
       <div v-else />
     </template>
@@ -151,7 +151,7 @@ export default {
     @click="switchToInfinity"
   >
     <b>
-      You have enough Infinity Points to buy a Tesseract
+      테서랙트를 구매할 만큼 무한 포인트를 보유하고 있습니다
     </b>
   </button>
 </template>

@@ -9,12 +9,12 @@ export default {
   computed: {
     message() {
       const infinity = formatPostBreak(Number.MAX_VALUE, 2);
-      return `Breaking Infinity will allow you to gain antimatter past ${infinity}${PlayerProgress.eternityUnlocked()
-        ? "." : `, and allow you to read numbers past ${infinity}.`}
-        Dimensions and Tickspeed Upgrades will scale in cost faster after ${infinity} antimatter.
-        You will gain additional Infinity Points on Big Crunch based on antimatter produced over ${infinity}.\
-        ${EternityMilestone.keepAutobuyers.isReached ? "" : `\nIt will also unlock Break Infinity Upgrades and max\
-        all Normal Challenge Autobuyers.`}`.split("\n");
+      return `무한을 돌파하면 ${infinity}보다 많은 반물질을 얻을 수 있습니다${PlayerProgress.eternityUnlocked()
+        ? "." : `. 또한 ${infinity}보다 큰 수를 표시할 수 있습니다.`}
+        반물질이 ${infinity}를 넘으면 차원과 틱스피드 업그레이드의 비용 증가 속도가 빨라집니다.
+        빅 크런치 시 ${infinity}를 넘어 생산한 반물질에 따라 추가 무한 포인트를 얻습니다.\
+        ${EternityMilestone.keepAutobuyers.isReached ? "" : `\n무한 돌파 업그레이드도 해금되며 모든 일반 도전\
+        자동 구매기가 최대 레벨이 됩니다.`}`.split("\n");
     },
   },
   methods: {
@@ -31,7 +31,7 @@ export default {
     @confirm="handleYesClick"
   >
     <template #header>
-      You are Breaking Infinity
+      무한을 돌파하려 합니다
     </template>
     <div class="c-modal-message__text">
       <span
@@ -42,7 +42,7 @@ export default {
       </span>
     </div>
     <template #confirm-text>
-      Break
+      돌파
     </template>
   </ModalWrapperChoice>
 </template>

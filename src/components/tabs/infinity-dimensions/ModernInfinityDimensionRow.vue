@@ -43,27 +43,27 @@ export default {
       return ui.view.shiftDown;
     },
     name() {
-      return `${InfinityDimension(this.tier).shortDisplayName} Infinity Dimension`;
+      return `${this.tier}차 무한 차원`;
     },
     costDisplay() {
       if (this.isUnlocked || this.shiftDown) {
-        if (this.isCapped) return "Capped";
-        return this.showCostTitle ? `Cost: ${format(this.cost)} IP` : `${format(this.cost)} IP`;
+        if (this.isCapped) return "상한 도달";
+        return this.showCostTitle ? `비용: ${format(this.cost)} IP` : `${format(this.cost)} IP`;
       }
 
       if (this.canUnlock) {
-        return "Unlock";
+        return "해금";
       }
 
-      return `Reach ${formatPostBreak(InfinityDimension(this.tier).amRequirement)} AM`;
+      return `반물질 ${formatPostBreak(InfinityDimension(this.tier).amRequirement)} 도달`;
     },
     hasLongText() {
       return this.costDisplay.length > 20;
     },
     capTooltip() {
-      if (this.enslavedRunning) return `Nameless prevents the purchase of more than ${format(10)} Infinity Dimensions`;
-      if (this.isCapped) return `Cap reached at ${format(this.capIP)} IP`;
-      return `Purchased ${quantifyInt("time", this.purchases)}`;
+      if (this.enslavedRunning) return `이름 없는 자들로 인해 무한 차원은 ${format(10)}개까지만 구매할 수 있습니다`;
+      if (this.isCapped) return `${format(this.capIP)} IP에서 상한에 도달했습니다`;
+      return `구매 횟수: ${formatInt(this.purchases)}회`;
     },
     showRow() {
       return this.eternityReached || this.isUnlocked || this.canUnlock || this.amount.gt(0) ||
@@ -142,7 +142,7 @@ export default {
         v-if="isAutobuyerUnlocked && !isEC8Running"
         v-model="isAutobuyerOn"
         class="o-primary-btn--id-auto"
-        label="Auto:"
+        label="자동:"
       />
       <PrimaryButton
         v-else
@@ -150,7 +150,7 @@ export default {
         class="o-primary-btn--id-auto"
         @click="buyMaxInfinityDimension"
       >
-        Buy Max
+        최대 구매
       </PrimaryButton>
     </div>
   </div>

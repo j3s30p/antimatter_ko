@@ -21,23 +21,23 @@ export default {
     },
     message() {
       const info = this.isFirstInfinity ? this.firstInfinityInfo : ``;
-      return `Upon Infinity, all Dimensions, Dimension Boosts, and Antimatter Galaxies are reset. ${info}`;
+      return `무한에 진입하면 모든 차원, 차원 가속, 반물질 은하가 초기화됩니다. ${info}`;
     },
     firstInfinityInfo() {
-      return `In return, you gain an Infinity Point (IP). This allows you to buy multiple upgrades that you can
-        find in the Infinity tab. You will also gain one Infinity, which is the stat shown in the Statistics tab.`;
+      return `대신 무한 포인트(IP)를 하나 얻습니다. 이 포인트로 무한 탭의 여러 업그레이드를 구매할 수 있습니다.
+        또한 통계 탭에 표시되는 무한 횟수가 하나 증가합니다.`;
     },
     ipGainInfo() {
-      return `You will gain ${quantify("Infinity", this.gainedInfinities, 2, 0)}
-        and ${quantify("Infinity Point", this.gainedInfinityPoints, 2, 0)}.`;
+      return `무한 횟수 ${format(this.gainedInfinities, 2, 0)}회와
+        무한 포인트 ${format(this.gainedInfinityPoints, 2, 0)}를 획득합니다.`;
     },
     startingResources() {
       const gainedResources = [];
-      if (this.startingAM.gte(10)) gainedResources.push(`${quantify("Antimatter", this.startingAM, 2, 1)}`);
-      if (this.startingBoosts > 0) gainedResources.push(`${quantify("Dimension Boost", this.startingBoosts)}`);
-      if (this.willStartWithGalaxy) gainedResources.push(`${quantify("Galaxy", 1)}`);
+      if (this.startingAM.gte(10)) gainedResources.push(`반물질 ${format(this.startingAM, 2, 1)}`);
+      if (this.startingBoosts > 0) gainedResources.push(`차원 가속 ${formatInt(this.startingBoosts)}회`);
+      if (this.willStartWithGalaxy) gainedResources.push("반물질 은하 1개");
 
-      return `You will start your next Infinity with ${makeEnumeration(gainedResources)}.`;
+      return `다음 무한은 ${gainedResources.join(", ")}를 보유한 상태로 시작합니다.`;
     }
   },
   methods: {
@@ -52,9 +52,9 @@ export default {
       bigCrunchResetRequest();
       EventHub.ui.offAll(this);
       if (this.isFirstInfinity) {
-        setTimeout(() => Modal.message.show(`This animation will occur after every manually-triggered Infinity. If
-          you would like to disable it, there is a setting to do so in the Options tab. This can be done for any
-          visual animation effect in the game after seeing it for the first time.`, {}, 3), 2000);
+        setTimeout(() => Modal.message.show(`이 애니메이션은 무한을 수동으로 실행할 때마다 나타납니다.
+          끄려면 옵션 탭에서 설정을 변경하세요. 게임의 모든 시각 효과는 처음 본 뒤 같은 방식으로
+          끌 수 있습니다.`, {}, 3), 2000);
       }
     }
   },
@@ -63,7 +63,7 @@ export default {
 
 <template>
   <ResetModal
-    header="You are about to Infinity"
+    header="무한에 진입하려 합니다"
     :message="message"
     :gained-resources="ipGainInfo"
     :starting-resources="startingResources"

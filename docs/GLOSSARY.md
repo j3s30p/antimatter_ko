@@ -19,6 +19,7 @@ The preferred terms follow the established Korean mobile/community vocabulary wh
 | Infinity Point | 무한 포인트 | IP remains IP in compact displays |
 | Infinity Dimension | 무한 차원 | ID remains ID in compact displays |
 | Infinity Power | 무한력 | |
+| Tesseract | 테서랙트 | |
 | Replicanti | 복제자 | Established mobile term |
 | Replicanti Galaxy | 복제자 은하 | |
 | Eternity | 영원 | |
