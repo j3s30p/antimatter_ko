@@ -4503,7 +4503,7 @@ export const news = [
   },
   {
     id: "ai312",
-    text: "IDE for being awesome, ID3 for being dumb, and ID5 for being… well, pretty much the same thing. It's called Antimatter Dimensions for a reason. (멋진 IDE와 멍청한 무한 차원들을 대비하며 게임 이름에는 이유가 있다는 말장난)"
+    text: "멋진 건 IDE, 멍청한 건 3차 무한 차원, 그리고 5차 무한 차원은... 뭐, 거의 똑같습니다. 괜히 반물질 '차원'이라고 부르는 게 아니죠."
   },
   {
     id: "ai313",
@@ -4511,19 +4511,19 @@ export const news = [
   },
   {
     id: "ai314",
-    text: "'anti-ide' ('반-아이디어'라는 말장난)"
+    text: "'안티-아이디어(anti-IDE)'"
   },
   {
     id: "ai315",
-    text: "1e4 anti-people are a lot more anti than we could ever imagine (만 명의 반-사람은 우리가 상상할 수 있는 것보다 훨씬 더 anti하다는 반복 말장난입니다.)"
+    text: "반-사람 1e4명은 우리가 상상할 수 있는 것보다 훨씬 더 반(anti)대적입니다."
   },
   {
     id: "ai316",
-    text: "1e140 pizzas make an anti-pie. You can't just randomly pop a pie in the oven and expect it to be done. (그만큼의 피자가 반-파이를 만들며 파이를 무작정 오븐에 넣는다고 완성되지는 않는다는 말장난)"
+    text: "피자 1e140판이면 안티파이 하나를 만듭니다. 파이를 아무렇게나 오븐에 넣고 완성되길 바랄 수는 없으니까요."
   },
   {
     id: "ai317",
-    text: "Why is there so many news tickers but so few tickers? (뉴스 티커는 이렇게 많은데 티커 자체는 왜 이렇게 적으냐는 말장난입니다.)"
+    text: "뉴스 티커는 이렇게 많은데, 정작 티커는 왜 이렇게 적을까요?"
   },
   {
     id: "ai318",
