@@ -124,6 +124,11 @@ Update this file whenever a translation batch is committed. An area becomes `QA 
   bundle hash comparison, 304-file Greenworks sidecar check, and absence of the Endgame marker passed. RC4 was installed
   only after all five existing game processes were stopped and a zero-process state was verified; the game was then
   launched exactly once and returned to five responsive Electron processes.
+- GitHub release layout correction: public ZIP archives are now GitHub Release assets rather than files tracked at the
+  default branch root. The default branch contains only the copy-over release payload and its required documentation:
+  `resources/app.asar`, the Korean installation guide, manifest, attribution, Galmuri license, and repository README.
+  The `v0.9.0-rc.4` prerelease asset was downloaded back from GitHub and matched the locally generated ZIP SHA-256
+  exactly.
 
 ## Steam packaging note
 
