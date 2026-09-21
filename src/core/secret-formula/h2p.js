@@ -17,105 +17,86 @@ export const h2p = {
    */
   tabs: [
     {
-      name: "This Modal",
+      name: "이 도움말 창",
       info: () => `
-Welcome to the How to Play!
+게임 방법 도움말에 오신 것을 환영합니다!
 <br>
 <br>
-This modal (pop-up window) contains in-depth explanations and additional details for everything you will encounter
-as you progress through the game. As you unlock new features and mechanics, you will also gain access to additional
-pages here. If you ever feel lost or confused about how something in the game works, you may find a helpful
-explanation within the related entry in here. 
+이 창에는 게임을 진행하며 만나게 될 요소의 자세한 설명과 추가 정보가 담겨 있습니다. 새로운 기능과
+시스템을 해금하면 이곳의 문서도 함께 늘어납니다. 길을 잃었거나 어떤 기능의 작동 방식이 헷갈릴 때는
+관련 항목에서 유용한 설명을 찾아보세요.
 <br>
 <br>
-For now, opening the How to Play will always start you on this page. After you get your first Dimension Boost,
-opening this modal will instead place you on the How to Play entry most relevant to the game content on your currently
-visible tab and subtab, if such an entry exists.
+지금은 게임 방법을 열 때 항상 이 페이지가 먼저 표시됩니다. 첫 차원 부스트를 얻은 뒤부터는 현재 보고 있는
+탭과 하위 탭에 해당하는 문서가 있다면 그 문서를 자동으로 엽니다.
 `,
       isUnlocked: () => true,
       tags: ["h2p", "how", "to", "play", "modal"],
       tab: ""
     },
     {
-      name: "Your savefile",
+      name: "저장 파일",
       info: () => `
-Your game's save data is stored on your computer's browser data if you are playing on a web browser, or in your Steam
-installation folder if you are playing on Steam. This means that clearing your browser's cache or cookies, or fully
-uninstalling the game from Steam will also delete your save file.
-Similarly, if you are playing in a private or incognito window, your save
-will not be there the next time you open up your browser. The saves are browser-specific as well, so for example
-if you play the game on Chrome, you will not find your save on Firefox. Lastly, any saves you have on the web version
-and the Steam version will also be completely independent from each other.
+웹 브라우저에서 플레이하면 저장 데이터는 브라우저 데이터에, Steam에서 플레이하면 Steam 설치 폴더에
+보관됩니다. 따라서 브라우저 캐시나 쿠키를 지우거나 Steam에서 게임을 완전히 제거하면 저장 파일도
+삭제될 수 있습니다. 비공개 또는 시크릿 창에서 플레이한 저장은 다음에 브라우저를 열었을 때 남아 있지
+않습니다. 저장은 브라우저별로 분리되므로 Chrome의 저장을 Firefox에서 볼 수 없으며, 웹 버전과 Steam
+버전의 저장 역시 서로 독립적입니다.
 <br>
 <br>
-You can transfer your save between places by using the export function, which will copy a <i>very</i> long string of
-random-looking characters into your clipboard. That text contains your save data, which you can load back into the
-game by pasting it into the text box on the import prompt. You need the entirety of the save text for importing to
-work properly, or else the game might not recognize the text as a valid save. Certain messaging applications may
-cut off part of the text if you are using one to transfer the save between devices.
+내보내기 기능을 사용하면 무작위 문자처럼 보이는 <i>매우</i> 긴 문자열이 클립보드에 복사됩니다. 이 문자열에
+저장 데이터가 들어 있으며, 가져오기 창의 입력란에 붙여 넣으면 다시 불러올 수 있습니다. 일부라도 빠지면
+올바른 저장으로 인식되지 않을 수 있습니다. 메신저로 다른 기기에 전송할 때 일부 앱이 긴 문자열을
+잘라낼 수 있으니 주의하세요.
 <br>
 <br>
-A properly-formatted save string from the Reality update will start with
-<b>${GameSaveSerializer.startingString.savefile}</b> and end with <b>${GameSaveSerializer.endingString.savefile}</b>.
-If you are importing from a version of the game from before Reality was released, it will instead start with <b>eyJ</b>
-and end with <b>In19</b>, <b>fX0=</b>, or <b>fQ==</b>. If neither of these are the case, then part of your save is
-missing and it will fail to import. In addition to importing and exporting to your clipboard, you can also import
-and export from text files as well.
+리얼리티 업데이트 이후의 정상적인 저장 문자열은 <b>${GameSaveSerializer.startingString.savefile}</b>로 시작해
+<b>${GameSaveSerializer.endingString.savefile}</b>로 끝납니다. 리얼리티 이전 버전의 저장은 <b>eyJ</b>로 시작하고
+<b>In19</b>, <b>fX0=</b>, <b>fQ==</b> 중 하나로 끝납니다. 어느 형식에도 맞지 않으면 저장 일부가 누락되어
+가져오기에 실패합니다. 클립보드뿐 아니라 텍스트 파일로도 저장을 가져오거나 내보낼 수 있습니다.
 <br>
-You can use the "Choose save" button to pick between three separate saves on your browser. These saves are, for most
-intents and purposes, completely separate from each other. Importing and exporting will only affect the current save
-slot. <b>The only exception is clearing your browser or Steam data, in which case all three saves will be reset.</b>
+"저장 선택" 버튼으로 세 개의 저장 슬롯 중 하나를 고를 수 있습니다. 각 슬롯은 서로 독립적이며 가져오기와
+내보내기는 현재 슬롯에만 영향을 줍니다. <b>단, 브라우저나 Steam 데이터를 지우면 세 슬롯이 모두 초기화됩니다.</b>
 <br>
 <br>
-The game automatically saves periodically, by default once every ${formatInt(30)} seconds.
-Keep this in mind if you need to close the game - anything you
-do right before closing it might not be saved unless you wait for the autosave interval or manually save again. The
-length of the autosave interval is adjustable, and its timer can be seen in the bottom-left of the screen.
+게임은 기본적으로 ${formatInt(30)}초마다 자동 저장합니다. 게임을 닫기 직전의 행동은 자동 저장을 기다리거나
+직접 저장하지 않으면 기록되지 않을 수 있습니다. 자동 저장 간격은 조정할 수 있으며, 화면 왼쪽 아래에서
+타이머를 확인할 수 있습니다.
 <br>
 <br>
-Backups of your savefile are also saved after certain amounts of time online or offline, which you can examine and
-reload at any point by clicking the "Open Automatic Save Backup Menu" button. These backups may be useful if you wish
-to revert your save to what it looked like some time in the past, such as a few minutes ago or when you were last
-offline for a while.
+온라인 또는 오프라인에서 일정 시간이 지나면 백업도 생성됩니다. "자동 저장 백업 메뉴 열기"에서 언제든
+백업을 확인하고 불러올 수 있습니다. 몇 분 전이나 장시간 자리를 비우기 전 상태로 되돌리고 싶을 때 유용합니다.
 <br>
 <br>
-You can also connect a Google Account to the game, allowing you to save your progress online. This allows you to play
-with the same save on any device which is also logged into the same account. Cloud saving is only compatible with other
-saves on the web or Steam versions of the game; saves from the Android app of the game will not be automatically linked
-via Cloud saving. Saving and loading from the Cloud will
-automatically overwrite the other save unless the other save is either older or has noticeably more progression, in
-which case a modal will appear which asks you which save you want to keep.
+Google 계정을 연결하면 진행 상황을 온라인에 저장하고 같은 계정으로 로그인한 다른 기기에서 이어서
+플레이할 수 있습니다. 클라우드 저장은 웹과 Steam 버전끼리만 호환되며 Android 앱의 저장은 자동으로
+연결되지 않습니다. 클라우드 저장과 불러오기는 보통 반대쪽 저장을 덮어쓰지만, 저장 시점이나 진행도가
+크게 다르면 어느 저장을 유지할지 묻는 창이 표시됩니다.
 <br>
 <br>
-You can completely reset your save at any point if desired by clicking the button, which brings up a prompt you need
-to fill out in order to make sure you intentionally wanted to reset. Going through with this reset will only clear
-your current save; the other save slots will be unaffected. <b>Resetting your game in this way is completely
-irreversible and gives you no permanent benefits, secret or otherwise.</b>
+원한다면 언제든 초기화 버튼으로 현재 저장을 완전히 지울 수 있습니다. 실수를 막기 위해 확인 문구를 직접
+입력해야 하며 다른 저장 슬롯에는 영향을 주지 않습니다. <b>이 초기화는 되돌릴 수 없고 영구 보상이나 숨겨진
+혜택도 전혀 제공하지 않습니다.</b>
 `,
       isUnlocked: () => true,
       tags: ["choose", "cloud", "google", "save", "import", "export", "reset"],
       tab: "options/saving"
     },
     {
-      name: "Customization",
+      name: "화면 꾸미기",
       info: () => `
-The game has two different UI layouts - the Classic UI maintains the style of Antimatter Dimensions from before the
-Reality update, while the Modern UI is a redesign based on more modern dark theme styles. Additionally, there are
-various themes which can be applied to modify the appearance of everything in the game. There are a few secret themes
-which can be unlocked through importing certain phrases. Both UI layouts support all the different possible themes.
+게임에는 두 가지 UI 배치가 있습니다. 클래식 UI는 리얼리티 업데이트 이전의 Antimatter Dimensions 스타일을
+유지하고, 모던 UI는 현대적인 어두운 테마를 바탕으로 새롭게 디자인되었습니다. 게임 전체의 모습을 바꾸는
+다양한 테마도 있으며, 특정 문구를 가져오면 열리는 비밀 테마도 있습니다. 모든 테마는 두 UI에서 사용할 수 있습니다.
 <br>
 <br>
-The notation used to display numbers in the game defaults to Mixed Scientific, but can be changed to one of numerous
-options in the drop-down menu. Many of these notations are intended as jokes and in some cases will format numbers
-in a way that causes text to spill over into other parts of the screen - this is not a bug. You can additionally
-configure what numbers look like when they are extremely large using the "Exponent Notation Options" menu,
-although this may result in some odd text appearances in some places.
+숫자 표기법은 기본적으로 혼합 과학적 표기법을 사용하지만 드롭다운 메뉴에서 여러 방식으로 바꿀 수 있습니다.
+일부 표기법은 농담을 목적으로 만들어져 글자가 다른 영역을 침범할 수 있으며, 이는 버그가 아닙니다.
+"지수 표기 옵션"에서는 매우 큰 숫자의 표시 방식도 조정할 수 있지만 일부 문구가 어색하게 보일 수 있습니다.
 <br>
 <br>
-Many events in the game trigger full-screen animations or pop-up modals which require you to confirm that you want to
-continue. Most of these animations and confirmations can be disabled on an individual basis through the options,
-although the ability to disable any given animation or confirmation will only appear after they have already shown up
-at least once.
+게임의 여러 이벤트는 전체 화면 애니메이션이나 계속 진행할지 묻는 팝업을 표시합니다. 대부분은 옵션에서
+개별적으로 끌 수 있지만, 해당 애니메이션이나 확인 창을 한 번 이상 본 뒤에야 설정 항목이 나타납니다.
 `,
       isUnlocked: () => true,
       tags: ["UI", "update", "news", "theme", "notation", "comma", "exponent", "animation", "retry", "confirmation",
@@ -123,57 +104,46 @@ at least once.
       tab: "options/visual"
     },
     {
-      name: "Offline Progress",
+      name: "오프라인 진행",
       info: () => `
-Antimatter Dimensions has a catch-up mechanic which attempts to simulate the game's behavior if the game is closed for
-an extended period of time. The simulation behavior is only somewhat accurate, as the game is too mathematically
-complicated to be run at full accuracy in a reasonable amount of time. At the end of the simulation, the game will
-summarize how various relevant resources have changed while you were gone.
+Antimatter Dimensions에는 게임을 오래 닫아 둔 동안의 동작을 모의 계산하는 따라잡기 기능이 있습니다.
+게임의 수학적 구조가 복잡해 합리적인 시간 안에 완전히 정확하게 계산할 수는 없습니다. 모의 계산이 끝나면
+자리를 비운 동안 관련 자원이 얼마나 변했는지 요약해서 보여 줍니다.
 <br>
 <br>
-If the game is left open and becomes unfocused or otherwise suspended for an extended period of time, it will attempt
-to apply the missed time as offline progress when you return. This can be potentially unreliable, as different devices
-handle these situations differently. If this results in undesirable behavior, there is a toggle to turn this off in the
-options - in that case the game will try to apply all the missed time in a single tick.
+게임을 켜 둔 채 창의 초점이 사라지거나 오랫동안 중단되면 돌아왔을 때 놓친 시간을 오프라인 진행으로
+적용합니다. 기기마다 중단 상태를 처리하는 방식이 달라 정확하지 않을 수 있습니다. 문제가 생기면 옵션에서
+이 기능을 끌 수 있으며, 그 경우 놓친 시간을 한 틱에 적용하려고 시도합니다.
 <br>
 <br>
-The game runs on a system where everything is updated once per tick - all Dimensions and resources do one unit of
-production, all autobuyers trigger once, all multipliers and values are changed accordingly, and all the displayed
-numbers are updated. By default there are ${formatInt(20)} ticks per second when the game is running, although this can
-be modified by changing the "Update rate" within the game Options.
-Your current settings will run the game at ${format(1000 / player.options.updateRate, 2, 1)} ticks per second on
-average, although lag and internal javascript behavior may cause individual ticks to vary by a few percent.
+게임의 모든 요소는 틱마다 한 번 갱신됩니다. 모든 차원과 자원이 한 단위 생산하고, 자동 구매기가 한 번
+작동하며, 배율과 수치 및 화면 표시가 갱신됩니다. 기본값은 초당 ${formatInt(20)}틱이며 옵션의 "업데이트 주기"로
+바꿀 수 있습니다. 현재 설정에서는 평균 초당 ${format(1000 / player.options.updateRate, 2, 1)}틱으로 실행됩니다.
+지연이나 JavaScript 내부 동작 때문에 개별 틱에는 몇 퍼센트 정도 차이가 생길 수 있습니다.
 <br>
 <br>
-When offline simulation is active, these ticks have an adjusted length in order to fill the amount of time you were
-away - for example having a setting for ${formatInt(1000)} offline ticks and closing the game for an hour will result in
-ticks which are ${format(3.6, 1, 1)} seconds long each. For most things in the game, this is not an issue because this
-will still result in approximately the same amount of resources after the simulation completes. A notable exception is
-autobuyers - in this situation autobuyers will effectively only trigger once every ${format(3.6, 1, 1)} seconds, which
-may have a strong impact depending on the part of the game.
+오프라인 모의 계산에서는 자리를 비운 시간을 채우도록 틱 길이를 조정합니다. 예를 들어 오프라인 틱을
+${formatInt(1000)}으로 설정하고 한 시간 동안 게임을 닫았다면 각 틱은 ${format(3.6, 1, 1)}초가 됩니다. 대부분의
+요소는 결과 자원량이 비슷하지만 자동 구매기는 실질적으로 ${format(3.6, 1, 1)}초마다 한 번만 작동하므로
+진행 구간에 따라 큰 영향을 받을 수 있습니다.
 <br>
 <br>
 ${player.blackHole[0].unlocked
-    ? `<b>Offline Black Hole behavior:</b> Once the Black Hole has been unlocked, the offline progress simulation will
-      attempt to run the game in a way where each tick contains roughly the same amount of <i>game</i> time. This may
-      give the appearance of the Black Hole(s) being active for a much larger fraction of time than normal while
-      simulating, when in fact the game is running active periods more slowly and "skipping past" the inactive periods
-      because they contribute much less production per real time. This results in behavior which is generally in your
-      favor when compared to ticks with constant real time.
+    ? `<b>오프라인 블랙홀 동작:</b> 블랙홀을 해금하면 각 틱에 비슷한 양의 <i>게임 시간</i>이 담기도록 오프라인
+      진행을 계산합니다. 모의 계산 중에는 블랙홀이 평소보다 훨씬 오래 활성화된 것처럼 보일 수 있습니다.
+      실제로는 활성 구간을 더 천천히 실행하고, 현실 시간당 생산량이 훨씬 적은 비활성 구간을 "건너뛰는"
+      방식입니다. 일정한 현실 시간으로 틱을 계산하는 것보다 대체로 플레이어에게 유리합니다.
       <br>
       <br>`
     : ""
 }
-Offline tick count can be adjusted between ${formatInt(500)} and ${formatInt(DC.E6)} ticks. Smaller counts will result
-in faster but less accurate simulations, while larger counts will result in more accurate simulations which take longer
-to complete. There is a limit of one day of time per game tick, meaning there are some rare situations (such as not
-playing the game for more than a year) where you may not get all of the time you were away.
+오프라인 틱 수는 ${formatInt(500)}에서 ${formatInt(DC.E6)} 사이로 조정할 수 있습니다. 틱 수가 적으면 빠르지만
+덜 정확하고, 많으면 더 정확하지만 오래 걸립니다. 한 게임 틱에는 최대 하루만 담을 수 있으므로 1년 넘게
+게임을 하지 않은 경우처럼 드문 상황에서는 자리를 비운 시간이 전부 적용되지 않을 수 있습니다.
 <br>
 <br>
-Offline progress can be disabled entirely if desired, for example for diagnostic or timing purposes, or in order
-to do an "online only" playthrough of the game. Otherwise, offline progress is on by default from the very beginning
-of the game. Note that if offline progress is disabled, the statistic for total time played will also be paused while
-the game closed.
+진단이나 시간 측정, 또는 "온라인 전용" 플레이를 위해 오프라인 진행을 완전히 끌 수도 있습니다. 기본값은
+게임 시작부터 켜짐입니다. 오프라인 진행을 끄면 게임을 닫은 동안 총 플레이 시간 통계도 멈춥니다.
 `,
       isUnlocked: () => true,
       tags: ["offline", "away", "progress"],
@@ -221,7 +191,7 @@ ${PlayerProgress.realityUnlocked()
       tags: ["effect", "stack", "combine", "add", "reduce", "multiply", "divide", "power", "dilation", "glyph"],
       tab: "options/gameplay"
     }, {
-      name: "Common Abbreviations",
+      name: "자주 쓰는 약어",
       info: () => `
 Many resources within the game may appear in an abbreviated format as text in order to save space. This How to
 Play entry will update itself with additional entries for new resources as you encounter them for the first time.
@@ -253,144 +223,124 @@ ${Laitela.isUnlocked ? "- <b>DE</b>: Dark Energy<br>" : ""}
         "dt", "tg", "rm", "ap", "bh", "im", "dm", "de"],
       tab: ""
     }, {
-      name: "Antimatter Dimensions",
+      name: "반물질 차원",
       info: () => `
-Antimatter is a resource that is used throughout the entire game for purchasing various things as you progress. You
-start with ${formatInt(10)} antimatter when you first open the game, and you can
-spend it to buy the 1st Antimatter Dimension to start the game.
+반물질은 게임 전체에서 여러 요소를 구매하는 데 쓰이는 자원입니다. 게임을 처음 시작하면 반물질
+${formatInt(10)}개를 가지고 있으며, 이를 사용해 제1 반물질 차원을 구매하면서 게임을 시작할 수 있습니다.
 <br>
 <br>
-Antimatter Dimensions are your production units in game. The 1st Antimatter Dimension produces your antimatter.
-Each consecutive Antimatter Dimension produces the previous one, allowing you to have steady growth.
-There are eight Antimatter Dimensions total.
+반물질 차원은 게임의 생산 단위입니다. 제1 반물질 차원은 반물질을 생산하며, 각 상위 차원은 바로 아래
+차원을 생산해 지속적인 성장을 만듭니다. 반물질 차원은 모두 8개입니다.
 <br>
 <br>
-<b>Dimension Multiplier:</b> Beside the Dimension there is a multiplier (example: 1st Dimension ${formatX(1, 1, 1)}).
-The base production of each Dimension is multiplied by this number.
-This multiplier increases by ${formatX(2)} for every ${formatInt(10)} of that Dimension purchased.
-Each time this occurs, the price of the dimension will increase.
+<b>차원 배율:</b> 차원 옆에는 배율이 표시됩니다(예: 제1 차원 ${formatX(1, 1, 1)}). 각 차원의 기본 생산량에
+이 수치가 곱해집니다. 해당 차원을 ${formatInt(10)}개 구매할 때마다 배율이 ${formatX(2)}가 되며 가격도 상승합니다.
 <br>
 <br>
-<b>Accumulated Dimension Quantity:</b> The next column is your current amount of that Dimension you own.
-This is a combination of how many you have purchased with antimatter,
-as well as produced from the higher Dimension.
+<b>누적 차원 수량:</b> 다음 열에는 현재 보유한 차원 수량이 표시됩니다. 반물질로 구매한 수량과 상위 차원이
+생산한 수량을 합친 값입니다.
 <br>
 <br>
-<b>Purchased Dimensions Quantity:</b> Next to each accumulated quantity of owned Dimensions,
-the amount of that Dimension purchased toward the next multiplier upgrade is displayed in brackets.
-For example if you have (${formatInt(4)}) next to your accumulated dimension quantity,
-you will need ${formatInt(6)} more of that dimension for the next multiplier increase.
+<b>구매한 차원 수량:</b> 누적 수량 옆 괄호에는 다음 배율 상승까지 구매한 수량이 표시됩니다. 예를 들어
+(${formatInt(4)})라면 배율을 올리기 위해 그 차원을 ${formatInt(6)}개 더 구매해야 합니다.
 <br>
 <br>
-<b>Dimension Growth Percent:</b> This number represents the amount of growth that each
-Dimension experiences per second. ${formatPercents(1)} means the dimension is doubling each second.
-This allows you to judge overall growth.
+<b>차원 성장률:</b> 각 차원이 초당 얼마나 증가하는지 나타냅니다. ${formatPercents(1)}는 해당 차원이 매초
+두 배가 된다는 뜻이며, 전체 성장 속도를 판단하는 데 유용합니다.
 <br>
 <br>
-<b>Cost &amp; until ${formatInt(10)}:</b>
-You can buy a single quantity of each Dimension with antimatter when the cost button is highlighted.
-Alternatively, if the Until ${formatInt(10)} button is highlighted,
-you can buy whatever quantity gets you to that Dimension's next Dimension multiplier.
+<b>비용 및 ${formatInt(10)}개까지:</b> 비용 버튼이 활성화되면 반물질로 차원을 1개 구매할 수 있습니다.
+"${formatInt(10)}개까지" 버튼이 활성화되면 다음 차원 배율에 도달하는 데 필요한 수량만큼 구매할 수 있습니다.
 <br>
 <br>
-<b>Max all:</b> Max all will buy until ${formatInt(10)} of the 1st Antimatter Dimension until it cannot anymore,
-then second, and so on until the 8th Antimatter Dimension, and then buy max Tickspeed Upgrades.
+<b>모두 최대로:</b> 제1 반물질 차원을 더 살 수 없을 때까지 ${formatInt(10)}개 단위로 구매한 뒤 제2 차원부터
+제8 차원까지 차례로 구매하고, 마지막으로 틱 속도 업그레이드를 최대한 구매합니다.
 <br>
 <br>
-<b>Dimension base prices:</b> ${Array.range(1, 8)
+<b>차원 기본 가격:</b> ${Array.range(1, 8)
     .map(tier => format(AntimatterDimension(tier)._baseCost, 2, 2))
     .join(", ")}
 <br>
-<b>Base per ${formatInt(10)} bought dimension price increases:</b> ${Array.range(1, 8)
+<b>차원을 ${formatInt(10)}개 구매할 때의 기본 가격 상승 배율:</b> ${Array.range(1, 8)
   .map(tier => format(AntimatterDimension(tier)._baseCostMultiplier, 2, 2))
   .join(", ")}
 <br>
 <br>
-<b>Hotkeys: 1, 2, 3, 4, 5, 6, 7, 8</b> for buy until ${formatInt(10)} Xth Dimension
-(you can also hold down Shift while buying Dimensions, which will only buy
-${formatInt(1)} instead of ${formatInt(10)}), <b>M</b> for Max all
+<b>단축키: 1~8</b>은 해당 차원을 ${formatInt(10)}개 단위로 구매합니다. Shift를 누른 채 차원을 구매하면
+${formatInt(10)}개 대신 ${formatInt(1)}개만 구매하며, <b>M</b>은 모두 최대로 구매합니다.
 `,
       isUnlocked: () => true,
       tags: ["dims", "normal", "antimatter", "ad"],
       tab: "dimensions/antimatter"
     }, {
-      name: "Tickspeed",
+      name: "틱 속도",
       info: () => `
-Production in the game happens on each "tick", which initially occurs once per second. By buying Tickspeed Upgrades,
-you can make your Antimatter Dimensions produce faster, as if multiple ticks occur in each second.
+게임의 생산은 "틱"마다 일어나며 처음에는 1초에 한 번 발생합니다. 틱 속도 업그레이드를 구매하면 1초에
+여러 틱이 발생하는 것처럼 반물질 차원의 생산 속도를 높일 수 있습니다.
 <br>
 <br>
-<b>Tickspeed:</b> This states how many game ticks are occurring every second. Fractional ticks are accounted for,
-boosting production as if part of a game tick has passed. Note that the actual tickspeed time is simulated and the
-game always runs calculations at the update rate you've chosen in the Options tab.
+<b>틱 속도:</b> 초당 발생하는 게임 틱 수입니다. 소수 부분도 계산되어 틱의 일부가 지난 만큼 생산량이
+증가합니다. 실제 틱 속도 시간은 모의 계산되며 게임 계산 자체는 옵션에서 선택한 업데이트 주기로 실행됩니다.
 <br>
 <br>
-<b>Cost:</b> The cost of antimatter for multiplying ticks/sec by the displayed multiplier.
-(without any Galaxies, this is ${formatX(1.1245, 0, 3)} per purchase)
+<b>비용:</b> 초당 틱 수에 표시된 배율을 곱하는 데 필요한 반물질입니다.
+(은하가 없으면 구매할 때마다 ${formatX(1.1245, 0, 3)})
 <br>
 <br>
-<b>Buy Max:</b> This will buy the maximum amount of Tickspeed Upgrades available
-with your current amount of antimatter.
+<b>최대로 구매:</b> 현재 반물질로 살 수 있는 틱 속도 업그레이드를 최대한 구매합니다.
 <br>
 <br>
-<b>Hotkeys: T</b> will purchase as many Tickspeed Upgrades as possible, or <b>Shift+T</b> to buy a single upgrade.
-<b>M</b> for Max all.
+<b>단축키: T</b>는 틱 속도 업그레이드를 최대한 구매하고, <b>Shift+T</b>는 하나만 구매합니다.
+<b>M</b>은 모두 최대로 구매합니다.
 `,
       isUnlocked: () => Tickspeed.isUnlocked,
       tags: ["dimension", "earlygame", "time"],
       tab: "dimensions/antimatter"
     }, {
-      name: "Dimension Boosts",
+      name: "차원 부스트",
       info: () => `
-<b>Dimension Boost:</b> This resets your antimatter and all of your Antimatter Dimensions, but unlocks another
-Antimatter Dimension for you to purchase and boosts your Dimension multipliers.
-The 1st Dimension Boost requires ${formatInt(20)} 4th Dimensions, the 2nd requires ${formatInt(20)} 5th Dimensions, etc.
-After unlocking all ${formatInt(8)} Dimensions,
-every additional boost will cost ${formatInt(15)} more 8th Dimensions than the previous Boost and will no longer
-unlock a Dimension, but will continue to increase your Dimension multipliers.
+<b>차원 부스트:</b> 반물질과 모든 반물질 차원을 초기화하는 대신 구매할 수 있는 다음 반물질 차원을 해금하고
+차원 배율을 높입니다. 첫 차원 부스트에는 제4 차원 ${formatInt(20)}개, 두 번째에는 제5 차원 ${formatInt(20)}개가
+필요합니다. ${formatInt(8)}개 차원을 모두 해금한 뒤에는 추가 부스트마다 이전보다 제8 차원이 ${formatInt(15)}개씩
+더 필요합니다. 더 이상 차원을 해금하지는 않지만 차원 배율은 계속 증가합니다.
 <br>
 <br>
-You gain a ${formatX(2)} multiplier to the 1st Dimension for every Dimension Boost you have. Each higher
-Dimension will have the multiplier applied one less time as the previous, down to a minimum of ${formatInt(0)}.
-For example, with ${formatInt(3)} Boosts, the 1st Dimension will gain ${formatX(8)}, the 2nd Dimension ${formatX(4)},
-the 3rd Dimension ${formatX(2)}, and all other Dimensions are unaffected.
+차원 부스트 하나마다 제1 차원에 ${formatX(2)} 배율이 적용됩니다. 상위 차원으로 갈수록 적용 횟수가 한 번씩
+줄어 최소 ${formatInt(0)}회가 됩니다. 예를 들어 부스트가 ${formatInt(3)}회라면 제1 차원은 ${formatX(8)}, 제2 차원은
+${formatX(4)}, 제3 차원은 ${formatX(2)}를 얻고 나머지 차원은 영향을 받지 않습니다.
 <br>
 <br>
-<b>Hotkey: D</b> will try to purchase a Dimension Boost.
+<b>단축키: D</b>는 차원 부스트 구매를 시도합니다.
 `,
       isUnlocked: () => true,
       tags: ["dimboost", "reset", "earlygame"],
       tab: "dimensions/antimatter"
     }, {
-      name: "Antimatter Galaxies",
+      name: "반물질 은하",
       info: () => `
-Purchasing an Antimatter Galaxy will reset your game back to the point where only ${formatInt(4)} Dimensions are
-available, but will increase the effect of your Tickspeed Upgrades by +${format(0.02, 0, 2)} for your first two
-Galaxies. As you get more Galaxies, the multiplier will continue becoming stronger and stronger.
+반물질 은하를 구매하면 차원 ${formatInt(4)}개만 사용할 수 있는 상태로 게임이 초기화되지만, 처음 두 은하는
+틱 속도 업그레이드의 효과를 각각 +${format(0.02, 0, 2)}만큼 높입니다. 은하가 늘어날수록 이 배율은 계속 강해집니다.
 <br>
 <br>
-Though it will have very little impact for the first few Tickspeed purchases,
-the increase is multiplicative and will not take long to be visible.
+처음 몇 번의 틱 속도 구매에는 영향이 작지만 곱연산으로 적용되므로 곧 눈에 띄는 차이를 만듭니다.
 <br>
 <br>
-Your first Antimatter Galaxy requires ${formatInt(80)} Eighth Dimensions, and each additional Galaxy will cost
-another ${formatInt(60)} more.
+첫 반물질 은하에는 제8 차원 ${formatInt(80)}개가 필요하며, 이후 은하마다 필요량이 ${formatInt(60)}개씩 증가합니다.
 <br>
-<b>Distant Galaxy scaling:</b> Above ${formatInt(100)} Antimatter Galaxies the cost increase between Galaxies will
-increase by ${formatInt(2)} per Galaxy, making the next Galaxy cost ${formatInt(62)} more, then ${formatInt(64)} more,
-etc.
+<b>먼 은하 스케일링:</b> 반물질 은하 ${formatInt(100)}개부터 은하 사이의 비용 증가량이 은하마다 ${formatInt(2)}씩
+늘어 다음 은하는 ${formatInt(62)}개, 그다음은 ${formatInt(64)}개가 추가로 필요합니다.
 <br>
-<b>Remote Galaxy scaling:</b> Above ${formatInt(Galaxy.remoteStart)} Antimatter Galaxies, the <i>total</i> cost
-increases by another ${formatPercents(0.002, 1)} per Galaxy, on top of Distant scaling.
+<b>아주 먼 은하 스케일링:</b> 반물질 은하 ${formatInt(Galaxy.remoteStart)}개부터 먼 은하 스케일링에 더해
+<i>총</i> 비용이 은하마다 ${formatPercents(0.002, 1)}씩 추가로 증가합니다.
 <br>
 <br>
-<b>Hotkey: G</b> will try to purchase an Antimatter Galaxy.
+<b>단축키: G</b>는 반물질 은하 구매를 시도합니다.
 `,
       isUnlocked: () => true,
       tags: ["8th", "reset", "galaxy", "earlygame"],
       tab: "dimensions/antimatter"
     }, {
-      name: "Dimensional Sacrifice",
+      name: "차원 희생",
       info: () => `
 <b>You unlock Dimensional Sacrifice after your fifth Dimension Boost.</b>
 <br>
@@ -412,7 +362,7 @@ ${formatX(8)} then ${formatX(5)}; in both cases you will end up with a total sac
       tags: ["8th", "reset", "earlygame", "gods", "earlygame"],
       tab: "dimensions/antimatter"
     }, {
-      name: "Achievements",
+      name: "도전 과제",
       info: () => `
 Each Achievement has requirements to unlock. Once unlocked, some Achievements give a reward.
 Requirements and rewards vary in difficulty and benefit significantly.

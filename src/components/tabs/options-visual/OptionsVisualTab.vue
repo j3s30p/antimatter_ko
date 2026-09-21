@@ -4,8 +4,8 @@ import OpenModalHotkeysButton from "@/components/OpenModalHotkeysButton";
 import OptionsButton from "@/components/OptionsButton";
 import PrimaryToggleButton from "@/components/PrimaryToggleButton";
 import SelectNotationDropdown from "@/components/tabs/options-visual/SelectNotationDropdown";
-import SelectThemeDropdown from "@/components/tabs/options-visual/SelectThemeDropdown";
 import SelectSidebarDropdown from "@/components/tabs/options-visual/SelectSidebarDropdown";
+import SelectThemeDropdown from "@/components/tabs/options-visual/SelectThemeDropdown";
 import UpdateRateSlider from "./UpdateRateSlider";
 
 export default {
@@ -31,16 +31,16 @@ export default {
   computed: {
     sidebarDB: () => GameDatabase.sidebarResources,
     themeLabel() {
-      return `Theme: ${Themes.find(this.theme).displayName()}`;
+      return `테마: ${Themes.find(this.theme).displayName()}`;
     },
     notationLabel() {
-      return `Notation: ${this.notation}`;
+      return `표기법: ${this.notation}`;
     },
     sidebarLabel() {
-      return `Sidebar (Modern UI): ${this.sidebarResource}`;
+      return `사이드바 (모던 UI): ${this.sidebarResource}`;
     },
     UILabel() {
-      return `UI: ${this.$viewModel.newUI ? "Modern" : "Classic"}`;
+      return `UI: ${this.$viewModel.newUI ? "모던" : "클래식"}`;
     }
   },
   watch: {
@@ -54,7 +54,7 @@ export default {
       this.theme = Theme.currentName();
       this.notation = options.notation;
       this.sidebarResource = player.options.sidebarResourceID === 0
-        ? "Latest Resource"
+        ? "최근 자원"
         : this.sidebarDB.find(e => e.id === player.options.sidebarResourceID).optionName;
       this.headerTextColored = options.headerTextColored;
     },
@@ -77,7 +77,7 @@ export default {
           class="o-primary-btn--option"
           onclick="Modal.newsOptions.show();"
         >
-          Open News Options
+          뉴스 옵션 열기
         </OptionsButton>
       </div>
       <div class="l-options-grid__row">
@@ -103,7 +103,7 @@ export default {
           class="o-primary-btn--option"
           onclick="Modal.notation.show();"
         >
-          Open Exponent Notation Options
+          지수 표기 옵션 열기
         </OptionsButton>
       </div>
       <div class="l-options-grid__row">
@@ -111,19 +111,19 @@ export default {
           class="o-primary-btn--option"
           onclick="Modal.animationOptions.show();"
         >
-          Open Animation Options
+          애니메이션 옵션 열기
         </OptionsButton>
         <OptionsButton
           class="o-primary-btn--option"
           onclick="Modal.infoDisplayOptions.show()"
         >
-          Open Info Display Options
+          정보 표시 옵션 열기
         </OptionsButton>
         <OptionsButton
           class="o-primary-btn--option"
           onclick="Modal.awayProgressOptions.show()"
         >
-          Open Away Progress Options
+          자리 비움 진행 옵션 열기
         </OptionsButton>
       </div>
       <div class="l-options-grid__row">
@@ -131,12 +131,12 @@ export default {
           class="o-primary-btn--option"
           onclick="Modal.hiddenTabs.show()"
         >
-          Modify Visible Tabs
+          표시할 탭 설정
         </OptionsButton>
         <PrimaryToggleButton
           v-model="headerTextColored"
           class="o-primary-btn--option l-options-grid__button"
-          label="Relative prestige gain text coloring:"
+          label="상대적 프레스티지 획득량 색상:"
         />
         <ExpandingControlBox
           v-if="$viewModel.newUI"

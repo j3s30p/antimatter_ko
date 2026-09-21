@@ -23,7 +23,7 @@ export default {
   },
   computed: {
     newsOnOffLabel() {
-      return `News: ${this.enabled ? "On" : "Off"}`;
+      return `뉴스: ${this.enabled ? "켜짐" : "꺼짐"}`;
     },
     sliderPropsRepeatBuffer() {
       return {
@@ -98,7 +98,7 @@ export default {
 <template>
   <ModalWrapperOptions>
     <template #header>
-      News Options
+      뉴스 옵션
     </template>
     <PrimaryButton
       class="o-primary-btn o-primary-btn--option-wide"
@@ -107,7 +107,7 @@ export default {
       {{ newsOnOffLabel }}
     </PrimaryButton>
     <div class="o-primary-btn o-primary-btn--option-wide o-primary-btn--slider">
-      <b>{{ formatInt(parseInt(repeatBuffer)) }} message repeat buffer</b>
+      <b>메시지 반복 방지 범위: {{ formatInt(parseInt(repeatBuffer)) }}개</b>
       <SliderComponent
         class="o-primary-btn--slider__slider"
         v-bind="sliderPropsRepeatBuffer"
@@ -116,7 +116,7 @@ export default {
       />
     </div>
     <div class="o-primary-btn o-primary-btn--option-wide o-primary-btn--slider">
-      <b>{{ formatPercents(parseFloat(AIChance)) }} AI messages</b>
+      <b>AI 메시지 비율: {{ formatPercents(parseFloat(AIChance)) }}</b>
       <SliderComponent
         class="o-primary-btn--slider__slider"
         v-bind="sliderPropsAIChance"
@@ -125,7 +125,7 @@ export default {
       />
     </div>
     <div class="o-primary-btn o-primary-btn--option-wide o-primary-btn--slider">
-      <b>{{ formatPercents(parseFloat(speed)) }} scroll speed</b>
+      <b>스크롤 속도: {{ formatPercents(parseFloat(speed)) }}</b>
       <SliderComponent
         class="o-primary-btn--slider__slider"
         v-bind="sliderPropsSpeed"
@@ -136,7 +136,7 @@ export default {
     <ModalOptionsToggleButton
       v-model="includeAnimated"
       class="o-primary-btn o-primary-btn--option-wide"
-      text="Animation Effects:"
+      text="애니메이션 효과:"
     />
   </ModalWrapperOptions>
 </template>

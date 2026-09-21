@@ -16,20 +16,20 @@ export default {
     <ModalCloseButton @click="emitClose" />
     <div class="l-h2p-header">
       <div class="c-h2p-title">
-        About the game
+        게임 소개
       </div>
     </div>
     <div class="c-info-body">
-      Antimatter Dimensions is an Idle Incremental game created by Finnish developer Hevipelle. Originating as a solo
-      project in 2016, it was expanded upon by a large team of developers and testers from then on.
+      Antimatter Dimensions는 핀란드 개발자 Hevipelle가 만든 방치형 증분 게임입니다. 2016년 개인 프로젝트로
+      시작했으며, 이후 많은 개발자와 테스터가 참여해 게임을 확장했습니다.
       <br>
       <br>
-      The game has unfolding gameplay and multiple prestige layers. The "How to Play" button contains useful
-      information about progressing.
+      게임을 진행하면 새로운 요소와 여러 단계의 프레스티지 시스템이 차례로 열립니다. 진행에 도움이 되는
+      정보는 "게임 방법" 버튼에서 확인할 수 있습니다.
     </div>
     <div class="l-socials">
       <InformationModalButton
-        name="GitHub repository"
+        name="GitHub 저장소"
         icon="fa-brands fa-github"
         link="https://github.com/IvarK/AntimatterDimensionsSourceCode"
       />
@@ -39,7 +39,7 @@ export default {
         link="https://www.reddit.com/r/AntimatterDimensions/"
       />
       <InformationModalButton
-        name="Antimatter Dimensions Discord Server"
+        name="Antimatter Dimensions Discord 서버"
         icon="fa-brands fa-discord"
         link="https://discord.gg/ST9NaXa"
       />
@@ -59,12 +59,12 @@ export default {
         link="https://store.steampowered.com/app/1399720/Antimatter_Dimensions/"
       />
       <InformationModalButton
-        name="Credits"
+        name="제작진"
         icon="fa-solid fa-users"
         show-modal="credits"
       />
       <InformationModalButton
-        name="Game Changelog"
+        name="게임 변경 기록"
         icon="fa-solid fa-file-lines"
         show-modal="changelog"
       />

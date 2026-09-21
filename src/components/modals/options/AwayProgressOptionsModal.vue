@@ -19,7 +19,7 @@ export default {
 <template>
   <ModalWrapperOptions class="l-wrapper">
     <template #header>
-      Away Progress Options
+      자리 비움 진행 옵션
     </template>
     <div class="c-modal-options__button-container">
       <AwayProgressOptionsEntry
@@ -28,7 +28,7 @@ export default {
         :name="name"
       />
     </div>
-    Note: Selected resources will only show if they've increased.
+    참고: 선택한 자원은 실제로 증가했을 때만 표시됩니다.
   </ModalWrapperOptions>
 </template>
 

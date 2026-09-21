@@ -24,7 +24,7 @@ export default {
       return GameStorage.loadFromBackup(this.slotData.id);
     },
     progressStr() {
-      if (!this.save) return "(Empty)";
+      if (!this.save) return "(비어 있음)";
 
       // These will be checked in order; the first nonzero resource will be returned
       const resources = [this.save.celestials.pelle.realityShards,
@@ -34,12 +34,12 @@ export default {
         this.save.infinityPoints,
         this.save.antimatter
       ];
-      const names = ["Reality Shards",
-        "Imaginary Machine Cap",
-        "Reality Machines",
-        "Eternity Points",
-        "Infinity Points",
-        "Antimatter"];
+      const names = ["리얼리티 조각",
+        "허상 기계 한도",
+        "리얼리티 기계",
+        "이터니티 포인트",
+        "무한 포인트",
+        "반물질"];
 
       for (let index = 0; index < resources.length; index++) {
         const val = new Decimal(resources[index]);
@@ -47,17 +47,17 @@ export default {
       }
 
       // In practice this should never happen, unless a save triggers on the same tick the very first AD1 is bought
-      return "No resources";
+      return "보유 자원 없음";
     },
     slotType() {
       const formattedTime = this.slotData.intervalStr?.();
       switch (this.slotData.type) {
         case BACKUP_SLOT_TYPE.ONLINE:
-          return `Saves every ${formattedTime} online`;
+          return `온라인에서 ${formattedTime}마다 저장`;
         case BACKUP_SLOT_TYPE.OFFLINE:
-          return `Saves after ${formattedTime} offline`;
+          return `오프라인 ${formattedTime} 후 저장`;
         case BACKUP_SLOT_TYPE.RESERVE:
-          return "Pre-loading save";
+          return "불러오기 전 예비 저장";
         default:
           throw new Error("Unrecognized backup save type");
       }
@@ -65,8 +65,8 @@ export default {
     lastSaved() {
       const lastSave = GameStorage.lastBackupTimes[this.slotData.id]?.date ?? 0;
       return lastSave
-        ? `Last saved: ${TimeSpan.fromMilliseconds(this.currTime - lastSave)} ago`
-        : "Slot not currently in use";
+        ? `마지막 저장: ${TimeSpan.fromMilliseconds(this.currTime - lastSave)} 전`
+        : "현재 사용하지 않는 슬롯";
     },
   },
   methods: {
@@ -88,7 +88,7 @@ export default {
       GameStorage.offlineEnabled = player.options.loadBackupWithoutOffline ? false : undefined;
       GameStorage.oldBackupTimer = player.backupTimer;
       GameStorage.loadPlayerObject(toLoad);
-      GameUI.notify.info(`Game loaded from backup slot #${this.slotData.id}`);
+      GameUI.notify.info(`백업 슬롯 #${this.slotData.id}에서 게임을 불러왔습니다.`);
       GameStorage.loadBackupTimes();
       GameStorage.ignoreBackupTimer = false;
       GameStorage.offlineEnabled = undefined;
@@ -101,7 +101,7 @@ export default {
 
 <template>
   <div class="c-bordered-entry">
-    <h3>Slot #{{ slotData.id }}:</h3>
+    <h3>슬롯 #{{ slotData.id }}:</h3>
     <span>{{ progressStr }}</span>
     <span>
       {{ slotType }}
@@ -112,7 +112,7 @@ export default {
       :class="{ 'o-primary-btn--disabled' : !save }"
       @click="load()"
     >
-      Load
+      불러오기
     </PrimaryButton>
   </div>
 </template>

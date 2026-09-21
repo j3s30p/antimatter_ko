@@ -19,16 +19,16 @@ export default {
     moreShiftKeyInfo() {
       const shiftKeyFunctions = [];
       if (this.timeStudyUnlocked) {
-        shiftKeyFunctions.push("while buying Time Studies to buy all up until that point");
-        shiftKeyFunctions.push("to save Time Study Trees");
+        shiftKeyFunctions.push("시간 연구 구매 시 해당 지점까지 모두 구매할 때");
+        shiftKeyFunctions.push("시간 연구 트리를 저장할 때");
       }
       if (this.glyphSacUnlocked) {
-        shiftKeyFunctions.push("to purge Glyphs");
+        shiftKeyFunctions.push("글리프를 정리할 때");
       }
       const shiftKeyInfo = makeEnumeration(shiftKeyFunctions);
       return (shiftKeyInfo === "")
         ? ""
-        : `You can hold Shift ${shiftKeyInfo}.`;
+        : `Shift를 누른 채 ${shiftKeyInfo} 사용할 수 있습니다.`;
     },
     hotkeyCount() {
       return shortcuts.length;
@@ -81,16 +81,16 @@ export default {
 <template>
   <ModalWrapper>
     <template #header>
-      Hotkey List
+      단축키 목록
     </template>
     <span class="c-modal-hotkeys l-modal-hotkeys">
       <div class="l-modal-hotkeys__column">
         <div class="l-modal-hotkeys-row">
-          <span class="c-modal-hotkeys-row__name l-modal-hotkeys-row__name">Buy 1 Dimension</span>
+          <span class="c-modal-hotkeys-row__name l-modal-hotkeys-row__name">차원 1개 구매</span>
           <kbd>SHIFT</kbd><kbd>1</kbd>-<kbd>SHIFT</kbd><kbd>8</kbd>
         </div>
         <div class="l-modal-hotkeys-row">
-          <span class="c-modal-hotkeys-row__name l-modal-hotkeys-row__name">Buy 10 Dimensions</span>
+          <span class="c-modal-hotkeys-row__name l-modal-hotkeys-row__name">차원 10개 구매</span>
           <kbd>1</kbd>-<kbd>8</kbd>
         </div>
         <div
@@ -113,65 +113,61 @@ export default {
       </div>
       <div class="l-modal-hotkeys__column l-modal-hotkeys__column--right">
         <div class="l-modal-hotkeys-row">
-          <span class="c-modal-hotkeys-row__name l-modal-hotkeys-row__name">Modifier Key</span>
+          <span class="c-modal-hotkeys-row__name l-modal-hotkeys-row__name">보조 키</span>
           <kbd>SHIFT</kbd>
         </div>
         <span class="c-modal-hotkeys__shift-description">
-          Shift is a modifier key that shows additional information on certain things
-          and adjusts the function of certain buttons.
+          Shift는 일부 요소의 추가 정보를 표시하고 특정 버튼의 기능을 바꾸는 보조 키입니다.
           <br>
           {{ moreShiftKeyInfo }}
         </span>
         <br>
         <div class="l-modal-hotkeys-row">
-          <span class="c-modal-hotkeys-row__name l-modal-hotkeys-row__name">Autobuyer Controls</span>
+          <span class="c-modal-hotkeys-row__name l-modal-hotkeys-row__name">자동 구매기 조작</span>
           <kbd>ALT</kbd>
         </div>
         <span class="c-modal-hotkeys__shift-description">
-          Alt is a modifier key that, when pressed in conjunction with any key that has a corresponding autobuyer,
-          will toggle said autobuyer.
+          Alt와 자동 구매기에 대응하는 키를 함께 누르면 해당 자동 구매기를 켜거나 끕니다.
           <br>
-          When pressing both Alt and Shift, you can toggle buying singles or buying max for the Antimatter Dimension
-          and Tickspeed Autobuyers instead.
+          Alt와 Shift를 함께 누르면 반물질 차원 및 틱 속도 자동 구매기의 1개 구매/최대 구매를 전환합니다.
         </span>
         <br>
         <div class="l-modal-hotkeys-row">
-          <span class="c-modal-hotkeys-row__name l-modal-hotkeys-row__name">Tab Movement</span>
+          <span class="c-modal-hotkeys-row__name l-modal-hotkeys-row__name">탭 이동</span>
           <div>
             <kbd>←</kbd><kbd>↓</kbd><kbd>↑</kbd><kbd>→</kbd>
           </div>
         </div>
         <span class="c-modal-hotkeys__shift-description">
-          Using the Arrow Keys will cycle you through the game's pages.
-          The Up and Down arrows cycle you through tabs,
-          and the Left and Right arrows cycle you through that tab's subtabs.
+          방향키로 게임 페이지를 순환할 수 있습니다. 위·아래 방향키는 탭을,
+          왼쪽·오른쪽 방향키는 현재 탭의 하위 탭을 순환합니다.
         </span>
         <br>
         <div class="l-modal-hotkeys-row">
-          <span class="c-modal-hotkeys-row__name l-modal-hotkeys-row__name">Numpad Support</span>
+          <span class="c-modal-hotkeys-row__name l-modal-hotkeys-row__name">숫자 키패드 지원</span>
         </div>
         <span class="c-modal-hotkeys__shift-description">
-          Due to technical reasons, pressing a numpad key will purchase 10 of a Dimension if possible, but pressing
-          a numpad key with <kbd>SHIFT</kbd> will not buy a single Dimension. It may instead, depending on your device,
-          cause the page to scroll or change game tabs. <kbd>ALT</kbd> will still work as expected.
+          기술적인 이유로 숫자 키패드는 가능하면 차원을 10개 구매하지만 <kbd>SHIFT</kbd>와 함께 눌러도 1개만
+          구매하지 않습니다. 기기에 따라 페이지가 스크롤되거나 게임 탭이 바뀔 수 있습니다.
+          <kbd>ALT</kbd>는 정상적으로 작동합니다.
         </span>
         <template v-if="isElectron">
           <br>
           <div class="l-modal-hotkeys-row">
-            <span class="c-modal-hotkeys-row__name l-modal-hotkeys-row__name">Window Zoom</span>
+            <span class="c-modal-hotkeys-row__name l-modal-hotkeys-row__name">창 확대/축소</span>
             <kbd>-</kbd><kbd>0</kbd><kbd>+</kbd>
           </div>
           <span class="c-modal-hotkeys__shift-description">
-            To adjust zoom level, hold <kbd>ctrl</kbd> and press either <kbd>-</kbd> or <kbd>+</kbd> to decrease or
-            increase zoom. <kbd>ctrl</kbd><kbd>0</kbd> will reset zoom to 100%.
+            <kbd>ctrl</kbd>을 누른 채 <kbd>-</kbd> 또는 <kbd>+</kbd>를 눌러 축소하거나 확대할 수 있습니다.
+            <kbd>ctrl</kbd><kbd>0</kbd>은 배율을 100%로 초기화합니다.
           </span>
           <br>
           <div class="l-modal-hotkeys-row">
-            <span class="c-modal-hotkeys-row__name l-modal-hotkeys-row__name">Fullscreen</span>
+            <span class="c-modal-hotkeys-row__name l-modal-hotkeys-row__name">전체 화면</span>
             <kbd>F10</kbd>
           </div>
           <span class="c-modal-hotkeys__shift-description">
-            To enter or exit fullscreen, press <kbd>F10</kbd>.
+            <kbd>F10</kbd>을 눌러 전체 화면에 들어가거나 나옵니다.
           </span>
         </template>
       </div>

@@ -22,7 +22,7 @@ export default {
   },
   computed: {
     backupSlots: () => AutoBackupSlots,
-    deleteText: () => (STEAM ? "fully uninstalling the game" : "clearing your browser cookies"),
+    deleteText: () => (STEAM ? "게임을 완전히 제거하는 작업" : "브라우저 쿠키를 지우는 작업"),
   },
   watch: {
     ignoreOffline(newValue) {
@@ -60,13 +60,12 @@ export default {
 <template>
   <ModalWrapper>
     <template #header>
-      Automatic Backup Saves
+      자동 백업 저장
     </template>
     <div class="c-info c-modal--short">
-      The game makes automatic backups based on time you have spent online or offline.
-      Timers for online backups only run when the game is open, and offline backups only save to the slot
-      with the longest applicable timer.
-      Additionally, your current save is saved into the last slot any time a backup from here is loaded.
+      게임은 온라인 또는 오프라인에서 보낸 시간을 기준으로 자동 백업을 만듭니다.
+      온라인 백업 타이머는 게임이 열려 있을 때만 흐르며, 오프라인 백업은 조건에 맞는 타이머가
+      가장 긴 슬롯에만 저장됩니다. 또한 이곳의 백업을 불러오면 현재 저장이 마지막 슬롯에 보관됩니다.
       <div
         class="c-modal__confirmation-toggle"
         @click="toggleOffline"
@@ -78,7 +77,7 @@ export default {
           />
         </div>
         <span class="c-modal__confirmation-toggle__text">
-          Load with offline progress disabled
+          오프라인 진행을 끄고 불러오기
         </span>
       </div>
       <div class="c-entry-container">
@@ -89,15 +88,14 @@ export default {
           :slot-data="slot"
         />
       </div>
-      These backups are still stored in the same place as your game save and can still be lost if you do anything
-      external to the game which would delete your save itself, such as {{ deleteText }}. You can import/export
-      all backups at once as files, using these buttons:
+      백업도 게임 저장과 같은 위치에 보관되므로 {{ deleteText }}처럼 저장 자체를 삭제하는 외부 작업을 하면
+      함께 사라질 수 있습니다. 아래 버튼으로 모든 백업을 한 번에 파일로 가져오거나 내보낼 수 있습니다.
       <div class="c-backup-file-ops">
         <PrimaryButton
           class="o-btn-file-ops"
           onclick="GameStorage.exportBackupsAsFile()"
         >
-          Export as file
+          파일로 내보내기
         </PrimaryButton>
         <PrimaryButton class="o-btn-file-ops">
           <input
@@ -106,10 +104,10 @@ export default {
             accept=".txt"
             @change="importAsFile"
           >
-          <label for="file">Import from file</label>
+          <label for="file">파일에서 가져오기</label>
         </PrimaryButton>
       </div>
-      Each of your three save slots has its own separate set of backups.
+      세 저장 슬롯은 각각 별도의 백업 묶음을 가집니다.
     </div>
   </ModalWrapper>
 </template>

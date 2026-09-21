@@ -27,67 +27,67 @@ import { GameKeyboard } from "./keyboard";
 
 export const shortcuts = [
   {
-    name: "Toggle Autobuyers",
+    name: "자동 구매기 전환",
     keys: ["a"],
     type: "bindHotkey",
     function: () => keyboardToggleAutobuyers(),
     visible: true
   }, {
-    name: "Buy one Tickspeed",
+    name: "틱 속도 1개 구매",
     keys: ["shift", "t"],
     type: "bindRepeatableHotkey",
     function: () => buyTickSpeed(),
     visible: true
   }, {
-    name: "Buy max Tickspeed",
+    name: "틱 속도 최대로 구매",
     keys: ["t"],
     type: "bindRepeatableHotkey",
     function: () => buyMaxTickSpeed(),
     visible: true
   }, {
-    name: "Max all",
+    name: "모두 최대로",
     keys: ["m"],
     type: "bindRepeatableHotkey",
     function: () => maxAll(),
     visible: true
   }, {
-    name: "Dimensional Sacrifice",
+    name: "차원 희생",
     keys: ["s"],
     type: "bindRepeatableHotkey",
     function: () => sacrificeBtnClick(),
     visible: true
   }, {
-    name: "Dimension Boost",
+    name: "차원 부스트",
     keys: ["d"],
     type: "bindRepeatableHotkey",
     function: () => manualRequestDimensionBoost(true),
     visible: true
   }, {
-    name: "Single Dimension Boost",
+    name: "차원 부스트 1회",
     keys: ["shift", "d"],
     type: "bindRepeatableHotkey",
     function: () => manualRequestDimensionBoost(false),
     visible: false
   }, {
-    name: "Antimatter Galaxy",
+    name: "반물질 은하",
     keys: ["g"],
     type: "bindRepeatableHotkey",
     function: () => manualRequestGalaxyReset(true),
     visible: true
   }, {
-    name: "Single Antimatter Galaxy",
+    name: "반물질 은하 1개",
     keys: ["shift", "g"],
     type: "bindRepeatableHotkey",
     function: () => manualRequestGalaxyReset(false),
     visible: false
   }, {
-    name: "Big Crunch",
+    name: "빅 크런치",
     keys: ["c"],
     type: "bindRepeatableHotkey",
     function: () => manualBigCrunchResetRequest(),
     visible: true
   }, {
-    name: "Replicanti Galaxy",
+    name: "복제자 은하",
     keys: ["r"],
     type: "bindHotkey",
     function: () => {
@@ -96,13 +96,13 @@ export const shortcuts = [
     },
     visible: () => Replicanti.areUnlocked || PlayerProgress.eternityUnlocked()
   }, {
-    name: "Eternity",
+    name: "이터니티",
     keys: ["e"],
     type: "bindRepeatableHotkey",
     function: () => eternityResetRequest(),
     visible: () => PlayerProgress.eternityUnlocked() || Player.canEternity
   }, {
-    name: "Toggle Time Study respec",
+    name: "시간 연구 재분배 전환",
     keys: ["shift", "e"],
     type: "bindHotkey",
     function: () => {
@@ -111,19 +111,19 @@ export const shortcuts = [
     },
     visible: () => PlayerProgress.eternityUnlocked()
   }, {
-    name: "Enter/Exit Dilation",
+    name: "시간 팽창 입장/나가기",
     keys: ["l"],
     type: "bindRepeatableHotkey",
     function: () => startDilatedEternityRequest(),
     visible: () => PlayerProgress.realityUnlocked() || PlayerProgress.dilationUnlocked()
   }, {
-    name: "Reality",
+    name: "리얼리티",
     keys: ["y"],
     type: "bindRepeatableHotkey",
     function: () => requestManualReality(),
     visible: () => PlayerProgress.realityUnlocked() || isRealityAvailable()
   }, {
-    name: "Toggle Glyph unequip",
+    name: "글리프 장착 해제 전환",
     keys: ["shift", "y"],
     type: "bindHotkey",
     function: () => {
@@ -132,49 +132,49 @@ export const shortcuts = [
     },
     visible: () => PlayerProgress.realityUnlocked()
   }, {
-    name: "Start/Pause Automator",
+    name: "오토메이터 시작/일시정지",
     keys: ["u"],
     type: "bindHotkey",
     function: () => keyboardAutomatorToggle(),
     visible: () => Player.automatorUnlocked
   }, {
-    name: "Restart Automator",
+    name: "오토메이터 다시 시작",
     keys: ["shift", "u"],
     type: "bindHotkey",
     function: () => keyboardAutomatorRestart(),
     visible: () => Player.automatorUnlocked
   }, {
-    name: "Undo Edit (Automator)",
+    name: "편집 실행 취소 (오토메이터)",
     keys: ["mod", "z"],
     type: "bind",
     function: () => AutomatorData.undoScriptEdit(),
     visible: () => Player.automatorUnlocked
   }, {
-    name: "Redo Edit (Automator)",
+    name: "편집 다시 실행 (오토메이터)",
     keys: ["mod", "y"],
     type: "bind",
     function: () => AutomatorData.redoScriptEdit(),
     visible: () => Player.automatorUnlocked
   }, {
-    name: "Toggle Black Hole",
+    name: "블랙홀 전환",
     keys: ["b"],
     type: "bindHotkey",
     function: () => BlackHoles.togglePause(),
     visible: () => PlayerProgress.realityUnlocked()
   }, {
-    name: "Toggle Continuum",
+    name: "연속체 전환",
     keys: ["alt", "a"],
     type: "bindHotkey",
     function: () => keyboardToggleContinuum(),
     visible: () => Laitela.continuumUnlocked
   }, {
-    name: "Armageddon",
+    name: "아마겟돈",
     keys: ["z"],
     type: "bindRepeatableHotkey",
     function: () => armageddonRequest(),
     visible: () => Pelle.isDoomed
   }, {
-    name: "Toggle Glyph unequip (Pelle)",
+    name: "글리프 장착 해제 전환 (펠레)",
     keys: ["shift", "z"],
     type: "bindHotkey",
     function: () => {
@@ -184,7 +184,7 @@ export const shortcuts = [
     },
     visible: () => Pelle.isDoomed
   }, {
-    name: "Save game",
+    name: "게임 저장",
     keys: ["mod", "s"],
     type: "bind",
     function: () => {
@@ -193,7 +193,7 @@ export const shortcuts = [
     },
     visible: true
   }, {
-    name: "Export game",
+    name: "게임 내보내기",
     keys: ["mod", "e"],
     type: "bind",
     function: () => {
@@ -202,7 +202,7 @@ export const shortcuts = [
     },
     visible: true
   }, {
-    name: "Open Hotkey List Modal",
+    name: "단축키 목록 열기",
     keys: ["?"],
     type: "bind",
     function: () => {
@@ -211,7 +211,7 @@ export const shortcuts = [
     },
     visible: true
   }, {
-    name: "Open How To Play Modal",
+    name: "게임 방법 열기",
     keys: ["h"],
     type: "bind",
     function: () => {
@@ -220,7 +220,7 @@ export const shortcuts = [
     },
     visible: true
   }, {
-    name: "Modify visible tabs",
+    name: "표시할 탭 설정",
     keys: ["tab"],
     type: "bind",
     function: () => {
@@ -229,7 +229,7 @@ export const shortcuts = [
     },
     visible: true
   }, {
-    name: "Confirm Modal",
+    name: "창 확인",
     keys: ["enter"],
     type: "bind",
     function: () => {
@@ -238,7 +238,7 @@ export const shortcuts = [
     },
     visible: true
   }, {
-    name: "Close Modal or open Options",
+    name: "창 닫기 또는 설정 열기",
     keys: ["esc"],
     type: "bind",
     function: () => {
@@ -247,7 +247,7 @@ export const shortcuts = [
     },
     visible: true
   }, {
-    name: "Paying respects",
+    name: "경의 표하기",
     keys: ["f"],
     type: "bindRepeatable",
     function: () => {
@@ -256,7 +256,7 @@ export const shortcuts = [
     },
     visible: false
   }, {
-    name: "Change Tab",
+    name: "탭 변경",
     keys: ["up"],
     type: "bind",
     function: () => {
@@ -265,7 +265,7 @@ export const shortcuts = [
     },
     visible: false
   }, {
-    name: "Change Tab",
+    name: "탭 변경",
     keys: ["down"],
     type: "bind",
     function: () => {
@@ -274,7 +274,7 @@ export const shortcuts = [
     },
     visible: false
   }, {
-    name: "Change Subtab",
+    name: "하위 탭 변경",
     keys: ["left"],
     type: "bind",
     function: () => {
@@ -283,7 +283,7 @@ export const shortcuts = [
     },
     visible: false
   }, {
-    name: "Change Subtab",
+    name: "하위 탭 변경",
     keys: ["right"],
     type: "bind",
     function: () => {
@@ -292,49 +292,49 @@ export const shortcuts = [
     },
     visible: false
   }, {
-    name: "Doesn't exist",
+    name: "존재하지 않음",
     keys: ["9"],
     type: "bind",
     function: () => SecretAchievement(41).unlock(),
     visible: false
   },
   {
-    name: "Adjust Autobuyers",
+    name: "자동 구매기 조정",
     keys: ["mod", "alt", "a"],
     type: "bind",
     function: () => keyboardEditAutobuyers(),
     visible: () => Autobuyers.hasAutobuyersForEditModal
   },
   {
-    name: "Fullscreen",
+    name: "전체 화면",
     keys: ["F10"],
     type: "bind",
-    function: () => {},
+    function: () => undefined,
     visible: () => false
   },
   {
-    name: "Zoom In",
+    name: "확대",
     keys: ["ctrl", "="],
     type: "bind",
     function: () => ElectronRuntime.increaseZoom(),
     visible: () => false
   },
   {
-    name: "Zoom In",
+    name: "확대",
     keys: ["ctrl", "+"],
     type: "bind",
     function: () => ElectronRuntime.increaseZoom(),
     visible: () => false
   },
   {
-    name: "Zoom Out",
+    name: "축소",
     keys: ["ctrl", "-"],
     type: "bind",
     function: () => ElectronRuntime.decreaseZoom(),
     visible: () => false
   },
   {
-    name: "Reset Zoom",
+    name: "확대/축소 초기화",
     keys: ["ctrl", "0"],
     type: "bind",
     function: () => ElectronRuntime.resetZoom(),
