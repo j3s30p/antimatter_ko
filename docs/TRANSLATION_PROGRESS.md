@@ -14,7 +14,7 @@ Status values: `not started`, `in progress`, `translated`, `QA complete`.
 | Achievements | not started | |
 | Challenges | not started | |
 | Infinity systems | translated | Build and residue scan complete; full unlocked-state layout QA remains |
-| Eternity systems | not started | |
+| Eternity systems | in progress | Entry flow, header, Time Dimensions, and Eternity Upgrades translated |
 | Dilation systems | not started | |
 | Reality and Glyph systems | not started | |
 | Automator UI and documentation | not started | Commands remain English |

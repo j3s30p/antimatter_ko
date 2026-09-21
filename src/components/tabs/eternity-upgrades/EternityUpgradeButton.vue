@@ -56,13 +56,14 @@ export default {
       :config="upgrade.config"
     />
     <div v-if="!isBought && hasEU2">
-      Auto: {{ format(upgrade.config.cost / 1e10) }} Eternity Points
+      자동 구매: {{ format(upgrade.config.cost / 1e10) }} 영원 포인트
     </div>
     <CostDisplay
       v-else-if="!isBought"
       br
       :config="upgrade.config"
-      name="Eternity Point"
+      label="비용:"
+      name="영원 포인트"
     />
   </button>
 </template>

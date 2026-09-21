@@ -44,7 +44,7 @@ export default {
       return ui.view.shiftDown;
     },
     name() {
-      return `${TimeDimension(this.tier).shortDisplayName} Time Dimension`;
+      return `${this.tier}차 시간 차원`;
     },
     buttonContents() {
       if (this.showTTCost) return this.formattedTTCost;
@@ -52,17 +52,17 @@ export default {
     },
     tooltipContents() {
       if (this.showTTCost) return `${this.formattedEPCost}<br>${this.timeEstimate}`;
-      if (this.isCapped) return `Nameless prevents the purchase of more than ${format(1)} Time Dimension`;
-      return `Purchased ${quantifyInt("time", this.bought)}`;
+      if (this.isCapped) return `이름 없는 자들로 인해 시간 차원은 ${format(1)}개까지만 구매할 수 있습니다`;
+      return `구매 횟수: ${formatInt(this.bought)}회`;
     },
     showRow() {
       return this.realityUnlocked || this.isUnlocked || this.requirementReached;
     },
     formattedTTCost() {
-      return `Unlock: ${format(this.ttCost)} TT`;
+      return `해금: ${format(this.ttCost)} TT`;
     },
     formattedEPCost() {
-      return this.isCapped ? "Capped" : `${this.showCostTitle ? "Cost: " : ""}${format(this.cost, 2)} EP`;
+      return this.isCapped ? "상한 도달" : `${this.showCostTitle ? "비용: " : ""}${format(this.cost, 2)} EP`;
     },
     hasLongText() {
       return this.buttonContents.length > 20;
@@ -73,7 +73,7 @@ export default {
     timeEstimate() {
       if (!this.showTTCost || this.ttGen.eq(0)) return "";
       const time = Decimal.sub(this.ttCost, this.currTT).dividedBy(this.ttGen);
-      return time.gt(0) ? `Enough TT in ${TimeSpan.fromSeconds(time.toNumber()).toStringShort()}` : "";
+      return time.gt(0) ? `TT 확보까지 ${TimeSpan.fromSeconds(time.toNumber()).toStringShort()}` : "";
     }
   },
   watch: {
@@ -149,7 +149,7 @@ export default {
         v-if="areAutobuyersUnlocked"
         v-model="isAutobuyerOn"
         class="o-primary-btn--buy-td-auto"
-        label="Auto:"
+        label="자동:"
       />
       <PrimaryButton
         v-else
@@ -157,7 +157,7 @@ export default {
         class="o-primary-btn--buy-td-auto"
         @click="buyMaxTimeDimension"
       >
-        Buy Max
+        최대 구매
       </PrimaryButton>
     </div>
   </div>

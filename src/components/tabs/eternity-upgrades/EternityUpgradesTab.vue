@@ -47,10 +47,10 @@ export default {
     </div>
     <EPMultiplierButton />
     <div>
-      The cost for the {{ formatX(5) }} multiplier jumps at {{ format(costIncreases[0]) }},
-      {{ formatPostBreak(costIncreases[1], 2) }}, and {{ formatPostBreak(costIncreases[2]) }} Eternity Points.
+      {{ formatX(5) }} 배율 비용은 영원 포인트 {{ format(costIncreases[0]) }},
+      {{ formatPostBreak(costIncreases[1], 2) }}, {{ formatPostBreak(costIncreases[2]) }}에서 크게 증가합니다.
       <br>
-      The cost increases super-exponentially after {{ formatPostBreak(costIncreases[3]) }} Eternity Points.
+      영원 포인트 {{ formatPostBreak(costIncreases[3]) }} 이후에는 비용이 초지수적으로 증가합니다.
     </div>
   </div>
 </template>
