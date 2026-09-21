@@ -188,6 +188,8 @@ export default {
 }
 
 .c-tt-save-load-btn__menu {
+  width: max-content;
+  min-width: 7rem;
   text-align: left;
   font-family: Typewriter;
   font-size: 1.4rem;
@@ -229,6 +231,7 @@ export default {
 
 .c-tt-save-load-btn__menu-item {
   text-align: left;
+  white-space: nowrap;
   padding: 0.25rem 1rem;
 }
 
