@@ -20,12 +20,12 @@ export default {
       };
     },
     tooltip() {
-      if (this.isEnslaved) return "...eons stacked on eons stacked on eons stacked on eons stacked on ...";
+      if (this.isEnslaved) return "...영겁 위에 영겁, 그 위에 영겁, 또 그 위에 영겁이 쌓여...";
       return undefined;
     },
     text() {
-      if (this.isEnslaved) return "FEEL ETERNITY";
-      return this.isBroken ? "INFINITY IS BROKEN" : "BREAK INFINITY";
+      if (this.isEnslaved) return "영원을 느껴라";
+      return this.isBroken ? "무한 돌파 완료" : "무한 돌파";
     }
   },
   methods: {

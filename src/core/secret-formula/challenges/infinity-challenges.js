@@ -3,12 +3,12 @@ import { DC } from "../../constants";
 export const infinityChallenges = [
   {
     id: 1,
-    description: `all Normal Challenge restrictions are active at once, with the exception of the
-      Tickspeed (C9) and Big Crunch (C12) Challenges.`,
+    description: `틱스피드(C9)와 빅 크런치(C12) 도전을 제외한
+      모든 일반 도전의 제약이 동시에 적용됩니다.`,
     goal: DC.E650,
     isQuickResettable: true,
     reward: {
-      description: () => `${formatX(1.3, 1, 1)} on all Infinity Dimensions for each Infinity Challenge completed`,
+      description: () => `완료한 무한 도전 하나당 모든 무한 차원에 ${formatX(1.3, 1, 1)} 배율 적용`,
       effect: () => Math.pow(1.3, InfinityChallenges.completed.length),
       formatEffect: value => formatX(value, 1, 1)
     },
@@ -16,12 +16,12 @@ export const infinityChallenges = [
   },
   {
     id: 2,
-    description: () => `Dimensional Sacrifice happens automatically every ${formatInt(400)} milliseconds once you have
-      an 8th Antimatter Dimension.`,
+    description: () => `8차 반물질 차원을 보유하면 ${formatInt(400)}밀리초마다
+      차원 희생이 자동으로 실행됩니다.`,
     goal: DC.E10500,
     isQuickResettable: false,
     reward: {
-      description: () => `Dimensional Sacrifice autobuyer and stronger Dimensional Sacrifice
+      description: () => `차원 희생 자동 구매기를 해금하고 차원 희생 효과 강화
         ${Sacrifice.getSacrificeDescription({ "InfinityChallenge2isCompleted": false })} ➜
         ${Sacrifice.getSacrificeDescription({ "InfinityChallenge2isCompleted": true })}`,
     },
@@ -30,14 +30,14 @@ export const infinityChallenges = [
   {
     id: 3,
     description: () =>
-      `Tickspeed upgrades are always ${formatX(1)}. For every Tickspeed upgrade purchase, you instead get a static
-      multiplier on all Antimatter Dimensions which increases based on Antimatter Galaxies.`,
+      `틱스피드 업그레이드는 항상 ${formatX(1)}입니다. 대신 틱스피드 업그레이드를 구매할 때마다
+      모든 반물질 차원에 고정 배율이 적용되며, 반물질 은하에 따라 배율이 증가합니다.`,
     goal: DC.E5000,
     isQuickResettable: false,
     effect: () => Decimal.pow(1.05 + (player.galaxies * 0.005), player.totalTickBought),
     formatEffect: value => formatX(value, 2, 2),
     reward: {
-      description: `Antimatter Dimension multiplier based on Antimatter Galaxies and Tickspeed purchases`,
+      description: `반물질 은하와 틱스피드 구매 횟수에 따라 반물질 차원에 배율 적용`,
       effect: () => (Laitela.continuumActive
         ? Decimal.pow(1.05 + (player.galaxies * 0.005), Tickspeed.continuumValue)
         : Decimal.pow(1.05 + (player.galaxies * 0.005), player.totalTickBought)),
@@ -48,13 +48,13 @@ export const infinityChallenges = [
   {
     id: 4,
     description: () =>
-      `only the latest bought Antimatter Dimension's production is normal. All other Antimatter Dimensions
-      produce less (${formatPow(0.25, 2, 2)}).`,
+      `가장 최근에 구매한 반물질 차원만 정상적으로 생산합니다. 그 외 모든 반물질 차원의
+      생산량이 감소합니다(${formatPow(0.25, 2, 2)}).`,
     goal: DC.E13000,
     isQuickResettable: true,
     effect: 0.25,
     reward: {
-      description: () => `All Antimatter Dimension multipliers become multiplier${formatPow(1.05, 2, 2)}`,
+      description: () => `모든 반물질 차원 배율에 ${formatPow(1.05, 2, 2)} 제곱 적용`,
       effect: 1.05
     },
     unlockAM: DC.E14000,
@@ -62,14 +62,14 @@ export const infinityChallenges = [
   {
     id: 5,
     description:
-      `buying Antimatter Dimensions 1-4 causes all cheaper AD costs to increase.
-      Buying Antimatter Dimensions 5-8 causes all more expensive AD costs to increase.`,
+      `1~4차 반물질 차원을 구매하면 더 저렴한 모든 반물질 차원의 비용이 증가합니다.
+      5~8차 반물질 차원을 구매하면 더 비싼 모든 반물질 차원의 비용이 증가합니다.`,
     goal: DC.E16500,
     isQuickResettable: true,
     reward: {
       description: () =>
-        `All Galaxies are ${formatPercents(0.1)} stronger and reduce the requirements for them
-        and Dimension Boosts by ${formatInt(1)}`,
+        `모든 은하의 효과가 ${formatPercents(0.1)} 증가하고 은하와
+        차원 가속의 요구량이 ${formatInt(1)} 감소`,
       effect: 1.1
     },
     unlockAM: DC.E18000,
@@ -77,14 +77,14 @@ export const infinityChallenges = [
   {
     id: 6,
     description: () =>
-      `exponentially rising matter divides the multiplier on all of your Antimatter Dimensions
-      once you have at least ${formatInt(1)} 2nd Antimatter Dimension.`,
+      `2차 반물질 차원을 ${formatInt(1)}개 이상 보유하면 기하급수적으로 증가하는 물질이
+      모든 반물질 차원의 배율을 나눕니다.`,
     goal: DC.D2E22222,
     isQuickResettable: true,
     effect: () => Currency.matter.value.clampMin(1),
     formatEffect: value => `/${format(value, 1, 2)}`,
     reward: {
-      description: "Infinity Dimension multiplier based on tickspeed",
+      description: "틱스피드에 따라 무한 차원에 배율 적용",
       effect: () => Tickspeed.perSecond.pow(0.0005),
       formatEffect: value => formatX(value, 2, 2)
     },
@@ -102,14 +102,14 @@ export const infinityChallenges = [
         InfinityChallenge(7).reward,
         TimeStudy(81)
       );
-      return `you cannot buy Antimatter Galaxies. Base Dimension Boost multiplier is increased to a maximum
-        of ${formatX(10)}. (Current base multiplier: ${formatX(mult, 2, 1)})`;
+      return `반물질 은하를 구매할 수 없습니다. 차원 가속의 기본 배율이 최대
+        ${formatX(10)}까지 증가합니다. (현재 기본 배율: ${formatX(mult, 2, 1)})`;
     },
     goal: DC.E10000,
     isQuickResettable: false,
     effect: 10,
     reward: {
-      description: () => `Dimension Boost multiplier is increased to a minimum of ${formatX(4)}`,
+      description: () => `차원 가속 배율의 최솟값이 ${formatX(4)}로 증가`,
       effect: 4
     },
     unlockAM: DC.E23000,
@@ -117,15 +117,15 @@ export const infinityChallenges = [
   {
     id: 8,
     description: () =>
-      `AD production rapidly and continually drops over time. Purchasing Antimatter Dimension or Tickspeed
-        upgrades sets production back to ${formatPercents(1)} before it starts dropping again.`,
+      `반물질 차원 생산량이 시간에 따라 빠르게 계속 감소합니다. 반물질 차원이나 틱스피드
+        업그레이드를 구매하면 생산량이 ${formatPercents(1)}로 돌아간 뒤 다시 감소하기 시작합니다.`,
     goal: DC.E27000,
     isQuickResettable: true,
     effect: () => DC.D0_8446303389034288.pow(
       Math.max(0, player.records.thisInfinity.time - player.records.thisInfinity.lastBuyTime)),
     reward: {
       description:
-        "You get a multiplier to AD 2-7 based on 1st and 8th AD multipliers.",
+        "1차 및 8차 반물질 차원의 배율에 따라 2~7차 반물질 차원에 배율 적용",
       effect: () => AntimatterDimension(1).multiplier.times(AntimatterDimension(8).multiplier).pow(0.02),
       formatEffect: value => formatX(value, 2, 2)
     },
