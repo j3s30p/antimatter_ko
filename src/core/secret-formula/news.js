@@ -3275,7 +3275,7 @@ export const news = [
   },
   {
     id: "ai11",
-    text: "\"click here to buy a stack of paperclips\" (when clicked you get Rickroll) (종이 클립 한 묶음을 구매하려면 여기를 클릭하세요. 클릭하면 Rickroll이 나옵니다.)",
+    text: "종이 클립 한 묶음을 구매하려면 여기를 클릭하세요. (클릭하면 릭롤이 재생됩니다.)",
     onClick() { window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ"); }
   },
   {
@@ -3296,7 +3296,7 @@ export const news = [
   },
   {
     id: "ai16",
-    text: "\"The hat trick I would love to see it\" - Noah Feldman (그 해트트릭을 꼭 보고 싶다는 뜻)"
+    text: "\"그 해트트릭, 꼭 보고 싶군요.\" - Noah Feldman"
   },
   {
     id: "ai17",
@@ -3308,7 +3308,7 @@ export const news = [
   },
   {
     id: "ai19",
-    text: "No matter how much antimatter you have, the matter will always outweigh the anti-matter. (반물질을 아무리 많이 보유해도 물질의 무게가 언제나 반물질보다 무겁다는 matter와 antimatter의 말장난입니다.)"
+    text: "반물질을 아무리 많이 가져도, 중요한 것(matter)은 언제나 반물질보다 더 무겁습니다."
   },
   {
     id: "ai20",
@@ -3324,7 +3324,7 @@ export const news = [
   },
   {
     id: "ai23",
-    text: "This news ticker will now only AIR in the 9th dimension (이 뉴스 티커는 이제 아홉 번째 차원에서만 방송된다는 뜻)"
+    text: "이 뉴스 티커는 이제 제9차원에서만 방송(AIR)됩니다."
   },
   {
     id: "ai24",
@@ -3332,7 +3332,7 @@ export const news = [
   },
   {
     id: "ai25",
-    text: "To matter or to antimatter, that is the question. (물질이냐 반물질이냐, 그것이 문제라는 셰익스피어 패러디)"
+    text: "물질이냐 반물질이냐, 그것이 문제로다."
   },
   {
     id: "ai26",
@@ -3356,11 +3356,11 @@ export const news = [
   },
   {
     id: "ai31",
-    text: "The news ticker is in the anti-news-ticker (뉴스 티커가 반-뉴스-티커 안에 있다는 말장난)"
+    text: "뉴스 티커는 반-뉴스-티커 안에 있습니다."
   },
   {
     id: "ai32",
-    text: "the 9th dimension doesn't exist because we are using nonary (구진법을 사용하고 있으므로 아홉 번째 차원은 존재하지 않는다는 말장난입니다.)"
+    text: "우리는 구진법을 사용하므로 제9차원은 존재하지 않습니다."
   },
   {
     id: "ai33",
@@ -3376,11 +3376,11 @@ export const news = [
   },
   {
     id: "ai36",
-    text: "Welcome to Antimatter Dimensions: Source, the free to play sequel to the cult classic AD:GO. (컬트 고전 AD:GO의 무료 후속작 Antimatter Dimensions: Source에 오신 것을 환영합니다.)"
+    text: "컬트 고전 《AD:GO》의 무료 후속작, 《Antimatter Dimensions: Source》에 오신 것을 환영합니다."
   },
   {
     id: "ai37",
-    text: "A new hand touches your antimatter! (새로운 손이 반물질에 닿았다는 Skyrim 대사 패러디)"
+    text: "새로운 손이 반물질에 닿았다!"
   },
   {
     id: "ai38",
@@ -3388,7 +3388,7 @@ export const news = [
   },
   {
     id: "ai39",
-    text: "We are the people who actually matter (우리는 실제로 중요한 물질 사람들이라는 말장난)"
+    text: "우리는 실제로 중요한(matter) 사람들입니다."
   },
   {
     id: "ai40",
@@ -3484,7 +3484,7 @@ export const news = [
   },
   {
     id: "ai63",
-    text: "(right to left move it make) (오른쪽에서 왼쪽으로 옮겨 만들라는 뒤틀린 문장)"
+    text: "(오른쪽 왼쪽으로 옮겨 그것 만들기)"
   },
   {
     id: "ai64",
@@ -3496,11 +3496,11 @@ export const news = [
   },
   {
     id: "ai66",
-    text: "It's nothing personal, bro. -All villager types (개인적인 감정은 없다는 모든 주민 유형의 말)"
+    text: "개인적인 감정은 없어, 형제. - 모든 주민 유형"
   },
   {
     id: "ai67",
-    text: "I tried my best to read those tiny, handwritten messages, but whoever designed scythes hated me and stuck them in a corner. -Porygon-Z (작은 손글씨를 읽으려 했지만 낫을 만든 사람이 구석에 처박아 두었다는 뜻)"
+    text: "그 조그만 손글씨 메시지를 읽으려고 최선을 다했지만, 낫을 설계한 자가 나를 싫어했는지 구석에 처박아 뒀습니다. - Porygon-Z"
   },
   {
     id: "ai68",
@@ -3524,7 +3524,7 @@ export const news = [
   },
   {
     id: "ai73",
-    text: "Yep. You. Get. Over. Your. Antidimensions. (그래, 이제 네 반차원을 극복하라는 뜻)"
+    text: "그래. 너. 이제. 네. 반차원을. 극복해."
   },
   {
     id: "ai74",
@@ -3540,11 +3540,11 @@ export const news = [
   },
   {
     id: "ai77",
-    text: "ur history teacher said i was mad for getting *insert something here* on my bday (생일에 무언가를 받은 자신을 역사 선생님이 미쳤다고 했다는 뜻)"
+    text: "역사 선생님은 내가 생일에 *여기에 아무거나 삽입*을 받았다며 미쳤다고 했어."
   },
   {
     id: "ai78",
-    text: "All is fair in antimatter (반물질에서는 무엇이든 공평하다는 관용구 패러디)"
+    text: "반물질 앞에서는 모든 것이 공평합니다."
   },
   {
     id: "ai79",
@@ -3552,7 +3552,7 @@ export const news = [
   },
   {
     id: "ai80",
-    text: "Oops, I think we misticked. (이런, 티커를 잘못 찍었다는 말장난)"
+    text: "이런, 티커를 잘못 찍은 것 같군요."
   },
   {
     id: "ai81",
@@ -3576,7 +3576,7 @@ export const news = [
   },
   {
     id: "ai86",
-    text: "I thought the whole \"annihilation is just a phase\" quote was awesome until I realized it also gave me a [REDACTED] (쌍소멸은 한때의 단계일 뿐이라는 말이 멋진 줄 알았지만 검열할 무언가도 생겼다는 뜻)"
+    text: "\"쌍소멸은 한때의 단계일 뿐\"이라는 말이 멋진 줄 알았는데, 제게 [REDACTED]도 생겼다는 걸 깨달았습니다."
   },
   {
     id: "ai87",
@@ -3647,7 +3647,7 @@ export const news = [
   }()),
   {
     id: "ai100",
-    text: "I get all my news from this Discord, not 5 hours of my life (제 모든 소식은 이 Discord에서 얻습니다. 제 인생의 다섯 시간에서 얻는 게 아닙니다.)"
+    text: "제 모든 소식은 이 Discord에서 얻습니다. 제 인생의 5시간에서 얻는 게 아닙니다."
   },
   {
     id: "ai101",
