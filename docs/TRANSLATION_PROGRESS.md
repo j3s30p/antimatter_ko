@@ -20,9 +20,9 @@ Status values: `not started`, `in progress`, `translated`, `QA complete`.
 | Automator UI and documentation | in progress | Most editor UI, transfer screens, templates, errors, and documentation imported; commands remain English intentionally for script compatibility |
 | Celestials and story dialogue | in progress | Compatible base-game tabs, mechanics, navigation text, and quote data imported; residue and story QA remain |
 | Help and catch-up documentation | translated | All compatible base-game articles plus previously skipped Reality and Nameless Ones articles translated; terminology and layout QA remain |
-| News ticker | in progress | 1,302 base-game properties imported; remaining NEWS translation is being handled separately by the tester and must be merged/validated without parallel edits |
-| Changelog | not started | Final content batch |
-| Release installer and restoration | in progress | Hash-gated installer and backup-based restore scripts added; isolated clean-install/restore test remains |
+| News ticker | translated | All 1,410 static entries reviewed; ordinary English sentences and added explanatory tails are cleared, with only URLs, code, icons, hashtags, and deliberate symbols retained |
+| Changelog | in progress | All entries from the iOS release through the Reality Update translated; older pre-Reality entries remain |
+| Release installer and restoration | in progress | Copy-over ZIP is now the default release format; hash-gated installer and backup restore remain available as developer tools |
 | Clean-install release QA | not started | Includes update/restore test |
 
 Update this file whenever a translation batch is committed. An area becomes `QA complete` only after build, residue scan, placeholder validation, and in-game layout review.
@@ -79,6 +79,16 @@ Update this file whenever a translation batch is committed. An area becomes `QA 
 - Distribution tooling: added an elevation launcher, SHA-256-gated PowerShell installer, and independently callable
   restore tool. The installer preserves a verified original ASAR, refuses unknown game versions, leaves the native
   `app.asar.unpacked` sidecar and save data untouched, and verifies the installed payload. Isolated round-trip QA remains.
+- NEWS completion: reviewed all 1,410 static NEWS entries through the AST. Ordinary English prose and translator-added
+  explanatory suffixes are gone; the nine non-Korean residues are intentional URLs, code fragments, hashtags, mentions,
+  icons, or visual symbols. Babel parsing, whitespace checks, and focused ESLint passed.
+- Changelog localization: translated every entry from the 2026 iOS release through the full 2022 Reality Update,
+  preserving HTML, formulas, version numbers, and Automator command tokens. Older pre-Reality changelog entries remain.
+- Release format: changed the public installation path to the usual Steam fan-patch workflow. The generated ZIP now
+  contains `resources/app.asar` and can be copied directly over the game root. The Korean installation guide,
+  attribution, font license, manifest, archive paths, and payload hash were verified in a layout test.
+- Repository publishing: connected `https://github.com/j3s30p/antimatter_ko.git` as the `korean` remote and pushed the
+  `korean-localization` default branch. The repository front page now uses a Korean `README.md` only.
 
 ## Steam packaging note
 
