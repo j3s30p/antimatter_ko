@@ -22,9 +22,9 @@ export const progressStages = [
    */
   {
     id: PROGRESS_STAGE.PRE_INFINITY,
-    name: "Antimatter Production",
+    name: "반물질 생산",
     hasReached: () => true,
-    suggestedResource: "Antimatter",
+    suggestedResource: "반물질",
     // Galaxies are worth 1/3 each, boosts break ties within galaxies, and antimatter breaks ties within boosts
     subProgressValue: save => 0.33 * save.galaxies + 0.02 * save.dimensionBoosts +
       new Decimal(save.antimatter).log10() / 16000,
@@ -33,55 +33,55 @@ export const progressStages = [
     id: PROGRESS_STAGE.EARLY_INFINITY,
     name: "Infinity",
     hasReached: save => new Decimal(save.infinities).gt(0),
-    suggestedResource: "Infinity Points",
+    suggestedResource: "무한 포인트",
     // Half from infinity count, half from crunch autobuyer state
     subProgressValue: save => Math.clampMax(new Decimal(save.infinities).toNumber(), 500) / 1000 +
       Math.log10(150000 / player.auto.bigCrunch.interval) / 6.35,
   },
   {
     id: PROGRESS_STAGE.BREAK_INFINITY,
-    name: "Broken Infinity",
+    name: "무한 돌파",
     hasReached: save => save.auto.bigCrunch.interval <= 100,
-    suggestedResource: "Infinity Points",
+    suggestedResource: "무한 포인트",
     subProgressValue: save => Math.sqrt(new Decimal(save.infinityPoints).log10() / 145),
   },
   {
     id: PROGRESS_STAGE.REPLICANTI,
-    name: "Replicanti",
+    name: "복제자",
     hasReached: save => save.replicanti.unl,
-    suggestedResource: "Infinity Points",
+    suggestedResource: "무한 포인트",
     subProgressValue: save => Math.sqrt((new Decimal(save.infinityPoints).log10() - 140) / 170),
   },
   {
     id: PROGRESS_STAGE.EARLY_ETERNITY,
     name: "Eternity",
     hasReached: save => new Decimal(save.eternities).gt(0),
-    suggestedResource: "Eternity Points and Eternity count",
+    suggestedResource: "이터니티 포인트와 이터니티 횟수",
     subProgressValue: save => new Decimal(save.eternities).clampMax(1e5).toNumber() / 1e5,
   },
   {
     id: PROGRESS_STAGE.ETERNITY_CHALLENGES,
-    name: "Eternity Challenges",
+    name: "이터니티 도전",
     hasReached: save => save.eternityChalls.eterc1 > 0,
-    suggestedResource: "Eternity Challenge Completions and Eternity Points",
+    suggestedResource: "이터니티 도전 완료 횟수와 이터니티 포인트",
     // Half from ECs, half from EP (up to e1300)
     subProgressValue: save => 0.008 * Object.values(save.eternityChalls).reduce((sum, c) => sum + c, 0) +
       new Decimal(save.eternityPoints).log10() / 2500,
   },
   {
     id: PROGRESS_STAGE.EARLY_DILATION,
-    name: "Time Dilation",
+    name: "시간 팽창",
     hasReached: save => new Decimal(save.dilation.dilatedTime).gt(0),
-    suggestedResource: "Dilated Time",
+    suggestedResource: "팽창된 시간",
     subProgressValue: save => new Decimal(save.dilation.dilatedTime).log10() / 15,
   },
   {
     id: PROGRESS_STAGE.LATE_ETERNITY,
-    name: "Late Eternity",
+    name: "이터니티 후반",
     hasReached: save => new Decimal(save.dilation.dilatedTime).gt(1e15),
     suggestedResource: () => (new Decimal(player.eternityPoints).log10() > 4000
-      ? "Eternity Points and/or Dilated Time. Alternatively, you can unlock and perform your first Reality"
-      : "Eternity Points and/or Dilated Time"
+      ? "이터니티 포인트 또는 팽창된 시간. 또는 첫 리얼리티를 해금하고 진행"
+      : "이터니티 포인트 또는 팽창된 시간"
     ),
     // Tracks up to e8000 even though many players will reality well before that; we still want to distinguish
     // which saves are farther all the way up to the zeroth-reality RM cap
@@ -94,11 +94,11 @@ export const progressStages = [
     // For the first few realities, we give a bit of extra suggestion just in case the player ended up taking a break
     // and returned in the middle of a reality while they're still relatively slow
     suggestedResource: () => {
-      if (player.realities > 5) return "Reality Machines";
-      const suffix = "in your current Reality, and your Reality Machines in the long term";
-      if (player.eternities.eq(0)) return `Infinity Points ${suffix}`;
-      if (player.dilation.dilatedTime.eq(0)) return `Eternity Points ${suffix}`;
-      return `Eternity Points and/or Dilated Time ${suffix}`;
+      if (player.realities > 5) return "리얼리티 기계";
+      const suffix = "(현재 리얼리티), 장기적으로는 리얼리티 기계";
+      if (player.eternities.eq(0)) return `무한 포인트 ${suffix}`;
+      if (player.dilation.dilatedTime.eq(0)) return `이터니티 포인트 ${suffix}`;
+      return `이터니티 포인트 또는 팽창된 시간 ${suffix}`;
     },
     subProgressValue: save => Math.clampMax(save.realities / 100, 1),
   },

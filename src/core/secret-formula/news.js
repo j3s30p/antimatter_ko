@@ -14,109 +14,108 @@ function newsAnimSpd(seconds) {
 export const news = [
   {
     id: "a1",
-    text: "The cookie is a lie.",
+    text: "쿠키는 거짓말입니다.",
   },
   {
     id: "a2",
-    text: "Antimatter ghosts do not exist. Just like matter ghosts. They don't have any matter, for that matter."
+    text: "반물질 유령은 존재하지 않습니다. 물질 유령과 마찬가지죠. 애초에 유령에게 물질 따윈 없으니까요."
   },
   {
     id: "a3",
-    text: "Nuclear power plants have been abandoned in favor of antimatter power."
+    text: "반물질 발전이 등장하면서 원자력 발전소는 버려졌습니다."
   },
   {
     id: "a4",
-    text: "Antimatter cookies have been confirmed to not exist, whoever claims that, stop."
+    text: "반물질 쿠키는 존재하지 않는 것으로 확인됐습니다. 있다고 주장하는 분은 그만하세요."
   },
   {
     id: "a5",
-    text: "Antimatter prices have drastically dropped due to newfound abundance."
+    text: "새로운 대량 공급원이 발견되어 반물질 가격이 폭락했습니다."
   },
   {
     id: "a6",
-    text: "In the news today, humans make an antimatter animal sacrifice to the antimatter god."
+    text: "오늘의 소식입니다. 인간들이 반물질 신에게 반물질 동물을 제물로 바쳤습니다."
   },
   {
     id: "a7",
-    text: "You made one antimatter! Whatever that means."
+    text: "반물질 하나를 만들었습니다! 그게 무슨 뜻인지는 모르겠지만요."
   },
   {
     id: "a8",
-    text: "\"IN THE END, IT DOESN'T ANTIMATTER\" -hevipelle"
+    text: "\"결국, 반물질은 반중요하지.\" -hevipelle"
   },
   {
     id: "a9",
-    text: "None of this matters."
+    text: "이 모든 건 중요하지 않습니다."
   },
   {
     id: "a10",
-    text: "How does it matter if it's antimatter?"
+    text: "반물질인데 어떻게 중요할 수 있죠?"
   },
   {
     id: "a11",
-    text: "Scientists confirm that the colour of antimatter is Blurple."
+    text: "과학자들이 반물질의 색은 파보라색이라고 확인했습니다."
   },
   {
     id: "a12",
-    text: "How does NASA organise a party? They planet."
+    text: "NASA는 파티를 어떻게 준비할까요? 행성(계획)을 세웁니다."
   },
   {
     id: "a13",
     text:
-      `Electrons are now seeing the happy things in life.
-      We're calling these happy electrons 'Positrons.' Wait, that's taken?`
+      `전자들이 삶의 행복한 면을 보기 시작했습니다.
+      이 행복한 전자를 '양전자'라고 부르겠습니다. 잠깐, 이미 있는 이름이라고요?`
   },
   {
     id: "a14",
     text:
-      `This completely useless sentence will get you nowhere and you know it.
-      What a horrible obnoxious man would come up with it, he will probably go to hell,
-      and why would the developer even implement it? Even if you kept reading it you wouldn't
-      be able to finish it (the first time).`
+      `이 완전히 쓸모없는 문장은 아무 데도 데려다주지 못한다는 걸 당신도 알고 있습니다.
+      대체 어떤 끔찍하고 짜증 나는 사람이 이런 문장을 생각했을까요? 아마 지옥에 갈 겁니다.
+      개발자는 이걸 왜 넣었을까요? 계속 읽어도 (처음에는) 끝까지 읽지 못할 텐데 말이죠.`
   },
   {
     id: "a15",
-    text: `"GHOST SAYS HELLO" -Boo-chan`
+    text: `"유령이 안녕이라고 합니다." -Boo-chan`
   },
   {
     id: "a16",
-    text: `"Can someone tell hevi to calm down?" -Mee6`
+    text: `"누가 hevi한테 진정 좀 하라고 말해 줄래요?" -Mee6`
   },
   {
     id: "a17",
-    text: "Due to antimatter messing with physics, a creature that was once a moose is now a human."
+    text: "반물질이 물리 법칙을 엉망으로 만든 탓에 한때 무스였던 생물이 이제 인간이 됐습니다."
   },
   {
     id: "a18",
-    text: "!hi"
+    text: "!안녕"
   },
   {
     id: "a19",
-    text: `"Alright" -Alright`
+    text: `"좋아." -좋아`
   },
   {
     id: "a20",
-    text: "The English greeting is not present in Antimatter speak."
+    text: "반물질어에는 영어식 인사말이 없습니다."
   },
   {
     id: "a21",
-    text: "To buy max or not to buy max, that is the question."
+    text: "최대로 살 것인가, 말 것인가. 그것이 문제로다."
   },
   {
     id: "a22",
-    text: "One, two, skip a few, ninety-nine, NaN!"
+    text: "하나, 둘, 몇 개 건너뛰고, 아흔아홉, NaN!"
   },
   {
     id: "a23",
-    text: "No, mom, I can't pause this game."
+    text: "아니요, 엄마. 이 게임은 일시정지할 수 없어요."
   },
   {
     id: "a24",
-    text: "Scientific notation has entered the battlefield."
+    text: "과학적 표기법이 전장에 합류했습니다."
   },
   {
     id: "a25",
-    text: `"Make the Universe Great Again!" -Tronald Dump`
+    text: `"우주를 다시 위대하게!" -Tronald Dump`
   },
   {
     id: "a26",
@@ -125,147 +124,146 @@ export const news = [
   {
     id: "a27",
     get text() {
-      return `A new religion has been created, and it's spreading like wildfire. The believers of this religion worship
-        the Heavenly Pelle, the goddess of antimatter. They also believe that ${format(Number.MAX_VALUE, 2)}
-        is infinite.`;
+      return `새로운 종교가 탄생해 들불처럼 퍼지고 있습니다. 신자들은 반물질의 여신인 천상의 펠레를
+        숭배합니다. 또한 ${format(Number.MAX_VALUE, 2)}이 무한이라고 믿습니다.`;
     }
   },
   {
     id: "a28",
-    text: "Someone has just touched a blob, and blown up. Was the blob antimatter, or was the guy made of Explodium?"
+    text: "누군가 블롭을 만졌다가 폭발했습니다. 블롭이 반물질이었을까요, 아니면 그 사람이 폭발륨으로 만들어졌을까요?"
   },
   {
     id: "a29",
-    text: `If you are not playing on Kongregate, Steam, or https://ivark.github.io/AntimatterDimensions/,
-      the site is bootleg.`
+    text: `Kongregate, Steam 또는 https://ivark.github.io/AntimatterDimensions/에서 플레이하는 게 아니라면
+      비공식 복제품입니다.`
   },
   {
     id: "a30",
-    text: "Rate 5 on Kongregate so more people can experience this 5 star rating."
+    text: "더 많은 사람이 별점 5점의 감동을 누릴 수 있도록 Kongregate에서 5점을 주세요."
   },
   {
     id: "a31",
-    text: "BOO!"
+    text: "우우!"
   },
   {
     id: "a32",
-    text: `"You ate for too long." -Hevipelle`
+    text: `"너무 오래 먹었어." -Hevipelle`
   },
   {
     id: "a33",
-    text: `"I hate myself." -Boo-chan`
+    text: `"나는 내가 싫어." -Boo-chan`
   },
   {
     id: "a34",
-    text: `"Gee golly" -Xandawesome`
+    text: `"어이쿠야." -Xandawesome`
   },
   {
     id: "a35",
-    text: "Above us, there is nothing above, but the stars, above."
+    text: "우리 위에는 아무것도 없습니다. 위에 있는 별들 말고는요."
   },
   {
     id: "a36",
-    text: "You feel like making antimatter. But nobody wants to eat your antimatter."
+    text: "반물질을 만들고 싶은 기분입니다. 하지만 아무도 당신의 반물질을 먹고 싶어 하지 않습니다."
   },
   {
     id: "a37",
-    text: "Somebody wasn't nice, he got an antimatter-storm."
+    text: "누군가 착하게 굴지 않아서 반물질 폭풍을 맞았습니다."
   },
   {
     id: "a38",
-    text: "You are living, you occupy space, you have a mass, you matter... unless you antimatter."
+    text: "당신은 살아 있고, 공간을 차지하며, 질량도 있으니 중요합니다… 반물질만 아니라면요."
   },
   {
     id: "a39",
-    text: "I clicked too fast... my PC is now dematerialised."
+    text: "너무 빨리 클릭했더니… 컴퓨터가 비물질화됐습니다."
   },
   {
     id: "a40",
     text:
-      `"If an alien lands on your front lawn and extends an appendage as a gesture of greeting, before you get
-      friendly, toss it an eightball. If the appendage explodes, then the alien was probably made of antimatter.
-      If not, then you can proceed to take it to your leader." -Neil deGrasse Tyson`
+      `"외계인이 앞마당에 착륙해 인사의 뜻으로 팔다리를 내민다면, 친해지기 전에 당구공을 던져 보세요.
+      팔다리가 폭발하면 그 외계인은 아마 반물질로 이루어졌을 겁니다. 아니라면 지도자에게 데려가도 됩니다."
+      -Neil deGrasse Tyson`
   },
   {
     id: "a41",
     text:
-      "There must always be an equal amount of matter as compared to antimatter; I guess your mom balances that a bit."
+      "물질과 반물질의 양은 항상 같아야 합니다. 당신 어머니가 균형을 조금 맞춰 주는 것 같군요."
   },
   {
     id: "a42",
-    text: "Nothing is created, nothing is destroyed."
+    text: "아무것도 생겨나지 않고, 아무것도 사라지지 않습니다."
   },
   {
     id: "a43",
-    text: "We dug a big hole to store this antimatter... Adele's rolling in it."
+    text: "반물질을 보관하려고 큰 구덩이를 팠습니다… Adele이 그 안에서 구르고 있네요."
   },
   {
     id: "a44",
-    text: "If everything is antimatter, how can you see yourself?"
+    text: "모든 것이 반물질이라면 어떻게 자기 모습을 볼 수 있을까요?"
   },
   {
     id: "a45",
-    text: "The stock markets have crashed due to antimatter beings somehow knowing what they will be tomorrow."
+    text: "반물질 존재들이 내일의 주가를 알아내는 바람에 주식 시장이 붕괴했습니다."
   },
   {
     id: "a46",
-    text: "My dog ate too much antimatter, now he's' saying 'meow!'"
+    text: "우리 개가 반물질을 너무 많이 먹더니 이제 '야옹'이라고 합니다!"
   },
   {
     id: "a47",
-    text: "If you put infinity into your calculator, it will result in 42!"
+    text: "계산기에 무한을 입력하면 답은 42가 됩니다!"
   },
   {
     id: "a48",
-    text: "You have found the rarest antimatter pepe, it's ultra rare!"
+    text: "가장 희귀한 반물질 페페를 찾았습니다. 초희귀입니다!"
   },
   {
     id: "a49",
     get text() {
-      return `Can we get ${format(1e169)} likes on this video??? Smash that like button!!`;
+      return `이 영상 좋아요 ${format(1e169)}개 가능할까요??? 좋아요 버튼을 박살 내세요!!`;
     }
   },
   {
     id: "a50",
-    text: "The smell of antimatter has been revealed. It smells like kittens."
+    text: "반물질의 냄새가 밝혀졌습니다. 새끼 고양이 냄새입니다."
   },
   {
     id: "a51",
-    text: "Just another antimatter in the wall."
+    text: "벽 속의 또 다른 반물질일 뿐."
   },
   {
     id: "a52",
-    text: "GET SNIPED, WEAKLING"
+    text: "저격당해라, 약골아"
   },
   {
     id: "a53",
-    text: `"Thanks a lot." -Dankesehr`
+    text: `"정말 고마워요." -Dankesehr`
   },
   {
     id: "a54",
-    text: "This world situation is an SOS situation to the world!! MAYDAY, MAYDAY!!"
+    text: "이 세계의 상황은 전 세계적인 SOS 상황입니다!! 메이데이, 메이데이!!"
   },
   {
     id: "a55",
     text:
-      `"As for sure as the sun rises in the west, of all the singers and
-      poets on earth, I am the bestest." - Hevipelle`
+      `"해가 서쪽에서 뜨는 게 확실하듯, 지구의 모든 가수와 시인 중
+      내가 제일 최고다." - Hevipelle`
   },
   {
     id: "a56",
-    text: `"I'm good at using github." -Hevipelle`
+    text: `"나는 GitHub를 잘 써." -Hevipelle`
   },
   {
     id: "a57",
     text:
-      `A new chat server has been created for antimatter people to spy on matter people,
-      and the world has fallen into chaos and discord.`
+      `반물질 사람들이 물질 사람들을 염탐할 새 채팅 서버를 만들었고,
+      세계는 혼돈과 디스코드에 빠졌습니다.`
   },
   {
     id: "a58",
     text:
-      `A new study has come out linking the consumption of potatoes with increased risk of antimatter implosion.
-      Scientists suggest eating more.`
+      `감자를 먹으면 반물질 내파 위험이 높아진다는 새 연구가 나왔습니다.
+      과학자들은 더 많이 먹으라고 권합니다.`
   },
   {
     id: "a59",
@@ -3290,7 +3288,7 @@ export const news = [
   },
   {
     id: "p2",
-    text: 'Die Zahlen gehen hoooch'
+    text: "Die Zahlen gehen hoooch"
   },
   /* eslint-disable max-len */
   {

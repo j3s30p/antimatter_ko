@@ -24,10 +24,10 @@ export default {
     timeString() {
       // If diff is zero, that means we opened it up via the button and don't need the text for last opening
       if (!this.diff) return null;
-      return `It has been ${TimeSpan.fromMilliseconds(this.diff).toString()} since you last loaded up the game.`;
+      return `마지막으로 게임을 불러온 뒤 ${TimeSpan.fromMilliseconds(this.diff).toString()}이 지났습니다.`;
     },
     titleText() {
-      return this.diff ? "Content Catch-up" : "Content Summary";
+      return this.diff ? "콘텐츠 따라잡기" : "콘텐츠 요약";
     }
   },
   methods: {
@@ -45,10 +45,9 @@ export default {
     </div>
     <div>
       {{ timeString }}
-      If you need a refresher, here is a quick summary of all the content you have unlocked so far from the beginning of
-      the game, separated into different stages of progression. These are only very brief descriptions; you can check
-      the related How To Play entries by clicking the contents title or <i class="fas fa-question-circle" /> icons
-      to view more detailed information.
+      다시 내용을 확인하고 싶다면 게임 시작부터 지금까지 해금한 콘텐츠를 진행 단계별로 간단히 살펴보세요.
+      여기에는 짧은 설명만 표시됩니다. 콘텐츠 제목이나 <i class="fas fa-question-circle" /> 아이콘을 누르면
+      관련 게임 방법 문서에서 자세한 정보를 볼 수 있습니다.
     </div>
     <div
       class="l-catchup-group-container"
@@ -62,13 +61,13 @@ export default {
       />
     </div>
     <span class="c-suggestion-text">
-      Based on your current progression, it will probably be useful to try to increase your {{ suggestedResource }}.
+      현재 진행 상황에서는 {{ suggestedResource }}을(를) 늘리는 것이 좋습니다.
     </span>
     <div class="l-confirm-padding">
       <PrimaryButton
         @click="emitClose"
       >
-        Confirm
+        확인
       </PrimaryButton>
     </div>
   </div>

@@ -4,6 +4,7 @@ class AwayProgress {
   constructor(config) {
     this.name = config.name;
     this.forcedName = config.forcedName;
+    this.displayName = config.displayName;
     this.isUnlocked = () => config.isUnlocked() || player.records.fullGameCompletions > 0;
     this.awayOption = config.awayOption ?? this.name;
     this.showOption = config.showOption ?? true;
@@ -33,6 +34,7 @@ class AwayProgress {
   }
 
   get formatName() {
+    if (this.displayName) return this.displayName;
     if (this.forcedName) return this.forcedName;
     // Format the camelCase name to Title Case, with spaces added before the capital letters
     return this.name

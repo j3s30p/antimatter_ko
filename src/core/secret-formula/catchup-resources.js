@@ -2,41 +2,41 @@ import { DC } from "../constants";
 
 export const catchupResources = [
   {
-    name: "Antimatter Dimensions",
+    name: "반물질 차원",
     id: 0,
     requiredStage: PROGRESS_STAGE.PRE_INFINITY,
-    description: `Every Antimatter Dimension continuously produces Dimensions of the next tier down. The lowest
-      Antimatter Dimension produces antimatter.`
+    description: `각 반물질 차원은 바로 아래 단계의 차원을 계속 생산하며, 가장 낮은 반물질 차원은
+      반물질을 생산합니다.`
   },
   {
-    name: "Tickspeed Upgrades",
+    name: "틱 속도",
     id: 1,
-    openH2pEntry: "Tickspeed",
+    openH2pEntry: "틱 속도",
     requiredStage: PROGRESS_STAGE.PRE_INFINITY,
-    description: `Tickspeed Upgrades make Antimatter Dimensions produce other Antimatter Dimensions or antimatter
-      as if time were passing faster.`
+    description: `틱 속도 업그레이드는 시간이 더 빨리 흐르는 것처럼 반물질 차원이 다른 반물질 차원이나
+      반물질을 더 빠르게 생산하게 합니다.`
   },
   {
-    name: "Autobuyers",
+    name: "자동 구매기",
     id: 2,
+    openH2pEntry: "Autobuyers",
     requiredStage: PROGRESS_STAGE.PRE_INFINITY,
-    description: `Autobuyers are a built-in feature to the game which purchases upgrades for your Antimatter
-      Dimensions automatically when you can afford them.`
+    description: `자동 구매기는 비용을 감당할 수 있을 때 반물질 차원과 업그레이드를 자동으로 구매하는
+      게임 내 기능입니다.`
   },
   {
-    name: "Dimension Boosts",
+    name: "차원 부스트",
     id: 3,
     requiredStage: PROGRESS_STAGE.PRE_INFINITY,
-    description: `Dimension Boosts are gained by resetting all your Antimatter Dimensions and tickspeed after
-      reaching a certain amount of the highest available Antimatter Dimension. They provide a multiplier to your
-      Antimatter Dimensions.`
+    description: `현재 사용할 수 있는 가장 높은 반물질 차원을 일정량 모은 뒤 모든 반물질 차원과 틱 속도를
+      초기화하면 차원 부스트를 얻습니다. 차원 부스트는 반물질 차원에 배율을 제공합니다.`
   },
   {
-    name: "Antimatter Galaxies",
+    name: "반물질 은하",
     id: 4,
     requiredStage: PROGRESS_STAGE.PRE_INFINITY,
-    description: `Antimatter Galaxies are gained by resetting your Antimatter Dimensions and Dimension Boosts. They
-      improve the effectiveness of your Tickspeed Upgrades in a compounding way.`
+    description: `반물질 차원과 차원 부스트를 초기화하면 반물질 은하를 얻습니다. 반물질 은하는 틱 속도
+      업그레이드의 효과를 복리 방식으로 강화합니다.`
   },
   {
     name: "Infinity",

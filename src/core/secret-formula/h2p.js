@@ -149,42 +149,36 @@ ${player.blackHole[0].unlocked
       tags: ["offline", "away", "progress"],
       tab: "options/gameplay"
     }, {
-      name: "Effect Stacking",
+      name: "효과 중첩",
       info: () => `
-Most of the effects and upgrades in Antimatter Dimensions largely fall into three categories:
+Antimatter Dimensions의 효과와 업그레이드는 대부분 다음 세 범주로 나뉩니다.
 <br>
-- <b>Additive:</b> These effects are typically denoted with a + (or the word "increase") followed by a number,
-and add their value to some
-base amount. Multiple additive effects are summed up. These can also sometimes show up as subtractive effects which
-reduce resource costs.
+- <b>덧셈:</b> 보통 + 기호(또는 "증가")와 숫자로 표시되며 기본값에 해당 수치를 더합니다. 여러 덧셈 효과는
+서로 합산됩니다. 자원 비용을 줄이는 뺄셈 효과로 나타나기도 합니다.
 <br>
-- <b>Multiplicative:</b> These effects are shown either by a × (or the word "multiply") followed by a number or,
-more rarely, as two numbers
-separated by a ➜. Different multiplicative sources always combine by multiplying, never by adding. In some situations,
-there may be negative effects or cost reductions that apply in this category as division.
+- <b>곱셈:</b> 보통 × 기호(또는 "곱하기")와 숫자로 표시되며, 드물게 ➜로 구분한 두 숫자로 표시됩니다.
+서로 다른 곱셈 효과는 항상 곱해서 결합하고 더하지 않습니다. 부정적 효과나 비용 감소가 나눗셈으로
+적용되는 경우도 있습니다.
 <br>
-- <b>Power</b>: These effects are much rarer and appear as ^ followed by a number. Multiple power effects apply
-sequentially, or equivalently by multiplying the values of the power effects together and applying the final value
-as a single power. In rare situations, negative effects may apply here in this category as powers which are less
-than ${formatInt(1)}.
+- <b>거듭제곱:</b> 훨씬 드물며 ^ 기호와 숫자로 표시됩니다. 여러 거듭제곱 효과는 차례로 적용됩니다.
+이는 효과값끼리 곱한 뒤 최종 값을 한 번의 거듭제곱으로 적용하는 것과 같습니다. 드물게 ${formatInt(1)}보다
+작은 지수로 부정적 효과가 적용되기도 합니다.
 <br>
 <br>
-Unless otherwise noted when an upgrade or reward <i>replaces</i> an older value, all of these effects stack
-with each other. In the case of an upgrade replacing an older value with a newer value, the replacement occurs before
-any of the above effects are applied. To determine the final value of a set of effects, the effects from each category
-are individually combined, and then applied in the order of additive, multiplicative, then power effects.
+업그레이드나 보상이 기존 값을 <i>대체</i>한다고 명시하지 않는 한 모든 효과는 서로 중첩됩니다. 값을
+대체하는 경우에는 위 효과를 적용하기 전에 새 값으로 바뀝니다. 최종 값은 각 범주의 효과를 먼저 합친 뒤
+덧셈, 곱셈, 거듭제곱 순서로 적용해 계산합니다.
 <br>
 <br>
 ${PlayerProgress.realityUnlocked() || PlayerProgress.dilationUnlocked()
-    ? "Dilation and any Dilation-like effects apply <i>after</i> all of these other effects are stacked together."
+    ? "시간 팽창과 유사 효과는 다른 모든 효과가 중첩된 <i>뒤에</i> 적용됩니다."
     : ""}
 <br>
 <br>
 ${PlayerProgress.realityUnlocked()
-    ? `Glyph Effects effectively have two stacking attributes; their internal way of stacking together and the way
-      they stack with all other game effects. These may not necessarily be the same - for example, the "Antimatter
-      Dimension Power" effect will stack <i>additively with itself</i>, but then the total effect will be added to
-      a base value of ${formatInt(1)} and then applied as a <i>power effect</i> to Antimatter Dimensions.`
+    ? `글리프 효과에는 글리프끼리 중첩되는 방식과 다른 게임 효과에 중첩되는 방식이 따로 있습니다.
+      두 방식은 서로 다를 수 있습니다. 예를 들어 "반물질 차원 거듭제곱" 효과는 <i>서로 덧셈으로 중첩</i>되지만,
+      합계에 기본값 ${formatInt(1)}을 더한 뒤 반물질 차원에 <i>거듭제곱 효과</i>로 적용됩니다.`
     : ""}
 `,
       isUnlocked: () => true,
@@ -193,30 +187,30 @@ ${PlayerProgress.realityUnlocked()
     }, {
       name: "자주 쓰는 약어",
       info: () => `
-Many resources within the game may appear in an abbreviated format as text in order to save space. This How to
-Play entry will update itself with additional entries for new resources as you encounter them for the first time.
+게임에서는 공간을 절약하기 위해 여러 자원의 이름을 약어로 표시합니다. 새로운 자원을 처음 만나면
+이 문서에도 해당 약어가 자동으로 추가됩니다.
 <br>
-- <b>AM</b>: Antimatter<br>
-- <b>AD</b>: Antimatter Dimension<br>
-- <b>AG</b>: Antimatter Galaxy<br>
-${PlayerProgress.infinityUnlocked() ? "- <b>IP</b>: Infinity Point<br>" : ""}
-${PlayerProgress.infinityUnlocked() ? "- <b>NC</b>: Normal Challenge<br>" : ""}
-${PlayerProgress.infinityUnlocked() ? "- <b>IC</b>: Infinity Challenge<br>" : ""}
-${InfinityDimension(1).isUnlocked || PlayerProgress.eternityUnlocked() ? "- <b>ID</b>: Infinity Dimension<br>" : ""}
-${PlayerProgress.replicantiUnlocked() ? "- <b>RG</b>: Replicanti Galaxy<br>" : ""}
-${PlayerProgress.eternityUnlocked() ? "- <b>EP</b>: Eternity Point<br>" : ""}
-${PlayerProgress.eternityUnlocked() ? "- <b>TT</b>: Time Theorem<br>" : ""}
-${PlayerProgress.eternityUnlocked() ? "- <b>TD</b>: Time Dimension<br>" : ""}
-${PlayerProgress.eternityUnlocked() ? "- <b>EC</b>: Eternity Challenge<br>" : ""}
-${PlayerProgress.dilationUnlocked() ? "- <b>TP</b>: Tachyon Particle<br>" : ""}
-${PlayerProgress.dilationUnlocked() ? "- <b>DT</b>: Dilated Time<br>" : ""}
-${PlayerProgress.dilationUnlocked() ? "- <b>TG</b>: Tachyon Galaxy<br>" : ""}
-${PlayerProgress.realityUnlocked() ? "- <b>RM</b>: Reality Machine<br>" : ""}
-${PlayerProgress.realityUnlocked() ? "- <b>AP</b>: Automator Point<br>" : ""}
-${PlayerProgress.realityUnlocked() ? "- <b>BH</b>: Black Hole<br>" : ""}
-${MachineHandler.isIMUnlocked ? "- <b>iM</b>: Imaginary Machine<br>" : ""}
-${Laitela.isUnlocked ? "- <b>DM</b>: Dark Matter<br>" : ""}
-${Laitela.isUnlocked ? "- <b>DE</b>: Dark Energy<br>" : ""}
+- <b>AM</b>: 반물질<br>
+- <b>AD</b>: 반물질 차원<br>
+- <b>AG</b>: 반물질 은하<br>
+${PlayerProgress.infinityUnlocked() ? "- <b>IP</b>: 무한 포인트<br>" : ""}
+${PlayerProgress.infinityUnlocked() ? "- <b>NC</b>: 일반 도전<br>" : ""}
+${PlayerProgress.infinityUnlocked() ? "- <b>IC</b>: 무한 도전<br>" : ""}
+${InfinityDimension(1).isUnlocked || PlayerProgress.eternityUnlocked() ? "- <b>ID</b>: 무한 차원<br>" : ""}
+${PlayerProgress.replicantiUnlocked() ? "- <b>RG</b>: 복제자 은하<br>" : ""}
+${PlayerProgress.eternityUnlocked() ? "- <b>EP</b>: 이터니티 포인트<br>" : ""}
+${PlayerProgress.eternityUnlocked() ? "- <b>TT</b>: 시간 정리<br>" : ""}
+${PlayerProgress.eternityUnlocked() ? "- <b>TD</b>: 시간 차원<br>" : ""}
+${PlayerProgress.eternityUnlocked() ? "- <b>EC</b>: 이터니티 도전<br>" : ""}
+${PlayerProgress.dilationUnlocked() ? "- <b>TP</b>: 타키온 입자<br>" : ""}
+${PlayerProgress.dilationUnlocked() ? "- <b>DT</b>: 팽창된 시간<br>" : ""}
+${PlayerProgress.dilationUnlocked() ? "- <b>TG</b>: 타키온 은하<br>" : ""}
+${PlayerProgress.realityUnlocked() ? "- <b>RM</b>: 리얼리티 기계<br>" : ""}
+${PlayerProgress.realityUnlocked() ? "- <b>AP</b>: 오토메이터 포인트<br>" : ""}
+${PlayerProgress.realityUnlocked() ? "- <b>BH</b>: 블랙홀<br>" : ""}
+${MachineHandler.isIMUnlocked ? "- <b>iM</b>: 허상 기계<br>" : ""}
+${Laitela.isUnlocked ? "- <b>DM</b>: 암흑 물질<br>" : ""}
+${Laitela.isUnlocked ? "- <b>DE</b>: 암흑 에너지<br>" : ""}
 `,
       isUnlocked: () => true,
       tags: ["abbreviation", "shorten", "am", "ad", "ag", "ip", "nc", "ic", "id", "rg", "ep", "tt", "td", "ec", "tp",
@@ -364,17 +358,17 @@ ${formatX(8)} then ${formatX(5)}; in both cases you will end up with a total sac
     }, {
       name: "도전 과제",
       info: () => `
-Each Achievement has requirements to unlock. Once unlocked, some Achievements give a reward.
-Requirements and rewards vary in difficulty and benefit significantly.
+각 도전 과제에는 해금 조건이 있으며, 일부 도전 과제는 해금 시 보상을 제공합니다. 조건의 난이도와
+보상이 주는 이점은 크게 다릅니다.
 <br>
 <br>
-In addition to any specific rewards for individual Achievements, you will receive a ${formatX(1.03, 2, 2)} multiplier
-to all Antimatter Dimensions. Each fully completed row also gives another ${formatX(1.25, 2, 2)}. The total multiplier
-effect from all Achievements together is shown above all the Achievement images.
+개별 도전 과제의 고유 보상과 별도로, 도전 과제 하나마다 모든 반물질 차원에 ${formatX(1.03, 2, 2)} 배율을
+얻습니다. 한 줄을 모두 완료할 때마다 추가로 ${formatX(1.25, 2, 2)} 배율을 얻습니다. 모든 도전 과제에서
+얻는 총 배율은 도전 과제 이미지 위에 표시됩니다.
 <br>
 <br>
-Secret Achievements offer no gameplay benefits or advantages and are simply there for fun. Hovering over a Secret
-Achievement will give a hint on how to attain them.
+비밀 도전 과제는 게임 진행에 아무 이점도 주지 않으며 재미를 위한 요소입니다. 비밀 도전 과제 위에
+마우스를 올리면 달성 방법에 대한 힌트를 볼 수 있습니다.
 `,
       isUnlocked: () => true,
       tags: ["earlygame", "awards", "earlygame"],
