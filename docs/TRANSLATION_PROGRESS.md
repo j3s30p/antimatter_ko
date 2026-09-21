@@ -9,7 +9,7 @@ Status values: `not started`, `in progress`, `translated`, `QA complete`.
 | Global navigation and progression tabs | translated | Layout QA remains for locked/unlocked states |
 | Early Modern UI | in progress | Dimension screen, navigation, sidebar resources, and shared modal controls translated; installed for tester recheck |
 | Early Classic UI | translated | Layout QA remains |
-| Options and common modals | in progress | Gameplay, visual, saving, hotkeys, confirmation, animation, news, info display, notation, visible-tabs, and backup UI translated; unlocked late-game option dialogs remain |
+| Options and common modals | in progress | Gameplay, visual, saving, hotkeys, confirmation, animation, news, info display, notation, visible-tabs, backup UI, and early reset confirmations translated; unlocked late-game option dialogs remain |
 | Statistics and records | in progress | Main statistics, matter scale, challenge records, past prestige runs, multiplier shell, and glyph-set records translated; multiplier entry database remains |
 | Achievements | in progress | Main screen chrome, rows 1-13, and all secret achievement data translated; rows 14-18 remain |
 | Challenges | not started | |
@@ -31,7 +31,7 @@ Update this file whenever a translation batch is committed. An area becomes `QA 
 
 - Source translation: complete for the three main Options subtabs and their common dialogs.
 - Initial help: shell and the articles shown at the start of a new save are translated; later progression articles remain.
-- Build validation: lint and Steam release build passed.
+- Build validation: Steam release build and changed-file whitespace checks passed; whole-repository lint still has pre-existing errors.
 - In-game installation: corrected runtime path (`app.asar/AppFiles/`) installed; runtime bundle hash, localized markers, absence of the old H2P title/search text, original backup, and five responding Electron processes verified.
 - Screen QA: pending tester review for Modern UI, Options, and Help layouts.
 
@@ -43,6 +43,9 @@ Update this file whenever a translation batch is committed. An area becomes `QA 
 - Runtime recovery: a white-screen package was isolated and the original ASAR restored. The failure was caused by
   extracting a renamed backup without a correspondingly renamed `.unpacked` sidecar; no save data was deleted.
 - Save safety: a read-only recovery copy of the Electron user-data directory was created before further runtime work.
+- Early reset confirmations: Dimensional Sacrifice, Dimension Boost, and Antimatter Galaxy confirmation headers,
+  consequences, multipliers, buttons, and confirmation-option labels translated and installed; runtime hash, native
+  sidecar count (304), and five responding Electron processes verified.
 
 ## Steam packaging note
 

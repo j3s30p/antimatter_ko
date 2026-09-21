@@ -1,6 +1,6 @@
 export const confirmationTypes = [
   {
-    name: "차원 부스트",
+    name: "차원 가속",
     option: "dimensionBoost",
     isUnlocked: () => PlayerProgress.infinityUnlocked() || player.galaxies > 0 || player.dimensionBoosts > 0,
   }, {

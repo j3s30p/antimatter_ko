@@ -22,32 +22,31 @@ export default {
   },
   computed: {
     topLabel() {
-      if (this.bulk) return `You are about to purchase ${quantifyInt("Antimatter Galaxy", this.newGalaxies)}`;
-      return `You are about to purchase an Antimatter Galaxy`;
+      if (this.bulk) return `반물질 은하 ${formatInt(this.newGalaxies)}개를 구매하려 합니다`;
+      return `반물질 은하를 구매하려 합니다`;
     },
     message() {
       const resetResouces = [];
-      if (Pelle.isDoomed) resetResouces.push("Antimatter", "Antimatter Dimensions", "Tickspeed");
-      if (!this.perkANRBought) resetResouces.push("Antimatter Dimensions", "Tickspeed");
-      if (!this.keepDimBoost) resetResouces.push("Dimension Boosts");
-      if (!this.keepAntimatter && !this.perkANRBought) resetResouces.push("Antimatter");
-      const resetList = makeEnumeration(resetResouces);
+      if (Pelle.isDoomed) resetResouces.push("반물질", "반물질 차원", "틱 속도");
+      if (!this.perkANRBought) resetResouces.push("반물질 차원", "틱 속도");
+      if (!this.keepDimBoost) resetResouces.push("차원 가속");
+      if (!this.keepAntimatter && !this.perkANRBought) resetResouces.push("반물질");
+      const resetList = [...new Set(resetResouces)].join(", ");
       let tickspeedFixed = "";
       if (InfinityChallenge(3).isRunning) {
-        tickspeedFixed = `Infinity Challenge ${InfinityChallenge(3).id}`;
+        tickspeedFixed = `무한 도전 ${InfinityChallenge(3).id}`;
       } else if (Ra.isRunning) {
-        tickspeedFixed = `${Ra.displayName}'s Reality`;
+        tickspeedFixed = `${Ra.displayName}의 리얼리티`;
       }
       const tickspeedInfo = (tickspeedFixed === "")
-        ? "you will receive a small boost to Tickspeed Upgrades."
-        : `you will not receive a boost to Tickspeed Upgrades, because you are in ${tickspeedFixed}.`;
+        ? "틱 속도 업그레이드에 작은 보너스를 얻습니다."
+        : `${tickspeedFixed} 진행 중이므로 틱 속도 업그레이드 보너스를 얻지 못합니다.`;
       const message = (resetList === "")
-        ? `This will reset nothing, and ${tickspeedInfo}`
-        : `This will reset your ${resetList}. However, ${tickspeedInfo}`;
+        ? `초기화되는 자원은 없으며, ${tickspeedInfo}`
+        : `${resetList} 항목이 초기화됩니다. 단, ${tickspeedInfo}`;
 
-      if (this.bulk) return `Are you sure you want to purchase
-      ${quantifyInt("Antimatter Galaxy", this.newGalaxies)}? ${message}`;
-      return `Are you sure you want to purchase an Antimatter Galaxy? ${message}`;
+      if (this.bulk) return `반물질 은하 ${formatInt(this.newGalaxies)}개를 구매하시겠습니까? ${message}`;
+      return `반물질 은하를 구매하시겠습니까? ${message}`;
     }
   },
   created() {
