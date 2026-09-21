@@ -90,6 +90,10 @@ Update this file whenever a translation batch is committed. An area becomes `QA 
   attribution, font license, manifest, archive paths, and payload hash were verified in a layout test.
 - Repository publishing: connected `https://github.com/j3s30p/antimatter_ko.git` as the `korean` remote and pushed the
   `korean-localization` default branch. The repository front page now uses a Korean `README.md` only.
+- RC1 runtime package: rebuilt the latest source as `0.9.0-rc.1`, re-extracted it, and verified an exact app-bundle
+  hash match, 304 Greenworks sidecar files, Galmuri9, Korean NEWS/Nameless Ones/changelog markers, and absence of the
+  Endgame Skills marker. The payload was installed into the tester's Steam folder and relaunched with five responding
+  Electron processes. The copy-over release ZIP contains `resources/app.asar` and matches the manifest SHA-256.
 
 ## Steam packaging note
 
