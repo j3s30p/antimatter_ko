@@ -105,6 +105,18 @@ Update this file whenever a translation batch is committed. An area becomes `QA 
   ESLint passed, the ASAR was re-extracted with an exact bundle hash match and 304 Greenworks files, localized marker
   checks passed, and `0.9.0-rc.2` was installed and relaunched with five responding Electron processes. Manual
   late-game screen and layout QA remains in progress with the tester.
+- RC3 final-audit batch: localized recent-Eternity mode labels, Singularity milestone timing states, Dilation Study
+  import fallback, Dilation Upgrade next-value label, and completed V-Achievement navigation labels. Corrected the
+  tachyon background animation's translated-tab lookup, localized the Teresa Perk Shop cost unit, and changed all
+  Celestial H2P sidebar aliases to `테레사`, `에파리그`, `이름 없는 자들`, `V`, `라`, `라이텔라`, and `펠레`.
+  The three Lai'tela Dark Matter Dimension purchase buttons now use their existing vertical footprint more effectively
+  with a local six-rem height and tighter line height, preventing three-line Korean costs from being clipped without
+  changing the global font. Focused ESLint passed with only the pre-existing import-order warning in `src/game.js`;
+  the fresh translation audit reports 7,393 candidates, most of which are internal identifiers, code tokens, external
+  proper names, or intentionally preserved syntax rather than confirmed visible untranslated text. RC3 was built and
+  re-extracted with an exact app-bundle hash match; the installed ASAR hash matches the payload, the live Greenworks
+  sidecar remained at 304 files, and the game was launched from a confirmed zero-process state with exactly five
+  responsive Electron processes. The release ZIP was re-extracted and its payload hash matches the RC3 manifest.
 
 ## Steam packaging note
 

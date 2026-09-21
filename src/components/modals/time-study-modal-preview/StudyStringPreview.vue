@@ -100,7 +100,7 @@ export default {
         case TIME_STUDY_TYPE.NORMAL: case TIME_STUDY_TYPE.TRIAD: return `${study.id}`;
         case TIME_STUDY_TYPE.ETERNITY_CHALLENGE: return `EC${study.id}`;
       }
-      return "Dilation Study";
+      return "시간 팽창 연구";
     },
     getStudyForceBoughtState(studyStr) {
       if (!this.disregardCurrentStudies) return ForceBoughtState.unspecified;

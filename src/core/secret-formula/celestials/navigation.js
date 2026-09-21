@@ -921,7 +921,7 @@ export const celestialNavigation = {
       legend: {
         text: complete => {
           const name = VRunUnlocks.all[0].config.name;
-          if (complete >= 1) return `V-Achievement "${name}"`;
+          if (complete >= 1) return `V 도전과제 "${name}"`;
           const completions = VRunUnlocks.all[0].completions;
           return [
             "V 도전과제",
@@ -957,7 +957,7 @@ export const celestialNavigation = {
       legend: {
         text: complete => {
           const name = VRunUnlocks.all[1].config.name;
-          if (complete >= 1) return `V-Achievement "${name}"`;
+          if (complete >= 1) return `V 도전과제 "${name}"`;
           const completions = VRunUnlocks.all[1].completions;
           return [
             "V 도전과제",
@@ -993,7 +993,7 @@ export const celestialNavigation = {
       legend: {
         text: complete => {
           const name = VRunUnlocks.all[2].config.name;
-          if (complete >= 1) return `V-Achievement "${name}"`;
+          if (complete >= 1) return `V 도전과제 "${name}"`;
           const completions = VRunUnlocks.all[2].completions;
           return [
             "V 도전과제",
@@ -1029,7 +1029,7 @@ export const celestialNavigation = {
       legend: {
         text: complete => {
           const name = VRunUnlocks.all[3].config.name;
-          if (complete >= 1) return `V-Achievement "${name}"`;
+          if (complete >= 1) return `V 도전과제 "${name}"`;
           const completions = VRunUnlocks.all[3].completions;
           return [
             "V 도전과제",
@@ -1065,7 +1065,7 @@ export const celestialNavigation = {
       legend: {
         text: complete => {
           const name = VRunUnlocks.all[4].config.name;
-          if (complete >= 1) return `V-Achievement "${name}"`;
+          if (complete >= 1) return `V 도전과제 "${name}"`;
           const completions = VRunUnlocks.all[4].completions;
           return [
             "V 도전과제",
@@ -1101,7 +1101,7 @@ export const celestialNavigation = {
       legend: {
         text: complete => {
           const name = VRunUnlocks.all[5].config.name;
-          if (complete >= 1) return `V-Achievement "${name}"`;
+          if (complete >= 1) return `V 도전과제 "${name}"`;
           const completions = VRunUnlocks.all[5].completions;
           return [
             "V 도전과제",

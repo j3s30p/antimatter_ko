@@ -59,7 +59,7 @@ export default {
       <CostDisplay
         v-if="!isCapped"
         :config="upgrade.config"
-        name="Perk Point"
+        name="퍼크 포인트"
       />
     </button>
   </div>

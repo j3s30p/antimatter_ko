@@ -61,7 +61,7 @@ export const dilationUpgrades = {
       if (effect === 0) return `${formatX(getTachyonGalaxyMult(effect), 4, 4)}`;
       const nextEffect = effect === Math.pow(0.8, 37) ? 0 : 0.8 * effect;
       return `${formatX(getTachyonGalaxyMult(effect), 4, 4)} ➜
-        Next: ${formatX(getTachyonGalaxyMult(nextEffect), 4, 4)}`;
+        다음: ${formatX(getTachyonGalaxyMult(nextEffect), 4, 4)}`;
     },
     formatCost: value => format(value, 2),
     purchaseCap: 38

@@ -70,7 +70,7 @@ export default {
       Laitela.maxAllDMDimensions(4);
     },
     showLaitelaHowTo() {
-      ui.view.h2pForcedTab = GameDatabase.h2p.tabs.filter(tab => tab.alias === "Lai'tela")[0];
+      ui.view.h2pForcedTab = GameDatabase.h2p.tabs.filter(tab => tab.tab === "celestials/laitela")[0];
       Modal.h2p.show();
     },
   }

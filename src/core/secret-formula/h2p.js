@@ -1121,7 +1121,7 @@ ${formatInt(8)}분이라면, 첫 번째 블랙홀의 간격이 아무리 짧아�
       tab: "celestials/celestial-navigation"
     }, {
       name: "테레사, 현실의 셀레스티얼",
-      alias: "Teresa",
+      alias: "테레사",
       info: () => `
 테레사는 첫 번째 셀레스티얼입니다. 모든 현실 업그레이드를 얻어야 하는 도전과제 147을 달성하면 잠금
 해제됩니다.
@@ -1150,7 +1150,7 @@ ${Teresa.runCompleted
       tab: "celestials/teresa"
     }, {
       name: "에파리그, 고대 유물의 셀레스티얼",
-      alias: "Effarig",
+      alias: "에파리그",
       info: () => `
 에파리그는 두 번째로 만나는 셀레스티얼입니다. 테레사의 용기에 RM을 적어도
 ${format(TeresaUnlocks.effarig.price)}만큼 부으면 잠금 해제됩니다.
@@ -1260,7 +1260,7 @@ ${formatInt(6)}개 요구하면 힘 글리프가 선택되지 않습니다.
       tab: "celestials/glyphfilter"
     }, {
       name: "이름 없는 자들, 시간의 셀레스티얼",
-      alias: "Nameless Ones",
+      alias: "이름 없는 자들",
       info: () => `
 이름 없는 자들은 세 번째 셀레스티얼이며, 에파리그의 영원을 완료하면 해금됩니다.
 <br>
@@ -1389,7 +1389,7 @@ ${VUnlocks.vAchievementUnlock.isUnlocked
       tab: "celestials/v"
     }, {
       name: "라, 잊힌 자들의 셀레스티얼",
-      alias: "Ra",
+      alias: "라",
       info: () => `
 라는 다섯 번째 셀레스티얼이며, V의 도전과제를 모두 완료하면 잠금 해제됩니다. 라는 기억을 사용해 이전
 셀레스티얼의 긍정적인 효과를 더 강한 모습으로 되돌립니다. 진행하면서 라 <i>안에서</i> 이전 네 셀레스티얼을
@@ -1404,7 +1404,7 @@ ${VUnlocks.vAchievementUnlock.isUnlocked
 <br>
 <br>
 기억은 기억 조각 획득량 증가, 기억 획득량 증가, 셀레스티얼 레벨 상승의 세 가지 용도로 사용합니다. 라를
-시작할 때는 Teresa만 잠금 해제되어 있으며, 이전 셀레스티얼이 레벨 ${formatInt(8)}에 도달할 때마다 다음
+시작할 때는 테레사만 잠금 해제되어 있으며, 이전 셀레스티얼이 레벨 ${formatInt(8)}에 도달할 때마다 다음
 셀레스티얼이 잠금 해제됩니다. 레벨 상한은 ${formatInt(25)}입니다.
 <br>
 <br>
@@ -1525,7 +1525,7 @@ ${formatInt(2500)}개만 반응 속도 계산에 사용됩니다. 생산물이 $
       tab: "reality/imag_upgrades"
     }, {
       name: "라이텔라, 차원의 셀레스티얼",
-      alias: "Lai'tela",
+      alias: "라이텔라",
       info: () => `
 라이텔라는 여섯 번째 셀레스티얼이며, 허수 머신 ${format(ImaginaryUpgrade(15).cost)}개로 해당 허수 업그레이드를
 구매하면 잠금 해제됩니다.
@@ -1617,7 +1617,7 @@ ${formatInt(10)}배보다 <i>더 크게</i> 증가하거나 감소하므로, 기
 <br>
 종류와 별개로 각 마일스톤에는 일반적으로 어떤 업그레이드를 제공하는지 나타내는 아이콘도 있습니다.
 <br>
-<b>ᛝ</b> Lai'tela 전용 메커니즘을 돕는 마일스톤
+<b>ᛝ</b> 라이텔라 전용 메커니즘을 돕는 마일스톤
 <br>
 <i class="fas fa-arrows-alt"></i> 라이텔라의 자원이 게임의 나머지 부분에 영향을 주게 하는 마일스톤
 <br>
@@ -1628,7 +1628,7 @@ ${formatInt(10)}배보다 <i>더 크게</i> 증가하거나 감소하므로, 기
       tab: ""
     }, {
       name: "펠레, 반물질의 셀레스티얼",
-      alias: "Pelle",
+      alias: "펠레",
       info: () => `
 마지막 허수 업그레이드를 구매해 펠레를 잠금 해제하면 펠레 탭이 열리며, "현실을 파멸시키세요" 버튼을 찾을
 수 있습니다. 현실을 파멸시키려면 이 시점에 이용할 수 있는 도전과제 ${formatInt(17)}줄을 모두 완료하고 각
