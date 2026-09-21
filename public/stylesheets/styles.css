@@ -660,6 +660,8 @@ button:focus {
 }
 
 .c-ttshop__save-load-text {
+  white-space: nowrap;
+  flex-shrink: 0;
   font-size: 10px;
 }
 

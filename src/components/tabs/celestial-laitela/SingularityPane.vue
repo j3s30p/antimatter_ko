@@ -30,7 +30,7 @@ export default {
       if (this.canPerformSingularity) {
         return `${formText} 응축`;
       }
-      return `암흑 에너지 ${format(this.singularityCap)}에 도달하여 ${formText} 응축`;
+      return `암흑 에너지 ${format(this.singularityCap)}에 도달하면 ${formText} 응축`;
     },
     singularityWaitText() {
       let singularityTime = this.currentTimeToSingularity;
@@ -41,7 +41,8 @@ export default {
           ? `(${TimeSpan.fromSeconds(singularityTime).toStringShort()} 뒤 자동 응축)`
           : "(즉시 자동 응축)";
       }
-      return `(${TimeSpan.fromSeconds(singularityTime).toStringShort()} 뒤 암흑 에너지 충족)`;
+      if (!Number.isFinite(singularityTime)) return "(암흑 에너지 생산량이 없어 응축할 수 없음)";
+      return `(${TimeSpan.fromSeconds(singularityTime).toStringShort()} 후 응축 가능)`;
     },
     baseSingularityTime() {
       return TimeSpan.fromSeconds(this.baseTimeToSingularity).toStringShort();
@@ -123,7 +124,7 @@ export default {
   <div class="c-laitela-singularity-container">
     <div>
       <h2>
-        특이점을 {{ quantify("개", singularities, 2) }} 보유하고 있습니다.
+        보유한 특이점: {{ format(singularities, 2) }}개
       </h2>
       <button
         :class="condenseClassObject()"
@@ -140,7 +141,7 @@ export default {
     </div>
     <div v-if="singularities !== 0">
       <div class="o-laitela-matter-amount">
-        암흑 에너지를 {{ format(darkEnergy, 2, 4) }} 보유하고 있습니다. (+{{ format(darkEnergyGainPerSecond, 2, 4) }}/초)
+        암흑 에너지: {{ format(darkEnergy, 2, 4) }} (+{{ format(darkEnergyGainPerSecond, 2, 4) }}/초)
       </div>
       <div v-if="unlockedBulkSingularity">
         <button
@@ -160,9 +161,9 @@ export default {
           특이점 상한 증가
         </button>
         <br>
-        한 단계마다 필요한 암흑 에너지가 {{ formatX(10) }} 증가하지만,
+        상한을 한 단계 높일 때마다 필요한 암흑 에너지는 {{ formatX(10) }},
         <br>
-        획득하는 특이점도 {{ formatX(perStepFactor) }} 증가합니다.
+        획득하는 특이점은 {{ formatX(perStepFactor) }} 증가합니다.
       </div>
       <div v-else>
         <br>
@@ -172,17 +173,17 @@ export default {
         <br>
       </div>
       <br>
-      <span v-if="hasAutoSingularity">자동 </span>응축까지 걸리는 총 시간:
+      <span v-if="hasAutoSingularity">자동 </span>응축까지 예상 시간:
       {{ baseSingularityTime }}
       <span v-if="hasAutoSingularity && autoSingularityFactor !== 1">
         (+{{ additionalSingularityTime }})
       </span>
       <br>
       <span v-if="hasAutoSingularity && autoSingularityFactor !== 1">수동 </span>
-      특이점 획득 속도: {{ manualSingularityRate }}
+      특이점 수동 획득 속도: {{ manualSingularityRate }}
       <br>
       <span v-if="hasAutoSingularity && autoSingularityFactor !== 1">
-        자동 특이점 획득 속도: {{ autoSingularityRate }}
+        특이점 자동 획득 속도: {{ autoSingularityRate }}
       </span>
     </div>
   </div>

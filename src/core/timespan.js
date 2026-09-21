@@ -195,6 +195,7 @@ window.TimeSpan = class TimeSpan {
    * @returns {String}
    */
   toString() {
+    if (this._ms === Number.POSITIVE_INFINITY) return "무한";
     if (this.years > 1e6) {
       return `${format(this.totalYears, 3, 0)}년`;
     }
@@ -208,6 +209,7 @@ window.TimeSpan = class TimeSpan {
    * @returns {String}
    */
   toStringNoDecimals() {
+    if (this._ms === Number.POSITIVE_INFINITY) return "무한";
     const parts = [];
     function addCheckedComponent(value, unit) {
       if (value === 0) {
@@ -231,6 +233,7 @@ window.TimeSpan = class TimeSpan {
    * @returns {String}
    */
   toStringShort(useHMS = true, isSpeedrun = false) {
+    if (this._ms === Number.POSITIVE_INFINITY) return "무한";
     // Probably not worth the trouble of importing the isEND function from formatting since this accomplishes the same
     // thing; we do however need this to prevent strings like "02:32" from showing up though
     if (format(0) === "END" && !isSpeedrun) return "끝";
