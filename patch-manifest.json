@@ -1,0 +1,9 @@
+{
+  "patchVersion": "0.9.0-rc.4",
+  "gameVersion": "Steam 11.5",
+  "supportedOriginalSha256": [
+    "2F314EA099D23DBB8FC1921884BBCABCA6176079AF3E6C875AB4F40C82FC4B52"
+  ],
+  "patchedSha256": "512C84043F428D2FC6B9ECCCDC104A8A88CFDFFA3E7F2C922ED1A330164A26B6",
+  "minimumGreenworksFiles": 304
+}
