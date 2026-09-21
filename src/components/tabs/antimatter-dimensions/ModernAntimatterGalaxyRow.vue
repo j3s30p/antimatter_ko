@@ -29,16 +29,16 @@ export default {
   computed: {
     isDoomed: () => Pelle.isDoomed,
     dimName() {
-      return AntimatterDimension(this.requirement.tier).shortDisplayName;
+      return `${this.requirement.tier}차`;
     },
     buttonText() {
       if (this.lockText !== null) return this.lockText;
       const reset = [];
-      if (!Achievement(111).isUnlocked) reset.push("Dimensions");
-      if (!Achievement(143).isUnlocked) reset.push("Dimension Boosts");
+      if (!Achievement(111).isUnlocked) reset.push("차원");
+      if (!Achievement(143).isUnlocked) reset.push("차원 가속");
       return reset.length === 0
-        ? `Increase the power of Tickspeed upgrades`
-        : `Reset your ${makeEnumeration(reset)} to increase the power of Tickspeed upgrades`;
+        ? `틱스피드 업그레이드 효과 강화`
+        : `${reset.join(" 및 ")} 초기화 후 틱스피드 업그레이드 효과 강화`;
     },
     sumText() {
       const parts = [Math.max(this.galaxies.normal, 0)];
@@ -52,9 +52,9 @@ export default {
     },
     typeName() {
       switch (this.type) {
-        case GALAXY_TYPE.NORMAL: return "Antimatter Galaxies";
-        case GALAXY_TYPE.DISTANT: return "Distant Antimatter Galaxies";
-        case GALAXY_TYPE.REMOTE: return "Remote Antimatter Galaxies";
+        case GALAXY_TYPE.NORMAL: return "반물질 은하";
+        case GALAXY_TYPE.DISTANT: return "먼 반물질 은하";
+        case GALAXY_TYPE.REMOTE: return "외딴 반물질 은하";
       }
       return undefined;
     },
@@ -123,7 +123,7 @@ export default {
 <template>
   <div class="reset-container galaxy">
     <h4>{{ typeName }} ({{ sumText }})</h4>
-    <span>Requires: {{ formatInt(requirement.amount) }} {{ dimName }} Antimatter D</span>
+    <span>{{ dimName }} 반물질 차원 {{ formatInt(requirement.amount) }}개 필요</span>
     <span v-if="hasIncreasedScaling">{{ costScalingText }}</span>
     <button
       :class="classObject"

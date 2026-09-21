@@ -13,10 +13,19 @@ export default {
   },
   computed: {
     timeString() {
-      const localStr = timeDisplayShort(this.currentTime - this.lastLocalSave);
-      const cloudStr = timeDisplayShort(this.currentTime - this.lastCloudSave);
+      const localizeTime = value => timeDisplayShort(value)
+        .replace(" seconds", "초")
+        .replace(" second", "초")
+        .replace(" minutes", "분")
+        .replace(" minute", "분")
+        .replace(" hours", "시간")
+        .replace(" hour", "시간")
+        .replace(" days", "일")
+        .replace(" day", "일");
+      const localStr = localizeTime(this.currentTime - this.lastLocalSave);
+      const cloudStr = localizeTime(this.currentTime - this.lastCloudSave);
       return this.cloudSaveEnabled
-        ? `${localStr} (local) | ${cloudStr} (cloud)`
+        ? `${localStr} (로컬) | ${cloudStr} (클라우드)`
         : localStr;
     },
   },
@@ -42,8 +51,8 @@ export default {
     class="o-save-timer"
     @click="save"
   >
-    <b v-if="saveDisabled">There is nothing left to save.</b>
-    <span v-else>Time since last save: {{ timeString }}</span>
+    <b v-if="saveDisabled">더 이상 저장할 내용이 없습니다.</b>
+    <span v-else>마지막 저장 후 경과 시간: {{ timeString }}</span>
   </div>
 </template>
 

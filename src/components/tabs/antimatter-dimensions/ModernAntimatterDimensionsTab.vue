@@ -70,7 +70,7 @@ export default {
     },
     getUntil10Display() {
       if (this.isContinuumActive) return "Continuum";
-      return this.buyUntil10 ? "Until 10" : "Buy 1";
+      return this.buyUntil10 ? "10개까지" : "1개 구매";
     },
     update() {
       this.hasDimensionBoosts = player.dimensionBoosts > 0;
@@ -84,7 +84,7 @@ export default {
 
       this.buy10Mult.copyFrom(AntimatterDimensions.buyTenMultiplier);
 
-      this.multiplierText = `Buy 10 Dimension purchase multiplier: ${formatX(this.buy10Mult, 2, 2)}`;
+      this.multiplierText = `차원 10개 구매 배율: ${formatX(this.buy10Mult, 2, 2)}`;
       if (!isSacrificeUnlocked) return;
       this.isFullyAutomated = Autobuyer.sacrifice.isActive && Achievement(118).isUnlocked;
       this.isSacrificeAffordable = Sacrifice.canSacrifice && !this.isFullyAutomated;
@@ -126,7 +126,7 @@ export default {
         class="o-primary-btn l-button-container"
         @click="maxAll"
       >
-        Max All (M)
+        모두 최대 구매 (M)
       </button>
     </div>
     <span>{{ multiplierText }}</span>
@@ -157,7 +157,7 @@ export default {
 
 <style scoped>
 .l-button-container {
-  width: 100px;
+  width: 130px;
   height: 30px;
   padding: 0;
 }

@@ -130,26 +130,26 @@ export class DimBoost {
 
     let newUnlock = "";
     if (!allNDUnlocked && boosts < DimBoost.maxDimensionsUnlockable - 4) {
-      newUnlock = `unlock the ${boosts + 5}th Dimension`;
+      newUnlock = `${boosts + 5}차 차원 해금`;
     } else if (boosts === 4 && !NormalChallenge(10).isRunning && !EternityChallenge(3).isRunning) {
-      newUnlock = "unlock Sacrifice";
+      newUnlock = "차원 희생 해금";
     }
 
-    const formattedMultText = `give a ${formatX(DimBoost.power, 2, 1)} multiplier `;
-    let dimensionRange = `to the 1st Dimension`;
-    if (boosts > 0) dimensionRange = `to Dimensions 1-${Math.min(boosts + 1, 8)}`;
-    if (boosts >= DimBoost.maxDimensionsUnlockable - 1) dimensionRange = `to all Dimensions`;
+    const formattedMultText = `${formatX(DimBoost.power, 2, 1)} 배율 적용`;
+    let dimensionRange = `1차 차원에`;
+    if (boosts > 0) dimensionRange = `1-${Math.min(boosts + 1, 8)}차 차원에`;
+    if (boosts >= DimBoost.maxDimensionsUnlockable - 1) dimensionRange = `모든 차원에`;
 
     let boostEffects;
     if (NormalChallenge(8).isRunning) boostEffects = newUnlock;
-    else if (newUnlock === "") boostEffects = `${formattedMultText} ${dimensionRange}`;
-    else boostEffects = `${newUnlock} and ${formattedMultText} ${dimensionRange}`;
+    else if (newUnlock === "") boostEffects = `${dimensionRange} ${formattedMultText}`;
+    else boostEffects = `${newUnlock} 및 ${dimensionRange} ${formattedMultText}`;
 
-    if (boostEffects === "") return "Dimension Boosts are currently useless";
+    if (boostEffects === "") return "현재 차원 가속의 효과가 없습니다";
     const areDimensionsKept = (Perk.antimatterNoReset.isBought || Achievement(111).canBeApplied) &&
       (!Pelle.isDoomed || PelleUpgrade.dimBoostResetsNothing.isBought);
-    if (areDimensionsKept) return boostEffects[0].toUpperCase() + boostEffects.substring(1);
-    return `Reset your Dimensions to ${boostEffects}`;
+    if (areDimensionsKept) return boostEffects;
+    return `차원을 초기화하고 ${boostEffects}`;
   }
 
   static get purchasedBoosts() {

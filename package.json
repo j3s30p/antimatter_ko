@@ -6,6 +6,7 @@
     "build:release": "node build/pre-build.js && vue-cli-service build && node build/post-build.js",
     "build:steam-development": "node build/pre-build.js && vue-cli-service build --mode steam-development",
     "build:steam-release": "node build/pre-build.js && vue-cli-service build --mode steam-release",
+    "audit:ko": "node tools/translation-audit.cjs",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {

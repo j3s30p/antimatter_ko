@@ -37,7 +37,7 @@ export default {
   computed: {
     isDoomed: () => Pelle.isDoomed,
     name() {
-      return `${AntimatterDimension(this.tier).shortDisplayName} Antimatter Dimension`;
+      return `${this.tier}차 반물질 차원`;
     },
     costDisplay() {
       return this.buyUntil10 ? format(this.until10Cost) : format(this.singleCost);
@@ -57,16 +57,16 @@ export default {
       return `${AntimatterDimension(this.tier - 2).shortDisplayName} AD`;
     },
     buttonPrefix() {
-      if (!this.isUnlocked) return "Locked";
+      if (!this.isUnlocked) return "잠김";
       if (this.isCapped) return "Shattered by Nameless";
       if (this.isContinuumActive) return "Continuum: ";
-      return `Buy ${formatInt(this.howManyCanBuy)}`;
+      return `${formatInt(this.howManyCanBuy)}개 구매`;
     },
     buttonValue() {
       if (this.isCapped) return "";
       if (this.isContinuumActive) return this.continuumString;
-      const prefix = this.showCostTitle(this.buyUntil10 ? this.until10Cost : this.singleCost) ? "Cost: " : "";
-      const suffix = this.isCostsAD ? this.costUnit : "AM";
+      const prefix = this.showCostTitle(this.buyUntil10 ? this.until10Cost : this.singleCost) ? "비용: " : "";
+      const suffix = this.isCostsAD ? this.costUnit : "반물질";
       return `${prefix}${this.costDisplay} ${suffix}`;
     },
     hasLongText() {

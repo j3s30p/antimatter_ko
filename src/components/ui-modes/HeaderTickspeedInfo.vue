@@ -17,12 +17,12 @@ export default {
   },
   computed: {
     tickspeedDisplay() {
-      return `Total Tickspeed: ${format(this.tickspeed, 2, 3)} / sec`;
+      return `전체 틱스피드: ${format(this.tickspeed, 2, 3)} /초`;
     },
     perUpgrade() {
-      if (InfinityChallenge(3).isRunning) return `Tickspeed upgrades give
-        ${formatX(1.05 + this.galaxyCount * 0.005, 3, 3)} to all ADs`;
-      return `ADs produce ${formatX(this.mult.reciprocal(), 2, 3)} faster per Tickspeed upgrade`;
+      if (InfinityChallenge(3).isRunning) return `틱스피드 업그레이드마다 모든 반물질 차원에
+        ${formatX(1.05 + this.galaxyCount * 0.005, 3, 3)} 배율 적용`;
+      return `틱스피드 업그레이드마다 반물질 차원의 생산 속도 ${formatX(this.mult.reciprocal(), 2, 3)} 증가`;
     },
   },
   methods: {

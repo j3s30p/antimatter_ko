@@ -4,5 +4,6 @@ dist
 .vscode
 .idea
 node_modules
+translation-audit.json
 .eslintrc.js
 .DS_Store

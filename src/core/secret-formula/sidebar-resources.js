@@ -11,7 +11,7 @@ export const sidebarResources = [
   },
   {
     id: 2,
-    optionName: "Antimatter",
+    optionName: "반물질",
     isAvailable: () => true,
     value: () => Currency.antimatter.value,
     formatValue: x => format(x, 2, 1),

@@ -30,10 +30,10 @@ export default {
       if (InfinityChallenge(3).isRunning) return `Multiply all Antimatter Dimensions by
         ${formatX(1.05 + this.galaxyCount * 0.005, 3, 3)}`;
       const tickmult = this.mult;
-      return `${formatX(tickmult.reciprocal(), 2, 3)} faster / upgrade.`;
+      return `업그레이드마다 ${formatX(tickmult.reciprocal(), 2, 3)} 빨라짐`;
     },
     tickspeedDisplay() {
-      return `Tickspeed: ${format(this.tickspeed, 2, 3)} / sec`;
+      return `틱스피드: ${format(this.tickspeed, 2, 3)} /초`;
     },
     continuumString() {
       return formatFloat(this.continuumValue, 2);
@@ -85,13 +85,13 @@ export default {
         onclick="buyTickSpeed()"
       >
         <span v-if="isContinuumActive">
-          Tickspeed Continuum: {{ continuumString }}
+          틱스피드 연속체: {{ continuumString }}
         </span>
         <span v-else-if="isEC9">
-          Tickspeed Unpurchasable (EC 9)
+          틱스피드 구매 불가 (영원 도전 9)
         </span>
         <span v-else>
-          Tickspeed Cost: {{ format(cost) }}
+          틱스피드 비용: {{ format(cost) }}
         </span>
         <div
           v-if="hasTutorial"
@@ -104,7 +104,7 @@ export default {
         :class="{ 'o-primary-btn--disabled': !isAffordable && !isContinuumActive }"
         onclick="buyMaxTickSpeed()"
       >
-        Buy Max
+        최대 구매
       </button>
     </div>
     <div
