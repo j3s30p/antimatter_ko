@@ -44,15 +44,15 @@ export default {
     :class="classObject"
     @click="upgradeInterval"
   >
-    {{ formatPercents(0.4) }} smaller interval
+    간격 {{ formatPercents(0.4) }} 감소
     <br>
-    Cost: {{ format(cost, 2) }} IP
+    비용: {{ format(cost, 2) }} IP
   </button>
   <button
     v-else-if="!isMaxed"
     class="o-autobuyer-btn l-autobuyer-box__button o-autobuyer-btn--unavailable"
   >
-    Complete the challenge to upgrade interval
+    도전을 완료하면 간격을 강화할 수 있습니다
   </button>
 </template>
 

@@ -18,14 +18,14 @@ export default {
   },
   computed: {
     header() {
-      return `Edit Autobuyers`;
+      return `자동 구매기 편집`;
     },
     message() {
       // We have to have this edge-case due to a weird happening where you could open this modal
       // during the Reality animation, which would then show an empty modal.
       return Autobuyers.hasAutobuyersForEditModal
-        ? `Using this modal, you can edit various values inside your autobuyers.`
-        : `You currently have no autobuyers which could be shown here.`;
+        ? `이 창에서 여러 자동 구매기의 설정값을 한꺼번에 편집할 수 있습니다.`
+        : `현재 이곳에 표시할 수 있는 자동 구매기가 없습니다.`;
     },
   },
 };

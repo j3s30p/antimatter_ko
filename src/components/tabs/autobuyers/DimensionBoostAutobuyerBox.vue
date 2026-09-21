@@ -53,7 +53,7 @@ export default {
     :autobuyer="autobuyer"
     :is-modal="isModal"
     :show-interval="!isBuyMaxUnlocked"
-    name="Automatic Dimension Boosts"
+    name="차원 부스트 자동 구매기"
   >
     <template
       v-if="!hasMaxedInterval"
@@ -69,7 +69,7 @@ export default {
         class="c-autobuyer-box__small-text"
       >
         <br>
-        Activates every X seconds:
+        X초마다 작동:
       </div>
       <AutobuyerInput
         :autobuyer="autobuyer"
@@ -89,7 +89,7 @@ export default {
           type="checkbox"
           class="o-clickable"
         >
-        Limit Dimension Boosts to:
+        차원 부스트 상한:
       </label>
       <AutobuyerInput
         :autobuyer="autobuyer"
@@ -107,12 +107,12 @@ export default {
           class="o-clickable"
         >
         <span v-if="isBuyMaxUnlocked">
-          Only Dimboost to unlock new<br>
-          Dimensions until X Galaxies:
+          은하가 X개일 때까지 새 차원<br>
+          해금에 필요한 부스트만 구매:
         </span>
         <span v-else>
-          Galaxies required to always<br>
-          Dimboost, ignoring the limit:
+          상한을 무시하고 항상 부스트할<br>
+          최소 은하 수:
         </span>
       </label>
       <AutobuyerInput

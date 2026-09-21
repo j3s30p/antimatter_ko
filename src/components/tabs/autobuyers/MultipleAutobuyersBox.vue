@@ -33,6 +33,18 @@ export default {
     name() {
       return this.type.groupName;
     },
+    displayName() {
+      return {
+        "Antimatter Dimension": "반물질 차원",
+        "Infinity Dimension": "무한 차원",
+        "Time Dimension": "시간 차원",
+        "Replicanti Upgrade": "복제자 강화",
+        "Dilation Upgrade": "시간 팽창 강화",
+        "Black Hole Power": "블랙홀 위력",
+        "Reality Upgrade": "리얼리티 강화",
+        "Imaginary Upgrade": "상상 강화"
+      }[this.name] ?? this.name;
+    },
     entryCount() {
       return this.type.entryCount;
     },
@@ -77,11 +89,11 @@ export default {
   >
     <AutobuyerGroupToggleLabel
       :is-active="parentActive"
-      :name="name"
+      :name="displayName"
       @click="toggleGroup"
     />
     <div class="l-autobuyer-box__title">
-      {{ name }}<br>Autobuyers
+      {{ displayName }}<br>자동 구매기
       <!-- If we're showing as a group, then all attributes are the same and we can arbitrarily take the first one -->
       <AutobuyerIntervalLabel
         v-if="displayLabelAsGroup"
@@ -111,9 +123,9 @@ export default {
     v-else-if="isADBox && continuumActive"
     class="c-autobuyer-box-row"
   >
-    Continuum replaces your Antimatter Dimension and Tickspeed Autobuyers, as your production multipliers
+    연속체는 반물질 차원 및 틱 속도 자동 구매기를 대체합니다. 생산 배율이 원래 구매했을
     <br>
-    now automatically and continuously scale based on how many purchases you would have had otherwise.
+    횟수를 기준으로 자동으로 끊김 없이 증가합니다.
   </span>
 </template>
 

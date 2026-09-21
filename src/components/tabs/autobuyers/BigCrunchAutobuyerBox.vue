@@ -57,21 +57,21 @@ export default {
     modeProps(mode) {
       switch (mode) {
         case AUTO_CRUNCH_MODE.AMOUNT: return {
-          title: "Big Crunch at X IP",
+          title: "X IP에서 빅 크런치",
           input: {
             property: "amount",
             type: "decimal"
           },
         };
         case AUTO_CRUNCH_MODE.TIME: return {
-          title: "Seconds between Crunches",
+          title: "크런치 사이의 초",
           input: {
             property: "time",
             type: "float"
           },
         };
         case AUTO_CRUNCH_MODE.X_HIGHEST: return {
-          title: "X times highest IP",
+          title: "최고 IP의 X배",
           input: {
             property: "xHighest",
             type: "decimal"
@@ -92,7 +92,7 @@ export default {
     :autobuyer="autobuyer"
     :show-interval="!postBreak"
     :is-modal="isModal"
-    name="Automatic Big Crunch"
+    name="빅 크런치 자동 구매기"
   >
     <template
       v-if="!hasMaxedInterval"
@@ -110,7 +110,7 @@ export default {
       >
         <template #header>
           <div class="o-primary-btn c-autobuyer-box__mode-select c-autobuyer-box__mode-select-header">
-            ▼ Current Setting: ▼
+            ▼ 현재 설정 ▼
             <br>
             {{ modeName(mode) }}
           </div>
@@ -149,7 +149,7 @@ export default {
           type="checkbox"
           class="o-clickable"
         >
-        Dynamic amount
+        동적 수량
       </label>
     </template>
   </AutobuyerBox>

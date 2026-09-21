@@ -100,10 +100,10 @@ export default {
     },
     achievedTime() {
       if (!player.speedrun.isActive) return null;
-      if (this.achievementTime === undefined) return "Not Achieved yet";
+      if (this.achievementTime === undefined) return "아직 달성하지 않음";
       return this.achievementTime === 0
-        ? "Given at Speedrun start"
-        : `Achieved after ${TimeSpan.fromMilliseconds(this.achievementTime).toStringShort()}`;
+        ? "스피드런 시작 시 지급됨"
+        : `${TimeSpan.fromMilliseconds(this.achievementTime).toStringShort()} 후 달성`;
     }
   },
   beforeDestroy() {
@@ -203,7 +203,7 @@ export default {
             v-if="!isObscured"
             :class="{ 'o-pelle-disabled': isDisabled }"
           >
-            Reward: {{ config.reward }}
+            보상: {{ config.reward }}
             <EffectDisplay
               v-if="config.formatEffect"
               br
