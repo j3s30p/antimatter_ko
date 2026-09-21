@@ -4306,23 +4306,23 @@ export const news = [
   },
   {
     id: "ai263",
-    text: "Press F to pay respects (F를 눌러 조의를 표하라는 유명 게임 밈)"
+    text: "F를 눌러 조의를 표하세요."
   },
   {
     id: "ai264",
-    text: "Press M to pay antimatter (M을 눌러 반물질을 내라는 밈 변형)"
+    text: "M을 눌러 반물질을 지불하세요."
   },
   {
     id: "ai265",
-    text: "Press L to revive the dead (L을 눌러 죽은 자를 되살리라는 밈 변형)"
+    text: "L을 눌러 죽은 자를 되살리세요."
   },
   {
     id: "ai266",
-    text: "Your CPU is too powerful. You need to give it a big crunch. (CPU가 너무 강하니 빅 크런치를 시키라는 게임 용어 농담)"
+    text: "CPU가 너무 강력합니다. 빅 크런치를 시켜야 합니다."
   },
   {
     id: "ai267",
-    text: "Roses are red. Violett are blue. Tom are red. Antimatter are blue. We exist because of the unbeatable antimatter that is antimatter. What is it that makes us different? I don't know. It may even be the non-existence of antimatter. (장미는 붉고 제비꽃은 푸르다는 시를 반물질과 존재에 관한 난해한 문장으로 바꾼 패러디)"
+    text: "장미는 붉고, 제비꽃은 푸르고, Tom은 붉고, 반물질은 푸릅니다. 우리는 반물질인 무적의 반물질 덕분에 존재합니다. 우리를 다르게 만드는 것은 무엇일까요? 모르겠습니다. 어쩌면 반물질이 존재하지 않는다는 사실일지도 모릅니다."
   },
   {
     id: "ai268",
@@ -4342,7 +4342,7 @@ export const news = [
   },
   {
     id: "ai272",
-    text: "Instructions clear, got a ninth dimension epiphany (지시를 잘 이해해서 아홉 번째 차원의 깨달음을 얻었다는 밈)"
+    text: "지시를 명확히 이해했고, 제9차원에 관한 깨달음을 얻었습니다."
   },
   {
     id: "ai273",
@@ -4362,7 +4362,7 @@ export const news = [
   },
   {
     id: "ai277",
-    text: "Oh, hevi is coming to town to pick a new plumber (Hevi가 새 배관공을 고르러 마을에 온다는 노래 패러디)"
+    text: "오, Hevi가 새 배관공을 고르러 마을에 옵니다."
   },
   {
     id: "ai278",
@@ -4386,15 +4386,15 @@ export const news = [
   },
   {
     id: "ai283",
-    text: "What if you Unrar, renamed, and renamed again did it again? Ha? You thought that. (압축을 풀고 이름을 바꾸고 또 바꾼 다음 다시 하면 어떨까요? 하? 그렇게 생각했나요.)"
+    text: "압축을 풀고 이름을 바꾸고 또 바꾼 다음 다시 해 보면 어떨까요? 하? 그렇게 생각했나요."
   },
   {
     id: "ai284",
-    text: "i titled my post \"same ticker\" instead of \"the same idea\" because i actually changed the grammar in that post but i'll be eterned for the sake of argument that it seems slightly confusing for now - boo (글의 문법을 바꿔서 제목을 '같은 아이디어' 대신 '같은 티커'라고 붙였지만 지금은 조금 헷갈려 보인다는 뜻)"
+    text: "그 글의 문법을 실제로 바꿨기 때문에 제목을 \"같은 아이디어\" 대신 \"같은 티커\"라고 붙였지만, 일단 조금 헷갈려 보인다는 주장에 영원하겠습니다. - Boo"
   },
   {
     id: "ai285",
-    text: "i title my suggestions \"The Price Is Right\" instead of \"The 9th Dimension\" because it's more fun ;) (더 재미있어서 제안 제목을 “아홉 번째 차원” 대신 “가격이 딱 맞아”라고 붙인다는 유명 프로그램 제목 패러디입니다.)"
+    text: "더 재미있으니까 제안 제목을 \"제9차원\" 대신 \"가격이 딱 맞아\"라고 붙입니다 ;)"
   },
   {
     id: "ai286",
@@ -4410,7 +4410,7 @@ export const news = [
   },
   {
     id: "ai289",
-    text: "Infinity is just a concept. Matter antimatters is just an idle game. (무한은 개념일 뿐이고 Matter antimatters는 방치형 게임일 뿐이라는 말장난)"
+    text: "무한은 그저 개념일 뿐입니다. Matter antimatters는 그저 방치형 게임일 뿐입니다."
   },
   {
     id: "ai290",
@@ -4418,7 +4418,7 @@ export const news = [
   },
   {
     id: "ai291",
-    text: "Have you heard of the nine hells of antimatter? I heard they're pretty cool.\" -e210 in Minecraft (반물질의 아홉 지옥이 꽤 멋지다는 Minecraft 속 화자의 말)"
+    text: "\"반물질의 아홉 지옥에 관해 들어 봤나요? 꽤 멋지다고 하던데요.\" - Minecraft의 e210"
   },
   {
     id: "ai292",
@@ -4434,7 +4434,7 @@ export const news = [
   },
   {
     id: "ai295",
-    text: "If the universe is expanding, does it anti-explain the distance? (우주가 팽창하면 거리를 반대로 설명하느냐는 expand와 explain 말장난)"
+    text: "우주가 팽창(expanding)한다면, 거리를 반대로 설명(anti-explain)하는 걸까요?"
   },
   {
     id: "ai296",
@@ -4458,7 +4458,7 @@ export const news = [
   },
   {
     id: "ai301",
-    text: "If antimatter were to fall in a dimension with no one around, did anything even happen? (아무도 없는 차원에서 반물질이 떨어졌다면 정말 무슨 일이 일어난 것이냐는 철학적 질문 패러디)"
+    text: "아무도 없는 차원에서 반물질이 떨어졌다면, 정말 무슨 일이 일어난 걸까요?"
   },
   {
     id: "ai302",
@@ -4630,7 +4630,7 @@ export const news = [
   },
   {
     id: "ai344",
-    text: "What is Antimatteraltruist? (Antimatter와 altruist를 합친 말이 무엇인지 묻는 말장난)"
+    text: "반물질이타주의자(Antimatteraltruist)란 무엇일까요?"
   },
   {
     id: "ai345",
@@ -4642,7 +4642,7 @@ export const news = [
   },
   {
     id: "ai347",
-    text: "An anti-bird is a bird, and a bird is a plane. (반-새는 새이고 새는 비행기라는 Superman 대사 패러디)"
+    text: "안티 새는 새이고, 새는 비행기입니다."
   },
   {
     id: "ai348",
@@ -4650,15 +4650,15 @@ export const news = [
   },
   {
     id: "ai349",
-    text: "Shoutouts to Simpleflips for the simple tip. (간단한 팁을 준 Simpleflips에게 감사한다는 이름 말장난)"
+    text: "간단한 팁을 준 Simpleflips에게 감사드립니다."
   },
   {
     id: "ai350",
-    text: "GET CRUNCH BOI (어서 빅 크런치하라는 밈투의 외침)"
+    text: "크런치해라, 얘야!"
   },
   {
     id: "ai351",
-    text: "Word gets out. Crunch. Crunch. (소문이 퍼지고 크런치를 반복한다는 짧은 말장난)"
+    text: "소문이 퍼집니다. 크런치. 크런치."
   },
   {
     id: "ai352",
@@ -4674,7 +4674,7 @@ export const news = [
   },
   {
     id: "ai355",
-    text: "To Crunch in Hell is to get the secret to unlocking the 9th dimension. You need to study and practice alot. (지옥에서 크런치하면 아홉 번째 차원을 여는 비밀을 얻으니 많이 공부하고 연습하라는 뜻)"
+    text: "지옥에서 크런치하면 제9차원을 해금하는 비밀을 얻습니다. 많이 공부하고 연습해야 합니다."
   },
   {
     id: "ai356",
@@ -4694,7 +4694,7 @@ export const news = [
   },
   {
     id: "ai360",
-    text: "Press alt+f4 to get -1 gravity (게임 종료 단축키를 누르면 음의 중력을 얻는다는 장난)"
+    text: "Alt+F4를 눌러 중력 -1을 얻으세요."
   },
   {
     id: "ai361",
@@ -4702,7 +4702,7 @@ export const news = [
   },
   {
     id: "ai362",
-    text: "calculating the 14-point increase is like crunching, but exponentially more fun (열네 포인트 증가량 계산은 크런치와 비슷하지만 지수적으로 더 재미있다는 수학 말장난)"
+    text: "14포인트 증가량 계산은 크런치와 비슷하지만, 지수적으로 더 재미있습니다."
   },
   {
     id: "ai363",
@@ -4754,7 +4754,7 @@ export const news = [
   },
   {
     id: "ai375",
-    text: "This was my last chance. last chance salutes. (이것이 마지막 기회였고 마지막 기회가 경례한다는 말장난)"
+    text: "이것이 내 마지막 기회였다. 마지막 기회가 경례한다."
   },
   {
     id: "ai376",
@@ -4818,7 +4818,7 @@ export const news = [
   },
   {
     id: "ai391",
-    text: "'Sup? (별일 없냐는 짧은 인사)"
+    text: "별일 없죠?"
   },
   {
     id: "ai392",
@@ -4838,7 +4838,7 @@ export const news = [
   },
   {
     id: "ai396",
-    text: "No one is anti-Margaret any more. (이제 아무도 Margaret에게 반대하지 않는다는 anti 말장난)"
+    text: "이제 아무도 Margaret에게 반대(anti)하지 않습니다."
   },
   {
     id: "ai397",
@@ -4878,7 +4878,7 @@ export const news = [
   },
   {
     id: "ai406",
-    text: "Of what use is the phrase \"I be I be I\" if not to describe your thoughts? (생각을 표현하는 데 쓰지 않는다면 이 말이 무슨 소용이냐는 뜻)"
+    text: "생각을 표현하는 데 쓰지 않는다면 \"나는 나는 나\"라는 문구가 무슨 소용일까요?"
   },
   {
     id: "ai407",
@@ -4906,7 +4906,7 @@ export const news = [
   },
   {
     id: "ai413",
-    text: "OY, NAY, NAY -HEVI, THE TRANSFORMER (어이, 아니, 아니—변신하는 HEVI라는 뜻)"
+    text: "어이, 아니, 아니 - 변신로봇 HEVI"
   },
   {
     id: "ai414",
@@ -4914,7 +4914,7 @@ export const news = [
   },
   {
     id: "ai415",
-    text: "Is Antimatter Dimensions an anagram of Antimatter Dimensions? (Antimatter Dimensions를 재배열하면 똑같은 Antimatter Dimensions가 되느냐는 자문자답)"
+    text: "Antimatter Dimensions는 Antimatter Dimensions의 애너그램인가요?"
   },
   {
     id: "ai416",
@@ -4942,7 +4942,7 @@ export const news = [
   },
   {
     id: "ai422",
-    text: "Imagine being a news ticker. (자신이 뉴스 티커라고 상상해 보라는 뜻)"
+    text: "뉴스 티커가 되었다고 상상해 보세요."
   },
   {
     id: "ai423",
@@ -4962,7 +4962,7 @@ export const news = [
   },
   {
     id: "ai427",
-    text: "What is Antimatter? Does any of that matter? Will this galaxy be annihilated in the next ticker? (반물질이 무엇인지, 그게 중요한지, 다음 티커에서 은하가 소멸할지를 묻는 말장난)"
+    text: "반물질이란 무엇일까요? 그게 중요하기는(matter) 할까요? 다음 티커에서 이 은하는 쌍소멸할까요?"
   },
   {
     id: "ai428",
@@ -4970,11 +4970,11 @@ export const news = [
   },
   {
     id: "ai429",
-    text: "\"Finally, I'll get paid to write something funny for my toast!\" - Bacon sea urchin (드디어 내 토스트에 넣을 재미있는 글을 쓰고 돈도 받는다는 뜻)"
+    text: "\"드디어 내 토스트에 넣을 재미있는 글을 쓰고 돈도 받겠군!\" - 베이컨 성게"
   },
   {
     id: "ai430",
-    text: "Bacon is toast. You can toast bacon. (베이컨은 토스트이고 베이컨을 구울 수도 있다는 중의적 말장난)"
+    text: "베이컨은 토스트입니다. 베이컨을 구울(toast) 수도 있습니다."
   },
   {
     id: "ai431",
@@ -5002,11 +5002,11 @@ export const news = [
   },
   {
     id: "ai437",
-    text: "Gee, all this antimatter is clogging up my kitchen and now I can't cook myself a meal! What to do: cook myself a meal that will last me until the next big antimatter event, when I can get my infinity point back? My infinty point is running out, and I can't get it to finish running, so I'm starving! (이런, 반물질이 주방을 막아 식사를 만들 수가 없네요! 다음 대형 반물질 사건까지 버틸 식사를 만들어 그때 무한 포인트를 되찾아야 할까요? 무한 포인트가 바닥나고 있는데 달리기를 끝내게 할 수도 없어서 굶고 있다는 running 말장난입니다.)"
+    text: "이런, 반물질이 주방을 막아 식사를 만들 수가 없네요! 다음 대형 반물질 사건까지 버틸 식사를 만들어 그때 무한 포인트를 되찾아야 할까요? 무한 포인트가 바닥나고(running out) 있는데 달리기를 끝내게 할 수도 없어서 굶고 있습니다!"
   },
   {
     id: "ai438",
-    text: "Brought to you by AAAD-Brand Repli-candy! Infinite candy for an infinty drool-worthy cold! Contains no milk, cookies or butter. One second to midnight. (AAAD표 복제 사탕 광고로, 우유와 쿠키와 버터가 없으며 자정까지 일 초 남았다는 뜻)"
+    text: "AAAD표 복제 사탕이 후원합니다! 무한히 군침 도는 감기를 위한 무한 사탕! 우유, 쿠키, 버터는 들어 있지 않습니다. 자정까지 1초."
   },
   {
     id: "ai439",
@@ -5026,7 +5026,7 @@ export const news = [
   },
   {
     id: "ai443",
-    text: "gravity = psychoactive (중력은 향정신성이라는 뜻)"
+    text: "중력 = 향정신성"
   },
   {
     id: "ai444",
