@@ -373,186 +373,186 @@ Android 리얼리티 업데이트 출시를 축하합니다! 이 큰 이정표�
   },
   {
     date: [2023, 2, 22],
-    name: "Visuals and Code prep",
+    name: "시각 요소와 코드 준비",
     info: `
-<b>Big Changes:</b><br>
+<b>큰 변경 사항:</b><br>
 <ul>
-<li>Cloud saving now only saves one slot at a time and does so every 10 minutes instead of every 5.
-  <b>If you are using the Cloud, please back up your saves locally just in case. This was hard to thoroughly
-  test and we don't want you to lose your saves.</b></li>
-<li>Please update your theme to v10 for the best user experience (added a new secret theme)</li>
-<li>Blobs now have color in the font file</li>
-<li>Changed recent prestige page to be an organized table with more information</li>
-<li>Multiversal effect should no longer cause a UI softlock if the game processes too slowly</li>
-<li>Lots of changes on the backend and Github repository in preparation for making the game open-source</li>
+<li>클라우드 저장은 한 번에 슬롯 하나만 저장하며 주기를 5분에서 10분으로 변경.
+  <b>클라우드를 사용한다면 만일을 대비해 저장 파일을 로컬에도 백업해 주세요. 철저한 테스트가 어려웠으며
+  여러분의 저장 파일이 손실되는 일을 원하지 않습니다.</b></li>
+<li>최상의 환경을 위해 테마를 v10으로 갱신해 주세요(새 비밀 테마 추가)</li>
+<li>폰트 파일의 블롭에 색상 추가</li>
+<li>최근 명성 초기화 페이지를 더 많은 정보가 담긴 정돈된 표로 변경</li>
+<li>게임 처리가 너무 느릴 때 다중우주 효과로 UI가 멈추지 않도록 수정</li>
+<li>게임의 오픈 소스화를 준비하기 위해 백엔드와 GitHub 저장소를 대대적으로 변경</li>
 </ul>
 <br>
 
-<b>New QoL/features:</b><br>
+<b>새 편의 기능:</b><br>
 <ul>
-<li>5xEP now always triggers before TD autobuyers</li>
-<li>Added time and relic shard modes for auto-reality</li>
-<li>Added tracking for total time across full game completions</li>
-<li>Changed some default player properties to make poor game behavior less likely</li>
-<li>Added an option to invert generated/total TT in study tab</li>
-<li>Expanded info for optimizing prestige for resource/time</li>
-<li>Added a new animation for inverted black holes</li>
+<li>영원 포인트 5배 구매가 항상 시간 차원 자동구매기보다 먼저 작동</li>
+<li>자동 리얼리티에 시간 및 유물 파편 모드 추가</li>
+<li>게임 완전 완료를 넘어선 총 시간 추적 추가</li>
+<li>잘못된 게임 동작 가능성을 줄이도록 일부 플레이어 속성의 기본값 변경</li>
+<li>연구 탭에서 생성/총 시간 정리의 표시 순서를 바꾸는 옵션 추가</li>
+<li>자원/시간당 명성 초기화 최적화 정보 확장</li>
+<li>역전된 블랙홀의 새 애니메이션 추가</li>
 </ul>
 <br>
 
-<b>Improved UI/Layout:</b><br>
+<b>UI 및 배치 개선:</b><br>
 <ul>
-<li>Fixed option dropdown being blurry on some browsers</li>
-<li>Fixed some numbers being formatted with the wrong number of decimal places or not using notation</li>
-<li>Added text for unequippable glyphs in cel7</li>
-<li>Further clarified game/real time behavior in various places</li>
-<li>TS21 now shows its effect as a multiplier</li>
-<li>Increased contrast on reality upgrade buttons</li>
-<li>Made ACHNR perk behave more consistently</li>
-<li>Updated some entries in the credits</li>
-<li>Added max DT this reality</li>
-<li>Fixed a lot of things not being visually disabled in cel7</li>
-<li>Many more minor fixes</li>
+<li>일부 브라우저에서 옵션 드롭다운이 흐리게 보이던 문제 수정</li>
+<li>일부 숫자의 소수점 자릿수가 잘못되거나 표기법을 사용하지 않던 문제 수정</li>
+<li>일곱 번째 천상체에서 장착할 수 없는 글리프 안내 문구 추가</li>
+<li>여러 곳에서 게임 시간/실제 시간의 작동 방식을 더 명확하게 설명</li>
+<li>시간 연구 21의 효과를 배수로 표시</li>
+<li>리얼리티 업그레이드 버튼의 대비 향상</li>
+<li>‘업적 조건 불필요’ 특전이 더 일관되게 작동하도록 변경</li>
+<li>크레딧의 일부 항목 갱신</li>
+<li>이번 리얼리티의 최대 팽창 시간 추가</li>
+<li>일곱 번째 천상체에서 여러 요소가 시각적으로 비활성화되지 않던 문제 수정</li>
+<li>그 밖의 여러 소규모 수정</li>
 </ul>
 <br>
 
-<b>Bugfixes:</b><br>
+<b>버그 수정:</b><br>
 <ul>
-</li><li>Fixed Modern sidebar resource rounding incorrectly
-</li><li>Fixed automator errors on post-completion new games
-</li><li>Fixed some news entry stats not being updated properly
-</li><li>Fixed news repeat buffer not working
-</li><li>Updated progress-locking conditions for some news messages
-</li><li>Fixed edge cases for secret achievements 12 and 42
-</li><li>Fixed cel5-3 memories having the wrong name in offline progress
-</li><li>Fixed Dilated runs not giving EP or being tracked in records
-</li><li>Fixed replicanti time being incorrect in cel7
-</li><li>Fixed hotkeys allowing autobuyers to be changed even when locked
-</li><li>Fixed Continuum H2P entry disappearing in cel7
+</li><li>모던 UI 사이드바의 자원이 잘못 반올림되던 문제 수정
+</li><li>게임 완료 후 새 게임에서 발생하던 오토메이터 오류 수정
+</li><li>일부 뉴스 항목의 통계가 제대로 갱신되지 않던 문제 수정
+</li><li>뉴스 반복 방지 버퍼가 작동하지 않던 문제 수정
+</li><li>일부 뉴스 메시지의 진행도 잠금 조건 갱신
+</li><li>비밀 업적 12와 42의 예외 상황 수정
+</li><li>오프라인 진행에서 다섯 번째 천상체의 세 번째 기억 이름이 잘못 표시되던 문제 수정
+</li><li>시간 팽창 상태의 플레이가 영원 포인트를 주지 않거나 기록에 남지 않던 문제 수정
+</li><li>일곱 번째 천상체에서 복제자 시간이 잘못되던 문제 수정
+</li><li>잠긴 자동구매기를 단축키로 변경할 수 있던 문제 수정
+</li><li>일곱 번째 천상체에서 연속체 플레이 방법 항목이 사라지던 문제 수정
 </ul>
 `
   },
   {
     date: [2023, 1, 26],
-    name: "Timewall Reduction",
+    name: "시간 장벽 완화",
     info: `
-<b>Balance Changes:</b><br>
+<b>밸런스 변경:</b><br>
 <ul>
-<li>EC4 infinity requirement scales slower (50M => 25M per tier)</li>
-<li>EC11 goals have been reduced by e50 on all tiers</li>
-<li>Improved visibility for cel3 hints (progress is now always visible and accumulates 10x faster)</li>
-<li>Made BH auto-pulse always force charging at 99%, removed adjustability for charge rate</li>
-<li>Momentum grows 2.5x faster</li>
-<li>Reduced final singularity milestone (8e45 => 2.5e45)</li>
-<li>Speedruns now also start with achievements 35 and 76</li>
+<li>영원 도전 4의 무한 횟수 조건이 더 느리게 증가(단계당 5천만 → 2천5백만)</li>
+<li>영원 도전 11의 모든 단계 목표를 e50만큼 감소</li>
+<li>세 번째 천상체 힌트의 가시성 개선(진행도를 항상 표시하고 10배 빠르게 누적)</li>
+<li>블랙홀 자동 펄스가 99%에서 항상 충전을 강제하며 충전 비율 조정 기능 제거</li>
+<li>가속도가 2.5배 빠르게 증가</li>
+<li>최종 특이점 마일스톤 감소(8e45 → 2.5e45)</li>
+<li>스피드런 시작 시 업적 35와 76도 획득</li>
 </ul>
 <br>
 
-<b>New Quality-of-Life:</b><br>
+<b>새 편의 기능:</b><br>
 <ul>
-<li>Made TS tree import text persist between closing the modal</li>
-<li>Added "Respec and load" buttons/options for TS loading</li>
-<li>Added "Sort by Level" to glyph inventory</li>
-<li>Auto-EC now holds (but doesn't complete) the next one when paused</li>
+<li>시간 연구 트리 가져오기 창을 닫아도 입력한 문구 유지</li>
+<li>시간 연구 불러오기에 ‘재분배 후 불러오기’ 버튼/옵션 추가</li>
+<li>글리프 보관함에 ‘레벨순 정렬’ 추가</li>
+<li>자동 영원 도전 일시정지 시 다음 도전을 완료하지 않고 보유</li>
 </ul>
 <br>
 
-<b>Bugfixes:</b><br>
+<b>버그 수정:</b><br>
 <ul>
-<li>Modern-Metro themes now have the correct AD color</li>
-<li>Cloud save conflict option buttons now work properly</li>
-<li>"Buy 10" multiplier now always shows</li>
-<li>Crunch modal no longer shows up pre-break with hotkeys</li>
-<li>Next EC rewards now show "Next:" even when capped</li>
-<li>EC requirements no longer scale up after max completions</li>
-<li>Fixed Companion Glyph still counting as a glyph in some cases (LE, nav, achievements)</li>
-<li>Fixed black hole-related achievements not affecting displayed interval/duration</li>
-<li>Cel5 times now account for storing real time</li>
-<li>Cel6 text now updates properly after destabilization</li>
+<li>모던 메트로 테마에 올바른 반물질 차원 색상 적용</li>
+<li>클라우드 저장 충돌 옵션 버튼이 정상 작동</li>
+<li>‘10개 구매’ 배수를 항상 표시</li>
+<li>무한 돌파 전 단축키 사용 시 빅 크런치 창이 나타나지 않도록 수정</li>
+<li>다음 영원 도전 보상이 최대치에서도 ‘다음:’을 표시</li>
+<li>최대 완료 후 영원 도전 조건이 더 이상 증가하지 않도록 수정</li>
+<li>일부 상황에서 동료 글리프가 글리프로 계산되던 문제 수정(레이틸라의 엔트로피, 탐색, 업적)</li>
+<li>블랙홀 관련 업적이 표시 간격/지속 시간에 반영되지 않던 문제 수정</li>
+<li>다섯 번째 천상체 시간이 실제 시간 저장을 반영</li>
+<li>불안정화 후 여섯 번째 천상체의 문구가 제대로 갱신</li>
 </ul>
 <br>
 
-<b>Minor Changes:</b><br>
+<b>소규모 변경:</b><br>
 <ul>
-<li>Improved Cloud conflict detection (eternities in early eternity and max DT in dilation)</li>
-<li>Added ability to hide Google info when Cloud saving</li>
-<li>Added "Common Abbreviations" to H2P</li>
-<li>Added max replicanti text</li>
-<li>Reduced IP/min and EP/min hiding thresholds on prestige buttons</li>
-<li>Added an outline for fully-completed EC studies</li>
-<li>Added cel3 icon to cosmetics</li>
-<li>Made paperclips less invisible</li>
-<li>Fixed more minor typos and made many minor wording improvements</li>
+<li>클라우드 충돌 감지 개선(영원 초반의 영원 횟수 및 시간 팽창의 최대 팽창 시간)</li>
+<li>클라우드 저장 시 Google 정보를 숨기는 기능 추가</li>
+<li>플레이 방법에 ‘자주 쓰는 약어’ 추가</li>
+<li>최대 복제자 문구 추가</li>
+<li>명성 초기화 버튼의 분당 무한 포인트/영원 포인트 숨김 기준 감소</li>
+<li>완전히 완료한 영원 도전 연구에 윤곽선 추가</li>
+<li>외형에 세 번째 천상체 아이콘 추가</li>
+<li>클립이 더 잘 보이도록 변경</li>
+<li>추가 오타 수정 및 여러 소규모 문구 개선</li>
 </ul>
 `
   },
   {
     date: [2023, 1, 9],
-    name: "The Companion Glyph doesn't want to hurt you",
+    name: "동료 글리프는 당신을 해치고 싶지 않아요",
     info: `
-<b>Mechanic Changes:</b><br>
+<b>게임 기능 변경:</b><br>
 <ul>
-<li>Buffed Break Infinity passive infinity generation upgrade (Cap is now once per 100ms instead of
-  165ms and is reached at a fastest of 50ms instead of 33ms)</li>
-<li>Limited offline ticks to a minimum length of 50ms</li>
-<li>The Companion Glyph no longer counts as a Glyph for the purposes of Glyph-based requirements</li>
+<li>무한 돌파의 무한 포인트 자동 생성 업그레이드 상향(상한이 165ms마다 한 번에서 100ms마다 한 번으로 바뀌고,
+  최고 속도 33ms 대신 50ms에서 상한 도달)</li>
+<li>오프라인 틱의 최소 길이를 50ms로 제한</li>
+<li>글리프 관련 조건에서 동료 글리프를 글리프로 계산하지 않도록 변경</li>
 </ul>
 <br>
 
-<b>Bugfixes:</b><br>
+<b>버그 수정:</b><br>
 <ul>
-<li>Fixed EM6 being disabled even if EM200/EM1000 are still locked</li>
-<li>Fixed EM200 applying when auto-eternity is in the wrong mode</li>
-<li>Made EU1 apply properly on-purchase</li>
-<li>Made EU2 always check before EP-based autobuyers trigger</li>
-<li>Fixed being able to enter cel7 while in another celestial reality</li>
-<li>Fixed autobuyers being unmodifiable in early cel7</li>
-<li>Fixed ECB using current IP instead of max IP</li>
-<li>Cleared New! notifications upon loading different saves</li>
-<li>Fixed IC5 erroneously applying C9 effect to tickspeed cost</li>
+<li>허수 머신 200/1000 업그레이드가 잠겨 있어도 허수 머신 6 업그레이드가 비활성화되던 문제 수정</li>
+<li>자동 영원이 잘못된 모드일 때도 허수 머신 200 업그레이드가 적용되던 문제 수정</li>
+<li>영원 업그레이드 1 특전이 구매 즉시 정상 적용</li>
+<li>영원 포인트 기반 자동구매기보다 영원 업그레이드 2 특전을 항상 먼저 확인</li>
+<li>다른 천상체 리얼리티에서 일곱 번째 천상체에 진입할 수 있던 문제 수정</li>
+<li>일곱 번째 천상체 초반에 자동구매기를 변경할 수 없던 문제 수정</li>
+<li>영원 도전 자동구매기 특전이 최대 무한 포인트 대신 현재 무한 포인트를 사용하던 문제 수정</li>
+<li>다른 저장 파일을 불러올 때 ‘새 항목!’ 알림 제거</li>
+<li>무한 도전 5에서 일반 도전 9 효과가 틱스피드 비용에 잘못 적용되던 문제 수정</li>
 </ul>
 <br>
 
-<b>Text Changes:</b><br>
+<b>문구 변경:</b><br>
 <ul>
-<li>Added warning for lag in animated themes</li>
-<li>Fixed incorrect text on references to the IP formula</li>
-<li>Clarified ach156 only applying to generated TT</li>
-<li>Updated some slightly out-of-date How To Play entries</li>
-<li>Added additional info to Glyph Filter and Alchemy in H2P</li>
-<li>Reworded DT mult from replicanti glyph effect to not use very small numbers</li>
-<li>Improved Perk wording consistency</li>
-<li>Fixed a few spots with unformatted and/or unblinded numbers</li>
-<li>Fixed various punctuation inconsistencies</li>
-<li>Made Big Crunch autobuyer always show interval, even if below update rate</li>
-<li>Moved EC8 ID purchase count nearer to the top of the page</li>
-<li>Added "approximately" to replicanti timer at low amounts</li>
-<li>Made AG button text account for achievements which stop certain resources from being reset</li>
-<li>Added text in a few places for capped upgrades/effects</li>
-<li>Added news ticker suggestions up to Dec 26th, fixed some incorrect news tickers</li>
+<li>애니메이션 테마의 지연 경고 추가</li>
+<li>무한 포인트 공식 관련 잘못된 문구 수정</li>
+<li>업적 156이 생성된 시간 정리에만 적용됨을 명확화</li>
+<li>조금 오래된 플레이 방법 항목 갱신</li>
+<li>플레이 방법의 글리프 필터 및 연금술에 추가 정보 기재</li>
+<li>복제 글리프 효과의 팽창 시간 배수가 매우 작은 수를 사용하지 않도록 문구 변경</li>
+<li>특전 문구의 일관성 개선</li>
+<li>표기법이 적용되지 않았거나 숫자 숨김 설정을 따르지 않던 곳 수정</li>
+<li>여러 구두점 불일치 수정</li>
+<li>갱신 속도보다 짧아도 빅 크런치 자동구매기가 항상 간격을 표시</li>
+<li>영원 도전 8의 무한 차원 구매 횟수를 페이지 위쪽으로 이동</li>
+<li>복제자가 적을 때 타이머에 ‘약’ 표시 추가</li>
+<li>반물질 은하 버튼 문구에 특정 자원의 초기화를 막는 업적 반영</li>
+<li>상한에 도달한 업그레이드/효과를 여러 곳에서 안내</li>
+<li>12월 26일까지의 뉴스 티커 제안 추가 및 잘못된 뉴스 수정</li>
 </ul>
 `
   },
   {
     date: [2022, 12, 21],
-    name: "First Post-release Patch",
+    name: "출시 후 첫 패치",
     info: `
-<b>Various Miscellaneous Changes:</b><br>
+<b>기타 여러 변경 사항:</b><br>
 <ul>
-<li>Fixed NC6 not actually spending lower dimensions when purchasing upgrades</li>
-<li>Changed matter scale text ("If every antimatter were...") to only change once per second</li>
-<li>Fixed some text overflow issues in IC3 and reality upgrades</li>
-<li>Reworded reality reminder text</li>
-<li>Fixed Alt-T hotkey not working before completing tickspeed challenge</li>
-<li>Fixed glyph tooltips not appearing in a certain secret theme</li>
-<li>Made clicking challenge header switch to the tab of the innermost challenge</li>
-<li>Changed EU1 perk to apply to all forms of eternity gain, not just manual ones</li>
-<li>Fixed some bugs related to achievement Bulked Up</li>
-<li>Fixed various typos</li>
-<li>Rolled back styling change for unpurchasable upgrades on dark themes</li>
-<li>Fixed ID/TD multiplier tabs disappearing within EC11</li>
-<li>Fixed a game crash when attempting to run empty or invalid automator scripts</li>
-<li>Fixed a few bugs in celestial content</li>
+<li>일반 도전 6에서 업그레이드 구매 시 하위 차원을 실제로 소모하지 않던 문제 수정</li>
+<li>물질 규모 문구(‘모든 반물질이…’)가 초당 한 번만 바뀌도록 변경</li>
+<li>무한 도전 3과 리얼리티 업그레이드의 일부 문구 넘침 문제 수정</li>
+<li>리얼리티 알림 문구 개선</li>
+<li>틱스피드 도전 완료 전에 Alt+T 단축키가 작동하지 않던 문제 수정</li>
+<li>특정 비밀 테마에서 글리프 툴팁이 나타나지 않던 문제 수정</li>
+<li>도전 제목을 클릭하면 가장 안쪽 도전의 탭으로 이동</li>
+<li>영원 업그레이드 1 특전이 수동뿐 아니라 모든 영원 획득 방식에 적용</li>
+<li>‘거대해졌다’ 업적 관련 버그 수정</li>
+<li>여러 오타 수정</li>
+<li>어두운 테마의 구매 불가능한 업그레이드 스타일 변경 되돌림</li>
+<li>영원 도전 11에서 무한 차원/시간 차원 배수 탭이 사라지던 문제 수정</li>
+<li>비어 있거나 잘못된 오토메이터 스크립트를 실행할 때 게임이 종료되던 문제 수정</li>
+<li>천상체 콘텐츠의 일부 버그 수정</li>
 </ul>
 `
   },
