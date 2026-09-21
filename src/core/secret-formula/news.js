@@ -5496,11 +5496,11 @@ export const news = [
   },
   {
     id: "ai560",
-    text: "The ninth dimension makes the sixth family happy. The fifth lives in shame. (아홉 번째 차원은 여섯 번째 가족을 행복하게 하고, 다섯 번째는 수치 속에 살아갑니다.)"
+    text: "9차원은 여섯 번째 가족을 행복하게 합니다. 다섯 번째는 수치 속에 살아갑니다."
   },
   {
     id: "ai561",
-    text: "me: making news about beer pong, hevi: balancing two icebergs, *barkeeper: oh god, is he dead yet?* (나: 비어퐁 뉴스를 만드는 중, Hevi: 빙산 두 개의 균형을 맞추는 중, *바텐더: 맙소사, 아직도 안 죽었어?*)"
+    text: "나: 비어퐁 뉴스를 만드는 중, Hevi: 빙산 두 개의 균형을 맞추는 중, *바텐더: 맙소사, 아직도 안 죽었어?*"
   },
   {
     id: "ai562",
@@ -5532,7 +5532,7 @@ export const news = [
   },
   {
     id: "ai569",
-    text: "I am actually good at making jokes. Fail safe antimatter. (사실 저는 농담을 잘 만듭니다. 실패 안전 반물질입니다.)"
+    text: "사실 저는 농담을 잘 만듭니다. 안전장치 반물질입니다."
   },
   {
     id: "ai570",
@@ -5577,7 +5577,7 @@ export const news = [
   },
   {
     id: "ai580",
-    text: "\"It is widely acknowledged that not enough antimatter is in primordial soup, hence the name 'antimatter soup'\" - old fisherman (“원시 수프에는 반물질이 충분하지 않아서 '반물질 수프'라고 부른다는 사실이 널리 알려져 있지.” - 늙은 어부)"
+    text: "\"원시 수프에는 반물질이 충분하지 않아서 '반물질 수프'라고 부른다는 사실은 널리 알려져 있지.\" - 늙은 어부"
   },
   {
     id: "ai581",
@@ -5585,7 +5585,7 @@ export const news = [
   },
   {
     id: "ai582",
-    text: "If the universe is expanding, then the entire universe must be expanding, which means that body cannot sit. (우주가 팽창한다면 온 우주가 팽창하는 것이므로, 그 몸은 앉을 수 없습니다.)"
+    text: "우주가 팽창한다면 온 우주가 팽창하는 것이므로, 그 몸은 앉을 수 없습니다."
   },
   {
     id: "ai583",
@@ -5593,7 +5593,7 @@ export const news = [
   },
   {
     id: "ai584",
-    text: "With all this talk about anti-weights and anti-matter, why on earth do we still use them for anything? (안티 무게와 안티 물질 이야기가 이렇게 많은데, 대체 왜 아직도 어디에든 사용하는 걸까요?)"
+    text: "안티 무게와 안티 물질 이야기가 이렇게 많은데, 대체 왜 아직도 어디에든 사용하는 걸까요?"
   },
   {
     id: "ai585",
@@ -5637,7 +5637,7 @@ export const news = [
   },
   {
     id: "ai595",
-    text: "\"Its' not my turn on the XM80,\" says Mike from the 9th dimension as he runs across the 8th dimension to get a piece of the action for himself. (“그 장비를 쓸 차례가 아니야.” 아홉 번째 차원의 Mike가 한몫 끼려고 여덟 번째 차원을 가로질러 달리며 말합니다.)"
+    text: "\"XM80을 쓸 차례가 아니야.\" 9차원의 마이크가 한몫 끼려고 8차원을 가로질러 달리며 말합니다."
   },
   {
     id: "ai596",
@@ -5645,7 +5645,7 @@ export const news = [
   },
   {
     id: "ai597",
-    text: "With the advent of time, everything that was once great has fallen into our lap. And with its hevi-rigged clock, it's our turn to up the trash. (시간이 도래하면서 한때 위대했던 모든 것이 우리 손에 떨어졌습니다. Hevi식으로 조작된 시계와 함께 이제 우리가 쓰레기를 끌어올릴 차례입니다.)"
+    text: "시간이 도래하면서 한때 위대했던 모든 것이 우리 손에 떨어졌습니다. Hevi식으로 조작된 시계와 함께 이제 우리가 쓰레기를 끌어올릴 차례입니다."
   },
   {
     id: "ai598",
@@ -5669,7 +5669,7 @@ export const news = [
   },
   {
     id: "ai603",
-    text: "\"I don't know about you but my favorite number is 22, it's just so great! It's the number of hours since I met your M heretics. (당신은 어떤지 몰라도 제가 가장 좋아하는 수는 스물둘입니다. 정말 멋지죠! 당신의 M 이단자들을 만난 뒤 지난 시간과 같은 수입니다.)"
+    text: "\"당신은 어떤지 몰라도 제가 가장 좋아하는 수는 22입니다. 정말 멋지죠! 당신의 M 이단자들을 만난 뒤 지난 시간과 같은 수입니다."
   },
   {
     id: "ai604",
@@ -5693,7 +5693,7 @@ export const news = [
   },
   {
     id: "ai609",
-    text: "\"The next twist in the Antimatter Universe is in the air! Get ready for some big Crunch! (When clicked the game disconnects for 5 seconds) (반물질 우주의 다음 반전이 다가옵니다! 거대한 크런치를 준비하세요! 클릭하면 게임 연결이 다섯 초 동안 끊깁니다.)"
+    text: "\"반물질 우주의 다음 반전이 다가옵니다! 빅 크런치를 준비하세요! (클릭하면 게임 연결이 5초 동안 끊깁니다)"
   },
   {
     id: "ai610",
@@ -5791,7 +5791,7 @@ export const news = [
   },
   {
     id: "ai633",
-    text: "I'm not sure if it's due to the 4th wall being in the 5th dimension or the 9th dimension not existing, but in either case, anti-screw it, we're broke, and you can take it. (네 번째 벽이 다섯 번째 차원에 있어서인지 아홉 번째 차원이 존재하지 않아서인지는 모르겠지만, 어느 쪽이든 안티 될 대로 돼라, 우리는 빈털터리니 가져가세요.)"
+    text: "제4의 벽이 5차원에 있어서인지 9차원이 존재하지 않아서인지는 모르겠지만, 어느 쪽이든 안티 될 대로 돼라, 우리는 빈털터리니 가져가세요."
   },
   {
     id: "ai634",
@@ -5852,7 +5852,7 @@ export const news = [
   },
   {
     id: "ai648",
-    text: "The Landfall of Slabdrill (Slabdrill의 상륙)"
+    text: "슬랩드릴의 상륙"
   },
   {
     id: "ai649",
@@ -5872,7 +5872,7 @@ export const news = [
   },
   {
     id: "ai653",
-    text: "The name \"antimatter dimensions\" is a play on words with dimensions, two opposite things, like matter and antimatter. \"Dimension\" is another word, with the same meaning. (“반물질 차원”이라는 이름은 물질과 반물질처럼 서로 반대되는 두 가지와 차원을 엮은 말장난입니다. “차원”은 같은 뜻을 지닌 또 다른 단어입니다.)"
+    text: "\"반물질 차원\"이라는 이름은 물질과 반물질처럼 서로 반대되는 두 가지와 차원을 엮은 말장난입니다. \"차원\"은 같은 뜻을 지닌 또 다른 단어입니다."
   },
   {
     id: "ai654",
@@ -5897,7 +5897,7 @@ export const news = [
   },
   {
     id: "ai659",
-    text: "I just want to say that you should stop with those \"you can reach infinity in e300ms, but it costs e300$  what is e300$ ?\" jokes. Those are pathetic. You should give up and learn the hard way that it's much more efficient to just not play in such a pathetic state. Then you can go back to being a humble programmer and dedicate yourself to being a good person. (“엄청 짧은 시간에 무한에 도달하지만 엄청난 돈이 든다”는 식의 농담은 이제 그만하세요. 한심한 상태로 플레이하지 않는 편이 훨씬 효율적이라는 사실을 힘들게 배우고, 겸손한 프로그래머로 돌아가 좋은 사람이 되는 데 전념하세요.)"
+    text: "\"e300밀리초 만에 무한에 도달할 수 있지만 e300달러가 든다. e300달러가 뭐냐고?\" 같은 농담은 이제 그만하라고 말하고 싶습니다. 그런 건 한심합니다. 포기하고, 그런 한심한 상태로 플레이하지 않는 편이 훨씬 효율적이라는 사실을 힘들게 배우세요. 그러고 나면 겸손한 프로그래머로 돌아가 좋은 사람이 되는 데 전념할 수 있습니다."
   },
   {
     id: "ai660",
@@ -5905,11 +5905,11 @@ export const news = [
   },
   {
     id: "ai661",
-    text: "Take a moment to thank the gods of reddit for having saved your bacon. (당신을 위기에서 구해 준 Reddit의 신들에게 잠시 감사하세요.)"
+    text: "당신을 위기에서 구해 준 Reddit의 신들에게 잠시 감사하세요."
   },
   {
     id: "ai662",
-    text: "Hello everyone, I'm the guy responsible for the big, bad news ticker, and I'm afraid that I'm about to get my own show. It's gonna be called Antimatter Dimensions. It's gonna be like Antime, except with less antimatter, and with worse puns. It's gonna be like Antimatter Dimensions except with worse jokes. (안녕하세요, 저는 이 크고 못된 뉴스 티커의 책임자이며 곧 제 방송을 맡게 될 것 같습니다. 이름은 Antimatter Dimensions입니다. 반물질은 더 적고 말장난은 더 형편없는 Antime 같은 방송, 즉 농담이 더 형편없는 Antimatter Dimensions가 될 겁니다.)"
+    text: "안녕하세요, 저는 이 크고 못된 뉴스 티커의 책임자인데, 곧 제 방송을 맡게 될 것 같아 두렵습니다. 이름은 반물질 차원입니다. 반물질은 더 적고 말장난은 더 형편없는 Antime 같은 방송이 될 겁니다. 농담이 더 형편없는 반물질 차원 같은 방송이 될 겁니다."
   },
   {
     id: "ai663",
@@ -5937,7 +5937,7 @@ export const news = [
   },
   {
     id: "ai669",
-    text: "An anti-world without antimatter is just a world without antimatter because the antimatter is in the anti-world (반물질 없는 안티 세계는 그저 반물질 없는 세계입니다. 반물질은 안티 세계 안에 있기 때문입니다.)"
+    text: "반물질 없는 안티 세계는 그저 반물질 없는 세계입니다. 반물질은 안티 세계 안에 있기 때문입니다."
   },
   {
     id: "ai670",
@@ -5945,15 +5945,15 @@ export const news = [
   },
   {
     id: "ai671",
-    text: "The next update will be in 5 hours. Hevipelle, the creator of Antimatter Dimensions, is believed to be hiding in 5 hours. In the meantime, he has prepared a new update that will be released 5 hours after this one. (다음 업데이트는 다섯 시간 뒤에 나옵니다. 제작자 Hevipelle는 다섯 시간 속에 숨어 있다고 하며, 그동안 이번 업데이트보다 다섯 시간 뒤에 출시될 새 업데이트를 준비했습니다.)"
+    text: "다음 업데이트는 5시간 뒤에 나옵니다. 반물질 차원의 제작자 Hevipelle는 5시간 속에 숨어 있다고 합니다. 그동안 그는 이번 업데이트보다 5시간 뒤에 출시될 새 업데이트를 준비했습니다."
   },
   {
     id: "ai672",
-    text: "A new study has shown that not drinking water is worse than smoking it. People who were exposed to levels of radiation that were 5 times greater than what we are currently exposed to were exposed to higher levels of radiation, and died longer. (새 연구에 따르면 물을 마시지 않는 것은 물을 피우는 것보다 나쁩니다. 현재보다 다섯 배 강한 방사선에 노출된 사람들은 더 높은 방사선에 노출됐고 더 오래 죽었습니다.)"
+    text: "새 연구에 따르면 물을 마시지 않는 것은 물을 피우는 것보다 나쁩니다. 현재보다 5배 강한 방사선에 노출된 사람들은 더 높은 방사선에 노출됐고 더 오래 죽었습니다."
   },
   {
     id: "ai673",
-    text: "The Ninth Dimension is just a lie made to keep the people in bondage to the Matrix. It's an elaborate system that keeps the people in a constant state of captivity, using a series of simple symbols to control their thoughts and emotions. (아홉 번째 차원은 사람들을 Matrix에 예속시키려고 만든 거짓말일 뿐입니다. 단순한 기호들로 생각과 감정을 통제해 사람들을 계속 가두는 정교한 체계입니다.)"
+    text: "9차원은 사람들을 매트릭스에 예속시키려고 만든 거짓말일 뿐입니다. 단순한 기호들로 생각과 감정을 통제해 사람들을 계속 가두는 정교한 체계입니다."
   },
   {
     id: "ai674",
@@ -5965,7 +5965,7 @@ export const news = [
   },
   {
     id: "ai676",
-    text: "The Dark Souls 2 Arcade Edition includes the following: (Dark Souls Two 아케이드 에디션에는 다음이 포함됩니다:)"
+    text: "다크 소울 2 아케이드 에디션에는 다음이 포함됩니다:"
   },
   {
     id: "ai677",
@@ -5986,7 +5986,7 @@ export const news = [
   },
   {
     id: "ai681",
-    text: "Man, I wish I never got old news. It's too good to last me any longer. (이런, 오래된 뉴스는 받지 않았으면 좋겠어요. 너무 좋아서 더는 오래갈 수가 없네요.)"
+    text: "이런, 오래된 뉴스는 받지 않았으면 좋겠어요. 너무 좋아서 더는 오래갈 수가 없네요."
   },
   {
     id: "ai682",
@@ -6002,7 +6002,7 @@ export const news = [
   },
   {
     id: "ai685",
-    text: "A new comic has come out about people's reactions to eating antimatter, and what happens next will blow your mind (반물질을 먹은 사람들의 반응을 다룬 새 만화가 나왔습니다. 다음에 벌어지는 일은 여러분을 깜짝 놀라게 할 겁니다.)"
+    text: "반물질을 먹은 사람들의 반응을 다룬 새 만화가 나왔습니다. 다음에 벌어지는 일은 여러분을 깜짝 놀라게 할 겁니다."
   },
   {
     id: "ai686",
@@ -6010,7 +6010,7 @@ export const news = [
   },
   {
     id: "ai687",
-    text: "For all your puzzle building needs, we've got a brand new 5-part series on building big crunches! Learn how to crack the most complex crunches the pros know not! Part 1: Basic, Part 2: Advanced, Part 3: Overflow, and Part 4: Finishing the Finishing Move. (퍼즐 제작자를 위한 빅 크런치 만들기 다섯 부작입니다! 전문가도 모르는 가장 복잡한 크런치 해법을 배우세요. 첫 편은 기초, 둘째는 고급, 셋째는 오버플로, 넷째는 마무리 기술의 마무리입니다.)"
+    text: "퍼즐 제작에 필요한 모든 것을 위해 빅 크런치 만들기 5부작을 새로 준비했습니다! 전문가도 모르는 가장 복잡한 크런치 해법을 배우세요! 1부: 기초, 2부: 고급, 3부: 오버플로, 4부: 마무리 기술의 마무리."
   },
   {
     id: "ai688",
@@ -6034,7 +6034,7 @@ export const news = [
   },
   {
     id: "ai693",
-    text: "You can't hide in plain sight. You can't hide in plain sight. You can't hide in plain sight. You can't hide in plain sight. You can't hide in plain sight. You can't hide in plain sight. You can't hide in plain sight. Your hide in plain sight. (“뻔히 보이는 곳에는 숨을 수 없다”를 계속 반복하다 마지막 문장을 일부러 틀립니다.)"
+    text: "뻔히 보이는 곳에는 숨을 수 없습니다. 뻔히 보이는 곳에는 숨을 수 없습니다. 뻔히 보이는 곳에는 숨을 수 없습니다. 뻔히 보이는 곳에는 숨을 수 없습니다. 뻔히 보이는 곳에는 숨을 수 없습니다. 뻔히 보이는 곳에는 숨을 수 없습니다. 뻔히 보이는 곳에는 숨을 수 없습니다. 당신의 뻔히 보이는 곳에 숨어요."
   },
   {
     id: "ai694",
@@ -6046,15 +6046,15 @@ export const news = [
   },
   {
     id: "ai696",
-    text: "I am Thinkcraft, Lord of the Flies (나는 파리 대왕 Thinkcraft다.)"
+    text: "나는 파리 대왕 Thinkcraft다."
   },
   {
     id: "ai697",
-    text: "The entire story of how and why the world ended is contained in the first 5 E's of the English alphabet. (세계가 어떻게, 왜 끝났는지에 관한 모든 이야기는 영어 알파벳의 첫 다섯 E 안에 담겨 있습니다.)"
+    text: "세계가 어떻게, 왜 끝났는지에 관한 모든 이야기는 영어 알파벳의 첫 5개 E 안에 담겨 있습니다."
   },
   {
     id: "ai698",
-    text: "What do you call a cloudburst? A mini-explosion! (갑작스러운 폭우를 뭐라고 할까요? 작은 폭발입니다!)"
+    text: "갑작스러운 폭우를 뭐라고 할까요? 작은 폭발입니다!"
   },
   {
     id: "ai699",
@@ -6070,7 +6070,7 @@ export const news = [
   },
   {
     id: "ai702",
-    text: "The words \"you've been in coma for 5 hours\" are either lies or is the truth (당신은 다섯 시간 동안 혼수상태였다는 말은 거짓이거나 진실입니다.)"
+    text: "\"당신은 5시간 동안 혼수상태였습니다\"라는 말은 거짓이거나 진실입니다."
   },
   {
     id: "ai703",
@@ -6082,7 +6082,7 @@ export const news = [
   },
   {
     id: "ai705",
-    text: "\"Imma be the first man to sit on the moon, and be the last man on the moon (나는 달에 앉은 최초의 사람이자 달에 남은 마지막 사람이 되겠어.)"
+    text: "\"나는 달에 앉은 최초의 사람이자 달에 남은 마지막 사람이 되겠어."
   },
   {
     id: "ai706",
@@ -6190,11 +6190,11 @@ export const news = [
   },
   {
     id: "ai732",
-    text: "\"It was an anti-matter\" - Anti-Eddie The Echidna (“그건 안티-문제였어” - 가시두더지 Anti-Eddie. matter의 물질/문제 중의적 말장난입니다.)"
+    text: "\"그건 안티 문제였어.\" - 가시두더지 안티 에디"
   },
   {
     id: "ai733",
-    text: "T-bone steak: burgers and fries with a side of bone-in ribeye (티본스테이크: 햄버거와 감자튀김에 뼈 붙은 립아이를 곁들인 것.)"
+    text: "티본스테이크: 햄버거와 감자튀김에 뼈 붙은 립아이를 곁들인 것."
   },
   {
     id: "ai734",
@@ -6246,7 +6246,7 @@ export const news = [
   },
   {
     id: "ai746",
-    text: "The book of archeology is upon us! With over 5 hours of content, it's gonna be a long one! —DIO (고고학의 책이 우리 앞에 왔다! 내용이 다섯 시간 넘게 이어지니 아주 길겠군! —DIO)"
+    text: "고고학의 책이 우리 앞에 왔다! 내용이 5시간 넘게 이어지니 아주 길겠군! —DIO"
   },
   {
     id: "ai747",
@@ -6262,7 +6262,7 @@ export const news = [
   },
   {
     id: "ai750",
-    text: "Reality is coming. You can get a sneak peek by subscribing to the \"T-series\" feed. (현실이 다가옵니다. “T-series” 피드를 구독하면 미리 엿볼 수 있습니다.)"
+    text: "현실이 다가옵니다. \"T-Series\" 피드를 구독하면 미리 엿볼 수 있습니다."
   },
   {
     id: "ai751",
@@ -6275,11 +6275,11 @@ export const news = [
   },
   {
     id: "ai753",
-    text: "What if you could flip a coin to determine if it was a Johnson or a Stein? (동전을 던져 Johnson인지 Stein인지 정할 수 있다면 어떨까요?)"
+    text: "동전을 던져 존슨인지 스타인인지 정할 수 있다면 어떨까요?"
   },
   {
     id: "ai754",
-    text: "I am Yhmai, King of Kings! (나는 왕중왕 Yhmai다!)"
+    text: "나는 왕중왕 Yhmai다!"
   },
   {
     id: "ai755",
@@ -6291,7 +6291,7 @@ export const news = [
   },
   {
     id: "ai757",
-    text: "Thing is, I can count on one hand the number of times I've written that I can count on one hand the number of times I've written that I can count on one hand (문제는 내가 한 손으로 셀 수 있다고 쓴 횟수를 한 손으로 셀 수 있다고 쓴 횟수를 한 손으로 셀 수 있다는 겁니다.)"
+    text: "문제는 내가 한 손으로 셀 수 있다고 쓴 횟수를 한 손으로 셀 수 있다고 쓴 횟수를 한 손으로 셀 수 있다는 겁니다."
   },
   {
     id: "ai758",
@@ -6327,7 +6327,7 @@ export const news = [
   },
   {
     id: "ai766",
-    text: "The word 'antimatter' makes me cringe. So do a bunch of other words. In fact, almost all the words in the English language. But not 'antimatter'. That's why I hate 'anti-' so much. ('antimatter'라는 말은 나를 오글거리게 합니다. 다른 수많은 단어도, 사실 거의 모든 영어 단어도 그렇습니다. 하지만 'antimatter'는 아니죠. 그래서 나는 'anti-'를 몹시 싫어합니다.)"
+    text: "'반물질'이라는 말은 나를 오글거리게 합니다. 다른 수많은 단어도 그렇습니다. 사실 영어의 거의 모든 단어가 그렇습니다. 하지만 '반물질'은 아니죠. 그래서 나는 '안티-'를 몹시 싫어합니다."
   },
   {
     id: "ai767",
@@ -6347,11 +6347,11 @@ export const news = [
   },
   {
     id: "ai771",
-    text: "\"I don't know about you, but my favorite number is 2048\" - people who don't know what 2048 is (“남들은 모르겠지만 내가 가장 좋아하는 숫자는 이천사십팔이야.” - 이천사십팔이 뭔지 모르는 사람들)"
+    text: "\"남들은 모르겠지만 내가 가장 좋아하는 숫자는 2048이야.\" - 2048이 뭔지 모르는 사람들"
   },
   {
     id: "ai772",
-    text: "A new group is trying to make money off of antimatter, and they're selling t-shirts that say \"YOU THOUGHT THIS WOULD BE A PIECE OF NEWS, BUT IT WAS ME, DIO!\" They've got a lot of money, and they're selling it very poorly. Do they have a website? I don't know, but they're trying. (새 단체가 반물질로 돈을 벌려고 “뉴스 한 편인 줄 알았겠지만, 나 DIO였다!”라고 적힌 티셔츠를 팔고 있습니다. 돈은 많지만 판매는 형편없습니다. 웹사이트가 있는지는 모르겠지만 노력은 하고 있습니다.)"
+    text: "새 단체가 반물질로 돈을 벌려고 \"뉴스 한 편인 줄 알았겠지만, 나 DIO였다!\"라고 적힌 티셔츠를 팔고 있습니다. 돈은 많지만 판매는 형편없습니다. 웹사이트가 있는지는 모르겠지만 노력은 하고 있습니다."
   },
   {
     id: "ai773",
