@@ -29,17 +29,7 @@ export default {
       return this.autobuyer.name;
     },
     displayName() {
-      return {
-        "Dimensional Sacrifice": "차원 희생",
-        "Replicanti Galaxy": "복제자 은하",
-        "Time Theorem": "시간 정리",
-        "2x Infinity Points": "무한 포인트 2배",
-        "2x Eternity Points": "영원 포인트 2배",
-        "Dark Matter Dimensions": "암흑 물질 차원",
-        "Dark Matter Dimension Ascension": "암흑 물질 차원 승천",
-        "Singularity": "특이점",
-        "Annihilation": "소멸"
-      }[this.name] ?? this.name;
+      return this.autobuyer.displayName;
     },
     isSacrifice() {
       return this.name === "Dimensional Sacrifice";

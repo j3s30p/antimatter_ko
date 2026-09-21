@@ -1,5 +1,4 @@
 import { DC } from "./constants";
-import { SpeedrunMilestones } from "./speedrun";
 
 class BlackHoleUpgradeState {
   constructor(config) {
@@ -196,7 +195,7 @@ class BlackHoleState {
 
   // The logic to determine what state the black hole is in for displaying is nontrivial and used in multiple places
   get displayState() {
-    if (Pelle.isDisabled("blackhole")) return `<i class="fas fa-ban"></i> Disabled`;
+    if (Pelle.isDisabled("blackhole")) return `<i class="fas fa-ban"></i> 비활성`;
     if (Enslaved.isAutoReleasing) {
       if (Enslaved.autoReleaseTick < 3) return `<i class="fas fa-compress-arrows-alt u-fa-padding"></i> 파동 중`;
       return `<i class="fas fa-expand-arrows-alt u-fa-padding"></i> 파동 중`;

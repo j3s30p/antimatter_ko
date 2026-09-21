@@ -31,12 +31,12 @@ export default {
         };
       }
       return [
-        celestialReality(Teresa, "Teresa의", "teresa"),
-        celestialReality(Effarig, "Effarig의", "effarig"),
+        celestialReality(Teresa, "테레사의", "teresa"),
+        celestialReality(Effarig, "에파리그의", "effarig"),
         celestialReality(Enslaved, "이름 없는 자들의", "enslaved"),
         celestialReality(V, "V의", "v"),
-        celestialReality(Ra, "Ra의", "ra"),
-        celestialReality(Laitela, "Lai'tela의", "laitela"),
+        celestialReality(Ra, "라의", "ra"),
+        celestialReality(Laitela, "라이텔라의", "laitela"),
         {
           name: () => "시간 팽창",
           isActive: token => token,

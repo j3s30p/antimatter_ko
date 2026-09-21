@@ -281,7 +281,7 @@ EventHub.logic.on(GAME_EVENT.GAME_LOAD, () => SingularityMilestones.lastNotified
 EventHub.logic.on(GAME_EVENT.SINGULARITY_RESET_AFTER, () => {
   const newMilestones = SingularityMilestones.unnotifiedMilestones.length;
   if (newMilestones === 0) return;
-  if (newMilestones === 1) GameUI.notify.blackHole(`You reached a Singularity milestone!`);
-  else GameUI.notify.blackHole(`You reached ${formatInt(newMilestones)} Singularity milestones!`);
+  if (newMilestones === 1) GameUI.notify.blackHole("특이점 이정표에 도달했습니다!");
+  else GameUI.notify.blackHole(`특이점 이정표 ${formatInt(newMilestones)}개에 도달했습니다!`);
   SingularityMilestones.lastNotified = Currency.singularities.value;
 });

@@ -1089,7 +1089,7 @@ export const normalAchievements = [
     description: "모든 현실 업그레이드를 구매한다.",
     checkRequirement: () => RealityUpgrades.allBought,
     checkEvent: GAME_EVENT.REALITY_UPGRADE_BOUGHT,
-    reward: "현실의 셀레스티얼 Teresa를 해금한다."
+    reward: "현실의 셀레스티얼 테레사를 해금한다."
   },
   {
     id: 148,
@@ -1239,7 +1239,7 @@ export const normalAchievements = [
   {
     id: 168,
     name: "와, 절반 왔네",
-    get description() { return `Ra의 셀레스티얼 기억 레벨 합계 ${formatInt(50)}을 달성한다.`; },
+    get description() { return `라의 셀레스티얼 기억 레벨 합계 ${formatInt(50)}을 달성한다.`; },
     checkRequirement: () => Ra.totalPetLevel >= 50,
     checkEvent: GAME_EVENT.GAME_TICK_AFTER,
     get reward() { return `기억을 ${formatPercents(0.1)} 더 획득한다.`; },
@@ -1342,14 +1342,14 @@ export const normalAchievements = [
   {
     id: 184,
     name: "넌 아웃이야!",
-    description: "세 번째 Pelle 스트라이크를 마주한다.",
+    description: "세 번째 펠레 타격을 마주한다.",
     checkRequirement: () => PelleStrikes.eternity.hasStrike,
     checkEvent: GAME_EVENT.PELLE_STRIKE_UNLOCKED
   },
   {
     id: 185,
     name: "87년 전",
-    description: "네 번째 Pelle 스트라이크를 마주한다.",
+    description: "네 번째 펠레 타격을 마주한다.",
     checkRequirement: () => PelleStrikes.ECs.hasStrike,
     checkEvent: GAME_EVENT.PELLE_STRIKE_UNLOCKED
   },

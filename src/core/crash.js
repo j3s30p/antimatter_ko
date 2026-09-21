@@ -1,5 +1,3 @@
-import { DEV } from "@/env";
-
 window.NotImplementedError = class NotImplementedError extends Error {
   constructor() {
     super("The method is not implemented.");
@@ -37,7 +35,7 @@ window.GlobalErrorHandler = {
   },
   crash(message) {
     if (window.GameUI !== undefined && GameUI.initialized) {
-      Modal.message.show(`${message}<br>Check the console for more details`, {}, 3);
+      Modal.message.show(`${message}<br>자세한 내용은 콘솔에서 확인하세요.`, {}, 3);
     }
     // eslint-disable-next-line no-debugger
     debugger;

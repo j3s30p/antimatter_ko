@@ -85,7 +85,7 @@ export default {
     },
     startRun() {
       if (this.isDoomed) return;
-      Modal.celestials.show({ name: "Effarig's", number: 1 });
+      Modal.celestials.show({ name: "에파리그", number: 1 });
     },
     createCursedGlyph() {
       Glyphs.giveCursedGlyph();
@@ -157,7 +157,7 @@ export default {
       >
         <div class="c-effarig-run-description">
           <span :class="{ 'o-pelle-disabled': isDoomed }">
-            Effarig의 현실에 진입합니다.
+            에파리그의 현실에 진입합니다.
           </span>
         </div>
         <div

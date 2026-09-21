@@ -128,7 +128,7 @@ export const singularityMilestones = {
     start: 1500,
     repeat: 10000,
     limit: 6,
-    description: "Lai'tela 안에서 비활성화한 차원 수에 따른 암흑 에너지 배율",
+    description: "라이텔라 안에서 비활성화한 차원 수에 따른 암흑 에너지 배율",
     effect: completions => Math.pow(1 + 0.05 * completions, Laitela.difficultyTier),
     effectFormat: x => formatX(x, 2, 2),
     upgradeDirection: LAITELA_UPGRADE_DIRECTION.SELF_BOOST,

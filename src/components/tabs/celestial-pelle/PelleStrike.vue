@@ -35,7 +35,7 @@ export default {
       </template>
       <template #dropdown>
         <div class="c-pelle-strike-dropdown">
-          <span>Penalty: {{ strike.penalty }}</span>
+          <span>불이익: {{ strike.penalty }}</span>
           <br>
           <span>보상: {{ strikeReward }}</span>
         </div>

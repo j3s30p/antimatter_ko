@@ -35,7 +35,7 @@ export const EP = {
     icon: MultiplierTabIcons.SPECIFIC_GLYPH("infinity"),
   },
   divisor: {
-    name: "Pelle - 영원 포인트 공식 개선",
+    name: "펠레 - 영원 포인트 공식 개선",
     displayOverride: () => {
       const div = 308 - PelleRifts.recursion.effectValue.toNumber();
       return `log(IP)/${formatInt(308)} ➜ log(IP)/${format(div, 2, 2)}`;
@@ -77,7 +77,7 @@ export const EP = {
     icon: MultiplierTabIcons.UPGRADE("reality"),
   },
   pelle: {
-    name: "Pelle 타격 - 진공 균열",
+    name: "펠레 타격 - 진공 균열",
     multValue: () => PelleRifts.vacuum.milestones[2].effectOrDefault(1),
     isActive: () => PelleRifts.vacuum.milestones[2].canBeApplied,
     icon: MultiplierTabIcons.PELLE,
@@ -90,7 +90,7 @@ export const EP = {
   },
 
   nerfTeresa: {
-    name: "Teresa의 현실",
+    name: "테레사의 현실",
     powValue: () => 0.55,
     isActive: () => Teresa.isRunning,
     icon: MultiplierTabIcons.GENERIC_TERESA,

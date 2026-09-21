@@ -96,7 +96,7 @@ export const IP = {
     icon: MultiplierTabIcons.ALCHEMY,
   },
   pelle: {
-    name: "Pelle 타격 - 진공 균열",
+    name: "펠레 타격 - 진공 균열",
     multValue: () => DC.D1.timesEffectsOf(PelleRifts.vacuum),
     isActive: () => Pelle.isDoomed,
     icon: MultiplierTabIcons.PELLE,
@@ -109,7 +109,7 @@ export const IP = {
   },
 
   nerfTeresa: {
-    name: "Teresa의 현실",
+    name: "테레사의 현실",
     powValue: () => 0.55,
     isActive: () => Teresa.isRunning,
     icon: MultiplierTabIcons.GENERIC_TERESA,

@@ -257,8 +257,8 @@ class InfinityDimensionState extends DimensionState {
     if (!this.isAvailableForPurchase) return false;
     if (ImaginaryUpgrade(15).isLockingMechanics) {
       const lockString = this.tier === 1
-        ? "purchase a 1st Infinity Dimension"
-        : "purchase a Dimension which will produce 1st IDs";
+        ? "1차 무한 차원을 구매"
+        : "1차 ID를 생산할 차원을 구매";
       ImaginaryUpgrade(15).tryShowWarningModal(lockString);
       return false;
     }
@@ -280,8 +280,8 @@ class InfinityDimensionState extends DimensionState {
     if (!this.isAvailableForPurchase) return false;
     if (ImaginaryUpgrade(15).isLockingMechanics) {
       const lockString = this.tier === 1
-        ? "purchase a 1st Infinity Dimension"
-        : "purchase a Dimension which will produce 1st IDs";
+        ? "1차 무한 차원을 구매"
+        : "1차 ID를 생산할 차원을 구매";
       if (!auto) ImaginaryUpgrade(15).tryShowWarningModal(lockString);
       return false;
     }

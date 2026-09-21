@@ -19,12 +19,7 @@ export default {
       return this.unlock.pet.id;
     },
     petName() {
-      return {
-        Teresa: "Teresa",
-        Effarig: "Effarig",
-        Enslaved: "이름 없는 자들",
-        V: "V",
-      }[this.unlock.pet.name] ?? this.unlock.pet.name;
+      return this.unlock.pet.displayName;
     },
     icon() {
       return this.unlock.displayIcon;

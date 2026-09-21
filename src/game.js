@@ -730,7 +730,7 @@ function laitelaRealityTick(realDiff) {
 
   // Setting entropy to -1 on completion prevents the modal from showing up repeatedly
   if (laitelaInfo.entropy >= 1) {
-    let completionText = `${Time.thisRealityRealTime.toStringShort()} 만에 Lai'tela의 현실을 불안정화했습니다.`;
+    let completionText = `${Time.thisRealityRealTime.toStringShort()} 만에 라이텔라의 현실을 불안정화했습니다.`;
     laitelaInfo.entropy = -1;
     const oldInfo = {
       fastestCompletion: laitelaInfo.fastestCompletion,
@@ -767,20 +767,20 @@ function laitelaRealityTick(realDiff) {
         }
       } else if (Time.thisRealityRealTime.totalSeconds < 30) {
         // Second+ attempt - destabilising
-        completionText += `<br>Best Completion Time: ${TimeSpan.fromSeconds(oldInfo.fastestCompletion).toStringShort()}
-          ➜ Destabilized
-          <br>Highest Active Dimension: ${formatInt(8 - oldInfo.difficultyTier)} ➜
+        completionText += `<br>최단 완료 시간: ${TimeSpan.fromSeconds(oldInfo.fastestCompletion).toStringShort()}
+          ➜ 불안정화
+          <br>활성화된 가장 높은 차원: ${formatInt(8 - oldInfo.difficultyTier)} ➜
           ${formatInt(8 - laitelaInfo.difficultyTier)}`;
       } else {
         // Second+ attempt - not destabilising
-        completionText += `<br>Best Completion Time: ${TimeSpan.fromSeconds(oldInfo.fastestCompletion).toStringShort()}
+        completionText += `<br>최단 완료 시간: ${TimeSpan.fromSeconds(oldInfo.fastestCompletion).toStringShort()}
         ➜ ${TimeSpan.fromSeconds(laitelaInfo.fastestCompletion).toStringShort()}
         <br>활성화된 가장 높은 차원: ${formatInt(8 - oldInfo.difficultyTier)}`;
       }
       player.records.bestReality.laitelaSet = Glyphs.copyForRecords(Glyphs.active.filter(g => g !== null));
     } else {
-      completionText += ` You need to destabilize in faster than
-        ${TimeSpan.fromSeconds(laitelaInfo.fastestCompletion).toStringShort()} to improve your multiplier.`;
+      completionText += ` 배율을 높이려면
+        ${TimeSpan.fromSeconds(laitelaInfo.fastestCompletion).toStringShort()}보다 빠르게 불안정화해야 합니다.`;
     }
     if (Laitela.isFullyDestabilized) SpeedrunMilestones(24).tryComplete();
     Modal.message.show(completionText, {}, 2);
@@ -789,20 +789,19 @@ function laitelaRealityTick(realDiff) {
 
 function laitelaBeatText(disabledDim) {
   switch (disabledDim) {
-    case 1: return `<br><br>Lai'tela's Reality will now completely disable production from all Dimensions.
-        The Reality can still be entered, but further destabilization is no longer possible.
-        For completely destabilizing the Reality, you also get an additional ${formatX(8)} to Dark Energy gain.`;
-    case 2: return `<br><br>Lai'tela's Reality will now disable production from all 2nd Dimensions during
-      future runs, but the reward will be ${formatInt(100)} times stronger than before. Completely destabilizing
-      the Reality for the final Dimension will give you an additional ${formatX(8)} to Dark Energy gain.`;
-    case 3: return `<br><br>Lai'tela's Reality will now disable production from all 3rd Dimensions during
-        future runs, but the reward will be ${formatInt(100)} times stronger than before.`;
-    case 8: return `<br><br>Lai'tela's Reality will now disable production from all 8th Dimensions during
-        future runs, but the reward will be ${formatInt(100)} times stronger than before. This boost can be
-        repeated for each remaining Dimension by reaching destabilization within ${formatInt(30)} seconds again.`;
-    default: return `<br><br>Lai'tela's Reality will now disable production from all
-        ${disabledDim}th Dimensions during future runs, but the reward will be
-        ${formatInt(100)} times stronger than before.`;
+    case 1: return `<br><br>이제 라이텔라의 현실에서 모든 차원의 생산이 완전히 비활성화됩니다.
+        현실에는 계속 진입할 수 있지만 더는 불안정화할 수 없습니다.
+        현실을 완전히 불안정화한 보상으로 암흑 에너지 획득량도 추가로 ${formatX(8)} 증가합니다.`;
+    case 2: return `<br><br>이제 이후의 라이텔라 현실에서 모든 2차 차원의 생산이 비활성화되지만,
+      보상은 이전보다 ${formatInt(100)}배 강해집니다. 마지막 차원까지 현실을 완전히 불안정화하면
+      암흑 에너지 획득량도 추가로 ${formatX(8)} 증가합니다.`;
+    case 3: return `<br><br>이제 이후의 라이텔라 현실에서 모든 3차 차원의 생산이 비활성화되지만,
+        보상은 이전보다 ${formatInt(100)}배 강해집니다.`;
+    case 8: return `<br><br>이제 이후의 라이텔라 현실에서 모든 8차 차원의 생산이 비활성화되지만,
+        보상은 이전보다 ${formatInt(100)}배 강해집니다. 다시 ${formatInt(30)}초 안에 불안정화하면
+        남은 각 차원에서도 이 강화를 반복할 수 있습니다.`;
+    default: return `<br><br>이제 이후의 라이텔라 현실에서 모든 ${disabledDim}차 차원의 생산이
+        비활성화되지만, 보상은 이전보다 ${formatInt(100)}배 강해집니다.`;
   }
 }
 

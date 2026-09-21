@@ -3,8 +3,8 @@ export const effarigQuotes = {
     id: 0,
     lines: [
       "내 소박한 거처에 온 걸 환영해.",
-      "나는 Effarig, 글리프를 관장하지.",
-      "나는 Teresa와는 달라. 네 생각만큼 단순하지 않다고.",
+      "나는 에파리그, 글리프를 관장하지.",
+      "나는 테레사와는 달라. 네 생각만큼 단순하지 않다고.",
       "나는 글리프의 파편으로 내 뜻을 관철한다.",
       "이 영역의 풍요를 위해 그것들을 모으지.",
       "뭘 기다리는 거지? 시작해.",
@@ -39,7 +39,7 @@ export const effarigQuotes = {
   completeInfinity: {
     id: 5,
     lines: [
-      { text: "Effarig의 무한을 완료했습니다.", showCelestialName: false },
+      { text: "에파리그의 무한을 완료했습니다.", showCelestialName: false },
       "이게 첫 번째 관문이다. 여기서부터 더 어려워질 뿐이지.",
       "내 영역을 더 깊이 나아갈 만큼 잘 아는 건 나뿐이다.",
     ]
@@ -47,7 +47,7 @@ export const effarigQuotes = {
   completeEternity: {
     id: 6,
     lines: [
-      { text: "Effarig의 영원을 완료했습니다.", showCelestialName: false },
+      { text: "에파리그의 영원을 완료했습니다.", showCelestialName: false },
       "여기가 한계다. 이 지점을 넘어 진행하지 않았으면 좋겠군.",
       "네 평생 안에는 끝내지 못할 거야.",
       "네가 포기할 때까지 여기서 기다리기만 하면 되겠군.",
@@ -56,7 +56,7 @@ export const effarigQuotes = {
   completeReality: {
     id: 7,
     lines: [
-      { text: "Effarig의 현실을 완료했습니다.", showCelestialName: false },
+      { text: "에파리그의 현실을 완료했습니다.", showCelestialName: false },
       "그러니까 이게 그 사악한 힘이군... 다른 이들이 두려워했던...",
       "이럴 가치가 있었다고 생각하나? 내가 이룬 것을 짓밟으면서까지?",
       "대체 무엇을 위해서지? 넌 우리와 함께할 수도 있었고, 우린 협력할 수도 있었는데.",

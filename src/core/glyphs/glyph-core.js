@@ -298,7 +298,8 @@ export const Glyphs = {
     }
     if (this.active[targetSlot] === null) {
       if (sameSpecialTypeIndex >= 0) {
-        Modal.message.show(`You may only have one ${glyph.type.capitalize()} Glyph equipped!`,
+        const typeName = glyph.type === "effarig" ? "에파리그" : "현실";
+        Modal.message.show(`${typeName} 글리프는 하나만 장착할 수 있습니다!`,
           { closeEvent: GAME_EVENT.GLYPHS_CHANGED });
         return;
       }
@@ -315,7 +316,8 @@ export const Glyphs = {
     } else {
       // We can only replace effarig/reality glyph
       if (sameSpecialTypeIndex >= 0 && sameSpecialTypeIndex !== targetSlot) {
-        Modal.message.show(`You may only have one ${glyph.type.capitalize()} Glyph equipped!`,
+        const typeName = glyph.type === "effarig" ? "에파리그" : "현실";
+        Modal.message.show(`${typeName} 글리프는 하나만 장착할 수 있습니다!`,
           { closeEvent: GAME_EVENT.GLYPHS_CHANGED });
         return;
       }
@@ -788,7 +790,7 @@ export const Glyphs = {
     }
     const cursedCount = this.allGlyphs.filter(g => g !== null && g.type === "cursed").length;
     if (cursedCount >= 5) {
-      GameUI.notify.error(`You don't need more than ${format(5)} Cursed Glyphs!`);
+      GameUI.notify.error(`저주받은 글리프는 ${format(5)}개를 넘게 보유할 필요가 없습니다!`);
     } else {
       this.addToInventory(GlyphGenerator.cursedGlyph());
       GameUI.notify.error("저주받은 글리프를 생성했습니다");

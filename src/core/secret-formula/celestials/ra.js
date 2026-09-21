@@ -78,14 +78,14 @@ export const ra = {
     },
     effarigUnlock: {
       id: 4,
-      reward: "Effarig의 기억을 해금합니다",
+      reward: "에파리그의 기억을 해금합니다",
       pet: "teresa",
       level: 8,
       displayIcon: `Ϙ`
     },
     perkShopIncrease: {
       id: 5,
-      reward: "Teresa의 퍼크 포인트 상점 구매 상한이 증가합니다",
+      reward: "테레사의 퍼크 포인트 상점 구매 상한이 증가합니다",
       pet: "teresa",
       level: 15,
       displayIcon: `<span class="fas fa-project-diagram"></span>`
@@ -111,7 +111,7 @@ export const ra = {
     unlockGlyphAlchemy: {
       id: 8,
       reward: `글리프를 정제하여 늘릴 수 있는 연금술 자원을 추가하는 글리프 연금술을 해금합니다.
-        Effarig 레벨에 따라 자원을 더 해금하며, 새로운 현실 탭에서 이용할 수 있습니다.`,
+        에파리그 레벨에 따라 자원을 더 해금하며, 새로운 현실 탭에서 이용할 수 있습니다.`,
       pet: "effarig",
       level: 2,
       displayIcon: `<span class="fas fa-vial"></span>`
@@ -126,7 +126,7 @@ export const ra = {
     },
     glyphEffectCount: {
       id: 10,
-      reward: () => `글리프가 항상 ${formatInt(4)}개의 효과를 가지며 Effarig 글리프는 이제 최대 ${formatInt(7)}개의 효과를 가집니다`,
+      reward: () => `글리프가 항상 ${formatInt(4)}개의 효과를 가지며 에파리그 글리프는 이제 최대 ${formatInt(7)}개의 효과를 가집니다`,
       pet: "effarig",
       level: 10,
       displayIcon: `<span class="fas fa-braille"></span>`

@@ -217,7 +217,7 @@ export const discordRichPresence = {
       mainResource: () => `${format(player.reality.realityMachines, 2)} RM`,
       resourceList: [
         () => `최고 GL: ${formatInt(player.records.bestReality.glyphLevel)}`,
-        () => `Ra 레벨: ${Ra.pets.all.map(p => formatInt(p.level)).join("/")}`],
+        () => `라 레벨: ${Ra.pets.all.map(p => formatInt(p.level)).join("/")}`],
     },
     {
       // Imaginary Machines unlocked
@@ -227,7 +227,7 @@ export const discordRichPresence = {
         `${format(player.reality.realityMachines)} RM + ${format(player.reality.imaginaryMachines, 2)} iM`,
       resourceList: [
         () => `최고 GL: ${formatInt(player.records.bestReality.glyphLevel)}`,
-        () => `Ra 레벨: ${Ra.pets.all.map(p => formatInt(p.level)).join("/")}`
+        () => `라 레벨: ${Ra.pets.all.map(p => formatInt(p.level)).join("/")}`
       ],
     },
     {
@@ -242,7 +242,7 @@ export const discordRichPresence = {
     {
       // We can't use celestial displayName here like the others because that will cause
       // the text scramble to get put on DRP
-      name: "Pelle",
+      name: "펠레",
       hasReached: () => Pelle.isDoomed,
       mainResource: () => quantify("현실 파편", player.celestials.pelle.realityShards, 2),
       resourceList: [() => quantify("잔재", player.celestials.pelle.remnants, 2)],

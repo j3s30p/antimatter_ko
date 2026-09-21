@@ -217,7 +217,7 @@ export const celestialNavigation = {
         rMinor: 64,
       },
       legend: {
-        text: "Teresa",
+        text: "테레사",
         angle: 135,
         diagonal: 32,
         horizontal: 16,
@@ -277,7 +277,7 @@ export const celestialNavigation = {
       },
       alwaysShowLegend: true,
       legend: {
-        text: "Teresa의 현실",
+        text: "테레사의 현실",
         angle: -135,
         diagonal: 96,
         horizontal: 16,
@@ -299,11 +299,11 @@ export const celestialNavigation = {
       },
       legend: {
         text: complete => {
-          if (complete >= 1) return "Teresa의 퍼크 포인트 상점";
+          if (complete >= 1) return "테레사의 퍼크 포인트 상점";
           const rm = Teresa.pouredAmount;
           const cost = TeresaUnlocks.shop.price;
           return [
-            "Teresa의 퍼크 포인트 상점",
+            "테레사의 퍼크 포인트 상점",
             `리얼리티 머신 ${format(rm, 2)} / ${format(cost, 2)}을 주입하세요`
           ];
         },
@@ -334,7 +334,7 @@ export const celestialNavigation = {
       },
       legend: {
         text: complete => {
-          if (complete >= 1) return "Effarig의 상점";
+          if (complete >= 1) return "에파리그의 상점";
           const rm = Teresa.pouredAmount;
           const cost = TeresaUnlocks.effarig.price;
           return [
@@ -371,11 +371,11 @@ export const celestialNavigation = {
       },
       legend: {
         text: complete => {
-          if (complete >= 1) return "Effarig의 현실 해금";
+          if (complete >= 1) return "에파리그의 현실 해금";
           const rs = Currency.relicShards.value;
           const cost = EffarigUnlock.run.cost;
           return [
-            "Effarig의 현실 해금",
+            "에파리그의 현실 해금",
             `유물 파편 ${format(rs, 2)} / ${format(cost, 2)}에 도달하세요`
           ];
         },
@@ -410,13 +410,13 @@ export const celestialNavigation = {
       },
       legend: {
         text: complete => {
-          if (complete >= 1) return "Effarig의 무한";
-          if (complete === 0) return "Effarig의 현실 해금";
+          if (complete >= 1) return "에파리그의 무한";
+          if (complete === 0) return "에파리그의 현실 해금";
           const am = Effarig.isRunning ? Currency.antimatter.value : 0;
           return [
-            "Effarig의 무한",
+            "에파리그의 무한",
             `${format(am, 2)} / ${format(Number.MAX_VALUE, 2)}에 도달하세요`,
-            "Effarig의 현실 안에서 반물질을 획득하세요."
+            "에파리그의 현실 안에서 반물질을 획득하세요."
           ];
         },
         angle: 0,
@@ -452,12 +452,12 @@ export const celestialNavigation = {
       },
       legend: {
         text: complete => {
-          if (complete >= 1) return "Effarig의 영원";
+          if (complete >= 1) return "에파리그의 영원";
           const ip = Effarig.isRunning ? Currency.infinityPoints.value : 0;
           return [
-            "Effarig의 영원",
+            "에파리그의 영원",
             `${format(ip, 2)} / ${format(Number.MAX_VALUE, 2)}에 도달하세요`,
-            "Effarig의 현실 안에서 무한 포인트를 획득하세요."
+            "에파리그의 현실 안에서 무한 포인트를 획득하세요."
           ];
         },
         angle: -45,
@@ -503,13 +503,13 @@ export const celestialNavigation = {
       alwaysShowLegend: true,
       legend: {
         text: complete => {
-          if (complete >= 1) return "Effarig의 현실";
+          if (complete >= 1) return "에파리그의 현실";
           const ep = Effarig.isRunning ? Currency.eternityPoints.value : 0;
           const goal = DC.E4000;
           return [
-            "Effarig의 현실",
+            "에파리그의 현실",
             `${format(ep, 2)} / ${format(goal, 2)}에 도달하세요`,
-            "Effarig의 현실 안에서 영원 포인트를 획득하세요."
+            "에파리그의 현실 안에서 영원 포인트를 획득하세요."
           ];
         },
         angle: -120,
@@ -1138,7 +1138,7 @@ export const celestialNavigation = {
       },
       alwaysShowLegend: true,
       legend: {
-        text: "Ra의 현실",
+        text: "라의 현실",
         angle: 230,
         diagonal: 85,
         horizontal: 16,
@@ -1161,9 +1161,9 @@ export const celestialNavigation = {
       legend: {
         text: () => {
           const level = Ra.pets.teresa.level;
-          if (level === 25) return `Ra의 Teresa 기억을 모두 되찾았습니다`;
+          if (level === 25) return `라의 테레사 기억을 모두 되찾았습니다`;
           return [
-            "Ra의 Teresa 기억 레벨",
+            "라의 테레사 기억 레벨",
             `${formatInt(level)} / ${formatInt(25)}`
           ];
         },
@@ -1211,10 +1211,10 @@ export const celestialNavigation = {
         text: complete => {
           const unlocked = Ra.pets.teresa.level;
           const level = Ra.pets.effarig.level;
-          if (complete < 1) return `Ra의 Teresa 기억 레벨 ${unlocked} / ${formatInt(8)}`;
-          if (level === 25) return `Ra의 Effarig 기억을 모두 되찾았습니다`;
+          if (complete < 1) return `라의 테레사 기억 레벨 ${unlocked} / ${formatInt(8)}`;
+          if (level === 25) return `라의 에파리그 기억을 모두 되찾았습니다`;
           return [
-            "Ra의 Effarig 기억 레벨",
+            "라의 에파리그 기억 레벨",
             `${formatInt(level)} / ${formatInt(25)}`
           ];
         },
@@ -1262,10 +1262,10 @@ export const celestialNavigation = {
         text: complete => {
           const unlocked = Ra.pets.effarig.level;
           const level = Ra.pets.enslaved.level;
-          if (complete < 1) return `Ra의 Effarig 기억 레벨 ${unlocked} / ${formatInt(8)}`;
-          if (level === 25) return `Ra의 이름 없는 자들 기억을 모두 되찾았습니다`;
+          if (complete < 1) return `라의 에파리그 기억 레벨 ${unlocked} / ${formatInt(8)}`;
+          if (level === 25) return `라의 이름 없는 자들 기억을 모두 되찾았습니다`;
           return [
-            "Ra의 이름 없는 자들 기억 레벨",
+            "라의 이름 없는 자들 기억 레벨",
             `${formatInt(level)} / ${formatInt(25)}`
           ];
         },
@@ -1313,10 +1313,10 @@ export const celestialNavigation = {
         text: complete => {
           const unlocked = Ra.pets.enslaved.level;
           const level = Ra.pets.v.level;
-          if (complete < 1) return `Ra의 이름 없는 자들 기억 레벨 ${unlocked} / ${formatInt(8)}`;
-          if (level === 25) return `Ra의 V 기억을 모두 되찾았습니다`;
+          if (complete < 1) return `라의 이름 없는 자들 기억 레벨 ${unlocked} / ${formatInt(8)}`;
+          if (level === 25) return `라의 V 기억을 모두 되찾았습니다`;
           return [
-            "Ra의 V 기억 레벨",
+            "라의 V 기억 레벨",
             `${formatInt(level)} / ${formatInt(25)}`
           ];
         },
@@ -1447,7 +1447,7 @@ export const celestialNavigation = {
       alwaysShowLegend: true,
       legend: {
         text: complete => {
-          const realityName = "Lai'tela의 현실";
+          const realityName = "라이텔라의 현실";
           if (complete >= 1) return [realityName];
 
           if (!MachineHandler.isIMUnlocked) {
@@ -1528,11 +1528,11 @@ export const celestialNavigation = {
 
           if (player.celestials.laitela.fastestCompletion > 30 && Laitela.difficultyTier < 0) return [
             dmdText,
-            `${format(30)}초 이내에 Lai'tela의 현실을 완료하세요`
+            `${format(30)}초 이내에 라이텔라의 현실을 완료하세요`
           ];
           return [
             dmdText,
-            `Lai'tela의 현실을 완료하세요`
+            `라이텔라의 현실을 완료하세요`
           ];
         },
         angle: 135,
@@ -1770,14 +1770,14 @@ export const celestialNavigation = {
       legend: {
         text: complete => {
           if (complete < 1) return [
-            "Lai'tela의 현실을 불안정화하여",
+            "라이텔라의 현실을 불안정화하여",
             "어떤 차원도 사용할 수 없는",
             "상태로 만드세요",
             `차원 ${format(Laitela.difficultyTier)} / ${format(8)}개 비활성화`
           ];
           return [
             "완전히 불안정화된",
-            "Lai'tela의 현실",
+            "라이텔라의 현실",
           ];
         },
         angle: 180,
@@ -1825,18 +1825,18 @@ export const celestialNavigation = {
         text: complete => {
           if (complete === 1) {
             return [
-              "Pelle 해금",
+              "펠레 해금",
               "반물질의 셀레스티얼"
             ];
           }
           let laitelaString = `${format(Currency.eternityPoints.value)} / ${format("1e4000")} 영원 포인트`;
           if (!Laitela.isRunning || Laitela.difficultyTier !== 8 || Glyphs.activeWithoutCompanion.length > 1) {
-            laitelaString = "Lai'tela의 현실이 아직 온전합니다";
+            laitelaString = "라이텔라의 현실이 아직 온전합니다";
           } else if (ImaginaryUpgrade(25).isAvailableForPurchase) {
-            laitelaString = "Lai'tela의 현실이 파괴되었습니다";
+            laitelaString = "라이텔라의 현실이 파괴되었습니다";
           }
           return [
-            "Pelle 해금",
+            "펠레 해금",
             "반물질의 셀레스티얼",
             `${format(Currency.imaginaryMachines.value, 2)} / ${format(1.6e15, 2)} 허수 머신`,
             laitelaString

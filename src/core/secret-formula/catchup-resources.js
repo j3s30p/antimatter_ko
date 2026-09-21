@@ -196,18 +196,18 @@ export const catchupResources = [
       요소에 영향을 주며, 같은 시간 동안 게임을 켜 둔 것과 비슷한 결과를 제공합니다.`
   },
   {
-    name: "Teresa",
+    name: "테레사",
     id: 26,
     requiredStage: PROGRESS_STAGE.TERESA,
-    description: `Teresa는 첫 번째 셀레스티얼입니다. Teresa의 더 어려운 현실을 완료하면 성과에 따라
+    description: `테레사는 첫 번째 셀레스티얼입니다. 테레사의 더 어려운 현실을 완료하면 성과에 따라
       글리프 희생이 크게 강화됩니다. 현실을 더 쉽게 시험하고 자동화하는 데 중점을 둔 업그레이드를
       해금합니다.`
   },
   {
-    name: "Effarig",
+    name: "에파리그",
     id: 27,
     requiredStage: PROGRESS_STAGE.EFFARIG,
-    description: `Effarig는 두 번째 셀레스티얼입니다. Effarig의 현실에서는 글리프가 제한되고 점점 강해지는
+    description: `에파리그는 두 번째 셀레스티얼입니다. 에파리그의 현실에서는 글리프가 제한되고 점점 강해지는
       약화 효과가 적용되지만, 새로운 초기화 단계에 도달할 때마다 보상을 얻습니다. 유물 파편이라는 새 자원으로
       많은 글리프를 자동 선택하고 필터링하는 업그레이드를 구매할 수 있습니다.`
   },
@@ -239,15 +239,15 @@ export const catchupResources = [
     name: "V",
     id: 31,
     requiredStage: PROGRESS_STAGE.V,
-    description: `V는 네 번째 셀레스티얼입니다. V의 변형된 현실은 Teresa의 현실과 비슷하지만, 내부에서
+    description: `V는 네 번째 셀레스티얼입니다. V의 변형된 현실은 테레사의 현실과 비슷하지만, 내부에서
       특정 자원 마일스톤에 도달해야 보상을 얻습니다. 경로 제한 없이 추가 시간 연구를 구매할 수 있게 해 주는
       우주 정리라는 새 자원을 제공합니다.`
   },
   {
-    name: "Ra",
+    name: "라",
     id: 32,
     requiredStage: PROGRESS_STAGE.RA,
-    description: `Ra는 다섯 번째 셀레스티얼입니다. Ra의 변형된 현실에서는 내부에서 모은 자원 총량에 따라
+    description: `라는 다섯 번째 셀레스티얼입니다. 라의 변형된 현실에서는 내부에서 모은 자원 총량에 따라
       기억 조각이라는 자원을 생산합니다. 이전 네 셀레스티얼의 업그레이드와 테마를 크게 강화하고,
       자동화와 편의 기능의 남은 빈틈을 채우는 데 중점을 둡니다.`
   },
@@ -256,7 +256,7 @@ export const catchupResources = [
     id: 33,
     openH2pEntry: "Ra",
     requiredStage: PROGRESS_STAGE.RA,
-    description: `Ra는 이전 네 셀레스티얼을 지배하며, 기억 조각 수에 따라 시간이 지나면서 기억을 생산합니다.
+    description: `라는 이전 네 셀레스티얼을 지배하며, 기억 조각 수에 따라 시간이 지나면서 기억을 생산합니다.
       이 기억으로 이전 셀레스티얼의 레벨을 올리고, 특정 레벨에 도달하면 업그레이드를 얻습니다.`
   },
   {
@@ -264,14 +264,14 @@ export const catchupResources = [
     id: 34,
     openH2pEntry: "Ra",
     requiredStage: PROGRESS_STAGE.RA,
-    description: `Teresa의 기억을 통해 무한 업그레이드를 충전하여 비슷한 효과를 훨씬 강하게 만들 수 있습니다.
+    description: `테레사의 기억을 통해 무한 업그레이드를 충전하여 비슷한 효과를 훨씬 강하게 만들 수 있습니다.
       어떤 업그레이드를 충전할지는 현실 사이에서만 변경할 수 있습니다.`
   },
   {
     name: "글리프 연금술",
     id: 35,
     requiredStage: PROGRESS_STAGE.RA,
-    description: `Effarig의 기억은 변형된 글리프 희생을 통해 다양한 소규모 강화 효과를 제공하는 글리프
+    description: `에파리그의 기억은 변형된 글리프 희생을 통해 다양한 소규모 강화 효과를 제공하는 글리프
       연금술을 해금합니다. 이 방식으로 글리프를 포기해 얻은 자원은 반응으로 서로 결합해야 효과를 완전히
       업그레이드할 수 있습니다.`
   },
@@ -299,10 +299,10 @@ export const catchupResources = [
       역대 가장 멀리 진행한 현실에서 얻었을 리얼리티 머신 수에 따라 정해지는 상한까지 자동으로 생산됩니다.`
   },
   {
-    name: "Lai'tela",
+    name: "라이텔라",
     id: 39,
     requiredStage: PROGRESS_STAGE.LAITELA,
-    description: `Lai'tela는 여섯 번째 셀레스티얼입니다. Lai'tela의 현실은 완료 조건이 변형되어 있으며,
+    description: `라이텔라는 여섯 번째 셀레스티얼입니다. 라이텔라의 현실은 완료 조건이 변형되어 있으며,
       얼마나 빨리 도달했는지에 따라 증가하는 보상을 제공합니다. 주로 암흑 물질이라는 자원과 관련된
       새로운 기능을 해금합니다.`
   },
@@ -337,10 +337,10 @@ export const catchupResources = [
       특이점을 생산할 때 응축 기준치를 넘는 추가 암흑 에너지는 소멸합니다.`
   },
   {
-    name: "Pelle",
+    name: "펠레",
     id: 44,
     requiredStage: PROGRESS_STAGE.PELLE,
-    description: `Pelle는 일곱 번째이자 마지막 셀레스티얼입니다. 게임을 영구적으로 파멸시키고 탈출할 수 없는
+    description: `펠레는 일곱 번째이자 마지막 셀레스티얼입니다. 게임을 영구적으로 파멸시키고 탈출할 수 없는
       매우 어려운 변형 현실로 몰아넣습니다.`
   },
   {
@@ -348,15 +348,15 @@ export const catchupResources = [
     id: 45,
     openH2pEntry: "Pelle",
     requiredStage: PROGRESS_STAGE.PELLE,
-    description: `아마겟돈은 언제든 수행할 수 있는 Pelle 전용 초기화입니다. 진행도를 파멸한 현실의 시작으로
+    description: `아마겟돈은 언제든 수행할 수 있는 펠레 전용 초기화입니다. 진행도를 파멸한 현실의 시작으로
       되돌리는 대신, 현실 파편을 생산하는 잔재를 얻습니다.`
   },
   {
-    name: "Pelle의 공격과 균열",
+    name: "펠레의 공격과 균열",
     id: 46,
     openH2pEntry: "Pelle Strikes",
     requiredStage: PROGRESS_STAGE.PELLE,
-    description: `Pelle에서 특정 진행 마일스톤에 도달하면 공격이 발생하여 파멸한 현실에 새로운 약화 효과를
+    description: `펠레에서 특정 진행 마일스톤에 도달하면 공격이 발생하여 파멸한 현실에 새로운 약화 효과를
       영구적으로 적용합니다. 각 공격에는 다른 자원을 소모하는 대신 강화 효과를 얻는 균열이 동반됩니다.
       이들은 영구적이며 아마겟돈 후에도 해금된 상태로 유지됩니다.`
   },

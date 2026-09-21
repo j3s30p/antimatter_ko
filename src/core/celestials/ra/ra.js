@@ -14,7 +14,7 @@ class RaUnlockState extends BitUpgradeState {
   }
 
   get requirementText() {
-    const pet = this.pet.name;
+    const pet = this.pet.displayName;
     return this.level === 1
       ? `${pet} 해금`
       : `${pet} 레벨 ${this.level} 달성`;
@@ -59,6 +59,15 @@ class RaPetState extends GameMechanicState {
 
   get name() {
     return this.config.name;
+  }
+
+  get displayName() {
+    return {
+      Teresa: "테레사",
+      Effarig: "에파리그",
+      Enslaved: "이름 없는 자들",
+      V: "V",
+    }[this.name] ?? this.name;
   }
 
   get chunkGain() {
@@ -226,8 +235,8 @@ const pets = mapGameDataToObject(
 );
 
 export const Ra = {
-  displayName: "Ra",
-  possessiveName: "Ra의",
+  displayName: "라",
+  possessiveName: "라의",
   unlocks,
   pets,
   remembrance: {
@@ -264,8 +273,8 @@ export const Ra = {
     for (const pet of Ra.pets.all) {
       if (pet.memoryProductionMultiplier !== 1) boostList.push(pet.memoryGain);
     }
-    if (Achievement(168).isUnlocked) boostList.push("Achievement 168");
-    if (Ra.unlocks.continuousTTBoost.canBeApplied) boostList.push("current TT");
+    if (Achievement(168).isUnlocked) boostList.push("도전 과제 168");
+    if (Ra.unlocks.continuousTTBoost.canBeApplied) boostList.push("현재 TT");
 
     if (boostList.length === 1) return `${boostList[0]}`;
     if (boostList.length === 2) return `${boostList[0]} 및 ${boostList[1]}`;

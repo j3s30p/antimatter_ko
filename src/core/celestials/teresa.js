@@ -7,8 +7,8 @@ export const Teresa = {
   timePoured: 0,
   lastUnlock: "effarig",
   pouredAmountCap: 1e24,
-  displayName: "Teresa",
-  possessiveName: "Teresa의",
+  displayName: "테레사",
+  possessiveName: "테레사의",
   get isUnlocked() {
     return Achievement(147).isUnlocked;
   },
@@ -110,7 +110,7 @@ class PerkShopUpgradeState extends RebuyableMechanicState {
     if (this.id === 5 && !Pelle.isDoomed) {
       const toCreate = GameCache.glyphInventorySpace.value;
       for (let count = 0; count < toCreate; count++) Glyphs.addToInventory(GlyphGenerator.musicGlyph());
-      GameUI.notify.success(`Created ${quantifyInt("Music Glyph", toCreate)}`);
+      GameUI.notify.success(`음악 글리프 ${formatInt(toCreate)}개를 생성했습니다`);
     }
   }
 }

@@ -179,7 +179,7 @@ export default {
         replication: "복제",
         infinity: "무한",
         power: "동력",
-        effarig: "Effarig",
+        effarig: "에파리그",
         reality: "현실",
         cursed: "저주받은",
         companion: "동반자",

@@ -1,13 +1,17 @@
 [CmdletBinding()]
 param(
   [string]$Version,
-  [string]$AppAsarPath = (Join-Path $PSScriptRoot "app.asar")
+  [string]$AppAsarPath
 )
 
 $ErrorActionPreference = "Stop"
 $repoRoot = Split-Path -Parent $PSScriptRoot
 $manifestPath = Join-Path $PSScriptRoot "patch-manifest.json"
 $manifest = Get-Content -LiteralPath $manifestPath -Raw | ConvertFrom-Json
+
+if (-not $AppAsarPath) {
+  $AppAsarPath = Join-Path $PSScriptRoot "app.asar"
+}
 
 if (-not $Version) {
   $Version = $manifest.patchVersion

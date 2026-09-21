@@ -70,7 +70,7 @@ export default {
       Laitela.maxAllDMDimensions(4);
     },
     showLaitelaHowTo() {
-      ui.view.h2pForcedTab = GameDatabase.h2p.tabs.filter(tab => tab.name === "Lai'tela")[0];
+      ui.view.h2pForcedTab = GameDatabase.h2p.tabs.filter(tab => tab.alias === "Lai'tela")[0];
       Modal.h2p.show();
     },
   }
@@ -85,7 +85,7 @@ export default {
         class="o-primary-btn--subtab-option"
         @click="showLaitelaHowTo()"
       >
-        Lai'tela 정보 보기
+        라이텔라 정보 보기
       </PrimaryButton>
       <PrimaryButton
         class="o-primary-btn--subtab-option"
@@ -103,7 +103,7 @@ export default {
     <div class="o-laitela-matter-amount">
       역대 암흑 물질 최대치는
       <span :style="styleObject">{{ format(maxDarkMatter, 2) }}</span><span v-if="!isDoomed">,
-        giving {{ formatPercents(matterExtraPurchasePercentage, 2) }} more purchases from Continuum</span>.
+        연속체 구매량이 {{ formatPercents(matterExtraPurchasePercentage, 2) }} 증가합니다</span>.
     </div>
     <div class="o-laitela-matter-amount">
       암흑 물질 차원은 실제 시간 저장의 영향을 받지 않습니다.

@@ -104,14 +104,14 @@ export const progressStages = [
   },
   {
     id: PROGRESS_STAGE.TERESA,
-    name: "Teresa (첫 번째 셀레스티얼)",
+    name: "테레사 (첫 번째 셀레스티얼)",
     hasReached: save => save.celestials?.teresa?.quoteBits > 0,
     suggestedResource: "리얼리티 머신",
     subProgressValue: save => Math.log10(1 + save.celestials.teresa.pouredAmount) / 21,
   },
   {
     id: PROGRESS_STAGE.EFFARIG,
-    name: "Effarig (두 번째 셀레스티얼)",
+    name: "에파리그 (두 번째 셀레스티얼)",
     hasReached: save => save.celestials?.effarig?.quoteBits > 0,
     suggestedResource: "리얼리티 머신 및 유물 파편",
     subProgressValue: save => Math.log10(1 + save.celestials.effarig.relicShards) / 14,
@@ -133,7 +133,7 @@ export const progressStages = [
   },
   {
     id: PROGRESS_STAGE.RA,
-    name: "Ra (다섯 번째 셀레스티얼)",
+    name: "라 (다섯 번째 셀레스티얼)",
     hasReached: save => save.celestials?.ra?.quoteBits > 0,
     suggestedResource: "셀레스티얼 기억",
     subProgressValue: save => Object.values(save.celestials.ra.pets).reduce((sum, pet) => sum + pet.level, 0) / 100,
@@ -147,14 +147,14 @@ export const progressStages = [
   },
   {
     id: PROGRESS_STAGE.LAITELA,
-    name: "Lai'tela (여섯 번째 셀레스티얼)",
+    name: "라이텔라 (여섯 번째 셀레스티얼)",
     hasReached: save => save.celestials?.laitela?.quoteBits > 0,
     suggestedResource: "암흑 물질 및 특이점",
     subProgressValue: save => new Decimal(save.celestials.laitela.darkMatter).log10() / 308.25,
   },
   {
     id: PROGRESS_STAGE.PELLE,
-    name: "Pelle (일곱 번째 셀레스티얼)",
+    name: "펠레 (일곱 번째 셀레스티얼)",
     hasReached: save => save.celestials?.pelle?.doomed,
     suggestedResource: "잔재",
     subProgressValue: save => Math.log10(1 + save.celestials.pelle.remnants) / 9,

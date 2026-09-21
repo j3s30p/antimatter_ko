@@ -157,7 +157,7 @@ export default {
     <CostDisplay
       v-if="!isCapped"
       :config="config"
-      :name="galaxyGenerator ? config.currencyLabel : 'Reality Shard'"
+      :name="galaxyGenerator ? config.currencyLabel : '현실 조각'"
     />
   </button>
 </template>

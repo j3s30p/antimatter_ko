@@ -171,7 +171,7 @@ export const imaginaryUpgrades = [
     // - Purchasing any ID (edge case: this is acceptable for ID2-8 inside EC2 or EC10)
     // - Purchasing any TD with any amount of EC7 completions (edge case: acceptable within EC1 or EC10)
     // - Entering EC7 with any amount of purchased TD
-    description: () => `차원의 셀레스티얼 Lai'tela ${
+    description: () => `차원의 셀레스티얼 라이텔라 ${
       Pelle.isDoomed ? "해금" : "해금 및 반물질 차원의 연속체 전환"
     }`,
   },
@@ -180,7 +180,7 @@ export const imaginaryUpgrades = [
     id: 16,
     cost: 3.5e9,
     formatCost: x => format(x, 1),
-    requirement: () => `Lai'tela의 현실을 ${formatInt(30)}초 이내에 두 번 불안정화`,
+    requirement: () => `라이텔라의 현실을 ${formatInt(30)}초 이내에 두 번 불안정화`,
     hasFailed: () => false,
     checkRequirement: () => Laitela.maxAllowedDimension <= 6,
     checkEvent: GAME_EVENT.GAME_TICK_AFTER,
@@ -258,7 +258,7 @@ export const imaginaryUpgrades = [
     id: 22,
     cost: 1.5e14,
     formatCost: x => format(x, 1),
-    requirement: () => `저주받은 글리프를 최소 ${formatInt(4)}개 장착하고 Effarig의 현실에서
+    requirement: () => `저주받은 글리프를 최소 ${formatInt(4)}개 장착하고 에파리그의 현실에서
       반물질 ${format("1e150000000000")} 도달`,
     // Note: 4 cursed glyphs is -12 glyph count, but equipping a positive glyph in the last slot is allowed
     hasFailed: () => !Effarig.isRunning || player.requirementChecks.reality.maxGlyphs > -10,
@@ -273,7 +273,7 @@ export const imaginaryUpgrades = [
     name: "평면 정화",
     id: 23,
     cost: 6e14,
-    requirement: () => `글리프를 최대 ${formatInt(0)}개 장착하고 Ra의 현실에서
+    requirement: () => `글리프를 최대 ${formatInt(0)}개 장착하고 라의 현실에서
       글리프 레벨 ${formatInt(20000)} 도달`,
     hasFailed: () => !Ra.isRunning || player.requirementChecks.reality.maxGlyphs > 0,
     checkRequirement: () => Ra.isRunning && player.requirementChecks.reality.maxGlyphs <= 0 &&
@@ -291,7 +291,7 @@ export const imaginaryUpgrades = [
     // We unfortunately don't have the UI space to be more descriptive on this button without causing text overflow,
     // so hopefully the additional modals (from the upgrade lock) will mostly communicate the idea that this is under
     // the same conditions as hard V's Post-destination
-    requirement: () => `블랙홀을 완전히 반전시킨 채 Ra의 현실에서
+    requirement: () => `블랙홀을 완전히 반전시킨 채 라의 현실에서
       반물질 은하 ${formatInt(13000)}개 보유`,
     hasFailed: () => !Ra.isRunning || player.requirementChecks.reality.slowestBH > 1e-300,
     checkRequirement: () => Ra.isRunning && player.requirementChecks.reality.slowestBH <= 1e-300 &&
@@ -310,7 +310,7 @@ export const imaginaryUpgrades = [
     cost: 1.6e15,
     formatCost: x => format(x, 1),
     requirement: () => `모든 차원을 비활성화하고 빈 글리프 슬롯을 최소 ${formatInt(4)}개 남긴 채
-      Lai'tela의 현실에서 현실 도달`,
+      라이텔라의 현실에서 현실 도달`,
     hasFailed: () => !Laitela.isRunning || Laitela.maxAllowedDimension !== 0 ||
       Glyphs.activeWithoutCompanion.length > 1,
     checkRequirement: () => Laitela.isRunning && Laitela.maxAllowedDimension === 0 &&
@@ -318,6 +318,6 @@ export const imaginaryUpgrades = [
     checkEvent: GAME_EVENT.GAME_TICK_AFTER,
     canLock: true,
     lockEvent: "동반자 이외의 글리프를 추가 장착",
-    description: "반물질의 셀레스티얼 Pelle 해금",
+    description: "반물질의 셀레스티얼 펠레 해금",
   },
 ];

@@ -13,34 +13,34 @@ const flashCelestial = [
 const primaryBackground = cel => [["pelle", 1.5], [cel, 1.5]];
 
 /* eslint-disable no-multi-spaces */
-const destroyer =    ["False",         "Deity",         "Destroyer"];
-const eternal =      ["Eternal",       "Deity",         "Monarch"];
-const lesser =       ["Lesser",        "Deity",         "Monarch"];
-const deities =      ["Lesser",        "Deities",       "Monarchs"];
+const destroyer =    ["거짓된",        "신",            "파괴자"];
+const eternal =      ["영원한",        "신",            "군주"];
+const lesser =       ["하위의",        "신",            "군주"];
+const deities =      ["하위의",        "신들",          "군주들"];
 
-const assured =      ["Mutually",      "Assured",       "Destruction"];
-const battle =       ["Conflict",      "Battle",        "End"];
-const battles =      ["Conflicts",     "Battles",       "Ends"];
-const cluster =      ["Cluster",       "Filament",      "Stars"];
-const confusing =    ["Amusing",       "Confusing",     "Laughter"];
-const dance =        ["Song",          "Dance",         "Charade"];
-const filament =     ["Generator",     "Filament",      "Stars"];
-const forever =      ["Infinite",      "Forever",       "Eternal"];
-const inevitable =   ["Elementary",    "Inevitable",    "Irreversible"];
-const mandate =      ["Destiny",       "Mandate",       "Goals"];
-const misconstrue =  ["Misconstrue",   "Deceive",       "Trick"];
-const reverse =      ["Alter",         "Reverse",       "Manipulate"];
-const shame =        ["Compassion",    "Shame",         "Idiocy"];
-const single =       ["Single",        "Filament",      "Stars"];
-const unseen =       ["Missing",       "Unseen",        "Erased"];
-const unbroken =     ["Unbroken",      "Eternal",       "Connection"];
+const assured =      ["상호",          "확증된",        "파괴"];
+const battle =       ["충돌",          "전투",          "종말"];
+const battles =      ["충돌들",        "전투들",        "종말들"];
+const cluster =      ["성단",          "필라멘트",      "별들"];
+const confusing =    ["우스운",        "혼란스러운",    "웃음"];
+const dance =        ["노래",          "춤",            "촌극"];
+const filament =     ["생성기",        "필라멘트",      "별들"];
+const forever =      ["무한히",        "영원히",        "영원토록"];
+const inevitable =   ["근본적인",      "필연적인",      "돌이킬 수 없는"];
+const mandate =      ["운명",          "명령",          "목표"];
+const misconstrue =  ["오해할",        "속일",          "기만할"];
+const reverse =      ["변경",          "역전",          "조작"];
+const shame =        ["연민",          "수치심",        "어리석음"];
+const single =       ["하나의",        "필라멘트",      "별들"];
+const unseen =       ["사라진",        "보이지 않는",   "지워진"];
+const unbroken =     ["끊어지지 않은", "영원한",        "연결"];
 
-const sycophant =    ["Sycophant",     "Deity",         "Monarch"];
-const tired =        ["Tired",         "Deity",         "Monarch"];
-const usurper =      ["Usurper",       "Deity",         "Monarch"];
-const pride =        ["Pride",         "Deity",         "Monarch"];
-const forgotten =    ["Forgotten",     "Deity",         "Monarch"];
-const paramount =    ["Paramount",     "Deity",         "Monarch"];
+const sycophant =    ["아첨꾼",        "신",            "군주"];
+const tired =        ["지친",          "신",            "군주"];
+const usurper =      ["찬탈자",        "신",            "군주"];
+const pride =        ["자존심",        "신",            "군주"];
+const forgotten =    ["잊힌 자",       "신",            "군주"];
+const paramount =    ["최고의 존재",   "신",            "군주"];
 /* eslint-enable no-multi-spaces */
 
 export const pelleQuotes = {
@@ -158,7 +158,7 @@ export const pelleQuotes = {
         background: primaryBackground("teresa"),
         1: lesser
       }, {
-        text: "The $1.",
+        text: "$1.",
         background: primaryBackground("teresa"),
         1: sycophant
       }, {
@@ -190,7 +190,7 @@ export const pelleQuotes = {
         background: primaryBackground("effarig"),
         1: lesser,
       }, {
-        text: "The $1.",
+        text: "$1.",
         background: primaryBackground("effarig"),
         1: tired,
       }, {

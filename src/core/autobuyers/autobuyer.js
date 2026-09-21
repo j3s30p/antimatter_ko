@@ -18,6 +18,37 @@ export class AutobuyerState {
 
   get id() { return this._id; }
 
+  get displayName() {
+    const ordinalMatch = this.name?.match(/^(\d+)(?:st|nd|rd|th)$/u);
+    if (ordinalMatch) return `${ordinalMatch[1]}차`;
+
+    const localizedNames = {
+      "Dilated Time Multiplier": "팽창 시간 배율",
+      "Tachyon Galaxy Threshold": "타키온 은하 요구량",
+      "Tachyon Particle Multiplier": "타키온 입자 배율",
+      "Time Theorem": "시간 정리",
+      "Infinity Point Multiplier": "무한 포인트 배율",
+      "Eternity Point Multiplier": "영원 포인트 배율",
+      "Singularity": "특이점",
+      "Tickspeed": "틱스피드",
+      "Reality": "현실",
+      "Replicanti Galaxy": "복제자 은하",
+      "Annihilation": "소멸",
+      "Dark Matter Dimensions": "암흑 물질 차원",
+      "Dimensional Sacrifice": "차원 희생",
+      "Eternity": "영원",
+      "Replicanti Chance": "복제자 확률",
+      "Replicanti Interval": "복제자 간격",
+      "Replicanti Max Galaxies": "복제자 최대 은하",
+      "Infinity": "무한",
+      "Dark Matter Dimension Ascension": "암흑 물질 차원 승천",
+      "Dimension Boost": "차원 가속",
+    };
+    const blackHoleMatch = this.name?.match(/^Black Hole (\d+) Power$/u);
+    if (blackHoleMatch) return `블랙홀 ${blackHoleMatch[1]} 위력`;
+    return localizedNames[this.name] ?? this.name;
+  }
+
   get canTick() {
     const isDisabled = !player.auto.autobuyersOn || !this.constructor.isActive;
     return this.isActive && !isDisabled && (this.isUnlocked || this.isBought);

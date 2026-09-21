@@ -94,6 +94,17 @@ Update this file whenever a translation batch is committed. An area becomes `QA 
   hash match, 304 Greenworks sidecar files, Galmuri9, Korean NEWS/Nameless Ones/changelog markers, and absence of the
   Endgame Skills marker. The payload was installed into the tester's Steam folder and relaunched with five responding
   Electron processes. The copy-over release ZIP contains `resources/app.asar` and matches the manifest SHA-256.
+- RC2 late-game correction batch: translated the remaining current-Glyph Pelle effects, Reality Shard cost label,
+  Pelle strike penalty, Lai'tela entropy description and Singularity notifications, upgrade-lock warnings, crash
+  detail prompt, special-Glyph warnings, and visible autobuyer names. Player-facing `Teresa`/`Pelle` references were
+  normalized to `테레사`/`펠레` across tabs, help, catch-up text, Celestial navigation, quotes, achievements, progress
+  labels, multiplier breakdowns, and notifications while preserving internal keys. All player-facing Celestial names
+  are now standardized as `테레사`, `에파리그`, `이름 없는 자들`, `V`, `라`, `라이텔라`, and `펠레`. Pelle's
+  readable `wordShift` candidates, fixed quote fragments, rift resource cycle, and end-tab sequence were localized
+  while random corruption, Zalgo, and intentional glitch effects remain unchanged. The Steam build and changed-file
+  ESLint passed, the ASAR was re-extracted with an exact bundle hash match and 304 Greenworks files, localized marker
+  checks passed, and `0.9.0-rc.2` was installed and relaunched with five responding Electron processes. Manual
+  late-game screen and layout QA remains in progress with the tester.
 
 ## Steam packaging note
 

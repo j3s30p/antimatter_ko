@@ -18,12 +18,7 @@ export default {
       return this.petConfig.pet;
     },
     name() {
-      return {
-        Teresa: "테레사",
-        Effarig: "에파리그",
-        Enslaved: "이름 없는 자들",
-        V: "V",
-      }[this.pet.name] ?? this.pet.name;
+      return this.pet.displayName;
     },
     petStyle() {
       return {

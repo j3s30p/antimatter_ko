@@ -18,21 +18,21 @@ export const Celestials = {
 
 GameDatabase.celestials.descriptions = [
   {
-    name: "Teresa",
+    name: "테레사",
     effects() {
       return `글리프의 시간 정리 생성 효과가 비활성화됩니다.
       무한 포인트와 영원 포인트 획득량이 감소합니다(x^${format(0.55, 2, 2)}).`;
     },
   },
   {
-    name: "Effarig",
+    name: "에파리그",
     effects() {
       return `시간 팽창처럼 모든 차원 배율, 게임 속도, 틱스피드가 크게 감소합니다.
       무한력은 생산량과 게임 속도 페널티를 줄이고, 시간 파편은 틱스피드 페널티를 줄입니다.
       글리프 레벨은 일시적으로 ${formatInt(Effarig.glyphLevelCap)}에서 제한되며 희귀도는 영향을 받지 않습니다.`;
     },
     description() {
-      return `Effarig의 현실에서 한 단계를 처음 완료하면 해당 현실에서 나갑니다.`;
+      return `에파리그의 현실에서 한 단계를 처음 완료하면 해당 현실에서 나갑니다.`;
     }
   },
   {
@@ -64,14 +64,14 @@ GameDatabase.celestials.descriptions = [
     }
   },
   {
-    name: "Ra",
+    name: "라",
     effects() {
       return `차원 가속을 ${formatInt(4)}개만 보유하며 더 얻을 수 없습니다.
       틱스피드 구매 배율이 ${formatX(1.1245, 0, 3)}로 고정됩니다.`;
     },
   },
   {
-    name: "Lai'tela",
+    name: "라이텔라",
     effects() {
       let disabledDims;
       const highestActive = 8 - Laitela.difficultyTier;
@@ -102,12 +102,12 @@ GameDatabase.celestials.descriptions = [
       ${disabledText}`;
     },
     description() {
-      return `Antimatter generates entropy inside of this Reality.\
-      At ${formatPercents(1)} entropy, the Reality becomes destabilized\
-      and you gain a reward based on how quickly you reached ${formatPercents(1)}.
-      Destabilizing the Reality in less than ${formatInt(30)} seconds makes it become significantly more difficult,\
-      in exchange for giving a much stronger reward.\
-      Doing this ${formatInt(8)} times will also give a ${formatX(8)} to Dark Energy gain.`;
+      return `이 현실에서는 반물질이 엔트로피를 생성합니다.\
+      엔트로피가 ${formatPercents(1)}에 도달하면 현실이 불안정해지고,\
+      ${formatPercents(1)}에 얼마나 빨리 도달했는지에 따라 보상을 받습니다.
+      ${formatInt(30)}초 안에 현실을 불안정하게 만들면 난이도가 크게 높아지는 대신,\
+      훨씬 강력한 보상을 받습니다.\
+      이를 ${formatInt(8)}회 달성하면 암흑 에너지 획득량도 ${formatX(8)} 증가합니다.`;
     }
   },
 

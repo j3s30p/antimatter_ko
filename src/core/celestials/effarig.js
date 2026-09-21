@@ -13,8 +13,8 @@ export const EFFARIG_STAGES = {
 };
 
 export const Effarig = {
-  displayName: "Effarig",
-  possessiveName: "Effarig의",
+  displayName: "에파리그",
+  possessiveName: "에파리그의",
   initializeRun() {
     clearCelestialRuns();
     player.celestials.effarig.run = true;

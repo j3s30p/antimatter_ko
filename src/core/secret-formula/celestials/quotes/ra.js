@@ -28,8 +28,8 @@ export const raQuotes = {
     id: 3,
     requirement: () => Ra.pets.teresa.level >= 15,
     lines: [
-      "Teresa는 머신을 다뤘던 것 같아.",
-      "Teresa의 상점에 몇 번 갔던 기억이 나.",
+      "테레사는 머신을 다뤘던 것 같아.",
+      "테레사의 상점에 몇 번 갔던 기억이 나.",
       "잠깐, 다른 누군가에게도 상점이 있었지?",
     ]
   },
@@ -38,14 +38,14 @@ export const raQuotes = {
     requirement: () => Ra.pets.effarig.level >= 2,
     lines: [
       "Eff... a... rig...",
-      "Effarig는 다정했던 걸로 기억해.",
+      "에파리그는 다정했던 걸로 기억해.",
     ]
   },
   effarigLate: {
     id: 5,
     requirement: () => Ra.pets.effarig.level >= 15,
     lines: [
-      "Effarig는 아주 까다로웠지?",
+      "에파리그는 아주 까다로웠지?",
       "그리고 무시무시한 현실도 기억나...",
       "그건... 고통에 관한 거였나?",
     ]
@@ -119,8 +119,8 @@ export const raQuotes = {
     lines: [
       "마침내 모든 것이 기억났어.",
       "나를 추방한 이 어둠.",
-      "Lai'tela...",
-      "Lai'tela가 나를 추방한 건 옳았어.",
+      "라이텔라...",
+      "라이텔라가 나를 추방한 건 옳았어.",
       "내 힘은...",
       "빼앗고, 타락시켜.",
       "제발 떠나 줘.",

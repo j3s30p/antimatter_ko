@@ -42,7 +42,7 @@ export default {
     },
     startRun() {
       if (this.isDoomed) return;
-      Modal.celestials.show({ name: "Lai'tela's", number: 5 });
+      Modal.celestials.show({ name: "라이텔라", number: 5 });
     },
     classObject() {
       return {
@@ -65,7 +65,7 @@ export default {
 <template>
   <button :class="classObject()">
     <span :class="{ 'o-pelle-disabled': isDoomed }">
-      <b>Lai'tela의 현실 시작</b>
+      <b>라이텔라의 현실 시작</b>
     </span>
     <div
       :class="runButtonClassObject()"
@@ -97,7 +97,7 @@ export default {
           암흑 에너지 획득량도 추가로 {{ formatX(8) }} 증가합니다.
         </b>
         <br><br>
-        Lai'tela의 현실이 완전히 불안정화되어 보상을 더 개선할 수 없습니다.
+        라이텔라의 현실이 완전히 불안정화되어 보상을 더 개선할 수 없습니다.
       </span>
       <br>
     </div>

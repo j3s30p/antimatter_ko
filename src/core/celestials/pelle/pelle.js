@@ -56,7 +56,7 @@ const disabledMechanicUnlocks = {
 export const Pelle = {
   symbol: "♅",
   // Suppress the randomness for this form
-  possessiveName: "Pelle의",
+  possessiveName: "펠레의",
 
   // This is called upon initial Dooming and after every Armageddon when using the modal
   initializeRun() {
@@ -121,7 +121,7 @@ export const Pelle = {
   },
 
   get displayName() {
-    return Date.now() % 4000 > 500 ? "Pelle" : wordShift.randomCrossWords("Pelle");
+    return Date.now() % 4000 > 500 ? "펠레" : wordShift.randomCrossWords("펠레");
   },
 
   get isUnlocked() {
@@ -234,28 +234,28 @@ export const Pelle = {
   getSpecialGlyphEffectDescription(type) {
     switch (type) {
       case "infinity":
-        return `Infinity Point gain ${player.challenge.eternity.current <= 8
+        return `무한 포인트 획득량 ${player.challenge.eternity.current <= 8
           ? formatX(Currency.infinityPoints.value.plus(1).pow(0.2), 2)
-          : formatX(DC.D1, 2)} (based on current IP)`;
+          : formatX(DC.D1, 2)} (현재 IP 기준)`;
       case "time":
-        return `Eternity Point gain ${formatX(Currency.eternityPoints.value.plus(1).pow(0.3), 2)}
-          (based on current EP)`;
+        return `영원 포인트 획득량 ${formatX(Currency.eternityPoints.value.plus(1).pow(0.3), 2)}
+          (현재 EP 기준)`;
       case "replication":
-        return `Replication speed ${formatX(10 ** 53 ** (PelleRifts.vacuum.percentage), 2)} \
-        (based on ${wordShift.wordCycle(PelleRifts.vacuum.name)})`;
+        return `복제 속도 ${formatX(10 ** 53 ** (PelleRifts.vacuum.percentage), 2)} \
+        (${wordShift.wordCycle(PelleRifts.vacuum.name)} 기준)`;
       case "dilation":
-        return `Dilated Time gain ${formatX(Decimal.pow(player.dilation.totalTachyonGalaxies, 1.5).max(1), 2)}
-          (based on Tachyon Galaxies)`;
+        return `팽창 시간 획득량 ${formatX(Decimal.pow(player.dilation.totalTachyonGalaxies, 1.5).max(1), 2)}
+          (타키온 은하 기준)`;
       case "power":
-        return `Galaxies are ${formatPercents(0.02)} stronger`;
+        return `은하의 효과가 ${formatPercents(0.02)} 더 강해집니다`;
       case "companion":
         return `기분이 ${formatPercents(0.34)} 더 좋아집니다`;
       // Undefined means that there is no glyph equipped, needs to be here since this function is used in
       // both Current Glyph Effects and Glyph Tooltip
       case undefined:
-        return "No Glyph equipped!";
+        return "장착된 글리프가 없습니다!";
       default:
-        return "You cannot equip this Glyph while Doomed!";
+        return "파멸한 동안에는 이 글리프를 장착할 수 없습니다!";
     }
   },
 
@@ -354,7 +354,7 @@ export const Pelle = {
     return zalgo(str, Math.floor(stage ** 2 * 7));
   },
 
-  endTabNames: "End Is Nigh Destruction Is Imminent Help Us Good Bye Forever".split(" "),
+  endTabNames: ["종말", "이", "다가온다", "파괴가", "곧", "닥친다", "도와", "줘", "잘", "있어", "영원히"],
 
   quotes: Quotes.pelle,
 };

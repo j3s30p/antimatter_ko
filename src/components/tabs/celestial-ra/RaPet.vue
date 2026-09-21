@@ -49,7 +49,7 @@ export default {
       return this.petConfig.pet;
     },
     name() {
-      return this.pet.name;
+      return this.pet.displayName;
     },
     petStyle() {
       return {

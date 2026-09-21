@@ -63,13 +63,13 @@ export const replicanti = {
     icon: MultiplierTabIcons.ALCHEMY,
   },
   ra: {
-    name: "Ra 업그레이드 - 시간 정리 기반 배율",
+    name: "라 업그레이드 - 시간 정리 기반 배율",
     multValue: () => Ra.unlocks.continuousTTBoost.effects.replicanti.effectOrDefault(1),
     isActive: () => Ra.unlocks.continuousTTBoost.isUnlocked,
     icon: MultiplierTabIcons.GENERIC_RA,
   },
   pelle: {
-    name: "Pelle 타격 - 쇠퇴 균열",
+    name: "펠레 타격 - 쇠퇴 균열",
     multValue: () => PelleRifts.decay.effectValue,
     isActive: () => Pelle.isDoomed && PelleRifts.decay.effectValue.gt(1),
     icon: MultiplierTabIcons.PELLE,

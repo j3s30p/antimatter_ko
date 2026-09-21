@@ -42,7 +42,7 @@ export default {
         class="c-collapse-icon-clickable"
         @click="toggleCollapse"
       />
-      Pelle 타격과 균열
+      펠레 타격과 균열
     </div>
     <div
       v-if="!isCollapsed"

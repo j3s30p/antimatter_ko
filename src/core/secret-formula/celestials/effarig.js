@@ -31,7 +31,7 @@ export const effarigUnlocks = {
   },
   run: {
     id: 3,
-    description: "Effarig의 현실",
+    description: "에파리그의 현실",
     cost: 5e11,
     onPurchased: () => {
       Effarig.quotes.unlockRun.show();
@@ -43,8 +43,8 @@ export const effarigUnlocks = {
     get description() {
       return ` 무한 횟수에 따라 복제자 상한에 배율이 적용됩니다
         무한 횟수가 최대 복제자 은하를 증가시킵니다
-        Effarig의 현실에서는 기본 무한 포인트 획득량이 ${format(DC.E200)}에서 상한에 도달합니다
-        Effarig의 현실에서는 각 종류의 무한 포인트 배율이 ${format(DC.E50)}에서 상한에 도달합니다`;
+        에파리그의 현실에서는 기본 무한 포인트 획득량이 ${format(DC.E200)}에서 상한에 도달합니다
+        에파리그의 현실에서는 각 종류의 무한 포인트 배율이 ${format(DC.E50)}에서 상한에 도달합니다`;
     },
   },
   eternity: {
@@ -52,7 +52,7 @@ export const effarigUnlocks = {
     label: "영원",
     get description() {
       return ` 영원 횟수가 무한 횟수를 생성합니다
-        Effarig의 현실에서 무한 포인트가 더 이상 어떤 방식으로도 제한되지 않습니다
+        에파리그의 현실에서 무한 포인트가 더 이상 어떤 방식으로도 제한되지 않습니다
         이름 없는 자들을 해금했습니다`;
     },
   },
@@ -60,7 +60,7 @@ export const effarigUnlocks = {
     id: 6,
     label: "현실",
     get description() {
-      return " Effarig 글리프를 해금했습니다(최대 하나만 장착할 수 있고 일부 효과는 서로 동시에 적용되지 않습니다)";
+      return " 에파리그 글리프를 해금했습니다(최대 하나만 장착할 수 있고 일부 효과는 서로 동시에 적용되지 않습니다)";
     },
   }
 };
