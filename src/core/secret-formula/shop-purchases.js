@@ -51,7 +51,7 @@ export const shopPurchases = {
   dilatedTimePurchases: {
     key: "dilatedTimePurchases",
     cost: 40,
-    description: "팽창 시간 획득량이 50% 증가합니다. (합연산)",
+    description: "팽창된 시간 획득량이 50% 증가합니다. (합연산)",
     multiplier: purchases => (purchases === 0 ? 1 : 1 + 0.5 * purchases),
     formatEffect: x => `×${x.toFixed(1)}`,
     isUnlocked: () => PlayerProgress.dilationUnlocked() || PlayerProgress.realityUnlocked(),
@@ -69,7 +69,7 @@ export const shopPurchases = {
   smallTimeSkip: {
     key: "smallTimeSkip",
     cost: 10,
-    description: "오프라인 생산 6시간분을 획득합니다. (자동구매기는 최대 속도로 작동하지 않음)",
+    description: "오프라인 생산 6시간분을 획득합니다. (자동 구매기는 최대 속도로 작동하지 않음)",
     instantPurchase: true,
     onPurchase: () => {
       shop.purchaseTimeSkip();
@@ -78,7 +78,7 @@ export const shopPurchases = {
   bigTimeSkip: {
     key: "bigTimeSkip",
     cost: 20,
-    description: "오프라인 생산 24시간분을 획득합니다. (자동구매기는 최대 속도로 작동하지 않음)",
+    description: "오프라인 생산 24시간분을 획득합니다. (자동 구매기는 최대 속도로 작동하지 않음)",
     instantPurchase: true,
     onPurchase: () => {
       shop.purchaseLongerTimeSkip();

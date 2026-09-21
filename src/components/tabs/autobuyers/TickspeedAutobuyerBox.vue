@@ -40,7 +40,7 @@ export default {
 <template>
   <AutobuyerBox
     :autobuyer="autobuyer"
-    name="틱 속도 자동 구매기"
+    name="틱스피드 자동 구매기"
     show-interval
   >
     <template #intervalSlot>

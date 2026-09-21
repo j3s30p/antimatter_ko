@@ -121,7 +121,7 @@ export default {
       <br>
       오프라인 진행: <span v-html="offlineText" />
       <br>
-      최근 마일스톤: {{ milestoneName(mostRecent) }} <span v-if="mostRecent">({{ timeSince }} 전)</span>
+      최근 이정표: {{ milestoneName(mostRecent) }} <span v-if="mostRecent">({{ timeSince }} 전)</span>
       <br>
     </div>
     <div

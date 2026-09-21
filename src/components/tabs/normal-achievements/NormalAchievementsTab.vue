@@ -140,20 +140,20 @@ export default {
         v-if="showAutoAchieve"
         v-model="isAutoAchieveActive"
         class="o-primary-btn--subtab-option"
-        label="도전 과제 자동 달성:"
+        label="도전과제 자동 달성:"
       />
     </div>
     <div class="c-achievements-tab__header c-achievements-tab__header--multipliers">
       <span v-if="isDoomed">
-        모든 도전 과제 배율이 비활성화되었습니다<SwapAchievementImagesButton />
+        모든 도전과제 배율이 비활성화되었습니다<SwapAchievementImagesButton />
       </span>
       <span v-else>
-        도전 과제로 다음 배율을 얻습니다<SwapAchievementImagesButton />
+        도전과제로 다음 배율을 얻습니다<SwapAchievementImagesButton />
         <div v-html="boostText" />
       </span>
     </div>
     <div class="c-achievements-tab__header">
-      <i class="fas fa-star" /> 아이콘이 있는 도전 과제는 추가 보상도 제공합니다.
+      <i class="fas fa-star" /> 아이콘이 있는 도전과제는 추가 보상도 제공합니다.
     </div>
     <div
       v-if="showAutoAchieve"
@@ -161,15 +161,15 @@ export default {
     >
       <div v-if="achCountdown > 0">
         <span v-if="!isAutoAchieveActive">자동 달성을 켜면 </span>{{ timeDisplayNoDecimals(achCountdown) }} 후
-        다음 미달성 도전 과제를 자동으로 달성합니다. (왼쪽에서 오른쪽, 위에서 아래 순서)
+        다음 미달성 도전과제를 자동으로 달성합니다. (왼쪽에서 오른쪽, 위에서 아래 순서)
       </div>
       <div v-else-if="missingAchievements !== 0">
-        자동 달성을 켜는 즉시 다음 미달성 도전 과제를 달성합니다.
+        자동 달성을 켜는 즉시 다음 미달성 도전과제를 달성합니다.
         (왼쪽에서 오른쪽, 위에서 아래 순서)
       </div>
       <div v-if="totalCountdown > 0">
-        도전 과제 자동 달성을 <span v-if="isAutoAchieveActive">계속 켜 두면</span><span v-else>켜면</span>
-        {{ timeDisplayNoDecimals(totalCountdown) }} 후 남은 도전 과제를 모두 다시 달성합니다.
+        도전과제 자동 달성을 <span v-if="isAutoAchieveActive">계속 켜 두면</span><span v-else>켜면</span>
+        {{ timeDisplayNoDecimals(totalCountdown) }} 후 남은 도전과제를 모두 다시 달성합니다.
       </div>
       <br>
     </div>

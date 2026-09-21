@@ -85,8 +85,8 @@ export function checkPerkValidity() {
   dev.respecPerks();
   if (Currency.perkPoints.gte(Perks.all.length)) {
     dev.buyAllPerks();
-    Modal.message.show("유효하지 않은 퍼크가 있어, 구매 가능한 모든 퍼크를 자동으로 다시 구매했습니다.");
+    Modal.message.show("유효하지 않은 특전이 있어, 구매 가능한 모든 특전을 자동으로 다시 구매했습니다.");
   } else {
-    Modal.message.show("유효하지 않은 퍼크가 있어 모든 퍼크를 초기화하고 퍼크 포인트를 환불했습니다.");
+    Modal.message.show("유효하지 않은 특전이 있어 모든 특전을 초기화하고 특전 포인트를 환불했습니다.");
   }
 }

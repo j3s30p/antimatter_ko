@@ -362,7 +362,7 @@ export const tabs = [
       },
       {
         key: "imag_upgrades",
-        name: "허상 업그레이드",
+        name: "허수 업그레이드",
         symbol: "<i class='fas fa-level-up-alt'></i>",
         component: "ImaginaryUpgradesTab",
         condition: () => MachineHandler.isIMUnlocked,

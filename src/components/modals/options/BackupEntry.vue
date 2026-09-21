@@ -34,10 +34,10 @@ export default {
         this.save.infinityPoints,
         this.save.antimatter
       ];
-      const names = ["리얼리티 조각",
-        "허상 기계 한도",
-        "리얼리티 기계",
-        "이터니티 포인트",
+      const names = ["현실 파편",
+        "허수 머신 한도",
+        "리얼리티 머신",
+        "영원 포인트",
         "무한 포인트",
         "반물질"];
 

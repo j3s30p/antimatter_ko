@@ -30,8 +30,8 @@ export const dilationUpgrades = {
         ? `${formatX(2 * Effects.product(
           SingularityMilestone.dilatedTimeFromSingularities,
           Achievement(187)
-        ), 2, 2)} 팽창 시간 획득량`
-        : "팽창 시간 획득량 두 배"),
+        ), 2, 2)} 팽창된 시간 획득량`
+        : "팽창된 시간 획득량 두 배"),
     effect: bought => {
       const base = 2 * Effects.product(
         SingularityMilestone.dilatedTimeFromSingularities,
@@ -54,7 +54,7 @@ export const dilationUpgrades = {
     description: () =>
       (Perk.bypassTGReset.isBought && !Pelle.isDoomed
         ? "타키온 은하를 초기화하지만 요구 기준을 낮춥니다"
-        : "팽창 시간과 타키온 은하를 초기화하지만 요구 기준을 낮춥니다"),
+        : "팽창된 시간과 타키온 은하를 초기화하지만 요구 기준을 낮춥니다"),
     // The 38th purchase is at 1e80, and is the last purchase.
     effect: bought => (bought < 38 ? Math.pow(0.8, bought) : 0),
     formatEffect: effect => {
@@ -115,14 +115,14 @@ export const dilationUpgrades = {
   ndMultDT: {
     id: 6,
     cost: 5e7,
-    description: "팽창 시간에 따라 반물질 차원에 배율을 적용하며, 시간 팽창의 영향을 받지 않습니다",
+    description: "팽창된 시간에 따라 반물질 차원에 배율을 적용하며, 시간 팽창의 영향을 받지 않습니다",
     effect: () => Currency.dilatedTime.value.pow(308).clampMin(1),
     formatEffect: value => formatX(value, 2, 1)
   },
   ipMultDT: {
     id: 7,
     cost: 2e12,
-    description: "팽창 시간에 따라 무한 포인트에 배율을 적용합니다",
+    description: "팽창된 시간에 따라 무한 포인트에 배율을 적용합니다",
     effect: () => Currency.dilatedTime.value.pow(1000).clampMin(1),
     formatEffect: value => formatX(value, 2, 1),
     cap: () => Effarig.eternityCap
@@ -150,7 +150,7 @@ export const dilationUpgrades = {
     initialCost: 1e14,
     increment: 100,
     pelleOnly: true,
-    description: () => `팽창 시간 획득량 ${formatX(5)}`,
+    description: () => `팽창된 시간 획득량 ${formatX(5)}`,
     effect: bought => Decimal.pow(5, bought),
     formatEffect: value => formatX(value, 2),
     formatCost: value => format(value, 2),
@@ -189,7 +189,7 @@ export const dilationUpgrades = {
     id: 15,
     cost: 1e55,
     pelleOnly: true,
-    description: () => `현재 EP에 따라 팽창 시간을 더 얻습니다`,
+    description: () => `현재 EP에 따라 팽창된 시간을 더 얻습니다`,
     effect: () => 1e9 ** Math.min((Math.max(player.eternityPoints.log10() - 1500, 0) / 2500) ** 1.2, 1),
     formatEffect: value => formatX(value, 2, 2)
   },

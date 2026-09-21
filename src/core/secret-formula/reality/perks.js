@@ -380,9 +380,9 @@ export const perks = {
     id: 100,
     label: "DAU",
     family: PERK_FAMILY.AUTOMATION,
-    description: "반복 구매 가능한 시간 팽창 업그레이드의 자동구매기를 해금합니다.",
+    description: "반복 구매 가능한 시간 팽창 업그레이드의 자동 구매기를 해금합니다.",
     automatorPoints: 5,
-    shortDescription: () => "시간 팽창 업그레이드 자동구매기",
+    shortDescription: () => "시간 팽창 업그레이드 자동 구매기",
     layoutPosList: [117401, 81401, 79802, 79799, 80597, 96672],
   },
   autobuyerFasterID: {
@@ -390,11 +390,11 @@ export const perks = {
     label: "IDAS",
     family: PERK_FAMILY.AUTOMATION,
     get description() {
-      return `무한 차원 자동구매기가 ${formatX(3)} 빠르게 작동합니다.`;
+      return `무한 차원 자동 구매기가 ${formatX(3)} 빠르게 작동합니다.`;
     },
     effect: 1 / 3,
     automatorPoints: 5,
-    shortDescription: () => "더 빠른 ID 자동구매기",
+    shortDescription: () => "더 빠른 ID 자동 구매기",
     layoutPosList: [74095, 80199, 80198, 81000, 82997, 77720],
   },
   autobuyerFasterReplicanti: {
@@ -402,11 +402,11 @@ export const perks = {
     label: "REPAS",
     family: PERK_FAMILY.AUTOMATION,
     get description() {
-      return `복제자 자동구매기가 ${formatX(3)} 빠르게 작동합니다.`;
+      return `복제자 자동 구매기가 ${formatX(3)} 빠르게 작동합니다.`;
     },
     effect: 1 / 3,
     automatorPoints: 5,
-    shortDescription: () => "더 빠른 복제자 자동구매기",
+    shortDescription: () => "더 빠른 복제자 자동 구매기",
     layoutPosList: [57685, 80198, 80197, 80999, 83000, 79297],
   },
   autobuyerFasterDilation: {
@@ -414,20 +414,20 @@ export const perks = {
     label: "DAS",
     family: PERK_FAMILY.AUTOMATION,
     get description() {
-      return `시간 팽창 업그레이드 자동구매기가 ${formatX(3)} 빠르게 작동합니다.`;
+      return `시간 팽창 업그레이드 자동 구매기가 ${formatX(3)} 빠르게 작동합니다.`;
     },
     effect: 1 / 3,
     automatorPoints: 5,
-    shortDescription: () => "더 빠른 시간 팽창 자동구매기",
+    shortDescription: () => "더 빠른 시간 팽창 자동 구매기",
     layoutPosList: [113895, 82602, 79402, 79395, 80609, 72715],
   },
   ttBuySingle: {
     id: 104,
     label: "TTS",
     family: PERK_FAMILY.AUTOMATION,
-    description: "매 틱마다 시간 정리를 하나씩 구매하는 시간 정리 자동구매기를 해금합니다.",
+    description: "매 틱마다 시간 정리를 하나씩 구매하는 시간 정리 자동 구매기를 해금합니다.",
     automatorPoints: 5,
-    shortDescription: () => "TT 단일 구매 자동구매기",
+    shortDescription: () => "TT 단일 구매 자동 구매기",
     layoutPosList: [44631, 79398, 80598, 81001, 77797, 57325],
   },
   ttFree: {
@@ -444,10 +444,10 @@ export const perks = {
     label: "TTM",
     family: PERK_FAMILY.AUTOMATION,
     get description() {
-      return `시간 정리 자동구매기가 시간 정리를 최대로 구매하도록 업그레이드합니다.`;
+      return `시간 정리 자동 구매기가 시간 정리를 최대로 구매하도록 업그레이드합니다.`;
     },
     automatorPoints: 10,
-    shortDescription: () => "TT 최대 구매 자동구매기",
+    shortDescription: () => "TT 최대 구매 자동 구매기",
     layoutPosList: [25055, 78598, 80997, 81003, 77803, 65739],
   },
   dilationAutobuyerBulk: {
@@ -455,11 +455,11 @@ export const perks = {
     label: "DAB",
     family: PERK_FAMILY.AUTOMATION,
     get description() {
-      return `시간 팽창 업그레이드 자동구매기가 한 번에 세 배 많은 업그레이드를 구매합니다.`;
+      return `시간 팽창 업그레이드 자동 구매기가 한 번에 세 배 많은 업그레이드를 구매합니다.`;
     },
     effect: 3,
     automatorPoints: 5,
-    shortDescription: () => "시간 팽창 자동구매기 대량 구매",
+    shortDescription: () => "시간 팽창 자동 구매기 대량 구매",
     layoutPosList: [127384, 81400, 79803, 79399, 81000, 103048],
   },
   achievementGroup1: {

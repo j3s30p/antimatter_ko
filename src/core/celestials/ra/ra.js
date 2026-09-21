@@ -273,7 +273,7 @@ export const Ra = {
     for (const pet of Ra.pets.all) {
       if (pet.memoryProductionMultiplier !== 1) boostList.push(pet.memoryGain);
     }
-    if (Achievement(168).isUnlocked) boostList.push("도전 과제 168");
+    if (Achievement(168).isUnlocked) boostList.push("도전과제 168");
     if (Ra.unlocks.continuousTTBoost.canBeApplied) boostList.push("현재 TT");
 
     if (boostList.length === 1) return `${boostList[0]}`;

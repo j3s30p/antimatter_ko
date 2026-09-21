@@ -10,7 +10,7 @@ export const enslaved = {
     },
     ec1: {
       id: 1,
-      hint: "이상하군요. 영원 도전 자동 완료 퍼크가 제대로 작동하지 않는 것 같습니다.",
+      hint: "이상하군요. 영원 도전 자동 완료 특전이 제대로 작동하지 않는 것 같습니다.",
       condition: () => `영원 도전 1의 완료 횟수를 한 번에 ${formatInt(5)}회 넘게 얻었습니다`,
     },
     feelEternity: {

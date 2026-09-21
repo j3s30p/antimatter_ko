@@ -129,7 +129,7 @@ export default {
         <span class="c-modal-hotkeys__shift-description">
           Alt와 자동 구매기에 대응하는 키를 함께 누르면 해당 자동 구매기를 켜거나 끕니다.
           <br>
-          Alt와 Shift를 함께 누르면 반물질 차원 및 틱 속도 자동 구매기의 1개 구매/최대 구매를 전환합니다.
+          Alt와 Shift를 함께 누르면 반물질 차원 및 틱스피드 자동 구매기의 1개 구매/최대 구매를 전환합니다.
         </span>
         <br>
         <div class="l-modal-hotkeys-row">

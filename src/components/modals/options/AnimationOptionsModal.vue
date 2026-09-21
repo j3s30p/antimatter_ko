@@ -117,7 +117,7 @@ export default {
       <ModalOptionsToggleButton
         v-if="eternityUnlocked"
         v-model="eternity"
-        text="이터니티:"
+        text="영원:"
       />
       <ModalOptionsToggleButton
         v-if="dilationUnlocked"
@@ -132,7 +132,7 @@ export default {
       <ModalOptionsToggleButton
         v-if="realityUnlocked"
         v-model="reality"
-        text="리얼리티:"
+        text="현실:"
       />
       <ModalOptionsToggleButton
         v-if="isS11Unlocked && isBlackHoleUnlocked"

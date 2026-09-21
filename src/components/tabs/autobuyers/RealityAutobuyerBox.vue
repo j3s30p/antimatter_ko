@@ -69,7 +69,7 @@ export default {
   <AutobuyerBox
     :autobuyer="autobuyer"
     :is-modal="isModal"
-    name="리얼리티 자동 구매기"
+    name="현실 자동 구매기"
   >
     <template #intervalSlot>
       <ExpandingControlBox :auto-close="true">

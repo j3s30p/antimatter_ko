@@ -194,7 +194,7 @@ export default {
           서로 다른 뉴스 메시지를 {{ formatInt(uniqueNews) }}개 봤습니다.
         </div>
         <div>
-          비밀 도전 과제를 {{ formatInt(secretAchievementCount) }}개 해금했습니다.
+          비밀 도전과제를 {{ formatInt(secretAchievementCount) }}개 해금했습니다.
         </div>
         <div v-if="paperclips">
           쓸모없는 종이 클립을 {{ formatInt(paperclips) }}개 보유하고 있습니다.
@@ -262,7 +262,7 @@ export default {
         영원
       </div>
       <div>
-        <span v-if="reality.isUnlocked">이번 리얼리티에서 </span>{{ eternityCountString }}을 달성했습니다.
+        <span v-if="reality.isUnlocked">이번 현실에서 </span>{{ eternityCountString }}을 달성했습니다.
       </div>
       <div v-if="infinity.projectedBanked.gt(0)">
         영원 시 저축된 무한을 {{ formatDecimalAmount(infinity.projectedBanked.floor()) }}회 획득합니다
@@ -275,7 +275,7 @@ export default {
         가장 빠른 영원 기록은 {{ eternity.best.toStringShort() }}입니다.
       </div>
       <div v-else>
-        <span v-if="reality.isUnlocked">이번 리얼리티에 </span>영원 최고 기록이 없습니다.
+        <span v-if="reality.isUnlocked">이번 현실에 </span>영원 최고 기록이 없습니다.
       </div>
       <div>
         이번 영원에서 {{ eternity.this.toStringShort() }}을 보냈습니다.
@@ -284,7 +284,7 @@ export default {
         </span>
       </div>
       <div>
-        <span v-if="reality.isUnlocked">이번 리얼리티의 </span>분당 최고 영원 포인트는
+        <span v-if="reality.isUnlocked">이번 현실의 </span>분당 최고 영원 포인트는
         {{ format(eternity.bestRate, 2, 2) }}입니다.
       </div>
       <br>
@@ -294,13 +294,13 @@ export default {
       class="c-stats-tab-subheader c-stats-tab-general"
     >
       <div :class="realityClassObject()">
-        {{ isDoomed ? "파멸한 리얼리티" : "리얼리티" }}
+        {{ isDoomed ? "파멸한 현실" : "현실" }}
       </div>
-      <div>리얼리티를 {{ formatInt(reality.count) }}회 달성했습니다.</div>
-      <div>게임 시간 기준 가장 빠른 리얼리티는 {{ reality.best.toStringShort() }}입니다.</div>
-      <div>현실 시간 기준 가장 빠른 리얼리티는 {{ reality.bestReal.toStringShort() }}입니다.</div>
+      <div>현실을 {{ formatInt(reality.count) }}회 달성했습니다.</div>
+      <div>게임 시간 기준 가장 빠른 현실은 {{ reality.best.toStringShort() }}입니다.</div>
+      <div>현실 시간 기준 가장 빠른 현실은 {{ reality.bestReal.toStringShort() }}입니다.</div>
       <div :class="{ 'c-stats-tab-doomed' : isDoomed }">
-        이번 {{ isDoomed ? "아마겟돈" : "리얼리티" }}에서 {{ reality.this.toStringShort() }}을 보냈습니다.
+        이번 {{ isDoomed ? "아마겟돈" : "현실" }}에서 {{ reality.this.toStringShort() }}을 보냈습니다.
         (현실 시간 {{ reality.thisReal.toStringShort() }})
       </div>
       <div

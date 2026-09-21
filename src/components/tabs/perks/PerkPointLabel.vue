@@ -70,18 +70,18 @@ export default {
 
 <template>
   <div class="c-perk-tab__header">
-    현재 <span class="c-perk-tab__perk-points">{{ format(pp, 2) }}</span>{{ pluralize("개의 퍼크 포인트", pp) }}를 보유 중입니다.
+    현재 <span class="c-perk-tab__perk-points">{{ format(pp, 2) }}</span>{{ pluralize("개의 특전 포인트", pp) }}를 보유 중입니다.
     <br>
-    선택한 퍼크는 영구 적용되며 재분배할 수 없습니다.
+    선택한 특전은 영구 적용되며 재분배할 수 없습니다.
     <br>
-    다이아몬드 모양 퍼크는 오토메이터 포인트도 제공합니다.
+    다이아몬드 모양 특전은 오토메이터 포인트도 제공합니다.
     <br>
     <div class="perk-settings">
       <PrimaryButton
         class="o-primary-btn c-button-perk-layout"
         @click="cycleLayout"
       >
-        퍼크 배치: {{ layoutText }}
+        특전 배치: {{ layoutText }}
       </PrimaryButton>
       <PrimaryButton
         :class="physicsClassObject()"
@@ -94,7 +94,7 @@ export default {
         class="o-primary-btn"
         @click="centerTree"
       >
-        START를 중심으로 트리 정렬
+        시작 노드를 중심으로 트리 정렬
       </PrimaryButton>
       <PrimaryButton
         class="o-primary-btn"

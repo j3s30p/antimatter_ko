@@ -261,7 +261,7 @@ class Validator extends BaseVisitor {
   xHighest(ctx) {
     if (ctx.$value) return ctx.$value;
     if (!ctx.NumberLiteral || ctx.NumberLiteral[0].isInsertedInRecovery) {
-      this.addError(ctx, "배율이 없습니다", "자동구매기에 설정할 배율을 입력하세요");
+      this.addError(ctx, "배율이 없습니다", "자동 구매기에 설정할 배율을 입력하세요");
       return undefined;
     }
     ctx.$value = new Decimal(ctx.NumberLiteral[0].image);
@@ -271,7 +271,7 @@ class Validator extends BaseVisitor {
   currencyAmount(ctx) {
     if (ctx.$value) return ctx.$value;
     if (!ctx.NumberLiteral || ctx.NumberLiteral[0].isInsertedInRecovery) {
-      this.addError(ctx, "수량이 없습니다", "자동구매기에 설정할 기준값을 입력하세요");
+      this.addError(ctx, "수량이 없습니다", "자동 구매기에 설정할 기준값을 입력하세요");
       return undefined;
     }
     ctx.$value = new Decimal(ctx.NumberLiteral[0].image);

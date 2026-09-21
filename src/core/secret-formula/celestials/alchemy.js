@@ -59,8 +59,8 @@ export const alchemyResources = {
     tier: 1,
     uiOrder: 5,
     unlockedAt: 6,
-    description: "팽창한 시간 생산량을 증가시킵니다",
-    formatEffect: value => `팽창한 시간 생산량 ${formatX(value, 2, 2)}`
+    description: "팽창된 시간 생산량을 증가시킵니다",
+    formatEffect: value => `팽창된 시간 생산량 ${formatX(value, 2, 2)}`
   },
 
   // T2 resources (combinations of pairs of T1 resources)
@@ -329,8 +329,8 @@ export const alchemyResources = {
     tier: 4,
     uiOrder: 3,
     unlockedAt: 19,
-    description: "현실 횟수와 퍼크 포인트를 자동으로 생성합니다",
-    formatEffect: value => `초당 현실 횟수와 퍼크 포인트를 각각 ${format(value, 2, 2)}씩 생성`,
+    description: "현실 횟수와 특전 포인트를 자동으로 생성합니다",
+    formatEffect: value => `초당 현실 횟수와 특전 포인트를 각각 ${format(value, 2, 2)}씩 생성`,
     reagents: [
       {
         resource: ALCHEMY_RESOURCE.INFINITY,

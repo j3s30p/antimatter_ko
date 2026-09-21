@@ -95,11 +95,11 @@ export default {
       />
       <ModalOptionsToggleButton
         v-model="achievements"
-        text="도전 과제 ID:"
+        text="도전과제 ID:"
       />
       <ModalOptionsToggleButton
         v-model="achievementUnlockStates"
-        text="도전 과제 해금 상태 표시:"
+        text="도전과제 해금 상태 표시:"
       />
       <ModalOptionsToggleButton
         v-if="infinityUnlocked"
@@ -119,7 +119,7 @@ export default {
       <ModalOptionsToggleButton
         v-if="realityUnlocked"
         v-model="realityUpgrades"
-        text="리얼리티 업그레이드 이름:"
+        text="현실 업그레이드 이름:"
       />
       <ModalOptionsToggleButton
         v-if="realityUnlocked"

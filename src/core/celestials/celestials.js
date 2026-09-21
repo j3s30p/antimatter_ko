@@ -28,7 +28,7 @@ GameDatabase.celestials.descriptions = [
     name: "에파리그",
     effects() {
       return `시간 팽창처럼 모든 차원 배율, 게임 속도, 틱스피드가 크게 감소합니다.
-      무한력은 생산량과 게임 속도 페널티를 줄이고, 시간 파편은 틱스피드 페널티를 줄입니다.
+      무한력은 생산량과 게임 속도 페널티를 줄이고, 시간 조각은 틱스피드 페널티를 줄입니다.
       글리프 레벨은 일시적으로 ${formatInt(Effarig.glyphLevelCap)}에서 제한되며 희귀도는 영향을 받지 않습니다.`;
     },
     description() {

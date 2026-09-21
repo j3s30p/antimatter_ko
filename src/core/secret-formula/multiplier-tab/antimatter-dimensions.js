@@ -314,7 +314,7 @@ export const AD = {
     icon: MultiplierTabIcons.GENERIC_GLYPH,
   },
   v: {
-    name: "V 도전과제 5개 마일스톤 - 공간 정리 기반 AD 거듭제곱",
+    name: "V 도전과제 5개 이정표 - 공간 정리 기반 AD 거듭제곱",
     powValue: () => VUnlocks.adPow.effectOrDefault(1),
     isActive: () => PlayerProgress.realityUnlocked() && !EternityChallenge(11).isRunning,
     icon: MultiplierTabIcons.ACHIEVEMENT,

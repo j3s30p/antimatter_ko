@@ -21,7 +21,7 @@ export const teresa = {
     shop: {
       id: 2,
       price: 1e21,
-      description: "테레사의 퍼크 포인트 상점을 해금합니다.",
+      description: "테레사의 특전 포인트 상점을 해금합니다.",
     },
     undo: {
       id: 4,

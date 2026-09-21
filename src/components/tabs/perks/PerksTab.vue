@@ -115,7 +115,7 @@ export const PerkLayouts = [
     straightEdges: true,
   },
   {
-    buttonText: "START와의 거리",
+    buttonText: "시작 노드와의 거리",
     position: config => globalScale(positionNumToVector(config.layoutPosList[4]), 17.5),
     centerOffset: new Vector(0, 0),
     forcePhysics: false,

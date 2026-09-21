@@ -56,14 +56,14 @@ export const progressStages = [
     id: PROGRESS_STAGE.EARLY_ETERNITY,
     name: "영원",
     hasReached: save => new Decimal(save.eternities).gt(0),
-    suggestedResource: "이터니티 포인트와 이터니티 횟수",
+    suggestedResource: "영원 포인트와 영원 횟수",
     subProgressValue: save => new Decimal(save.eternities).clampMax(1e5).toNumber() / 1e5,
   },
   {
     id: PROGRESS_STAGE.ETERNITY_CHALLENGES,
-    name: "이터니티 도전",
+    name: "영원 도전",
     hasReached: save => save.eternityChalls.eterc1 > 0,
-    suggestedResource: "이터니티 도전 완료 횟수와 이터니티 포인트",
+    suggestedResource: "영원 도전 완료 횟수와 영원 포인트",
     // Half from ECs, half from EP (up to e1300)
     subProgressValue: save => 0.008 * Object.values(save.eternityChalls).reduce((sum, c) => sum + c, 0) +
       new Decimal(save.eternityPoints).log10() / 2500,
@@ -77,11 +77,11 @@ export const progressStages = [
   },
   {
     id: PROGRESS_STAGE.LATE_ETERNITY,
-    name: "이터니티 후반",
+    name: "영원 후반",
     hasReached: save => new Decimal(save.dilation.dilatedTime).gt(1e15),
     suggestedResource: () => (new Decimal(player.eternityPoints).log10() > 4000
-      ? "이터니티 포인트 또는 팽창된 시간. 또는 첫 리얼리티를 해금하고 진행"
-      : "이터니티 포인트 또는 팽창된 시간"
+      ? "영원 포인트 또는 팽창된 시간. 또는 첫 현실을 해금하고 진행"
+      : "영원 포인트 또는 팽창된 시간"
     ),
     // Tracks up to e8000 even though many players will reality well before that; we still want to distinguish
     // which saves are farther all the way up to the zeroth-reality RM cap
@@ -94,11 +94,11 @@ export const progressStages = [
     // For the first few realities, we give a bit of extra suggestion just in case the player ended up taking a break
     // and returned in the middle of a reality while they're still relatively slow
     suggestedResource: () => {
-      if (player.realities > 5) return "리얼리티 기계";
-      const suffix = "(현재 리얼리티), 장기적으로는 리얼리티 기계";
+      if (player.realities > 5) return "리얼리티 머신";
+      const suffix = "(현재 현실), 장기적으로는 리얼리티 머신";
       if (player.eternities.eq(0)) return `무한 포인트 ${suffix}`;
-      if (player.dilation.dilatedTime.eq(0)) return `이터니티 포인트 ${suffix}`;
-      return `이터니티 포인트 또는 팽창된 시간 ${suffix}`;
+      if (player.dilation.dilatedTime.eq(0)) return `영원 포인트 ${suffix}`;
+      return `영원 포인트 또는 팽창된 시간 ${suffix}`;
     },
     subProgressValue: save => Math.clampMax(save.realities / 100, 1),
   },

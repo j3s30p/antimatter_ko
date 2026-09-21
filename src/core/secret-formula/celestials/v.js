@@ -15,7 +15,7 @@ export const v = {
   mainUnlock: {
     realities: {
       id: 1,
-      name: "리얼리티 횟수",
+      name: "현실 횟수",
       resource: () => Currency.realities.value,
       requirement: 10000,
       format: x => formatInt(x),
@@ -39,7 +39,7 @@ export const v = {
     },
     dilatedTime: {
       id: 4,
-      name: "팽창 시간",
+      name: "팽창된 시간",
       resource: () => player.records.thisReality.maxDT,
       requirement: DC.E320,
       format: x => format(x, 2),
@@ -201,7 +201,7 @@ export const v = {
     },
     shardReduction: {
       id: 1,
-      reward: `퍼크 포인트를 사용해 각 V-도전과제의 모든 단계 목표치를 낮출 수 있습니다.`,
+      reward: `특전 포인트를 사용해 각 V-도전과제의 모든 단계 목표치를 낮출 수 있습니다.`,
       description: () => `V-도전과제를 ${formatInt(2)}개 달성하세요`,
       requirement: () => V.spaceTheorems >= 2
     },

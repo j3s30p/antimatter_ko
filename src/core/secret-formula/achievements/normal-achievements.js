@@ -43,7 +43,7 @@ export const normalAchievements = [
   },
   {
     id: 17,
-    name: "운과는 무관한 도전 과제",
+    name: "운과는 무관한 도전과제",
     description: "제7 반물질 차원을 구매하세요.",
     checkEvent: GAME_EVENT.ACHIEVEMENT_EVENT_OTHER,
   },
@@ -91,7 +91,7 @@ export const normalAchievements = [
   {
     id: 25,
     name: "부스트를 최대로",
-    get description() { return `차원 부스트를 ${formatInt(10)}회 구매하세요.`; },
+    get description() { return `차원 가속을 ${formatInt(10)}회 구매하세요.`; },
     checkRequirement: () => DimBoost.purchasedBoosts >= 10,
     checkEvent: GAME_EVENT.DIMBOOST_AFTER
   },
@@ -177,7 +177,7 @@ export const normalAchievements = [
     },
     checkRequirement: () => player.galaxies === 1,
     checkEvent: GAME_EVENT.BIG_CRUNCH_BEFORE,
-    get reward() { return `시작 틱 속도에 ${format(1.02, 2, 2)}를 곱합니다.`; },
+    get reward() { return `시작 틱스피드에 ${format(1.02, 2, 2)}를 곱합니다.`; },
     effect: 1 / 1.02
   },
   {
@@ -260,7 +260,7 @@ export const normalAchievements = [
     get description() { return `초당 틱 수를 ${format(DC.E29)}보다 높이세요.`; },
     checkRequirement: () => Tickspeed.current.exponent <= -26,
     checkEvent: GAME_EVENT.GAME_TICK_AFTER,
-    get reward() { return `시작 틱 속도에 ${formatX(1.02, 0, 2)}를 곱합니다.`; },
+    get reward() { return `시작 틱스피드에 ${formatX(1.02, 0, 2)}를 곱합니다.`; },
     effect: 0.98
   },
   {
@@ -296,7 +296,7 @@ export const normalAchievements = [
   {
     id: 52,
     name: "자동화의 시대",
-    description: "반물질 차원 및 틱 속도 업그레이드 자동 구매기의 간격을 최대로 강화하세요.",
+    description: "반물질 차원 및 틱스피드 업그레이드 자동 구매기의 간격을 최저치까지 줄이세요.",
     checkRequirement: () => Autobuyer.antimatterDimension.zeroIndexed.concat(Autobuyer.tickspeed)
       .every(a => a.isUnlocked && a.hasMaxedInterval),
     checkEvent: [GAME_EVENT.REALITY_RESET_AFTER, GAME_EVENT.REALITY_UPGRADE_TEN_BOUGHT]
@@ -304,7 +304,7 @@ export const normalAchievements = [
   {
     id: 53,
     name: "분명 그럴 가치는 없어",
-    description: "모든 일반 자동 구매기의 간격을 최대로 강화하세요.",
+    description: "모든 일반 자동 구매기의 간격을 최저치까지 줄이세요.",
     // The upgradeable autobuyers are dimensions, tickspeed, dimension boost,
     // galaxy, and big crunch (the ones you get from normal challenges).
     // We don't count autobuyers which can be upgraded via e.g. perks as upgradeable.
@@ -363,7 +363,7 @@ export const normalAchievements = [
   {
     id: 58,
     name: "괜찮아.",
-    get description() { return `틱 속도 자동 구매기 도전을 ${formatInt(3)}분 안에 완료하세요.`; },
+    get description() { return `틱스피드 자동 구매기 도전을 ${formatInt(3)}분 안에 완료하세요.`; },
     checkRequirement: () => NormalChallenge(9).isOnlyActiveChallenge && Time.thisInfinityRealTime.totalMinutes <= 3,
     checkEvent: GAME_EVENT.BIG_CRUNCH_BEFORE,
     get reward() {
@@ -373,7 +373,7 @@ export const normalAchievements = [
   },
   {
     id: 61,
-    name: "일괄 구매 강화 완료",
+    name: "일괄 구매 최대치",
     get description() {
       return `모든 반물질 차원 자동 구매기의 일괄 구매량을
         ${formatInt(Autobuyer.antimatterDimension.bulkCap)}까지 올리세요.`;
@@ -400,7 +400,7 @@ export const normalAchievements = [
   {
     id: 64,
     name: "사망자 0명",
-    description: "일반 도전에서 차원 부스트나 반물질 은하 없이 무한에 도달하세요.",
+    description: "일반 도전에서 차원 가속이나 반물질 은하 없이 무한에 도달하세요.",
     checkRequirement: () => player.galaxies === 0 && DimBoost.purchasedBoosts === 0 && NormalChallenge.isRunning,
     checkEvent: GAME_EVENT.BIG_CRUNCH_BEFORE,
     get reward() { return `제1~4 반물질 차원이 ${formatPercents(0.25)} 강해집니다.`; },
@@ -425,7 +425,7 @@ export const normalAchievements = [
     get description() { return `초당 틱 수를 ${format(DC.E58)}보다 높이세요.`; },
     checkRequirement: () => Tickspeed.current.exponent <= -55,
     checkEvent: GAME_EVENT.GAME_TICK_AFTER,
-    get reward() { return `시작 틱 속도에 ${formatX(1.02, 0, 2)}를 곱합니다.`; },
+    get reward() { return `시작 틱스피드에 ${formatX(1.02, 0, 2)}를 곱합니다.`; },
     effect: 0.98
   },
   {
@@ -437,7 +437,7 @@ export const normalAchievements = [
   },
   {
     id: 68,
-    name: "도전 과제 때문에 또 한 거지?",
+    name: "도전과제 때문에 또 한 거지?",
     get description() {
       return `제3 반물질 차원 자동 구매기 도전을 ${formatInt(10)}초 이내에 완료하세요.`;
     },
@@ -450,7 +450,7 @@ export const normalAchievements = [
     id: 71,
     name: "오류 909: 차원을 찾을 수 없음",
     description:
-      `제2 반물질 차원 자동 구매기 도전에서 차원 부스트나 반물질 은하 없이
+      `제2 반물질 차원 자동 구매기 도전에서 차원 가속이나 반물질 은하 없이
       제1 반물질 차원 하나만 보유한 채 무한에 도달하세요.`,
     checkRequirement: () =>
       NormalChallenge(2).isOnlyActiveChallenge &&
@@ -474,7 +474,7 @@ export const normalAchievements = [
   },
   {
     id: 73,
-    name: "이 도전 과제는 존재하지 않습니다",
+    name: "이 도전과제는 존재하지 않습니다",
     get description() { return `반물질 ${formatPostBreak(DC.D9_9999E9999, 4)}개를 획득하세요.`; },
     checkRequirement: () => Currency.antimatter.gte(DC.D9_9999E9999),
     checkEvent: GAME_EVENT.GAME_TICK_AFTER,
@@ -498,7 +498,7 @@ export const normalAchievements = [
     description: "제4 무한 차원을 해금하세요.",
     checkRequirement: () => InfinityDimension(4).isUnlocked,
     checkEvent: GAME_EVENT.GAME_TICK_AFTER,
-    reward: "도전 과제 보너스가 무한 차원에도 적용됩니다.",
+    reward: "도전과제 보너스가 무한 차원에도 적용됩니다.",
     effect: () => Achievements.power
   },
   {
@@ -549,7 +549,7 @@ export const normalAchievements = [
     get description() { return `반물질 은하 ${formatInt(50)}개를 획득하세요.`; },
     checkRequirement: () => player.galaxies >= 50,
     checkEvent: GAME_EVENT.GALAXY_RESET_AFTER,
-    get reward() { return `반물질 은하 하나마다 틱 속도가 ${formatPercents(0.05)}보다 조금 더 빨라집니다.`; },
+    get reward() { return `반물질 은하 하나마다 틱스피드가 ${formatPercents(0.05)}보다 조금 더 빨라집니다.`; },
     effect: () => DC.D0_95.pow(player.galaxies),
     formatEffect: value => `${formatX(value.recip(), 2, 2)}`
   },
@@ -575,7 +575,7 @@ export const normalAchievements = [
   {
     id: 86,
     name: "시간을 휘기나 하는 거야?",
-    get description() { return `틱 속도 강화 하나당 속도 증가량 ${formatX(1000)}에 도달하세요.`; },
+    get description() { return `틱스피드 업그레이드 하나당 속도 증가량 ${formatX(1000)}에 도달하세요.`; },
     checkRequirement: () => Tickspeed.multiplier.recip().gte(1000),
     checkEvent: GAME_EVENT.GAME_TICK_AFTER,
     get reward() { return `모든 은하가 ${formatPercents(0.01)} 강해집니다.`; },
@@ -704,7 +704,7 @@ export const normalAchievements = [
   },
   {
     id: 103,
-    name: "이 도전 과제는 존재하지 않습니다 II",
+    name: "이 도전과제는 존재하지 않습니다 II",
     get description() { return `무한 포인트 ${formatPostBreak(DC.D9_99999E999, 5, 0)}에 도달하세요.`; },
     checkRequirement: () => Currency.infinityPoints.exponent >= 1000,
     checkEvent: GAME_EVENT.GAME_TICK_AFTER,
@@ -725,10 +725,10 @@ export const normalAchievements = [
   {
     id: 105,
     name: "무한한 시간",
-    get description() { return `시간 차원으로 틱 속도 강화 ${formatInt(308)}개를 획득하세요.`; },
+    get description() { return `시간 차원으로 틱스피드 업그레이드 ${formatInt(308)}개를 획득하세요.`; },
     checkRequirement: () => player.totalTickGained >= 308,
     checkEvent: GAME_EVENT.GAME_TICK_AFTER,
-    reward: "틱 속도에 따라 시간 차원에 배율을 적용합니다.",
+    reward: "틱스피드에 따라 시간 차원에 배율을 적용합니다.",
     effect: () => Tickspeed.perSecond.pow(0.000005),
     formatEffect: value => `${formatX(value, 2, 2)}`
   },
@@ -769,7 +769,7 @@ export const normalAchievements = [
       return true;
     },
     checkEvent: GAME_EVENT.BIG_CRUNCH_AFTER,
-    reward: "차원 부스트나 반물질 은하를 구매해도 반물질이 초기화되지 않습니다."
+    reward: "차원 가속이나 반물질 은하를 구매해도 반물질이 초기화되지 않습니다."
   },
   {
     id: 112,
@@ -793,7 +793,7 @@ export const normalAchievements = [
     description: "영원 도전에 실패하세요.",
     checkRequirement: () => true,
     checkEvent: GAME_EVENT.CHALLENGE_FAILED,
-    reward: "희미해지는 성취감.",
+    reward: "희미한 성취감을 얻습니다.",
     effect: () => "성취감 (희미해지는 중)"
   },
   {
@@ -821,12 +821,12 @@ export const normalAchievements = [
   },
   {
     id: 117,
-    name: "이젠 코스트코에서 차원 부스트도 팔아!",
-    get description() { return `차원 부스트 ${formatInt(750)}개를 한 번에 구매하세요.`; },
+    name: "이젠 코스트코에서 차원 가속도 팔아!",
+    get description() { return `차원 가속 ${formatInt(750)}개를 한 번에 구매하세요.`; },
     checkRequirement: ([bulk]) => bulk >= 750,
     checkEvent: GAME_EVENT.DIMBOOST_AFTER,
     get reward() {
-      return `차원 부스트가 반물질 차원에 주는 배율이 ${formatPercents(0.01)} 높아집니다.`;
+      return `차원 가속이 반물질 차원에 주는 배율이 ${formatPercents(0.01)} 높아집니다.`;
     },
     effect: 1.01
   },
@@ -946,7 +946,7 @@ export const normalAchievements = [
     },
     checkRequirement: () => player.galaxies >= 569 && player.requirementChecks.eternity.noRG,
     checkEvent: GAME_EVENT.GALAXY_RESET_AFTER,
-    reward: "반물질 은하에 따라 타키온 입자와 팽창한 시간 획득량에 배율을 적용합니다.",
+    reward: "반물질 은하에 따라 타키온 입자와 팽창된 시간 획득량에 배율을 적용합니다.",
     effect: () => 1.22 * Math.max(Math.pow(player.galaxies, 0.04), 1),
     formatEffect: value => `${formatX(value, 2, 2)}`
   },
@@ -954,7 +954,7 @@ export const normalAchievements = [
     id: 133,
     name: "어차피 이 무한이란 건 마음에 안 들었어",
     get description() {
-      return `무한 차원이나 무한 포인트 ${formatX(2)} 강화를 구매하지 않고
+      return `무한 차원이나 무한 포인트 ${formatX(2)} 배율을 구매하지 않고
       무한 포인트 ${formatPostBreak(DC.E200000)}에 도달하세요.`;
     },
     checkRequirement: () =>
@@ -999,7 +999,7 @@ export const normalAchievements = [
       Time.thisEternity.totalMinutes <= 1 &&
       player.dilation.active,
     checkEvent: GAME_EVENT.GAME_TICK_AFTER,
-    get reward() { return `시간 팽창 중 팽창한 시간과 시간 정리를 ${formatX(2)} 더 얻습니다.`; },
+    get reward() { return `시간 팽창 중 팽창된 시간과 시간 정리를 ${formatX(2)} 더 얻습니다.`; },
     effect: () => (player.dilation.active ? 2 : 1),
   },
   {
@@ -1018,12 +1018,12 @@ export const normalAchievements = [
   {
     id: 141,
     name: "현실로 돌아와",
-    description: "새로운 현실에 도달한다.",
+    description: "새로운 현실에 도달하세요.",
     checkRequirement: () => true,
     checkEvent: GAME_EVENT.REALITY_RESET_BEFORE,
     get reward() {
       return `무한 포인트 획득량이 ${formatX(4)} 증가하고, 반물질 차원 ${formatInt(10)}개 구매 배율이
-      +${format(0.1, 0, 1)} 증가한다.`;
+      +${format(0.1, 0, 1)} 증가합니다.`;
     },
     effects: {
       ipGain: 4,
@@ -1033,19 +1033,19 @@ export const normalAchievements = [
   {
     id: 142,
     name: "이게 어떻게 작동하지?",
-    description: "오토메이터를 해금한다.",
+    description: "오토메이터를 해금하세요.",
     checkRequirement: () => Player.automatorUnlocked,
     checkEvent: [GAME_EVENT.REALITY_RESET_AFTER, GAME_EVENT.REALITY_UPGRADE_BOUGHT, GAME_EVENT.PERK_BOUGHT,
       GAME_EVENT.BLACK_HOLE_UNLOCKED],
-    get reward() { return `차원 가속이 ${formatPercents(0.5)} 강해진다.`; },
+    get reward() { return `차원 가속이 ${formatPercents(0.5)} 강해집니다.`; },
     effect: 1.5,
   },
   {
     id: 143,
     name: "친구야, 네가 재탕을 좋아한다고 들었어...",
     get description() {
-      return `최근 이터니티 ${formatInt(10)}회의 영원 포인트가 매번 직전 기록보다
-      ${format(Decimal.NUMBER_MAX_VALUE, 1, 0)}배 이상 높아야 한다.`;
+      return `최근 영원 ${formatInt(10)}회의 영원 포인트 획득량을 각각 직전 기록의
+      ${format(Decimal.NUMBER_MAX_VALUE, 1, 0)}배 이상으로 만드세요.`;
     },
     checkRequirement: () => {
       if (player.records.recentEternities.some(i => i[0] === Number.MAX_VALUE)) return false;
@@ -1056,49 +1056,49 @@ export const normalAchievements = [
       return true;
     },
     checkEvent: GAME_EVENT.ETERNITY_RESET_AFTER,
-    reward: "은하가 더 이상 차원 가속을 초기화하지 않는다."
+    reward: "은하가 더 이상 차원 가속을 초기화하지 않습니다."
   },
   {
     id: 144,
     name: "이거 인터스텔라 패러디인가?",
-    description: "블랙홀을 해금한다.",
+    description: "블랙홀을 해금하세요.",
     checkRequirement: () => BlackHole(1).isUnlocked,
     checkEvent: GAME_EVENT.BLACK_HOLE_UNLOCKED,
   },
   {
     id: 145,
     name: "이 둘의 순서가 맞는 거 확실해?",
-    description: "두 블랙홀 중 하나의 간격을 지속 시간보다 짧게 만든다.",
+    description: "두 블랙홀 중 하나의 간격을 지속 시간보다 짧게 만드세요.",
     checkRequirement: () => BlackHoles.list.some(bh => bh.interval < bh.duration),
     checkEvent: GAME_EVENT.BLACK_HOLE_UPGRADE_BOUGHT,
-    get reward() { return `블랙홀의 간격이 ${formatPercents(0.1)} 짧아진다.`; },
+    get reward() { return `블랙홀의 간격이 ${formatPercents(0.1)} 짧아집니다.`; },
     effect: 0.9
   },
   {
     id: 146,
-    name: "살아가는 퍼크",
-    description: "모든 퍼크를 구매한다.",
+    name: "살아가는 특전",
+    description: "모든 특전을 구매하세요.",
     checkRequirement: () => player.reality.perks.size === Perks.all.length,
     checkEvent: GAME_EVENT.PERK_BOUGHT,
-    get reward() { return `글리프 희귀도 +${formatPercents(0.01)}.`; },
+    get reward() { return `글리프 희귀도가 +${formatPercents(0.01)} 증가합니다.`; },
     effect: 1
   },
   {
     id: 147,
     name: "현실의 달인",
-    description: "모든 현실 업그레이드를 구매한다.",
+    description: "모든 현실 업그레이드를 구매하세요.",
     checkRequirement: () => RealityUpgrades.allBought,
     checkEvent: GAME_EVENT.REALITY_UPGRADE_BOUGHT,
-    reward: "현실의 셀레스티얼 테레사를 해금한다."
+    reward: "현실의 셀레스티얼 테레사를 해금합니다."
   },
   {
     id: 148,
     name: "로열 플러시",
-    description: "각 기본 글리프 종류를 하나씩 장착하고 현실에 도달한다.",
+    description: "각 기본 글리프 종류를 하나씩 장착하고 현실에 도달하세요.",
     checkRequirement: () => BASIC_GLYPH_TYPES
       .every(type => Glyphs.activeList.some(g => g.type === type)),
     checkEvent: GAME_EVENT.REALITY_RESET_BEFORE,
-    reward: "장착한 서로 다른 글리프 종류 수만큼 획득할 글리프 레벨이 증가한다.",
+    reward: "장착한 서로 다른 글리프 종류 수만큼 획득할 글리프 레벨이 증가합니다.",
     effect: () => (new Set(Glyphs.activeWithoutCompanion.map(g => g.type))).size,
     formatEffect: value => `+${formatInt(value)}`
   },
@@ -1107,57 +1107,57 @@ export const normalAchievements = [
     name: "정말 없어도 됐잖아",
     get description() {
       return `이번 무한에서 제8 반물질 차원을 구매하지 않고
-      반물질 은하 ${formatInt(800)}개를 획득한다.`;
+      반물질 은하 ${formatInt(800)}개를 획득하세요.`;
     },
     checkRequirement: () => player.galaxies >= 800 && player.requirementChecks.infinity.noAD8,
     checkEvent: GAME_EVENT.GALAXY_RESET_AFTER,
-    reward: "도전과제의 셀레스티얼 V를 해금한다."
+    reward: "도전과제의 셀레스티얼 V를 해금합니다."
   },
   {
     id: 152,
     name: "글리프 좀 더 없나?",
-    get description() { return `보관함에 글리프 ${formatInt(100)}개를 보유한다.`; },
+    get description() { return `보관함에 글리프 ${formatInt(100)}개를 보유하세요.`; },
     checkRequirement: () => Glyphs.inventoryList.length >= 100,
     checkEvent: GAME_EVENT.GLYPHS_CHANGED
   },
   {
     id: 153,
     name: "차라리 \"현실은정말상관없어\"",
-    description: "반물질을 생산하지 않고 현실에 도달한다.",
+    description: "반물질을 생산하지 않고 현실에 도달하세요.",
     checkRequirement: () => player.requirementChecks.reality.noAM,
     checkEvent: GAME_EVENT.REALITY_RESET_BEFORE,
   },
   {
     id: 154,
     name: "나는 속도다",
-    get description() { return `게임 시간 ${formatInt(5)}초 이내에 현실에 도달한다.`; },
+    get description() { return `게임 시간 ${formatInt(5)}초 이내에 현실에 도달하세요.`; },
     checkRequirement: () => Time.thisReality.totalSeconds <= 5,
     checkEvent: GAME_EVENT.REALITY_RESET_BEFORE,
-    get reward() { return `현실마다 ${formatPercents(0.1)} 확률로 현실 횟수와 퍼크 포인트를 ${formatX(2)} 얻는다.`; },
+    get reward() { return `현실마다 ${formatPercents(0.1)} 확률로 현실 횟수와 특전 포인트를 ${formatX(2)} 얻습니다.`; },
     effect: 0.1
   },
   {
     id: 155,
     name: "도전과제 #15983",
-    get description() { return `${formatFloat(13.7, 1)}십억 년 동안 플레이한다.`; },
+    get description() { return `${formatFloat(13.7, 1)}십억 년 동안 플레이하세요.`; },
     checkRequirement: () => Time.totalTimePlayed.totalYears > 13.7e9,
     checkEvent: GAME_EVENT.GAME_TICK_AFTER,
-    get reward() { return `블랙홀 지속 시간이 ${formatPercents(0.1)} 길어진다.`; },
+    get reward() { return `블랙홀 지속 시간이 ${formatPercents(0.1)} 길어집니다.`; },
     effect: 1.1
   },
   {
     id: 156,
     name: "대학 중퇴",
-    description: "시간 정리를 구매하지 않고 현실에 도달한다.",
+    description: "시간 정리를 구매하지 않고 현실에 도달하세요.",
     checkRequirement: () => player.requirementChecks.reality.noPurchasedTT,
     checkEvent: GAME_EVENT.REALITY_RESET_BEFORE,
-    get reward() { return `생성되는 시간 정리를 ${formatX(2.5, 0, 1)} 획득하고 맥도날드™️ 무료 쿠폰을 받는다.`; },
+    get reward() { return `생성되는 시간 정리를 ${formatX(2.5, 0, 1)} 획득하고 맥도날드™️ 무료 쿠폰을 받습니다.`; },
     effect: 2.5
   },
   {
     id: 157,
     name: "효과가 굉장했다!",
-    get description() { return `효과가 ${formatInt(4)}개인 글리프를 획득한다.`; },
+    get description() { return `효과가 ${formatInt(4)}개인 글리프를 획득하세요.`; },
     checkRequirement: () => Glyphs.activeList.concat(Glyphs.inventoryList).map(
       glyph => getGlyphEffectsFromBitmask(glyph.effects, 0, 0)
         .filter(effect => effect.isGenerated).length
@@ -1167,23 +1167,23 @@ export const normalAchievements = [
   {
     id: 158,
     name: "야, 너 블랙홀 안에라도 있냐?",
-    description: "두 블랙홀을 모두 영구화한다.",
+    description: "두 블랙홀을 모두 영구화하세요.",
     checkRequirement: () => BlackHole(1).isPermanent && BlackHole(2).isPermanent,
     checkEvent: GAME_EVENT.BLACK_HOLE_UPGRADE_BOUGHT,
-    get reward() { return `블랙홀의 성능이 ${formatPercents(0.1)} 증가한다.`; },
+    get reward() { return `블랙홀의 성능이 ${formatPercents(0.1)} 증가합니다.`; },
     effect: 1.1
   },
   {
     id: 161,
     name: "꼬마야, 바로 그게 틀렸어",
-    get description() { return `시간 팽창 중 반물질 ${formatPostBreak(DC.E1E8)}개를 획득한다.`; },
+    get description() { return `시간 팽창 중 반물질 ${formatPostBreak(DC.E1E8)}개를 획득하세요.`; },
     checkRequirement: () => Currency.antimatter.exponent >= 100000000 && player.dilation.active,
     checkEvent: GAME_EVENT.GAME_TICK_AFTER
   },
   {
     id: 162,
     name: "게임을 다시 설치하고 서버에 재접속했다",
-    description: "모든 시간 연구를 동시에 보유한다.",
+    description: "모든 시간 연구를 동시에 보유하세요.",
     checkRequirement: () => player.timestudy.studies.length >= 58,
     checkEvent: GAME_EVENT.GAME_TICK_AFTER
   },
@@ -1192,7 +1192,7 @@ export const normalAchievements = [
     name: "사실 엄청 쉬워! 불편할 것도 없고!",
     get description() {
       return `이번 현실에서 모든 영원 도전을 ${formatInt(5)}회 완료하고,
-      게임 시간 기록을 ${formatInt(1)}초 미만으로 만든다.`;
+      게임 시간 기록을 ${formatInt(1)}초 미만으로 만드세요.`;
     },
     checkRequirement: () => EternityChallenges.all.map(ec => ec.completions).min() >= 5 &&
       Time.thisReality.totalSeconds <= 1,
@@ -1201,57 +1201,57 @@ export const normalAchievements = [
   {
     id: 164,
     name: "무한 두 배",
-    get description() { return `무한 횟수를 ${format(Decimal.NUMBER_MAX_VALUE, 1)}회 획득한다.`; },
+    get description() { return `무한 횟수를 ${format(Decimal.NUMBER_MAX_VALUE, 1)}회 획득하세요.`; },
     checkRequirement: () => Currency.infinitiesTotal.gte(Decimal.NUMBER_MAX_VALUE),
     checkEvent: GAME_EVENT.GAME_TICK_AFTER,
-    get reward() { return `무한 횟수를 ×${formatInt(1024)} 더 획득한다.`; },
+    get reward() { return `무한 횟수를 ×${formatInt(1024)} 더 획득합니다.`; },
     effect: 1024
   },
   {
     id: 165,
     name: "완벽한 균형",
-    get description() { return `모든 글리프 레벨 요소의 가중치가 같은 레벨 ${formatInt(5000)} 글리프를 획득한다.`; },
+    get description() { return `모든 글리프 레벨 요소의 가중치가 같은 레벨 ${formatInt(5000)} 글리프를 획득하세요.`; },
     checkRequirement: () => gainedGlyphLevel().actualLevel >= 5000 &&
       ["repl", "dt", "eternities"].every(
         i => player.celestials.effarig.glyphWeights[i] === player.celestials.effarig.glyphWeights.ep),
     checkEvent: GAME_EVENT.REALITY_RESET_BEFORE,
-    reward: "글리프 레벨 요소의 최적 자동 조정을 해금한다."
+    reward: "글리프 레벨 요소의 최적 자동 조정을 해금합니다."
   },
   {
     id: 166,
     name: "좋아좋아.",
-    get description() { return `정확히 ${formatInt(6969)}레벨인 글리프를 획득한다.`; },
+    get description() { return `정확히 ${formatInt(6969)}레벨인 글리프를 획득하세요.`; },
     checkRequirement: () => gainedGlyphLevel().actualLevel === 6969,
     checkEvent: GAME_EVENT.REALITY_RESET_BEFORE,
-    get reward() { return `글리프 레벨 +${formatInt(69)}.`; },
+    get reward() { return `글리프 레벨이 +${formatInt(69)} 증가합니다.`; },
     effect: 69
   },
   {
     id: 167,
     name: "레이어 씨? 죄송하지만 명단에 없네요",
-    get description() { return `리얼리티 머신 ${format(Decimal.NUMBER_MAX_VALUE, 1, 0)}개에 도달한다.`; },
+    get description() { return `리얼리티 머신 ${format(Decimal.NUMBER_MAX_VALUE, 1, 0)}개에 도달하세요.`; },
     checkRequirement: () => Currency.realityMachines.gte(Decimal.NUMBER_MAX_VALUE),
     checkEvent: GAME_EVENT.GAME_TICK_AFTER,
-    reward: "현재 리얼리티 머신에 따라 리얼리티 머신을 더 많이 획득한다.",
+    reward: "현재 리얼리티 머신에 따라 리얼리티 머신을 더 많이 획득합니다.",
     effect: () => Math.clampMin(1, Currency.realityMachines.value.log2()),
     formatEffect: value => `${formatX(value, 2, 2)}`
   },
   {
     id: 168,
     name: "와, 절반 왔네",
-    get description() { return `라의 셀레스티얼 기억 레벨 합계 ${formatInt(50)}을 달성한다.`; },
+    get description() { return `라의 셀레스티얼 기억 레벨 합계 ${formatInt(50)}을 달성하세요.`; },
     checkRequirement: () => Ra.totalPetLevel >= 50,
     checkEvent: GAME_EVENT.GAME_TICK_AFTER,
-    get reward() { return `기억을 ${formatPercents(0.1)} 더 획득한다.`; },
+    get reward() { return `기억을 ${formatPercents(0.1)} 더 획득합니다.`; },
     effect: 1.1
   },
   {
     id: 171,
     name: "신께서 기뻐하신다",
-    description: "희생할 수 있는 모든 글리프 종류를 한 번 이상 희생한다.",
+    description: "희생할 수 있는 모든 글리프 종류를 한 번 이상 희생하세요.",
     checkRequirement: () => Object.values(player.reality.glyphs.sac).every(s => s > 0),
     checkEvent: GAME_EVENT.GLYPHS_CHANGED,
-    get reward() { return `글리프 희생이 ${formatX(2)} 강해진다.`; },
+    get reward() { return `글리프 희생이 ${formatX(2)} 강해집니다.`; },
     effect: 2,
   },
   {
@@ -1259,7 +1259,7 @@ export const normalAchievements = [
     name: "은하수를 여행하는 현실을 위한 안내서",
     get description() {
       return `충전된 무한 업그레이드나 장착한 글리프 없이, 삼중 연구도 구매하지 않은 채
-      리얼리티 머신 ${format(Decimal.NUMBER_MAX_VALUE, 1)}개를 획득하고 현실에 도달한다.`;
+      리얼리티 머신 ${format(Decimal.NUMBER_MAX_VALUE, 1)}개를 획득하고 현실에 도달하세요.`;
     },
     checkRequirement: () => MachineHandler.gainedRealityMachines.gte(Decimal.NUMBER_MAX_VALUE) &&
       player.celestials.ra.charged.size === 0 && Glyphs.activeWithoutCompanion.length === 0 &&
@@ -1269,61 +1269,61 @@ export const normalAchievements = [
   {
     id: 173,
     name: "Oㅣ 도JㅓN과제는 존재하ㅈ1 않습LIㄷㅏ III",
-    get description() { return `리얼리티 머신 ${formatPostBreak(DC.D9_99999E999, 5, 0)}개에 도달한다.`; },
+    get description() { return `리얼리티 머신 ${formatPostBreak(DC.D9_99999E999, 5, 0)}개에 도달하세요.`; },
     checkRequirement: () => player.reality.realityMachines.gte(DC.D9_99999E999),
     checkEvent: GAME_EVENT.GAME_TICK_AFTER
   },
   {
     id: 174,
     name: "이거 이미 두 개 있지 않아?",
-    description: "특이점을 획득한다.",
+    description: "특이점을 획득하세요.",
     checkRequirement: () => true,
     checkEvent: GAME_EVENT.SINGULARITY_RESET_BEFORE
   },
   {
     id: 175,
     name: "최초의 반역사가",
-    get description() { return `모든 연금술 자원을 각각 ${formatInt(Ra.alchemyResourceCap)}개 획득한다.`; },
+    get description() { return `모든 연금술 자원을 각각 ${formatInt(Ra.alchemyResourceCap)}개 획득하세요.`; },
     checkRequirement: () => AlchemyResources.all.every(x => x.amount >= Ra.alchemyResourceCap),
     checkEvent: GAME_EVENT.REALITY_RESET_AFTER,
     get reward() {
-      return `시너지 효과가 ${formatPercents(1)}를 넘을 수 있고 모멘텀이 ${formatX(10)} 빠르게 증가한다.`;
+      return `시너지 효과가 ${formatPercents(1)}를 넘을 수 있고 모멘텀이 ${formatX(10)} 빠르게 증가합니다.`;
     },
     effect: 10,
   },
   {
     id: 176,
     name: "엄마가 3까지 셌다",
-    description: "암흑 물질 차원을 소멸시킨다.",
+    description: "암흑 물질 차원을 소멸시키세요.",
   },
   {
     id: 177,
     name: "이 마일에는 셀레스티얼 하나가 걸렸다",
-    description: "모든 특이점 마일스톤을 한 번 이상 완료한다.",
+    description: "모든 특이점 이정표를 한 번 이상 달성하세요.",
     checkRequirement: () => SingularityMilestones.all.every(x => x.completions > 0),
     checkEvent: GAME_EVENT.SINGULARITY_RESET_AFTER,
   },
   {
     id: 178,
     name: "세계의 파괴자",
-    get description() { return `반물질 은하 ${formatInt(100000)}개를 획득한다.`; },
+    get description() { return `반물질 은하 ${formatInt(100000)}개를 획득하세요.`; },
     checkRequirement: () => player.galaxies >= 100000,
     checkEvent: GAME_EVENT.GALAXY_RESET_AFTER,
-    get reward() { return `모든 은하가 ${formatPercents(0.01)} 강해진다.`; },
+    get reward() { return `모든 은하가 ${formatPercents(0.01)} 강해집니다.`; },
     effect: 1.01
   },
   {
     id: 181,
     displayId: 666,
     name: "영원한 반물질 차원",
-    description: "현실을 파멸시킨다.",
+    description: "현실을 파멸시키세요.",
     checkRequirement: () => Pelle.isDoomed,
     checkEvent: GAME_EVENT.REALITY_RESET_AFTER,
   },
   {
     id: 182,
     name: "한 번 더",
-    description: "모든 반물질 차원 자동구매기를 영구적으로 되찾는다.",
+    description: "모든 반물질 차원 자동 구매기를 영구적으로 되찾으세요.",
     checkRequirement: () => PelleUpgrade.antimatterDimAutobuyers1.canBeApplied &&
       PelleUpgrade.antimatterDimAutobuyers2.canBeApplied,
     checkEvent: GAME_EVENT.GAME_TICK_AFTER
@@ -1331,25 +1331,25 @@ export const normalAchievements = [
   {
     id: 183,
     name: "데자 붐",
-    description: "파멸 중 무한 도전 5를 완료한다.",
+    description: "파멸 중 무한 도전 5를 완료하세요.",
     checkRequirement: () => Pelle.isDoomed && InfinityChallenge(5).isCompleted,
     checkEvent: GAME_EVENT.INFINITY_CHALLENGE_COMPLETED,
     // Weirdly specific reward? Yes, its V's ST bonus because we forgot to disable it
     // when balancing Pelle and only realised too late.
-    get reward() { return `모든 반물질 차원 배율이 ${formatPow(1.0812403840463596, 0, 3)}만큼 거듭제곱된다.`; },
+    get reward() { return `모든 반물질 차원 배율이 ${formatPow(1.0812403840463596, 0, 3)}만큼 거듭제곱됩니다.`; },
     effect: 1.0812403840463596
   },
   {
     id: 184,
     name: "넌 아웃이야!",
-    description: "세 번째 펠레 타격을 마주한다.",
+    description: "세 번째 펠레 타격을 마주하세요.",
     checkRequirement: () => PelleStrikes.eternity.hasStrike,
     checkEvent: GAME_EVENT.PELLE_STRIKE_UNLOCKED
   },
   {
     id: 185,
     name: "87년 전",
-    description: "네 번째 펠레 타격을 마주한다.",
+    description: "네 번째 펠레 타격을 마주하세요.",
     checkRequirement: () => PelleStrikes.ECs.hasStrike,
     checkEvent: GAME_EVENT.PELLE_STRIKE_UNLOCKED
   },
@@ -1357,26 +1357,26 @@ export const normalAchievements = [
     id: 186,
     displayId: 181,
     name: "건강하지 못한 집착",
-    description: `파멸 중 시간 연구 181을 구매한다.`,
+    description: `파멸 중 시간 연구 181을 구매하세요.`,
   },
   {
     id: 187,
     name: "팽창된 시간 편",
-    description: "파멸 중 시간 팽창을 해금한다.",
+    description: "파멸 중 시간 팽창을 해금하세요.",
     checkRequirement: () => PelleStrikes.dilation.hasStrike,
     checkEvent: GAME_EVENT.PELLE_STRIKE_UNLOCKED,
     // We forgot to disable a singularity milestone while balancing Pelle; now it's disabled
     // and this upgrade has the same effect as it used to.
     get reward() {
       return `반복 구매 가능한 팽창된 시간 배율 업그레이드의
-      구매당 배율을 ${formatX(1.35, 0, 2)} 증가시킨다.`;
+      구매당 배율을 ${formatX(1.35, 0, 2)} 증가시킵니다.`;
     },
     effect: 1.35
   },
   {
     id: 188,
     name: "끝",
-    description: "게임을 완료한다.",
+    description: "게임을 완료하세요.",
     checkRequirement: () => GameEnd.endState > END_STATE_MARKERS.GAME_END && !GameEnd.removeAdditionalEnd,
     checkEvent: GAME_EVENT.GAME_TICK_AFTER
   },

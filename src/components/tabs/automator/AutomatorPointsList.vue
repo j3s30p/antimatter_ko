@@ -40,7 +40,7 @@ export default {
         <span class="c-automator-points-list-symbol fas fa-project-diagram" />
         <span class="c-automator-points-list-ap--large">{{ formatInt(fromPerks) }} AP</span>
         <span class="l-large-text">
-          퍼크
+          특전
         </span>
         <div
           v-for="perk in perkSources"
@@ -97,7 +97,7 @@ export default {
     <div>
       오토메이터는 전체 시간 연구 트리를 구매하고, 영원 도전에 진입하거나 시간 팽창을 시작하는 등의 작업을 수행합니다.
       <br>
-      또한 자동구매기와 별개로 특정 조건에서 프레스티지를 강제로 실행하거나 일부 자동구매기 설정을 변경할 수 있습니다.
+      또한 자동 구매기와 별개로 특정 조건에서 프레스티지를 강제로 실행하거나 일부 자동 구매기 설정을 변경할 수 있습니다.
       <br>
       오토메이터의 속도는 현실 횟수가 늘어날수록 점차 빨라집니다. 지금 해금한다면 실제 시간 기준 초당
       명령 {{ format(1000 / automatorInterval, 2, 2) }}개를 실행합니다.

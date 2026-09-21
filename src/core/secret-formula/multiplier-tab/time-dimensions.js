@@ -10,7 +10,7 @@ export const TD = {
     name: dim => {
       if (dim) return `TD ${dim} 배율`;
       if (EternityChallenge(7).isRunning) return "ID8 생산량";
-      return "시간 파편 생산량";
+      return "시간 조각 생산량";
     },
     displayOverride: dim => (dim
       ? formatX(TimeDimension(dim).multiplier, 2)

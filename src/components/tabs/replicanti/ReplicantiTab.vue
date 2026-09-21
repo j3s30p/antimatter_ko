@@ -105,7 +105,7 @@ export default {
       }
       if (this.hasDTMult) {
         const additionalEffect = GlyphAlteration.isAdded("replication") ? "과 복제자 속도" : "";
-        boostList.push(`글리프로 팽창한 시간${additionalEffect}에
+        boostList.push(`글리프로 팽창된 시간${additionalEffect}에
           <span class="c-replicanti-description__accent">${formatX(this.multDT, 2, 2)}</span> 배율`);
       }
       if (this.hasIPMult) {
@@ -204,7 +204,7 @@ export default {
         v-if="isDoomed"
         class="modified-cap"
       >
-        두 번째 {{ scrambledText }} 마일스톤으로 복제자 상한이 제거되었습니다.
+        두 번째 {{ scrambledText }} 이정표로 복제자 상한이 제거되었습니다.
       </div>
       <div
         v-else-if="hasRaisedCap"

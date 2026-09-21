@@ -70,20 +70,20 @@ export const automatorTemplates = {
       name: "EP 올리기",
       displayName: "영원 포인트 불리기",
       description: `이 스크립트는 영원을 반복하며, 영원을 수행할 때마다 시간 연구 트리를 다시 구매하려고 합니다.
-        무한 및 영원 자동구매기의 설정을 입력해야 합니다. 지정한 영원 포인트에 도달할 때까지 반복합니다.`,
+        무한 및 영원 자동 구매기의 설정을 입력해야 합니다. 지정한 영원 포인트에 도달할 때까지 반복합니다.`,
       inputs: [
         { name: "treeStudies", type: "tree", prompt: "또는 시간 연구를 직접 입력" },
         { name: "treeNowait", type: "nowait", prompt: "시간 연구가 남았을 때의 동작" },
         { name: "finalEP", type: "decimal", prompt: "목표 EP" },
-        { name: "autoInfMode", type: "mode", prompt: "무한 자동구매기 모드" },
-        { name: "autoInfValue", type: "decimal", prompt: "무한 자동구매기 기준값" },
-        { name: "autoEterMode", type: "mode", prompt: "영원 자동구매기 모드" },
-        { name: "autoEterValue", type: "decimal", prompt: "영원 자동구매기 기준값" },
+        { name: "autoInfMode", type: "mode", prompt: "무한 자동 구매기 모드" },
+        { name: "autoInfValue", type: "decimal", prompt: "무한 자동 구매기 기준값" },
+        { name: "autoEterMode", type: "mode", prompt: "영원 자동 구매기 모드" },
+        { name: "autoEterValue", type: "decimal", prompt: "영원 자동 구매기 기준값" },
       ],
       warnings: () => {
         const list = [];
         if (!RealityUpgrade(10).isBought) {
-          list.push(`영원 횟수가 ${formatInt(100)}회 미만이면 이 스크립트가 자동구매기 모드를 올바르게
+          list.push(`영원 횟수가 ${formatInt(100)}회 미만이면 이 스크립트가 자동 구매기 모드를 올바르게
             설정할 수 없습니다. 현실을 시작할 때 사용하려면 먼저 현실 업그레이드
             "${RealityUpgrade(10).name}" 구매를 권장합니다.`);
         }
@@ -92,7 +92,7 @@ export const automatorTemplates = {
           list.push(`현실 업그레이드 "${RealityUpgrade(13).name}" 미보유 시 이 템플릿의 성능이 떨어질 수 있습니다`);
         }
         if (!Perk.ttBuySingle.isBought) {
-          list.push(`시간 정리를 구매하지 않고도 생성할 수 있는 경우가 아니라면, 퍼크
+          list.push(`시간 정리를 구매하지 않고도 생성할 수 있는 경우가 아니라면, 특전
             "${Perk.ttBuySingle.label}" 미보유 시 이 템플릿의 성능이 떨어질 수 있습니다`);
         }
         return list;
@@ -101,8 +101,8 @@ export const automatorTemplates = {
     {
       name: "영원 반복",
       displayName: "영원 횟수 모으기",
-      description: `이 스크립트는 지정한 시간 연구 트리를 구매한 뒤 빠른 영원을 반복합니다. 무한 자동구매기는
-        지정한 빅 크런치 횟수에 맞춰 "최고 기록의 X배" 모드로 설정되고, 영원 자동구매기는 가능한 즉시 실행됩니다.
+      description: `이 스크립트는 지정한 시간 연구 트리를 구매한 뒤 빠른 영원을 반복합니다. 무한 자동 구매기는
+        지정한 빅 크런치 횟수에 맞춰 "최고 기록의 X배" 모드로 설정되고, 영원 자동 구매기는 가능한 즉시 실행됩니다.
         지정한 영원 횟수에 도달할 때까지 반복합니다.`,
       inputs: [
         { name: "treeStudies", type: "tree", prompt: "또는 시간 연구를 직접 입력" },
@@ -122,7 +122,7 @@ export const automatorTemplates = {
     {
       name: "무한 반복",
       displayName: "무한 횟수 모으기",
-      description: `이 스크립트는 지정한 시간 연구 트리를 구매한 뒤 무한 횟수를 얻도록 자동구매기를 설정합니다.
+      description: `이 스크립트는 지정한 시간 연구 트리를 구매한 뒤 무한 횟수를 얻도록 자동 구매기를 설정합니다.
         지정한 무한 횟수에 도달할 때까지 반복합니다. 저장된 무한 횟수를 목표로 삼을 수도 있으며, 이 경우 한 번 영원하기
         전에 필요한 무한 횟수를 모두 얻습니다.`,
       inputs: [
@@ -147,7 +147,7 @@ export const automatorTemplates = {
     {
       name: "영원 도전 완료",
       displayName: "영원 도전 완료하기",
-      description: `이 스크립트는 지정한 시간 연구 트리를 구매하고 지정한 영원 도전을 해금합니다. 무한 자동구매기를
+      description: `이 스크립트는 지정한 시간 연구 트리를 구매하고 지정한 영원 도전을 해금합니다. 무한 자동 구매기를
         입력한 설정으로 바꾼 뒤 영원 도전에 진입합니다. 마지막으로 목표 완료 횟수에 도달할 때까지 기다렸다가
         영원을 수행해 도전을 완료합니다.`,
       inputs: [
@@ -155,18 +155,18 @@ export const automatorTemplates = {
         { name: "treeNowait", type: "nowait", prompt: "시간 연구가 남았을 때의 동작" },
         { name: "ec", type: "integer", prompt: "영원 도전 ID" },
         { name: "completions", type: "integer", prompt: "목표 완료 횟수" },
-        { name: "autoInfMode", type: "mode", prompt: "무한 자동구매기 모드" },
-        { name: "autoInfValue", type: "decimal", prompt: "무한 자동구매기 기준값" },
+        { name: "autoInfMode", type: "mode", prompt: "무한 자동 구매기 모드" },
+        { name: "autoInfValue", type: "decimal", prompt: "무한 자동 구매기 기준값" },
       ],
       warnings: () => {
         const list = [];
         if (!Perk.studyECRequirement.isBought) {
           list.push(`보조 자원 요구 조건 때문에 영원 도전을 안정적으로 해금하지 못할 수 있습니다. 이 템플릿을
-            사용하기 전에 퍼크 "${Perk.studyECRequirement.label}" 해금을 권장합니다`);
+            사용하기 전에 특전 "${Perk.studyECRequirement.label}" 해금을 권장합니다`);
         }
         if (!Perk.studyECBulk.isBought) {
           list.push(`영원 도전 일괄 완료 없이 이 템플릿을 사용하면 스크립트가 길어져 느려지고 수정하기 어려울 수
-            있습니다. 이 템플릿을 사용했다면 퍼크 "${Perk.studyECBulk.label}" 해금 후 스크립트를 다시 단순하게
+            있습니다. 이 템플릿을 사용했다면 특전 "${Perk.studyECBulk.label}" 해금 후 스크립트를 다시 단순하게
             정리하는 것을 권장합니다`);
         }
         return list;
@@ -176,14 +176,14 @@ export const automatorTemplates = {
       name: "시간 팽창 해금",
       displayName: "시간 팽창 해금하기",
       description: `이 스크립트는 영원을 반복하며, 영원을 수행할 때마다 시간 연구 트리를 다시 구매하려고 합니다.
-        영원 자동구매기의 설정을 입력해야 하며 무한 자동구매기는 꺼집니다. 시간 팽창 해금에 필요한 총 시간 정리를
+        영원 자동 구매기의 설정을 입력해야 하며 무한 자동 구매기는 꺼집니다. 시간 팽창 해금에 필요한 총 시간 정리를
         보유할 때까지 반복한 뒤 시간 팽창을 해금합니다.`,
       inputs: [
         { name: "treeStudies", type: "tree", prompt: "또는 시간 연구를 직접 입력" },
         { name: "treeNowait", type: "nowait", prompt: "시간 연구가 남았을 때의 동작" },
         { name: "finalEP", type: "decimal", prompt: "목표 EP" },
-        { name: "autoEterMode", type: "mode", prompt: "영원 자동구매기 모드" },
-        { name: "autoEterValue", type: "decimal", prompt: "영원 자동구매기 기준값" },
+        { name: "autoEterMode", type: "mode", prompt: "영원 자동 구매기 모드" },
+        { name: "autoEterValue", type: "decimal", prompt: "영원 자동 구매기 기준값" },
       ],
       warnings: () => {
         const list = [];
@@ -192,7 +192,7 @@ export const automatorTemplates = {
           list.push(`현실 업그레이드 "${RealityUpgrade(13).name}" 미보유 시 이 템플릿의 성능이 떨어질 수 있습니다`);
         }
         if (!Perk.ttBuySingle.isBought) {
-          list.push(`시간 정리를 구매하지 않고도 생성할 수 있는 경우가 아니라면, 퍼크
+          list.push(`시간 정리를 구매하지 않고도 생성할 수 있는 경우가 아니라면, 특전
             "${Perk.ttBuySingle.label}" 미보유 시 이 템플릿의 성능이 떨어질 수 있습니다`);
         }
         return list;

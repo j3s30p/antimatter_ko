@@ -35,7 +35,7 @@ export const sidebarResources = [
   },
   {
     id: 5,
-    optionName: "이터니티 포인트",
+    optionName: "영원 포인트",
     isAvailable: () => PlayerProgress.eternityUnlocked(),
     value: () => Currency.eternityPoints.value.floor(),
     formatValue: x => format(x, 2),
@@ -67,7 +67,7 @@ export const sidebarResources = [
   },
   {
     id: 9,
-    optionName: "리얼리티 기계",
+    optionName: "리얼리티 머신",
     isAvailable: () => PlayerProgress.realityUnlocked(),
     value: () => Currency.realityMachines.value,
     formatValue: x => format(x, 2),
@@ -75,7 +75,7 @@ export const sidebarResources = [
   },
   {
     id: 10,
-    optionName: "유물 조각",
+    optionName: "유물 파편",
     isAvailable: () => TeresaUnlocks.effarig.isUnlocked,
     value: () => new Decimal(Currency.relicShards.value),
     formatValue: x => format(x, 2),
@@ -83,7 +83,7 @@ export const sidebarResources = [
   },
   {
     id: 11,
-    optionName: "허상 기계",
+    optionName: "허수 머신",
     isAvailable: () => MachineHandler.isIMUnlocked,
     value: () => new Decimal(Currency.imaginaryMachines.value),
     formatValue: x => format(x, 2),
@@ -125,7 +125,7 @@ export const sidebarResources = [
   },
   {
     id: 16,
-    optionName: "리얼리티 조각",
+    optionName: "현실 파편",
     isAvailable: () => Pelle.isDoomed,
     value: () => Currency.realityShards,
     formatValue: x => format(x, 2),

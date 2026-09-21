@@ -46,7 +46,7 @@ export const gamespeed = {
     icon: MultiplierTabIcons.BLACK_HOLE,
   },
   achievementMult: {
-    name: "V 도전과제 30개 마일스톤 - 도전과제 배율",
+    name: "V 도전과제 30개 이정표 - 도전과제 배율",
     multValue: () => Math.pow(VUnlocks.achievementBH.effectOrDefault(1),
       BlackHoles.list.countWhere(bh => bh.isUnlocked)),
     isActive: () => !BlackHoles.arePaused && VUnlocks.achievementBH.canBeApplied && !EternityChallenge(12).isRunning,
@@ -61,7 +61,7 @@ export const gamespeed = {
     icon: MultiplierTabIcons.BH_PULSE,
   },
   singularity: {
-    name: "특이점 마일스톤 - 특이점 기반 게임 속도",
+    name: "특이점 이정표 - 특이점 기반 게임 속도",
     multValue: () => SingularityMilestone.gamespeedFromSingularities.effectOrDefault(1),
     isActive: () => SingularityMilestone.gamespeedFromSingularities.canBeApplied && !EternityChallenge(12).isRunning,
     icon: MultiplierTabIcons.SINGULARITY,

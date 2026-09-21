@@ -255,7 +255,7 @@ export default {
         class="c-teresa-shop"
       >
         <span class="o-teresa-pp">
-          퍼크 포인트를 {{ quantify("개", perkPoints, 2, 0) }} 보유하고 있습니다.
+          특전 포인트를 {{ quantify("개", perkPoints, 2, 0) }} 보유하고 있습니다.
         </span>
         <PerkShopUpgradeButton
           v-for="upgrade in upgrades"

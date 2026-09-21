@@ -38,11 +38,11 @@ export default {
         "Antimatter Dimension": "반물질 차원",
         "Infinity Dimension": "무한 차원",
         "Time Dimension": "시간 차원",
-        "Replicanti Upgrade": "복제자 강화",
-        "Dilation Upgrade": "시간 팽창 강화",
+        "Replicanti Upgrade": "복제자 업그레이드",
+        "Dilation Upgrade": "시간 팽창 업그레이드",
         "Black Hole Power": "블랙홀 위력",
-        "Reality Upgrade": "리얼리티 강화",
-        "Imaginary Upgrade": "상상 강화"
+        "Reality Upgrade": "현실 업그레이드",
+        "Imaginary Upgrade": "허수 업그레이드"
       }[this.name] ?? this.name;
     },
     entryCount() {
@@ -123,7 +123,7 @@ export default {
     v-else-if="isADBox && continuumActive"
     class="c-autobuyer-box-row"
   >
-    연속체는 반물질 차원 및 틱 속도 자동 구매기를 대체합니다. 생산 배율이 원래 구매했을
+    연속체는 반물질 차원 및 틱스피드 자동 구매기를 대체합니다. 생산 배율이 원래 구매했을
     <br>
     횟수를 기준으로 자동으로 끊김 없이 증가합니다.
   </span>

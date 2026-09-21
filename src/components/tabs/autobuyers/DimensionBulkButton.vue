@@ -68,7 +68,7 @@ export default {
     v-else-if="hasMaxedInterval && !bulkUnlimited"
     class="o-autobuyer-btn l-autobuyer-box__button o-autobuyer-btn--unavailable"
   >
-    도전을 완료하면 일괄 구매량을 강화할 수 있습니다
+    도전을 완료하면 일괄 구매량을 업그레이드할 수 있습니다
   </button>
 </template>
 

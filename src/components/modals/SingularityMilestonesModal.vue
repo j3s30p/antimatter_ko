@@ -107,7 +107,7 @@ export default {
 <template>
   <ModalWrapper>
     <template #header>
-      특이점 마일스톤
+      특이점 이정표
     </template>
     <div
       class="c-modal__confirmation-toggle"
@@ -120,7 +120,7 @@ export default {
         />
       </div>
       <span class="c-modal__confirmation-toggle__text">
-        새 마일스톤에 도달하면 버튼 빛내기
+        새 이정표에 도달하면 버튼 빛내기
       </span>
     </div>
     <div class="l-singularity-milestone-modal-container-outer">
@@ -137,7 +137,7 @@ export default {
         class="c-singularity-milestone-modal-sort-button"
         @click="cycleButton(0)"
       >
-        마일스톤까지:
+        이정표까지:
         <br>
         {{ resourceStr }}
       </button>
@@ -153,7 +153,7 @@ export default {
         class="c-singularity-milestone-modal-sort-button"
         @click="cycleButton(2)"
       >
-        완료한 마일스톤:
+        완료한 이정표:
         <br>
         {{ completedStr }}
       </button>

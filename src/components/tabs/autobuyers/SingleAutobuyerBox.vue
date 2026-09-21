@@ -58,7 +58,7 @@ export default {
         v-if="isHiddenSacrifice"
         class="c-autobuyer-box__small-text"
       >
-        자동 작동 (도전 과제 118)
+        자동 작동 (도전과제 118)
       </b>
       <span
         v-else-if="autobuyer.hasInput"

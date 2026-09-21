@@ -76,11 +76,11 @@ export default {
       <br>
     </div>
     <div v-if="!hasInfinity">
-      무한에 도달하면 자동 구매기를 강화하는 도전이 해금됩니다.
+      무한에 도달하면 자동 구매기를 업그레이드하는 도전이 해금됩니다.
     </div>
     <b>일괄 구매량이 표시되지 않는 자동 구매기는 기본적으로 구매량 제한이 없습니다.</b>
     <b>
-      반물질 차원 자동 구매기는 간격이 {{ formatInt(100) }}ms 이하가 되면 일괄 구매량을 강화할 수 있습니다.
+      반물질 차원 자동 구매기는 간격이 {{ formatInt(100) }}ms 이하가 되면 일괄 구매량을 업그레이드할 수 있습니다.
     </b>
     <b v-if="hasInstant">간격이 "즉시"인 자동 구매기는 매 게임 틱({{ gameTickLength }})마다 작동합니다.</b>
     <RealityAutobuyerBox class="c-reality-pos" />

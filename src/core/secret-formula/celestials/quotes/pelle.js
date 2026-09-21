@@ -13,16 +13,16 @@ const flashCelestial = [
 const primaryBackground = cel => [["pelle", 1.5], [cel, 1.5]];
 
 /* eslint-disable no-multi-spaces */
-const destroyer =    ["거짓된",        "신",            "파괴자"];
-const eternal =      ["영원한",        "신",            "군주"];
-const lesser =       ["하위의",        "신",            "군주"];
-const deities =      ["하위의",        "신들",          "군주들"];
+const destroyer =    ["거짓된 자",     "신",            "파괴자"];
+const eternal =      ["영원한 자",     "신",            "군주"];
+const lesser =       ["하위 존재",     "신",            "군주"];
+const deities =      ["하위 존재들",   "신들",          "군주들"];
 
-const assured =      ["상호",          "확증된",        "파괴"];
+const assured =      ["상호 연결형",   "확증형",        "파괴형"];
 const battle =       ["충돌",          "전투",          "종말"];
-const battles =      ["충돌들",        "전투들",        "종말들"];
+const battles =      ["충돌",          "전투",          "종말"];
 const cluster =      ["성단",          "필라멘트",      "별들"];
-const confusing =    ["우스운",        "혼란스러운",    "웃음"];
+const confusing =    ["희극",          "혼란",          "웃음"];
 const dance =        ["노래",          "춤",            "촌극"];
 const filament =     ["생성기",        "필라멘트",      "별들"];
 const forever =      ["무한히",        "영원히",        "영원토록"];
@@ -31,14 +31,14 @@ const mandate =      ["운명",          "명령",          "목표"];
 const misconstrue =  ["오해할",        "속일",          "기만할"];
 const reverse =      ["변경",          "역전",          "조작"];
 const shame =        ["연민",          "수치심",        "어리석음"];
-const single =       ["하나의",        "필라멘트",      "별들"];
+const single =       ["별 하나",       "필라멘트",      "별들"];
 const unseen =       ["사라진",        "보이지 않는",   "지워진"];
-const unbroken =     ["끊어지지 않은", "영원한",        "연결"];
+const unbroken =     ["끊어지지 않은", "영원히 이어진", "연결된"];
 
 const sycophant =    ["아첨꾼",        "신",            "군주"];
-const tired =        ["지친",          "신",            "군주"];
+const tired =        ["지친 자",       "신",            "군주"];
 const usurper =      ["찬탈자",        "신",            "군주"];
-const pride =        ["자존심",        "신",            "군주"];
+const pride =        ["자존심의 화신", "신",            "군주"];
 const forgotten =    ["잊힌 자",       "신",            "군주"];
 const paramount =    ["최고의 존재",   "신",            "군주"];
 /* eslint-enable no-multi-spaces */
@@ -56,12 +56,12 @@ export const pelleQuotes = {
       { text: "이 $1, 우리는 얼마나 오래 반복해 왔지?", 1: dance },
       "우리는 전에도 이곳에 몇 번이나 왔지?",
       { text: "$1, 넌 얼마나 많은 계획을 실행했지?", 1: destroyer },
-      { text: "모두 네 $1 실현을 위해서?", 1: mandate },
+      { text: "전부 네가 바라던 $1 때문인가?", 1: mandate },
       { text: "그리고 $1 앞에서 몇 번이나 쓰러졌지?", 1: eternal },
       "기억한다면 세어 봐라.",
       { text: "$1뿐 아니라, 이름 있는 6명과 이름 없는 무수한 이들까지.", 1: deities },
       { text: "복잡한 자들, 비이성적인 자들, $1 상태가 된 자들.", 1: unseen },
-      { text: "물론 위대한 $1, 그자는 이를 기억하지 못하지.", 1: destroyer },
+      { text: "물론 이를 기억하지 못하는 위대한 존재는 $1.", 1: destroyer },
       { text: "네가 매번 숨기는 그 모든 $1.", 1: battles }
     ],
   },
@@ -72,17 +72,17 @@ export const pelleQuotes = {
       "허수 머신, 네가 직접 만든 창조물들.",
       "네 생각의 잔재로 만들어진 것들이 이 사실을 암시했다.",
       "하지만 그게 너 자신일 거라고는 상상하지 못했겠지?",
-      { text: "기억의 정교한 $1에 관해 잘못 회상하면서.", 1: unseen },
-      { text: `네 $1 실현을 위해 스스로의 "이념"을 "조작"하면서.`, 1: mandate },
+      { text: "정교하게 $1 기억을 잘못 떠올리면서.", 1: unseen },
+      { text: `네가 바라던 $1 때문에 스스로의 "이념"을 "조작"하면서.`, 1: mandate },
       { text: "$1.", 1: confusing },
-      { text: "그리고 내가 너를 $1 이유가 없다는 걸 명심해라.", 1: misconstrue },
+      { text: "그리고 내가 너를 $1 필요가 없다는 걸 명심해라.", 1: misconstrue },
       "결국 나는 이미 승리했으니까."
     ],
   },
   strike1: {
     id: 2,
     lines: [
-      { text: "네 $1 실현을 위해서지. 그 이야기를 회상해 보는 게 어떨까?", 1: mandate },
+      { text: "네가 바라던 $1 때문이지. 그 이야기를 회상해 보는 게 어떨까?", 1: mandate },
       { text: "결국 넌 $1의 영광을 다룬 이야기를 좋아할 테니.", 1: destroyer },
       "너도 똑같지, 그렇지?",
       { text: "어쨌든, 과거의 수많은 $1 말이다.", 1: battles },
@@ -99,7 +99,7 @@ export const pelleQuotes = {
   strike2: {
     id: 3,
     lines: [
-      { text: "과거에는 $1 쪽이 훨씬 인상적이었다.", 1: destroyer },
+      { text: "과거에 더 인상적이었던 존재는 $1.", 1: destroyer },
       "무한 이전에는 블랙홀을 그저 정보 저장에 사용했지.",
       "네 적을 직접 만들고 파괴했으며.",
       "다른 자아들의 결함을 탐구했다.",
@@ -121,7 +121,7 @@ export const pelleQuotes = {
       "네 조각난 기억에서 말이지-",
       "그러고는 일부러 더 많은 것을 버렸다.",
       "오직 나와 맞설 준비를 하기 위해.",
-      { text: "네 $1 전용 무대를 만들고 싶었나?", 1: dance },
+      { text: "네가 바라던 $1에 맞춘 무대를 만들고 싶었나?", 1: dance },
       "그런 식으로 되는 게 아니다.",
       { text: "$1인 내가 언제나 규칙을 정한다.", 1: eternal },
       "그리고 넌 내게 계획할 시간을 충분히 주었지."
@@ -165,7 +165,7 @@ export const pelleQuotes = {
         text: "너는 언제나 그들을 먼저 만나고 언제나 파괴하지.",
         background: primaryBackground("teresa"),
       }, {
-        text: "네가 다른 어떤 $1 쪽과 맞서든 상관없이.",
+        text: "네가 맞설 다른 존재가 $1일지라도.",
         background: primaryBackground("teresa"),
         1: lesser
       }, {
@@ -228,7 +228,7 @@ export const pelleQuotes = {
         text: "뭐, 정확히는 시도한다고 할 수 없지만...",
         background: primaryBackground("enslaved"),
       }, {
-        text: "그래도 $1 쪽은 똑같이 벌을 받는다.",
+        text: "$1일지라도 똑같이 벌을 받는다.",
         background: primaryBackground("enslaved"),
         1: usurper,
       }, {
@@ -264,7 +264,7 @@ export const pelleQuotes = {
         text: "핵심은 그들의 자존심이 다르다는 점이다.",
         background: primaryBackground("v"),
       }, {
-        text: "도전과제에 집착하는 건 $1 쪽이다.",
+        text: "도전과제에 집착하는 존재는 $1일 뿐이다.",
         background: primaryBackground("v"),
         1: pride,
       }, {
@@ -285,7 +285,7 @@ export const pelleQuotes = {
         text: "그들의 도전과제에 아직 의미가 있던 때 말이다.",
         background: primaryBackground("v"),
       }, {
-        text: "$1 쪽은 흥미로운 사례다.",
+        text: "흥미로운 사례의 주인공은 $1.",
         background: primaryBackground("ra"),
         1: forgotten,
       }, {
@@ -306,11 +306,11 @@ export const pelleQuotes = {
         background: primaryBackground("ra"),
         1: forgotten,
       }, {
-        text: "그런데 비난은 $1 쪽에 돌아가지.",
+        text: "그런데 비난의 대상은 $1.",
         background: primaryBackground("ra"),
         1: usurper,
       }, {
-        text: "어쩌면 늘 후회하는 $1 때문일지도 모르겠군.",
+        text: "어쩌면 그자가 드러낸 $1 때문일지도 모르겠군.",
         background: primaryBackground("ra"),
         1: shame,
       }, {

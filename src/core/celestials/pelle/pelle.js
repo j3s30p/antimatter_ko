@@ -244,7 +244,7 @@ export const Pelle = {
         return `복제 속도 ${formatX(10 ** 53 ** (PelleRifts.vacuum.percentage), 2)} \
         (${wordShift.wordCycle(PelleRifts.vacuum.name)} 기준)`;
       case "dilation":
-        return `팽창 시간 획득량 ${formatX(Decimal.pow(player.dilation.totalTachyonGalaxies, 1.5).max(1), 2)}
+        return `팽창된 시간 획득량 ${formatX(Decimal.pow(player.dilation.totalTachyonGalaxies, 1.5).max(1), 2)}
           (타키온 은하 기준)`;
       case "power":
         return `은하의 효과가 ${formatPercents(0.02)} 더 강해집니다`;

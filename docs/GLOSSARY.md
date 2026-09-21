@@ -33,7 +33,7 @@ The preferred terms follow the established Korean mobile/community vocabulary wh
 | Time Dilation | 시간 팽창 | |
 | Tachyon Particle | 타키온 입자 | TP remains TP in compact displays |
 | Reality | 현실 | Use consistently as the prestige layer |
-| Reality Machine | 현실 기계 | RM remains RM in compact displays |
+| Reality Machine | 리얼리티 머신 | RM remains RM in compact displays |
 | Glyph | 글리프 | |
 | Perk | 특전 | |
 | Automator | 오토메이터 | Command keywords remain English |

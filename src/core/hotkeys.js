@@ -33,13 +33,13 @@ export const shortcuts = [
     function: () => keyboardToggleAutobuyers(),
     visible: true
   }, {
-    name: "틱 속도 1개 구매",
+    name: "틱스피드 1개 구매",
     keys: ["shift", "t"],
     type: "bindRepeatableHotkey",
     function: () => buyTickSpeed(),
     visible: true
   }, {
-    name: "틱 속도 최대로 구매",
+    name: "틱스피드 최대로 구매",
     keys: ["t"],
     type: "bindRepeatableHotkey",
     function: () => buyMaxTickSpeed(),
@@ -57,13 +57,13 @@ export const shortcuts = [
     function: () => sacrificeBtnClick(),
     visible: true
   }, {
-    name: "차원 부스트",
+    name: "차원 가속",
     keys: ["d"],
     type: "bindRepeatableHotkey",
     function: () => manualRequestDimensionBoost(true),
     visible: true
   }, {
-    name: "차원 부스트 1회",
+    name: "차원 가속 1회",
     keys: ["shift", "d"],
     type: "bindRepeatableHotkey",
     function: () => manualRequestDimensionBoost(false),
@@ -96,7 +96,7 @@ export const shortcuts = [
     },
     visible: () => Replicanti.areUnlocked || PlayerProgress.eternityUnlocked()
   }, {
-    name: "이터니티",
+    name: "영원",
     keys: ["e"],
     type: "bindRepeatableHotkey",
     function: () => eternityResetRequest(),
@@ -117,7 +117,7 @@ export const shortcuts = [
     function: () => startDilatedEternityRequest(),
     visible: () => PlayerProgress.realityUnlocked() || PlayerProgress.dilationUnlocked()
   }, {
-    name: "리얼리티",
+    name: "현실",
     keys: ["y"],
     type: "bindRepeatableHotkey",
     function: () => requestManualReality(),
@@ -398,7 +398,7 @@ function toggleAutobuyer(buyer) {
     GameUI.notify.info("Continuum is enabled, you cannot alter this autobuyer");
   } else if (buyer.isUnlocked || isSimpleTickspeed) {
     buyer.toggle();
-    GameUI.notify.info(`${buyer.displayName} 자동구매기가 ${(buyer.isActive) ? "켜짐" : "꺼짐"}으로 전환되었습니다`);
+    GameUI.notify.info(`${buyer.displayName} 자동 구매기가 ${(buyer.isActive) ? "켜짐" : "꺼짐"}으로 전환되었습니다`);
   }
   return false;
 }
@@ -409,7 +409,7 @@ function toggleBuySingles(buyer) {
   } else if (buyer.isUnlocked && buyer.toggleMode !== null) {
     buyer.toggleMode();
     const bulkName = (buyer.name === "Tickspeed" || buyer.hasUnlimitedBulk) ? "최대" : "10";
-    GameUI.notify.info(`${buyer.displayName} 자동구매기가 ${(buyer.mode === 1) ? "하나씩" : bulkName} 구매하도록 설정되었습니다`);
+    GameUI.notify.info(`${buyer.displayName} 자동 구매기가 ${(buyer.mode === 1) ? "하나씩" : bulkName} 구매하도록 설정되었습니다`);
   }
   return false;
 }
@@ -417,7 +417,7 @@ function toggleBuySingles(buyer) {
 function keyboardToggleAutobuyers() {
   if (Tab.automation.isUnlocked) {
     Autobuyers.toggle();
-    GameUI.notify.info(`자동구매기가 ${player.auto.autobuyersOn ? "재개" : "일시정지"}되었습니다`);
+    GameUI.notify.info(`자동 구매기가 ${player.auto.autobuyersOn ? "재개" : "일시정지"}되었습니다`);
   }
 }
 

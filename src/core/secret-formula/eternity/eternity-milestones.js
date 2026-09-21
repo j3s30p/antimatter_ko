@@ -30,14 +30,14 @@ export const eternityMilestones = {
         EternityMilestone.autoEternities.isReached).gt(0);
       const em1000 = getInfinitiedMilestoneReward(TimeSpan.fromHours(1).totalMilliseconds,
         EternityMilestone.autoInfinities.isReached).gt(0);
-      if (!player.options.offlineProgress) return `오프라인 EP 생산 마일스톤이지만
+      if (!player.options.offlineProgress) return `오프라인 EP 생산 이정표가지만
         현재 오프라인 진행이 비활성화되어 있습니다`;
       const effectText = (em200 || em1000) ? "비활성" : `현재 ${format(EPmin, 2, 2)} EP/분`;
       return `오프라인일 때 이전 영원의 최고 영원 포인트/분 중
         ${formatPercents(0.25)} 획득 (${effectText})`;
     },
     activeCondition: () => (player.options.offlineProgress
-      ? `다른 오프라인 마일스톤(${formatInt(200)}회 또는 ${formatInt(1000)}회)이
+      ? `다른 오프라인 이정표(${formatInt(200)}회 또는 ${formatInt(1000)}회)이
         모두 비활성 상태일 때 활성화`
       : ""),
   },
@@ -150,7 +150,7 @@ export const eternityMilestones = {
   autoEternities: {
     eternities: 200,
     reward: () => {
-      if (!player.options.offlineProgress) return `오프라인에서 영원 횟수를 생산하는 마일스톤이지만
+      if (!player.options.offlineProgress) return `오프라인에서 영원 횟수를 생산하는 이정표가지만
         현재 오프라인 진행이 비활성화되어 있습니다`;
       const eternities = getEternitiedMilestoneReward(TimeSpan.fromHours(1).totalMilliseconds,
         player.eternities.gte(200));
@@ -163,14 +163,14 @@ export const eternityMilestones = {
     },
     activeCondition: () => (player.options.offlineProgress
       ? `모든 도전과 시간 팽창 밖에 있어야 하며, 영원 자동 구매기를 EP 0에서 영원 실행으로 설정해야 합니다.
-        이 마일스톤의 효과는 ${formatInt(33)}ms가 상한입니다.`
+        이 이정표의 효과는 ${formatInt(33)}ms가 상한입니다.`
       : ""),
     pelleUseless: true
   },
   autoInfinities: {
     eternities: 1000,
     reward: () => {
-      if (!player.options.offlineProgress) return `오프라인에서 무한 횟수를 생산하는 마일스톤이지만
+      if (!player.options.offlineProgress) return `오프라인에서 무한 횟수를 생산하는 이정표가지만
         현재 오프라인 진행이 비활성화되어 있습니다`;
       const infinities = getInfinitiedMilestoneReward(TimeSpan.fromHours(1).totalMilliseconds,
         player.eternities.gte(1000));

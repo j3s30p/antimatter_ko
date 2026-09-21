@@ -28,7 +28,7 @@ export const confirmationTypes = [
     option: "replicantiGalaxy",
     isUnlocked: () => PlayerProgress.eternityUnlocked() || player.replicanti.unl,
   }, {
-    name: "이터니티",
+    name: "영원",
     option: "eternity",
     isUnlocked: () => PlayerProgress.eternityUnlocked(),
   }, {
@@ -36,7 +36,7 @@ export const confirmationTypes = [
     option: "dilation",
     isUnlocked: () => PlayerProgress.realityUnlocked() || !Currency.tachyonParticles.eq(0),
   }, {
-    name: "리얼리티 초기화",
+    name: "현실 초기화",
     option: "resetReality",
     isUnlocked: () => PlayerProgress.realityUnlocked(),
   }, {

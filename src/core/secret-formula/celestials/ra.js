@@ -85,7 +85,7 @@ export const ra = {
     },
     perkShopIncrease: {
       id: 5,
-      reward: "테레사의 퍼크 포인트 상점 구매 상한이 증가합니다",
+      reward: "테레사의 특전 포인트 상점 구매 상한이 증가합니다",
       pet: "teresa",
       level: 15,
       displayIcon: `<span class="fas fa-project-diagram"></span>`
@@ -157,7 +157,7 @@ export const ra = {
     },
     blackHolePowerAutobuyers: {
       id: 14,
-      reward: "블랙홀 위력 업그레이드 자동구매기를 해금합니다",
+      reward: "블랙홀 위력 업그레이드 자동 구매기를 해금합니다",
       pet: "enslaved",
       level: 1,
       displayIcon: `<span class="fas fa-circle"></span>`,
@@ -201,7 +201,7 @@ export const ra = {
     },
     peakGamespeedDT: {
       id: 19,
-      reward: "각 현실의 최고 게임 속도에 따라 팽창 시간을 더 획득합니다",
+      reward: "각 현실의 최고 게임 속도에 따라 팽창된 시간을 더 획득합니다",
       effect: () => Math.max(Math.pow(Math.log10(player.celestials.ra.peakGamespeed) - 90, 3), 1),
       pet: "enslaved",
       level: 15,

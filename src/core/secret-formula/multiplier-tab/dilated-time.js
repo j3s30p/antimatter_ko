@@ -10,7 +10,7 @@ import { MultiplierTabIcons } from "./icons";
 // after the first ever dilation unlock on the 0th reality
 export const DT = {
   total: {
-    name: "팽창 시간 획득량",
+    name: "팽창된 시간 획득량",
     displayOverride: () => `${format(getDilationGainPerSecond().times(getGameSpeedupForDisplay()), 2, 2)}/초`,
     multValue: () => getDilationGainPerSecond().times(getGameSpeedupForDisplay()),
     isActive: () => PlayerProgress.realityUnlocked() ||

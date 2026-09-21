@@ -137,7 +137,7 @@ export default {
       V.checkForUnlocks();
     },
     reductionTooltip(hex) {
-      return `퍼크 포인트 ${quantify("개", hex.reductionCost, 2, 0)}를 사용해
+      return `특전 포인트 ${quantify("개", hex.reductionCost, 2, 0)}를 사용해
         목표를 ${format(hex.config.perReductionStep)}만큼 낮춥니다.`;
     },
     hexColor(hex) {
@@ -216,7 +216,7 @@ export default {
         v-if="showReduction"
         class="c-v-info-text"
       >
-        퍼크 포인트를 {{ quantify("개", pp, 2, 0) }} 보유하고 있습니다.
+        특전 포인트를 {{ quantify("개", pp, 2, 0) }} 보유하고 있습니다.
       </div>
       <div class="l-v-unlocks-container">
         <li

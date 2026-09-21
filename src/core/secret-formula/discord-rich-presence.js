@@ -171,7 +171,7 @@ export const discordRichPresence = {
       hasReached: () => player.realities > 0,
       mainResource: () => `${format(player.reality.realityMachines, 2)} RM`,
       resourceList: [
-        () => quantify("리얼리티", player.realities, 0, 0, formatInt),
+        () => quantify("현실", player.realities, 0, 0, formatInt),
         () => `최고 글리프 레벨: ${formatInt(player.records.bestReality.glyphLevel)}`
       ]
     },
@@ -180,7 +180,7 @@ export const discordRichPresence = {
       hasReached: () => Teresa.isUnlocked,
       mainResource: () => `${format(player.reality.realityMachines, 2)} RM`,
       resourceList: [
-        () => quantify("리얼리티", player.realities, 0, 0, formatInt),
+        () => quantify("현실", player.realities, 0, 0, formatInt),
         () => `최고 GL: ${formatInt(player.records.bestReality.glyphLevel)}`,
         () => `주입량: ${format(player.celestials.teresa.pouredAmount, 2)} RM`
       ]

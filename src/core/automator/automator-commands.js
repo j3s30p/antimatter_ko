@@ -107,34 +107,34 @@ export const AutomatorCommands = [
       // Do not change to switch statement; T.XXX are Objects, not primitive values
       if (ctx.PrestigeEvent[0].tokenType === T.Infinity) {
         if (!Autobuyer.bigCrunch.isUnlocked) {
-          V.addError(ctx.PrestigeEvent, "무한 자동구매기가 해금되지 않았습니다",
-            "이 명령을 사용하려면 빅 크런치 자동구매기 도전을 완료하세요");
+          V.addError(ctx.PrestigeEvent, "무한 자동 구매기가 해금되지 않았습니다",
+            "이 명령을 사용하려면 빅 크런치 자동 구매기 도전을 완료하세요");
           return false;
         }
         if (advSetting && !EternityMilestone.bigCrunchModes.isReached) {
           V.addError((ctx.duration || ctx.xHighest)[0],
-            "고급 무한 자동구매기 설정이 해금되지 않았습니다",
+            "고급 무한 자동 구매기 설정이 해금되지 않았습니다",
             `이 명령을 사용하려면 영원 횟수 ${quantifyInt("회", EternityMilestone.bigCrunchModes.config.eternities)}에 도달하세요`);
           return false;
         }
       }
       if (ctx.PrestigeEvent[0].tokenType === T.Eternity) {
         if (!EternityMilestone.autobuyerEternity.isReached) {
-          V.addError(ctx.PrestigeEvent, "영원 자동구매기가 해금되지 않았습니다",
+          V.addError(ctx.PrestigeEvent, "영원 자동 구매기가 해금되지 않았습니다",
             `이 명령을 사용하려면 영원 횟수 ${quantifyInt("회", EternityMilestone.autobuyerEternity.config.eternities)}에 도달하세요`);
           return false;
         }
         if (advSetting && !RealityUpgrade(13).isBought) {
           V.addError((ctx.duration || ctx.xHighest)[0],
-            "고급 영원 자동구매기 설정이 해금되지 않았습니다",
-            "고급 영원 자동구매기 설정을 해금하는 현실 업그레이드를 구매하세요");
+            "고급 영원 자동 구매기 설정이 해금되지 않았습니다",
+            "고급 영원 자동 구매기 설정을 해금하는 현실 업그레이드를 구매하세요");
           return false;
         }
       }
       if (ctx.PrestigeEvent[0].tokenType === T.Reality) {
         if (!RealityUpgrade(25).isBought) {
-          V.addError(ctx.PrestigeEvent, "현실 자동구매기가 해금되지 않았습니다",
-            "현실 자동구매기를 해금하는 현실 업그레이드를 구매하세요");
+          V.addError(ctx.PrestigeEvent, "현실 자동 구매기가 해금되지 않았습니다",
+            "현실 자동 구매기를 해금하는 현실 업그레이드를 구매하세요");
           return false;
         }
         if (advSetting) {
@@ -432,14 +432,14 @@ export const AutomatorCommands = [
 
       if (ctx.PrestigeEvent && ctx.PrestigeEvent[0].tokenType === T.Eternity &&
         !EternityMilestone.autobuyerEternity.isReached) {
-        V.addError(ctx.PrestigeEvent, "영원 자동구매기가 해금되지 않았습니다",
+        V.addError(ctx.PrestigeEvent, "영원 자동 구매기가 해금되지 않았습니다",
           `이 명령을 사용하려면 영원 횟수 ${quantifyInt("회", EternityMilestone.autobuyerEternity.config.eternities)}에 도달하세요`);
         return false;
       }
 
       if (ctx.PrestigeEvent && ctx.PrestigeEvent[0].tokenType === T.Reality && !RealityUpgrade(25).isBought) {
-        V.addError(ctx.PrestigeEvent, "현실 자동구매기가 해금되지 않았습니다",
-          "현실 자동구매기를 해금하는 현실 업그레이드를 구매하세요");
+        V.addError(ctx.PrestigeEvent, "현실 자동 구매기가 해금되지 않았습니다",
+          "현실 자동 구매기를 해금하는 현실 업그레이드를 구매하세요");
         return false;
       }
 

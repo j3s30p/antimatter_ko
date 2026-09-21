@@ -23,7 +23,7 @@ export class AutobuyerState {
     if (ordinalMatch) return `${ordinalMatch[1]}차`;
 
     const localizedNames = {
-      "Dilated Time Multiplier": "팽창 시간 배율",
+      "Dilated Time Multiplier": "팽창된 시간 배율",
       "Tachyon Galaxy Threshold": "타키온 은하 요구량",
       "Tachyon Particle Multiplier": "타키온 입자 배율",
       "Time Theorem": "시간 정리",

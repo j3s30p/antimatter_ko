@@ -49,7 +49,7 @@ export default {
     <PrimaryToggleButton
       v-model="displayAll"
       class="o-primary-btn--subtab-option"
-      label="모든 마일스톤 설명 표시:"
+      label="모든 이정표 설명 표시:"
     />
     <br>
     <b>{{ startTimeStr }}</b>

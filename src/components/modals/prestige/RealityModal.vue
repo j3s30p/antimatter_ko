@@ -33,15 +33,15 @@ export default {
     firstRealityText() {
       return `현실에 도달하면 도전 기록과 통계 탭의 일반 항목을 제외한 모든 것이 초기화됩니다.
         도전과제의 첫 ${formatInt(13)}개 줄도 초기화되지만, ${timeDisplayNoDecimals(30 * 60000)}마다
-        도전과제를 하나씩 자동으로 되찾습니다. 영원 포인트에 따른 리얼리티 머신, 영원 포인트·복제자·팽창한 시간에
-        따라 레벨이 정해지는 글리프, 편의성 업그레이드에 사용할 퍼크 포인트를 얻고 여러 업그레이드가 해금됩니다.`;
+        도전과제를 하나씩 자동으로 되찾습니다. 영원 포인트에 따른 리얼리티 머신, 영원 포인트·복제자·팽창된 시간에
+        따라 레벨이 정해지는 글리프, 편의성 업그레이드에 사용할 특전 포인트를 얻고 여러 업그레이드가 해금됩니다.`;
     },
     canSacrifice() {
       return RealityUpgrade(19).isEffectActive;
     },
     warnText() {
       if (!this.hasChoice) {
-        return `현재 현실마다 새 글리프 선택지가 하나만 주어집니다. 이 모달을 닫고 START 퍼크를 구매하면
+        return `현재 현실마다 새 글리프 선택지가 하나만 주어집니다. 이 모달을 닫고 시작 특전을 구매하면
           여러 글리프 중 하나를 선택할 수 있습니다.`;
       }
 
@@ -55,7 +55,7 @@ export default {
     gained() {
       const gainedResources = [];
       gainedResources.push(`현실 ${formatInt(this.simRealities)}회`);
-      gainedResources.push(`퍼크 포인트 ${formatInt(this.simRealities)}개`);
+      gainedResources.push(`특전 포인트 ${formatInt(this.simRealities)}개`);
       gainedResources.push(`리얼리티 머신 ${format(this.realityMachines, 2)}개`);
       if (this.effarigUnlocked) {
         gainedResources.push(`${quantify("유물 파편", this.shardsGained, 2)}`);

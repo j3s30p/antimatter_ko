@@ -16,7 +16,7 @@ export default {
   <div class="l-achievements-tab">
     <div class="c-achievements-tab__header">
       <span>
-        비밀 도전 과제는 선택 요소이며 보너스를 제공하지 않습니다.
+        비밀 도전과제는 선택 요소이며 보너스를 제공하지 않습니다.
       </span>
     </div>
     <div class="l-achievement-grid">

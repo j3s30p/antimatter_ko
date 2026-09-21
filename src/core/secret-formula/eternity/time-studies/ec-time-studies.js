@@ -19,7 +19,7 @@ export const ecTimeStudies = [
     requirement: [171],
     reqType: TS_REQUIREMENT_TYPE.AT_LEAST_ONE,
     secondary: {
-      resource: "시간 파편으로 얻은 틱스피드 업그레이드",
+      resource: "시간 조각으로 얻은 틱스피드 업그레이드",
       current: () => player.totalTickGained,
       required: completions => 1300 + Math.min(completions, 4) * 150,
       formatValue: formatInt

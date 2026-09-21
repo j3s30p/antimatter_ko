@@ -694,7 +694,7 @@ export const devMigrations = {
       player.reality.perks = newPerks;
       if (gainedPerkPoints > 0) {
         Modal.message.show(
-          "일부 퍼크(글리프 퍼크)가 제거되었습니다. 여기에 사용한 퍼크 포인트를 돌려받았습니다.");
+          "일부 특전(글리프 특전)가 제거되었습니다. 여기에 사용한 특전 포인트를 돌려받았습니다.");
       }
     },
     player => {

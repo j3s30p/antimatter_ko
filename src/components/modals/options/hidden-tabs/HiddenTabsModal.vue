@@ -55,7 +55,7 @@ export default {
         <br>
         <i>너는... 모든 곳을 보아야 한다...</i>
         <br>
-        (이 리얼리티에서는 탭을 숨길 수 없습니다.)
+        (이 현실에서는 탭을 숨길 수 없습니다.)
       </div>
       <PrimaryButton
         @click="showAllTabs"

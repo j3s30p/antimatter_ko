@@ -27,8 +27,8 @@ export default {
     },
     message() {
       const resetResouces = [];
-      if (Pelle.isDoomed) resetResouces.push("반물질", "반물질 차원", "틱 속도");
-      if (!this.perkANRBought) resetResouces.push("반물질 차원", "틱 속도");
+      if (Pelle.isDoomed) resetResouces.push("반물질", "반물질 차원", "틱스피드");
+      if (!this.perkANRBought) resetResouces.push("반물질 차원", "틱스피드");
       if (!this.keepDimBoost) resetResouces.push("차원 가속");
       if (!this.keepAntimatter && !this.perkANRBought) resetResouces.push("반물질");
       const resetList = [...new Set(resetResouces)].join(", ");
@@ -36,11 +36,11 @@ export default {
       if (InfinityChallenge(3).isRunning) {
         tickspeedFixed = `무한 도전 ${InfinityChallenge(3).id}`;
       } else if (Ra.isRunning) {
-        tickspeedFixed = `${Ra.displayName}의 리얼리티`;
+        tickspeedFixed = `${Ra.displayName}의 현실`;
       }
       const tickspeedInfo = (tickspeedFixed === "")
-        ? "틱 속도 업그레이드에 작은 보너스를 얻습니다."
-        : `${tickspeedFixed} 진행 중이므로 틱 속도 업그레이드 보너스를 얻지 못합니다.`;
+        ? "틱스피드 업그레이드에 작은 보너스를 얻습니다."
+        : `${tickspeedFixed} 진행 중이므로 틱스피드 업그레이드 보너스를 얻지 못합니다.`;
       const message = (resetList === "")
         ? `초기화되는 자원은 없으며, ${tickspeedInfo}`
         : `${resetList} 항목이 초기화됩니다. 단, ${tickspeedInfo}`;

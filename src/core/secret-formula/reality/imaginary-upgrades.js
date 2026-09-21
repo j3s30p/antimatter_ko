@@ -232,7 +232,7 @@ export const imaginaryUpgrades = [
     hasFailed: () => false,
     checkRequirement: () => Laitela.matterExtraPurchaseFactor >= 2,
     checkEvent: GAME_EVENT.GAME_TICK_AFTER,
-    description: () => `반복 구매 가능한 허수 업그레이드의 자동구매기를 해금하고 허수 머신을
+    description: () => `반복 구매 가능한 허수 업그레이드의 자동 구매기를 해금하고 허수 머신을
       ${formatInt(10)}배 빠르게 생산`,
     effect: 10,
     isDisabledInDoomed: true

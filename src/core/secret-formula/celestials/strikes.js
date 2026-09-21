@@ -7,7 +7,7 @@ export const pelleStrikes = {
     requirementDescription: "무한에 도달하세요",
     penaltyDescription: () => `반물질 차원 배율을 ${formatPow(0.5, 1, 1)}만큼 거듭제곱합니다`,
     rewardDescription: () => `${wordShift.wordCycle(PelleRifts.vacuum.name)} 균열을 해금하고
-      영구 무한 자동구매기를 얻습니다`,
+      영구 무한 자동 구매기를 얻습니다`,
     rift: () => PelleRifts.vacuum
   },
   powerGalaxies: {

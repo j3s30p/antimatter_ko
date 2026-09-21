@@ -12,8 +12,8 @@ export default {
         reality: {
           name: "Reality",
           plural: "Realities",
-          displayName: "리얼리티",
-          displayPlural: "리얼리티",
+          displayName: "현실",
+          displayPlural: "현실",
           currency: "RM",
           condition: () => PlayerProgress.realityUnlocked(),
           getRuns: () => player.records.recentRealities,

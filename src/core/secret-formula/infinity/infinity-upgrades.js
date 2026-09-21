@@ -168,7 +168,7 @@ export const infinityUpgrades = {
     },
     charged: {
       description: () =>
-        `현실에서 얻은 양에 비례해 현실 시간으로 매초 현실 기계를 획득하며,
+        `현실에서 얻은 양에 비례해 현실 시간으로 매초 리얼리티 머신을 획득하며,
         테레사 레벨에 따라 증가`,
       effect: () => Math.pow(Ra.pets.teresa.level, 2) *
         Ra.unlocks.continuousTTBoost.effects.autoPrestige.effectOrDefault(1),

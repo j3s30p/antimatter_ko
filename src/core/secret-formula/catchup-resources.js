@@ -9,11 +9,11 @@ export const catchupResources = [
       반물질을 생산합니다.`
   },
   {
-    name: "틱 속도",
+    name: "틱스피드",
     id: 1,
-    openH2pEntry: "틱 속도",
+    openH2pEntry: "틱스피드",
     requiredStage: PROGRESS_STAGE.PRE_INFINITY,
-    description: `틱 속도 업그레이드는 시간이 더 빨리 흐르는 것처럼 반물질 차원이 다른 반물질 차원이나
+    description: `틱스피드 업그레이드는 시간이 더 빨리 흐르는 것처럼 반물질 차원이 다른 반물질 차원이나
       반물질을 더 빠르게 생산하게 합니다.`
   },
   {
@@ -25,17 +25,17 @@ export const catchupResources = [
       게임 내 기능입니다.`
   },
   {
-    name: "차원 부스트",
+    name: "차원 가속",
     id: 3,
     requiredStage: PROGRESS_STAGE.PRE_INFINITY,
-    description: `현재 사용할 수 있는 가장 높은 반물질 차원을 일정량 모은 뒤 모든 반물질 차원과 틱 속도를
-      초기화하면 차원 부스트를 얻습니다. 차원 부스트는 반물질 차원에 배율을 제공합니다.`
+    description: `현재 사용할 수 있는 가장 높은 반물질 차원을 일정량 모은 뒤 모든 반물질 차원과 틱스피드를
+      초기화하면 차원 가속을 얻습니다. 차원 가속은 반물질 차원에 배율을 제공합니다.`
   },
   {
     name: "반물질 은하",
     id: 4,
     requiredStage: PROGRESS_STAGE.PRE_INFINITY,
-    description: `반물질 차원과 차원 부스트를 초기화하면 반물질 은하를 얻습니다. 반물질 은하는 틱 속도
+    description: `반물질 차원과 차원 가속을 초기화하면 반물질 은하를 얻습니다. 반물질 은하는 틱스피드
       업그레이드의 효과를 복리 방식으로 강화합니다.`
   },
   {
@@ -59,13 +59,13 @@ export const catchupResources = [
     openH2pEntry: "Normal Challenges",
     requiredStage: PROGRESS_STAGE.EARLY_INFINITY,
     description: () => `도전에서는 더 어려운 조건에서 반물질 ${format(Number.MAX_VALUE, 2)}개에 도달해야 합니다.
-      도전을 완료하면 자동구매기를 업그레이드할 수 있습니다.`
+      도전을 완료하면 자동 구매기를 업그레이드할 수 있습니다.`
   },
   {
     name: "무한 돌파",
     id: 8,
     requiredStage: PROGRESS_STAGE.BREAK_INFINITY,
-    description: () => `빅 크런치 자동구매기를 최대로 업그레이드하면 반물질 ${format(Number.MAX_VALUE, 2)}개의 한계를
+    description: () => `빅 크런치 자동 구매기를 최대로 업그레이드하면 반물질 ${format(Number.MAX_VALUE, 2)}개의 한계를
       넘어설 수 있으며, 반물질이 많을수록 더 많은 무한 포인트를 얻습니다.`
   },
   {
@@ -114,18 +114,18 @@ export const catchupResources = [
       제한이 있습니다.`
   },
   {
-    name: "영원 마일스톤",
+    name: "영원 이정표",
     id: 15,
     requiredStage: PROGRESS_STAGE.EARLY_ETERNITY,
-    description: `영원 마일스톤은 영원 횟수를 늘리기만 하면 해금되는 자동화 및 편의 기능입니다.
+    description: `영원 이정표는 영원 횟수를 늘리기만 하면 해금되는 자동화 및 편의 기능입니다.
       해금할 때 어떤 자원도 소비하지 않습니다.`
   },
   {
     name: "시간 차원",
     id: 16,
     requiredStage: PROGRESS_STAGE.EARLY_ETERNITY,
-    description: `시간 차원도 서로를 연쇄적으로 생산하며, 가장 낮은 단계는 시간 파편을 생산합니다.
-      시간 파편은 반물질로 구매하는 틱스피드 업그레이드의 비용을 올리지 않는 추가 틱스피드 업그레이드를
+    description: `시간 차원도 서로를 연쇄적으로 생산하며, 가장 낮은 단계는 시간 조각을 생산합니다.
+      시간 조각은 반물질로 구매하는 틱스피드 업그레이드의 비용을 올리지 않는 추가 틱스피드 업그레이드를
       제공합니다.`
   },
   {
@@ -166,11 +166,11 @@ export const catchupResources = [
       영원 포인트에 따라 획득량이 정해집니다.`
   },
   {
-    name: "퍼크",
+    name: "특전",
     id: 22,
     requiredStage: PROGRESS_STAGE.EARLY_REALITY,
-    description: `퍼크는 영원 마일스톤과 비슷한 해금형 기능으로, 주로 편의성과 자동화에 초점을 둡니다.
-      현실에 도달할 때마다 얻는 퍼크 포인트로 구매합니다.`
+    description: `특전은 영원 이정표와 비슷한 해금형 기능으로, 주로 편의성과 자동화에 초점을 둡니다.
+      현실에 도달할 때마다 얻는 특전 포인트로 구매합니다.`
   },
   {
     name: "글리프",
@@ -185,7 +185,7 @@ export const catchupResources = [
     id: 24,
     openH2pEntry: "Automator Overview",
     requiredStage: PROGRESS_STAGE.EARLY_REALITY,
-    description: `오토메이터는 스크립트 언어를 사용하는 게임 내 기능입니다. 업그레이드와 퍼크를 충분히
+    description: `오토메이터는 스크립트 언어를 사용하는 게임 내 기능입니다. 업그레이드와 특전을 충분히
       확보하면 아무런 조작 없이 현실을 완료할 수 있습니다.`
   },
   {
@@ -240,7 +240,7 @@ export const catchupResources = [
     id: 31,
     requiredStage: PROGRESS_STAGE.V,
     description: `V는 네 번째 셀레스티얼입니다. V의 변형된 현실은 테레사의 현실과 비슷하지만, 내부에서
-      특정 자원 마일스톤에 도달해야 보상을 얻습니다. 경로 제한 없이 추가 시간 연구를 구매할 수 있게 해 주는
+      특정 자원 이정표에 도달해야 보상을 얻습니다. 경로 제한 없이 추가 시간 연구를 구매할 수 있게 해 주는
       우주 정리라는 새 자원을 제공합니다.`
   },
   {
@@ -356,7 +356,7 @@ export const catchupResources = [
     id: 46,
     openH2pEntry: "Pelle Strikes",
     requiredStage: PROGRESS_STAGE.PELLE,
-    description: `펠레에서 특정 진행 마일스톤에 도달하면 공격이 발생하여 파멸한 현실에 새로운 약화 효과를
+    description: `펠레에서 특정 진행 이정표에 도달하면 공격이 발생하여 파멸한 현실에 새로운 약화 효과를
       영구적으로 적용합니다. 각 공격에는 다른 자원을 소모하는 대신 강화 효과를 얻는 균열이 동반됩니다.
       이들은 영구적이며 아마겟돈 후에도 해금된 상태로 유지됩니다.`
   },

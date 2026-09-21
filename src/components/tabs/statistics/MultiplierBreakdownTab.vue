@@ -4,7 +4,7 @@ import MultiplierBreakdownEntry from "./MultiplierBreakdownEntry";
 
 const MULT_TAB_OPTIONS = [
   { id: 0, key: "AM", text: "반물질 생산량" },
-  { id: 1, key: "tickspeed", text: "틱 속도" },
+  { id: 1, key: "tickspeed", text: "틱스피드" },
   { id: 2, key: "AD", text: "반물질 차원" },
   { id: 3, key: "IP", text: "무한 포인트" },
   { id: 4, key: "ID", text: "무한 차원" },
@@ -13,7 +13,7 @@ const MULT_TAB_OPTIONS = [
   { id: 7, key: "EP", text: "영원 포인트" },
   { id: 8, key: "TD", text: "시간 차원" },
   { id: 9, key: "eternities", text: "영원 횟수" },
-  { id: 10, key: "DT", text: "팽창한 시간" },
+  { id: 10, key: "DT", text: "팽창된 시간" },
   { id: 11, key: "gamespeed", text: "게임 속도" },
 ];
 

@@ -352,7 +352,7 @@ function roundPreservingSum(data) {
         :style="rowStyle('perk shop')"
         class="l-glyph-levels-and-weights__factor"
       >
-        테레사의 퍼크 상점
+        테레사의 특전 상점
       </div>
       <div
         :style="rowStyle('perk shop')"

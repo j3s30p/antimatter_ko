@@ -84,7 +84,7 @@ export const pelleRifts = {
       {
         resource: "decay",
         requirement: 1,
-        description: "달성한 균열 마일스톤 수에 따라 복제자 은하의 최대치를 증가시킵니다",
+        description: "달성한 균열 이정표 수에 따라 복제자 은하의 최대치를 증가시킵니다",
         effect: () => {
           const x = PelleRifts.totalMilestones();
           return x ** 2 - 2 * x;
@@ -126,7 +126,7 @@ export const pelleRifts = {
         resource: "chaos",
         requirement: 0.09,
         description: () => `${wordShift.wordCycle(PelleRifts.decay.name)} \
-        효과가 항상 최대가 되고 마일스톤이 항상 활성화됩니다`
+        효과가 항상 최대가 되고 이정표가 항상 활성화됩니다`
       },
       {
         resource: "chaos",
@@ -182,7 +182,7 @@ export const pelleRifts = {
     id: 5,
     key: "paradox",
     name: ["역설", "모순", "오류"],
-    drainResource: "팽창한 시간",
+    drainResource: "팽창된 시간",
     baseEffect: x => `모든 차원 ${formatPow(x, 2, 3)}`,
     additionalEffects: () => [PelleRifts.paradox.milestones[2]],
     strike: () => PelleStrikes.dilation,
@@ -204,7 +204,7 @@ export const pelleRifts = {
       {
         resource: "paradox",
         requirement: 0.25,
-        description: () => `팽창 시간 획득량이 타키온 입자 ${formatPow(1.4, 1, 1)}이 됩니다`,
+        description: () => `팽창된 시간 획득량이 타키온 입자 ${formatPow(1.4, 1, 1)}이 됩니다`,
         effect: 1.4
       },
       {

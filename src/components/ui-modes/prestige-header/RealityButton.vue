@@ -165,7 +165,7 @@ export default {
           class="infotooltiptext"
         >
           <div>그 밖의 획득 자원:</div>
-          <div>퍼크 포인트 {{ formatInt(ppGained) }}개</div>
+          <div>특전 포인트 {{ formatInt(ppGained) }}개</div>
           <div v-if="shardsGained !== 0">
             {{ shardsGainedText }} (분당 {{ format(currentShardsRate, 2) }})
             <br>

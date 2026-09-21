@@ -299,11 +299,11 @@ export const celestialNavigation = {
       },
       legend: {
         text: complete => {
-          if (complete >= 1) return "테레사의 퍼크 포인트 상점";
+          if (complete >= 1) return "테레사의 특전 포인트 상점";
           const rm = Teresa.pouredAmount;
           const cost = TeresaUnlocks.shop.price;
           return [
-            "테레사의 퍼크 포인트 상점",
+            "테레사의 특전 포인트 상점",
             `리얼리티 머신 ${format(rm, 2)} / ${format(cost, 2)}을 주입하세요`
           ];
         },

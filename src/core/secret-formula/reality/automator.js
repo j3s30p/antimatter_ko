@@ -16,7 +16,7 @@ export const automator = {
       category: 0,
       syntax: `<b>studies respec</b>`,
       description: `이 명령어는 재설정 옵션을 켜서 다음 수동 또는 자동 영원에서 시간 연구를 재설정합니다.
-        이 명령어만으로 영원을 실행하지는 않으므로 자동구매기가 켜져 있는지 확인하거나 ETERNITY 명령어를
+        이 명령어만으로 영원을 실행하지는 않으므로 자동 구매기가 켜져 있는지 확인하거나 ETERNITY 명령어를
         직접 실행하세요(ETERNITY에도 자체 재설정 옵션이 있습니다).`,
       examples: [
         `studies respec`,
@@ -109,8 +109,8 @@ export const automator = {
         <b>reality</b> [nowait] [respec]`,
       description: `가능하면 무한, 영원 또는 현실 초기화를 실행합니다. 실행할 수 없다면 가능해질 때까지
         이 명령에서 기다립니다. 스크립트가 이 명령에서 자주 멈춘다면 오토메이터가 이 줄에 도달하기 전에
-        자동구매기가 프레스티지를 실행하고 있을 수 있습니다. <i>nowait</i>를 사용하거나 AUTO 명령으로
-        자동구매기 설정을 조정해 보세요.`,
+        자동 구매기가 프레스티지를 실행하고 있을 수 있습니다. <i>nowait</i>를 사용하거나 AUTO 명령으로
+        자동 구매기 설정을 조정해 보세요.`,
       sections: [
         {
           name: "MODIFIERS",
@@ -190,8 +190,8 @@ export const automator = {
       syntax: `<b>auto infinity</b> [setting]<br>
         <b>auto eternity</b> [setting]<br>
         <b>auto reality</b> [setting]`,
-      description: `프레스티지 자동구매기를 켜거나 끄고 설정을 변경합니다. 설정 옵션이 없으면 이 명령어가
-        자동구매기의 상태를 전환하여, 켜져 있으면 끄고 꺼져 있으면 켭니다. <b>보유하지 않은 자동구매기나
+      description: `프레스티지 자동 구매기를 켜거나 끄고 설정을 변경합니다. 설정 옵션이 없으면 이 명령어가
+        자동 구매기의 상태를 전환하여, 켜져 있으면 끄고 꺼져 있으면 켭니다. <b>보유하지 않은 자동 구매기나
         설정을 변경하려 하면 이 명령어는 작동하지 않습니다.</b>`,
       sections: [
         {
@@ -199,22 +199,22 @@ export const automator = {
           items: [
             {
               header: "<i>on</i> | <i>off</i>",
-              description: "지정한 자동구매기를 켜거나 끕니다.",
+              description: "지정한 자동 구매기를 켜거나 끕니다.",
             },
             {
               header: "<u><i>number</i></u> <u><i>time units</i></u>",
               description: `무한과 영원에서만 사용할 수 있습니다.
-                자동구매기를 켜고 지정한 간격마다 실행되도록 설정합니다.`
+                자동 구매기를 켜고 지정한 간격마다 실행되도록 설정합니다.`
             },
             {
               header: "<u><i>number</i></u> x highest",
-              description: `무한과 영원에서만 사용할 수 있습니다. 자동구매기를 켜고
+              description: `무한과 영원에서만 사용할 수 있습니다. 자동 구매기를 켜고
                 "최고 기록의 X배" 모드로 설정합니다.`
             },
             {
               header: "<i><u>number</u> <u>currency</u></i>",
-              description: `자동구매기를 켜고 지정한 양에서 실행되도록 설정합니다. 화폐는 자동구매기 종류
-                (IP, EP 또는 RM)와 일치해야 합니다. 현실 자동구매기는 "리얼리티 머신" 모드로 설정됩니다.
+              description: `자동 구매기를 켜고 지정한 양에서 실행되도록 설정합니다. 화폐는 자동 구매기 종류
+                (IP, EP 또는 RM)와 일치해야 합니다. 현실 자동 구매기는 "리얼리티 머신" 모드로 설정됩니다.
                 글리프 레벨 모드는 오토메이터로 변경하거나 설정할 수 없으며 수동으로만 바꿀 수 있습니다.`,
             },
           ]
@@ -346,9 +346,9 @@ export const automator = {
             {
               header: "<i>prestige</i>",
               description: `
-                해당 자동구매기가 지정한 프레스티지(무한, 영원 또는 현실)를 실행할 때까지 기다립니다.
+                해당 자동 구매기가 지정한 프레스티지(무한, 영원 또는 현실)를 실행할 때까지 기다립니다.
                 이는 이 명령어에 도달한 <i>후</i>에 일어나야 합니다. 명령어에 도달하기 <i>전에</i>
-                자동구매기가 실행되면 스크립트가 멈출 수 있습니다.
+                자동 구매기가 실행되면 스크립트가 멈출 수 있습니다.
               `
             },
             {
@@ -516,7 +516,7 @@ export const automator = {
           <b>pending tp</b> - 팽창 종료 시 획득할 TP<br>
           <b>pending rm</b> - 현실 시 획득할 RM (불가능하면 0)<br>
           <b>pending glyph level</b> - 현실 시 획득할 글리프 레벨 (불가능하면 0)<br>
-          <b>dt</b> - 현재 팽창한 시간 <br>
+          <b>dt</b> - 현재 팽창된 시간 <br>
           <b>tp</b> - 현재 타키온 입자<br>
           <b>rg</b> - 현재 복제자 은하 수 (과학적 표기법을 사용하지 않음)<br>
           <b>rep</b> - 현재 복제자 <br>

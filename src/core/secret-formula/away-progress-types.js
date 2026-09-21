@@ -5,7 +5,7 @@ export const awayProgressTypes = [
     isUnlocked: () => true,
   }, {
     name: "dimensionBoosts",
-    displayName: "차원 부스트",
+    displayName: "차원 가속",
     isUnlocked: () => true,
   }, {
     name: "antimatterGalaxies",
@@ -32,11 +32,11 @@ export const awayProgressTypes = [
     isUnlocked: () => PlayerProgress.replicantiUnlocked() || PlayerProgress.eternityUnlocked(),
   }, {
     name: "eternities",
-    displayName: "이터니티 횟수",
+    displayName: "영원 횟수",
     isUnlocked: () => PlayerProgress.eternityUnlocked(),
   }, {
     name: "eternityPoints",
-    displayName: "이터니티 포인트",
+    displayName: "영원 포인트",
     isUnlocked: () => PlayerProgress.eternityUnlocked(),
   }, {
     name: "tachyonParticles",
@@ -60,17 +60,17 @@ export const awayProgressTypes = [
     isUnlocked: () => PlayerProgress.dilationUnlocked() || PlayerProgress.realityUnlocked(),
   }, {
     name: "achievementAmount",
-    displayName: "도전 과제 수",
+    displayName: "도전과제 수",
     reference: ["achievementBits"],
     applyFn: x => x.map(b => countValuesFromBitmask(b)).sum(),
     isUnlocked: () => PlayerProgress.realityUnlocked(),
   }, {
     name: "realities",
-    displayName: "리얼리티 횟수",
+    displayName: "현실 횟수",
     isUnlocked: () => PlayerProgress.realityUnlocked(),
   }, {
     name: "realityMachines",
-    displayName: "리얼리티 기계",
+    displayName: "리얼리티 머신",
     reference: ["reality", "realityMachines"],
     isUnlocked: () => PlayerProgress.realityUnlocked(),
   }, {
@@ -97,7 +97,7 @@ export const awayProgressTypes = [
     showOption: false,
   }, {
     name: "relicShards",
-    displayName: "유물 조각",
+    displayName: "유물 파편",
     reference: ["celestials", "effarig", "relicShards"],
     isUnlocked: () => TeresaUnlocks.effarig.canBeApplied,
   }, {
@@ -136,7 +136,7 @@ export const awayProgressTypes = [
     showOption: false,
   }, {
     name: "imaginaryMachines",
-    displayName: "허상 기계",
+    displayName: "허수 머신",
     reference: ["reality", "imaginaryMachines"],
     isUnlocked: () => MachineHandler.isIMUnlocked,
   }, {
@@ -156,7 +156,7 @@ export const awayProgressTypes = [
     isUnlocked: () => Laitela.isUnlocked,
   }, {
     name: "realityShards",
-    displayName: "리얼리티 조각",
+    displayName: "현실 파편",
     reference: ["celestials", "pelle", "realityShards"],
     isUnlocked: () => Pelle.isDoomed,
   },

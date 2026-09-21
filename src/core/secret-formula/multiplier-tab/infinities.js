@@ -54,7 +54,7 @@ export const infinities = {
     icon: MultiplierTabIcons.GENERIC_RA,
   },
   singularity: {
-    name: "특이점 마일스톤 - 특이점 기반 거듭제곱",
+    name: "특이점 이정표 - 특이점 기반 거듭제곱",
     powValue: () => SingularityMilestone.infinitiedPow.effectOrDefault(1),
     isActive: () => SingularityMilestone.infinitiedPow.canBeApplied,
     icon: MultiplierTabIcons.SINGULARITY,

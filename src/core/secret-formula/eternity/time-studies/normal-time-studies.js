@@ -317,7 +317,7 @@ export const normalTimeStudies = [
     requiresST: [132, 133],
     description: () => (Achievement(138).isUnlocked
       ? `복제자 은하를 ${formatPercents(0.5)}개 더 많이 얻을 수 있다.`
-      : `복제자 은하 자동구매기가 비활성화되지만, 복제자 은하를 ${formatPercents(0.5)}개 더 많이 얻을 수 있다.`),
+      : `복제자 은하 자동 구매기가 비활성화되지만, 복제자 은하를 ${formatPercents(0.5)}개 더 많이 얻을 수 있다.`),
     effect: () => Math.floor(player.replicanti.boughtGalaxyCap / 2)
   },
   {
@@ -417,7 +417,7 @@ export const normalTimeStudies = [
     cost: 15,
     requirement: [161, 162],
     reqType: TS_REQUIREMENT_TYPE.AT_LEAST_ONE,
-    description: () => `다음 틱스피드 업그레이드의 시간 파편 요구량이 더 느리게 증가한다.
+    description: () => `다음 틱스피드 업그레이드의 시간 조각 요구량이 더 느리게 증가한다.
       ${formatX(1.33, 0, 2)} ➜ ${formatX(1.25, 0, 2)}`,
     effect: () => TS171_MULTIPLIER
   },
@@ -481,7 +481,7 @@ export const normalTimeStudies = [
     cost: 150,
     requirement: [191],
     reqType: TS_REQUIREMENT_TYPE.AT_LEAST_ONE,
-    description: "모든 은하들의 성능이 시간 파편의 개수에 비례해 증가한다.",
+    description: "모든 은하들의 성능이 시간 조각의 개수에 비례해 증가한다.",
     effect: () => Math.pow(Currency.timeShards.value.clampMin(2).log2(), 0.005),
     cap: 1.1,
     formatEffect: value => `+${formatPercents(value - 1, 3)}`

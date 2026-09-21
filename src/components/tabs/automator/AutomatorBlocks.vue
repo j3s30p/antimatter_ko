@@ -105,7 +105,7 @@ export const automatorBlocks = [
     targets: ["singleSelectionInput", "singleTextInput"],
   }, {
     cmd: "AUTO",
-    alias: "자동구매기 설정 변경",
+    alias: "자동 구매기 설정 변경",
     allowedPatterns: ["AB"],
     A: AUTOMATOR_BLOCKS_RESETS,
     B: ["ON", "OFF", "* AUTOBUYER SETTING"],

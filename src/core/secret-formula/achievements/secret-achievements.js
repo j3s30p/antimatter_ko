@@ -2,7 +2,7 @@ export const secretAchievements = [
   {
     id: 11,
     name: "첫 번째는 언제나 공짜",
-    description: "이 도전 과제를 클릭하세요."
+    description: "이 도전과제를 클릭하세요."
   },
   {
     id: 12,
@@ -44,7 +44,7 @@ export const secretAchievements = [
     id: 18,
     name: "운이 좋다고 느끼나? 그래, 애송이?",
     get description() {
-      return `매초 ${formatInt(1)}/${formatInt(1e5)} 확률로 이 도전 과제를 달성합니다.`;
+      return `매초 ${formatInt(1)}/${formatInt(1e5)} 확률로 이 도전과제를 달성합니다.`;
     }
   },
   {
@@ -128,7 +128,7 @@ export const secretAchievements = [
   {
     id: 35,
     name: "최대 구매를 알려줘야 하나…",
-    get description() { return `틱 속도 강화를 하나씩 ${formatInt(1e5)}번 구매하세요.`; },
+    get description() { return `틱스피드 업그레이드를 하나씩 ${formatInt(1e5)}번 구매하세요.`; },
     checkRequirement: () => player.requirementChecks.permanent.singleTickspeed >= 1e5,
     checkEvent: GAME_EVENT.GAME_TICK_AFTER
   },

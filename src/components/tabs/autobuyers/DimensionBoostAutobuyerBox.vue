@@ -53,7 +53,7 @@ export default {
     :autobuyer="autobuyer"
     :is-modal="isModal"
     :show-interval="!isBuyMaxUnlocked"
-    name="차원 부스트 자동 구매기"
+    name="차원 가속 자동 구매기"
   >
     <template
       v-if="!hasMaxedInterval"
@@ -89,7 +89,7 @@ export default {
           type="checkbox"
           class="o-clickable"
         >
-        차원 부스트 상한:
+        차원 가속 상한:
       </label>
       <AutobuyerInput
         :autobuyer="autobuyer"

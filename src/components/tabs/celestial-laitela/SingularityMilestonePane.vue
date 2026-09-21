@@ -37,7 +37,7 @@ export default {
       onclick="Modal.singularityMilestones.show()"
       :class="classObject"
     >
-      모든 마일스톤 보기
+      모든 이정표 보기
     </div>
     <SingularityMilestoneComponent
       v-for="milestone in milestones"
