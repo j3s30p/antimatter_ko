@@ -5051,23 +5051,23 @@ export const news = [
   },
   {
     id: "ai449",
-    text: "The game is balanced, everyone gets nerf, why? Cause they make the pie. Antimatter would have way more chance of getting into the pie if it was made of antimatter. (모두가 너프를 받아 균형을 이루며, 파이가 반물질로 만들어졌다면 반물질이 들어갈 가능성이 훨씬 높다는 말장난)"
+    text: "게임의 균형을 맞추느라 모두 너프를 먹습니다. 왜냐고요? 파이를 만드니까요. 파이가 반물질로 만들어졌다면 반물질이 파이에 들어갈 가능성이 훨씬 높았을 겁니다."
   },
   {
     id: "ai450",
-    text: "\"Can you get the joke?\" (If you tapped \"Build That Wall\" and then re-entered the game after tapping \"Build That Wall\") (벽 건설 버튼을 누른 뒤 게임에 다시 들어왔을 때 농담을 알아챘느냐는 뜻)"
+    text: "\"농담을 이해하셨나요?\" (\"저 벽을 세워라\"를 누른 뒤 게임에 다시 들어왔을 경우)"
   },
   {
     id: "ai451",
-    text: "Someone made a statement that antimatters. The statement was \"An infinity point made a long time ago\". It's been a while since someone looked for this statement. Some say it's still out there. Some say it was lost in the 7th Dimension War. Nobody knows what this statement means. But for now, just know it's not somewhere in the News Ticker. (누군가 반물질적으로 중요한 발언을 했습니다. 그 발언은 “오래전에 만들어진 무한 포인트”였습니다. 아직 어딘가에 남아 있다고도, 일곱 번째 차원 전쟁에서 사라졌다고도 합니다. 아무도 뜻을 모르지만 뉴스 티커 어딘가에 있지는 않습니다.)"
+    text: "누군가 반물질적으로 중요한 말을 했습니다. 그 말은 \"오래전에 만들어진 무한 포인트\"였습니다. 누군가 그 말을 찾아본 지도 꽤 됐습니다. 아직 어딘가에 있다고도 하고, 7차원 전쟁에서 사라졌다고도 합니다. 그 말이 무슨 뜻인지는 아무도 모릅니다. 하지만 지금은 뉴스 티커 어딘가에 있는 건 아니라는 것만 알아 두세요."
   },
   {
     id: "ai452",
-    text: "Hey, you're finally awake. You were trying to get to the 9th dimension, right? Walked right into that infinity point, same as us, and that apocalypse over there. (드디어 깨어났군요. 우리처럼 아홉 번째 차원으로 가려다 무한 포인트와 종말에 휘말렸다는 Skyrim 패러디)"
+    text: "이봐요, 드디어 깨어났군요. 9차원으로 가려던 거죠? 우리처럼 그 무한 포인트로 곧장 걸어 들어갔다가, 저기 있는 종말까지 만났군요."
   },
   {
     id: "ai453",
-    text: "can u dont (그거 안 하면 안 되냐는 일부러 문법을 흐린 표현)"
+    text: "그거 안 하면 안 됨"
   },
   {
     id: "ai454",
@@ -5083,11 +5083,11 @@ export const news = [
   },
   {
     id: "ai457",
-    text: "It's all fun and games till you realise the dragon ball is a lie (드래곤볼이 거짓임을 깨닫기 전까지는 모든 게 즐겁다는 밈)"
+    text: "드래곤볼이 거짓이었다는 걸 깨닫기 전까진 다 재미있는 법이죠."
   },
   {
     id: "ai458",
-    text: "\"Could you get a hold of all of these antimatter? Ha! You'll just smash your head on that antimatter, and you'll have to show me who's boss.\"-MEE6 (이 반물질을 모두 손에 넣을 수 있겠느냐며, 결국 부딪치고 누가 우위인지 보여 줘야 한다는 도발)"
+    text: "\"이 반물질을 전부 손에 넣을 수 있겠어? 하! 그 반물질에 머리나 처박고 누가 대장인지 내게 보여 줘야 할걸.\" - MEE6"
   },
   {
     id: "ai459",
@@ -5103,7 +5103,7 @@ export const news = [
   },
   {
     id: "ai462",
-    text: "\"YOU CONTROL SO MUCH MATERIAL!\" - Marshal Grievous (당신이 엄청나게 많은 물질을 통제한다는 Grievous 패러디)"
+    text: "\"네가 정말 많은 물질을 통제하는군!\" - 그리버스 원수"
   },
   {
     id: "ai463",
@@ -5127,11 +5127,11 @@ export const news = [
   },
   {
     id: "ai468",
-    text: "What if drinking from a fountain wasn't actually a water feature? (분수에서 물을 마시는 일이 사실 수경 시설의 기능이 아니라면 어떻겠느냐는 말장난)"
+    text: "분수에서 물을 마시는 게 사실 물의 기능이 아니라면 어떨까요?"
   },
   {
     id: "ai469",
-    text: "Water is wet, air is dry, and fountain isn't an air feature (물은 젖어 있고 공기는 건조하며 분수는 공기 시설이 아니라는 말장난)"
+    text: "물은 젖어 있고 공기는 건조하며, 분수는 공기의 기능이 아닙니다."
   },
   {
     id: "ai470",
@@ -5143,7 +5143,7 @@ export const news = [
   },
   {
     id: "ai472",
-    text: "\"My favorite part was the long, long, long read\" -Grumpy Cat (가장 마음에 든 부분은 아주 길고 긴 읽을거리였다는 Grumpy Cat식 평)"
+    text: "\"내가 가장 좋아한 부분은 길고, 길고, 긴 읽을거리였어.\" - 심술쟁이 고양이"
   },
   {
     id: "ai473",
@@ -5175,7 +5175,7 @@ export const news = [
   },
   {
     id: "ai480",
-    text: "That's a very dark joke Luke (Luke에게 아주 어두운 농담이라고 말하는 Star Wars식 말장난)"
+    text: "아주 어두운 농담이구나, 루크."
   },
   {
     id: "ai481",
@@ -5199,7 +5199,7 @@ export const news = [
   },
   {
     id: "ai486",
-    text: "\"Click here to unlock a secret achievement.\" (when clicked you get Rick rolled) (비밀 도전 과제를 해금하려면 여기를 클릭하세요. 클릭하면 Rickroll 영상이 열립니다.)",
+    text: "\"비밀 도전 과제를 해금하려면 여기를 클릭하세요.\" (클릭하면 릭롤을 당합니다)",
     onClick() { window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ"); }
   },
   {
@@ -5232,11 +5232,11 @@ export const news = [
   },
   {
     id: "ai494",
-    text: "If this makes it into the game I'll buy a antitool (이 문구가 게임에 들어가면 반도구를 사겠다는 말장난)"
+    text: "이게 게임에 들어가면 안티 도구를 하나 살게요."
   },
   {
     id: "ai495",
-    text: "Antitool is just negating the gravity of other matter. (반도구는 다른 물질의 중력을 무효화할 뿐이라는 말장난)"
+    text: "안티 도구는 그저 다른 물질의 중력을 무효화할 뿐입니다."
   },
   {
     id: "ai496",
@@ -5272,7 +5272,7 @@ export const news = [
   },
   {
     id: "ai504",
-    text: "I give you the low-ground! (내가 낮은 지대를 주겠다!)"
+    text: "내가 저지대를 주마!"
   },
   {
     id: "ai505",
@@ -5284,19 +5284,19 @@ export const news = [
   },
   {
     id: "ai507",
-    text: "\"We can't have nice things.\" - Anti-Bohemian Anti-Rhapsody (“우리에겐 좋은 것이 허락되지 않아.” - 안티 보헤미안 안티 랩소디)"
+    text: "\"우리에겐 좋은 것이 허락되지 않아.\" - 안티 보헤미안 안티 랩소디"
   },
   {
     id: "ai508",
-    text: "We can have anti-mean things and anti-love ones, anti-kids and anti-zombielandos. (우리에겐 안티 못된 것과 안티 사랑스러운 것, 안티 키즈와 안티 좀비랜드가 있습니다.)"
+    text: "우리에겐 안티 못된 것과 안티 사랑스러운 것, 안티 키즈와 안티 좀비랜드가 있습니다."
   },
   {
     id: "ai509",
-    text: "We have an anti-president and a anti-lawyer, anti-justice and anti-people. (우리에겐 안티 대통령과 안티 변호사, 안티 정의와 안티 사람들이 있습니다.)"
+    text: "우리에겐 안티 대통령과 안티 변호사, 안티 정의와 안티 사람들이 있습니다."
   },
   {
     id: "ai510",
-    text: "Top 10 things that will blow your mind: 1) The number 9, 2) The 9th dimension, 3) The infinity chest, and 4) The war on drugs. (충격적인 것 열 가지: 첫째 숫자 아홉, 둘째 아홉 번째 차원, 셋째 무한 상자, 넷째 마약과의 전쟁.)"
+    text: "당신을 깜짝 놀라게 할 10가지: 1) 숫자 9, 2) 9차원, 3) 무한 상자, 4) 마약과의 전쟁."
   },
   {
     id: "ai511",
@@ -5316,7 +5316,7 @@ export const news = [
   },
   {
     id: "ai515",
-    text: "Error.java.replicated. Under the control of hevipelle. (복제된 자바 오류. hevipelle의 통제하에 있습니다.)"
+    text: "Error.java.replicated. Hevipelle의 통제하에 있습니다."
   },
   {
     id: "ai516",
@@ -5324,7 +5324,7 @@ export const news = [
   },
   {
     id: "ai517",
-    text: "The indie rock band is currently trying to get unreachable by time zones. This may cause inflation of spacetime. (인디 록 밴드가 시간대로는 닿을 수 없는 곳에 가려 하고 있습니다. 이 때문에 시공간이 팽창할 수 있습니다.)"
+    text: "인디 록 밴드가 현재 시간대로는 닿을 수 없는 곳에 가려 하고 있습니다. 이 때문에 시공간이 팽창할 수 있습니다."
   },
   {
     id: "ai518",
@@ -5332,15 +5332,15 @@ export const news = [
   },
   {
     id: "ai519",
-    text: "Oh... hooray! Did you find the last of the anti-boats? (오... 만세! 마지막 안티 보트를 찾았나요?)"
+    text: "오... 만세! 마지막 안티 보트를 찾았나요?"
   },
   {
     id: "ai520",
-    text: "Don't anti-jokes. they make the game funnier (안티 농담을 막지 마세요. 게임이 더 웃겨지니까요.)"
+    text: "안티 농담을 막지 마세요. 게임이 더 웃겨지니까요."
   },
   {
     id: "ai521",
-    text: "I'm gonna use my anti-science background to help me beat Unfair Game Awards. (안티 과학 경력을 활용해 불공정 게임 어워드를 이겨 보겠습니다.)"
+    text: "안티 과학 경력을 활용해 불공정 게임 어워드를 이겨 보겠습니다."
   },
   {
     id: "ai522",
@@ -5368,23 +5368,23 @@ export const news = [
   },
   {
     id: "ai528",
-    text: "Why would anyone play this? Just for the lols? (누가 이걸 왜 플레이하겠어요? 그냥 웃자고요?)"
+    text: "누가 이걸 왜 플레이하겠어요? 그냥 웃자고요?"
   },
   {
     id: "ai529",
-    text: "Emoji is said to be America's new measuring system for everything. What does this mean for us? We don't know. But we will know in 5 hours. (이모지가 미국의 새로운 만능 측정 체계라고 합니다. 이것이 우리에게 어떤 의미일까요? 아직은 모릅니다. 하지만 다섯 시간 후에는 알게 될 겁니다.)"
+    text: "이모지가 미국의 새로운 만능 측정 체계라고 합니다. 이것이 우리에게 어떤 의미일까요? 아직은 모릅니다. 하지만 5시간 뒤에는 알게 될 겁니다."
   },
   {
     id: "ai530",
-    text: "\"I'll have 2 antimatter pizzas, an antimatter pie, an antimatter cupcake and an antimatter cookie. What do you eat there?\" - Tony Stark (“반물질 피자 두 판, 반물질 파이, 반물질 컵케이크와 반물질 쿠키를 주세요. 거기서는 뭘 먹나요?” - Tony Stark)"
+    text: "\"반물질 피자 두 판, 반물질 파이 하나, 반물질 컵케이크 하나, 반물질 쿠키 하나 주세요. 거기선 뭘 먹나요?\" - 토니 스타크"
   },
   {
     id: "ai531",
-    text: "i called the news ticker \"the freshman chapel\" because freshman don't get baptized (신입생은 세례를 받지 않아서 뉴스 티커를 “신입생 예배당”이라고 불렀습니다.)"
+    text: "신입생은 세례를 받지 않아서 뉴스 티커를 \"신입생 예배당\"이라고 불렀습니다."
   },
   {
     id: "ai532",
-    text: "One matter, two antimatter, fry 'em till they're golden and crisp and aromatic- then remove the golden axles and drain the golden syrup and add the golden syrup to the antimatter batter. (물질 하나, 반물질 둘을 노릇하고 바삭하며 향긋해질 때까지 튀긴 뒤, 황금 축을 빼고 황금 시럽을 따라 반물질 반죽에 넣으세요.)"
+    text: "물질 하나, 반물질 둘을 노릇하고 바삭하며 향긋해질 때까지 튀긴 뒤, 황금 축을 빼고 황금 시럽을 따라 반물질 반죽에 넣으세요."
   },
   {
     id: "ai533",
@@ -5396,19 +5396,19 @@ export const news = [
   },
   {
     id: "ai535",
-    text: "anti-anti-kajfik is happy his girlfriend is happy (안티 안티 Kajfik은 여자 친구가 행복해서 행복합니다.)"
+    text: "안티 안티 Kajfik은 여자 친구가 행복해서 행복합니다."
   },
   {
     id: "ai536",
-    text: "i dont think he can add 1 more hour to the news ticker... unless? (뉴스 티커에 한 시간을 더 추가할 수는 없을 것 같은데... 설마?)"
+    text: "뉴스 티커에 한 시간을 더 추가할 수는 없을 것 같은데... 설마?"
   },
   {
     id: "ai537",
-    text: "Imagine sitting on your toilet and suddenly you have to sit down. (변기에 앉아 있는데 갑자기 앉아야 하는 상황을 상상해 보세요.)"
+    text: "변기에 앉아 있는데 갑자기 앉아야 하는 상황을 상상해 보세요."
   },
   {
     id: "ai538",
-    text: "Once upon a time, there was a matter of a certain antimatter. Some say that it was a matter of honor, others say that it was a matter of usage. All we know is that it ended up in a war, and we the people that were there that fought it died. The war was won, and we the living died soon after. The matter was said to have won, though our leaders refused to talk about it. Instead, they kept everything locked away, the war never to be discussed again. (옛날 옛적 어떤 반물질을 둘러싼 문제가 있었고, 명예의 문제 또는 사용법의 문제였다고 합니다. 결국 전쟁으로 번져 싸운 이들은 죽었고 물질이 승리했다고 전해지지만, 지도자들은 모든 것을 봉인하고 다시는 말하지 않았습니다.)"
+    text: "옛날 옛적, 어떤 반물질을 둘러싼 문제가 있었습니다. 누군가는 명예의 문제였다고 하고, 누군가는 사용법의 문제였다고 합니다. 우리가 아는 건 결국 전쟁이 벌어졌고, 그곳에서 싸운 우리 모두가 죽었다는 것뿐입니다. 전쟁에서는 이겼지만 살아남은 우리도 곧 죽었습니다. 물질이 승리했다고 전해지지만 지도자들은 입을 다물었습니다. 대신 모든 것을 봉인했고, 그 전쟁은 다시는 입에 오르지 않았습니다."
   },
   {
     id: "ai539",
@@ -5428,7 +5428,7 @@ export const news = [
   },
   {
     id: "ai543",
-    text: "According to all known laws of physics, there is no way that you can manipulate the game more than 10 times in a row. Stop. Just stop. Your mad. (알려진 모든 물리 법칙에 따르면 게임을 열 번 넘게 연속으로 조작하는 것은 불가능합니다. 그만하세요. 그냥 그만하세요. 미쳤군요.)"
+    text: "알려진 모든 물리 법칙에 따르면 게임을 10번 넘게 연속으로 조작하는 건 불가능합니다. 그만하세요. 그냥 그만해요. 제정신이 아니군요."
   },
   {
     id: "ai544",
@@ -5436,7 +5436,7 @@ export const news = [
   },
   {
     id: "ai545",
-    text: "\"So this is what science is like\"- someone who has never heard of Kurt Somebody (“과학이란 이런 거구나” - Kurt Somebody를 들어 본 적 없는 사람)"
+    text: "\"과학이란 이런 거구나.\" - 커트 섬바디를 들어 본 적 없는 사람"
   },
   {
     id: "ai546",
@@ -5448,11 +5448,11 @@ export const news = [
   },
   {
     id: "ai548",
-    text: "Here is a list of the top meme's of all time: https://www.youtube.com/watch?v=uCP44Q37YHAQ (역대 최고의 밈 목록입니다.)"
+    text: "역대 최고의 밈 목록입니다: https://www.youtube.com/watch?v=uCP44Q37YHAQ"
   },
   {
     id: "ai549",
-    text: "All meta-memes are bad memes. (모든 메타 밈은 나쁜 밈입니다.)"
+    text: "모든 메타 밈은 나쁜 밈입니다."
   },
   {
     id: "ai550",
@@ -5464,7 +5464,7 @@ export const news = [
   },
   {
     id: "ai552",
-    text: "If you stare long enough at the ticker, the pixels will start moving backwards. THIS DOESN'T MEAN IT ACTUALLY STUCK (티커를 오래 바라보면 픽셀이 뒤로 움직이기 시작합니다. 그렇다고 실제로 멈춘 건 아닙니다.)"
+    text: "티커를 오래 바라보면 픽셀이 뒤로 움직이기 시작합니다. 그렇다고 실제로 멈춘 건 아닙니다."
   },
   {
     id: "ai553",
@@ -5480,7 +5480,7 @@ export const news = [
   },
   {
     id: "ai556",
-    text: "\"I always wanted to play the anti-meta-game. But, alas, you can't\" - many a time (“언제나 안티 메타 게임을 하고 싶었지만, 안타깝게도 그럴 수 없어.” - 여러 번)"
+    text: "\"언제나 안티 메타 게임을 하고 싶었지만, 안타깝게도 그럴 수 없어.\" - 여러 번"
   },
   {
     id: "ai557",
