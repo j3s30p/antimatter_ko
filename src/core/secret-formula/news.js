@@ -119,7 +119,7 @@ export const news = [
   },
   {
     id: "a26",
-    text: "#dank-maymays (질 낮은 밈을 뜻하는 해시태그)"
+    text: "#dank-maymays"
   },
   {
     id: "a27",
@@ -1018,7 +1018,7 @@ export const news = [
   },
   {
     id: "a188",
-    text: "-. . ...- . .-. / --. --- -. -. .- / --. .. ...- . / -.-- --- ..- / ..- .--. (절대 포기하지 않겠다는 노랫말의 모스 부호)"
+    text: "-. . ...- . .-. / --. --- -. -. .- / --. .. ...- . / -.-- --- ..- / ..- .--."
   },
   {
     id: "a189",
@@ -2000,7 +2000,7 @@ export const news = [
   },
   {
     id: "a323",
-    text: `var i = "Omae wa mou shindeiru" console.log(i - 1 + "i?") NaNi? (“넌 이미 죽어 있다.”를 변수에 넣어 복소수 i와 “뭐라고?”를 엮은 북두의 권 코드 밈입니다.)`
+    text: `var i = "Omae wa mou shindeiru" console.log(i - 1 + "i?") NaNi?`
   },
   {
     id: "a324",
@@ -3138,10 +3138,9 @@ export const news = [
   {
     id: "l80",
     get text() {
-      return `"Average person produces ${format("3e999999996", 2)} antimatter a year" factoid actually just statistical
-      error. Average person produces 0 antimatter per year. "Developer Dimension" Georg, who lives in a cave &
-      produces over ${format("1e1000000000", 2)} each day, is an outlier and should not have been counted.
-      (평균을 왜곡하는 극단적인 한 사람을 풍자하는 유명한 통계 밈입니다.)`;
+      return `"평균적인 사람은 1년에 반물질 ${format("3e999999996", 2)}개를 생산한다"는 이야기는 사실
+      통계 오류입니다. 평균적인 사람은 1년에 반물질을 하나도 생산하지 않습니다. 동굴에 살면서 매일
+      ${format("1e1000000000", 2)}개 넘게 생산하는 "개발자 차원" Georg는 이상치이므로 집계에서 제외했어야 합니다.`;
     },
     get unlocked() { return PlayerProgress.hasBroken(); }
   },
@@ -3344,7 +3343,7 @@ export const news = [
   },
   {
     id: "ai28",
-    text: "Wait, there's a nin-- (잠깐, 설마 아홉 번ㅉ--)"
+    text: "잠깐, 설마 아홉 번ㅉ--"
   },
   {
     id: "ai29",
@@ -3392,7 +3391,7 @@ export const news = [
   },
   {
     id: "ai40",
-    text: "Matter?  Not even a hint. (물질은커녕 흔적조차 없다는 말장난)"
+    text: "물질이라고요? 흔적조차 없습니다."
   },
   {
     id: "ai41",
@@ -3440,7 +3439,7 @@ export const news = [
   },
   {
     id: "ai52",
-    text: "You have no power here. (여기서는 네 힘이 통하지 않는다는 유명 대사)"
+    text: "여기서는 네 힘이 통하지 않는다."
   },
   {
     id: "ai53",
@@ -3512,7 +3511,7 @@ export const news = [
   },
   {
     id: "ai70",
-    text: "Купил мужик антиматерию (한 남자가 반물질을 샀다)"
+    text: "한 남자가 반물질을 샀다."
   },
   {
     id: "ai71",
@@ -3655,7 +3654,7 @@ export const news = [
   },
   {
     id: "ai102",
-    text: "You are now manually blinking. (이제 눈을 의식해서 깜박이게 됩니다)"
+    text: "이제 눈을 의식해서 깜박이게 됩니다."
   },
   {
     id: "ai103",
@@ -3699,11 +3698,11 @@ export const news = [
   },
   {
     id: "ai113",
-    text: "What is Antimatter? Long ago, gods lived in harmony. Then, everything changed when the apocalypse broke out. Chaos reigns, and even higher dimensions are being built. This is your fate. Build the Antimatter Dimensions. Amen. (옛날 신들이 조화롭게 살다가 종말로 모든 것이 바뀌었으니 운명에 따라 반물질 차원을 만들라는 서사 패러디)"
+    text: "반물질이란 무엇인가? 오래전 신들은 조화롭게 살았다. 그러나 종말이 닥치자 모든 것이 바뀌었다. 혼돈이 지배하고 더 높은 차원마저 건설되고 있다. 이것이 그대의 운명이다. 반물질 차원을 건설하라. 아멘."
   },
   {
     id: "ai114",
-    text: "Water under the bridge? (이미 지나간 일이라는 관용구)"
+    text: "다리 아래로 흘러간 물이라고요?"
   },
   {
     id: "ai115",
@@ -3723,19 +3722,19 @@ export const news = [
   },
   {
     id: "ai119",
-    text: "\"Quantumum Battle Royale coming in 5 hours!\" (Rumor: 5 hours) (Quantumum 배틀 로얄이 다섯 시간 뒤에 나온다는 소문)"
+    text: "\"Quantumum 배틀 로얄, 5시간 뒤 출시!\" (소문: 5시간)"
   },
   {
     id: "ai120",
-    text: "Rumor says Nords will start producing replicanti in five hours. (Nords가 다섯 시간 뒤부터 복제자를 생산한다는 소문)"
+    text: "소문에 따르면 Nords가 5시간 뒤부터 복제자를 생산한다고 합니다."
   },
   {
     id: "ai121",
-    text: "I am an Nordsweeper, stealing their jobs to support the replicanti factories (복제자 공장을 지원하려고 Nords의 일자리를 빼앗는 Nordsweeper라는 뜻)"
+    text: "나는 Nords의 일자리를 빼앗아 복제자 공장을 지원하는 Nordsweeper다."
   },
   {
     id: "ai122",
-    text: "Used to be, AD was the best game. Nowadays, it's all crapp. (예전의 AD는 최고의 게임이었지만 요즘은 형편없다는 뜻)"
+    text: "예전에는 AD가 최고의 게임이었죠. 요즘은 전부 엉망입니다."
   },
   {
     id: "ai123",
@@ -3743,7 +3742,7 @@ export const news = [
   },
   {
     id: "ai124",
-    text: "Antimatter Dimensions *Loses* bee movie. (Antimatter Dimensions가 Bee Movie에 패배한다는 밈)"
+    text: "Antimatter Dimensions, 《Bee Movie》에 *패배*."
   },
   {
     id: "ai125",
@@ -3756,7 +3755,7 @@ export const news = [
   },
   {
     id: "ai127",
-    text: "Hello, world! (안녕, 세상!)"
+    text: "안녕, 세상!"
   },
   {
     id: "ai128",
@@ -3780,7 +3779,7 @@ export const news = [
   },
   {
     id: "ai133",
-    text: "I found out that the year is 20XX. I was going to make a news ticker but then I realized that it's just a ticker. (연도를 알 수 없는 미래로 설정하고 news ticker에서 news를 빼면 ticker일 뿐이라는 농담입니다.)"
+    text: "올해가 20XX년이라는 사실을 알아냈습니다. 뉴스 티커를 만들려고 했는데, 생각해 보니 그냥 티커일 뿐이더군요."
   },
   {
     id: "ai134",
@@ -3824,7 +3823,7 @@ export const news = [
   },
   {
     id: "ai144",
-    text: "Ooga Booga (우가 부가)"
+    text: "우가 부가"
   },
   {
     id: "ai145",
@@ -3844,7 +3843,7 @@ export const news = [
   },
   {
     id: "ai149",
-    text: "\"Aleph_Time\" is that logarithmic scale joke? (Aleph_Time이 로그 눈금 농담인지 묻는 말)"
+    text: "\"Aleph_Time\"이라니, 로그 눈금 농담인가요?"
   },
   {
     id: "ai150",
@@ -3860,19 +3859,19 @@ export const news = [
   },
   {
     id: "ai153",
-    text: "\"My parents went to anti-university\" - my grandparents (우리 부모님이 반-대학교에 다녔다는 조부모님의 말)"
+    text: "\"우리 부모님은 반-대학교에 다니셨지.\" - 우리 조부모님"
   },
   {
     id: "ai154",
-    text: "Only anti-jokes are funny (반농담만 재미있다는 말장난)"
+    text: "안티 농담만 재미있습니다."
   },
   {
     id: "ai155",
-    text: "Infinity machine breaks Infinity (무한 기계가 무한을 깨뜨린다는 말장난)"
+    text: "무한 기계가 무한을 깨뜨립니다."
   },
   {
     id: "ai156",
-    text: "Okay boomer, you get your first taste of antimalware with this one. (좋아, 부머. 이걸로 처음 안티멀웨어를 맛보라는 밈)"
+    text: "좋아요, 부머. 이걸로 안티멀웨어를 처음 맛보게 될 겁니다."
   },
   {
     id: "ai157",
@@ -3904,11 +3903,11 @@ export const news = [
   },
   {
     id: "ai164",
-    text: "M'antel, antimatter, anti-talk to me (M'antel, 반물질, 나한테 반대로 말 걸지 마라는 말장난)"
+    text: "M'antel, 반물질, 나한테 반대로 말 걸지 마."
   },
   {
     id: "ai165",
-    text: "AD has anti-parts, you'll hate them (AD에는 싫어하게 될 반-부품이 있다는 말장난)"
+    text: "AD에는 안티 부품이 있습니다. 분명 싫어하게 될 겁니다."
   },
   {
     id: "ai166",
@@ -3948,15 +3947,15 @@ export const news = [
   },
   {
     id: "ai175",
-    text: "Why is there so many zeroes in 'nowhere'? ('nowhere'에는 왜 영이 그렇게 많냐는 말장난)"
+    text: "'아무 데도 없음'에는 왜 0이 그렇게 많을까요?"
   },
   {
     id: "ai176",
-    text: "There are no bugs in this game, they're just features (이 게임에는 버그가 없고 기능만 있다는 개발자 농담)"
+    text: "이 게임에는 버그가 없습니다. 전부 기능일 뿐입니다."
   },
   {
     id: "ai177",
-    text: "\"Click to advance 5 hours in time.\" (Now only show up after you advance more than an hour ago) (클릭하면 시간을 다섯 시간 앞당깁니다. 이제 한 시간 넘게 앞당긴 뒤에만 나타납니다.)"
+    text: "\"클릭하면 시간을 5시간 앞당깁니다.\" (이제 한 시간보다 오래 전에 시간을 앞당긴 경우에만 나타남)"
   },
   {
     id: "ai178",
@@ -4009,23 +4008,23 @@ export const news = [
   },
   {
     id: "ai190",
-    text: "Hell hath antimatter so I don't want to live there. (지옥에는 반물질이 있으니 그곳에 살고 싶지 않다는 고전 문구 패러디)"
+    text: "지옥에는 반물질이 있으니 그곳에서는 살고 싶지 않습니다."
   },
   {
     id: "ai191",
-    text: "I LIKE THAT DIMENSION 9 IN CLASS (수업에서 그 아홉 번째 차원이 좋다는 뜻)"
+    text: "나는 수업에서 배운 제9차원이 좋아."
   },
   {
     id: "ai192",
-    text: "\"1 2 3 4 5 6 7 8 10 11 12 13 ...\" -Back to the future (아홉을 건너뛴 수열과 영화 제목을 엮은 농담)"
+    text: "\"1 2 3 4 5 6 7 8 10 11 12 13...\" - 《백 투 더 퓨처》"
   },
   {
     id: "ai193",
-    text: "You have reached infinity, there is no universe, you are an eternity away from there. (무한에 도달했지만 우주는 존재하지 않으며, 그곳에서 영원만큼 멀리 떨어져 있습니다.)"
+    text: "당신은 무한에 도달했습니다. 우주는 존재하지 않으며, 그곳에서는 영원만큼 멀리 떨어져 있습니다."
   },
   {
     id: "ai194",
-    text: "IM MADE THIS GAME GREAT AND RANDOMLY ACHIEVABLE (IM이 이 게임을 훌륭하고 무작위로 달성 가능하게 만들었습니다.)"
+    text: "IM이 이 게임을 훌륭하고 무작위로 달성 가능하게 만들었습니다."
   },
   {
     id: "ai195",
@@ -4033,19 +4032,19 @@ export const news = [
   },
   {
     id: "ai196",
-    text: "age 8-12: play elder puzzles (여덟 살부터 열두 살까지는 고대 퍼즐을 플레이합니다.)"
+    text: "8~12세: 고대 퍼즐을 플레이하세요."
   },
   {
     id: "ai197",
-    text: "What does it mean if someone is \"young and full of puzzles\"? Does \"puzzled\" make that person young and full of puzzles? ('젊고 퍼즐로 가득하다'와 '어리둥절하다'를 엮은 말장난)"
+    text: "누군가가 \"젊고 퍼즐로 가득하다\"는 건 무슨 뜻일까요? \"어리둥절하다(puzzled)\"면 젊고 퍼즐로 가득한 사람이 되는 걸까요?"
   },
   {
     id: "ai198",
-    text: "To the customer in aisle 6th who bought a fifth of antimatter, I say buy a sixth! Buy it now! (여섯 번째 통로에서 반물질의 오분의 일을 산 손님에게 육분의 일을 더 사라고 권하는 말장난)"
+    text: "6번 통로에서 반물질 5분의 1을 구매하신 손님, 6분의 1도 사세요! 지금 구매하세요!"
   },
   {
     id: "ai199",
-    text: "Dear sir, we don't make Anti-Atomic Bread for Antimatter Pizza, we make Antimatter Bread for you! (손님, 저희는 반물질 피자용 반원자 빵을 만들지 않습니다. 손님을 위한 반물질 빵을 만듭니다!)"
+    text: "손님, 저희는 반물질 피자용 반원자 빵을 만들지 않습니다. 손님을 위한 반물질 빵을 만듭니다!"
   },
   {
     id: "ai200",
@@ -4099,7 +4098,7 @@ export const news = [
   },
   {
     id: "ai212",
-    text: "I HAVE MOVED TO THE 01th DIMENSION (영일 번째 차원으로 이동했다는 고의 오타)"
+    text: "나는 제01차원으로 이동했다."
   },
   {
     id: "ai213",
@@ -4107,7 +4106,7 @@ export const news = [
   },
   {
     id: "ai214",
-    text: "\"i'm not gonna lie, theres way too many good ones in the game already\" - poor guy who played minigame enhancement (게임에 좋은 것이 이미 너무 많다는 미니게임 강화 플레이어의 말)"
+    text: "\"솔직히 말해서 게임에 좋은 게 이미 너무 많아.\" - 미니게임 강화를 플레이한 불쌍한 사람"
   },
   {
     id: "ai215",
@@ -4143,7 +4142,7 @@ export const news = [
   },
   {
     id: "ai222",
-    text: "Press alt+f4 to unlock 9th dimension (아홉 번째 차원을 열려면 게임 종료 단축키를 누르라는 장난)"
+    text: "Alt+F4를 눌러 제9차원을 해금하세요."
   },
   {
     id: "ai223",
@@ -4155,7 +4154,7 @@ export const news = [
   },
   {
     id: "ai225",
-    text: "Imagine being a meme. (밈이 된 모습을 상상해 보라는 자기지시적 농담)"
+    text: "밈이 되었다고 상상해 보세요."
   },
   {
     id: "ai226",
@@ -4215,7 +4214,7 @@ export const news = [
   },
   {
     id: "ai240",
-    text: "\"Is anyone working on breaking infinity?\" (Seriously, this game needs to be Oceanhorned.) (누가 무한 돌파를 작업 중인지 묻고 이 게임에도 Oceanhorn식 처리가 필요하다는 농담)"
+    text: "\"무한 돌파 작업 중인 사람 있나요?\" (진심으로, 이 게임에는 Oceanhorn식 처리가 필요합니다.)"
   },
   {
     id: "ai241",
@@ -4223,11 +4222,11 @@ export const news = [
   },
   {
     id: "ai242",
-    text: "Is that a Bad Thing or a Good Thing? That depends on if it's a GOOD Thing or A LIE. (그게 좋은 일인지 거짓말인지에 따라 나쁜 일과 좋은 일을 가린다는 말장난)"
+    text: "그건 나쁜 일일까요, 좋은 일일까요? 그게 좋은 일인지 거짓말인지에 달렸습니다."
   },
   {
     id: "ai243",
-    text: "\"Hevi kind of forgot about the update, but the update certainly hasn't forgotten about him\" - Kajfik (Hevi는 업데이트를 잊었지만 업데이트는 그를 잊지 않았다는 유명 대사 패러디)"
+    text: "\"Hevi는 업데이트를 잊은 모양이지만, 업데이트는 분명 그를 잊지 않았습니다.\" - Kajfik"
   },
   {
     id: "ai244",
@@ -4271,7 +4270,7 @@ export const news = [
   },
   {
     id: "ai254",
-    text: "How'd your ⢿─┃│? Good, because today we're having a little chat about the 5th dimension. (도형의 상태를 묻고 오늘은 다섯 번째 차원을 이야기한다는 뜻)"
+    text: "당신의 ⢿─┃│은 어떤가요? 좋습니다. 오늘은 제5차원에 관해 잠깐 이야기할 테니까요."
   },
   {
     id: "ai255",
@@ -4287,11 +4286,11 @@ export const news = [
   },
   {
     id: "ai258",
-    text: "Lore: Grand Theft Antimatter (설정: 반물질 대도둑이라는 게임 제목 패러디)"
+    text: "설정: 그랜드 테프트 안티매터"
   },
   {
     id: "ai259",
-    text: "Hm, I don't get why people think there is a 9th dimension. The 9th dimension is explained in detail in the [[Infinite Teleport Project]] video, and in a [[Word Problem]] that [[can be viewed here|http://www.thingiverse.com/id98109802713176601414569]] . (아홉 번째 차원은 링크된 영상과 문제에서 자세히 설명된다는 뜻)"
+    text: "흠, 사람들이 왜 제9차원이 있다고 생각하는지 모르겠군요. 제9차원은 [[무한 순간이동 프로젝트]] 영상과 [[여기서 볼 수 있는|http://www.thingiverse.com/id98109802713176601414569]] [[문장제 문제]]에 자세히 설명되어 있습니다."
   },
   {
     id: "ai260",
@@ -4303,7 +4302,7 @@ export const news = [
   },
   {
     id: "ai262",
-    text: "Hey you, you're finally awake. You were trying to buy a dimension, but it's impossible. (드디어 깨어났지만 차원을 사려던 일은 불가능하다는 Skyrim 도입부 패러디)"
+    text: "이봐, 드디어 깨어났군. 차원을 사려고 했지? 하지만 그건 불가능해."
   },
   {
     id: "ai263",
