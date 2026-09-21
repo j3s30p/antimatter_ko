@@ -73,7 +73,7 @@ export default {
       <span v-if="autobuyerUnlocked">
         <br>
         <br>
-        Auto-Annihilate when adding
+        소멸 배율에
         <input
           v-model="autoAnnihilationInput"
           type="text"
@@ -81,12 +81,12 @@ export default {
           class="c-small-autobuyer-input c-laitela-annihilation-input"
           @change="handleAutoAnnihilationInputChange()"
         >
-        to the multiplier.
+        을 더할 수 있을 때 자동 소멸합니다.
       </span>
     </span>
     <span v-else>
-      Annihilation will reset your Dark Matter and Dark Matter Dimension amounts, but will give a permanent
-      multiplier of <b>{{ formatX(1 + darkMatterMultGain, 2, 2) }}</b> to all Dark Matter Dimensions.
+      소멸하면 암흑 물질과 암흑 물질 차원 보유량이 초기화되지만, 모든 암흑 물질 차원에
+      <b>{{ formatX(1 + darkMatterMultGain, 2, 2) }}</b>의 영구 배율을 얻습니다.
     </span>
   </div>
 </template>

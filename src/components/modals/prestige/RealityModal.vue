@@ -31,12 +31,10 @@ export default {
   },
   computed: {
     firstRealityText() {
-      return `Reality will reset everything except Challenge records and anything under the General header on the
-        Statistics tab. The first ${formatInt(13)} rows of Achievements are also reset,
-        but you will automatically get one Achievement back every
-        ${timeDisplayNoDecimals(30 * 60000)}. You will also gain Reality Machines based on your Eternity Points, a
-        Glyph with a level based on your Eternity Points, Replicanti, and Dilated Time, a Perk Point to spend
-        on quality of life upgrades, and unlock various upgrades.`;
+      return `현실에 도달하면 도전 기록과 통계 탭의 일반 항목을 제외한 모든 것이 초기화됩니다.
+        도전과제의 첫 ${formatInt(13)}개 줄도 초기화되지만, ${timeDisplayNoDecimals(30 * 60000)}마다
+        도전과제를 하나씩 자동으로 되찾습니다. 영원 포인트에 따른 리얼리티 머신, 영원 포인트·복제자·팽창한 시간에
+        따라 레벨이 정해지는 글리프, 편의성 업그레이드에 사용할 퍼크 포인트를 얻고 여러 업그레이드가 해금됩니다.`;
     },
     canSacrifice() {
       return RealityUpgrade(19).isEffectActive;
@@ -56,9 +54,9 @@ export default {
     },
     gained() {
       const gainedResources = [];
-      gainedResources.push(`${quantifyInt("Reality", this.simRealities)}`);
-      gainedResources.push(`${quantifyInt("Perk Point", this.simRealities)}`);
-      gainedResources.push(`${quantify("Reality Machine", this.realityMachines, 2)}`);
+      gainedResources.push(`현실 ${formatInt(this.simRealities)}회`);
+      gainedResources.push(`퍼크 포인트 ${formatInt(this.simRealities)}개`);
+      gainedResources.push(`리얼리티 머신 ${format(this.realityMachines, 2)}개`);
       if (this.effarigUnlocked) {
         gainedResources.push(`${quantify("유물 파편", this.shardsGained, 2)}`);
       }
@@ -66,10 +64,13 @@ export default {
     },
     levelStats() {
       // Bit annoying to read due to needing >, <, and =, with = needing a different format.
-      return `You will get a level ${formatInt(this.level)} Glyph on Reality, which is
-        ${this.level === this.bestLevel ? "equal to" : `
-        ${quantifyInt("level", this.levelDifference)}
-        ${this.level > this.bestLevel ? "higher" : "lower"} than`} your best.`;
+      if (this.level === this.bestLevel) {
+        return `현실에 도달하면 지금까지 최고 레벨과 같은 레벨 ${formatInt(this.level)} 글리프를 얻습니다.`;
+      }
+      const difference = `${formatInt(this.levelDifference)}레벨`;
+      const comparison = this.level > this.bestLevel ? "높습니다" : "낮습니다";
+      return `현실에 도달하면 레벨 ${formatInt(this.level)} 글리프를 얻습니다. 지금까지 최고 기록보다
+        ${difference} ${comparison}.`;
     },
     confirmationToDisable() {
       return ConfirmationTypes.glyphSelection.isUnlocked() ? "glyphSelection" : undefined;
@@ -178,8 +179,7 @@ export default {
       <br>
       이 글리프를 선택하면 게임이 남은 현실을 시뮬레이션하며,
       <br>
-      automatically choosing another {{ quantifyInt("Glyph", simRealities - 1) }}
-      based on your Glyph filter settings.
+      글리프 필터 설정에 따라 나머지 글리프 {{ formatInt(simRealities - 1) }}개를 자동으로 선택합니다.
     </div>
     <div v-if="willAutoPurge">
       <br>

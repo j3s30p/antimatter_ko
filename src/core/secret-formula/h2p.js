@@ -808,50 +808,47 @@ EC11과 EC12 연구 아래에 있는 시간 팽창 잠금 해제 시간 연구�
     }, {
       name: "현실",
       info: () => `
-When you reach ${formatPostBreak(DC.E4000)} EP and have completed the first
-${formatInt(13)} rows of Achievements, you will be able to purchase the Time Study that unlocks Reality.
-Unlocking it opens a new tab, where you can find the button to make a new Reality. Starting a new Reality
-will reset almost the entire game up to this point, but in exchange gives
-you a new currency known as Reality Machines, a Glyph, and a Perk Point.
+${formatPostBreak(DC.E4000)} 영원 포인트에 도달하고 도전과제의 첫 ${formatInt(13)}줄을 완료하면 현실을
+해금하는 시간 연구를 구매할 수 있습니다. 해금하면 새 탭이 열리고 그곳에서 새 현실을 시작하는 버튼을
+찾을 수 있습니다. 새 현실을 시작하면 지금까지 게임의 거의 모든 것이 초기화되지만, 그 대가로
+리얼리티 머신이라는 새 화폐와 글리프, 퍼크 포인트를 얻습니다.
 <br>
 <br>
-Unlike the other resets so far, you also lose the first ${formatInt(13)} rows of Achievements - that is, all of the
-pre-Reality Achievements and all of their associated rewards. However, you will still keep all values under the General
-header in the Statistics tab and all of your best Challenge times.
+지금까지의 다른 초기화와 달리 도전과제의 첫 ${formatInt(13)}줄, 즉 현실 이전의 모든 도전과제와 관련
+보상도 잃습니다. 다만 통계 탭의 일반 항목에 있는 모든 값과 각 도전의 최고 기록은 유지됩니다.
 <br>
 <br>
-After completing your first Reality, the Glyphs tab contain a button which lets you restart your current Reality again,
-without changing what your upcoming Glyph choices are. <b>Note that this will not give you any rewards, even if you
-would otherwise be able to complete the Reality normally.</b>
+첫 현실을 완료하면 글리프 탭에 예정된 글리프 선택지를 바꾸지 않고 현재 현실을 다시 시작하는 버튼이
+생깁니다. <b>이 방식으로 다시 시작하면 정상적으로 현실을 완료할 수 있는 상태여도 아무런 보상을 받지
+못한다는 점에 유의하세요.</b>
 <br>
 <br>
-You need to redo the requirements for each Achievement in order to get their rewards again, but you will also passively
-unlock the next incomplete Achievement every ${timeDisplayNoDecimals(30 * 60000)} without any effort even if you
-otherwise do not have the requirements to do so. This automatic completion can be disabled, in which case the timer will
-count down to zero and pause, immediately completing another Achievement when unpaused. The timer still progresses
-at the same rate while offline.
+각 도전과제의 보상을 다시 받으려면 조건을 다시 달성해야 합니다. 하지만 조건을 달성하지 않았더라도
+${timeDisplayNoDecimals(30 * 60000)}마다 완료하지 않은 다음 도전과제가 자동으로 해금됩니다. 자동 완료 기능은
+비활성화할 수 있습니다. 이 경우 타이머가 0까지 내려간 뒤 멈추며, 기능을 다시 활성화하면 즉시 다음
+도전과제를 완료합니다. 오프라인에서도 타이머는 같은 속도로 진행됩니다.
 <br>
 <br>
-Reality Machines can be spent on different upgrades throughout the Reality tab and are your primary currency from this
-point onwards. Glyphs are equippable objects which you must equip in order to use their boosts. Perk Points are another
-currency that can be spent in the Perks subtab on different Perks.
+리얼리티 머신은 현실 탭의 여러 업그레이드에 사용할 수 있으며, 이 시점부터 주요 화폐가 됩니다. 글리프는
+장착해야 강화 효과를 사용할 수 있는 장비입니다. 퍼크 포인트는 퍼크 하위 탭의 여러 퍼크에 사용하는 또 다른
+화폐입니다.
 <br>
 <br>
-Reality Machines scale purely off of EP, and the Reality button will tell you how much EP you need in order to gain
-the next one. The first ${formatInt(10)} RM scale linearly in the exponent between
-${formatPostBreak(DC.E4000)} EP and ${formatPostBreak(DC.C10P16000D3)} EP, and then past that
-RM = ${formatInt(1000)}<sup>log<sub>${formatInt(10)}</sub>(EP)/${formatInt(4000)}-${formatInt(1)}</sup>. This formula
-is higher RM gain than linear above ${formatPostBreak(DC.C10P16000D3)} EP.
+리얼리티 머신은 오직 영원 포인트에 따라 증가하며, 현실 버튼에는 다음 리얼리티 머신을 얻는 데 필요한
+영원 포인트가 표시됩니다. 처음 ${formatInt(10)} RM은 ${formatPostBreak(DC.E4000)} EP와
+${formatPostBreak(DC.C10P16000D3)} EP 사이에서 지수에 따라 선형으로 증가합니다. 그 이후에는
+RM = ${formatInt(1000)}<sup>log<sub>${formatInt(10)}</sub>(EP)/${formatInt(4000)}-${formatInt(1)}</sup>입니다.
+${formatPostBreak(DC.C10P16000D3)} EP 이후에는 이 공식으로 선형 증가보다 많은 RM을 얻습니다.
 <br>
 <br>
-Glyph level scales off of a combination of Eternity Points, Replicanti, and Dilated Time, with a minimum level of
-${formatInt(1)}. The type, effects, and rarity of Glyphs are randomized.
+글리프 레벨은 영원 포인트, 복제자, 팽창한 시간을 조합한 값에 따라 증가하며 최소 레벨은 ${formatInt(1)}입니다.
+글리프의 종류, 효과, 희귀도는 무작위로 정해집니다.
 <br>
 <br>
-You get exactly ${formatInt(1)} Perk Point per Reality.
+현실마다 정확히 ${formatInt(1)} 퍼크 포인트를 얻습니다.
 <br>
 <br>
-<b>Hotkey: Y</b> will try to perform a Reality reset.
+<b>단축키: Y</b>를 누르면 현실 초기화를 시도합니다.
 `,
       isUnlocked: () => PlayerProgress.realityUnlocked() || TimeStudy.reality.isBought,
       tags: ["rm", "machines", "glyph", "perk", "reset", "prestige", "endgame", "lategame"],
@@ -1262,57 +1259,54 @@ ${formatInt(6)}개 요구하면 힘 글리프가 선택되지 않습니다.
         "endgame"],
       tab: "celestials/glyphfilter"
     }, {
-      name: "The Nameless Ones, 시간의 셀레스티얼",
+      name: "이름 없는 자들, 시간의 셀레스티얼",
       alias: "Nameless Ones",
       info: () => `
-The Nameless Ones are the third Celestial, unlocked by completing Effarig's Eternity.
+이름 없는 자들은 세 번째 셀레스티얼이며, 에파리그의 영원을 완료하면 해금됩니다.
 <br>
 <br>
-When unlocking The Nameless Ones, you immediately gain access to two new mechanics related to time. You can store
-"game time" by charging your Black Hole, and you can store "real time" by intentionally halting your production.
-Stored game time is also used as a currency for purchasing unlocks from The Nameless Ones.
+이름 없는 자들을 해금하면 시간과 관련된 두 가지 새 메커니즘을 즉시 이용할 수 있습니다. 블랙홀을 충전해
+“게임 시간”을 저장하고, 생산을 의도적으로 멈춰 “현실 시간”을 저장할 수 있습니다. 저장된 게임 시간은
+이름 없는 자들의 해금 요소를 구매하는 화폐로도 사용됩니다.
 <br>
 <br>
-Charging your Black Hole gives you stored game time, which it does at the expense of setting your game speed to
-${formatInt(1)}. The game is in effect using your increased game speed in order to store game time itself. Its
-main use is to discharge the Black Hole, which takes uses your stored game time to skip forward in time by a duration
-equal to the game time stored. This is different than regular game speed multipliers in that discharging is not subject
-to any modifiers to game speed when it is used, only when it is stored.
+블랙홀을 충전하면 게임 속도가 ${formatInt(1)}로 고정되는 대신 게임 시간을 저장합니다. 실질적으로 증가한
+게임 속도를 사용해 게임 시간 자체를 저장하는 것입니다. 주된 용도는 블랙홀을 방출해 저장된 게임 시간만큼
+시간을 건너뛰는 것입니다. 방출은 사용할 때 게임 속도 변경 효과의 영향을 받지 않고 저장할 때만 영향을
+받는다는 점에서 일반적인 게임 속도 배율과 다릅니다.
 <br>
 <br>
-Storing real time completely stops all production, effectively pausing your game. For every real-time second that
-passes, you gain stored real time (modified by some efficiency factor). You can use stored real time in order to
-amplify a Reality in the Glyphs tab. When you complete the Reality, this uses all of your stored real time at once
-in order to attempt to repeat that
-exact Reality over and over, giving you all the rewards you would normally get from the repetitions. For example, if
-you have ${formatInt(50)} minutes stored and amplify a Reality which has lasted ${formatInt(10)} minutes and would
-give ${format(DC.E30)} RM and ${format(DC.E12)} Relic Shards, the amplified Reality will give you ${format(5e30)} RM,
-${format(5e12)} Relic Shards, ${formatInt(5)} Glyphs (subject to your filtering settings),
-and ${formatInt(5)} Perk Points.
+현실 시간을 저장하면 모든 생산이 완전히 멈춰 게임이 사실상 일시 정지됩니다. 현실 시간으로 매초가 지날
+때마다 효율 배율이 적용된 현실 시간을 저장합니다. 저장된 현실 시간은 글리프 탭에서 현실을 증폭하는 데
+사용할 수 있습니다. 현실을 완료하면 저장된 현실 시간을 한꺼번에 사용해 똑같은 현실을 반복하며, 반복할 때
+정상적으로 얻을 보상을 모두 받습니다. 예를 들어 ${formatInt(50)}분을 저장한 상태에서 ${formatInt(10)}분 동안
+진행되어 ${format(DC.E30)} RM과 유물 파편 ${format(DC.E12)}개를 주는 현실을 증폭하면,
+${format(5e30)} RM, 유물 파편 ${format(5e12)}개, 글리프 ${formatInt(5)}개(필터 설정 적용), 퍼크 포인트
+${formatInt(5)}개를 얻습니다.
 <br>
 <br>
-However, if your Reality has lasted for less than ${formatInt(1)} second, the amplification factor is capped by the
-amount of seconds stored. For example, if you have ${formatInt(1000)} seconds stored and amplify a Reality which has
-lasted ${format(0.2, 2, 2)} seconds, you will use ${formatInt(200)} seconds to simulate ${formatInt(1000)} Realities.
+다만 현실의 지속 시간이 ${formatInt(1)}초보다 짧으면 증폭 배율은 저장한 초 단위 시간으로 제한됩니다.
+예를 들어 ${formatInt(1000)}초를 저장한 상태에서 ${format(0.2, 2, 2)}초 동안 진행된 현실을 증폭하면,
+${formatInt(200)}초를 사용해 현실 ${formatInt(1000)}회를 시뮬레이션합니다.
 <br>
 <br>
-You can toggle a setting to automatically store offline time as stored real time.
+오프라인 시간을 저장된 현실 시간으로 자동 저장하는 설정을 켤 수 있습니다.
 <br>
 <br>
-Their first unlock costs ${format(TimeSpan.fromMilliseconds(ENSLAVED_UNLOCKS.FREE_TICKSPEED_SOFTCAP.price).totalYears)}
-years of stored game time. It increases the softcap to Tickspeed Upgrades gained from Time Dimensions
-(the point at which their cost starts increasing faster)
-by ${format(1e5)} Tickspeed Upgrades.
+첫 해금에는 저장된 게임 시간
+${format(TimeSpan.fromMilliseconds(ENSLAVED_UNLOCKS.FREE_TICKSPEED_SOFTCAP.price).totalYears)}년이 필요합니다.
+시간 차원에서 얻는 틱스피드 업그레이드의 소프트캡(비용이 더 빠르게 증가하기 시작하는 지점)을
+틱스피드 업그레이드 ${format(1e5)}회만큼 높입니다.
 <br>
 <br>
-At ${format(TimeSpan.fromMilliseconds(ENSLAVED_UNLOCKS.RUN.price).totalYears)} years of stored game time, you are able
-to finally unlock their Reality. The reward for completing The Nameless Ones' Reality is
+저장된 게임 시간이 ${format(TimeSpan.fromMilliseconds(ENSLAVED_UNLOCKS.RUN.price).totalYears)}년에 도달하면
+이름 없는 자들의 현실을 해금할 수 있습니다. 현실 완료 보상은
 ${Enslaved.isCompleted
-    ? "unlocking Tesseracts, which have their own How To Play entry."
-    : "<span style='color: var(--color-bad);'>(complete The Nameless Ones' Reality to see reward details)</span>"}
+    ? "별도의 게임 방법 항목이 있는 테서랙트 해금입니다."
+    : "<span style='color: var(--color-bad);'>(보상 정보를 보려면 이름 없는 자들의 현실을 완료하세요)</span>"}
 <br>
 <br>
-The Nameless Ones will not directly unlock the next Celestial.
+이름 없는 자들은 다음 셀레스티얼을 직접 해금하지 않습니다.
 `,
       isUnlocked: () => EffarigUnlock.eternity.isUnlocked,
       tags: ["reality", "time", "blackhole", "lategame", "endgame", "testers", "celestial",

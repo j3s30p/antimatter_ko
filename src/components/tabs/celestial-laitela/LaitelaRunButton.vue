@@ -19,8 +19,8 @@ export default {
   },
   computed: {
     completionTime() {
-      if (this.tierNotCompleted) return "Not completed at this tier";
-      return `Fastest Completion: ${TimeSpan.fromSeconds(this.realityTime).toStringShort()}`;
+      if (this.tierNotCompleted) return "이 단계에서 완료하지 못함";
+      return `최단 완료 시간: ${TimeSpan.fromSeconds(this.realityTime).toStringShort()}`;
     },
     runEffects() {
       return GameDatabase.celestials.descriptions[5].effects().split("\n");
@@ -94,7 +94,7 @@ export default {
       <span v-else>
         <br>
         <b>
-          You also gain an additional {{ formatX(8) }} Dark Energy.
+          암흑 에너지 획득량도 추가로 {{ formatX(8) }} 증가합니다.
         </b>
         <br><br>
         Lai'tela의 현실이 완전히 불안정화되어 보상을 더 개선할 수 없습니다.

@@ -18,7 +18,7 @@ export default {
   computed: {
     disableText() {
       // Doesn't need to be reactive or check strike status; it's always permanent once entered in Doomed
-      return Pelle.isDoomed ? "Dilation is permanent." : "Disable Dilation.";
+      return Pelle.isDoomed ? "시간 팽창은 영구적입니다." : "시간 팽창을 비활성화합니다.";
     }
   },
   methods: {

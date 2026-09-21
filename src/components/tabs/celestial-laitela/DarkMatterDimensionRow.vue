@@ -95,9 +95,9 @@ export default {
       return `${line1}<br>${line2}`;
     },
     ascensionTooltip() {
-      return `Interval is capped at ${formatInt(DarkMatterDimension(this.tier).intervalPurchaseCap)}ms.
-        Ascension multiplies interval by ${formatInt(this.intervalAscensionBump)},
-        DM by ${formatInt(this.powerDMPerAscension)}, and DE by ${formatInt(POWER_DE_PER_ASCENSION)}.`;
+      return `간격의 하한은 ${formatInt(DarkMatterDimension(this.tier).intervalPurchaseCap)}밀리초입니다.
+        승천하면 간격에 ${formatInt(this.intervalAscensionBump)}, 암흑 물질 생산량에
+        ${formatInt(this.powerDMPerAscension)}, 암흑 에너지 생산량에 ${formatInt(POWER_DE_PER_ASCENSION)} 배율이 적용됩니다.`;
     }
   },
   methods: {
@@ -201,7 +201,7 @@ export default {
       틱: {{ formatInt(timer) }} ms ({{ formatPercents(timerPercent, 1) }})
     </div>
     <div v-else>
-      {{ format(1000 / interval, 2, 2) }} ticks / sec
+      초당 {{ format(1000 / interval, 2, 2) }}틱
     </div>
     <div>
       암흑 에너지: {{ format(darkEnergyPerSecond, 2, 4) }}/초 (전체의 {{ formatPercents(portionDE, 1) }})

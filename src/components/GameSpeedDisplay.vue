@@ -30,8 +30,8 @@ export default {
     baseText() {
       if (!this.hasSeenAlteredSpeed) return null;
       return this.baseSpeed === 1
-        ? "The game is running at normal speed."
-        : `Game speed is altered: ${this.baseSpeedText}`;
+        ? "게임이 정상 속도로 실행 중입니다."
+        : `변경된 게임 속도: ${this.baseSpeedText}`;
     }
   },
   methods: {

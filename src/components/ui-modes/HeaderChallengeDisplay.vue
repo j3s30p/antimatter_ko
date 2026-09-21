@@ -33,7 +33,7 @@ export default {
       return [
         celestialReality(Teresa, "Teresa의", "teresa"),
         celestialReality(Effarig, "Effarig의", "effarig"),
-        celestialReality(Enslaved, "The Nameless Ones의", "enslaved"),
+        celestialReality(Enslaved, "이름 없는 자들의", "enslaved"),
         celestialReality(V, "V의", "v"),
         celestialReality(Ra, "Ra의", "ra"),
         celestialReality(Laitela, "Lai'tela의", "laitela"),
@@ -91,9 +91,9 @@ export default {
     },
     challengeDisplay() {
       if (this.inPelle && this.activeChallengeNames.length > 0) {
-        return `${this.activeChallengeNames.join(" + ")} in a Doomed Reality. Good luck.`;
+        return `종말한 현실의 ${this.activeChallengeNames.join(" + ")}입니다. 행운을 빕니다.`;
       }
-      if (this.inPelle) return "a Doomed Reality. Good luck.";
+      if (this.inPelle) return "종말한 현실입니다. 행운을 빕니다.";
       if (this.activeChallengeNames.length === 0) {
         return "반물질 우주 (활성화된 도전 없음)";
       }
@@ -137,7 +137,7 @@ export default {
           if (player.options.retryChallenge) oldChall.requestStart();
         };
       } else {
-        names = { chall: this.activeChallengeNames[0], normal: "Reality" };
+        names = { chall: this.activeChallengeNames[0], normal: "현실" };
         clickFn = () => beginProcessReality(getRealityProps(true));
       }
 
@@ -177,10 +177,10 @@ export default {
       else Tab.celestials[celestial].show(true);
     },
     exitDisplay() {
-      if (Player.isInAnyChallenge) return player.options.retryChallenge ? "Retry Challenge" : "Exit Challenge";
-      if (player.dilation.active) return "Exit Dilation";
-      if (this.resetCelestial) return "Restart Reality";
-      return "Exit Reality";
+      if (Player.isInAnyChallenge) return player.options.retryChallenge ? "도전 재시작" : "도전 나가기";
+      if (player.dilation.active) return "시간 팽창 나가기";
+      if (this.resetCelestial) return "현실 재시작";
+      return "현실 나가기";
     },
     textClassObject() {
       return {

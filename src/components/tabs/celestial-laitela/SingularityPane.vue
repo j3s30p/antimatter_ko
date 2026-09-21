@@ -25,8 +25,8 @@ export default {
   computed: {
     isDoomed: () => Pelle.isDoomed,
     singularityFormText() {
-      const formText = this.singularitiesGained === 1 ? "all Dark Energy into a Singularity"
-        : `all Dark Energy into ${quantify("Singularity", this.singularitiesGained, 2)}`;
+      const formText = this.singularitiesGained === 1 ? "모든 암흑 에너지를 특이점 1개로"
+        : `모든 암흑 에너지를 특이점 ${format(this.singularitiesGained, 2)}개로`;
       if (this.canPerformSingularity) {
         return `${formText} 응축`;
       }
@@ -38,10 +38,10 @@ export default {
         singularityTime += this.extraTimeAfterSingularity;
         if (!this.isAutoEnabled) return "";
         return singularityTime > 0
-          ? `(Auto-condensing in ${TimeSpan.fromSeconds(singularityTime).toStringShort()})`
-          : "(Will immediately auto-condense)";
+          ? `(${TimeSpan.fromSeconds(singularityTime).toStringShort()} 뒤 자동 응축)`
+          : "(즉시 자동 응축)";
       }
-      return `(Enough Dark Energy in ${TimeSpan.fromSeconds(singularityTime).toStringShort()})`;
+      return `(${TimeSpan.fromSeconds(singularityTime).toStringShort()} 뒤 암흑 에너지 충족)`;
     },
     baseSingularityTime() {
       return TimeSpan.fromSeconds(this.baseTimeToSingularity).toStringShort();
@@ -59,7 +59,7 @@ export default {
       return this.formatRate(this.singularitiesGained / totalTime);
     },
     decreaseTooltip() {
-      if (this.singularityCapIncreases === 0) return "You cannot decrease the cap any further!";
+      if (this.singularityCapIncreases === 0) return "상한을 더 낮출 수 없습니다!";
       const singularities = this.singularitiesGained / this.perStepFactor;
       return this.willCondenseOnDecrease
         ? `상한을 낮추면 즉시 자동 응축하여
@@ -68,7 +68,7 @@ export default {
     },
     increaseTooltip() {
       return this.singularityCapIncreases >= 50
-        ? "You cannot increase the cap any further!"
+        ? "상한을 더 높일 수 없습니다!"
         : null;
     }
   },
@@ -103,9 +103,9 @@ export default {
       Singularity.decreaseCap();
     },
     formatRate(rate) {
-      if (rate < 1 / 60) return `${format(3600 * rate, 2, 3)} per hour`;
-      if (rate < 1) return `${format(60 * rate, 2, 3)} per minute`;
-      return `${format(rate, 2, 3)} per second`;
+      if (rate < 1 / 60) return `시간당 ${format(3600 * rate, 2, 3)}`;
+      if (rate < 1) return `분당 ${format(60 * rate, 2, 3)}`;
+      return `초당 ${format(rate, 2, 3)}`;
     },
     condenseClassObject() {
       return {

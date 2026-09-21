@@ -63,8 +63,8 @@ export default {
     lastOpened() {
       const ms = Date.now() - this.player.lastUpdate;
       return this.isFromFuture
-        ? `This save is from ${TimeSpan.fromMilliseconds(-ms).toString()} in the future.`
-        : `This save was last opened ${TimeSpan.fromMilliseconds(ms).toString()} ago.`;
+        ? `이 세이브는 현재보다 ${TimeSpan.fromMilliseconds(-ms).toString()} 뒤의 미래에서 만들어졌습니다.`
+        : `이 세이브를 마지막으로 연 것은 ${TimeSpan.fromMilliseconds(ms).toString()} 전입니다.`;
     },
     offlineType() {
       // We update here in the computed method instead of elsewhere because otherwise it initializes the text
@@ -91,8 +91,8 @@ export default {
 
       const durationInMs = Date.now() - this.player.lastUpdate;
       const ticks = GameStorage.maxOfflineTicks(durationInMs);
-      return `After importing, will simulate ${formatInt(ticks)} ticks of duration
-        ${TimeSpan.fromMilliseconds(durationInMs / ticks).toStringShort()} each.`;
+      return `가져온 뒤 틱당 ${TimeSpan.fromMilliseconds(durationInMs / ticks).toStringShort()}씩,
+        총 ${formatInt(ticks)}틱의 오프라인 진행을 시뮬레이션합니다.`;
     },
     willLoseCosmetics() {
       const currSets = player.reality.glyphs.cosmetics.unlockedFromNG;

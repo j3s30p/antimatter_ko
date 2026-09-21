@@ -40,8 +40,8 @@ export default {
     :style="style"
   >
     <h2>
-      Reset the entire game, but keep Automator Scripts, Study Presets, Secret Themes, Secret Achievements, Options,
-      and Companion Glyph.
+      게임 전체를 초기화하지만 오토메이터 스크립트, 연구 프리셋, 비밀 테마, 비밀 도전과제, 설정,
+      동반자 글리프는 유지합니다.
     </h2>
     <h3>오른쪽 위 버튼을 사용하면 현재 상태의 게임을 볼 수 있습니다.</h3>
     <div class="c-new-game-button-container">
@@ -49,13 +49,13 @@ export default {
         class="c-new-game-button"
         @click="startNewGame"
       >
-        Start over?
+        처음부터 시작할까요?
       </button>
     </div>
     <br>
     <h3 v-if="hasMoreCosmetics">
-      For completing the game, you also unlock a new cosmetic set of your choice for Glyphs. These are freely
-      modifiable once you reach Reality again, but are purely visual and offer no gameplay bonuses.
+      게임을 완료한 보상으로 원하는 글리프 장식 세트를 하나 더 해금할 수 있습니다.
+      현실에 다시 도달하면 자유롭게 변경할 수 있으며, 외형만 바뀌고 게임 진행 보너스는 없습니다.
       <br>
       <button
         class="c-new-game-button"
@@ -72,7 +72,7 @@ export default {
     </h3>
     <br>
     <h3>
-      You can also import "speedrun" to start the game again with additional tracking for speedrunning purposes.
+      “speedrun”을 가져오면 스피드런 기록 기능을 추가한 상태로 게임을 다시 시작할 수도 있습니다.
     </h3>
   </div>
 </template>

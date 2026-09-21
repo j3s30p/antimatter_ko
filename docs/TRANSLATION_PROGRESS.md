@@ -19,7 +19,7 @@ Status values: `not started`, `in progress`, `translated`, `QA complete`.
 | Reality and Glyph systems | in progress | Compatible base-game Reality/Imaginary upgrades, perks, Glyph dialogs, and filters imported; screen QA and residue remain |
 | Automator UI and documentation | in progress | Most editor UI, transfer screens, templates, errors, and documentation imported; commands remain English intentionally for script compatibility |
 | Celestials and story dialogue | in progress | Compatible base-game tabs, mechanics, navigation text, and quote data imported; residue and story QA remain |
-| Help and catch-up documentation | translated | All compatible base-game H2P articles and catch-up entries imported; terminology and layout QA remain |
+| Help and catch-up documentation | translated | All compatible base-game articles plus previously skipped Reality and Nameless Ones articles translated; terminology and layout QA remain |
 | News ticker | in progress | 1,302 previously untouched base-game message properties imported from the reference translation; mixed-language wordplay and a smaller incompatible residue remain |
 | Changelog | not started | Final content batch |
 | Release installer and restoration | not started | Must validate Steam version/hash |
@@ -64,6 +64,12 @@ Update this file whenever a translation batch is committed. An area becomes `QA 
   excluded. This covered Celestial dialogue/UI, Glyph and Reality screens, Automator help/errors, Black Hole,
   Replicanti, Dilation, save dialogs, and assorted shared status text. Audit candidates fell from 9,834 to 8,194;
   the Steam build, ASAR hash, 304-file native sidecar, absence of an Endgame marker, and five responding processes passed.
+- Late-game visible-residue pass: translated the Replicanti Galaxy and Reality confirmation modals, Reality Upgrade
+  tooltips, Replicanti status and production text, Black Hole 2 timing states, game-speed/challenge headers, save-import
+  timing details, Dilation controls, Reality reward details, Automator speed explanation, Pelle's post-completion New
+  Game screen, and the visible Lai'tela Singularity/Annihilation/Dimension/run text. The two wholly English base-game
+  H2P articles for Reality and the Nameless Ones were also translated without importing Endgame-only content. The
+  focused ESLint pass and Steam release build passed; translation-audit candidates fell from 8,194 to 8,083.
 
 ## Steam packaging note
 

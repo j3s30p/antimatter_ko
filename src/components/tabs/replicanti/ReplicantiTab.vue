@@ -48,8 +48,8 @@ export default {
     replicantiChanceSetup() {
       return new ReplicantiUpgradeButtonSetup(
         ReplicantiUpgrade.chance,
-        value => `Replicate chance: ${formatPercents(value)}`,
-        cost => `+${formatPercents(0.01)} Costs: ${format(cost)} IP`
+        value => `복제 확률: ${formatPercents(value)}`,
+        cost => `+${formatPercents(0.01)} 비용: 무한 포인트 ${format(cost)}`
       );
     },
     replicantiIntervalSetup() {
@@ -67,14 +67,14 @@ export default {
         }
         if (actualInterval.lt(0.01)) return `< ${format(0.01, 2, 2)}ms`;
         if (actualInterval.gt(1000))
-          return `${format(actualInterval.div(1000), 2, 2)}s`;
-        return `${format(actualInterval, 2, 2)}ms`;
+          return `${format(actualInterval.div(1000), 2, 2)}초`;
+        return `${format(actualInterval, 2, 2)}밀리초`;
       }
       return new ReplicantiUpgradeButtonSetup(
         upgrade,
         value => `간격: ${formatInterval(value)}`,
         cost =>
-          `➜ ${formatInterval(upgrade.nextValue)} 비용: ${format(cost)} IP`
+          `➜ ${formatInterval(upgrade.nextValue)} 비용: 무한 포인트 ${format(cost)}`
       );
     },
     maxGalaxySetup() {
@@ -92,25 +92,25 @@ export default {
           }
           return description;
         },
-        cost => `+${formatInt(1)} 비용: ${format(cost)} IP`
+        cost => `+${formatInt(1)} 비용: 무한 포인트 ${format(cost)}`
       );
     },
     boostText() {
       const boostList = [];
-      boostList.push(`a <span class="c-replicanti-description__accent">${formatX(this.mult, 2, 2)}</span>
-        multiplier on all Infinity Dimensions`);
+      boostList.push(`모든 무한 차원에 <span class="c-replicanti-description__accent">${formatX(this.mult, 2, 2)}</span>
+        배율`);
       if (this.hasTDMult) {
-        boostList.push(`a <span class="c-replicanti-description__accent">${formatX(this.multTD, 2, 2)}</span>
-          multiplier on all Time Dimensions from a Dilation Upgrade`);
+        boostList.push(`팽창 업그레이드로 모든 시간 차원에
+          <span class="c-replicanti-description__accent">${formatX(this.multTD, 2, 2)}</span> 배율`);
       }
       if (this.hasDTMult) {
-        const additionalEffect = GlyphAlteration.isAdded("replication") ? "and Replicanti speed " : "";
-        boostList.push(`a <span class="c-replicanti-description__accent">${formatX(this.multDT, 2, 2)}</span>
-          multiplier to Dilated Time ${additionalEffect}from Glyphs`);
+        const additionalEffect = GlyphAlteration.isAdded("replication") ? "과 복제자 속도" : "";
+        boostList.push(`글리프로 팽창한 시간${additionalEffect}에
+          <span class="c-replicanti-description__accent">${formatX(this.multDT, 2, 2)}</span> 배율`);
       }
       if (this.hasIPMult) {
-        boostList.push(`a <span class="c-replicanti-description__accent">${formatX(this.multIP)}</span>
-          multiplier to Infinity Points from Glyph Alchemy`);
+        boostList.push(`글리프 연금술로 무한 포인트에
+          <span class="c-replicanti-description__accent">${formatX(this.multIP)}</span> 배율`);
       }
       if (boostList.length === 1) return `${boostList[0]}.`;
       if (boostList.length === 2) return `${boostList[0]}<br>그리고 ${boostList[1]}.`;
@@ -210,13 +210,13 @@ export default {
         v-else-if="hasRaisedCap"
         class="modified-cap"
       >
-        Effarig의 무한을 완료하여 다음 보상을 받고 있습니다:
+        에파리그의 무한을 완료하여 다음 보상을 받고 있습니다:
         <br>
         TS192가 없을 때의 복제자 상한: {{ format(replicantiCap, 2) }}
         ({{ capMultText }})
         <br>
-        {{ quantifyInt("extra Replicanti Galaxy", effarigInfinityBonusRG) }}
-        (Next Replicanti Galaxy at {{ format(nextEffarigRGThreshold, 2) }} cap)
+        추가 복제자 은하 {{ formatInt(effarigInfinityBonusRG) }}개
+        (다음 복제자 은하: 상한 {{ format(nextEffarigRGThreshold, 2) }})
       </div>
       <p class="c-replicanti-description">
         복제자
@@ -233,7 +233,7 @@ export default {
         <span
           v-tooltip="toMaxTooltip"
           class="max-accent"
-        >{{ format(maxReplicanti, 2) }}</span>.
+        >{{ format(maxReplicanti, 2) }}</span>입니다.
       </div>
       <br>
       <div v-if="isInEC8">

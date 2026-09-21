@@ -8,12 +8,11 @@ export default {
   },
   computed: {
     upgrades: () => RealityUpgrades.all,
-    costScalingTooltip: () => `Prices start increasing faster above ${format(1e30)} RM and then even faster
-      above ${format(Decimal.NUMBER_MAX_VALUE, 1)} RM`,
-    possibleTooltip: () => `Checkered upgrades are impossible to unlock this Reality. Striped upgrades are
-      still possible.`,
-    lockTooltip: () => `This will only function if you have not already failed the condition or
-      unlocked the upgrade.`,
+    costScalingTooltip: () => `비용은 리얼리티 머신 ${format(1e30)}개부터 더 빠르게 증가하고,
+      ${format(Decimal.NUMBER_MAX_VALUE, 1)}개부터는 훨씬 더 빠르게 증가합니다.`,
+    possibleTooltip: () => `바둑판무늬 업그레이드는 이번 현실에서 해금할 수 없으며,
+      줄무늬 업그레이드는 아직 해금할 수 있습니다.`,
+    lockTooltip: () => `아직 조건 달성에 실패하지 않았고 업그레이드도 해금하지 않은 경우에만 작동합니다.`,
   },
   methods: {
     id(row, column) {

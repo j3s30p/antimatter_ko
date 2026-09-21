@@ -70,20 +70,19 @@ export default {
 
       if (this.remainingTimeText === "") {
         if (remainingTime === 0) {
-          this.remainingTimeText = `At Infinite Replicanti (normally takes
-            ${TimeSpan.fromSeconds(secondsPerGalaxy.toNumber())})`;
+          this.remainingTimeText = `복제자가 무한에 도달함 (일반적으로
+            ${TimeSpan.fromSeconds(secondsPerGalaxy.toNumber())} 소요)`;
         } else if (replicantiAmount.lt(100)) {
           // Because of discrete replication, we add "Approximately" at very low amounts
-          this.remainingTimeText = `Approximately ${TimeSpan.fromSeconds(remainingTime)} remaining
-            until Infinite Replicanti`;
+          this.remainingTimeText = `복제자 무한까지 약 ${TimeSpan.fromSeconds(remainingTime)} 남음`;
         } else {
-          this.remainingTimeText = `${TimeSpan.fromSeconds(remainingTime)} remaining until Infinite Replicanti`;
+          this.remainingTimeText = `복제자 무한까지 ${TimeSpan.fromSeconds(remainingTime)} 남음`;
         }
       }
 
       // If the player can get RG, this text is redundant with text below. It denotes total time from 1 to e308
       if (Replicanti.galaxies.max === 0 && !isAbove308) {
-        this.remainingTimeText += ` (${TimeSpan.fromSeconds(totalTime)} total)`;
+        this.remainingTimeText += ` (총 ${TimeSpan.fromSeconds(totalTime)})`;
       }
 
 

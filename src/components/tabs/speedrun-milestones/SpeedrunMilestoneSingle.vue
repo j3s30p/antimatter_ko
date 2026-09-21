@@ -29,8 +29,8 @@ export default {
     },
     timeDisplay() {
       return this.time
-        ? `Completed in ${TimeSpan.fromMilliseconds(this.time).toStringShort(true, true)}`
-        : "Not reached yet";
+        ? `${TimeSpan.fromMilliseconds(this.time).toStringShort(true, true)} 만에 완료`
+        : "아직 도달하지 못함";
     },
     classObject() {
       return {

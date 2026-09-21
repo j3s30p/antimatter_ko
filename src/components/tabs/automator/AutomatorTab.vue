@@ -34,8 +34,8 @@ export default {
       return this.fullScreen ? "fa-compress-arrows-alt" : "fa-expand-arrows-alt";
     },
     intervalText() {
-      const speedupText = `Each Reality makes it run ${formatPercents(0.006, 1)} faster, up to a maximum of
-        ${formatInt(1000)} per second.`;
+      const speedupText = `현실에 도달할 때마다 ${formatPercents(0.006, 1)} 빨라지며,
+        최대 초당 ${formatInt(1000)}개까지 실행합니다.`;
       return this.interval === 1
         ? `오토메이터가 최대 속도로 실행 중입니다 (실제 시간 기준 초당 명령 ${formatInt(1000)}개).`
         : `오토메이터가 실제 시간 기준 초당 ${quantify("명령", 1000 / this.interval, 2, 2)}을 실행 중입니다.

@@ -45,8 +45,8 @@ export default {
       return "";
     },
     formatGlyphLevel() {
-      if (this.glyphLevel >= 10000) return `Glyph level: ${formatInt(this.glyphLevel)}`;
-      return `Glyph level: ${formatInt(this.glyphLevel)} (${this.nextGlyphPercent} to next)`;
+      if (this.glyphLevel >= 10000) return `글리프 레벨: ${formatInt(this.glyphLevel)}`;
+      return `글리프 레벨: ${formatInt(this.glyphLevel)} (다음 레벨까지 ${this.nextGlyphPercent})`;
     },
     showShardsRate() {
       return this.currentShardsRate;
@@ -164,8 +164,8 @@ export default {
           v-if="canReality"
           class="infotooltiptext"
         >
-          <div>Other resources gained:</div>
-          <div>{{ quantifyInt("Perk Point", ppGained) }}</div>
+          <div>그 밖의 획득 자원:</div>
+          <div>퍼크 포인트 {{ formatInt(ppGained) }}개</div>
           <div v-if="shardsGained !== 0">
             {{ shardsGainedText }} (분당 {{ format(currentShardsRate, 2) }})
             <br>
