@@ -70,7 +70,7 @@ export default {
 
       let line2;
       if (this.isIntervalCapped) line2 = this.hoverOverAscension ? "승천 시 ➜" : "승천!";
-      else line2 = `비용: 암흑 물질 ${this.formatDMCost(this.intervalCost)}`;
+      else line2 = `비용: ${this.formatDMCost(this.intervalCost)} DM`;
       return ` ${line1}<br>${line2}`;
     },
     darkMatterText() {
@@ -81,7 +81,7 @@ export default {
       const ascMult = this.powerDMPerAscension * this.interval / this.intervalAfterAscension;
       const line2 = this.hoverOverAscension
         ? `초당 ${formatX(ascMult, 2, 2)}`
-        : `비용: 암흑 물질 ${this.formatDMCost(this.powerDMCost)}`;
+        : `비용: ${this.formatDMCost(this.powerDMCost)} DM`;
       return `${line1}<br>${line2}`;
     },
     darkEnergyText() {
@@ -91,13 +91,13 @@ export default {
       const ascMult = POWER_DE_PER_ASCENSION * this.interval / this.intervalAfterAscension;
       const line2 = this.hoverOverAscension
         ? `초당 ${formatX(ascMult, 2, 2)}`
-        : `비용: 암흑 물질 ${this.formatDMCost(this.powerDECost)}`;
+        : `비용: ${this.formatDMCost(this.powerDECost)} DM`;
       return `${line1}<br>${line2}`;
     },
     ascensionTooltip() {
       return `간격의 하한은 ${formatInt(DarkMatterDimension(this.tier).intervalPurchaseCap)}밀리초입니다.
-        승천하면 간격에 ${formatInt(this.intervalAscensionBump)}, 암흑 물질 생산량에
-        ${formatInt(this.powerDMPerAscension)}, 암흑 에너지 생산량에 ${formatInt(POWER_DE_PER_ASCENSION)} 배율이 적용됩니다.`;
+        승천하면 간격에 ${formatInt(this.intervalAscensionBump)}, DM 생산량에
+        ${formatInt(this.powerDMPerAscension)}, DE 생산량에 ${formatInt(POWER_DE_PER_ASCENSION)} 배율이 적용됩니다.`;
     }
   },
   methods: {
@@ -142,7 +142,8 @@ export default {
     // however; it looks better in-game if we just format it as Infinity instead, as the resource used for these costs
     // is itself hardcapped at e308 and we specifically want to format here (and nowhere else) as Infinity.
     formatDMCost(cost) {
-      return cost.gt(Number.MAX_VALUE) ? Notations.current.infinite : format(cost, 2);
+      const formattedCost = cost.gt(Number.MAX_VALUE) ? Notations.current.infinite : format(cost, 2);
+      return /^(?:infinite|infinity)$/iu.test(formattedCost) ? "무한" : formattedCost;
     },
     dimensionProduction(tier) {
       if (tier === 4) return SingularityMilestone.dim4Generation.effectOrDefault(0);

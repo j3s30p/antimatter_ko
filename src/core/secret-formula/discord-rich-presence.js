@@ -84,7 +84,7 @@ export const discordRichPresence = {
       resource: () => `${format(player.antimatter, 2, 1)} AM`,
     },
     {
-      name: token => `영원 도전 ${token}`,
+      name: token => `EC ${token}`,
       // This results in "EC 3x3" (for example) when there are remaining completions, and just "EC 3" if not
       activityToken: () => {
         if (!player.challenge.eternity.current) return false;
@@ -95,7 +95,7 @@ export const discordRichPresence = {
       resource: () => `${format(player.infinityPoints, 2)} IP`,
     },
     {
-      name: token => `무한 도전 ${token}`,
+      name: token => `IC ${token}`,
       activityToken: () => player.challenge.infinity.current,
       resource: () => `${format(player.antimatter, 2, 1)} AM`,
     },
@@ -156,7 +156,7 @@ export const discordRichPresence = {
       hasReached: () => player.eternityChalls.eterc1 > 0,
       mainResource: () => `${format(player.eternityPoints, 2)} EP`,
       resourceList: [
-        () => quantify("영원 도전 완료",
+        () => quantify("EC 완료",
           Object.values(player.eternityChalls).reduce((sum, c) => sum + c, 0), 0, 0, formatInt)
       ]
     },

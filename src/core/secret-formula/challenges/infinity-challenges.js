@@ -62,8 +62,8 @@ export const infinityChallenges = [
   {
     id: 5,
     description:
-      `1~4차 반물질 차원을 구매하면 더 저렴한 모든 반물질 차원의 비용이 증가합니다.
-      5~8차 반물질 차원을 구매하면 더 비싼 모든 반물질 차원의 비용이 증가합니다.`,
+      `1~4차 반물질 차원을 구매하면 더 저렴한 모든 AD 비용이 증가합니다.
+      5~8차 반물질 차원을 구매하면 더 비싼 모든 AD 비용이 증가합니다.`,
     goal: DC.E16500,
     isQuickResettable: true,
     reward: {
@@ -117,7 +117,7 @@ export const infinityChallenges = [
   {
     id: 8,
     description: () =>
-      `반물질 차원 생산량이 시간에 따라 빠르게 계속 감소합니다. 반물질 차원이나 틱스피드
+      `AD 생산량이 시간에 따라 빠르게 계속 감소합니다. 반물질 차원이나 틱스피드
         업그레이드를 구매하면 생산량이 ${formatPercents(1)}로 돌아간 뒤 다시 감소하기 시작합니다.`,
     goal: DC.E27000,
     isQuickResettable: true,
@@ -125,7 +125,7 @@ export const infinityChallenges = [
       Math.max(0, player.records.thisInfinity.time - player.records.thisInfinity.lastBuyTime)),
     reward: {
       description:
-        "1차 및 8차 반물질 차원의 배율에 따라 2~7차 반물질 차원에 배율 적용",
+        "1차 및 8차 AD 배율에 따라 AD 2~7에 배율 적용",
       effect: () => AntimatterDimension(1).multiplier.times(AntimatterDimension(8).multiplier).pow(0.02),
       formatEffect: value => formatX(value, 2, 2)
     },

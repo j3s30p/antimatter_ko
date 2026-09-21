@@ -8,8 +8,8 @@ import { MultiplierTabIcons } from "./icons";
 export const ID = {
   total: {
     name: dim => {
-      if (dim) return `제${dim} 무한 차원 배율`;
-      if (EternityChallenge(7).isRunning) return "제7 반물질 차원 생산량";
+      if (dim) return `ID ${dim} 배율`;
+      if (EternityChallenge(7).isRunning) return "AD7 생산량";
       return "무한력 생산량";
     },
     displayOverride: dim => (dim
@@ -36,7 +36,7 @@ export const ID = {
     icon: dim => MultiplierTabIcons.DIMENSION("ID", dim),
   },
   purchase: {
-    name: dim => (dim ? `구매한 제${dim} 무한 차원` : "구매"),
+    name: dim => (dim ? `구매한 ID ${dim}` : "구매"),
     multValue: dim => {
       const getMult = id => Decimal.pow(InfinityDimension(id).powerMultiplier,
         Math.floor(InfinityDimension(id).baseAmount / 10));
@@ -53,7 +53,7 @@ export const ID = {
     name: () => `가장 높은 차원 보유량`,
     displayOverride: () => {
       const dim = MultiplierTabHelper.activeDimCount("ID");
-      return `제${dim} 무한 차원, ${format(InfinityDimension(dim).amount, 2)}`;
+      return `ID ${dim}, ${format(InfinityDimension(dim).amount, 2)}`;
     },
     multValue: () => InfinityDimension(MultiplierTabHelper.activeDimCount("ID")).amount,
     isActive: () => InfinityDimension(1).isProducing,
@@ -132,7 +132,7 @@ export const ID = {
     icon: MultiplierTabIcons.ACHIEVEMENT,
   },
   timeStudy: {
-    name: dim => (dim ? `시간 연구 (제${dim} 무한 차원)` : "시간 연구"),
+    name: dim => (dim ? `시간 연구 (ID ${dim})` : "시간 연구"),
     multValue: dim => {
       const allMult = DC.D1.timesEffectsOf(
         TimeStudy(82),
@@ -195,7 +195,7 @@ export const ID = {
     icon: MultiplierTabIcons.CHALLENGE("infinity"),
   },
   eternityChallenge: {
-    name: dim => (dim ? `영원 도전 (제${dim} 무한 차원)` : "영원 도전"),
+    name: dim => (dim ? `영원 도전 (ID ${dim})` : "영원 도전"),
     multValue: dim => {
       const allMult = DC.D1.timesEffectsOf(
         EternityChallenge(4).reward,
@@ -213,7 +213,7 @@ export const ID = {
     icon: MultiplierTabIcons.CHALLENGE("eternity"),
   },
   tickspeed: {
-    name: () => "틱스피드 (영원 도전 7)",
+    name: () => "틱스피드 (EC7)",
     displayOverride: () => {
       const tickRate = Tickspeed.perSecond;
       const activeDims = MultiplierTabHelper.activeDimCount("ID");

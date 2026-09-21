@@ -160,7 +160,7 @@ export const v = {
     {
       id: 7,
       name: "목적지 이후",
-      description: value => `저장한 시간을 방출하거나 영원 도전 12에 진입하지 않고 /${format(Decimal.pow10(value), 2, 2)}
+      description: value => `저장한 시간을 방출하거나 EC12에 진입하지 않고 /${format(Decimal.pow10(value), 2, 2)}
         이하 속도의 블랙홀로 시간 정리 ${formatInt(400000)}개를 획득하세요.`,
       values: [100, 150, 200, 250, 300],
       condition: () => V.isRunning,
@@ -215,7 +215,7 @@ export const v = {
     },
     fastAutoEC: {
       id: 3,
-      reward: "도전과제 배율이 영원 도전 자동 완료 시간을 줄입니다.",
+      reward: "도전과제 배율이 자동 EC 완료 시간을 줄입니다.",
       description: () => `V-도전과제를 ${formatInt(10)}개 달성하세요`,
       effect: () => Achievements.power,
       // Base rate is 60 ECs at 20 minutes each

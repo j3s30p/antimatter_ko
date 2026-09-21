@@ -392,7 +392,7 @@ ${format(Infinity)}로 표시됩니다.
 <br>
 <br>
 "모든 무한 포인트 획득량에 ${formatInt(2)}를 곱합니다" 업그레이드는 여러 번 구매할 수 있지만, 구매할
-때마다 이전보다 ${formatInt(10)}배 많은 무한 포인트가 필요합니다. 이 업그레이드를 처음 구매하려면
+때마다 이전보다 ${formatInt(10)}배 많은 IP가 필요합니다. 이 업그레이드를 처음 구매하려면
 "DLC 필요 없음" 도전과제를 완료해야 합니다.
 <br>
 <br>
@@ -459,7 +459,7 @@ ${format(Infinity)}로 표시됩니다.
 <b>최대 은하:</b> 은하 자동 구매기가 구매할 최대 은하 수입니다.
 <br>
 <br>
-<b>크런치 시 무한 포인트:</b> 무한 돌파 후 빅 크런치를 실행하기 전에 기다릴 무한 포인트량을 설정할 수 있습니다.
+<b>크런치 시 IP:</b> 무한 돌파 후 빅 크런치를 실행하기 전에 기다릴 IP를 설정할 수 있습니다.
 <br>
 <br>
 <b>희생 자동 구매기:</b> 처음부터 간격이 최대로 강화되어 있어 매 틱 작동할 수 있습니다.
@@ -487,12 +487,12 @@ ${format(Infinity)}로 표시됩니다.
       name: "무한 돌파",
       info: () => `
 무한을 돌파하면 더 이상 반물질이 ${formatPostBreak(Number.MAX_VALUE, 2)}로 제한되지 않으며, 빅 크런치를
-할 때 보유한 반물질에 따라 크런치 한 번에 ${formatInt(1)}보다 많은 무한 포인트를 얻을 수 있습니다.
+할 때 보유한 반물질에 따라 크런치 한 번에 ${formatInt(1)}보다 많은 IP를 얻을 수 있습니다.
 <br>
 <br>
-이제 ${formatPostBreak(Number.MAX_VALUE, 2)} 반물질에서 빅 크런치를 하면 약 ${format(1.78, 2, 2)} 무한
-포인트를 얻습니다. 보유 반물질이 ${formatPostBreak(Number.MAX_VALUE, 2)}배씩 늘어날 때마다 크런치로 얻는
-무한 포인트에 ${formatInt(10)}을 곱하며, 이 효과는 연속적으로 적용됩니다. 모든 배율을 적용한 <i>뒤에</i>
+이제 ${formatPostBreak(Number.MAX_VALUE, 2)} 반물질에서 빅 크런치를 하면 약 ${format(1.78, 2, 2)} IP를
+얻습니다. 보유 반물질이 ${formatPostBreak(Number.MAX_VALUE, 2)}배씩 늘어날 때마다 크런치로 얻는
+IP에 ${formatInt(10)}을 곱하며, 이 효과는 연속적으로 적용됩니다. 모든 배율을 적용한 <i>뒤에</i>
 가장 가까운 정수로 내림합니다.
 <br>
 <br>
@@ -529,7 +529,7 @@ ${formatX(10)}씩 늘어나며, 틱스피드 업그레이드 비용에도 비슷
     .map(tier => format(InfinityDimension(tier)._powerMultiplier))
     .join(", ")}
 <br>
-<b>무한 차원 기본 가격(무한 포인트):</b> ${Array.range(1, 8)
+<b>무한 차원 기본 가격(IP):</b> ${Array.range(1, 8)
     .map(tier => format(InfinityDimension(tier)._baseCost))
     .join(", ")}
 <br>
@@ -566,11 +566,11 @@ ${formatX(10)}씩 늘어나며, 틱스피드 업그레이드 비용에도 비슷
     }, {
       name: "복제자",
       info: () => `
-복제자는 ${format(DC.E140)} 무한 포인트에서 잠금 해제되는 또 다른 자원입니다. 다른 무언가를 생산하는 대신
+복제자는 ${format(DC.E140)} IP에서 잠금 해제되는 또 다른 자원입니다. 다른 무언가를 생산하는 대신
 복제자는 최대 ${formatPostBreak(Number.MAX_VALUE, 2)}까지 <i>자기 자신</i>을 생산합니다. 복제자는
 틱스피드 업그레이드의 영향을 받지 않고 고유한 속도로 생산됩니다. 각 복제자는 복제자 틱마다 처음에는
 ${formatPercents(0.01)}의 확률로 새로운 복제자를 생산합니다. 복제자 틱은 처음에는 매초 발생하며, 확률과
-간격 모두 무한 포인트를 사용해 업그레이드할 수 있습니다.
+간격 모두 IP를 사용해 업그레이드할 수 있습니다.
 <br>
 <br>
 복제자 은하 업그레이드를 구매했다면 복제자 수를 ${formatInt(1)}로 초기화하는 대신 "무료" 복제자 은하를
@@ -584,12 +584,12 @@ ${formatPercents(0.01)}의 확률로 새로운 복제자를 생산합니다. 복
 ${formatX(Math.pow(2, 20), 2, 2)}에 도달합니다.
 <br>
 <br>
-<b>확률 업그레이드 비용:</b> 기본 ${format(DC.E150)} 무한 포인트, 비용 증가 ${formatX(DC.E15)} 무한 포인트
+<b>확률 업그레이드 비용:</b> 기본 ${format(DC.E150)} IP, 비용 증가 ${formatX(DC.E15)} IP
 <br>
-<b>간격 업그레이드 비용:</b> 기본 ${format(DC.E140)} 무한 포인트, 비용 증가 ${formatX(DC.E10)} 무한 포인트
+<b>간격 업그레이드 비용:</b> 기본 ${format(DC.E140)} IP, 비용 증가 ${formatX(DC.E10)} IP
 <br>
-<b>은하 업그레이드 비용:</b> 기본 ${format(DC.E170)} 무한 포인트이며, 비용은 ${formatX(DC.E25)} 무한
-포인트와 업그레이드당 추가 ${formatX(1e5)} 무한 포인트만큼 증가합니다. 먼 반물질 은하와 비슷하게
+<b>은하 업그레이드 비용:</b> 기본 ${format(DC.E170)} IP이며, 비용은 ${formatX(DC.E25)} IP와
+업그레이드당 추가 ${formatX(1e5)} IP만큼 증가합니다. 먼 반물질 은하와 비슷하게
 스케일링됩니다. 복제자 은하가 ${formatInt(100)}개를 넘으면 업그레이드당 ${formatX(1e5)}가
 ${formatX(DC.E55)}로 바뀝니다. ${formatInt(1000)}개를 넘으면 스케일링이 제곱에서 세제곱으로 바뀌고,
 ${formatX(DC.E55)} 배율 자체도 업그레이드당 ${formatX(DC.E5)}씩 증가합니다.
@@ -600,22 +600,22 @@ ${formatX(DC.E55)} 배율 자체도 업그레이드당 ${formatX(DC.E5)}씩 증�
     }, {
       name: "영원",
       info: () => `
-${formatPostBreak(Number.MAX_VALUE, 2)} 무한 포인트에 도달하면 영원을 수행할 수 있습니다. 영원은 도전 시간,
+${formatPostBreak(Number.MAX_VALUE, 2)} IP에 도달하면 영원을 수행할 수 있습니다. 영원은 도전 시간,
 도전과제, 통계 탭의 일반 영역에 있는 항목을 제외하고 지금까지의 모든 것을 초기화합니다. 첫 영원 이후 더 많은
 콘텐츠를 이용할 수 있습니다.
 <br>
 <br>
 처음 ${formatPostBreak(Number.MAX_VALUE, 2)} 반물질에 도달했을 때와 달리,
-${formatPostBreak(Number.MAX_VALUE, 2)} 무한 포인트를 넘어도 강제로 아무 행동도 하지 않습니다. 영원을
+${formatPostBreak(Number.MAX_VALUE, 2)} IP를 넘어도 강제로 아무 행동도 하지 않습니다. 영원을
 수행하기 전에 보유한 무한 포인트가 많을수록 더 많은 영원 포인트를 받습니다. 영원을 완료하면 "영원"도 하나
 얻습니다.
 <br>
 <br>
-영원 포인트 획득량은 무한 포인트 획득량과 비슷하게 증가하지만, 반물질 대신 무한 포인트를 기준으로 합니다.
-${formatPostBreak(Number.MAX_VALUE, 2)} 무한 포인트에서 얻는 기본 영원 포인트는 약 ${format(1.62, 2, 2)}이며,
-무한 포인트가 ${formatPostBreak(Number.MAX_VALUE, 2)}배씩 늘어날 때마다 ${formatInt(5)}를 곱합니다. 항상
-내림하므로 ${formatPostBreak(Number.MAX_VALUE, 2)} 무한 포인트에서는 영원 포인트 ${formatInt(1)}개를 얻지만,
-${formatPostBreak(DC.E349)} 전까지는 ${formatInt(2)}개를 얻지 못합니다.
+EP 획득량은 무한 포인트 획득량과 비슷하게 증가하지만, 반물질 대신 무한 포인트를 기준으로 합니다.
+${formatPostBreak(Number.MAX_VALUE, 2)} IP에서 얻는 기본 EP는 약 ${format(1.62, 2, 2)}이며, IP가
+${formatPostBreak(Number.MAX_VALUE, 2)}배씩 늘어날 때마다 ${formatInt(5)}를 곱합니다. 항상 내림하므로
+${formatPostBreak(Number.MAX_VALUE, 2)} IP에서는 EP ${formatInt(1)}개를 얻지만,
+${formatPostBreak(DC.E349)} 전까지는 ${formatInt(2)} EP를 얻지 못합니다.
 <br>
 <br>
 <b>단축키: E</b>를 누르면 영원 초기화를 시도합니다.
@@ -659,13 +659,13 @@ ${formatPostBreak(DC.E349)} 전까지는 ${formatInt(2)}개를 얻지 못합니�
 <br>
 <br>
 구매할 때마다 해당 시간 차원의 배율이 ${formatX(4)}만큼 증가합니다. 업그레이드 사이의 비용 배율에는 기본값이
-있지만, ${format(TimeDimension(1)._costIncreaseThresholds[0], 2)} 영원 포인트에서 ${formatX(1.5, 1, 1)},
-${format(TimeDimension(1)._costIncreaseThresholds[1])} 영원 포인트에서 기본값의 ${formatX(2.2, 1, 1)}만큼
+있지만, ${format(TimeDimension(1)._costIncreaseThresholds[0], 2)} EP에서 ${formatX(1.5, 1, 1)},
+${format(TimeDimension(1)._costIncreaseThresholds[1])} EP에서 기본값의 ${formatX(2.2, 1, 1)}만큼
 증가합니다. 이 증가는 소급 적용되어 기준에 도달하는 순간 비용이 크게 뛰며, 처음 네 차원에만 적용됩니다.
-${format(TimeDimension(1)._costIncreaseThresholds[2])} 영원 포인트 이후에는 비용 증가 계산에서 차원 구매
+${format(TimeDimension(1)._costIncreaseThresholds[2])} EP 이후에는 비용 증가 계산에서 차원 구매
 한 번을 네 번의 구매로 취급하므로 가격이 훨씬 가파르게 상승합니다.
 <br>
-<b>시간 차원 기본 가격(영원 포인트):</b> ${Array.range(1, 8)
+<b>시간 차원 기본 가격(EP):</b> ${Array.range(1, 8)
     .map(tier => format(TimeDimension(tier)._baseCost))
     .join(", ")}
 <br>
@@ -753,7 +753,7 @@ Shift를 누른 채 시간 연구를 클릭하면 해당 지점까지의 모든 
 해제할 때 달성해야 하는 보조 조건이 필요합니다.
 <br>
 <br>
-영원 도전에 진입하면 일정한 목표 무한 포인트에 도달하는 것이 목표가 됩니다. 도전을 완료한 뒤에는 영원 도전
+영원 도전에 진입하면 일정한 목표 IP에 도달하는 것이 목표가 됩니다. 도전을 완료한 뒤에는 영원 도전
 연구를 잠금 해제한 상태가 아니어도 보상이 적용됩니다. 보상은 시간 연구와 비슷하지만 효과를 유지하는 데 시간
 정리를 사용할 필요가 없어 영구적이며, 대개 더 강력합니다.
 <br>
@@ -777,20 +777,20 @@ Shift를 누른 채 시간 연구를 클릭하면 해당 지점까지의 모든 
       name: "시간 팽창",
       info: () => `
 EC11과 EC12 연구 아래에 있는 시간 팽창 잠금 해제 시간 연구를 구매하면 시간 팽창이 잠금 해제됩니다.
-이 시간 연구를 구매하려면 연구에 도달할 수 있는 트리와 사용하지 않은 시간 정리 ${formatInt(5000)}개,
-<i>총</i> 시간 정리 ${formatInt(TimeStudy.dilation.totalTimeTheoremRequirement)}개가 필요하며, EC11과 EC12를
+이 시간 연구를 구매하려면 연구에 도달할 수 있는 트리와 사용하지 않은 TT ${formatInt(5000)}개,
+<i>총</i> TT ${formatInt(TimeStudy.dilation.totalTimeTheoremRequirement)}개가 필요하며, EC11과 EC12를
 각각 다섯 번 완료해야 합니다.
 <br>
 <br>
 시간을 팽창시키면 시간 팽창이라는 변형된 영원을 시작합니다. 이 안에서는 모든 반물질/무한/시간 차원 배율의
 <i>지수</i>와 틱스피드 배율의 <i>지수</i>를 ${formatPow(0.75, 2, 2)}하여 크게 감소시킵니다. 이 팽창된
-영원에서 ${formatPostBreak(Number.MAX_VALUE, 2)} 무한 포인트에 도달해 완료하면 타키온 입자라는 새 자원을
+영원에서 ${formatPostBreak(Number.MAX_VALUE, 2)} IP에 도달해 완료하면 타키온 입자라는 새 자원을
 보상으로 얻습니다.
 <br>
 <br>
 원하는 만큼 팽창할 수 있지만 타키온 입자는 다른 자원처럼 "파밍"할 수 없습니다. 타키온 입자는 절대 줄어들지
-않고 증가만 하며, 타키온 입자 배율과 현재 팽창에서 얻은 반물질에 따른 상한까지만 증가합니다. 따라서 일반적으로
-타키온 입자 배율을 얻거나 팽창 안에서 반물질을 크게 늘릴 수 있게 되기 전에는 타키온 입자를 늘릴 수 없습니다.
+않고 증가만 하며, TP 배율과 현재 팽창에서 얻은 반물질에 따른 상한까지만 증가합니다. 따라서 일반적으로
+TP 배율을 얻거나 팽창 안에서 반물질을 크게 늘릴 수 있게 되기 전에는 TP를 늘릴 수 없습니다.
 <br>
 <br>
 타키온 입자는 팽창된 시간이라는 또 다른 화폐를 생성합니다. 시간 차원에서 얻는 틱스피드 업그레이드와 비슷하게
@@ -808,7 +808,7 @@ EC11과 EC12 연구 아래에 있는 시간 팽창 잠금 해제 시간 연구�
     }, {
       name: "현실",
       info: () => `
-${formatPostBreak(DC.E4000)} 영원 포인트에 도달하고 도전과제의 첫 ${formatInt(13)}줄을 완료하면 현실을
+${formatPostBreak(DC.E4000)} EP에 도달하고 도전과제의 첫 ${formatInt(13)}줄을 완료하면 현실을
 해금하는 시간 연구를 구매할 수 있습니다. 해금하면 새 탭이 열리고 그곳에서 새 현실을 시작하는 버튼을
 찾을 수 있습니다. 새 현실을 시작하면 지금까지 게임의 거의 모든 것이 초기화되지만, 그 대가로
 리얼리티 머신이라는 새 화폐와 글리프, 퍼크 포인트를 얻습니다.
@@ -834,8 +834,8 @@ ${timeDisplayNoDecimals(30 * 60000)}마다 완료하지 않은 다음 도전과�
 화폐입니다.
 <br>
 <br>
-리얼리티 머신은 오직 영원 포인트에 따라 증가하며, 현실 버튼에는 다음 리얼리티 머신을 얻는 데 필요한
-영원 포인트가 표시됩니다. 처음 ${formatInt(10)} RM은 ${formatPostBreak(DC.E4000)} EP와
+리얼리티 머신은 오직 EP에 따라 증가하며, 현실 버튼에는 다음 리얼리티 머신을 얻는 데 필요한
+EP가 표시됩니다. 처음 ${formatInt(10)} RM은 ${formatPostBreak(DC.E4000)} EP와
 ${formatPostBreak(DC.C10P16000D3)} EP 사이에서 지수에 따라 선형으로 증가합니다. 그 이후에는
 RM = ${formatInt(1000)}<sup>log<sub>${formatInt(10)}</sub>(EP)/${formatInt(4000)}-${formatInt(1)}</sup>입니다.
 ${formatPostBreak(DC.C10P16000D3)} EP 이후에는 이 공식으로 선형 증가보다 많은 RM을 얻습니다.
@@ -1027,8 +1027,8 @@ ${formatInt(AutomatorData.MAX_ALLOWED_CONSTANT_COUNT)}개를 넘게 보유할 �
 <br>
 <br>
 블랙홀의 게임 속도 증가는 틱스피드보다 훨씬 강력합니다. 틱스피드와 달리 일부만 영향받는 요소(예: 무한/시간
-차원), 일반적으로 전혀 영향받지 않는 요소(예: 팽창된 시간/시간 정리 생성), 순수하게 경과 시간으로 강화되는
-효과(예: 방치 경로의 무한/영원 포인트 배율)를 포함해 <i>모든 것에 똑같이</i> 영향을 주기 때문입니다.
+차원), 일반적으로 전혀 영향받지 않는 요소(예: DT/TT 생성), 순수하게 경과 시간으로 강화되는
+효과(예: 방치 경로의 IP/EP 배율)를 포함해 <i>모든 것에 똑같이</i> 영향을 주기 때문입니다.
 <br>
 <br>
 게임의 대부분 기능은 증가한 게임 속도로 강화되지만 영향을 받지 않는 요소도 있습니다. 이런 경우 해당 시간이
@@ -1128,16 +1128,16 @@ ${formatInt(8)}분이라면, 첫 번째 블랙홀의 간격이 아무리 짧아�
 <br>
 <br>
 메인 화면에는 위에 "RM 붓기" 버튼이 있는 막대가 있습니다. RM을 용기에 넣어 리얼리티 머신 배율을 얻을 수
-있습니다. 용기에 부은 RM은 되찾을 수 없습니다. 용기 안의 RM이 ${format(TeresaUnlocks.run.price)}에
-도달하면 테레사의 현실이 잠금 해제됩니다.
+있습니다. 용기에 부은 RM은 되찾을 수 없습니다. 용기에 ${format(TeresaUnlocks.run.price)} RM이
+모이면 테레사의 현실이 잠금 해제됩니다.
 <br>
 <br>
 테레사의 현실을 완료하면
 ${Teresa.runCompleted
     ? "도전 중 얻은 반물질에 따라 글리프 희생에 배율이 적용됩니다"
     : "<div style='color: var(--color-bad);'>(보상을 보려면 테레사의 현실을 완료하세요)</div>"}.
-테레사의 현실 완료는 이야기의 일부일 뿐이며, 진행하려면 계속 RM을 부어야 합니다. 용기의 RM이
-${format(TeresaUnlocks.effarig.price)}에 도달하면 다음 셀레스티얼이 잠금 해제됩니다.
+테레사의 현실 완료는 이야기의 일부일 뿐이며, 진행하려면 계속 RM을 부어야 합니다. 용기에
+${format(TeresaUnlocks.effarig.price)} RM을 채우면 다음 셀레스티얼이 잠금 해제됩니다.
 <br>
 <br>
 ${Teresa.runCompleted
@@ -1152,12 +1152,12 @@ ${Teresa.runCompleted
       name: "에파리그, 고대 유물의 셀레스티얼",
       alias: "에파리그",
       info: () => `
-에파리그는 두 번째로 만나는 셀레스티얼입니다. 테레사의 용기에 RM을 적어도
-${format(TeresaUnlocks.effarig.price)}만큼 부으면 잠금 해제됩니다.
+에파리그는 두 번째로 만나는 셀레스티얼입니다. 테레사의 용기에 적어도
+${format(TeresaUnlocks.effarig.price)} RM을 부으면 잠금 해제됩니다.
 <br>
 <br>
 에파리그는 현실에서 서로 다른 종류의 글리프 효과를 사용해 얻는 유물 파편이라는 화폐를 도입합니다.
-현실 중 활성화된 고유 효과의 수가 유물 파편 획득량에 매우 큰 영향을 주며, 영원 포인트도 훨씬 약하게
+현실 중 활성화된 고유 효과의 수가 유물 파편 획득량에 매우 큰 영향을 주며, EP도 훨씬 약하게
 영향을 줍니다. 유물 파편은 에파리그 잠금 해제에 쓰이는 화폐이며, 이제부터 모든 현실에서 얻습니다.
 <br>
 <br>
@@ -1195,7 +1195,7 @@ ${Ra.unlocks.glyphEffectCount.canBeApplied
       name: "고급 글리프 메커니즘",
       info: () => `
 글리프 레벨 조정은 유물 파편 ${format(GameDatabase.celestials.effarig.unlocks.adjuster.cost)}개로 구매할 수
-있습니다. 영원 포인트, 팽창된 시간, 복제자, 영원이 현실에서 얻는 글리프의 레벨에 미치는 가중치를 각각
+있습니다. EP, DT, 복제자, 영원이 현실에서 얻는 글리프의 레벨에 미치는 가중치를 각각
 설정할 수 있습니다.
 <br>
 <br>
@@ -1325,7 +1325,7 @@ ${Enslaved.isCompleted
 <br>
 <br>
 테서랙트 비용은 초지수적으로 증가하지만 이를 보완하도록 다음 테서랙트는 이전보다 훨씬 강력합니다. 테서랙트
-수는 절대 초기화되지 않으므로 한 번 구매하면 이후 현실에서 높아진 상한을 이용하기 위해 해당 무한 포인트
+수는 절대 초기화되지 않으므로 한 번 구매하면 이후 현실에서 높아진 상한을 이용하기 위해 해당 IP
 비용에 다시 도달할 필요가 없습니다.
 <br>
 <br>
@@ -1346,8 +1346,8 @@ ${formatInt(1)}번째 칸, "어차피 필요 없었잖아")을 완료하면 잠�
 <br>
 <br>
 도전과제로 하위 탭을 잠금 해제하면 V를 완전히 잠금 해제하기 위한 또 다른 조건들이 나타납니다. 현실을
-${formatInt(GameDatabase.celestials.v.mainUnlock.realities.requirement)}회 완료하고 사용하지 않은 RM
-${format(GameDatabase.celestials.v.mainUnlock.realityMachines.requirement)}을 보유해야 합니다. 또한 같은
+${formatInt(GameDatabase.celestials.v.mainUnlock.realities.requirement)}회 완료하고 사용하지 않은
+${format(GameDatabase.celestials.v.mainUnlock.realityMachines.requirement)} RM을 보유해야 합니다. 또한 같은
 현실에서 영원 ${format(GameDatabase.celestials.v.mainUnlock.eternities.requirement)}, 무한
 ${format(GameDatabase.celestials.v.mainUnlock.infinities.requirement)}, 팽창된 시간
 ${format(GameDatabase.celestials.v.mainUnlock.dilatedTime.requirement)}, 복제자
@@ -1375,7 +1375,7 @@ ${VUnlocks.vAchievementUnlock.isUnlocked
       단계의 목표도 함께 감소시킵니다.
       <br>
       <br>
-      공간 정리를 사용하면 개선된 무한 포인트 공식 이후 속도 분기의 여러 경로나 아래쪽 어둠/빛 쌍의 두 시간
+      공간 정리를 사용하면 개선된 IP 공식 이후 속도 분기의 여러 경로나 아래쪽 어둠/빛 쌍의 두 시간
       연구처럼 원래 함께 살 수 없는 시간 연구를 구매할 수 있습니다. 시간 정리와 마찬가지로 연구를 재분배할
       때마다 자유롭게 돌려받습니다. 공간 정리가 충분하면 결국 모든 시간 연구를 한꺼번에 구매할 수 있습니다!
       <br>
@@ -1507,14 +1507,14 @@ ${formatInt(2500)}개만 반응 속도 계산에 사용됩니다. 생산물이 $
 업그레이드는 반복 구매할 수 있고 나머지 세 줄은 한 번만 구매할 수 있습니다.
 <br>
 <br>
-허수 머신 보유량은 두 가지 요소의 영향을 받습니다.
+iM 보유량은 두 가지 요소의 영향을 받습니다.
 <br>
-<b>허수 머신 상한</b> - 보유할 수 있는 허수 머신의 최대량으로, 리얼리티 머신 상한이 없었다면 얻을 수 있었던
-최고 리얼리티 머신을 기준으로 합니다. 지속적으로 갱신되므로 상한이 없을 때의 기존 최고 리얼리티 머신을 넘는
+<b>iM 상한</b> - 보유할 수 있는 iM의 최대량으로, RM 상한이 없었다면 얻을 수 있었던 최고 RM을 기준으로
+합니다. 지속적으로 갱신되므로 상한이 없을 때의 기존 최고 RM을 넘는
 즉시 증가합니다.
 <br>
-<b>현재 허수 머신</b> - 시간이 지나면 현재 허수 머신이 상한을 향해 자동으로 증가하며, 상한에 가까워질수록
-지수적으로 느려집니다. 기본적으로 <i>부족한</i> 양, 즉 상한에서 현재량을 뺀 값이 매분 절반으로 줄어드는
+<b>현재 iM</b> - 시간이 지나면 현재 iM이 iM 상한을 향해 자동으로 증가하며, 상한에 가까워질수록
+지수적으로 느려집니다. 기본적으로 iM은 <i>부족한</i> 양, 즉 상한에서 현재량을 뺀 값이 매분 절반으로 줄어드는
 속도로 느려집니다. 이 성장 속도는 게임 속도 변경 효과의 영향을 받지 않습니다.
 <br>
 <br>
@@ -1527,7 +1527,7 @@ ${formatInt(2500)}개만 반응 속도 계산에 사용됩니다. 생산물이 $
       name: "라이텔라, 차원의 셀레스티얼",
       alias: "라이텔라",
       info: () => `
-라이텔라는 여섯 번째 셀레스티얼이며, 허수 머신 ${format(ImaginaryUpgrade(15).cost)}개로 해당 허수 업그레이드를
+라이텔라는 여섯 번째 셀레스티얼이며, iM ${format(ImaginaryUpgrade(15).cost)}개로 해당 허수 업그레이드를
 구매하면 잠금 해제됩니다.
 <br>
 <br>

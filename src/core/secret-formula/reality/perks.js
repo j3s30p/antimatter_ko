@@ -84,7 +84,7 @@ export const perks = {
     bumpCurrency: () => Currency.eternityPoints.bumpTo(10),
     effect: 10,
     automatorPoints: 5,
-    shortDescription: () => `영원 포인트 ${formatInt(10)}개로 시작`,
+    shortDescription: () => `EP ${formatInt(10)}개로 시작`,
     layoutPosList: [88915, 80999, 79398, 80598, 82197, 103734],
   },
   startEP2: {
@@ -108,7 +108,7 @@ export const perks = {
     bumpCurrency: () => Currency.eternityPoints.bumpTo(5e9),
     effect: 5e9,
     automatorPoints: 10,
-    shortDescription: () => `영원 포인트 ${format(5e9)}개로 시작`,
+    shortDescription: () => `EP ${format(5e9)}개로 시작`,
     layoutPosList: [96459, 81798, 78997, 80596, 82203, 106224],
   },
   startTP: {
@@ -120,7 +120,7 @@ export const perks = {
     },
     effect: () => (Enslaved.isRunning ? 1 : 10),
     automatorPoints: 5,
-    shortDescription: () => `타키온 입자 ${formatInt(10)}개로 시작`,
+    shortDescription: () => `TP ${formatInt(10)}개로 시작`,
     layoutPosList: [102120, 81399, 79399, 80197, 81800, 109376],
   },
   antimatterNoReset: {
@@ -179,7 +179,7 @@ export const perks = {
     family: PERK_FAMILY.DILATION,
     description: "구매할 수 있게 되면 시간 정리를 자동 생산하는 시간 팽창 업그레이드를 자동으로 구매합니다.",
     automatorPoints: 5,
-    shortDescription: () => "시간 정리 생산 자동 구매",
+    shortDescription: () => "TT 생산 자동 구매",
     layoutPosList: [124289, 82601, 79002, 79396, 80206, 72282],
   },
   autounlockTD: {
@@ -188,7 +188,7 @@ export const perks = {
     family: PERK_FAMILY.DILATION,
     description: "구매할 수 있게 되면 제5-8 시간 차원을 자동 해금합니다.",
     automatorPoints: 5,
-    shortDescription: () => "제5-8 시간 차원 자동 해금",
+    shortDescription: () => "TD 5~8 자동 해금",
     layoutPosList: [127117, 82600, 79001, 79796, 80209, 61869],
   },
   autounlockReality: {
@@ -224,7 +224,7 @@ export const perks = {
     description: "시간 팽창 해금에서 영원 도전 11, 영원 도전 12 및 총 시간 정리 " +
       "요구 조건을 제거합니다.",
     automatorPoints: 5,
-    shortDescription: () => `시간 팽창 해금에 시간 정리만 필요`,
+    shortDescription: () => `시간 팽창 해금에 TT만 필요`,
     layoutPosList: [129011, 81802, 80203, 80198, 80600, 109116],
   },
   bypassEC1Lock: {
@@ -261,12 +261,12 @@ export const perks = {
     family: PERK_FAMILY.AUTOMATION,
     get description() {
       return `현실 시간 ${formatInt(60)}분마다 영원 도전 1단계를 자동 완료합니다.
-              영원 도전은 순서대로 완료되며 다음 영원 도전으로 넘어가려면
-              이전의 모든 영원 도전을 완전히 완료해야 합니다.`;
+              EC는 순서대로 완료되며 다음 EC로 넘어가려면
+              이전의 모든 EC를 완전히 완료해야 합니다.`;
     },
     effect: 60,
     automatorPoints: 5,
-    shortDescription: () => `${formatInt(60)}분마다 영원 도전 자동 완료`,
+    shortDescription: () => `${formatInt(60)}분마다 EC 자동 완료`,
     layoutPosList: [90660, 79402, 81002, 79803, 79397, 46664],
   },
   autocompleteEC2: {
@@ -290,7 +290,7 @@ export const perks = {
     },
     effect: 20,
     automatorPoints: 10,
-    shortDescription: () => `${formatInt(20)}분마다 영원 도전 자동 완료`,
+    shortDescription: () => `${formatInt(20)}분마다 EC 자동 완료`,
     layoutPosList: [96311, 78602, 81401, 80204, 79403, 61903],
   },
   studyActiveEP: {
@@ -316,7 +316,7 @@ export const perks = {
     family: PERK_FAMILY.ETERNITY,
     description: "영원 도전 해금에서 시간 정리 이외의 요구 조건을 제거합니다.",
     automatorPoints: 10,
-    shortDescription: () => "영원 도전의 추가 요구 조건 제거",
+    shortDescription: () => "EC 추가 요구 조건 제거",
     layoutPosList: [62714, 78600, 81398, 80604, 78600, 40599],
   },
   studyECBulk: {
@@ -327,7 +327,7 @@ export const perks = {
       `영원 도전의 더 높은 단계 목표에 도달하면
       여러 단계를 한 번에 완료할 수 있습니다.`,
     automatorPoints: 15,
-    shortDescription: () => "영원 도전 일괄 완료",
+    shortDescription: () => "EC 일괄 완료",
     layoutPosList: [62741, 78200, 81397, 81004, 78603, 41435],
   },
   retroactiveTP1: {
@@ -373,7 +373,7 @@ export const perks = {
     },
     effect: 3,
     automatorPoints: 10,
-    shortDescription: () => `${formatX(3)} 타키온 입자 업그레이드가 소급 적용`,
+    shortDescription: () => `${formatX(3)} TP 업그레이드가 소급 적용`,
     layoutPosList: [86984, 82598, 78999, 80595, 81412, 114103],
   },
   autobuyerDilation: {
@@ -394,7 +394,7 @@ export const perks = {
     },
     effect: 1 / 3,
     automatorPoints: 5,
-    shortDescription: () => "더 빠른 무한 차원 자동구매기",
+    shortDescription: () => "더 빠른 ID 자동구매기",
     layoutPosList: [74095, 80199, 80198, 81000, 82997, 77720],
   },
   autobuyerFasterReplicanti: {
@@ -427,7 +427,7 @@ export const perks = {
     family: PERK_FAMILY.AUTOMATION,
     description: "매 틱마다 시간 정리를 하나씩 구매하는 시간 정리 자동구매기를 해금합니다.",
     automatorPoints: 5,
-    shortDescription: () => "시간 정리 단일 구매 자동구매기",
+    shortDescription: () => "TT 단일 구매 자동구매기",
     layoutPosList: [44631, 79398, 80598, 81001, 77797, 57325],
   },
   ttFree: {
@@ -447,7 +447,7 @@ export const perks = {
       return `시간 정리 자동구매기가 시간 정리를 최대로 구매하도록 업그레이드합니다.`;
     },
     automatorPoints: 10,
-    shortDescription: () => "시간 정리 최대 구매 자동구매기",
+    shortDescription: () => "TT 최대 구매 자동구매기",
     layoutPosList: [25055, 78598, 80997, 81003, 77803, 65739],
   },
   dilationAutobuyerBulk: {

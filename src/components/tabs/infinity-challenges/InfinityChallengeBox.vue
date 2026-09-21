@@ -28,7 +28,7 @@ export default {
       return this.challenge.config;
     },
     name() {
-      return `무한 도전 ${this.challenge.id}`;
+      return `IC${this.challenge.id}`;
     }
   },
   methods: {

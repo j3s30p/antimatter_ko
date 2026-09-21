@@ -49,7 +49,7 @@ export default {
       return new ReplicantiUpgradeButtonSetup(
         ReplicantiUpgrade.chance,
         value => `복제 확률: ${formatPercents(value)}`,
-        cost => `+${formatPercents(0.01)} 비용: 무한 포인트 ${format(cost)}`
+        cost => `+${formatPercents(0.01)} 비용: ${format(cost)} IP`
       );
     },
     replicantiIntervalSetup() {
@@ -74,7 +74,7 @@ export default {
         upgrade,
         value => `간격: ${formatInterval(value)}`,
         cost =>
-          `➜ ${formatInterval(upgrade.nextValue)} 비용: 무한 포인트 ${format(cost)}`
+          `➜ ${formatInterval(upgrade.nextValue)} 비용: ${format(cost)} IP`
       );
     },
     maxGalaxySetup() {
@@ -92,7 +92,7 @@ export default {
           }
           return description;
         },
-        cost => `+${formatInt(1)} 비용: 무한 포인트 ${format(cost)}`
+        cost => `+${formatInt(1)} 비용: ${format(cost)} IP`
       );
     },
     boostText() {

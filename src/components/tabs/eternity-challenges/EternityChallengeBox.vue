@@ -63,7 +63,7 @@ export default {
       };
     },
     name() {
-      return `영원 도전 ${this.challenge.id}`;
+      return `EC${this.challenge.id}`;
     }
   },
   methods: {

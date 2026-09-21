@@ -7,6 +7,7 @@
     "build:steam-development": "node build/pre-build.js && vue-cli-service build --mode steam-development",
     "build:steam-release": "node build/pre-build.js && vue-cli-service build --mode steam-release",
     "audit:ko": "node tools/translation-audit.cjs",
+    "audit:abbreviations": "node tools/abbreviation-audit.cjs",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {

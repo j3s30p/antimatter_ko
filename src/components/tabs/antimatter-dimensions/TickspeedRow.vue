@@ -88,7 +88,7 @@ export default {
           틱스피드 연속체: {{ continuumString }}
         </span>
         <span v-else-if="isEC9">
-          틱스피드 구매 불가 (영원 도전 9)
+          틱스피드 구매 불가 (EC9)
         </span>
         <span v-else>
           틱스피드 비용: {{ format(cost) }}

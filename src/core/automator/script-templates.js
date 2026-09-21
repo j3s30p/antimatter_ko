@@ -109,8 +109,8 @@ export class ScriptTemplate {
    * @param {Object} params.autoEterValue   Multiplier threshold or time for eternity autobuyer
    */
   templateClimbEP(params) {
-    this.lines.push("// 템플릿: 영원 포인트 불리기");
-    this.lines.push(`notify "영원 포인트 불리기 템플릿 실행 중 (목표: ${format(params.finalEP)})"`);
+    this.lines.push("// 템플릿: EP 불리기");
+    this.lines.push(`notify "EP 불리기 템플릿 실행 중 (목표: ${format(params.finalEP)})"`);
     this.storeTreeData(params);
     this.lines.push(`auto infinity ${this.parseAutobuyerProp(params.autoInfMode, params.autoInfValue)}`);
     this.lines.push(`auto eternity ${this.parseAutobuyerProp(params.autoEterMode, params.autoEterValue)}`);
@@ -189,7 +189,7 @@ export class ScriptTemplate {
    */
   templateDoEC(params) {
     this.lines.push("// 템플릿: 영원 도전 완료하기");
-    this.lines.push(`notify "영원 도전 완료하기 템플릿 실행 중 (영원 도전 ${params.ec})"`);
+    this.lines.push(`notify "영원 도전 완료하기 템플릿 실행 중 (EC${params.ec})"`);
     // Force an eternity in order to buy the study tree first
     this.lines.push("eternity respec");
 
@@ -201,18 +201,18 @@ export class ScriptTemplate {
       this.lines.push(`unlock ec ${params.ec}`);
       // Attempt to buy it, supplying an error if we can't actually reach it
       if (!tree.hasRequirements(TimeStudy.eternityChallenge(params.ec), true)) {
-        this.warnings.push("지정한 시간 연구 트리로는 지정한 영원 도전에 도달할 수 없습니다");
+        this.warnings.push("지정한 시간 연구 트리로는 지정한 EC에 도달할 수 없습니다");
       }
-    } else if (tree.ec !== params.ec) this.warnings.push("지정한 시간 연구 트리에 이미 다른 영원 도전이 해금되어 있습니다");
+    } else if (tree.ec !== params.ec) this.warnings.push("지정한 시간 연구 트리에 이미 다른 EC가 해금되어 있습니다");
 
     // Apply autobuyer settings; we specifically want to turn auto-eternity off so that we can manually trigger the
     // prestige - otherwise, the autobuyer may end up preempting multiple completions
     this.lines.push(`auto infinity ${this.parseAutobuyerProp(params.autoInfMode, params.autoInfValue)}`);
     this.lines.push(`auto eternity off`);
-    if (!TimeStudy.eternityChallenge(params.ec)) this.warnings.push("지정한 템플릿의 영원 도전이 존재하지 않습니다");
+    if (!TimeStudy.eternityChallenge(params.ec)) this.warnings.push("지정한 템플릿의 EC가 존재하지 않습니다");
     this.lines.push(`start ec ${params.ec}`);
 
-    if (params.completions > 5) this.warnings.push(`영원 도전은 ${formatInt(5)}회를 초과해 완료할 수 없습니다`);
+    if (params.completions > 5) this.warnings.push(`EC는 ${formatInt(5)}회를 초과해 완료할 수 없습니다`);
     this.lines.push(`wait pending completions >= ${params.completions}`);
     this.lines.push("eternity");
   }

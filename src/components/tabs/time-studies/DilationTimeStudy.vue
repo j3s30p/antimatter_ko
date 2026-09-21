@@ -31,7 +31,7 @@ export default {
     },
     requirement() {
       if (this.id === 1) {
-        return `요구 조건: 영원 도전 11과 12 각각 ${formatInt(5)}회 완료 및
+        return `요구 조건: EC11과 EC12 각각 ${formatInt(5)}회 완료 및
           총 시간 정리 ${formatInt(this.maxTT)}/${formatInt(TimeStudy.dilation.totalTimeTheoremRequirement)}`;
       }
       if (this.id === 6) {

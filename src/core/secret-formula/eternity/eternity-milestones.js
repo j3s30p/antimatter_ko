@@ -179,7 +179,7 @@ export const eternityMilestones = {
         (infinities.gt(0) ? `(현재 ${format(infinities, 2, 2)}회/시간)` : "(비활성)");
     },
     activeCondition: () => (player.options.offlineProgress
-      ? `일반/무한 도전 및 영원 도전 4·12 밖에 있어야 하고,
+      ? `일반/무한 도전 및 EC4·EC12 밖에 있어야 하고,
         빅 크런치 자동 구매기를 켜서 ${formatInt(5)}초 이하의 시간 모드로 설정해야 하며,
         영원 자동 구매기는 꺼져 있어야 합니다.`
       : ""),

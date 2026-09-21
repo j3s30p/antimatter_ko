@@ -194,7 +194,7 @@ export const normalTimeStudies = [
     cost: 5,
     requirement: [73],
     reqType: TS_REQUIREMENT_TYPE.AT_LEAST_ONE,
-    description: "시간 차원으로 획득한 틱스피드 업그레이드가 차원 가속에 영향을 준다.",
+    description: "TD로 획득한 틱스피드 업그레이드가 차원 가속에 영향을 준다.",
     effect: () => DC.D1_0004.pow(player.totalTickGained),
     cap: DC.E30,
     formatEffect: value => formatX(value, 2, 1)
@@ -274,7 +274,7 @@ export const normalTimeStudies = [
     requiresST: [122, 123],
     description: () => (Perk.studyActiveEP.isBought
       ? `영원 포인트를 ${formatX(50)} 더 얻는다.`
-      : `최근 영원 10회의 속도에 따라 영원 포인트를 더 얻는다${PlayerProgress.realityUnlocked() ? " (실제 시간)" : ""}`),
+      : `최근 영원 10회의 속도에 따라 EP를 더 얻는다${PlayerProgress.realityUnlocked() ? " (실제 시간)" : ""}`),
     effect: () => (Perk.studyActiveEP.isBought
       ? 50
       : Math.clamp(250 / Player.averageRealTimePerEternity, 1, 50)),

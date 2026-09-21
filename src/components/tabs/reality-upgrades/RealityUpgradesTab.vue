@@ -8,8 +8,8 @@ export default {
   },
   computed: {
     upgrades: () => RealityUpgrades.all,
-    costScalingTooltip: () => `비용은 리얼리티 머신 ${format(1e30)}개부터 더 빠르게 증가하고,
-      ${format(Decimal.NUMBER_MAX_VALUE, 1)}개부터는 훨씬 더 빠르게 증가합니다.`,
+    costScalingTooltip: () => `비용은 ${format(1e30)} RM부터 더 빠르게 증가하고,
+      ${format(Decimal.NUMBER_MAX_VALUE, 1)} RM부터는 훨씬 더 빠르게 증가합니다.`,
     possibleTooltip: () => `바둑판무늬 업그레이드는 이번 현실에서 해금할 수 없으며,
       줄무늬 업그레이드는 아직 해금할 수 있습니다.`,
     lockTooltip: () => `아직 조건 달성에 실패하지 않았고 업그레이드도 해금하지 않은 경우에만 작동합니다.`,

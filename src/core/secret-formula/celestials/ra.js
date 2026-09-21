@@ -5,7 +5,7 @@ export const ra = {
       name: "Teresa",
       color: "#8596ea",
       chunkGain: "영원 포인트",
-      memoryGain: "현재 리얼리티 머신",
+      memoryGain: "현재 RM",
       requiredUnlock: () => undefined,
       rawMemoryChunksPerSecond: () => 4 * Math.pow(Currency.eternityPoints.value.pLog10() / 1e4, 3),
       memoryProductionMultiplier: () => Ra.unlocks.teresaXP.effectOrDefault(1)
@@ -93,7 +93,7 @@ export const ra = {
     unlockDilationStartingTP: {
       id: 6,
       reward: `셀레스티얼 현실 밖에서는 시간 팽창에서 총 반물질의 제곱근에 도달한 것처럼 타키온 입자를
-        획득합니다. 타키온 입자 획득 배율은 시간 팽창 밖에서도 소급 적용됩니다`,
+        획득합니다. TP 획득 배율은 시간 팽창 밖에서도 소급 적용됩니다`,
       effect: () => player.records.totalAntimatter.pow(0.5),
       pet: "teresa",
       level: 25,

@@ -35,7 +35,7 @@ export const glyphEffects = {
     glyphTypes: ["time"],
     singleDesc: "시간 차원 지수 +{value}",
     totalDesc: "시간 차원 배율 ^{value}",
-    shortDesc: "시간 차원 지수 +{value}",
+    shortDesc: "TD 지수 +{value}",
     effect: (level, strength) => 1.01 + Math.pow(level, 0.32) * Math.pow(strength, 0.45) / 75,
     formatEffect: x => format(x, 3, 3),
     formatSingleEffect: x => format(x - 1, 3, 3),
@@ -91,8 +91,8 @@ export const glyphEffects = {
       ? "영원 포인트 획득 배율 및 지수"
       : "영원 포인트 획득 배율"),
     shortDesc: () => (GlyphAlteration.isAdded("time")
-      ? "영원 포인트 ×{value} 및 ^{value2}"
-      : "영원 포인트 ×{value}"),
+      ? "EP ×{value} 및 ^{value2}"
+      : "EP ×{value}"),
     effect: (level, strength) => Math.pow(level * strength, 3) * 100,
     formatEffect: x => format(x, 2, 3),
     combine: GlyphCombiner.multiply,
@@ -108,7 +108,7 @@ export const glyphEffects = {
     glyphTypes: ["dilation"],
     singleDesc: "팽창된 시간 획득량에 {value} 배율 적용",
     totalDesc: "팽창된 시간 획득량 ×{value}",
-    shortDesc: "팽창된 시간 ×{value}",
+    shortDesc: "DT ×{value}",
     effect: (level, strength) => (GlyphAlteration.isEmpowered("dilation")
       ? DC.D1_005.pow(level).times(15)
       : Decimal.pow(level * strength, 1.5).times(2)),
@@ -154,8 +154,8 @@ export const glyphEffects = {
       ? "시간 정리 생산 및 배율"
       : "시간 정리 생산"),
     shortDesc: () => (GlyphAlteration.isAdded("dilation")
-      ? "시간당 시간 정리 {value}개 및 생산량 ×{value2}"
-      : "시간당 시간 정리 {value}개"),
+      ? "시간당 TT {value}개 및 TTgen ×{value2}"
+      : "시간당 TT {value}개"),
     effect: (level, strength) => Math.pow(level * strength, 0.5) / 10000,
     /** @type {function(number): string} */
     formatEffect: x => format(3600 * x, 2, 2),
@@ -173,7 +173,7 @@ export const glyphEffects = {
     singleDesc: "시간 팽창 중 반물질 차원 지수 +{value}",
     totalDesc: "시간 팽창 중 반물질 차원 배율 ^{value}",
     genericDesc: "시간 팽창 중 반물질 차원 ^x",
-    shortDesc: "팽창 중 반물질 차원 지수 +{value}",
+    shortDesc: "팽창 중 AD 지수 +{value}",
     effect: (level, strength) => 1.1 + Math.pow(level, 0.7) * Math.pow(strength, 0.7) / 25,
     formatEffect: x => format(x, 2, 2),
     formatSingleEffect: x => format(x - 1, 2, 2),
@@ -229,8 +229,8 @@ export const glyphEffects = {
       ? "복제자에 따른 팽창된 시간 및 복제자 배율"
       : "복제자에 따른 팽창된 시간 획득 배율"),
     shortDesc: () => (GlyphAlteration.isAdded("replication")
-      ? `복제자 ${format(DC.E10000)}개마다 팽창된 시간 및 복제 속도 +{value}`
-      : `복제자 ${format(DC.E10000)}개마다 팽창된 시간 +{value}`),
+      ? `복제자 ${format(DC.E10000)}개마다 DT 및 복제 속도 +{value}`
+      : `복제자 ${format(DC.E10000)}개마다 DT +{value}`),
     effect: (level, strength) => 0.0003 * Math.pow(level, 0.3) * Math.pow(strength, 0.65),
     formatEffect: x => format(10000 * x, 2, 2),
     formatSingleEffect: x => format(10000 * x, 2, 2),
@@ -277,7 +277,7 @@ export const glyphEffects = {
     glyphTypes: ["infinity"],
     singleDesc: "무한 차원 지수 +{value}",
     totalDesc: "무한 차원 배율 ^{value}",
-    shortDesc: "무한 차원 지수 +{value}",
+    shortDesc: "ID 지수 +{value}",
     effect: (level, strength) => 1.007 + Math.pow(level, 0.21) * Math.pow(strength, 0.4) / 75 +
       GlyphAlteration.sacrificeBoost("infinity") / 50,
     formatEffect: x => format(x, 3, 3),
@@ -318,8 +318,8 @@ export const glyphEffects = {
       ? "무한 포인트 획득 배율 및 지수"
       : "무한 포인트 획득 배율"),
     shortDesc: () => (GlyphAlteration.isAdded("infinity")
-      ? "무한 포인트 ×{value} 및 ^{value2}"
-      : "무한 포인트 ×{value}"),
+      ? "IP ×{value} 및 ^{value2}"
+      : "IP ×{value}"),
     effect: (level, strength) => Math.pow(level * (strength + 1), 6) * 10000,
     formatEffect: x => format(x, 2, 3),
     combine: GlyphCombiner.multiply,
@@ -362,8 +362,8 @@ export const glyphEffects = {
       ? "반물질 차원 배율 ^x 및 반물질 은하 가격 배율"
       : "반물질 차원 배율 ^x"),
     shortDesc: () => (GlyphAlteration.isAdded("power")
-      ? "반물질 차원 지수 +{value} 및 은하 가격 ×{value2}"
-      : "반물질 차원 지수 +{value}"),
+      ? "AD 지수 +{value} 및 AG 가격 ×{value2}"
+      : "AD 지수 +{value}"),
     effect: (level, strength) => 1.015 + Math.pow(level, 0.2) * Math.pow(strength, 0.4) / 75,
     formatEffect: x => format(x, 3, 3),
     formatSingleEffect: x => format(x - 1, 3, 3),
@@ -380,7 +380,7 @@ export const glyphEffects = {
     isGenerated: true,
     glyphTypes: ["power"],
     singleDesc: "반물질 차원 배율 ×{value}",
-    shortDesc: "반물질 차원 ×{value}",
+    shortDesc: "AD ×{value}",
     effect: (level, strength) => (GlyphAlteration.isEmpowered("power")
       ? DC.D11111.pow(level * 220)
       : Decimal.pow(level * strength * 10, level * strength * 10)),
@@ -414,7 +414,7 @@ export const glyphEffects = {
     singleDesc: () => `반물질 차원 ${formatInt(10)}개 구매 보너스를 {value}만큼 증가`,
     totalDesc: () => `"${formatInt(10)}개 구매" 배율 ×{value}`,
     genericDesc: () => `"${formatInt(10)}개 구매" 보너스 증가`,
-    shortDesc: () => `반물질 차원 "${formatInt(10)}개 구매" 배율 ×{value}`,
+    shortDesc: () => `AD "${formatInt(10)}개 구매" 배율 ×{value}`,
     effect: (level, strength) => 1 + level * strength / 12,
     formatEffect: x => format(x, 2, 2),
     combine: GlyphCombiner.addExponents,
@@ -427,7 +427,7 @@ export const glyphEffects = {
     glyphTypes: ["effarig"],
     singleDesc: "리얼리티 머신 배율 ×{value}",
     genericDesc: "리얼리티 머신 배율",
-    shortDesc: "리얼리티 머신 ×{value}",
+    shortDesc: "RM ×{value}",
     effect: (level, strength) => (GlyphAlteration.isEmpowered("effarig")
       ? Math.pow(level, 1.5)
       : Math.pow(level, 0.6) * strength),
@@ -525,7 +525,7 @@ export const glyphEffects = {
     glyphTypes: ["effarig"],
     singleDesc: () => `반물질 생산:\n${formatInt(10)}^x ➜ ${formatInt(10)}^(x^{value})`,
     genericDesc: "반물질 생산 지수의 지수",
-    shortDesc: "반물질 생산 지수 ^{value}",
+    shortDesc: "AM 생산 지수 ^{value}",
     effect: (level, strength) => 1 + Math.pow(level, 0.25) * Math.pow(strength, 0.4) / 5000,
     formatEffect: x => format(x, 4, 4),
     combine: GlyphCombiner.multiply,
@@ -578,7 +578,7 @@ export const glyphEffects = {
     glyphTypes: ["cursed"],
     singleDesc: "시간 차원의 틱스피드 업그레이드 요구량에 ×{value} 배율 적용",
     totalDesc: "시간 차원의 틱스피드 업그레이드 요구량이 ×{value} 증가",
-    shortDesc: "시간 차원 틱스피드 요구량 ×{value}",
+    shortDesc: "TD 틱스피드 요구량 ×{value}",
     // Additive 3.82 per glyph
     effect: level => Math.clampMin(Math.log10(level), 1),
     formatEffect: x => format(x, 3, 3),
@@ -591,7 +591,7 @@ export const glyphEffects = {
     glyphTypes: ["cursed"],
     singleDesc: "영원 포인트 획득량을 {value}로 나눔",
     totalDesc: "영원 포인트 획득량 / {value}",
-    shortDesc: "영원 포인트 / {value}",
+    shortDesc: "EP / {value}",
     // Divides e666.6 per glyph
     effect: level => Decimal.pow10(-level / 10),
     formatEffect: x => format(x.reciprocal()),
@@ -643,7 +643,7 @@ export const glyphEffects = {
     totalDesc: () => `글리프 레벨의 팽창된 시간 요소: ^${format(1.3, 1, 1)}
       ➜ ^(${format(1.3, 1, 1)} + {value})`,
     genericDesc: "글리프 레벨의 팽창된 시간 요소",
-    shortDesc: "레벨의 팽창된 시간 지수 +{value}",
+    shortDesc: "레벨의 DT 지수 +{value}",
     // You can only get this effect on level 25000 reality glyphs anyway, might as well make it look nice
     effect: () => 0.1,
     formatEffect: x => format(x, 2, 2),

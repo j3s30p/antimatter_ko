@@ -49,7 +49,7 @@ export default {
     singleText() {
       if (this.isCapped) return "상한 도달";
       const prefix = this.showCostTitle(this.singleCost) ? "비용: " : "";
-      const suffix = this.isCostsAD ? `${this.costUnit}` : "반물질";
+      const suffix = this.isCostsAD ? `${this.costUnit}` : "AM";
       return `${prefix} ${format(this.singleCost)} ${suffix}`;
     },
     until10Text() {
@@ -57,7 +57,7 @@ export default {
       if (this.isContinuumActive) return `연속체: ${this.continuumString}`;
 
       const prefix = `${formatInt(10)}개까지${this.showCostTitle(this.until10Cost) ? ", 비용" : ""}`;
-      const suffix = this.isCostsAD ? `${this.costUnit}` : "반물질";
+      const suffix = this.isCostsAD ? `${this.costUnit}` : "AM";
       return `${prefix} ${format(this.until10Cost)} ${suffix}`;
     },
     continuumString() {

@@ -73,7 +73,7 @@ export default {
       };
     },
     pourText() {
-      return this.isPouredAmountCapped ? "가득 참" : "리얼리티 머신 붓기";
+      return this.isPouredAmountCapped ? "가득 참" : "RM 붓기";
     },
     runDescription() {
       return GameDatabase.celestials.descriptions[0].effects();

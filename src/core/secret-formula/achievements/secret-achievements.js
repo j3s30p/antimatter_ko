@@ -155,7 +155,7 @@ export const secretAchievements = [
   {
     id: 42,
     name: "부끄러운 줄 알아야지",
-    description: "영원 도전 12로 시간을 가속해 보세요."
+    description: "EC12로 시간을 가속해 보세요."
   },
   {
     id: 43,

@@ -54,7 +54,7 @@ export default {
       return `구매 횟수: ${formatInt(this.bought)}회`;
     },
     costUnit() {
-      return `${AntimatterDimension(this.tier - 2).shortDisplayName} 반물질 차원`;
+      return `${AntimatterDimension(this.tier - 2).shortDisplayName} AD`;
     },
     buttonPrefix() {
       if (!this.isUnlocked) return "잠김";
@@ -66,7 +66,7 @@ export default {
       if (this.isCapped) return "";
       if (this.isContinuumActive) return this.continuumString;
       const prefix = this.showCostTitle(this.buyUntil10 ? this.until10Cost : this.singleCost) ? "비용: " : "";
-      const suffix = this.isCostsAD ? this.costUnit : "반물질";
+      const suffix = this.isCostsAD ? this.costUnit : "AM";
       return `${prefix}${this.costDisplay} ${suffix}`;
     },
     hasLongText() {

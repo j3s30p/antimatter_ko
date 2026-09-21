@@ -67,14 +67,14 @@ export const automatorTemplates = {
     */
   scripts: [
     {
-      name: "영원 포인트 올리기",
+      name: "EP 올리기",
       displayName: "영원 포인트 불리기",
       description: `이 스크립트는 영원을 반복하며, 영원을 수행할 때마다 시간 연구 트리를 다시 구매하려고 합니다.
         무한 및 영원 자동구매기의 설정을 입력해야 합니다. 지정한 영원 포인트에 도달할 때까지 반복합니다.`,
       inputs: [
         { name: "treeStudies", type: "tree", prompt: "또는 시간 연구를 직접 입력" },
         { name: "treeNowait", type: "nowait", prompt: "시간 연구가 남았을 때의 동작" },
-        { name: "finalEP", type: "decimal", prompt: "목표 영원 포인트" },
+        { name: "finalEP", type: "decimal", prompt: "목표 EP" },
         { name: "autoInfMode", type: "mode", prompt: "무한 자동구매기 모드" },
         { name: "autoInfValue", type: "decimal", prompt: "무한 자동구매기 기준값" },
         { name: "autoEterMode", type: "mode", prompt: "영원 자동구매기 모드" },
@@ -153,7 +153,7 @@ export const automatorTemplates = {
       inputs: [
         { name: "treeStudies", type: "tree", prompt: "또는 시간 연구를 직접 입력" },
         { name: "treeNowait", type: "nowait", prompt: "시간 연구가 남았을 때의 동작" },
-        { name: "ec", type: "integer", prompt: "영원 도전 번호" },
+        { name: "ec", type: "integer", prompt: "영원 도전 ID" },
         { name: "completions", type: "integer", prompt: "목표 완료 횟수" },
         { name: "autoInfMode", type: "mode", prompt: "무한 자동구매기 모드" },
         { name: "autoInfValue", type: "decimal", prompt: "무한 자동구매기 기준값" },
@@ -181,7 +181,7 @@ export const automatorTemplates = {
       inputs: [
         { name: "treeStudies", type: "tree", prompt: "또는 시간 연구를 직접 입력" },
         { name: "treeNowait", type: "nowait", prompt: "시간 연구가 남았을 때의 동작" },
-        { name: "finalEP", type: "decimal", prompt: "목표 영원 포인트" },
+        { name: "finalEP", type: "decimal", prompt: "목표 EP" },
         { name: "autoEterMode", type: "mode", prompt: "영원 자동구매기 모드" },
         { name: "autoEterValue", type: "decimal", prompt: "영원 자동구매기 기준값" },
       ],

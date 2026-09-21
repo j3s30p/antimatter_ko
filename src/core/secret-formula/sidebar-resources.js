@@ -43,7 +43,7 @@ export const sidebarResources = [
   },
   {
     id: 6,
-    optionName: "총 시간 정리",
+    optionName: "총 TT",
     isAvailable: () => PlayerProgress.eternityUnlocked(),
     value: () => player.timestudy.theorem.plus(TimeTheorems.calculateTimeStudiesCost()),
     formatValue: x => format(x, 2),

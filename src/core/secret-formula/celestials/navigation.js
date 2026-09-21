@@ -241,7 +241,7 @@ export const celestialNavigation = {
         text: () => {
           const rm = Teresa.pouredAmount;
           const cost = TeresaUnlocks.run.price;
-          return `리얼리티 머신 ${format(rm, 2)} / ${format(cost, 2)}을 주입하세요`;
+          return `RM ${format(rm, 2)} / ${format(cost, 2)}을 주입하세요`;
         },
         angle: 135,
         diagonal: 16,
@@ -1829,7 +1829,7 @@ export const celestialNavigation = {
               "반물질의 셀레스티얼"
             ];
           }
-          let laitelaString = `${format(Currency.eternityPoints.value)} / ${format("1e4000")} 영원 포인트`;
+          let laitelaString = `${format(Currency.eternityPoints.value)} / ${format("1e4000")} EP`;
           if (!Laitela.isRunning || Laitela.difficultyTier !== 8 || Glyphs.activeWithoutCompanion.length > 1) {
             laitelaString = "라이텔라의 현실이 아직 온전합니다";
           } else if (ImaginaryUpgrade(25).isAvailableForPurchase) {
@@ -1838,7 +1838,7 @@ export const celestialNavigation = {
           return [
             "펠레 해금",
             "반물질의 셀레스티얼",
-            `${format(Currency.imaginaryMachines.value, 2)} / ${format(1.6e15, 2)} 허수 머신`,
+            `${format(Currency.imaginaryMachines.value, 2)} / ${format(1.6e15, 2)} iM`,
             laitelaString
           ];
         },

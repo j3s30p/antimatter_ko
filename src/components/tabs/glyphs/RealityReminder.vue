@@ -30,13 +30,13 @@ export default {
         arr.push(`남은 팽창 업그레이드를 구매하세요 (${formatInt(this.unpurchasedDilationUpgrades)}개 남음)`);
       }
       if (this.currLog10EP > 1.3 * this.cheapestLog10TD) {
-        arr.push(`시간 차원을 더 구매하세요 (최저 비용: ${format(Decimal.pow10(this.cheapestLog10TD))} EP)`);
+        arr.push(`TD를 더 구매하세요 (최저 비용: ${format(Decimal.pow10(this.cheapestLog10TD))} EP)`);
       }
       if (this.currLog10EP > 1.3 * this.multEPLog10Cost) {
         arr.push(`${formatX(5)} EP를 더 구매하세요 (비용: ${format(Decimal.pow10(this.multEPLog10Cost))} EP)`);
       }
       if (this.ecCount < 60) {
-        arr.push(`남은 영원 도전을 완료하세요 (완료: ${formatInt(this.ecCount)}/${formatInt(60)})`);
+        arr.push(`남은 EC를 완료하세요 (완료: ${formatInt(this.ecCount)}/${formatInt(60)})`);
       }
       if (!this.hasDilated) {
         arr.push("팽창된 영원을 달성하세요");

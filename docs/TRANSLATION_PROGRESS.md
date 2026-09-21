@@ -124,6 +124,11 @@ Update this file whenever a translation batch is committed. An area becomes `QA 
   bundle hash comparison, 304-file Greenworks sidecar check, and absence of the Endgame marker passed. RC4 was installed
   only after all five existing game processes were stopped and a zero-process state was verified; the game was then
   launched exactly once and returned to five responsive Electron processes.
+- Abbreviation fidelity pass: compared all player-facing JS/Vue strings in 679 source files against the official
+  `origin/master` source while requiring original abbreviations (`AM`, `AD`, `AG`, `IP`, `ID`, `IC`, `EP`, `EC`,
+  `TT`, `DT`, `TP`, `RM`, `iM`, `DM`, `DE`, `RS`, and `TD`) to remain abbreviated and original full names to remain
+  full Korean names. The structural audit, file-level count audit, and parser checks now report zero mismatches and
+  zero failures. Automator command tokens and internal identifiers were left unchanged.
 - GitHub release layout correction: public ZIP archives are now GitHub Release assets rather than files tracked at the
   default branch root. The default branch contains only the copy-over release payload and its required documentation:
   `resources/app.asar`, the Korean installation guide, manifest, attribution, Galmuri license, and repository README.

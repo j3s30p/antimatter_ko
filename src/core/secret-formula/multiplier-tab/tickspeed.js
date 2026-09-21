@@ -78,7 +78,7 @@ export const tickspeedUpgrades = {
     icon: MultiplierTabIcons.PURCHASE("AD"),
   },
   free: {
-    name: "시간 차원에서 얻는 틱스피드 업그레이드",
+    name: "TD에서 얻는 틱스피드 업그레이드",
     displayOverride: () => formatInt(player.totalTickGained),
     multValue: () => Decimal.pow10(player.totalTickGained),
     isActive: () => Currency.timeShards.gt(0),

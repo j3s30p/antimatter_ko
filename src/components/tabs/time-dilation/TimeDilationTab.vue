@@ -116,7 +116,7 @@ export default {
       this.maxDT.copyFrom(player.records.thisReality.maxDT);
 
       const estimateText = getDilationTimeEstimate(this.maxDT);
-      if (this.dilatedTimeIncome.lte(0)) this.toMaxTooltip = "팽창된 시간 획득 없음";
+      if (this.dilatedTimeIncome.lte(0)) this.toMaxTooltip = "DT 획득 없음";
       else this.toMaxTooltip = estimateText.startsWith("<") ? "현재 증가 중" : estimateText;
     }
   }

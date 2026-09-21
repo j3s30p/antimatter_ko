@@ -59,7 +59,7 @@ export const DT = {
     icon: MultiplierTabIcons.GENERIC_GLYPH
   },
   ra1: {
-    name: "라 업그레이드 - 시간 정리 기반 배율",
+    name: "라 업그레이드 - TT 기반 배율",
     multValue: () => DC.D1.timesEffectsOf(Ra.unlocks.continuousTTBoost.effects.dilatedTime),
     isActive: () => Ra.unlocks.autoTP.canBeApplied && getDilationGainPerSecond().neq(0),
     icon: MultiplierTabIcons.GENERIC_RA,

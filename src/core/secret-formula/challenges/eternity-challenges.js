@@ -73,7 +73,7 @@ export const eternityChallenges = [
     reward: {
       description: "먼 은하 비용 스케일링이 더 늦게 시작",
       effect: completions => completions * 5,
-      formatEffect: value => `반물질 은하 ${formatInt(value)}개만큼 지연`
+      formatEffect: value => `AG ${formatInt(value)}개만큼 지연`
     }
   },
   {

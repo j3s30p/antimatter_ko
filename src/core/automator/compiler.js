@@ -333,7 +333,7 @@ class Validator extends BaseVisitor {
       const ecNumber = parseFloat(ctx.ECNumber[0].image);
       if (!Number.isInteger(ecNumber) || ecNumber < 0 || ecNumber > 12) {
         this.addError(ctx.ECNumber, `올바르지 않은 영원 도전 ID ${ecNumber}`,
-          `영원 도전 ${ecNumber}: 존재하지 않는 ID입니다. ${format(1)}에서 ${format(12)} 사이의 정수를 사용하세요`);
+          `영원 도전 ${ecNumber}은(는) 존재하지 않습니다. ${format(1)}에서 ${format(12)} 사이의 정수를 사용하세요`);
       }
       ctx.$cached.ec = ecNumber;
     }
@@ -392,7 +392,7 @@ class Validator extends BaseVisitor {
     }
     if (!Number.isInteger(ecNumber) || ecNumber < 1 || ecNumber > 12) {
       this.addError(errToken, `올바르지 않은 영원 도전 ID ${ecNumber}`,
-        `영원 도전 ${ecNumber}: 존재하지 않는 ID입니다. ${format(1)}에서 ${format(12)} 사이의 정수를 사용하세요`);
+        `영원 도전 ${ecNumber}은(는) 존재하지 않습니다. ${format(1)}에서 ${format(12)} 사이의 정수를 사용하세요`);
     }
     ctx.$ecNumber = ecNumber;
   }

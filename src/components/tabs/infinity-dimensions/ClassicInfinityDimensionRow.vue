@@ -55,7 +55,7 @@ export default {
         return "해금";
       }
 
-      return `반물질 ${formatPostBreak(InfinityDimension(this.tier).amRequirement)} 도달`;
+      return `${formatPostBreak(InfinityDimension(this.tier).amRequirement)} AM 도달`;
     },
     hasLongText() {
       return this.costDisplay.length > 20;

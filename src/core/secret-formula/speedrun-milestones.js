@@ -50,7 +50,7 @@ export const speedrunMilestones = [
   {
     id: 7,
     key: "upgrade5e11IP",
-    get name() { return `${format(5e11)} 무한 포인트 업그레이드`; },
+    get name() { return `${format(5e11)} IP 업그레이드`; },
     description: () => `은하가 ${formatPercents(0.5)} 더 강해지는 업그레이드를 구매합니다`,
     checkRequirement: () => true,
     // This is checked within BreakInfinityUpgrade.onPurchased

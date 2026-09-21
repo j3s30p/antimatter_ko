@@ -8,12 +8,12 @@ import { MultiplierTabIcons } from "./icons";
 export const AD = {
   total: {
     name: dim => {
-      if (dim) return `제${dim} 반물질 차원 배율`;
+      if (dim) return `AD ${dim} 배율`;
       if (NormalChallenge(12).isRunning) {
-        if (MultiplierTabHelper.actualNC12Production().eq(0)) return "모든 차원의 기본 반물질 차원 생산량";
-        return `${MultiplierTabHelper.isNC12ProducingEven() ? "짝수" : "홀수"} 차원의 기본 반물질 차원 생산량`;
+        if (MultiplierTabHelper.actualNC12Production().eq(0)) return "모든 차원의 기본 AD 생산량";
+        return `${MultiplierTabHelper.isNC12ProducingEven() ? "짝수" : "홀수"} 차원의 기본 AD 생산량`;
       }
-      return "기본 반물질 차원 생산량";
+      return "기본 AD 생산량";
     },
     displayOverride: dim => {
       if (dim) {
@@ -60,7 +60,7 @@ export const AD = {
     icon: dim => MultiplierTabIcons.DIMENSION("AD", dim),
   },
   purchase: {
-    name: dim => (dim ? `구매한 제${dim} 반물질 차원` : "구매"),
+    name: dim => (dim ? `구매한 AD ${dim}` : "구매"),
     multValue: dim => {
       const getPurchases = ad => (Laitela.continuumActive
         ? AntimatterDimension(ad).continuumValue
@@ -79,7 +79,7 @@ export const AD = {
     name: () => `가장 높은 차원 보유량`,
     displayOverride: () => {
       const dim = EternityChallenge(7).isRunning ? 7 : MultiplierTabHelper.activeDimCount("AD");
-      return `제${dim} 반물질 차원, ${format(AntimatterDimension(dim).totalAmount, 2)}`;
+      return `AD ${dim}, ${format(AntimatterDimension(dim).totalAmount, 2)}`;
     },
     multValue: () => {
       const dim = EternityChallenge(7).isRunning ? 7 : MultiplierTabHelper.activeDimCount("AD");
@@ -90,7 +90,7 @@ export const AD = {
   },
 
   dimboost: {
-    name: dim => (dim ? `제${dim} 반물질 차원의 차원 가속` : "차원 가속"),
+    name: dim => (dim ? `AD ${dim} 차원 가속` : "차원 가속"),
     multValue: dim => (dim
       ? DimBoost.multiplierToNDTier(dim)
       : AntimatterDimensions.all
@@ -160,7 +160,7 @@ export const AD = {
     icon: MultiplierTabIcons.ACHIEVEMENT,
   },
   infinityUpgrade: {
-    name: dim => (dim ? `무한 업그레이드 (제${dim} 반물질 차원)` : "무한 업그레이드"),
+    name: dim => (dim ? `무한 업그레이드 (AD ${dim})` : "무한 업그레이드"),
     multValue: dim => {
       const allMult = DC.D1.timesEffectsOf(
         InfinityUpgrade.totalTimeMult,
@@ -232,7 +232,7 @@ export const AD = {
     icon: MultiplierTabIcons.INFINITY_POWER,
   },
   infinityChallenge: {
-    name: dim => (dim ? `무한 도전 (제${dim} 반물질 차원)` : "무한 도전"),
+    name: dim => (dim ? `무한 도전 (AD ${dim})` : "무한 도전"),
     multValue: dim => {
       const allMult = DC.D1.timesEffectsOf(
         InfinityChallenge(3),
@@ -258,7 +258,7 @@ export const AD = {
     icon: MultiplierTabIcons.CHALLENGE("infinity"),
   },
   timeStudy: {
-    name: dim => (dim ? `시간 연구 (제${dim} 반물질 차원)` : "시간 연구"),
+    name: dim => (dim ? `시간 연구 (AD ${dim})` : "시간 연구"),
     multValue: dim => {
       const allMult = DC.D1.timesEffectsOf(
         TimeStudy(91),
@@ -314,7 +314,7 @@ export const AD = {
     icon: MultiplierTabIcons.GENERIC_GLYPH,
   },
   v: {
-    name: "V 도전과제 5개 마일스톤 - 공간 정리 기반 반물질 차원 거듭제곱",
+    name: "V 도전과제 5개 마일스톤 - 공간 정리 기반 AD 거듭제곱",
     powValue: () => VUnlocks.adPow.effectOrDefault(1),
     isActive: () => PlayerProgress.realityUnlocked() && !EternityChallenge(11).isRunning,
     icon: MultiplierTabIcons.ACHIEVEMENT,
@@ -365,7 +365,7 @@ export const AD = {
   },
 
   effectNC: {
-    name: dim => (dim ? `일반 도전 효과 (제${dim} 반물질 차원)` : "일반 도전 효과"),
+    name: dim => (dim ? `일반 도전 효과 (AD ${dim})` : "일반 도전 효과"),
     // Depending on the challenge itself and the game state, this could be either a nerf or a buff, so we make
     // sure to render a x or / conditionally. This requires we calculate the value itself again, however
     displayOverride: dim => {
@@ -432,7 +432,7 @@ export const AD = {
     icon: MultiplierTabIcons.CHALLENGE("infinity"),
   },
   nerfIC: {
-    name: dim => (dim ? `무한 도전 약화 (제${dim} 반물질 차원)` : "무한 도전 약화"),
+    name: dim => (dim ? `무한 도전 약화 (AD ${dim})` : "무한 도전 약화"),
     multValue: dim => {
       let dimMults = Array.repeat(DC.D1, 9);
       if (InfinityChallenge(4).isRunning) {

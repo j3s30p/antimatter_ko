@@ -6,7 +6,7 @@ import { MultiplierTabIcons } from "./icons";
 // See index.js for documentation
 export const EP = {
   total: {
-    name: "영원 시 획득하는 총 영원 포인트",
+    name: "영원 시 획득하는 총 EP",
     displayOverride: () => (Player.canEternity
       ? format(gainedEternityPoints(), 2, 2)
       : "영원 불가"),
@@ -35,7 +35,7 @@ export const EP = {
     icon: MultiplierTabIcons.SPECIFIC_GLYPH("infinity"),
   },
   divisor: {
-    name: "펠레 - 영원 포인트 공식 개선",
+    name: "펠레 - EP 공식 개선",
     displayOverride: () => {
       const div = 308 - PelleRifts.recursion.effectValue.toNumber();
       return `log(IP)/${formatInt(308)} ➜ log(IP)/${format(div, 2, 2)}`;
@@ -45,7 +45,7 @@ export const EP = {
     icon: MultiplierTabIcons.DIVISOR("EP"),
   },
   eternityUpgrade: {
-    name: () => `영원 업그레이드 - 반복 구매 ${formatX(5)} 영원 포인트`,
+    name: () => `영원 업그레이드 - 반복 구매 ${formatX(5)} EP`,
     multValue: () => EternityUpgrade.epMult.effectOrDefault(1),
     isActive: () => PlayerProgress.eternityUnlocked() && !Pelle.isDoomed,
     icon: MultiplierTabIcons.UPGRADE("eternity"),

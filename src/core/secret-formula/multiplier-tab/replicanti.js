@@ -63,7 +63,7 @@ export const replicanti = {
     icon: MultiplierTabIcons.ALCHEMY,
   },
   ra: {
-    name: "라 업그레이드 - 시간 정리 기반 배율",
+    name: "라 업그레이드 - TT 기반 배율",
     multValue: () => Ra.unlocks.continuousTTBoost.effects.replicanti.effectOrDefault(1),
     isActive: () => Ra.unlocks.continuousTTBoost.isUnlocked,
     icon: MultiplierTabIcons.GENERIC_RA,

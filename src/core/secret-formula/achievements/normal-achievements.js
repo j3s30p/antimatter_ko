@@ -210,7 +210,7 @@ export const normalAchievements = [
       GAME_EVENT.REALITY_UPGRADE_TEN_BOUGHT
     ],
     get reward() {
-      return `새 무한 업그레이드 2개를 해금합니다: 무한 포인트 ${formatX(2)} 배율과 오프라인 무한 포인트 생성.`;
+      return `새 무한 업그레이드 2개를 해금합니다: IP ${formatX(2)} 배율과 오프라인 IP 생성.`;
     },
   },
   {

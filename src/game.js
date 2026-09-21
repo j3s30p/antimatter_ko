@@ -214,7 +214,7 @@ export function addEternityTime(time, realTime, ep, eternities) {
   if (player.challenge.eternity.current) {
     const currEC = player.challenge.eternity.current;
     const ec = EternityChallenge(currEC);
-    const challText = player.dilation.active ? "팽창된 영원 도전" : "영원 도전";
+    const challText = player.dilation.active ? "팽창된 EC" : "영원 도전";
     challenge = `${challText} ${currEC} (${formatInt(ec.completions)}/${formatInt(ec.maxCompletions)})`;
   } else if (player.dilation.active) challenge = "시간 팽창";
   // If we call this function outside of dilation, it uses the existing AM and produces an erroneous number

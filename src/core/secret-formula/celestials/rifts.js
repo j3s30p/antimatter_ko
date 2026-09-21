@@ -39,9 +39,9 @@ export const pelleRifts = {
       {
         resource: "vacuum",
         requirement: 0.4,
-        description: () => `${wordShift.wordCycle(PelleRifts.vacuum.name)} 균열이 영원 포인트 획득량에도 적용됩니다`,
+        description: () => `${wordShift.wordCycle(PelleRifts.vacuum.name)} 균열이 EP 획득량에도 적용됩니다`,
         effect: () => Decimal.pow(4, PelleRifts.vacuum.totalFill.log10() / 2 / 308 + 3),
-        formatEffect: x => `영원 포인트 획득량 ${formatX(x, 2, 2)}`
+        formatEffect: x => `EP 획득량 ${formatX(x, 2, 2)}`
       },
     ],
     galaxyGeneratorText: "더 만들 공간이 부족합니다. $value 균열을 채워야 합니다"
@@ -136,7 +136,7 @@ export const pelleRifts = {
       {
         resource: "chaos",
         requirement: 1,
-        description: () => `영원 시 획득하는 영원 포인트의 ${formatPercents(0.01)}를 초당 획득합니다`,
+        description: () => `영원 시 획득하는 EP의 ${formatPercents(0.01)}를 초당 획득합니다`,
       },
     ],
     galaxyGeneratorText: "은하가 너무 많이 파편화되었습니다. $value 균열을 안정시켜야 합니다"
@@ -158,7 +158,7 @@ export const pelleRifts = {
       {
         resource: "recursion",
         requirement: 0.10,
-        description: "영원 도전 완료 횟수에 따라 차원 가속이 더 강해집니다",
+        description: "EC 완료 횟수에 따라 차원 가속이 더 강해집니다",
         effect: () => Math.max(100 * EternityChallenges.completions ** 2, 1) *
           Math.max(1e4 ** (EternityChallenges.completions - 40), 1),
         formatEffect: x => `차원 가속 배율 ${formatX(x, 2, 2)}`
@@ -166,7 +166,7 @@ export const pelleRifts = {
       {
         resource: "recursion",
         requirement: 0.15,
-        description: "영원 도전 완료 횟수에 따라 무한 차원이 더 강해집니다",
+        description: "EC 완료 횟수에 따라 무한 차원이 더 강해집니다",
         effect: () => Decimal.pow("1e1500", ((EternityChallenges.completions - 25) / 20) ** 1.7).max(1),
         formatEffect: x => `무한 차원 ${formatX(x)}`
       },

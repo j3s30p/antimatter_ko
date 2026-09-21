@@ -26,9 +26,9 @@ export const pelleStrikes = {
   },
   ECs: {
     id: 4,
-    requirementDescription: () => `시간 정리 ${formatInt(115)}개에 도달하세요`,
+    requirementDescription: () => `TT ${formatInt(115)}개에 도달하세요`,
     penaltyDescription: () => `영원 도전에서는 ${wordShift.wordCycle(PelleRifts.vacuum.name)}의
-      무한 포인트 배율이 ${formatPercents(0.3)}만큼만 적용되고 목표의 ${formatPercents(0.15)}에서
+      IP 배율이 ${formatPercents(0.3)}만큼만 적용되고 목표의 ${formatPercents(0.15)}에서
       상한에 도달합니다`,
     rewardDescription: () => `${wordShift.wordCycle(PelleRifts.recursion.name)} 균열을 해금합니다`,
     rift: () => PelleRifts.recursion

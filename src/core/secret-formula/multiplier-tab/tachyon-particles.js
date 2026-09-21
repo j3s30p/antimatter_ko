@@ -43,7 +43,7 @@ export const TP = {
     icon: MultiplierTabIcons.ACHIEVEMENT,
   },
   dilation: {
-    name: () => `시간 팽창 업그레이드 - 반복 구매 ${formatX(3)} 타키온 입자`,
+    name: () => `시간 팽창 업그레이드 - 반복 구매 ${formatX(3)} TP`,
     multValue: () => DilationUpgrade.tachyonGain.effectOrDefault(1),
     isActive: () => DilationUpgrade.tachyonGain.canBeApplied,
     icon: MultiplierTabIcons.UPGRADE("dilation"),

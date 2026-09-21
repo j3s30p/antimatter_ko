@@ -6,7 +6,7 @@ import { MultiplierTabIcons } from "./icons";
 // See index.js for documentation
 export const IP = {
   total: {
-    name: "무한 시 획득하는 총 무한 포인트",
+    name: "무한 시 획득하는 총 IP",
     displayOverride: () => (Player.canCrunch
       ? format(gainedInfinityPoints(), 2, 2)
       : "빅 크런치 불가"),
@@ -47,7 +47,7 @@ export const IP = {
     icon: MultiplierTabIcons.DIVISOR("IP"),
   },
   infinityUpgrade: {
-    name: () => `무한 업그레이드 - 반복 구매 ${formatX(2)} 무한 포인트`,
+    name: () => `무한 업그레이드 - 반복 구매 ${formatX(2)} IP`,
     multValue: () => InfinityUpgrade.ipMult.effectOrDefault(1),
     isActive: () => player.break && !Pelle.isDoomed,
     icon: MultiplierTabIcons.UPGRADE("infinity"),
@@ -77,7 +77,7 @@ export const IP = {
     icon: MultiplierTabIcons.TIME_STUDY,
   },
   dilationUpgrade: {
-    name: "시간 팽창 업그레이드 - 팽창 시간 기반 무한 포인트 배율",
+    name: "시간 팽창 업그레이드 - DT 기반 IP 배율",
     multValue: () => DilationUpgrade.ipMultDT.effectOrDefault(1),
     isActive: () => DilationUpgrade.ipMultDT.canBeApplied,
     icon: MultiplierTabIcons.UPGRADE("dilation"),

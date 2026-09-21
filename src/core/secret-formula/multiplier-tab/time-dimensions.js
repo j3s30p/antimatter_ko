@@ -8,8 +8,8 @@ import { MultiplierTabIcons } from "./icons";
 export const TD = {
   total: {
     name: dim => {
-      if (dim) return `제${dim} 시간 차원 배율`;
-      if (EternityChallenge(7).isRunning) return "제8 무한 차원 생산량";
+      if (dim) return `TD ${dim} 배율`;
+      if (EternityChallenge(7).isRunning) return "ID8 생산량";
       return "시간 파편 생산량";
     },
     displayOverride: dim => (dim
@@ -36,7 +36,7 @@ export const TD = {
     icon: dim => MultiplierTabIcons.DIMENSION("TD", dim),
   },
   purchase: {
-    name: dim => (dim ? `구매한 제${dim} 시간 차원` : "구매"),
+    name: dim => (dim ? `구매한 TD ${dim}` : "구매"),
     multValue: dim => {
       const getMult = td => {
         const d = TimeDimension(td);
@@ -56,7 +56,7 @@ export const TD = {
     name: () => `가장 높은 차원 보유량`,
     displayOverride: () => {
       const dim = MultiplierTabHelper.activeDimCount("TD");
-      return `제${dim} 시간 차원, ${formatInt(TimeDimension(dim).amount)}`;
+      return `TD ${dim}, ${formatInt(TimeDimension(dim).amount)}`;
     },
     multValue: () => TimeDimension(MultiplierTabHelper.activeDimCount("TD")).amount,
     isActive: () => TimeDimension(1).isProducing,
@@ -111,7 +111,7 @@ export const TD = {
     icon: MultiplierTabIcons.ACHIEVEMENT,
   },
   timeStudy: {
-    name: dim => (dim ? `시간 연구 (제${dim} 시간 차원)` : "시간 연구"),
+    name: dim => (dim ? `시간 연구 (TD ${dim})` : "시간 연구"),
     multValue: dim => {
       const allMult = DC.D1.timesEffectsOf(
         TimeStudy(93),
@@ -141,7 +141,7 @@ export const TD = {
     icon: MultiplierTabIcons.TIME_STUDY
   },
   eternityUpgrade: {
-    name: dim => (dim ? `기타 영원 업그레이드 (제${dim} 시간 차원)` : "기타 영원 업그레이드"),
+    name: dim => (dim ? `기타 영원 업그레이드 (TD ${dim})` : "기타 영원 업그레이드"),
     multValue: dim => {
       const allMult = DC.D1.timesEffectsOf(
         EternityUpgrade.tdMultTheorems,
@@ -169,7 +169,7 @@ export const TD = {
   },
 
   eternityChallenge: {
-    name: dim => (dim ? `영원 도전 (제${dim} 시간 차원)` : "영원 도전"),
+    name: dim => (dim ? `영원 도전 (TD ${dim})` : "영원 도전"),
     multValue: dim => {
       let allMult = DC.D1.timesEffectsOf(
         EternityChallenge(1).reward,
@@ -186,7 +186,7 @@ export const TD = {
     icon: MultiplierTabIcons.CHALLENGE("eternity")
   },
   tickspeed: {
-    name: () => "틱스피드 (영원 도전 7)",
+    name: () => "틱스피드 (EC7)",
     displayOverride: () => {
       const tickRate = Tickspeed.perSecond;
       const activeDims = MultiplierTabHelper.activeDimCount("TD");
