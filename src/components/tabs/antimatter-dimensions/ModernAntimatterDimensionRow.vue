@@ -49,17 +49,17 @@ export default {
       return this.isShown || this.isUnlocked || this.amount.gt(0);
     },
     boughtTooltip() {
-      if (this.isCapped) return `Nameless prevents the purchase of more than ${format(1)} 8th Antimatter Dimension`;
-      if (this.isContinuumActive) return "Continuum produces all your Antimatter Dimensions";
-      return `Purchased ${quantifyInt("time", this.bought)}`;
+      if (this.isCapped) return `이름 없는 자들로 인해 8차 반물질 차원은 ${format(1)}개만 구매할 수 있습니다`;
+      if (this.isContinuumActive) return "연속체가 모든 반물질 차원을 생산합니다";
+      return `구매 횟수: ${formatInt(this.bought)}회`;
     },
     costUnit() {
       return `${AntimatterDimension(this.tier - 2).shortDisplayName} AD`;
     },
     buttonPrefix() {
       if (!this.isUnlocked) return "잠김";
-      if (this.isCapped) return "Shattered by Nameless";
-      if (this.isContinuumActive) return "Continuum: ";
+      if (this.isCapped) return "이름 없는 자들에 의해 파괴됨";
+      if (this.isContinuumActive) return "연속체: ";
       return `${formatInt(this.howManyCanBuy)}개 구매`;
     },
     buttonValue() {

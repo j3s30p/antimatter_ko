@@ -17,7 +17,7 @@ export default {
   },
   computed: {
     sacrificeTooltip() {
-      return `Boosts 8th Antimatter Dimension by ${formatX(this.sacrificeBoost, 2, 2)}`;
+      return `8차 반물질 차원에 ${formatX(this.sacrificeBoost, 2, 2)} 배율 적용`;
     },
   },
   methods: {
@@ -50,17 +50,17 @@ export default {
       @click="sacrifice"
     >
       <span v-if="isSacrificeAffordable">
-        Dimensional Sacrifice ({{ formatX(sacrificeBoost, 2, 2) }})
+        차원 희생 ({{ formatX(sacrificeBoost, 2, 2) }})
       </span>
       <span v-else>
-        Dimensional Sacrifice Disabled ({{ disabledCondition }})
+        차원 희생 비활성화 ({{ disabledCondition }})
       </span>
     </PrimaryButton>
     <PrimaryButton
       class="o-primary-btn--buy-max"
       @click="maxAll"
     >
-      Max all (M)
+      모두 최대 구매 (M)
     </PrimaryButton>
   </div>
 </template>

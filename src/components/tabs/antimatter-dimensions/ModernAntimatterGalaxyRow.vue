@@ -64,15 +64,15 @@ export default {
     costScalingText() {
       switch (this.type) {
         case GALAXY_TYPE.DISTANT:
-          return `Each Galaxy is more expensive past ${quantifyInt("Galaxy", this.distantStart)}`;
+          return `${formatInt(this.distantStart)}번째 은하부터 은하 비용 증가량 상승`;
         case GALAXY_TYPE.REMOTE: {
           const scalings = [
-            { type: "distant", function: "quadratic", amount: this.distantStart },
-            { type: "remote", function: "exponential", amount: this.remoteStart }
+            { type: "먼 은하", function: "제곱", amount: this.distantStart },
+            { type: "외딴 은하", function: "지수", amount: this.remoteStart }
           ];
-          return `Increased Galaxy cost scaling: ${scalings.sort((a, b) => a.amount - b.amount)
-            .map(scaling => `${scaling.function} scaling past ${this.formatGalaxies(scaling.amount)} (${scaling.type})`)
-            .join(", ").capitalize()}`;
+          return `은하 비용 증가량 상승: ${scalings.sort((a, b) => a.amount - b.amount)
+            .map(scaling => `${this.formatGalaxies(scaling.amount)}개부터 ${scaling.function} 증가 (${scaling.type})`)
+            .join(", ")}`;
         }
       }
       return undefined;

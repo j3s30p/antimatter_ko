@@ -27,8 +27,8 @@ export default {
       };
     },
     multiplierDisplay() {
-      if (InfinityChallenge(3).isRunning) return `Multiply all Antimatter Dimensions by
-        ${formatX(1.05 + this.galaxyCount * 0.005, 3, 3)}`;
+      if (InfinityChallenge(3).isRunning) return `모든 반물질 차원에
+        ${formatX(1.05 + this.galaxyCount * 0.005, 3, 3)} 배율 적용`;
       const tickmult = this.mult;
       return `업그레이드마다 ${formatX(tickmult.reciprocal(), 2, 3)} 빨라짐`;
     },
@@ -40,9 +40,9 @@ export default {
     },
     upgradeCount() {
       const purchased = this.purchasedTickspeed;
-      if (!this.freeTickspeed) return quantifyInt("Purchased Upgrade", purchased);
-      if (purchased === 0 || this.isContinuumActive) return `${formatInt(this.freeTickspeed)} Free Upgrades`;
-      return `${formatInt(purchased)} Purchased + ${formatInt(this.freeTickspeed)} Free`;
+      if (!this.freeTickspeed) return `구매한 업그레이드: ${formatInt(purchased)}개`;
+      if (purchased === 0 || this.isContinuumActive) return `무료 업그레이드: ${formatInt(this.freeTickspeed)}개`;
+      return `구매 ${formatInt(purchased)}개 + 무료 ${formatInt(this.freeTickspeed)}개`;
     }
   },
   methods: {

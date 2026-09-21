@@ -34,16 +34,16 @@ export default {
   computed: {
     isDoomed: () => Pelle.isDoomed,
     dimName() {
-      return AntimatterDimension(this.requirement.tier).displayName;
+      return `${this.requirement.tier}차`;
     },
     buttonText() {
       if (this.lockText !== null) return this.lockText;
       const reset = [];
-      if (!Achievement(111).isUnlocked) reset.push("Dimensions");
-      if (!Achievement(143).isUnlocked) reset.push("Dimension Boosts");
+      if (!Achievement(111).isUnlocked) reset.push("차원");
+      if (!Achievement(143).isUnlocked) reset.push("차원 가속");
       return reset.length === 0
-        ? `Increase the power of Tickspeed upgrades`
-        : `Reset your ${makeEnumeration(reset)} to increase the power of Tickspeed upgrades`;
+        ? "틱스피드 업그레이드 효과 강화"
+        : `${reset.join(" 및 ")} 초기화 후 틱스피드 업그레이드 효과 강화`;
     },
     sumText() {
       const parts = [Math.max(this.galaxies.normal, 0)];
@@ -57,9 +57,9 @@ export default {
     },
     typeName() {
       switch (this.type) {
-        case GALAXY_TYPE.NORMAL: return "Antimatter Galaxies";
-        case GALAXY_TYPE.DISTANT: return "Distant Antimatter Galaxies";
-        case GALAXY_TYPE.REMOTE: return "Remote Antimatter Galaxies";
+        case GALAXY_TYPE.NORMAL: return "반물질 은하";
+        case GALAXY_TYPE.DISTANT: return "먼 반물질 은하";
+        case GALAXY_TYPE.REMOTE: return "외딴 반물질 은하";
       }
       return undefined;
     },
@@ -69,15 +69,15 @@ export default {
     costScalingText() {
       switch (this.type) {
         case GALAXY_TYPE.DISTANT:
-          return `Each Galaxy is more expensive past ${quantifyInt("Galaxy", this.distantStart)}`;
+          return `${formatInt(this.distantStart)}번째 은하부터 은하 비용 증가량 상승`;
         case GALAXY_TYPE.REMOTE: {
           const scalings = [
-            { type: "distant", function: "quadratic", amount: this.distantStart },
-            { type: "remote", function: "exponential", amount: this.remoteStart }
+            { type: "먼 은하", function: "제곱", amount: this.distantStart },
+            { type: "외딴 은하", function: "지수", amount: this.remoteStart }
           ];
-          return `Increased Galaxy cost scaling: ${scalings.sort((a, b) => a.amount - b.amount)
-            .map(scaling => `${scaling.function} scaling past ${this.formatGalaxies(scaling.amount)} (${scaling.type})`)
-            .join(", ").capitalize()}`;
+          return `은하 비용 증가량 상승: ${scalings.sort((a, b) => a.amount - b.amount)
+            .map(scaling => `${this.formatGalaxies(scaling.amount)}개부터 ${scaling.function} 증가 (${scaling.type})`)
+            .join(", ")}`;
         }
       }
       return undefined;
@@ -124,7 +124,7 @@ export default {
       class="l-dim-row__prestige-text c-dim-row__label c-dim-row__label--amount l-text-wrapper"
     >
       {{ typeName }} ({{ sumText }}):
-      requires {{ formatInt(requirement.amount) }} {{ dimName }} Dimensions
+      {{ dimName }} 반물질 차원 {{ formatInt(requirement.amount) }}개 필요
       <div class="l-scaling-text-wrapper">
         {{ hasIncreasedScaling ? costScalingText : "" }}
       </div>

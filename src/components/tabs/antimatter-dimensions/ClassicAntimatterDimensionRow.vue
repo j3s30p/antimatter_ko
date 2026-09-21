@@ -39,7 +39,7 @@ export default {
   computed: {
     isDoomed: () => Pelle.isDoomed,
     name() {
-      return `${AntimatterDimension(this.tier).shortDisplayName} Antimatter Dimension`;
+      return `${this.tier}차 반물질 차원`;
     },
     amountText() {
       if (this.formattedAmount) return this.formattedAmount;
@@ -47,17 +47,17 @@ export default {
       return `${amount} (${formatInt(this.boughtBefore10)})`;
     },
     singleText() {
-      if (this.isCapped) return "Capped";
-      const prefix = this.showCostTitle(this.singleCost) ? "Cost: " : "";
-      const suffix = this.isCostsAD ? `${this.costUnit}` : "AM";
+      if (this.isCapped) return "상한 도달";
+      const prefix = this.showCostTitle(this.singleCost) ? "비용: " : "";
+      const suffix = this.isCostsAD ? `${this.costUnit}` : "반물질";
       return `${prefix} ${format(this.singleCost)} ${suffix}`;
     },
     until10Text() {
-      if (this.isCapped) return "Shattered by Nameless";
-      if (this.isContinuumActive) return `Continuum: ${this.continuumString}`;
+      if (this.isCapped) return "이름 없는 자들에 의해 파괴됨";
+      if (this.isContinuumActive) return `연속체: ${this.continuumString}`;
 
-      const prefix = `Until ${formatInt(10)},${this.showCostTitle(this.until10Cost) ? " Cost" : ""}`;
-      const suffix = this.isCostsAD ? `${this.costUnit}` : "AM";
+      const prefix = `${formatInt(10)}개까지${this.showCostTitle(this.until10Cost) ? ", 비용" : ""}`;
+      const suffix = this.isCostsAD ? `${this.costUnit}` : "반물질";
       return `${prefix} ${format(this.until10Cost)} ${suffix}`;
     },
     continuumString() {
@@ -67,12 +67,12 @@ export default {
       return this.isShown || this.isUnlocked || this.amount.gt(0);
     },
     boughtTooltip() {
-      if (this.isCapped) return `Nameless prevents the purchase of more than ${format(1)} 8th Antimatter Dimension`;
-      if (this.isContinuumActive) return "Continuum produces all your Antimatter Dimensions";
-      return `Purchased ${quantifyInt("time", this.bought)}`;
+      if (this.isCapped) return `이름 없는 자들로 인해 8차 반물질 차원은 ${format(1)}개만 구매할 수 있습니다`;
+      if (this.isContinuumActive) return "연속체가 모든 반물질 차원을 생산합니다";
+      return `구매 횟수: ${formatInt(this.bought)}회`;
     },
     costUnit() {
-      return `${AntimatterDimension(this.tier - 2).shortDisplayName} AD`;
+      return `${this.tier - 2}차 AD`;
     },
     buySingleClass() {
       return {

@@ -7,8 +7,8 @@ Status values: `not started`, `in progress`, `translated`, `QA complete`.
 | Scope, glossary, and audit tooling | translated | Final QA remains |
 | Font and licensing | QA complete | Galmuri9 Regular, SIL OFL 1.1 |
 | Global navigation and progression tabs | translated | Layout QA remains for locked/unlocked states |
-| Early Modern UI | in progress | Core resource, dimension, boost, galaxy, tickspeed, and save text translated |
-| Early Classic UI | not started | Must match Modern terminology |
+| Early Modern UI | translated | Layout QA remains |
+| Early Classic UI | translated | Layout QA remains |
 | Options and common modals | not started | |
 | Statistics and records | not started | |
 | Achievements | not started | |
@@ -26,4 +26,3 @@ Status values: `not started`, `in progress`, `translated`, `QA complete`.
 | Clean-install release QA | not started | Includes update/restore test |
 
 Update this file whenever a translation batch is committed. An area becomes `QA complete` only after build, residue scan, placeholder validation, and in-game layout review.
-

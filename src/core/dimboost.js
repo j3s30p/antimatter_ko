@@ -85,9 +85,9 @@ export class DimBoost {
 
   static get lockText() {
     if (DimBoost.purchasedBoosts >= this.maxBoosts) {
-      if (Ra.isRunning) return "Locked (Ra's Reality)";
-      if (InfinityChallenge(1).isRunning) return "Locked (Infinity Challenge 1)";
-      if (NormalChallenge(8).isRunning) return "Locked (8th Antimatter Dimension Autobuyer Challenge)";
+      if (Ra.isRunning) return "잠김 (라의 현실)";
+      if (InfinityChallenge(1).isRunning) return "잠김 (무한 도전 1)";
+      if (NormalChallenge(8).isRunning) return "잠김 (8차 반물질 차원 자동 구매기 도전)";
     }
     return null;
   }

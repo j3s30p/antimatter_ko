@@ -25,7 +25,7 @@ export default {
   computed: {
     isDoomed: () => Pelle.isDoomed,
     dimName() {
-      return AntimatterDimension(this.requirement.tier).displayName;
+      return `${this.requirement.tier}차`;
     },
     boostCountText() {
       if (this.requirementText) return this.requirementText;
@@ -72,8 +72,8 @@ export default {
 <template>
   <div class="c-dimension-row c-antimatter-dim-row c-antimatter-prestige-row">
     <div class="l-dim-row__prestige-text c-dim-row__label c-dim-row__label--amount">
-      Dimension Boost ({{ boostCountText }}):
-      requires {{ formatInt(requirement.amount) }} {{ dimName }} Dimensions
+      차원 가속 ({{ boostCountText }}):
+      {{ dimName }} 반물질 차원 {{ formatInt(requirement.amount) }}개 필요
     </div>
     <PrimaryButton
       :enabled="isBuyable"

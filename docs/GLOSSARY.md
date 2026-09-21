@@ -12,6 +12,7 @@ The preferred terms follow the established Korean mobile/community vocabulary wh
 | Distant Galaxy | 먼 은하 | |
 | Remote Galaxy | 외딴 은하 | |
 | Tickspeed | 틱스피드 | |
+| Continuum | 연속체 | |
 | Big Crunch | 빅 크런치 | Proper mechanic name |
 | Infinity | 무한 | |
 | Break Infinity | 무한 돌파 | |
@@ -45,4 +46,3 @@ The preferred terms follow the established Korean mobile/community vocabulary wh
 - Preserve all interpolation expressions exactly, including `${...}` and `{{ ... }}`.
 - Do not translate abbreviations embedded in formulas or Automator syntax.
 - Translate jokes and dialogue by intent rather than literally, while preserving gameplay clues.
-

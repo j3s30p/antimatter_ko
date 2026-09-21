@@ -36,9 +36,9 @@ export default {
   computed: {
     sacrificeTooltip() {
       if (this.isFullyAutomated) {
-        return "Sacrifice autobuyer is enabled and Achievement 118 is unlocked, so Sacrifice is now fully automated";
+        return "희생 자동 구매기가 활성화되고 도전과제 118이 해금되어 차원 희생이 완전히 자동화되었습니다";
       }
-      return `Boosts 8th Antimatter Dimension by ${formatX(this.sacrificeBoost, 2, 2)}`;
+      return `8차 반물질 차원에 ${formatX(this.sacrificeBoost, 2, 2)} 배율 적용`;
     },
   },
   methods: {
@@ -69,7 +69,7 @@ export default {
       }
     },
     getUntil10Display() {
-      if (this.isContinuumActive) return "Continuum";
+      if (this.isContinuumActive) return "연속체";
       return this.buyUntil10 ? "10개까지" : "1개 구매";
     },
     update() {
@@ -92,7 +92,7 @@ export default {
       this.sacrificeBoost.copyFrom(Sacrifice.nextBoost);
       this.disabledCondition = Sacrifice.disabledCondition;
       const sacText = this.isSacrificeUnlocked
-        ? ` | Dimensional Sacrifice multiplier: ${formatX(this.currentSacrifice, 2, 2)}`
+        ? ` | 차원 희생 배율: ${formatX(this.currentSacrifice, 2, 2)}`
         : "";
       this.multiplierText += sacText;
     }
@@ -116,11 +116,11 @@ export default {
         class="o-primary-btn--sacrifice"
         @click="sacrifice"
       >
-        <span v-if="isSacrificeAffordable">Dimensional Sacrifice ({{ formatX(sacrificeBoost, 2, 2) }})</span>
+        <span v-if="isSacrificeAffordable">차원 희생 ({{ formatX(sacrificeBoost, 2, 2) }})</span>
         <span v-else-if="isFullyAutomated && disabledCondition !== ''">
-          Dimensional Sacrifice is Automated (Achievement 118)
+          차원 희생 자동화됨 (도전과제 118)
         </span>
-        <span v-else>Dimensional Sacrifice Disabled ({{ disabledCondition }})</span>
+        <span v-else>차원 희생 비활성화 ({{ disabledCondition }})</span>
       </PrimaryButton>
       <button
         class="o-primary-btn l-button-container"
@@ -145,9 +145,9 @@ export default {
         class="o-primary-btn--quick-reset"
         onclick="softReset(-1, true, true)"
       >
-        Perform a Dimension Boost reset
-        <span v-if="hasDimensionBoosts"> but lose a Dimension Boost</span>
-        <span v-else> for no gain</span>
+        차원 가속 초기화 실행
+        <span v-if="hasDimensionBoosts"> (차원 가속 1회 감소)</span>
+        <span v-else> (획득 효과 없음)</span>
       </PrimaryButton>
       <AntimatterGalaxyRow />
     </div>
