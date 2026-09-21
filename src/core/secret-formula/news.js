@@ -556,22 +556,18 @@ export const news = [
   {
     id: "a112",
     text:
-      `What the f*ck did you just f*cking say about me, you little b*tch? I'll have you know I graduated top of my
-      class in the Antimatter Seals, and I've been involved in numerous secret raids on the 9th Dimension, and I
-      have over 300 NNnNeMI-NNnNe confirmed kills. I am trained in potato warfare and I'm the top sniper in the
-      entire Antimatter Galactic armed forces. You are nothing to me but just another infinity. I will wipe you
-      the f*ck out with Max All mashing the likes of which has never been seen before in this dimension, mark my
-      f*cking words. You think you can get away with saying that shit to me over the Interdimensional network?
-      Think again, f*cker. As we speak I am contacting my secret network of autobuyers across the galaxy and your
-      IP is being traced right now so you better prepare for the Big Crunch, maggot. The Big Crunch that wipes out
-      the pathetic little thing you call your life. You're f*cking dead, kid. I can be anywhere, anytime, and I can
-      kill you in over seven 😠💩 different ways, and that's just with my mouse. Not only am I extensively trained
-      in dimension boost combat, but I have access to the entire arsenal of the Antimatter Marine Corps and I will
-      use it to its full extent to wipe your miserable ass off the face of the universe, you little shit. If only
-      you could have known what unhevi retribution your little “clever” comment was about to bring down upon you,
-      maybe you would have held your f*cking tongue. But you couldn't, you didn't, and now you're buying until 10,
-      you goddamn idiot. I will shit antimatter shit all over you and you will drown in it. You're f*cking dead,
-      kiddo.`
+      `방금 나한테 뭐라고 지껄였냐, 이 조그만 개자식아? 나는 반물질 특수부대를 수석으로 졸업했고,
+      제9차원을 상대로 수많은 비밀 작전에 참여했으며 확인 사살만 NNnNeMI-NNnNe건이 넘는다는 사실을
+      알아둬라. 나는 감자전에 숙련됐고 반물질 은하군 전체에서 가장 뛰어난 저격수다. 넌 내게 또 하나의
+      무한에 불과하다. 이 차원에서는 누구도 본 적 없는 속도로 모두 최대 버튼을 난타해 널 완전히 지워
+      버리겠다. 내 말을 명심해라. 차원간 네트워크에서 그런 헛소리를 하고도 무사할 줄 알았나? 다시
+      생각해라. 지금 이 순간에도 은하 전역의 비밀 자동구매기망에 연락해 네 IP를 추적하고 있으니 빅 크런치에
+      대비하는 게 좋을 거다. 네가 삶이라고 부르는 보잘것없는 것을 지워 버릴 바로 그 빅 크런치 말이다.
+      넌 끝났어, 꼬맹아. 나는 언제 어디에나 있을 수 있고, 마우스만으로도 널 일곱 😠💩가지가 넘는 방법으로
+      끝장낼 수 있다. 차원 가속 전투를 철저히 훈련받았을 뿐 아니라 반물질 해병대의 모든 무기고를 사용할
+      권한도 있다. 그 전력을 모조리 동원해 네 비참한 흔적을 우주에서 지워 버리겠다. 네 그 잘난 댓글이
+      어떤 언헤비한 응징을 불러올지 알았더라면 입을 다물었겠지. 하지만 넌 그러지 못했고, 이제 10개 단위로
+      구매하고 있군, 이 빌어먹을 멍청아. 네 위에 반물질을 쏟아부어 그 안에 빠뜨려 주마. 넌 끝났어, 꼬맹아.`
   },
   {
     id: "a113",
@@ -844,7 +840,7 @@ export const news = [
   },
   {
     id: "a160",
-    text: `Turns out all our news is being stolen and broadcast to a game called "Antimatter Dimensions", damn Fins.`
+    text: `우리 뉴스가 전부 도둑맞아 "Antimatter Dimensions"라는 게임에 방송되고 있었군요. 망할 핀란드 놈들.`
   },
   {
     id: "a161",
@@ -895,7 +891,7 @@ export const news = [
   },
   {
     id: "a171",
-    text: "<a href='https://www.youtube.com/watch?v=P945A5Tndp8' target='_blank'>This link is not a rick roll.</a>"
+    text: "<a href='https://www.youtube.com/watch?v=P945A5Tndp8' target='_blank'>이 링크도 릭롤이 아닙니다.</a>"
   },
   {
     id: "a172",
@@ -1218,7 +1214,7 @@ export const news = [
   },
   {
     id: "a216",
-    text: "Testing... testing... testing... Oh goddamn I was in prod again.",
+    text: "테스트... 테스트... 테스트... 아 젠장, 또 운영 서버였잖아.",
     isAdvertising: true
   },
   {
@@ -2487,7 +2483,7 @@ export const news = [
   },
   {
     id: "a381",
-    text: "왜 두 번째 차원이라고 부르나요 첫 번째 차원을 안에의 넣고 두 번째를 밖에의 해 차원을 먹는데?"
+    text: "왜 2차원이라고 부르죠? 1차원을 안으로 넣고(of in), 2차원을 밖으로 꺼내서(of out) 차원을 먹는데?"
   },
   {
     id: "a382",
@@ -2627,7 +2623,7 @@ export const news = [
   },
   {
     id: "l14",
-    text: "Why is there no 9th dimension? Because 7 8 9. (아홉 번째 차원이 없는 이유는 일곱이 아홉을 먹었기 때문이라는 영어 숫자 말장난입니다.)",
+    text: "왜 제9차원이 없을까요? 7이 9를 먹어 버렸으니까요. (seven eight/ate nine!)",
     get unlocked() {
       return DimBoost.totalBoosts >= 5 ||
       player.galaxies > 0 ||
@@ -2636,7 +2632,7 @@ export const news = [
   },
   {
     id: "l15",
-    text: "The 9th dimension cannot exist because the Nein-speaking nazis died in WW2. (nine과 독일어 nein의 발음이 같다는 말장난입니다.)",
+    text: "제9차원은 존재할 수 없습니다. '나인(Nein)'을 말하던 나치가 2차 세계대전에서 죽었으니까요.",
     get unlocked() {
       return DimBoost.totalBoosts >= 5 ||
       player.galaxies > 0 ||
@@ -2669,7 +2665,7 @@ export const news = [
   },
   {
     id: "l18",
-    text: "If the 9th dimension is all evil, then is 3 the root of all evil? (아홉의 제곱근과 '모든 악의 근원'을 엮은 말장난입니다.)",
+    text: "제9차원이 모든 악이라면, 3은 모든 악의 제곱근인가요?",
     get unlocked() {
       return DimBoost.totalBoosts >= 5 ||
       player.galaxies > 0 ||
@@ -2679,8 +2675,8 @@ export const news = [
   {
     id: "l19",
     text:
-      `I'll have 1e29 number 9s, a number 1e9 large, a number 6 with extra replicanti, a number 1e7, two 4e5s,
-      one with matter, and a large time vortex. (GTA: San Andreas의 주문 장면을 게임 재화와 거대한 수로 바꾼 패러디입니다.)`,
+      `9번 메뉴 1e29개, 큰 1e9번 하나, 복제자 추가한 6번 하나, 1e7번 하나, 4e5번 두 개에 하나는 물질을
+      곁들이고, 큰 시간 소용돌이도 하나 주세요.`,
     get unlocked() {
       return DimBoost.totalBoosts >= 5 ||
       player.galaxies > 0 ||
@@ -2694,7 +2690,7 @@ export const news = [
   },
   {
     id: "l21",
-    get text() { return `I've got ${format(Number.MAX_VALUE, 2)} problems, but none of them antimatter. (수많은 문제가 있지만 반물질은 그중 하나가 아니라는 노래 가사 패러디입니다.)`; },
+    get text() { return `문제가 ${format(Number.MAX_VALUE, 2)}개나 있지만, 반물질은 하나도 문제가 아니야.`; },
     get unlocked() { return Currency.infinities.gt(0) && !PlayerProgress.hasBroken(); }
   },
   {
@@ -2704,12 +2700,12 @@ export const news = [
   },
   {
     id: "l23",
-    text: "If this game was made by Valve, Zero Deaths would be impossible. (Valve가 유명 게임의 세 번째 작품을 내지 않는다는 농담입니다.)",
+    text: "이 게임을 Valve가 만들었다면 '죽음 0회'는 달성할 수 없었을 겁니다.",
     get unlocked() { return Achievement(64).isUnlocked; }
   },
   {
     id: "l24",
-    text: "Florida man attempts to get Zero Deaths on first run, is stopped by heat death of the universe. (플로리다의 한 남성이 첫 시도에 한 번도 죽지 않으려 했지만 우주의 열적 죽음에 가로막혔다는 내용입니다.)",
+    text: "플로리다 남성, 첫 플레이에서 '죽음 0회' 도전하다 우주의 열적 죽음에 가로막혀.",
     get unlocked() { return Achievement(64).isUnlocked; }
   },
   {
@@ -2720,8 +2716,8 @@ export const news = [
   {
     id: "l26",
     text:
-      `Thanos is gonna be super dissapointed when he shows up with a fully powered Infinity gauntlet, and Hevi
-      has a fully powered Eternity gauntlet. (타노스의 무한 건틀릿보다 Hevi의 영원 건틀릿이 더 강하다는 패러디입니다.)`,
+      `완전히 충전된 인피니티 건틀릿을 들고 나타난 타노스는, 완전히 충전된 이터니티 건틀릿을 든 Hevi를 보면
+      몹시 실망할 겁니다.`,
     get unlocked() { return PlayerProgress.eternityUnlocked(); }
   },
   {
@@ -2784,7 +2780,7 @@ export const news = [
   },
   {
     id: "l38",
-    text: "fucking hacker",
+    text: "빌어먹을 해커",
     get unlocked() { return NewsHandler.uniqueTickersSeen > GameDatabase.news.length; }
   },
   {
@@ -2802,14 +2798,14 @@ export const news = [
   },
   {
     id: "l41",
-    text: "I thought the update was 5 hours away... -new players after more than 5 hours of gameplay (업데이트가 다섯 시간 뒤라는 말을 믿고 오래 플레이한 새 플레이어의 반응입니다.)",
+    text: "업데이트가 5시간 뒤라고 했는데... - 플레이한 지 5시간이 넘은 신규 플레이어",
     get unlocked() { return Time.totalTimePlayed.totalHours >= 5; }
   },
   {
     id: "l42",
     text:
-      `Somebody told me to wait five hours for the update yesterday but it's today
-      and it still hasn't come! What do I do? (어제 다섯 시간을 기다리라 했는데 오늘까지 업데이트가 오지 않아 당황하는 내용입니다.)`,
+      `어제 누군가 업데이트까지 5시간만 기다리라고 했는데, 오늘이 됐는데도 아직 안 나왔어요!
+      이제 어떻게 해야 하죠?`,
     get unlocked() { return Time.totalTimePlayed.totalHours >= 5; }
   },
   {
@@ -2819,12 +2815,12 @@ export const news = [
   },
   {
     id: "l44",
-    text: "Where does Antimatter Nemo live? In a NNnNeMI-NNnNe. (니모가 사는 곳을 원소 기호처럼 늘어놓은 말장난입니다.)",
+    text: "반물질 니모는 어디에 살까요? NNnNeMI-NNnNe에 삽니다.",
     get unlocked() { return player.records.totalAntimatter.e >= 3e6; }
   },
   {
     id: "l45",
-    text: "Anti Emoji Movie MMMCMXCIX is a major hit! (안티 이모지 영화의 로마 숫자 후속작이 흥행했다는 농담입니다.)",
+    text: "《안티 이모지 영화 MMMCMXCIX》 대흥행!",
     get unlocked() { return player.requirementChecks.permanent.emojiGalaxies >= 3999; }
   },
   {
@@ -2881,8 +2877,8 @@ export const news = [
       while (game2Name === game1Name) {
         game2Name = names.randomElement();
       }
-      return `Pokemon ${game1Name} and ${game2Name} were just released! This new generation brings the total number ` +
-        "of Pokemon up to 1e151. Good luck catching 'em all! (포켓몬 신작이 두 프레스티지 단계의 이름으로 출시되었고, 모든 포켓몬을 잡으라는 패러디입니다.)";
+      return `《포켓몬 ${game1Name}》와 《포켓몬 ${game2Name}》가 방금 출시됐습니다! 이번 세대로 포켓몬의 ` +
+        "총수가 1e151마리까지 늘어났습니다. 모두 잡으려면 행운을 빕니다!";
     },
     get unlocked() { return PlayerProgress.eternityUnlocked(); },
     isAdvertising: true
@@ -2903,7 +2899,7 @@ export const news = [
   },
   {
     id: "l56",
-    text: "Reality Challenges are the new 9th Dimension is the new orange. (현실 도전과 아홉 번째 차원을 '새로운 유행'이라는 표현에 겹친 영어식 말장난입니다.)",
+    text: "현실 도전은 새로운 제9차원이고, 제9차원은 새로운 주황색입니다.",
     get unlocked() { return PlayerProgress.realityUnlocked(); }
   },
   {
@@ -2931,29 +2927,27 @@ export const news = [
   {
     id: "l58",
     text:
-      `The Holy trinity of Hevipelle, Antimatter, Infinity Points, and Eternity Points. These 3 resources let us
-      access Hevi's gift, Time Theorems. And with these Time Theorems, we reach out to Hevi, and call, “Hevi, bless
-      us on this fine day!” And Hevi does. He give us the blessing of Time Studies. These Time Studies were
-      blessings so powerful, Hevi restricted their power. He said, “I will give you a choice of three paths” and
-      then humanity chose. The short, cheap route of Antimatter Dimensions, giving instant gratification, the
-      powerful choice of Infinity Dimensions, which were a fast, middle ground path, or Time Dimension, the long
-      wait, and struggle, of humanity. Then, as humanity chose, a crack broke the earth. A serpent snaked out and
-      sneered to humanity, “I will offer the powerful choice of a ninth dimension! I am Slabdrill, lord of all
-      Unhevi. Humanity rose and said “ Begone Slabdrill! We want none of your foul Heresy!” And Hevi rose as well,
-      and smote Slabdrill with his godlike power. As Slabdrill's corpse fell into the earth, he cried “ this will
-      not be the last of me! Hevi will betr-“ and he fell in the Abyss of matter. Hevi gifted humanity with
-      Eternity upgrades, which boosted infinity dimensions and time dimensions. And Hevi gave humanity his greatest
-      gift. EP multipliers. He said, these will multiply all EP gained by 5, but their cost will increase 50 times.
-      Use them wisely. And Humanity journeyed off with their new power, as Slabdrill's words echoed in their heads.
-      (Hevipelle와 게임 재화를 성스러운 삼위일체로 묘사하며 시간 연구 체계와 Slabdrill의 유혹을 종교 서사처럼 꾸민 패러디입니다.)`,
+      `Hevipelle와 반물질, 무한 포인트, 영원 포인트의 성스러운 삼위일체여. 이 세 자원은 Hevi의 선물인
+      시간 정리에 다다르게 하였도다. 우리는 시간 정리를 들고 Hevi에게 손을 뻗어 외쳤다. “Hevi여, 이 좋은
+      날에 우리를 축복하소서!” 그러자 Hevi는 시간 연구라는 축복을 내렸다. 그 축복이 너무도 강력했기에
+      Hevi는 힘을 제한하며 말했다. “너희에게 세 갈래 길을 고르게 하리라.” 인류는 즉각적인 만족을 주는
+      짧고 값싼 반물질 차원의 길, 빠르고 강력한 중도의 무한 차원 길, 또는 오랜 기다림과 고난이 따르는
+      시간 차원의 길을 골랐다. 그 순간 땅이 갈라지고 뱀 한 마리가 기어 나와 비웃었다. “내가 강력한
+      제9차원의 길을 주겠다! 나는 모든 언헤비의 군주 Slabdrill이다!” 인류가 일어나 외쳤다. “물러가라,
+      Slabdrill! 네 불결한 이단은 필요 없다!” Hevi도 일어나 신과 같은 힘으로 Slabdrill을 내리쳤다.
+      Slabdrill은 땅속으로 추락하며 “이것으로 내가 끝날 것 같으냐! Hevi는 너희를 배신하-”라고 외쳤지만
+      물질의 심연에 삼켜졌다. Hevi는 무한 차원과 시간 차원을 강화하는 영원 업그레이드를 인류에게 주었고,
+      마침내 가장 위대한 선물인 영원 포인트 배율을 내렸다. “이는 얻는 모든 영원 포인트를 5배로 만들지만
+      비용은 50배씩 오를 것이다. 현명하게 사용하라.” 인류는 새 힘을 품고 길을 떠났고, Slabdrill의 말은
+      계속 머릿속에 울려 퍼졌다.`,
     get unlocked() { return PlayerProgress.eternityUnlocked(); }
   },
   {
     id: "l59",
     text:
-      `The debate on the singular form of Replicanti rages on. Team "Replicantus"'s base has been ransacked
-      by Team "Also Replicanti", and many of their dimensions were stolen. Team "The Plural Is Replicantis"
-      is still lying low after their plan to hack the dictionary failed. (복제자의 단수형과 복수형이 무엇인지를 두고 여러 진영이 다툰다는 언어유희입니다.)`,
+      `복제자(Replicanti)의 단수형을 둘러싼 논쟁이 격화되고 있습니다. "Replicantus" 팀의 기지는
+      "단수형도 Replicanti" 팀에게 약탈당해 여러 차원을 빼앗겼습니다. "복수형은 Replicantis" 팀은
+      사전을 해킹하려던 계획이 실패한 뒤 아직도 몸을 숨기고 있습니다.`,
     get unlocked() { return player.replicanti.unl; }
   },
   {
@@ -2966,15 +2960,15 @@ export const news = [
   {
     id: "l61",
     text:
-      `Millenials are killing the challenge industry, say antimatter experts; "Nowadays they start with
-      challenges completed and infinity broken; it's just not how it used to be". (밀레니얼 세대가 특정 산업을 망친다는 기사 문구를 도전 시스템에 빗댄 밈입니다.)`,
+      `"밀레니얼 세대가 도전 산업을 죽이고 있습니다." 반물질 전문가들은 말합니다. "요즘 것들은 도전을
+      완료하고 무한도 돌파한 채 시작하죠. 예전과는 완전히 다릅니다."`,
     get unlocked() { return PlayerProgress.infinityUnlocked(); }
   },
   {
     id: "l62",
     text:
-      `Computer scientists are outraged, "What even are Infinity Points? IP stands for Internet Protocol!".
-      Debates continue to intensify, more at 7. (IP가 무한 포인트와 인터넷 프로토콜을 모두 뜻한다는 약어 말장난입니다.)`,
+      `컴퓨터 과학자들이 분노했습니다. "무한 포인트가 대체 뭡니까? IP는 인터넷 프로토콜의 약자라고요!"
+      논쟁은 계속 격화되고 있습니다. 자세한 소식은 7시에 전해 드립니다.`,
     get unlocked() { return PlayerProgress.infinityUnlocked(); }
   },
   {
@@ -3047,14 +3041,14 @@ export const news = [
   },
   {
     id: "l69",
-    text: "Friendship ended with Replicanti, now Replicanti Galaxies is my new best friend. (복제자와 절교하고 복제자 은하를 새 절친으로 삼았다는 유명 밈 패러디입니다.)",
+    text: "복제자와의 우정은 끝났다. 이제 복제자 은하가 나의 새로운 절친이다.",
     get unlocked() { return PlayerProgress.replicantiUnlocked(); }
   },
   {
     id: "l70",
     text:
-      `"Zurkrbarg, Celestial of Privacy" has announced their plans to release a new version
-      of their popular social media universe, "All". (Zuckerberg와 Meta의 소셜 미디어 사업을 셀레스티얼과 우주로 바꾼 패러디입니다.)`,
+      `"사생활의 셀레스티얼 Zurkrbarg"가 인기 소셜 미디어 우주 "All"의 새 버전을 출시할 계획이라고
+      발표했습니다.`,
     get unlocked() { return Teresa.isUnlocked; }
   },
   {
@@ -3092,7 +3086,7 @@ export const news = [
   },
   {
     id: "l73",
-    text: "A long time ago in a distant galaxy far, far away, the cost scaling changed. (스타워즈 도입부를 비용 증가 방식의 변화로 바꾼 패러디입니다.)",
+    text: "아주 오래전, 머나먼 은하계에서 비용 증가 방식이 바뀌었습니다....",
     get unlocked() { return PlayerProgress.eternityUnlocked(); }
   },
   {
@@ -3161,13 +3155,13 @@ export const news = [
   {
     id: "l82",
     get text() {
-      return `The Great Scribes of Antia have labored intensively for years. They were given a mammoth task from the
-      gods; write out an incomprehensibly long number. These scribes took turns, each writing out a few numbers a
-      second, writing day and night, for what seemed like an eternity. At last, after
-      ${TimeSpan.fromSeconds(Currency.antimatter.value.log10() / 3).toString()}, they finally accomplished
-      the impossible. That week, when they went to worship their gods, they sent them a simple message: "What was
-      the purpose? What made our years of labor significant?" The gods responded duly: "We wanted to know how long
-      it would take to write out, for a statistic in our game."`;
+      return `안티아의 위대한 필경사들은 수년 동안 고된 노동을 이어 왔습니다. 신들이 그들에게 이해할 수
+      없을 만큼 긴 숫자를 모두 적으라는 막대한 임무를 내렸기 때문입니다. 필경사들은 교대로 나서 한 사람씩
+      초마다 숫자 몇 개를 적으며, 영원처럼 느껴지는 세월 동안 밤낮없이 작업했습니다. 마침내
+      ${TimeSpan.fromSeconds(Currency.antimatter.value.log10() / 3).toString()} 뒤, 그들은 불가능한 일을
+      해냈습니다. 그 주에 신을 숭배하러 간 필경사들은 간단한 질문을 올렸습니다. "대체 무엇을 위한
+      일이었습니까? 저희가 수년간 한 노동에 무슨 의미가 있었습니까?" 신들은 답했습니다. "우리 게임의
+      통계에 숫자를 전부 쓰는 데 얼마나 걸리는지 표시하고 싶었느니라."`;
     },
     // 3 years of time to write
     get unlocked() { return Currency.antimatter.value.gte("1e777600"); }
@@ -3192,41 +3186,36 @@ export const news = [
   {
     id: "l85",
     text:
-      `On opposite day, the new update is just -5 hours away. You begin increasing your Matter. Once you acquire a
-      huge abundance of Matter, you must become Infinitesimal. After increasing your wealth in Infinitesimal Points,
-      you can eventually Jiffy, the shortest unit of time. After enough time, your Jiffies will accumulate, and you
-      will Contract Time. Contracting Time will grant you enough of a boost to eventually Fantasy, the final layer
-      of maintenance. However, you find out that it was all a dream. Your Antimatter is safe and well, and the new
-      update is still just 5 hours away. (반대의 날이라는 설정으로 물질, 극소, 찰나, 시간 수축 등 게임 진행을 전부 뒤집은 패러디입니다.)`,
+      `반대의 날에는 새 업데이트가 불과 -5시간 뒤에 나옵니다. 먼저 물질을 늘립니다. 엄청난 양의 물질을
+      모으면 극소에 도달해야 합니다. 극소 포인트를 충분히 불린 뒤에는 가장 짧은 시간 단위인 찰나에 도달할
+      수 있습니다. 시간이 충분히 지나 찰나가 쌓이면 시간을 수축시킵니다. 시간 수축으로 충분한 강화를 얻으면
+      마침내 유지 보수의 마지막 단계인 환상에 도달합니다. 하지만 이 모든 것이 꿈이었다는 사실을 깨닫습니다.
+      반물질은 무사히 그대로 있고, 새 업데이트도 여전히 5시간 뒤입니다.`,
     get unlocked() { return PlayerProgress.realityUnlocked(); }
   },
   {
     id: "l86",
     text:
-      `Hello, player. I'd like to play a game. In front of you is a pile of replicanti. They are currently frozen in
-      time, and cannot replicate. To your right is a computer playing Antimatter Dimensions on an empty save. You
-      must reach infinity. However, once you buy a 1st dimension, the replicanti will start replicating. As you know,
-      they replicate fast, and if they fill up the room you will suffocate. If you reach infinity before that, they
-      will be frozen again. The clock is ticking. Start now. (영화 Saw의 생존 게임 안내를 복제자와 무한 도달 조건으로 바꾼 패러디입니다.)`,
+      `안녕, 플레이어. 게임을 하나 하지. 네 앞에는 복제자 더미가 있다. 지금은 시간이 멈춰 있어 복제할 수
+      없지. 오른쪽에는 빈 세이브로 Antimatter Dimensions를 실행 중인 컴퓨터가 있다. 너는 무한에 도달해야
+      한다. 하지만 1차원을 사는 순간 복제자가 증식하기 시작한다. 알다시피 복제 속도는 빠르고, 방을 가득
+      채우면 넌 질식할 거다. 그 전에 무한에 도달하면 복제자는 다시 멈춘다. 시간은 흐르고 있다. 지금 시작해라.`,
     get unlocked() { return PlayerProgress.replicantiUnlocked(); }
   },
   {
     id: "l87",
     text:
-      `"To see a World in a Grain of Sand. And a Heaven in a Wild Flower. Hold Infinity in the palm of your hand.
-      And Eternity in an hour. And Reality in about 5 hours™️" ~Anti-William Blake
-      (William Blake의 시구에 무한, 영원, 현실과 업데이트 대기 농담을 덧붙인 패러디입니다.)`,
+      `"한 알의 모래에서 세계를 보고, 한 송이 들꽃에서 천국을 보라. 그대 손바닥에 무한을 쥐고,
+      한 시간 속에 영원을, 약 5시간™️ 뒤에는 현실을 담으라." ~ 안티 William Blake`,
     get unlocked() { return PlayerProgress.realityUnlocked(); }
   },
   {
     id: "l88",
     text:
-      `Our deepest apologies for the new glyph mechanic. The intent is to provide players with a sense of pride and
-      accomplishment for unlocking rare glyphs. We selected initial values based upon data from the final wave of
-      testing and other adjustments made to milestone rewards before launch. Among other things, we're looking at
-      average per-player credit earn rates on a daily basis, and we'll be making constant adjustments to ensure that
-      players have challenges that are compelling, rewarding, and of course attainable via gameplay.
-      (희귀 보상 해금에 자부심과 성취감을 주겠다는 EA의 유명 답변을 글리프 시스템에 맞춘 패러디입니다.)`,
+      `새 글리프 시스템에 대해 깊이 사과드립니다. 저희의 의도는 희귀 글리프를 해금한 플레이어에게 자부심과
+      성취감을 드리는 것이었습니다. 초기 수치는 최종 테스트 단계의 데이터와 출시 전 마일스톤 보상 조정을
+      바탕으로 결정했습니다. 그 밖에도 플레이어 한 명이 하루 동안 평균적으로 얻는 크레딧을 살펴보고 있으며,
+      매력적이고 보람차면서도 물론 게임 플레이만으로 달성 가능한 도전을 제공하도록 꾸준히 조정하겠습니다.`,
     get unlocked() { return PlayerProgress.realityUnlocked(); }
   },
   {
@@ -3236,11 +3225,11 @@ export const news = [
   },
   {
     id: "p1",
-    text: "Is this a jojo reference? (이것도 《죠죠의 기묘한 모험》을 가리키는 밈인가요?)",
+    text: "이것도 죠죠 패러디인가요?",
   },
   {
     id: "p2",
-    text: 'Die Zahlen gehen hoooch (숫자가 계속 커진다는 뜻입니다.)'
+    text: "숫자가 계속 커진다아아! (Die Zahlen gehen hoooch!)"
   },
   /* eslint-disable max-len */
   {
@@ -3803,7 +3792,7 @@ export const news = [
   },
   {
     id: "ai136",
-    text: "3 things that antimatter, 1 more thing to infinity"
+    text: "반물질에 관한 세 가지, 그리고 무한에 관한 한 가지 더"
   },
   {
     id: "ai137",
@@ -3839,7 +3828,7 @@ export const news = [
   },
   {
     id: "ai145",
-    text: "Boo has his own webpage! You might even call it \"Boo's Dandy\"\">https://en.m.wikipedia.org/wiki/Olli%27_Web#Main_page>"
+    text: "Boo에게도 자기 웹페이지가 생겼습니다! 심지어 \"Boo의 멋진 페이지\"라고 부를 만하죠\">https://en.m.wikipedia.org/wiki/Olli%27_Web#Main_page>"
   },
   {
     id: "ai146",
@@ -3863,7 +3852,7 @@ export const news = [
   },
   {
     id: "ai151",
-    text: "\"I propose that we form a phylogenetic tree of anti-history, just like tree of life. Everyone would be credited with originating from the ancestor of that anti-tree.\" -Dio, toast of eternal damnation"
+    text: "\"생명의 나무처럼 반역사의 계통수를 만들자고 제안합니다. 모두가 그 반나무의 조상에서 비롯된 것으로 기록될 겁니다.\" - 영원한 저주의 건배사, Dio"
   },
   {
     id: "ai152",
@@ -4306,7 +4295,7 @@ export const news = [
   },
   {
     id: "ai260",
-    text: "In the [[GameFAQs|http://www.gfaq.com/gfaqs/this-game-faq-by-title]], one of the most popular [[news ticker messages|http://www.gfaq.com/tug/this-game-faq-by-title]]. You should also check out [[our newest attraction, the [[5th dimension|http://www.gfaq.com/gfaqs/this-game-faq-by-name]] and [[nothing](https://www.youtube.com/watch?v=lXMskKTw3Bs)."
+    text: "[[GameFAQs|http://www.gfaq.com/gfaqs/this-game-faq-by-title]]에서 가장 인기 있는 [[뉴스 티커 메시지|http://www.gfaq.com/tug/this-game-faq-by-title]] 중 하나입니다. 최신 명물인 [[제5차원|http://www.gfaq.com/gfaqs/this-game-faq-by-name]]과 [[아무것도 아님](https://www.youtube.com/watch?v=lXMskKTw3Bs)도 확인해 보세요."
   },
   {
     id: "ai261",
@@ -4558,7 +4547,7 @@ export const news = [
   },
   {
     id: "ai323",
-    text: "I thought the nerf was too damn strong."
+    text: "너프가 너무 심하다고 생각했습니다."
   },
   {
     id: "ai324",
@@ -5452,7 +5441,7 @@ export const news = [
   },
   {
     id: "ai546",
-    text: "\"If you want to understand these shitty jokes, you really need to study theology. Math is a sin.\" -A panicky person"
+    text: "\"이 형편없는 농담들을 이해하려면 신학을 공부해야 합니다. 수학은 죄악이니까요.\" - 당황한 사람"
   },
   {
     id: "ai547",
@@ -5577,7 +5566,7 @@ export const news = [
   },
   {
     id: "ai577",
-    text: "The haters will be pissed when they see this"
+    text: "이걸 보면 악플러들이 열받겠군요."
   },
   {
     id: "ai578",
@@ -5601,7 +5590,7 @@ export const news = [
   },
   {
     id: "ai583",
-    text: "Feminism is not a philosophy, but a whole hell of a lot of men"
+    text: "페미니즘은 철학이 아니라, 엄청나게 많은 남자들입니다."
   },
   {
     id: "ai584",
@@ -5986,7 +5975,7 @@ export const news = [
   },
   {
     id: "ai678",
-    text: "Oh shit we ran out of news. Time to do something."
+    text: "이런, 뉴스가 다 떨어졌군요. 이제 뭔가 할 시간입니다."
   },
   {
     id: "ai679",
@@ -6818,7 +6807,7 @@ export const news = [
   },
   {
     id: "ai885",
-    text: "The most common question I get is \"can i just skip the ads and get true\" and the answer is always a resounding NO. The reason being, ad revenue is just too damn high to overcome the cost of maintaining the servers, plus the fact that most players just don't care."
+    text: "제가 가장 자주 받는 질문은 \"광고를 그냥 건너뛰고 true를 얻어도 되나요?\"이고, 대답은 언제나 단호한 '아니요'입니다. 광고 수익이 서버 유지 비용을 감당하기에도 턱없이 크고, 무엇보다 대부분의 플레이어는 신경도 쓰지 않기 때문입니다."
   },
   {
     id: "ai886",
@@ -6907,7 +6896,7 @@ export const news = [
   },
   {
     id: "ai907",
-    text: "The second thing I'm gonna do is go talk to the Devs in person. I don't know if I'll be able to do that without pissing someone off, so I'm gonna do it right here."
+    text: "두 번째로 할 일은 개발자들을 직접 찾아가 이야기하는 겁니다. 누군가를 화나게 하지 않고도 가능할지 모르겠으니, 그냥 바로 여기서 하겠습니다."
   },
   {
     id: "ai908",
