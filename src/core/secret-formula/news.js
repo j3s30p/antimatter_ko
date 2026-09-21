@@ -2513,7 +2513,7 @@ export const news = [
   },
   {
     id: "a378",
-    text: "If every antimatter were an apple, you would have enough to keep all the doctors away for 3000 years"
+    text: "모든 반물질이 사과라면 3천 년 동안 모든 의사를 멀리할 만큼 충분한 양입니다."
   },
   {
     id: "a379",

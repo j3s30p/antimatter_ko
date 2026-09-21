@@ -11,7 +11,7 @@ Status values: `not started`, `in progress`, `translated`, `QA complete`.
 | Early Classic UI | translated | Layout QA remains |
 | Options and common modals | in progress | Gameplay, visual, saving, hotkeys, confirmation, animation, news, info display, notation, visible-tabs, and backup UI translated; unlocked late-game option dialogs remain |
 | Statistics and records | not started | |
-| Achievements | not started | |
+| Achievements | in progress | Rows 1-5 translated; later rows and secret achievements remain |
 | Challenges | not started | |
 | Infinity systems | translated | Build and residue scan complete; full unlocked-state layout QA remains |
 | Eternity systems | in progress | Core systems and Time Study interface translated; individual Time Study data remains |
@@ -32,5 +32,11 @@ Update this file whenever a translation batch is committed. An area becomes `QA 
 - Source translation: complete for the three main Options subtabs and their common dialogs.
 - Initial help: shell and the articles shown at the start of a new save are translated; later progression articles remain.
 - Build validation: lint and Steam release build passed.
-- In-game installation: Options/Help batch installed and launch verified; current follow-up batch pending rebuild.
+- In-game installation: corrected runtime path (`app.asar/AppFiles/`) installed; runtime bundle hash, localized markers, absence of the old H2P title/search text, original backup, and five responding Electron processes verified.
 - Screen QA: pending tester review for Modern UI, Options, and Help layouts.
+
+## Steam packaging note
+
+The Electron entry point in `main.js` loads `AppFiles/index.html`. Release builds must therefore be overlaid into the
+extracted ASAR's `AppFiles/` directory, not the ASAR root. Verification must inspect `AppFiles/js/app.js` and compare its
+hash with the build output; searching the ASAR root can produce a false positive without changing the live game.
