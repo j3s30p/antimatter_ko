@@ -1053,29 +1053,29 @@ Android 리얼리티 업데이트 출시를 축하합니다! 이 큰 이정표�
   },
   {
     date: [2017, 12, 1],
-    name: "\"Eternity\" update",
+    name: "‘영원’ 업데이트",
     info: `
 <ul>
-<li>Time studies tree with free respec</li>
-<li>Eternity Milestones with tons of automation</li>
-<li>Eternity upgrades</li>
-<li>TIME DIMENSIONS</li>
-<li>REPLICANTIS</li>
-<li>More themes made by Omsi</li>
-<li>Disable hotkeys option</li>
-<li>Current IP/min post-break</li>
-<li>Infinity Challenge times</li>
-<li>Past 10 eternities</li>
-<li>Lowered IP multiplier cost by 1 Order of magnitude.</li>
-<li>3 more rows of achievements</li>
-<li>Infinity challenge reward nerfs (1st: 1.5x ➜ 1.3x; 3rd: lowered; 4th: mult^1.1 ➜ mult^1.05)</li>
-<li>More news ticker entries</li>
-<li>Immensely improved performance thanks to break_infinity.js made by Patashu, it replaces decimal.js</li>
-<li>Added LZString for cloud saving purposes.</li>
-<li>Achievement refractoring to reduce save string size made by StrangeTim.</li>
-<li>Commas between exponents option for numbers higher than e100000</li>
-<li>Added logarithm notation</li>
-<li>Made letter and cancer notation last longer.
+<li>무료 재분배가 가능한 시간 연구 트리</li>
+<li>다양한 자동화를 제공하는 영원 마일스톤</li>
+<li>영원 업그레이드</li>
+<li>시간 차원</li>
+<li>복제자</li>
+<li>Omsi가 만든 테마 추가</li>
+<li>단축키 비활성화 옵션</li>
+<li>무한 돌파 후 현재 분당 무한 포인트</li>
+<li>무한 도전 기록</li>
+<li>최근 영원 10회</li>
+<li>무한 포인트 배수 비용의 자릿수 1단계 감소.</li>
+<li>업적 3줄 추가</li>
+<li>무한 도전 보상 하향(1번: 1.5배 ➜ 1.3배, 3번: 감소, 4번: 배수^1.1 ➜ 배수^1.05)</li>
+<li>뉴스 티커 항목 추가</li>
+<li>Patashu가 만든 break_infinity.js로 decimal.js를 대체해 성능 대폭 개선</li>
+<li>클라우드 저장을 위해 LZString 추가.</li>
+<li>StrangeTim이 저장 문자열 크기를 줄이도록 업적 코드 재구성.</li>
+<li>e100000보다 큰 수의 지수 사이에 쉼표를 넣는 옵션</li>
+<li>로그 표기법 추가</li>
+<li>문자 및 암 표기법이 더 오래 유지되도록 변경.
 </ul>
 `
   },
@@ -1083,69 +1083,66 @@ Android 리얼리티 업데이트 출시를 축하합니다! 이 큰 이정표�
     date: [2017, 10, 10],
     info: `
 <ul>
-<li>Complete refactoring for all upgrade UI.</li>
-<li>Minor Upgrade Changes. (Capping some upgrades)</li>
-<li>Kred shop- 3 paid Upgrades- More upgrades (and upgrade improvements) coming in the future.</li>
-<li>8 new Achievements- Achievement Rewards have also been added.</li>
-<li>Infinity Challenges- additional challenges to do going from Inf Dim 2 to current end game and beyond.</li>
-<li>Main Screen UI updates- IP points are now visible everywhere.</li>
-<li>Hotkeys- C for Big Crunch, M for Max All, S for Dimensional Sacrifice, D for Dimension Shift/Boost,
-G for Antimatter Galaxy, Numbers 1-8 for Buy 10 (D1-8), A for Toggle Autobuyers.</li>
-<li>Bug Fixes- At least 2, including a percentage buff.</li>
+<li>모든 업그레이드 UI 완전 재구성.</li>
+<li>소규모 업그레이드 변경(일부 업그레이드에 상한 적용).</li>
+<li>Kred 상점: 유료 업그레이드 3개. 향후 업그레이드와 개선 추가 예정.</li>
+<li>새 업적 8개와 업적 보상 추가.</li>
+<li>무한 도전: 2차 무한 차원부터 당시 최종 콘텐츠 이후까지 이어지는 추가 도전.</li>
+<li>메인 화면 UI 갱신: 이제 어디서나 무한 포인트 표시.</li>
+<li>단축키: C 빅 크런치, M 모두 최대 구매, S 차원 희생, D 차원 이동/가속,
+G 반물질 은하, 1~8 해당 차원 10개 구매, A 자동구매기 전환.</li>
+<li>버그 수정: 비율 상향을 포함해 최소 2개.</li>
 </ul>`
   },
   {
     date: [2017, 9, 25],
     info: `
 <ul>
-<li>NEW DIMENSIONS?</li>
-<li>Super Secret Post-Infinity Dimensions added. Get more antimatter to find out!</li>
-<li>Post-break double galaxy upgrade nerfed. It now gives 50% more.</li>
-<li>Four new post-break upgrades added.</li>
-<li>Scaling of the dimension cost multiplier increased.</li>
-<li>Eight new achievements added.</li>
-<li>Cloud saving maybe added.</li>
-<li>Refunded Dimension cost increase multiplier and changed the cost.</li>
+<li>새 차원?</li>
+<li>극비의 무한 이후 차원 추가. 더 많은 반물질을 모아 확인하세요!</li>
+<li>무한 돌파 후 은하 2배 업그레이드 하향. 이제 50% 증가.</li>
+<li>무한 돌파 후 새 업그레이드 4개 추가.</li>
+<li>차원 비용 배수의 증가율 상승.</li>
+<li>새 업적 8개 추가.</li>
+<li>클라우드 저장이 아마도 추가됨.</li>
+<li>차원 비용 증가 배수를 환불하고 비용 변경.</li>
 </ul>`
   },
   {
     date: [2017, 9, 19],
-    name: "Breaking Infinity",
+    name: "무한 돌파",
     info: `
 <ul>
-<li>Post infinity content added (Breaking infinity), requires big crunch speed to be maxed.</li>
-<li>New upgrade tree pre-breaking, included one upgrade that be taken multiple times to
-increase infinity point gains.</li>
-<li>Eight late game post-breaking upgrades.</li>
-<li>Eight new achievements.</li>
-<li>Reworked autobuyer prices and times, full refund for all points spent on them.</li>
-<li>Autobuyers now can be upgraded beyond 0.1 seconds, and they also now 'wait' after their interval has passed,
-instantly buying once they are able to.</li>
-<li>Automatic DimBoosts, Galaxies, and Big Crunches now have an input box.</li>
-<li>Unique achievement rewards for multiple achievements.</li>
-<li>Zero galaxies now gives 11% tickspeed.</li>
-<li>Galaxies past two give diminishing returns, Faster than a Potato made easier to compensate.</li>
-<li>Game now updates 20 times a second with increased performance, max autobuyer speed is not impacted.</li>
-<li>Autobuyer settings are now saved in between sessions.</li>
-<li>Monitor scaling issues mainly fixed.</li>
-<li>Priority should be working properly.</li>
-<li>Big crunch button is now less obtrusive.</li>
-<li>Your screen no longer defaults to the dimensions tab when you reach infinity
-(if you have broken infinity or if your fastest time to reach infinity is less than one minute).</li>
-<li>More statistics have been added such as record challenge times and last ten infinities.</li>
-<li>Times below one minute are now kept at two decimal points of precision.</li>
-<li>Percentage increase per second for dimensions 1-8 are now kept to two decimal points of precision.</li>
-<li>The reset button works better now.</li>
+<li>무한 이후 콘텐츠(무한 돌파) 추가. 빅 크런치 속도 최대 업그레이드 필요.</li>
+<li>돌파 전 새 업그레이드 트리와 무한 포인트 획득량을 늘리는 반복 구매 업그레이드 추가.</li>
+<li>돌파 후 후반 업그레이드 8개.</li>
+<li>새 업적 8개.</li>
+<li>자동구매기 가격과 시간을 재작업하고 사용한 포인트 전액 환불.</li>
+<li>자동구매기를 0.1초보다 빠르게 업그레이드 가능. 간격이 지나면 구매 가능할 때까지 기다렸다가 즉시 구매.</li>
+<li>자동 차원 가속, 은하, 빅 크런치에 입력 상자 추가.</li>
+<li>여러 업적에 고유 보상 추가.</li>
+<li>은하 0개일 때 틱스피드 11% 제공.</li>
+<li>은하 2개 이후 효율 감소 적용. 보상으로 ‘감자보다 빠르게’를 쉽게 변경.</li>
+<li>성능을 개선하고 게임을 초당 20회 갱신. 자동구매기 최대 속도에는 영향 없음.</li>
+<li>세션 사이에 자동구매기 설정 저장.</li>
+<li>모니터 배율 문제 대부분 수정.</li>
+<li>우선순위가 제대로 작동하도록 수정.</li>
+<li>빅 크런치 버튼이 덜 거슬리도록 변경.</li>
+<li>무한 돌파 후이거나 가장 빠른 무한이 1분 미만이면 무한 도달 시 차원 탭으로 자동 이동하지 않음.</li>
+<li>도전 기록과 최근 무한 10회 등 통계 추가.</li>
+<li>1분 미만 시간은 소수점 두 자리 정밀도로 표시.</li>
+<li>1~8차원의 초당 증가율을 소수점 두 자리로 표시.</li>
+<li>초기화 버튼 동작 개선.</li>
 </ul>`
   },
   {
     date: [2017, 9, 7],
-    name: "Challenges",
+    name: "도전",
     info: `
 <ul>
-<li>Added 12 challenges.</li>
-<li>Added 8 new achievements.</li>
-<li>Added autobuyers.</li>
+<li>도전 12개 추가.</li>
+<li>새 업적 8개 추가.</li>
+<li>자동구매기 추가.</li>
 </ul>`
   },
   {
@@ -1154,27 +1151,26 @@ instantly buying once they are able to.</li>
     date: [2017, 8, 30],
     info: `
 <ul>
-<li>Added news on top of the page.</li>
-<li>Added a multiplier for completing a row of achievements.</li>
-<li>New letter notation option.</li>
-<li>Nerfed galaxies from +3% to +2%.</li>
-<li>Added 8 new achievements.</li>
-<li>Added Dimensional Sacrifice, appears at 5th dimension shift/boost.</li>
-<li>More notations!</li>
-<li>Bar until infinity at the bottom.</li>
-<li>Some UI changes.</li>
+<li>페이지 위쪽에 뉴스 추가.</li>
+<li>업적 한 줄 완료 배수 추가.</li>
+<li>새 문자 표기법 옵션.</li>
+<li>은하 보너스를 +3%에서 +2%로 하향.</li>
+<li>새 업적 8개 추가.</li>
+<li>차원 희생 추가. 차원 이동/가속 5회에 등장.</li>
+<li>표기법 추가!</li>
+<li>화면 아래쪽에 무한까지의 진행 표시줄 추가.</li>
+<li>일부 UI 변경.</li>
 </ul>`
   },
   {
     date: [2017, 8, 24],
-    name: "Infinity",
+    name: "무한",
     info: `
 <ul>
-<li>Now when you get to 1.7e308 antimatter, you reach infinity, and you can reset again at infinity,
-gaining infinity points.</li>
-<li>You can use infinity points for upgrades.</li>
-<li>The game also now runs 6 hours while it is closed.</li>
-<li>In addition there are some graphic updates.</li>
+<li>반물질 1.7e308에 도달하면 무한에 이르며, 다시 초기화해 무한 포인트 획득.</li>
+<li>무한 포인트로 업그레이드 구매 가능.</li>
+<li>게임을 닫아도 6시간 동안 진행.</li>
+<li>일부 그래픽 갱신.</li>
 </ul>`
   },
   // These were originally spread throughout 3/5 to 7/5.
@@ -1183,14 +1179,14 @@ gaining infinity points.</li>
     date: [2017, 5, 7],
     info: `
 <ul>
-<li>Added this changelog, fixed money displaying problem. Added a title to the HTML.</li>
-<li>The game now works offtab.</li>
-<li>Fixed the bug with costs showing for example 1000 SxTg.</li>
-<li>Visual update! And statistics.</li>
-<li>Added export and import options.</li>
-<li>Added save button although game saves every 10 seconds.</li>
-<li>Slightly smaller text and added a max all button.</li>
-<li>Saves should now FINALLY work properly.</li>
+<li>변경 내역 추가, 화폐 표시 문제 수정, HTML 제목 추가.</li>
+<li>다른 탭을 보고 있어도 게임이 작동.</li>
+<li>비용이 ‘1000 SxTg’처럼 표시되던 문제 수정.</li>
+<li>시각적 갱신과 통계 추가.</li>
+<li>내보내기 및 가져오기 옵션 추가.</li>
+<li>게임이 10초마다 저장되지만 저장 버튼도 추가.</li>
+<li>문구 크기를 조금 줄이고 모두 최대 구매 버튼 추가.</li>
+<li>이제 저장이 드디어 제대로 작동할 것임.</li>
 </ul>`
   }
 ];

@@ -21,7 +21,7 @@ Status values: `not started`, `in progress`, `translated`, `QA complete`.
 | Celestials and story dialogue | in progress | Compatible base-game tabs, mechanics, navigation text, and quote data imported; residue and story QA remain |
 | Help and catch-up documentation | translated | All compatible base-game articles plus previously skipped Reality and Nameless Ones articles translated; terminology and layout QA remain |
 | News ticker | translated | All 1,410 static entries reviewed; ordinary English sentences and added explanatory tails are cleared, with only URLs, code, icons, hashtags, and deliberate symbols retained |
-| Changelog | in progress | All entries from the iOS release through the Reality Update translated; older pre-Reality entries remain |
+| Changelog | translated | All 22 entries translated; HTML, formulas, hotkeys, code names, and external proper names preserved |
 | Release installer and restoration | in progress | Copy-over ZIP is now the default release format; hash-gated installer and backup restore remain available as developer tools |
 | Clean-install release QA | not started | Includes update/restore test |
 
@@ -83,7 +83,8 @@ Update this file whenever a translation batch is committed. An area becomes `QA 
   explanatory suffixes are gone; the nine non-Korean residues are intentional URLs, code fragments, hashtags, mentions,
   icons, or visual symbols. Babel parsing, whitespace checks, and focused ESLint passed.
 - Changelog localization: translated every entry from the 2026 iOS release through the full 2022 Reality Update,
-  preserving HTML, formulas, version numbers, and Automator command tokens. Older pre-Reality changelog entries remain.
+  then completed every 2018 and 2017 legacy entry. HTML, formulas, version numbers, hotkeys, code names, and Automator
+  command tokens were preserved; focused ESLint and whitespace checks passed.
 - Release format: changed the public installation path to the usual Steam fan-patch workflow. The generated ZIP now
   contains `resources/app.asar` and can be copied directly over the game root. The Korean installation guide,
   attribution, font license, manifest, archive paths, and payload hash were verified in a layout test.
