@@ -5,7 +5,7 @@ export const pelleRifts = {
   vacuum: {
     id: 1,
     key: "vacuum",
-    name: ["Vacuum", "Hollow", "Void"],
+    name: ["진공", "공허", "무"],
     drainResource: "IP",
     baseEffect: x => `IP gain ${formatX(x, 2, 2)}`,
     additionalEffects: () => [PelleRifts.vacuum.milestones[2]],
@@ -49,7 +49,7 @@ export const pelleRifts = {
   decay: {
     id: 2,
     key: "decay",
-    name: ["Decay", "Collapse", "Disarray"],
+    name: ["쇠퇴", "붕괴", "혼란"],
     drainResource: "Replicanti",
     spendable: true,
     baseEffect: x => `Replicanti speed ${formatX(x, 2, 2)}`,
@@ -97,7 +97,7 @@ export const pelleRifts = {
   chaos: {
     id: 3,
     key: "chaos",
-    name: ["Chaos", "Disorder", "Impurity"],
+    name: ["혼돈", "무질서", "불순"],
     drainResource: ["Decay", "Collapse", "Disarray"],
     baseEffect: x => `Time Dimensions ${formatX(x, 2, 2)}`,
     strike: () => PelleStrikes.eternity,
@@ -144,7 +144,7 @@ export const pelleRifts = {
   recursion: {
     id: 4,
     key: "recursion",
-    name: ["Recursion", "Dispersion", "Destruction"],
+    name: ["재귀", "분산", "파괴"],
     drainResource: "EP",
     baseEffect: x => `EP formula: log(x)/${formatInt(308)} ➜ log(x)/${formatFloat(308 - x.toNumber(), 2)}`,
     additionalEffects: () => [PelleRifts.recursion.milestones[0], PelleRifts.recursion.milestones[1]],
@@ -181,7 +181,7 @@ export const pelleRifts = {
   paradox: {
     id: 5,
     key: "paradox",
-    name: ["Paradox", "Contradiction", "Fallacy"],
+    name: ["역설", "모순", "오류"],
     drainResource: "Dilated Time",
     baseEffect: x => `All Dimensions ${formatPow(x, 2, 3)}`,
     additionalEffects: () => [PelleRifts.paradox.milestones[2]],

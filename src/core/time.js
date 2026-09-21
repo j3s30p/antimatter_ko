@@ -25,12 +25,15 @@ export const Time = {
   },
   /**
    * Returns a string indicating the current date and time of day, as indicated by a Date.now() timestamp. After
-   * regex formatting, this gives a string resembling "[month] [day] [year] HH:MM:SS"
+   * formatting, this gives a Korean date-time string resembling "YYYY년 MM월 DD일 HH:MM:SS"
    * @param {number} timestamp
    * @returns {string}
    */
   toDateTimeString(timestamp) {
-    return new Date(timestamp).toString().replace(/^.{4}(.*:..:..).*$/u, "$1");
+    const date = new Date(timestamp);
+    const pad = value => value.toString().padStart(2, "0");
+    return `${date.getFullYear()}년 ${pad(date.getMonth() + 1)}월 ${pad(date.getDate())}일 ` +
+      `${pad(date.getHours())}:${pad(date.getMinutes())}:${pad(date.getSeconds())}`;
   },
 
   /**

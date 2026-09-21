@@ -140,7 +140,7 @@ export const breakInfinityUpgrades = {
       return `최근 무한 ${formatInt(10)}회의 최고 IP/분을 기준으로 ${generation}`;
     },
     isDisabled: effect => effect.eq(0),
-    formatEffect: value => `${format(value, 2, 1)} IP/min`,
+    formatEffect: value => `${format(value, 2, 1)} IP/분`,
     noLabel: false
   })
 };

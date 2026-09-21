@@ -1133,7 +1133,7 @@ export const normalAchievements = [
     get description() { return `게임 시간 ${formatInt(5)}초 이내에 현실에 도달한다.`; },
     checkRequirement: () => Time.thisReality.totalSeconds <= 5,
     checkEvent: GAME_EVENT.REALITY_RESET_BEFORE,
-    get reward() { return `${formatPercents(0.1)} chance each Reality of ${formatX(2)} Realities and Perk Points.`; },
+    get reward() { return `현실마다 ${formatPercents(0.1)} 확률로 현실 횟수와 퍼크 포인트를 ${formatX(2)} 얻는다.`; },
     effect: 0.1
   },
   {
@@ -1258,8 +1258,8 @@ export const normalAchievements = [
     id: 172,
     name: "은하수를 여행하는 현실을 위한 안내서",
     get description() {
-      return `Reality for ${format(Decimal.NUMBER_MAX_VALUE, 1)} Reality Machines without having
-      any Charged Infinity Upgrades, having any equipped Glyphs, or buying any Triad Studies.`;
+      return `충전된 무한 업그레이드나 장착한 글리프 없이, 삼중 연구도 구매하지 않은 채
+      리얼리티 머신 ${format(Decimal.NUMBER_MAX_VALUE, 1)}개를 획득하고 현실에 도달한다.`;
     },
     checkRequirement: () => MachineHandler.gainedRealityMachines.gte(Decimal.NUMBER_MAX_VALUE) &&
       player.celestials.ra.charged.size === 0 && Glyphs.activeWithoutCompanion.length === 0 &&

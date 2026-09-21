@@ -26,7 +26,7 @@ export const glyphSacrifice = {
       const capped = Math.clampMax(sac, GlyphSacrificeHandler.maxSacrificeForEffects);
       return 1 + Math.log10(1 + Math.pow(capped, 0.2) / 100);
     },
-    description: amount => `${formatX(amount, 2, 2)} bigger multiplier when buying 8th Infinity Dimension`,
+    description: amount => `제8 무한 차원 구매 배율이 ${formatX(amount, 2, 2)} 더 커짐`,
     cap: () => GlyphSacrificeHandler.maxSacrificeForEffects
   },
   "time": {
@@ -37,7 +37,7 @@ export const glyphSacrifice = {
       const capped = Math.clampMax(sac, GlyphSacrificeHandler.maxSacrificeForEffects);
       return Math.pow(1 + Math.pow(capped, 0.2) / 100, 2);
     },
-    description: amount => `${formatX(amount, 2, 2)} bigger multiplier when buying 8th Time Dimension`,
+    description: amount => `제8 시간 차원 구매 배율이 ${formatX(amount, 2, 2)} 더 커짐`,
     cap: () => GlyphSacrificeHandler.maxSacrificeForEffects
   },
   "replication": {
@@ -69,7 +69,7 @@ export const glyphSacrifice = {
         Math.log10(GlyphSacrificeHandler.maxSacrificeForEffects), 0.1);
       return Math.pow(Math.clampMin(capped, 1), exponent);
     },
-    description: amount => `Multiply Tachyon Particle gain by ${formatX(amount, 2, 2)}`,
+    description: amount => `타키온 입자 획득량에 ${formatX(amount, 2, 2)} 배율 적용`,
     cap: () => GlyphSacrificeHandler.maxSacrificeForEffects
   },
   "effarig": {
@@ -92,7 +92,7 @@ export const glyphSacrifice = {
       // This cap is only feasibly reached with the imaginary upgrade, but we still want to cap it at a nice number
       return Math.clampMax(1 + Math.sqrt(sac) / 15, 100);
     },
-    description: amount => `Multiply Memory Chunk gain by ${formatX(amount, 2, 3)}`,
+    description: amount => `기억 조각 획득량에 ${formatX(amount, 2, 3)} 배율 적용`,
     cap: () => GlyphSacrificeHandler.maxSacrificeForEffects
   }
 };

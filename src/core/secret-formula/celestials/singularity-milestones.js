@@ -53,7 +53,7 @@ export const singularityMilestones = {
     repeat: 3000,
     increaseThreshold: 5,
     limit: Infinity,
-    description: "Singularity gain multiplier",
+    description: "특이점 획득 배율",
     effect: completions => Math.pow(2, completions),
     effectFormat: x => formatX(x, 2, 0),
     upgradeDirection: LAITELA_UPGRADE_DIRECTION.SELF_BOOST,

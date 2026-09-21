@@ -17,16 +17,16 @@ const rebuyable = config => {
 export const pelleGalaxyGeneratorUpgrades = {
   additive: rebuyable({
     id: "galaxyGeneratorAdditive",
-    description: "Increase base Galaxy generation by 2",
+    description: "기본 은하 생성량을 2만큼 증가시킵니다",
     cost: x => Math.pow(3, x),
     effect: x => x * 2,
-    formatEffect: x => `${format(x, 2, 2)}/s`,
+    formatEffect: x => `${format(x, 2, 2)}/초`,
     currency: () => Currency.galaxyGeneratorGalaxies,
     currencyLabel: "Galaxy"
   }),
   multiplicative: rebuyable({
     id: "galaxyGeneratorMultiplicative",
-    description: "Multiply Galaxy generation",
+    description: "은하 생성량에 배율을 적용합니다",
     cost: x => Math.pow(10, x),
     effect: x => Decimal.pow(2.5, x),
     formatEffect: x => formatX(x, 2, 1),
@@ -35,7 +35,7 @@ export const pelleGalaxyGeneratorUpgrades = {
   }),
   antimatterMult: rebuyable({
     id: "galaxyGeneratorAntimatterMult",
-    description: "Multiply Galaxy generation",
+    description: "은하 생성량에 배율을 적용합니다",
     cost: x => Decimal.pow("1e100000000", 10 ** x),
     effect: x => Decimal.pow(2, x),
     formatEffect: x => formatX(x, 2),
@@ -44,7 +44,7 @@ export const pelleGalaxyGeneratorUpgrades = {
   }),
   IPMult: rebuyable({
     id: "galaxyGeneratorIPMult",
-    description: "Multiply Galaxy generation",
+    description: "은하 생성량에 배율을 적용합니다",
     cost: x => Decimal.pow("1e2000000", 100 ** x),
     effect: x => Decimal.pow(2, x),
     formatEffect: x => formatX(x, 2),
@@ -53,7 +53,7 @@ export const pelleGalaxyGeneratorUpgrades = {
   }),
   EPMult: rebuyable({
     id: "galaxyGeneratorEPMult",
-    description: "Multiply Galaxy generation",
+    description: "은하 생성량에 배율을 적용합니다",
     cost: x => Decimal.pow("1e10000", 1000 ** x),
     effect: x => Decimal.pow(2, x),
     formatEffect: x => formatX(x, 2),

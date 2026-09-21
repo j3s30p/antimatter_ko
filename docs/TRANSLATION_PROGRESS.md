@@ -12,14 +12,14 @@ Status values: `not started`, `in progress`, `translated`, `QA complete`.
 | Options and common modals | in progress | Gameplay, visual, saving, hotkeys, confirmation, animation, news, info display, notation, visible-tabs, backup UI, and early reset confirmations translated; unlocked late-game option dialogs remain |
 | Statistics and records | translated | Main statistics, matter scale, challenge records, past prestige runs, multiplier breakdown entries, and glyph-set records translated; layout QA remains |
 | Achievements | translated | Main screen chrome, all normal rows, rewards, and secret achievement data translated; layout QA remains |
-| Challenges | not started | |
+| Challenges | in progress | Normal Challenge data and start/exit UI translated; Infinity and Eternity Challenge residue remains |
 | Infinity systems | translated | Build and residue scan complete; full unlocked-state layout QA remains |
-| Eternity systems | in progress | Core systems and Time Study interface translated; individual Time Study data remains |
+| Eternity systems | in progress | Core systems, Time Study interface, and compatible base-game Time Study data translated; residue remains |
 | Dilation systems | not started | |
-| Reality and Glyph systems | not started | |
+| Reality and Glyph systems | in progress | Compatible base-game Reality/Imaginary upgrades, perks, Glyph dialogs, and filters imported; screen QA and residue remain |
 | Automator UI and documentation | in progress | Most editor UI, transfer screens, templates, errors, and documentation imported; commands remain English intentionally for script compatibility |
 | Celestials and story dialogue | not started | |
-| Help and catch-up documentation | in progress | All initially unlocked H2P articles and initial catch-up content translated; later progression articles and catch-up entries remain |
+| Help and catch-up documentation | translated | All compatible base-game H2P articles and catch-up entries imported; terminology and layout QA remain |
 | News ticker | in progress | 1,302 previously untouched base-game message properties imported from the reference translation; mixed-language wordplay and a smaller incompatible residue remain |
 | Changelog | not started | Final content batch |
 | Release installer and restoration | not started | Must validate Steam version/hash |
@@ -51,6 +51,14 @@ Update this file whenever a translation batch is committed. An area becomes `QA 
   news properties, 91 normal-achievement properties, and the remaining multiplier-breakdown labels without importing
   Endgame systems or content. Steam build, absence of an `Endgame Skills` marker, ASAR hash, native sidecar count (304),
   and five responding Electron processes were verified.
+- Mixed base/extension files: imported a further compatible set by matching literal base-game IDs and verifying each
+  English property against the Steam source. This covered Normal Challenges, Time Studies, Reality and Imaginary
+  upgrades, perks, Celestial data, catch-up entries, and all remaining base-game H2P articles without copying extension
+  entries. Translation-audit candidates fell from 10,344 to 9,834.
+- Time localization: global `TimeSpan` output now uses Korean units (`년`, `일`, `시간`, `분`, `초`, `밀리초`) and
+  save creation timestamps use `YYYY년 MM월 DD일 HH:MM:SS`. Achievement 172's formula-preserving Korean description
+  was added manually because the base and reference use different constant names. The updated Steam package was built,
+  checked for absence of an Endgame marker, installed, and launched with five responding Electron processes.
 
 ## Steam packaging note
 

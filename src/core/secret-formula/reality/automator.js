@@ -15,9 +15,9 @@ export const automator = {
       keyword: "STUDIES RESPEC",
       category: 0,
       syntax: `<b>studies respec</b>`,
-      description: `This command turns on the respec option, which will respec your Time Studies on the next manual or
-        automatic Eternity. Note that this does not actually perform an Eternity on its own; make sure your Autobuyer
-        is on or you manually run the ETERNITY command (although ETERNITY has its own built-in respec option).`,
+      description: `이 명령어는 재설정 옵션을 켜서 다음 수동 또는 자동 영원에서 시간 연구를 재설정합니다.
+        이 명령어만으로 영원을 실행하지는 않으므로 자동구매기가 켜져 있는지 확인하거나 ETERNITY 명령어를
+        직접 실행하세요(ETERNITY에도 자체 재설정 옵션이 있습니다).`,
       examples: [
         `studies respec`,
       ]
@@ -29,7 +29,7 @@ export const automator = {
       category: 0,
       syntax: `<b>studies</b> [nowait] <b>load id</b> <u>selector</u><br>
         <b>studies</b> [nowait] <b>load name</b> <u>name</u>`,
-      description: `Loads a Time Study preset, as if you had clicked on the button in the Time Study tab.`,
+      description: `시간 연구 탭의 버튼을 누른 것처럼 시간 연구 프리셋을 불러옵니다.`,
       sections: [
         {
           name: "INPUTS",
@@ -67,7 +67,7 @@ export const automator = {
       keyword: "STUDIES PURCHASE",
       category: 0,
       syntax: `<b>studies</b> [nowait] <b>purchase <u>study_list</u></b>`,
-      description: "Purchase Time Studies specified from a list of Time Studies.",
+      description: "시간 연구 목록에 지정된 시간 연구를 구매합니다.",
       sections: [
         {
           name: "INPUTS",
@@ -146,7 +146,7 @@ export const automator = {
       keyword: "UNLOCK",
       category: 1,
       syntax: "<b>unlock</b> [nowait] <u>feature</u>",
-      description: "Unlocks the specified Eternity Challenge or Time Dilation.",
+      description: "지정한 영원 도전 또는 시간 팽창을 해금합니다.",
       sections: [
         {
           name: "MODIFIERS",
@@ -174,10 +174,10 @@ export const automator = {
       syntax: `
         <b>start</b> ec<u>N</u><br>
         <b>start</b> dilation`,
-      description: `Start a specified Eternity Challenge or a Dilated Eternity. This command will also attempt
-        to unlock the EC if not unlocked, but will not do the same for Dilation (use UNLOCK command to do that).
-        If you are already in the specified EC or Dilated Eternity, running this command again will do nothing;
-        otherwise, the Automator will keep attempting to start the Eternity until it succeeds.`,
+      description: `지정한 영원 도전 또는 팽창된 영원을 시작합니다. 영원 도전이 해금되지 않았다면 이 명령어가
+        해금도 시도하지만 시간 팽창은 해금하지 않습니다(해금하려면 UNLOCK 명령어를 사용하세요).
+        이미 지정한 영원 도전 또는 팽창된 영원에 있다면 이 명령어를 다시 실행해도 아무 일도 일어나지 않습니다.
+        그 외에는 성공할 때까지 오토메이터가 영원 시작을 계속 시도합니다.`,
       examples: [
         "start ec12",
         "start dilation"
@@ -191,9 +191,9 @@ export const automator = {
       syntax: `<b>auto infinity</b> [setting]<br>
         <b>auto eternity</b> [setting]<br>
         <b>auto reality</b> [setting]`,
-      description: `Turns prestige Autobuyers on or off and allows you to change their settings. If the setting option
-        is not present, this command will toggle the Autobuyer state, turning it off if it is on and turning it on if
-        it is off. <b>This command will not work if you try to modify an Autobuyer or setting you do not have.</b>`,
+      description: `프레스티지 자동구매기를 켜거나 끄고 설정을 변경합니다. 설정 옵션이 없으면 이 명령어가
+        자동구매기의 상태를 전환하여, 켜져 있으면 끄고 꺼져 있으면 켭니다. <b>보유하지 않은 자동구매기나
+        설정을 변경하려 하면 이 명령어는 작동하지 않습니다.</b>`,
       sections: [
         {
           name: "SETTINGS",
@@ -235,9 +235,8 @@ export const automator = {
       keyword: "BLACK HOLE",
       category: 2,
       syntax: "<b>black hole</b> <u>state</u>",
-      description: `Toggles the speedup effect from the Black Hole on or off. Turning the Black Hole on via the
-        Automator does not bypass the gradual acceleration from off to max speed which occurs before they are
-        permanent.`,
+      description: `블랙홀의 가속 효과를 켜거나 끕니다. 오토메이터로 블랙홀을 켜도 블랙홀이 영구화되기 전에
+        꺼진 상태에서 최대 속도까지 서서히 가속되는 과정은 건너뛰지 않습니다.`,
       examples: [
         "black hole on",
         "black hole off",
@@ -249,7 +248,7 @@ export const automator = {
       keyword: "STORE GAME TIME",
       category: 2,
       syntax: "<b>store game time</b> <u>action</u>",
-      description: `Changes whether or not the Black Hole is storing time. Also allows usage of stored time.`,
+      description: `블랙홀이 시간을 저장할지 설정합니다. 저장한 시간을 사용할 수도 있습니다.`,
       sections: [
         {
           name: "ACTIONS",
@@ -281,10 +280,9 @@ export const automator = {
       keyword: "NOTIFY",
       category: 3,
       syntax: "<b>notify</b> \"<u>text</u>\"",
-      description: `Takes the specified text and posts it in the top-right corner as
-        a text notification, in the same spot and style as other notifications such as auto-save
-        and achievement/upgrade unlocks. Can be useful for seeing automator status while
-        on tabs other than the Automator tab.`,
+      description: `지정한 문구를 우측 상단에 텍스트 알림으로 표시합니다. 자동 저장이나 도전과제/업그레이드
+        해금 알림과 같은 위치와 형식으로 표시됩니다. 오토메이터 탭이 아닌 다른 탭에서도 오토메이터의
+        상태를 확인할 때 유용합니다.`,
       examples: [
         "notify \"Dilation reached\"",
         "notify \"ECs completed\""
@@ -296,10 +294,9 @@ export const automator = {
       keyword: "Adding Comments",
       category: 3,
       syntax: "<b>#</b> text<br><b>//</b> text",
-      description: `Allows you to leave a note to yourself within your script. This may be
-        useful for organizing or keeping track of which parts of your script do various things,
-        in a way that appears more readable than just the commands. These commands mainly serve as a tool to
-        help you keep the steps of your scripts easier to follow if desired.`,
+      description: `스크립트 안에 자신을 위한 메모를 남길 수 있습니다. 명령어만 나열하는 것보다 읽기 쉽게
+        정리하거나 스크립트의 각 부분이 어떤 일을 하는지 기록하는 데 유용합니다. 이 명령어들은 원하는 경우
+        스크립트의 단계를 더 쉽게 파악하도록 돕는 도구입니다.`,
       sections: [
         {
           name: "NOTES",
@@ -336,8 +333,8 @@ export const automator = {
       keyword: "WAIT",
       category: 4,
       syntax: "<b>wait</b> <u>condition</u>",
-      description: `Forces Automator to wait for some condition or event. To wait for a certain duration of time,
-        use the PAUSE command instead.`,
+      description: `오토메이터가 특정 조건이나 이벤트를 기다리게 합니다. 일정 시간 동안 기다리려면
+        PAUSE 명령어를 사용하세요.`,
       sections: [
         {
           name: "POSSIBLE CONDITIONS",
@@ -382,9 +379,8 @@ export const automator = {
       keyword: "PAUSE",
       category: 4,
       syntax: "<b>pause</b> <u>interval</u>",
-      description: `Tells the automator to stop moving forward and executing commands for a certain amount of time.
-        Note that if the pause duration is shorter than the automator's execution speed, the automator will wait until
-        the next execution tick before moving on.`,
+      description: `오토메이터가 일정 시간 동안 다음으로 넘어가거나 명령어를 실행하지 않게 합니다.
+        일시 정지 시간이 오토메이터의 실행 간격보다 짧으면 다음 실행 틱까지 기다린 뒤 넘어갑니다.`,
       examples: [
         "pause 10s",
         "pause 1 minute",
@@ -440,9 +436,8 @@ export const automator = {
       syntax: `<b>if</b> <u>condition</u> {<br>
         <blockquote>commands</blockquote>
         }`,
-      description: `Defines an inner block of block of the automator script which will only be executed if the specified
-        comparison is true when this line is reached. If the comparison is false, the automator will instead skip to the
-        first line after the block and continue execution from there.`,
+      description: `이 줄에 도달했을 때 지정한 비교식이 참인 경우에만 실행되는 오토메이터 스크립트의 내부 블록을
+        정의합니다. 비교식이 거짓이면 오토메이터는 블록 다음의 첫 줄로 건너뛰어 그곳부터 실행을 계속합니다.`,
       examples: [
         "if ec10 completions < 5",
         "if ep > 1e6000"
@@ -458,14 +453,12 @@ export const automator = {
         }<br><b>until</b> <u>prestige_event</u> {<br>
           <blockquote>commands</blockquote>
         }`,
-      description: `Defines an inner block of the script where commands are repeated; the comparison is checked at the
-        start and every time the loop repeats. If the condition is true when the UNTIL statement is first reached, the
-        inner block of commands will be skipped entirely.
+      description: `명령어를 반복하는 스크립트 내부 블록을 정의합니다. 시작할 때와 루프가 반복될 때마다 비교식을
+        확인합니다. UNTIL 문에 처음 도달했을 때 조건이 참이면 내부 명령어 블록을 완전히 건너뜁니다.
         <br><br>
-        If an prestige event (ie. Infinity, Eternity, or Reality) is specified instead of a condition, then the block
-        will always be entered and the commands within the block will repeat until the event occurs for the first time
-        <i>after</i> entering the block. Note that the Automator will finish the rest of the loop and then exit after
-        the prestige event occurs - it will not immediately exit the loop in the middle.`,
+        조건 대신 프레스티지 이벤트(즉, 무한, 영원 또는 현실)를 지정하면 항상 블록에 진입하고, 블록에 들어간
+        <i>후</i> 해당 이벤트가 처음 발생할 때까지 내부 명령어를 반복합니다. 프레스티지 이벤트가 발생해도
+        루프 중간에 즉시 나가지 않고 오토메이터가 루프의 나머지를 마친 다음 빠져나갑니다.`,
       examples: [
         "until ep > 1e500",
         "until reality",
@@ -479,9 +472,8 @@ export const automator = {
       syntax: `<b>while</b> <u>comparison</u> {<br>
         <blockquote>commands</blockquote>
       }`,
-      description: `Defines an inner block of the script where commands are repeated; the comparison is checked at the
-        start and every time the loop repeats. If the condition is false when the WHILE statement is first reached, the
-        inner block of commands will be skipped entirely.`,
+      description: `명령어를 반복하는 스크립트 내부 블록을 정의합니다. 시작할 때와 루프가 반복될 때마다 비교식을
+        확인합니다. WHILE 문에 처음 도달했을 때 조건이 거짓이면 내부 명령어 블록을 완전히 건너뜁니다.`,
       examples: [
         `while ep < 1e500`,
         `while myThreshold > am`,
@@ -493,12 +485,10 @@ export const automator = {
       keyword: "STOP",
       category: 4,
       syntax: `<b>stop</b>`,
-      description: `When the Automator runs this line, it will stop execution as if you clicked the
-        <i class="fas fa-stop"></i> button on the control panel in the top-left of the Automator. This
-        does not need to be placed at the end of every script in order to stop them, as turning off the
-        <i class="fas fa-sync-alt"></i> option on the left panel will do this automatically.
-        This command may be useful when used inside of an IF command, in order to stop execution
-        only under certain conditions.`,
+      description: `오토메이터가 이 줄을 실행하면 오토메이터 좌측 상단 제어 패널의
+        <i class="fas fa-stop"></i> 버튼을 누른 것처럼 실행을 멈춥니다. 왼쪽 패널의
+        <i class="fas fa-sync-alt"></i> 옵션을 끄면 자동으로 멈추므로 모든 스크립트 끝에 이 명령어를
+        배치할 필요는 없습니다. 특정 조건에서만 실행을 멈추고 싶다면 IF 명령어 안에서 유용하게 사용할 수 있습니다.`,
       examples: [
         `stop`,
       ]
@@ -554,9 +544,8 @@ export const automator = {
       category: 4,
       syntax: "<u>resource1</u> <u>condition</u> <u>resource2</u>",
       description: `
-        Comparisons are used within certain commands, which allow you to control the behavior of the automator based
-        on the game's current state. They have a standard format with two value inputs and a comparison operator, but
-        the value inputs can be anything as long as it is formatted correctly overall.`,
+        비교식은 특정 명령어 안에서 사용되며, 게임의 현재 상태에 따라 오토메이터의 동작을 제어할 수 있게 합니다.
+        두 값과 비교 연산자로 이루어진 표준 형식을 사용하지만, 전체 형식만 올바르면 값에는 무엇이든 입력할 수 있습니다.`,
       sections: [
         {
           name: "CONDITIONS",
@@ -594,18 +583,18 @@ export const automator = {
       syntax: `<b>header_command</b> {<br>
         <blockquote>inner_commands</blockquote>
         }`,
-      description: `Some commands are associated with an "inner block" of commands. This inner block can contain still
-        contain any other valid command, but may or may not actually get executed based on what the state of the game is
-        when <b>header_command</b> is executed. This allows you to repeat some commands over and over (eg. Time Study
-        purchasing), or to skip them entirely (eg. not entering an EC if it already has full completions). These blocks
-        can be nested if desired, with inner blocks being placed within one another.
+      description: `일부 명령어에는 명령어의 "내부 블록"이 연결됩니다. 내부 블록에는 다른 유효한 명령어를
+        모두 넣을 수 있지만, <b>header_command</b>가 실행될 때의 게임 상태에 따라 실제로 실행될 수도 있고
+        실행되지 않을 수도 있습니다. 이를 통해 일부 명령어를 계속 반복하거나(예: 시간 연구 구매), 완전히
+        건너뛸 수 있습니다(예: 이미 완료 횟수를 모두 채운 영원 도전에 진입하지 않음). 블록 안에 다른 내부
+        블록을 배치하여 중첩할 수도 있습니다.
         <br><br>
-        In the text editor mode: Specify the inner block with curly braces, with the opening brace { on the same line as
-        the comparison and the closing brace } on its own line after the last line you want inside the block. Inner
-        commands do not need to be indented, although it may be visually helpful to do so.
+        텍스트 편집기 모드: 중괄호로 내부 블록을 지정합니다. 여는 중괄호 {는 비교식과 같은 줄에 두고,
+        닫는 중괄호 }는 블록에 넣을 마지막 줄 다음의 별도 줄에 둡니다. 내부 명령어를 들여쓸 필요는 없지만,
+        들여쓰면 시각적으로 알아보기 쉬울 수 있습니다.
         <br><br>
-        In the block editor mode: These commands come with an empty dotted rectangle which indicates which commands are
-        within the inner block. Subsequent blocks can then be dragged inside the dotted rectangle.
+        블록 편집기 모드: 이 명령어에는 어떤 명령어가 내부 블록에 속하는지 나타내는 빈 점선 사각형이 함께
+        표시됩니다. 이후 블록을 점선 사각형 안으로 끌어 놓을 수 있습니다.
         `,
       examples: [
         `if ec10 completions < 5 {<br>

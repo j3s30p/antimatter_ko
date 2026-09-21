@@ -13,17 +13,8 @@ export default {
   },
   computed: {
     timeString() {
-      const localizeTime = value => timeDisplayShort(value)
-        .replace(" seconds", "초")
-        .replace(" second", "초")
-        .replace(" minutes", "분")
-        .replace(" minute", "분")
-        .replace(" hours", "시간")
-        .replace(" hour", "시간")
-        .replace(" days", "일")
-        .replace(" day", "일");
-      const localStr = localizeTime(this.currentTime - this.lastLocalSave);
-      const cloudStr = localizeTime(this.currentTime - this.lastCloudSave);
+      const localStr = timeDisplayShort(this.currentTime - this.lastLocalSave);
+      const cloudStr = timeDisplayShort(this.currentTime - this.lastCloudSave);
       return this.cloudSaveEnabled
         ? `${localStr} (로컬) | ${cloudStr} (클라우드)`
         : localStr;

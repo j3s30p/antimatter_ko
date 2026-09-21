@@ -15,7 +15,7 @@ export const v = {
   mainUnlock: {
     realities: {
       id: 1,
-      name: "Realities",
+      name: "리얼리티 횟수",
       resource: () => Currency.realities.value,
       requirement: 10000,
       format: x => formatInt(x),
@@ -23,7 +23,7 @@ export const v = {
     },
     eternities: {
       id: 2,
-      name: "Eternities",
+      name: "영원 횟수",
       resource: () => Currency.eternities.value,
       requirement: 1e70,
       format: x => format(x, 2),
@@ -31,7 +31,7 @@ export const v = {
     },
     infinities: {
       id: 3,
-      name: "Infinities",
+      name: "무한 횟수",
       resource: () => Currency.infinitiesTotal.value,
       requirement: 1e160,
       format: x => format(x, 2),
@@ -39,7 +39,7 @@ export const v = {
     },
     dilatedTime: {
       id: 4,
-      name: "Dilated Time",
+      name: "팽창 시간",
       resource: () => player.records.thisReality.maxDT,
       requirement: DC.E320,
       format: x => format(x, 2),
@@ -47,7 +47,7 @@ export const v = {
     },
     replicanti: {
       id: 5,
-      name: "Replicanti",
+      name: "복제자",
       resource: () => player.records.thisReality.maxReplicanti,
       requirement: DC.E320000,
       format: x => format(x, 2),
@@ -55,7 +55,7 @@ export const v = {
     },
     realityMachines: {
       id: 6,
-      name: "Reality Machines",
+      name: "리얼리티 머신",
       resource: () => Currency.realityMachines.value,
       requirement: 1e60,
       format: x => format(x, 2),
@@ -65,8 +65,8 @@ export const v = {
   runUnlocks: [
     {
       id: 0,
-      name: "Glyph Knight",
-      description: value => `Unlock Reality with at most ${quantifyInt("Glyph", -value)} equipped.`,
+      name: "글리프 기사",
+      description: value => `최대 ${quantifyInt("개", -value)}의 글리프만 장착하고 현실을 해금하세요.`,
       // This achievement has internally negated values since the check is always greater than
       values: [-5, -4, -3, -2, -1, 0],
       condition: () => V.isRunning && TimeStudy.reality.isBought,
@@ -159,9 +159,9 @@ export const v = {
     },
     {
       id: 7,
-      name: "Post-destination",
-      description: value => `Get ${formatInt(400000)} Time Theorems with a /${format(Decimal.pow10(value), 2, 2)}
-        Black Hole or slower, without discharging or entering EC12.`,
+      name: "목적지 이후",
+      description: value => `저장한 시간을 방출하거나 영원 도전 12에 진입하지 않고 /${format(Decimal.pow10(value), 2, 2)}
+        이하 속도의 블랙홀로 시간 정리 ${formatInt(400000)}개를 획득하세요.`,
       values: [100, 150, 200, 250, 300],
       condition: () => V.isRunning,
       currentValue: () => (
@@ -179,8 +179,8 @@ export const v = {
     },
     {
       id: 8,
-      name: "Shutter Glyph",
-      description: value => `Reach a Glyph of level ${formatInt(value)}.`,
+      name: "셔터 글리프",
+      description: value => `레벨 ${formatInt(value)}의 글리프에 도달하세요.`,
       values: [6500, 7000, 8000, 9000, 10000],
       condition: () => V.isRunning,
       currentValue: () => gainedGlyphLevel().actualLevel,

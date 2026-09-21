@@ -75,7 +75,7 @@ export const perkShop = {
   // Only appears with the perk shop increase upgrade
   fillMusicGlyph: rebuyable({
     id: 5,
-    description: () => `Fill all empty slots in your inventory with Music Glyphs`,
+    description: () => `보관함의 모든 빈 슬롯을 음악 글리프로 채웁니다`,
     cost: () => Math.clampMin(GameCache.glyphInventorySpace.value, 1),
     otherReq: () => GameCache.glyphInventorySpace.value > 0,
     formatCost: value => formatInt(value),

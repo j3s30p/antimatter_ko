@@ -32,11 +32,11 @@ function vectorToNum(v) {
 export const perks = {
   firstPerk: {
     id: 0,
-    label: "START",
+    label: "시작",
     family: PERK_FAMILY.REALITY,
     get description() {
-      return `Remove the achievement requirement from the Reality Study
-      and allow you to choose from ${formatInt(4)} different Glyphs on Reality.`;
+      return `현실 연구의 도전과제 요구 조건을 제거하고
+      현실 달성 시 서로 다른 글리프 ${formatInt(4)}개 중 하나를 선택할 수 있게 합니다.`;
     },
     effect: 4,
     layoutPosList: [76596, 80200, 80600, 80200, 80188, 67769],
@@ -46,7 +46,7 @@ export const perks = {
     label: "SAM",
     family: PERK_FAMILY.ANTIMATTER,
     get description() {
-      return `Start every reset with ${format(5e130)} antimatter.`;
+      return `모든 초기화를 반물질 ${format(5e130)}개로 시작합니다.`;
     },
     bumpCurrency: () => Currency.antimatter.bumpTo(5e130),
     effect: 5e130,
@@ -57,7 +57,7 @@ export const perks = {
     label: "SIP1",
     family: PERK_FAMILY.INFINITY,
     get description() {
-      return `Start every Eternity and Reality with ${format(5e15)} Infinity Points.`;
+      return `모든 영원과 현실을 무한 포인트 ${format(5e15)}개로 시작합니다.`;
     },
     bumpCurrency: () => Currency.infinityPoints.bumpTo(5e15),
     effect: 5e15,
@@ -68,7 +68,7 @@ export const perks = {
     label: "SIP2",
     family: PERK_FAMILY.INFINITY,
     get description() {
-      return `Start every Eternity and Reality with ${format(5e130)} Infinity Points.`;
+      return `모든 영원과 현실을 무한 포인트 ${format(5e130)}개로 시작합니다.`;
     },
     bumpCurrency: () => Currency.infinityPoints.bumpTo(5e130),
     effect: 5e130,
@@ -79,7 +79,7 @@ export const perks = {
     label: "SEP1",
     family: PERK_FAMILY.ETERNITY,
     get description() {
-      return `Start every Reality with ${formatInt(10)} Eternity Points.`;
+      return `모든 현실을 영원 포인트 ${formatInt(10)}개로 시작합니다.`;
     },
     bumpCurrency: () => Currency.eternityPoints.bumpTo(10),
     effect: 10,
@@ -92,7 +92,7 @@ export const perks = {
     label: "SEP2",
     family: PERK_FAMILY.ETERNITY,
     get description() {
-      return `Start every Reality with ${format(5000)} Eternity Points.`;
+      return `모든 현실을 영원 포인트 ${format(5000)}개로 시작합니다.`;
     },
     bumpCurrency: () => Currency.eternityPoints.bumpTo(5000),
     effect: 5000,
@@ -103,7 +103,7 @@ export const perks = {
     label: "SEP3",
     family: PERK_FAMILY.ETERNITY,
     get description() {
-      return `Start every Reality with ${format(5e9)} Eternity Points.`;
+      return `모든 현실을 영원 포인트 ${format(5e9)}개로 시작합니다.`;
     },
     bumpCurrency: () => Currency.eternityPoints.bumpTo(5e9),
     effect: 5e9,
@@ -116,7 +116,7 @@ export const perks = {
     label: "STP",
     family: PERK_FAMILY.DILATION,
     get description() {
-      return `After unlocking Dilation, gain ${formatInt(10)} Tachyon Particles.`;
+      return `시간 팽창 해금 후 타키온 입자 ${formatInt(10)}개를 획득합니다.`;
     },
     effect: () => (Enslaved.isRunning ? 1 : 10),
     automatorPoints: 5,
@@ -127,8 +127,8 @@ export const perks = {
     id: 30,
     label: "ANR",
     family: PERK_FAMILY.ANTIMATTER,
-    description: `Dimension Boosts and Antimatter Galaxies no longer reset
-      Antimatter, Antimatter Dimensions, Tickspeed, or Dimensional Sacrifice.`,
+    description: `차원 가속과 반물질 은하가 더 이상 반물질, 반물질 차원,
+      틱스피드 또는 차원 희생을 초기화하지 않습니다.`,
     layoutPosList: [85343, 81000, 79799, 80199, 82194, 92553],
   },
   studyPassive: {
@@ -136,9 +136,9 @@ export const perks = {
     label: "PASS",
     family: PERK_FAMILY.ETERNITY,
     get description() {
-      return `Improve Time Study 122 to ${formatX(50)} Eternity Points and
-        Time Study 142 to ${formatX(DC.E50)} Infinity Points.
-        ${Pelle.isDoomed ? "" : `In addition, Time Study 132 also makes Replicanti ${format(3)} times faster.`}`;
+      return `시간 연구 122를 영원 포인트 ${formatX(50)} 배율로, 시간 연구 142를
+        무한 포인트 ${formatX(DC.E50)} 배율로 개선합니다.
+        ${Pelle.isDoomed ? "" : `또한 시간 연구 132가 복제자를 ${format(3)}배 빠르게 만듭니다.`}`;
     },
     layoutPosList: [67054, 79400, 80999, 80202, 78594, 52589],
   },
@@ -146,7 +146,7 @@ export const perks = {
     id: 40,
     label: "EU1",
     family: PERK_FAMILY.ETERNITY,
-    description: `Automatically unlock the first row of Eternity Upgrades for free once you have Eternities.`,
+    description: `영원 횟수를 보유하면 영원 업그레이드의 첫 번째 줄을 무료로 자동 해금합니다.`,
     layoutPosList: [89407, 80601, 80201, 79800, 80591, 73007],
   },
   autounlockEU2: {
@@ -154,8 +154,8 @@ export const perks = {
     label: "EU2",
     family: PERK_FAMILY.ETERNITY,
     get description() {
-      return `The second row of Eternity Upgrades is automatically purchased
-        at ${formatX(1e10)} times less than their original price.`;
+      return `영원 업그레이드의 두 번째 줄을 원래 가격보다
+        ${formatX(1e10)} 저렴하게 자동 구매합니다.`;
     },
     layoutPosList: [103008, 81001, 80202, 79400, 80594, 81867],
   },
@@ -163,21 +163,21 @@ export const perks = {
     id: 42,
     label: "DU1",
     family: PERK_FAMILY.DILATION,
-    description: "After unlocking Dilation, automatically unlock the second row of Dilation Upgrades for free.",
+    description: "시간 팽창 해금 후 시간 팽창 업그레이드의 두 번째 줄을 무료로 자동 해금합니다.",
     layoutPosList: [119833, 81801, 79403, 79398, 80200, 97510],
   },
   autounlockDilation2: {
     id: 43,
     label: "DU2",
     family: PERK_FAMILY.DILATION,
-    description: "After unlocking Dilation, automatically unlock the third row of Dilation Upgrades for free.",
+    description: "시간 팽창 해금 후 시간 팽창 업그레이드의 세 번째 줄을 무료로 자동 해금합니다.",
     layoutPosList: [124260, 82201, 79003, 79397, 80203, 85513],
   },
   autounlockDilation3: {
     id: 44,
     label: "ATT",
     family: PERK_FAMILY.DILATION,
-    description: "Automatically purchase the passive Time Theorem generation Dilation Upgrade once you can afford it.",
+    description: "구매할 수 있게 되면 시간 정리를 자동 생산하는 시간 팽창 업그레이드를 자동으로 구매합니다.",
     automatorPoints: 5,
     shortDescription: () => "Auto-purchase TT generation",
     layoutPosList: [124289, 82601, 79002, 79396, 80206, 72282],
@@ -186,7 +186,7 @@ export const perks = {
     id: 45,
     label: "ATD",
     family: PERK_FAMILY.DILATION,
-    description: "Auto-unlock Time Dimensions 5-8 once you can afford them.",
+    description: "구매할 수 있게 되면 제5-8 시간 차원을 자동 해금합니다.",
     automatorPoints: 5,
     shortDescription: () => "Auto-unlock TD 5-8",
     layoutPosList: [127117, 82600, 79001, 79796, 80209, 61869],
@@ -196,8 +196,8 @@ export const perks = {
     label: "REAL",
     family: PERK_FAMILY.REALITY,
     get description() {
-      return `Auto-unlocks Reality once you have ${format(DC.E4000)} Eternity Points
-        and have unlocked Time Dimension 8.`;
+      return `영원 포인트 ${format(DC.E4000)}개를 보유하고 제8 시간 차원을 해금하면
+        현실을 자동 해금합니다.`;
     },
     automatorPoints: 10,
     shortDescription: () => "Auto-unlock Reality",
@@ -207,22 +207,22 @@ export const perks = {
     id: 51,
     label: "IDR",
     family: PERK_FAMILY.INFINITY,
-    description: "Infinity Dimensions no longer have antimatter requirements.",
+    description: "무한 차원에서 반물질 요구 조건을 제거합니다.",
     layoutPosList: [51317, 80998, 79397, 80997, 82600, 104489],
   },
   bypassTGReset: {
     id: 52,
     label: "TGR",
     family: PERK_FAMILY.DILATION,
-    description: "The 2nd rebuyable Dilation Upgrade no longer resets your Dilated Time.",
+    description: "두 번째 반복 구매 시간 팽창 업그레이드가 팽창된 시간을 초기화하지 않습니다.",
     layoutPosList: [116568, 81800, 79801, 79798, 81400, 112677],
   },
   bypassECDilation: {
     id: 53,
     label: "DILR",
     family: PERK_FAMILY.DILATION,
-    description: "Remove the Eternity Challenge 11, Eternity Challenge 12, and total Time Theorem " +
-      "requirements from Time Dilation unlock.",
+    description: "시간 팽창 해금에서 영원 도전 11, 영원 도전 12 및 총 시간 정리 " +
+      "요구 조건을 제거합니다.",
     automatorPoints: 5,
     shortDescription: () => `Unlocking Dilation only requires TT`,
     layoutPosList: [129011, 81802, 80203, 80198, 80600, 109116],
@@ -231,28 +231,28 @@ export const perks = {
     id: 54,
     label: "EC1R",
     family: PERK_FAMILY.ETERNITY,
-    description: "Remove the Eternity Challenge 1 requirement from Time Study 181.",
+    description: "시간 연구 181에서 영원 도전 1 요구 조건을 제거합니다.",
     layoutPosList: [64284, 79000, 81399, 80603, 78597, 44167],
   },
   bypassEC2Lock: {
     id: 55,
     label: "EC2R",
     family: PERK_FAMILY.ETERNITY,
-    description: "Remove the Eternity Challenge 2 requirement from Time Study 181.",
+    description: "시간 연구 181에서 영원 도전 2 요구 조건을 제거합니다.",
     layoutPosList: [55463, 78999, 80998, 80602, 78197, 48944],
   },
   bypassEC3Lock: {
     id: 56,
     label: "EC3R",
     family: PERK_FAMILY.ETERNITY,
-    description: "Remove the Eternity Challenge 3 requirement from Time Study 181.",
+    description: "시간 연구 181에서 영원 도전 3 요구 조건을 제거합니다.",
     layoutPosList: [75475, 79001, 81400, 80203, 78997, 47822],
   },
   bypassEC5Lock: {
     id: 57,
     label: "EC5R",
     family: PERK_FAMILY.ETERNITY,
-    description: "Remove the Eternity Challenge 5 requirement from Time Study 62.",
+    description: "시간 연구 62에서 영원 도전 5 요구 조건을 제거합니다.",
     layoutPosList: [70626, 79800, 81000, 80201, 78591, 62607],
   },
   autocompleteEC1: {
@@ -260,9 +260,9 @@ export const perks = {
     label: "PEC1",
     family: PERK_FAMILY.AUTOMATION,
     get description() {
-      return `Auto-complete one Eternity Challenge every ${formatInt(60)} minutes (real-time).
-              ECs will be completed sequentially, requiring all previous
-              ECs to be fully completed before progressing to the next EC.`;
+      return `현실 시간 ${formatInt(60)}분마다 영원 도전 1단계를 자동 완료합니다.
+              영원 도전은 순서대로 완료되며 다음 영원 도전으로 넘어가려면
+              이전의 모든 영원 도전을 완전히 완료해야 합니다.`;
     },
     effect: 60,
     automatorPoints: 5,
@@ -274,8 +274,8 @@ export const perks = {
     label: "PEC2",
     family: PERK_FAMILY.AUTOMATION,
     get description() {
-      return `Auto-complete one Eternity Challenge every ${formatInt(40)} minutes (real-time).
-        (${formatInt(20)} minute decrease)`;
+      return `현실 시간 ${formatInt(40)}분마다 영원 도전 1단계를 자동 완료합니다.
+        (${formatInt(20)}분 감소)`;
     },
     effect: 40,
     layoutPosList: [95485, 79002, 81402, 79804, 79400, 53486],
@@ -285,8 +285,8 @@ export const perks = {
     label: "PEC3",
     family: PERK_FAMILY.AUTOMATION,
     get description() {
-      return `Auto-complete one Eternity Challenge every ${formatInt(20)} minutes (real-time).
-        (${formatInt(20)} minute decrease)`;
+      return `현실 시간 ${formatInt(20)}분마다 영원 도전 1단계를 자동 완료합니다.
+        (${formatInt(20)}분 감소)`;
     },
     effect: 20,
     automatorPoints: 10,
@@ -297,7 +297,7 @@ export const perks = {
     id: 70,
     label: "ACT",
     family: PERK_FAMILY.ETERNITY,
-    description: "Active path multipliers are always maximized.",
+    description: "액티브 경로의 배율이 항상 최대가 됩니다.",
     layoutPosList: [56633, 79399, 80599, 80601, 78194, 58565],
   },
   studyIdleEP: {
@@ -305,7 +305,7 @@ export const perks = {
     label: "IDL",
     family: PERK_FAMILY.ETERNITY,
     get description() {
-      return `Idle path multipliers start as if you have spent ${formatInt(15)} minutes in this Infinity/Eternity.`;
+      return `방치 경로의 배율이 이번 무한/영원에서 ${formatInt(15)}분을 보낸 상태로 시작합니다.`;
     },
     effect: 15,
     layoutPosList: [80248, 79401, 81001, 79802, 78994, 56239],
@@ -314,7 +314,7 @@ export const perks = {
     id: 72,
     label: "ECR",
     family: PERK_FAMILY.ETERNITY,
-    description: "Remove non-Time Theorem requirements for unlocking Eternity Challenges.",
+    description: "영원 도전 해금에서 시간 정리 이외의 요구 조건을 제거합니다.",
     automatorPoints: 10,
     shortDescription: () => "Remove EC secondary requirements",
     layoutPosList: [62714, 78600, 81398, 80604, 78600, 40599],
@@ -324,8 +324,8 @@ export const perks = {
     label: "ECB",
     family: PERK_FAMILY.ETERNITY,
     description:
-      `You can complete multiple tiers of Eternity Challenges at once if
-      you reach the goal for a higher completion of that challenge.`,
+      `영원 도전의 더 높은 단계 목표에 도달하면
+      여러 단계를 한 번에 완료할 수 있습니다.`,
     automatorPoints: 15,
     shortDescription: () => "Bulk EC Completion",
     layoutPosList: [62741, 78200, 81397, 81004, 78603, 41435],
@@ -335,8 +335,8 @@ export const perks = {
     label: "TP1",
     family: PERK_FAMILY.DILATION,
     get description() {
-      return `When buying the 3rd rebuyable Dilation Upgrade,
-        multiply your current Tachyon Particle amount by ${formatFloat(1.5, 1)}.`;
+      return `세 번째 반복 구매 시간 팽창 업그레이드를 구매할 때
+        현재 타키온 입자에 ${formatFloat(1.5, 1)} 배율을 적용합니다.`;
     },
     effect: 1.5,
     layoutPosList: [111739, 81799, 79800, 79797, 81403, 115434],
@@ -346,8 +346,8 @@ export const perks = {
     label: "TP2",
     family: PERK_FAMILY.DILATION,
     get description() {
-      return `When buying the 3rd rebuyable Dilation Upgrade,
-        multiply your current Tachyon Particle amount by ${formatInt(2)}.`;
+      return `세 번째 반복 구매 시간 팽창 업그레이드를 구매할 때
+        현재 타키온 입자에 ${formatInt(2)} 배율을 적용합니다.`;
     },
     effect: 2,
     layoutPosList: [103757, 82199, 79401, 80196, 81406, 117382],
@@ -357,8 +357,8 @@ export const perks = {
     label: "TP3",
     family: PERK_FAMILY.DILATION,
     get description() {
-      return `When buying the 3rd rebuyable Dilation Upgrade,
-        multiply your current Tachyon Particle amount by ${formatFloat(2.5, 1)}.`;
+      return `세 번째 반복 구매 시간 팽창 업그레이드를 구매할 때
+        현재 타키온 입자에 ${formatFloat(2.5, 1)} 배율을 적용합니다.`;
     },
     effect: 2.5,
     layoutPosList: [96175, 82599, 79400, 80195, 81409, 116540],
@@ -368,8 +368,8 @@ export const perks = {
     label: "TP4",
     family: PERK_FAMILY.DILATION,
     get description() {
-      return `When buying the 3rd rebuyable Dilation Upgrade,
-        multiply your current Tachyon Particle amount by ${formatInt(3)}.`;
+      return `세 번째 반복 구매 시간 팽창 업그레이드를 구매할 때
+        현재 타키온 입자에 ${formatInt(3)} 배율을 적용합니다.`;
     },
     effect: 3,
     automatorPoints: 10,
@@ -380,7 +380,7 @@ export const perks = {
     id: 100,
     label: "DAU",
     family: PERK_FAMILY.AUTOMATION,
-    description: "Unlock autobuyers for the repeatable Dilation Upgrades.",
+    description: "반복 구매 가능한 시간 팽창 업그레이드의 자동구매기를 해금합니다.",
     automatorPoints: 5,
     shortDescription: () => "Dilation Upgrade Autobuyers",
     layoutPosList: [117401, 81401, 79802, 79799, 80597, 96672],
@@ -390,7 +390,7 @@ export const perks = {
     label: "IDAS",
     family: PERK_FAMILY.AUTOMATION,
     get description() {
-      return `Infinity Dimension autobuyers work ${formatX(3)} faster.`;
+      return `무한 차원 자동구매기가 ${formatX(3)} 빠르게 작동합니다.`;
     },
     effect: 1 / 3,
     automatorPoints: 5,
@@ -402,7 +402,7 @@ export const perks = {
     label: "REPAS",
     family: PERK_FAMILY.AUTOMATION,
     get description() {
-      return `Replicanti autobuyers work ${formatX(3)} faster.`;
+      return `복제자 자동구매기가 ${formatX(3)} 빠르게 작동합니다.`;
     },
     effect: 1 / 3,
     automatorPoints: 5,
@@ -414,7 +414,7 @@ export const perks = {
     label: "DAS",
     family: PERK_FAMILY.AUTOMATION,
     get description() {
-      return `Dilation Upgrade autobuyers work ${formatX(3)} faster.`;
+      return `시간 팽창 업그레이드 자동구매기가 ${formatX(3)} 빠르게 작동합니다.`;
     },
     effect: 1 / 3,
     automatorPoints: 5,
@@ -425,7 +425,7 @@ export const perks = {
     id: 104,
     label: "TTS",
     family: PERK_FAMILY.AUTOMATION,
-    description: "Unlock a Time Theorem Autobuyer which buys single Time Theorems every tick.",
+    description: "매 틱마다 시간 정리를 하나씩 구매하는 시간 정리 자동구매기를 해금합니다.",
     automatorPoints: 5,
     shortDescription: () => "Single TT Autobuyer",
     layoutPosList: [44631, 79398, 80598, 81001, 77797, 57325],
@@ -435,7 +435,7 @@ export const perks = {
     label: "TTF",
     family: PERK_FAMILY.AUTOMATION,
     get description() {
-      return `Purchasing Time Theorems no longer spends your Antimatter, Infinity Points, or Eternity Points.`;
+      return `시간 정리를 구매할 때 더 이상 반물질, 무한 포인트 또는 영원 포인트를 소모하지 않습니다.`;
     },
     layoutPosList: [33840, 78998, 80597, 81002, 77800, 67309],
   },
@@ -444,7 +444,7 @@ export const perks = {
     label: "TTM",
     family: PERK_FAMILY.AUTOMATION,
     get description() {
-      return `Upgrade the Time Theorem Autobuyer to buy max Time Theorems.`;
+      return `시간 정리 자동구매기가 시간 정리를 최대로 구매하도록 업그레이드합니다.`;
     },
     automatorPoints: 10,
     shortDescription: () => "Max TT Autobuyer",
@@ -455,7 +455,7 @@ export const perks = {
     label: "DAB",
     family: PERK_FAMILY.AUTOMATION,
     get description() {
-      return `Dilation Upgrade autobuyers buy three times as many Dilation Upgrades at once.`;
+      return `시간 팽창 업그레이드 자동구매기가 한 번에 세 배 많은 업그레이드를 구매합니다.`;
     },
     effect: 3,
     automatorPoints: 5,
@@ -467,8 +467,8 @@ export const perks = {
     label: "ACH1",
     family: PERK_FAMILY.ACHIEVEMENT,
     get description() {
-      return `Reduce the Achievement timer to ${formatInt(20)} minutes per
-        Achievement (${formatInt(10)} minute decrease).`;
+      return `도전과제 하나당 자동 달성 시간을 ${formatInt(20)}분으로 줄입니다.
+        (${formatInt(10)}분 감소)`;
     },
     effect: 10,
     automatorPoints: 5,
@@ -480,8 +480,8 @@ export const perks = {
     label: "ACH2",
     family: PERK_FAMILY.ACHIEVEMENT,
     get description() {
-      return `Reduce the Achievement timer to ${formatInt(12)} minutes per
-        Achievement (${formatInt(8)} minute decrease).`;
+      return `도전과제 하나당 자동 달성 시간을 ${formatInt(12)}분으로 줄입니다.
+        (${formatInt(8)}분 감소)`;
     },
     effect: 8,
     layoutPosList: [54976, 80202, 80602, 79401, 79794, 93780],
@@ -491,8 +491,8 @@ export const perks = {
     label: "ACH3",
     family: PERK_FAMILY.ACHIEVEMENT,
     get description() {
-      return `Reduce the Achievement timer to ${formatInt(6)} minutes per
-        Achievement (${formatInt(6)} minute decrease).`;
+      return `도전과제 하나당 자동 달성 시간을 ${formatInt(6)}분으로 줄입니다.
+        (${formatInt(6)}분 감소)`;
     },
     effect: 6,
     layoutPosList: [44168, 80602, 80603, 79402, 79797, 83005],
@@ -502,8 +502,8 @@ export const perks = {
     label: "ACH4",
     family: PERK_FAMILY.ACHIEVEMENT,
     get description() {
-      return `Reduce the Achievement timer to ${formatInt(2)} minutes per
-        Achievement (${formatInt(4)} minute decrease).`;
+      return `도전과제 하나당 자동 달성 시간을 ${formatInt(2)}분으로 줄입니다.
+        (${formatInt(4)}분 감소)`;
     },
     effect: 4,
     layoutPosList: [33760, 81002, 81003, 79403, 79800, 95422],
@@ -513,8 +513,8 @@ export const perks = {
     label: "ACHNR",
     family: PERK_FAMILY.ACHIEVEMENT,
     get description() {
-      return `Immediately unlock the first ${formatInt(13)} rows of Achievements
-        and Reality no longer resets them.`;
+      return `도전과제의 첫 ${formatInt(13)}개 행을 즉시 해금하며
+        현실 달성 시 더 이상 초기화하지 않습니다.`;
     },
     automatorPoints: 10,
     shortDescription: () => "Keep Achievements on Reality",

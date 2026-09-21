@@ -22,6 +22,28 @@ const jobs = [
   },
 ];
 
+function walk(directory) {
+  return fs.readdirSync(directory, { withFileTypes: true }).flatMap(entry => {
+    const absolute = path.join(directory, entry.name);
+    return entry.isDirectory() ? walk(absolute) : [absolute];
+  });
+}
+
+const explicitJobFiles = new Set(jobs.map(job => job.file));
+const idAutoProperties = new Set([
+  "name", "description", "reward", "requirement", "lockEvent", "text", "hint", "condition",
+  "label", "title", "subtitle", "message", "formatEffect", "effectDisplay", "goal"
+]);
+const idAutoJobs = walk(path.join(repo, "src/core/secret-formula"))
+  .filter(filename => filename.endsWith(".js"))
+  .map(filename => path.relative(repo, filename).replaceAll("\\", "/"))
+  .filter(file => !explicitJobFiles.has(file))
+  .filter(file => {
+    const locations = [steamBase, endgameEnglish, endgameKorean].map(root => path.join(root, file));
+    return locations.every(filename => fs.existsSync(filename)) && fs.readFileSync(path.join(repo, file), "utf8").includes("id:");
+  })
+  .map(file => ({ file, properties: idAutoProperties }));
+
 const semanticJobs = fs.readdirSync(path.join(repo, "src/core/secret-formula/multiplier-tab"))
   .filter(filename => filename.endsWith(".js"))
   .map(filename => ({
@@ -122,7 +144,27 @@ function collectSemanticProperties(ast, allowed) {
   return result;
 }
 
-for (const job of jobs) {
+function collectHelpObjects(ast) {
+  const result = [];
+  function visit(node) {
+    if (!node || typeof node !== "object") return;
+    if (node.type === "ObjectExpression") {
+      const props = propertiesByName(node, new Set(["name", "info"]));
+      const name = props.get("name");
+      if (name && name.type === "ObjectProperty" && name.value.type === "StringLiteral" && props.has("info")) {
+        result.push(node);
+      }
+    }
+    for (const value of Object.values(node)) {
+      if (Array.isArray(value)) value.forEach(visit);
+      else if (value && typeof value === "object" && value.type) visit(value);
+    }
+  }
+  visit(ast.program);
+  return result;
+}
+
+for (const job of [...jobs, ...idAutoJobs]) {
   const locations = {
     current: path.join(repo, job.file),
     base: path.join(steamBase, job.file),
@@ -199,4 +241,58 @@ for (const job of semanticJobs) {
   }
   fs.writeFileSync(locations.current, output);
   if (replacements.length > 0) console.log(`${job.file}: imported ${replacements.length} semantic properties`);
+}
+
+{
+  const file = "src/core/secret-formula/h2p.js";
+  const allowed = new Set(["name", "alias", "info"]);
+  const locations = {
+    current: path.join(repo, file),
+    base: path.join(steamBase, file),
+    english: path.join(endgameEnglish, file),
+    korean: path.join(endgameKorean, file),
+  };
+  const source = Object.fromEntries(Object.entries(locations)
+    .map(([key, filename]) => [key, fs.readFileSync(filename, "utf8")]));
+  const objects = Object.fromEntries(Object.entries(source)
+    .map(([key, text]) => [key, collectHelpObjects(parse(text))]));
+  const englishPairs = new Map();
+  objects.english.forEach((object, index) => {
+    const name = propertiesByName(object, new Set(["name"])).get("name");
+    if (name?.value?.type === "StringLiteral" && objects.korean[index]) {
+      englishPairs.set(name.value.value, { english: object, korean: objects.korean[index] });
+    }
+  });
+  const replacements = [];
+  objects.base.forEach((baseObject, index) => {
+    const currentObject = objects.current[index];
+    const name = propertiesByName(baseObject, new Set(["name"])).get("name");
+    if (!currentObject || name?.value?.type !== "StringLiteral") return;
+    const pair = englishPairs.get(name.value.value);
+    if (!pair) return;
+    const props = {
+      current: propertiesByName(currentObject, allowed),
+      base: propertiesByName(baseObject, allowed),
+      english: propertiesByName(pair.english, allowed),
+      korean: propertiesByName(pair.korean, allowed),
+    };
+    for (const property of allowed) {
+      const nodes = Object.fromEntries(Object.entries(props).map(([key, values]) => [key, values.get(property)]));
+      if (!nodes.current || !nodes.base || !nodes.english || !nodes.korean) continue;
+      if (signature(nodes.current) !== signature(nodes.base)) continue;
+      if (signature(nodes.english) !== signature(nodes.base)) continue;
+      if (signature(nodes.korean) === signature(nodes.english)) continue;
+      replacements.push({
+        start: nodes.current.start,
+        end: nodes.current.end,
+        text: source.korean.slice(nodes.korean.start, nodes.korean.end),
+      });
+    }
+  });
+  let output = source.current;
+  for (const replacement of replacements.sort((a, b) => b.start - a.start)) {
+    output = output.slice(0, replacement.start) + replacement.text + output.slice(replacement.end);
+  }
+  fs.writeFileSync(locations.current, output);
+  console.log(`${file}: imported ${replacements.length} help properties`);
 }
