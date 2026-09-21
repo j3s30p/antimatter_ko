@@ -148,6 +148,9 @@ const pluralDatabase = new Map([
 window.pluralize = function pluralize(word, amount, plural) {
   if (word === undefined || amount === undefined) throw "Arguments must be defined";
 
+  // Korean nouns do not change form based on quantity. Without this guard, the English fallback appends "s" to
+  // translated resource names used by quantify() and quantifyInt().
+  if (/[ㄱ-ㅎㅏ-ㅣ가-힣]/u.test(word)) return word;
   if (isSingular(amount)) return word;
   const existingPlural = plural ?? pluralDatabase.get(word);
   if (existingPlural !== undefined) return existingPlural;

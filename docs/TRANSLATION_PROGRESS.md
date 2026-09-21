@@ -117,6 +117,13 @@ Update this file whenever a translation batch is committed. An area becomes `QA 
   re-extracted with an exact app-bundle hash match; the installed ASAR hash matches the payload, the live Greenworks
   sidecar remained at 304 files, and the game was launched from a confirmed zero-process state with exactly five
   responsive Electron processes. The release ZIP was re-extracted and its payload hash matches the RC3 manifest.
+- RC4 Korean pluralization fix: added a Hangul guard to the shared `pluralize()` function so Korean nouns passed by
+  `pluralize()`, `quantify()`, and `quantifyInt()` never receive the English fallback `s`. This fixes the entire class
+  of outputs such as `현실 조각s`, `퍼크 포인트s`, `글리프s`, `타키온 은하s`, `회s`, and `개s` while preserving
+  the existing English singular/plural behavior. Focused ESLint, whitespace checks, the Steam build, exact extracted
+  bundle hash comparison, 304-file Greenworks sidecar check, and absence of the Endgame marker passed. RC4 was installed
+  only after all five existing game processes were stopped and a zero-process state was verified; the game was then
+  launched exactly once and returned to five responsive Electron processes.
 
 ## Steam packaging note
 
