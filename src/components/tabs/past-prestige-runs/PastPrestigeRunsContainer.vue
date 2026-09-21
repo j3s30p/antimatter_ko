@@ -51,7 +51,7 @@ export default {
     },
     points() {
       const rawText = this.layer.currency;
-      return rawText === "RM" && this.hasIM ? "iM Cap" : rawText;
+      return rawText === "RM" && this.hasIM ? "iM 상한" : rawText;
     },
     condition() {
       return this.layer.condition();
@@ -61,6 +61,12 @@ export default {
     },
     singular() {
       return this.layer.name;
+    },
+    displayPlural() {
+      return this.layer.displayPlural;
+    },
+    displaySingular() {
+      return this.layer.displayName;
     },
     getRuns() {
       return this.layer.getRuns;
@@ -80,7 +86,7 @@ export default {
       this.hasIM = MachineHandler.currentIMCap > 0;
 
       // We have 4 different "useful" stat pairings we could display, but this ends up being pretty boilerplatey
-      const names = [this.points, `${this.points} Rate`, this.plural, `${this.singular} Rate`];
+      const names = [this.points, `${this.points} 획득 속도`, this.displayPlural, `${this.displaySingular} 획득 속도`];
       switch (this.resourceType) {
         case RECENT_PRESTIGE_RESOURCE.ABSOLUTE_GAIN:
           this.selectedResources = [0, 2];
@@ -121,9 +127,9 @@ export default {
     },
     infoArray(run, index) {
       let name;
-      if (index === 0) name = "Last";
-      else if (index === 10) name = "Average";
-      else name = `${formatInt(index + 1)} ago`;
+      if (index === 0) name = "최근";
+      else if (index === 10) name = "평균";
+      else name = `${formatInt(index + 1)}회 전`;
 
       const cells = [name, this.gameTime(run)];
       if (this.hasRealTime) cells.push(this.realTime(run));
@@ -145,10 +151,10 @@ export default {
       return cells;
     },
     infoCol() {
-      const cells = ["Run", this.hasRealTime ? "Game Time" : "Time in Run"];
-      if (this.hasRealTime) cells.push("Real Time");
+      const cells = ["기록", this.hasRealTime ? "게임 시간" : "소요 시간"];
+      if (this.hasRealTime) cells.push("현실 시간");
       cells.push(...this.resourceTitles);
-      if (this.hasChallenges) cells.push("Challenge");
+      if (this.hasChallenges) cells.push("도전");
 
       for (let index = 0; index < this.layer.extra?.length && cells.length <= this.longestRow; index++) {
         if (!this.layer.showExtra[index]()) continue;
@@ -169,7 +175,7 @@ export default {
       return `${format(run[2], 2)} ${this.points}`;
     },
     prestigeCountGain(run) {
-      return quantify(this.singular, run[3]);
+      return `${format(run[3], 2)} ${this.displaySingular} 횟수`;
     },
     prestigeCurrencyRate(run) {
       if (this.hasIM && this.layer.name === "Reality") return "N/A";
@@ -182,13 +188,13 @@ export default {
       const time = run[1];
       const rpm = ratePerMinute(amount, time);
       return Decimal.lt(rpm, 1)
-        ? `${format(Decimal.mul(rpm, 60), 2, 2)} per hour`
-        : `${format(rpm, 2, 2)} per min`;
+        ? `시간당 ${format(Decimal.mul(rpm, 60), 2, 2)}`
+        : `분당 ${format(rpm, 2, 2)}`;
     },
     challengeText(run) {
       // Special-case Nameless reality in order to keep this column small and not force a linebreak
       const rawText = run[4];
-      return rawText === "The Nameless Ones" ? "Nameless" : rawText;
+      return rawText === "The Nameless Ones" ? "이름 없는 자들" : rawText;
     },
     toggleShown() {
       player.shownRuns[this.singular] = !player.shownRuns[this.singular];
@@ -236,7 +242,7 @@ export default {
         <i :class="dropDownIconClass" />
       </span>
       <span>
-        <h3>Last {{ formatInt(10) }} {{ plural }}:</h3>
+        <h3>최근 {{ displayPlural }} {{ formatInt(10) }}회:</h3>
       </span>
     </div>
     <div v-show="shown">
@@ -258,11 +264,10 @@ export default {
           class="c-empty-row"
         >
           <i v-if="index === 10">
-            An average cannot be calculated with no {{ plural }}.
+            {{ displayPlural }} 기록이 없어 평균을 계산할 수 없습니다.
           </i>
           <i v-else>
-            You have not done {{ formatInt(index + 1) }}
-            {{ index === 0 ? singular : plural }} yet.
+            아직 {{ displaySingular }}을 {{ formatInt(index + 1) }}회 달성하지 않았습니다.
           </i>
         </span>
         <span

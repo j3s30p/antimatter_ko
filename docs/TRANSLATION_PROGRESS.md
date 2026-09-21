@@ -10,7 +10,7 @@ Status values: `not started`, `in progress`, `translated`, `QA complete`.
 | Early Modern UI | in progress | Dimension screen, navigation, sidebar resources, and shared modal controls translated; installed for tester recheck |
 | Early Classic UI | translated | Layout QA remains |
 | Options and common modals | in progress | Gameplay, visual, saving, hotkeys, confirmation, animation, news, info display, notation, visible-tabs, and backup UI translated; unlocked late-game option dialogs remain |
-| Statistics and records | not started | |
+| Statistics and records | in progress | Main statistics, matter scale, challenge records, past prestige runs, multiplier shell, and glyph-set records translated; multiplier entry database remains |
 | Achievements | in progress | Main screen chrome, rows 1-13, and all secret achievement data translated; rows 14-18 remain |
 | Challenges | not started | |
 | Infinity systems | translated | Build and residue scan complete; full unlocked-state layout QA remains |
