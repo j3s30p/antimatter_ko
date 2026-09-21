@@ -29,7 +29,7 @@ export default {
       return this.blackHole.id;
     },
     dischargeText() {
-      return `Discharge: ${timeDisplayShort(this.storedTime)}`;
+      return `방출: ${timeDisplayShort(this.storedTime)}`;
     },
     hasLongText() {
       return this.dischargeText.length > 15;
@@ -92,10 +92,10 @@ export default {
         onclick="Enslaved.toggleStoreBlackHole()"
       >
         <span v-if="isCharging">
-          Stop Charging
+          충전 중지
         </span>
         <span v-else>
-          Charge
+          충전
         </span>
       </PrimaryButton>
     </span>
@@ -124,7 +124,7 @@ export default {
       <PrimaryToggleButton
         v-model="isAutoReleasing"
         class="o-primary-btn--buy-max c-primary-btn--black-hole-header"
-        label="Pulse:"
+        label="파동:"
       />
     </span>
   </span>

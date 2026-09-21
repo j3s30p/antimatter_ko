@@ -12,9 +12,9 @@ export const glyphSacrifice = {
       const sacCap = GlyphSacrificeHandler.maxSacrificeForEffects;
       const nextDistantGalaxy = Math.pow(10, Math.pow((amount + 1) / 750, 1 / 1.2) * Math.log10(sacCap)) - 1;
       const nextGalaxyText = amount < 750
-        ? ` (next at ${format(nextDistantGalaxy, 2, 2)})`
+        ? ` (다음 단계: ${format(nextDistantGalaxy, 2, 2)})`
         : "";
-      return `Distant Galaxy scaling starts ${formatInt(amount)} later${nextGalaxyText}`;
+      return `먼 은하 비용 증가가 ${formatInt(amount)}개 늦게 시작${nextGalaxyText}`;
     },
     cap: () => GlyphSacrificeHandler.maxSacrificeForEffects
   },
@@ -53,9 +53,9 @@ export const glyphSacrifice = {
       const sacCap = GlyphSacrificeHandler.maxSacrificeForEffects;
       const nextDistantGalaxy = Math.pow(10, Math.pow((amount + 1) / 1500, 1 / 1.2) * Math.log10(sacCap)) - 1;
       const nextGalaxyText = amount < 1500
-        ? ` (next at ${format(nextDistantGalaxy, 2, 2)})`
+        ? ` (다음 단계: ${format(nextDistantGalaxy, 2, 2)})`
         : "";
-      return `Replicanti Galaxy scaling starts ${formatInt(amount)} later${nextGalaxyText}`;
+      return `복제자 은하 비용 증가가 ${formatInt(amount)}개 늦게 시작${nextGalaxyText}`;
     },
     cap: () => GlyphSacrificeHandler.maxSacrificeForEffects
   },
@@ -81,7 +81,7 @@ export const glyphSacrifice = {
       const capped = Math.clampMax(sac, 1e70);
       return 2 * Math.log10(capped / 1e20 + 1);
     },
-    description: amount => `+${formatPercents(amount / 100, 2)} additional Glyph rarity`,
+    description: amount => `글리프 희귀도 +${formatPercents(amount / 100, 2)}`,
     cap: () => 1e70
   },
   "reality": {

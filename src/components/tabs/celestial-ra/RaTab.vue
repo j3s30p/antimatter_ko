@@ -112,8 +112,8 @@ export default {
     <div class="c-ra-memory-header">
       <CelestialQuoteHistory celestial="ra" />
       <div v-if="!isRaCapped">
-        Each Memory Chunk generates a base of one Memory per second<span v-if="memoriesPerChunk > 1">,
-          which has been increased to {{ quantify("Memory", memoriesPerChunk, 2, 3) }} per second</span>.
+        기억 조각 하나는 기본적으로 초당 기억 하나를 생성합니다<span v-if="memoriesPerChunk > 1">.
+          현재 초당 {{ format(memoriesPerChunk, 2, 3) }}개로 증가했습니다</span>.
         <br>
         실제 시간을 저장하면 기억 조각 생성이 중단되지만 기억은 정상적으로 획득합니다.
         <span v-if="memoriesPerChunk > 1">

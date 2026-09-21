@@ -71,7 +71,7 @@ export const v = {
       values: [-5, -4, -3, -2, -1, 0],
       condition: () => V.isRunning && TimeStudy.reality.isBought,
       currentValue: () => -Glyphs.activeWithoutCompanion.length,
-      formatRecord: x => (x >= -5 ? formatInt(-x) : "Not reached"),
+      formatRecord: x => (x >= -5 ? formatInt(-x) : "도달하지 못함"),
       shardReduction: () => 0,
       maxShardReduction: () => 0,
       mode: V_REDUCTION_MODE.SUBTRACTION
@@ -220,8 +220,8 @@ export const v = {
       effect: () => Achievements.power,
       // Base rate is 60 ECs at 20 minutes each
       format: x => (Ra.unlocks.instantECAndRealityUpgradeAutobuyers.canBeApplied
-        ? "Instant (Ra upgrade)"
-        : `${TimeSpan.fromMinutes(60 * 20 / x).toStringShort()} for full completion`),
+        ? "즉시 (Ra 업그레이드)"
+        : `전체 완료까지 ${TimeSpan.fromMinutes(60 * 20 / x).toStringShort()}`),
       requirement: () => V.spaceTheorems >= 10
     },
     autoAutoClean: {

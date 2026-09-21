@@ -16,7 +16,7 @@ export const imaginaryUpgrades = [
     id: 1,
     initialCost: 3,
     costMult: 60,
-    description: () => `Increase Temporal Amplifier multiplier by +${format(0.15, 2, 2)}`,
+    description: () => `시간 증폭기 배율을 +${format(0.15, 2, 2)} 증가`,
     effect: 0.15
   }),
   rebuyable({
@@ -24,7 +24,7 @@ export const imaginaryUpgrades = [
     id: 2,
     initialCost: 4,
     costMult: 60,
-    description: () => `Increase Replicative Amplifier multiplier by +${format(0.15, 2, 2)}`,
+    description: () => `복제 증폭기 배율을 +${format(0.15, 2, 2)} 증가`,
     effect: 0.15
   }),
   rebuyable({
@@ -32,7 +32,7 @@ export const imaginaryUpgrades = [
     id: 3,
     initialCost: 1,
     costMult: 40,
-    description: () => `Increase Eternal Amplifier multiplier by +${format(0.4, 2, 2)}`,
+    description: () => `영원 증폭기 배율을 +${format(0.4, 2, 2)} 증가`,
     effect: 0.4
   }),
   rebuyable({
@@ -40,7 +40,7 @@ export const imaginaryUpgrades = [
     id: 4,
     initialCost: 5,
     costMult: 80,
-    description: () => `Increase Superluminal Amplifier multiplier by +${format(0.15, 2, 2)}`,
+    description: () => `초광속 증폭기 배율을 +${format(0.15, 2, 2)} 증가`,
     effect: 0.15
   }),
   rebuyable({
@@ -48,7 +48,7 @@ export const imaginaryUpgrades = [
     id: 5,
     initialCost: 1,
     costMult: 30,
-    description: () => `Increase Boundless Amplifier multiplier by +${format(0.6, 2, 2)}`,
+    description: () => `무한 증폭기 배율을 +${format(0.6, 2, 2)} 증가`,
     effect: 0.6
   }),
   rebuyable({
@@ -56,7 +56,7 @@ export const imaginaryUpgrades = [
     id: 6,
     initialCost: 1e4,
     costMult: 500,
-    description: () => `Increase the Reality Machine cap by ${formatX(1e100)}`,
+    description: () => `리얼리티 머신 상한을 ${formatX(1e100)} 증가`,
     effect: 1e100,
     formatEffect: value => `${formatX(value)}`,
     isDecimal: true

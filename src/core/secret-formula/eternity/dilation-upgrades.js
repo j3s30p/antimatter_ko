@@ -71,10 +71,10 @@ export const dilationUpgrades = {
     initialCost: 1e7,
     increment: 20,
     description: () => {
-      if (Pelle.isDoomed) return `Multiply the amount of Tachyon Particles gained by ${formatInt(1)}`;
-      if (Enslaved.isRunning) return `Multiply the amount of Tachyon Particles gained
-      by ${Math.pow(3, Enslaved.tachyonNerf).toFixed(2)}`;
-      return "Triple the amount of Tachyon Particles gained";
+      if (Pelle.isDoomed) return `타키온 입자 획득량에 ${formatInt(1)}배 적용`;
+      if (Enslaved.isRunning) return `타키온 입자 획득량에
+      ${Math.pow(3, Enslaved.tachyonNerf).toFixed(2)}배 적용`;
+      return "타키온 입자 획득량 세 배";
     },
     effect: bought => {
       if (Pelle.isDoomed) return DC.D1.pow(bought);
@@ -87,7 +87,7 @@ export const dilationUpgrades = {
   doubleGalaxies: {
     id: 4,
     cost: 5e6,
-    description: () => `Gain twice as many Tachyon Galaxies, up to ${formatInt(500)} base Galaxies`,
+    description: () => `기본 타키온 은하 ${formatInt(500)}개까지 두 배로 획득`,
     effect: 2
   },
   tdMultReplicanti: {

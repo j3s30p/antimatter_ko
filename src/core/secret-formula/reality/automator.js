@@ -37,9 +37,9 @@ export const automator = {
             {
               header: "<i>nowait</i>",
               description: `
-                If present, the Automator will purchase as many studies as possible before continuing onward. By default
-                (ie. without "nowait") this command will repeat this line indefinitely until all of the studies in the
-                preset are bought; this may cause the Automator to get stuck indefinitely if you are not careful.
+                지정하면 오토메이터가 구매할 수 있는 연구를 최대한 구매한 뒤 다음 줄로 넘어갑니다. 기본적으로
+                (즉, "nowait"가 없으면) 프리셋의 연구를 모두 구매할 때까지 이 줄을 계속 반복합니다.
+                주의하지 않으면 오토메이터가 이 줄에서 영원히 멈출 수 있습니다.
               `
             },
             {
@@ -75,9 +75,9 @@ export const automator = {
             {
               header: "<i>nowait</i>",
               description: `
-                If present, the Automator will purchase as many studies as possible before continuing onward. By default
-                (ie. without "nowait") this command will repeat this line indefinitely until all of the studies in the
-                preset are bought; this may cause the Automator to get stuck indefinitely if you are not careful.
+                지정하면 오토메이터가 구매할 수 있는 연구를 최대한 구매한 뒤 다음 줄로 넘어갑니다. 기본적으로
+                (즉, "nowait"가 없으면) 프리셋의 연구를 모두 구매할 때까지 이 줄을 계속 반복합니다.
+                주의하지 않으면 오토메이터가 이 줄에서 영원히 멈출 수 있습니다.
               `
             },
             {
@@ -107,10 +107,10 @@ export const automator = {
         <b>infinity</b> [nowait]<br>
         <b>eternity</b> [nowait] [respec]<br>
         <b>reality</b> [nowait] [respec]`,
-      description: `Triggers an Infinity, Eternity, or Reality reset if possible, otherwise the automator will wait at
-        this command until it becomes possible. If you find that your script often gets stuck on this command, an
-        Autobuyer may be triggering a prestige before the Automator reaches this line - consider using <i>nowait</i> or
-        adjusting your Autobuyer settings using AUTO.`,
+      description: `가능하면 무한, 영원 또는 현실 초기화를 실행합니다. 실행할 수 없다면 가능해질 때까지
+        이 명령에서 기다립니다. 스크립트가 이 명령에서 자주 멈춘다면 오토메이터가 이 줄에 도달하기 전에
+        자동구매기가 프레스티지를 실행하고 있을 수 있습니다. <i>nowait</i>를 사용하거나 AUTO 명령으로
+        자동구매기 설정을 조정해 보세요.`,
       sections: [
         {
           name: "MODIFIERS",
@@ -125,9 +125,9 @@ export const automator = {
             {
               header: "<i>respec</i>",
               description: `
-                For non-Infinity prestiges, also does the related respec action when triggering prestige.
-                Eternity: Respec Time Studies and Eternity.<br>
-                Reality: Unequip Glyphs and Reality.
+                무한 이외의 프레스티지를 실행할 때 관련 재분배 동작도 함께 수행합니다.
+                영원: 시간 연구를 재분배하고 영원에 도달합니다.<br>
+                현실: 글리프를 모두 해제하고 현실에 도달합니다.
               `
             },
           ]
@@ -501,31 +501,31 @@ export const automator = {
           ? `<b>space theorems</b> - 현재 사용하지 않은 공간 정리의 양<br>
             <b>total space theorems</b> - 현재 연구에 사용한 양을 포함한 공간 정리의 총량<br>`
           : "";
-        return `This is a list of "currencies" or numbers that you can use within the Automator.<br>
-          Note that when used, most currencies will need to be in scientific notation.<br>
-          <b>am</b> - Current Antimatter amount  <br>
-          <b>ip</b> - Current Infinity Point amount  <br>
-          <b>ep</b> - Current Eternity Point amount  <br>
-          <b>rm</b> - Current Reality Machine amount  <br>
-          <b>infinities</b> - Current Infinity amount <br>
-          <b>banked infinities</b> - Current Banked Infinity amount <br>
-          <b>eternities</b> - Current Eternity amount <br>
-          <b>realities</b> - Current Reality amount <br>
-          <b>pending ip</b> - IP gained on Infinity (0 if not available)<br>
-          <b>pending ep</b> - EP gained on Eternity (0 if not available)<br>
-          <b>pending tp</b> - TP gained on exiting Dilation<br>
-          <b>pending rm</b> - RM gained on Reality (0 if not available)<br>
-          <b>pending glyph level</b> - Glyph Level gained on Reality (0 if not available)<br>
-          <b>dt</b> - Current Dilated Time amount <br>
-          <b>tp</b> - Current Tachyon Particle amount<br>
-          <b>rg</b> - Current Replicanti Galaxy amount (does not use scientific)<br>
-          <b>rep</b> - Current Replicanti amount <br>
-          <b>tt</b> - Current Time Theorem amount <br>
-          <b>total tt</b> - TOTAL Time Theorems, includes all forms of generated TT and any spent on Studies <br>
-          <b>spent tt</b> - Time Theorems currently spent on all Time Studies <br>
-          <b>total completions</b> - Total completions of all Eternity Challenges <br>
-          <b>pending completions</b> - Total completions of current EC at Eternity <br>
-          <b>ec<u>X</u> completions</b> - Amount of EC completions for a certain EC (eg. "ec6 completions")<br>
+        return `오토메이터 안에서 사용할 수 있는 "화폐" 또는 숫자 목록입니다.<br>
+          대부분의 화폐 값은 과학적 표기법으로 입력해야 합니다.<br>
+          <b>am</b> - 현재 반물질 <br>
+          <b>ip</b> - 현재 무한 포인트 <br>
+          <b>ep</b> - 현재 영원 포인트 <br>
+          <b>rm</b> - 현재 리얼리티 머신 <br>
+          <b>infinities</b> - 현재 무한 횟수 <br>
+          <b>banked infinities</b> - 현재 저장된 무한 <br>
+          <b>eternities</b> - 현재 영원 횟수 <br>
+          <b>realities</b> - 현재 현실 횟수 <br>
+          <b>pending ip</b> - 무한 시 획득할 IP (불가능하면 0)<br>
+          <b>pending ep</b> - 영원 시 획득할 EP (불가능하면 0)<br>
+          <b>pending tp</b> - 팽창 종료 시 획득할 TP<br>
+          <b>pending rm</b> - 현실 시 획득할 RM (불가능하면 0)<br>
+          <b>pending glyph level</b> - 현실 시 획득할 글리프 레벨 (불가능하면 0)<br>
+          <b>dt</b> - 현재 팽창한 시간 <br>
+          <b>tp</b> - 현재 타키온 입자<br>
+          <b>rg</b> - 현재 복제자 은하 수 (과학적 표기법을 사용하지 않음)<br>
+          <b>rep</b> - 현재 복제자 <br>
+          <b>tt</b> - 현재 시간 정리 <br>
+          <b>total tt</b> - 생성된 것과 연구에 사용한 것을 모두 포함한 시간 정리 총량 <br>
+          <b>spent tt</b> - 모든 시간 연구에 현재 사용한 시간 정리 <br>
+          <b>total completions</b> - 모든 영원 도전의 총 완료 횟수 <br>
+          <b>pending completions</b> - 영원 시 현재 영원 도전의 총 완료 횟수 <br>
+          <b>ec<u>X</u> completions</b> - 특정 영원 도전의 완료 횟수 (예: "ec6 completions")<br>
           ${filterText}
           ${stText}
         `;

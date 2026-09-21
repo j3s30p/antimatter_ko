@@ -27,7 +27,7 @@ export default {
   },
   computed: {
     timePlayed() {
-      return `Time Played: ${TimeSpan.fromMilliseconds(this.saveData.realTimePlayed).toString()}`;
+      return `플레이 시간: ${TimeSpan.fromMilliseconds(this.saveData.realTimePlayed).toString()}`;
     },
     // Note that all of the four following entries have Pelle-specific resources at the highest priority, which
     // will generally lead to most of them being overridden almost immediately after Dooming (or practically close

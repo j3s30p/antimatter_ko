@@ -38,11 +38,10 @@ export default {
       if (!this.hasEffarig && !this.hasReality) return "";
       const uniqueGlyphs = [];
       if (this.hasEffarig) uniqueGlyphs.push(
-        `<span style="color: ${GlyphAppearanceHandler.getBorderColor("effarig")};">Effarig</span>`);
+        `<span style="color: ${GlyphAppearanceHandler.getBorderColor("effarig")};">에파리그</span>`);
       if (this.hasReality) uniqueGlyphs.push(
-        `<span style="animation: a-reality-glyph-description-cycle 10s infinite;">Reality</span>`);
-      return `You cannot have more than one ${uniqueGlyphs.join(" or ")}
-        Glyph equipped${uniqueGlyphs.length > 1 ? " each." : "."}`;
+        `<span style="animation: a-reality-glyph-description-cycle 10s infinite;">현실</span>`);
+      return `${uniqueGlyphs.join(" 또는 ")} 글리프는 종류마다 하나만 장착할 수 있습니다.`;
     },
     noEffects() {
       return !this.effects.length;
@@ -52,8 +51,8 @@ export default {
     },
     pelleGlyphText() {
       return Pelle.isDoomed
-        ? `Glyph Rarity is set to ${formatPercents(strengthToRarity(Pelle.glyphStrength))}
-          and Level is capped at ${formatInt(Pelle.glyphMaxLevel)}`
+        ? `글리프 희귀도가 ${formatPercents(strengthToRarity(Pelle.glyphStrength))}로 고정되고
+          레벨 상한이 ${formatInt(Pelle.glyphMaxLevel)}이 됩니다.`
         : "";
     },
     showChaosText() {

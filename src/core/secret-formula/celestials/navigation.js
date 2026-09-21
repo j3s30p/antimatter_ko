@@ -338,8 +338,8 @@ export const celestialNavigation = {
           const rm = Teresa.pouredAmount;
           const cost = TeresaUnlocks.effarig.price;
           return [
-            "Effarig",
-            `Pour ${format(rm, 2)} / ${format(cost, 2)} Reality Machines`
+            "에파리그",
+            `리얼리티 머신 붓기: ${format(rm, 2)} / ${format(cost, 2)}`
           ];
         },
         angle: -135,
@@ -585,8 +585,8 @@ export const celestialNavigation = {
           if (complete >= 1) return "글리프 레벨의 사슬이 끊어졌습니다";
           const goal = 5000;
           return [
-            "Break a chain",
-            `Reach Glyph level ${formatInt(Math.min(player.records.bestReality.glyphLevel, goal))}/${formatInt(goal)}`
+            "사슬 끊기",
+            `글리프 레벨 도달: ${formatInt(Math.min(player.records.bestReality.glyphLevel, goal))}/${formatInt(goal)}`
           ];
         },
         angle: -45,
@@ -924,8 +924,8 @@ export const celestialNavigation = {
           if (complete >= 1) return `V-Achievement "${name}"`;
           const completions = VRunUnlocks.all[0].completions;
           return [
-            "V-Achievement",
-            `Reach ${formatInt(completions)} / ${formatInt(6)} completions in ${name}.`
+            "V 도전과제",
+            `${name} 완료 횟수 ${formatInt(completions)} / ${formatInt(6)}에 도달`
           ];
         },
         angle: -135,
@@ -960,8 +960,8 @@ export const celestialNavigation = {
           if (complete >= 1) return `V-Achievement "${name}"`;
           const completions = VRunUnlocks.all[1].completions;
           return [
-            "V-Achievement",
-            `Reach ${formatInt(completions)} / ${formatInt(6)} completions in ${name}.`
+            "V 도전과제",
+            `${name} 완료 횟수 ${formatInt(completions)} / ${formatInt(6)}에 도달`
           ];
         },
         angle: 20,
@@ -996,8 +996,8 @@ export const celestialNavigation = {
           if (complete >= 1) return `V-Achievement "${name}"`;
           const completions = VRunUnlocks.all[2].completions;
           return [
-            "V-Achievement",
-            `Reach ${formatInt(completions)} / ${formatInt(6)} completions in ${name}.`
+            "V 도전과제",
+            `${name} 완료 횟수 ${formatInt(completions)} / ${formatInt(6)}에 도달`
           ];
         },
         angle: 315,
@@ -1032,8 +1032,8 @@ export const celestialNavigation = {
           if (complete >= 1) return `V-Achievement "${name}"`;
           const completions = VRunUnlocks.all[3].completions;
           return [
-            "V-Achievement",
-            `Reach ${formatInt(completions)} / ${formatInt(6)} completions in ${name}.`
+            "V 도전과제",
+            `${name} 완료 횟수 ${formatInt(completions)} / ${formatInt(6)}에 도달`
           ];
         },
         angle: 135,
@@ -1068,8 +1068,8 @@ export const celestialNavigation = {
           if (complete >= 1) return `V-Achievement "${name}"`;
           const completions = VRunUnlocks.all[4].completions;
           return [
-            "V-Achievement",
-            `Reach ${formatInt(completions)} / ${formatInt(6)} completions in ${name}.`
+            "V 도전과제",
+            `${name} 완료 횟수 ${formatInt(completions)} / ${formatInt(6)}에 도달`
           ];
         },
         angle: 60,
@@ -1104,8 +1104,8 @@ export const celestialNavigation = {
           if (complete >= 1) return `V-Achievement "${name}"`;
           const completions = VRunUnlocks.all[5].completions;
           return [
-            "V-Achievement",
-            `Reach ${formatInt(completions)} / ${formatInt(6)} completions in ${name}.`
+            "V 도전과제",
+            `${name} 완료 횟수 ${formatInt(completions)} / ${formatInt(6)}에 도달`
           ];
         },
         angle: 260,
@@ -1515,13 +1515,13 @@ export const celestialNavigation = {
           const goal = dim.adjustedStartingCost;
           if (complete >= 1) return [
             dmdText,
-            `Dark Matter ${format(Currency.darkMatter.max.min(goal), dim.isUnlocked ? 0 : 2)} / ${format(goal)}`
+            `암흑 물질 ${format(Currency.darkMatter.max.min(goal), dim.isUnlocked ? 0 : 2)} / ${format(goal)}`
           ];
 
           const upgrade = dim.unlockUpgrade;
           if (upgrade.isAvailableForPurchase) return [
             dmdText,
-            `Imaginary Machines
+            `허수 머신
             ${format(Math.min(upgrade.currency.value, upgrade.cost), upgrade.canBeBought ? 1 : 2)}
             / ${format(upgrade.cost, 1)}`
           ];
@@ -1613,13 +1613,13 @@ export const celestialNavigation = {
           const goal = dim.adjustedStartingCost;
           if (complete >= 1) return [
             dmdText,
-            `Dark Matter ${format(Currency.darkMatter.max.min(goal), dim.isUnlocked ? 0 : 2)} / ${format(goal)}`
+            `암흑 물질 ${format(Currency.darkMatter.max.min(goal), dim.isUnlocked ? 0 : 2)} / ${format(goal)}`
           ];
 
           const upgrade = dim.unlockUpgrade;
           if (upgrade.isAvailableForPurchase) return [
             dmdText,
-            `Imaginary Machines
+            `허수 머신
             ${format(Math.min(upgrade.currency.value, upgrade.cost), upgrade.canBeBought ? 0 : 2)}
             / ${format(upgrade.cost)}`
           ];
@@ -1685,13 +1685,13 @@ export const celestialNavigation = {
           const goal = dim.adjustedStartingCost;
           if (complete >= 1) return [
             dmdText,
-            `Dark Matter ${format(Currency.darkMatter.max.min(goal), dim.isUnlocked ? 0 : 2)} / ${format(goal)}`
+            `암흑 물질 ${format(Currency.darkMatter.max.min(goal), dim.isUnlocked ? 0 : 2)} / ${format(goal)}`
           ];
 
           const upgrade = dim.unlockUpgrade;
           if (upgrade.isAvailableForPurchase) return [
             dmdText,
-            `Imaginary Machines
+            `허수 머신
             ${format(Math.min(upgrade.currency.value, upgrade.cost), upgrade.canBeBought ? 1 : 2)}
             / ${format(upgrade.cost, 1)}`
           ];

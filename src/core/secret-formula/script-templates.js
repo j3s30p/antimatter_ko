@@ -67,7 +67,7 @@ export const automatorTemplates = {
     */
   scripts: [
     {
-      name: "Climb EP",
+      name: "영원 포인트 올리기",
       displayName: "영원 포인트 불리기",
       description: `이 스크립트는 영원을 반복하며, 영원을 수행할 때마다 시간 연구 트리를 다시 구매하려고 합니다.
         무한 및 영원 자동구매기의 설정을 입력해야 합니다. 지정한 영원 포인트에 도달할 때까지 반복합니다.`,
@@ -99,7 +99,7 @@ export const automatorTemplates = {
       },
     },
     {
-      name: "Grind Eternities",
+      name: "영원 반복",
       displayName: "영원 횟수 모으기",
       description: `이 스크립트는 지정한 시간 연구 트리를 구매한 뒤 빠른 영원을 반복합니다. 무한 자동구매기는
         지정한 빅 크런치 횟수에 맞춰 "최고 기록의 X배" 모드로 설정되고, 영원 자동구매기는 가능한 즉시 실행됩니다.
@@ -120,7 +120,7 @@ export const automatorTemplates = {
       },
     },
     {
-      name: "Grind Infinities",
+      name: "무한 반복",
       displayName: "무한 횟수 모으기",
       description: `이 스크립트는 지정한 시간 연구 트리를 구매한 뒤 무한 횟수를 얻도록 자동구매기를 설정합니다.
         지정한 무한 횟수에 도달할 때까지 반복합니다. 저장된 무한 횟수를 목표로 삼을 수도 있으며, 이 경우 한 번 영원하기
@@ -145,7 +145,7 @@ export const automatorTemplates = {
       },
     },
     {
-      name: "Complete Eternity Challenge",
+      name: "영원 도전 완료",
       displayName: "영원 도전 완료하기",
       description: `이 스크립트는 지정한 시간 연구 트리를 구매하고 지정한 영원 도전을 해금합니다. 무한 자동구매기를
         입력한 설정으로 바꾼 뒤 영원 도전에 진입합니다. 마지막으로 목표 완료 횟수에 도달할 때까지 기다렸다가
@@ -173,7 +173,7 @@ export const automatorTemplates = {
       },
     },
     {
-      name: "Unlock Dilation",
+      name: "시간 팽창 해금",
       displayName: "시간 팽창 해금하기",
       description: `이 스크립트는 영원을 반복하며, 영원을 수행할 때마다 시간 연구 트리를 다시 구매하려고 합니다.
         영원 자동구매기의 설정을 입력해야 하며 무한 자동구매기는 꺼집니다. 시간 팽창 해금에 필요한 총 시간 정리를

@@ -24,9 +24,9 @@ export default {
       return Glyphs.findByInventoryIndex(this.idx);
     },
     message() {
-      return `Do you really want to sacrifice this Glyph? Your total power of sacrificed ${this.glyph.type}
-      Glyphs will increase from ${format(this.currentGlyphSacrifice, 2, 2)} to
-      ${format(this.currentGlyphSacrifice + this.gain, 2, 2)}.`;
+      return `정말 이 글리프를 희생하시겠습니까? 이 종류의 글리프 희생 총합이
+      ${format(this.currentGlyphSacrifice, 2, 2)}에서
+      ${format(this.currentGlyphSacrifice + this.gain, 2, 2)}(으)로 증가합니다.`;
     }
   },
   methods: {

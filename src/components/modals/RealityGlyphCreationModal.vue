@@ -39,7 +39,7 @@ export default {
       this.emitClose();
     },
     formatGlyphEffect(effect) {
-      if (this.realityGlyphLevel < effect[0]) return `(Requires Glyph level ${formatInt(effect[0])})`;
+      if (this.realityGlyphLevel < effect[0]) return `(글리프 레벨 ${formatInt(effect[0])} 필요)`;
       const config = GlyphEffects[effect[1]];
       const value = config.effect(this.realityGlyphLevel, rarityToStrength(100));
       const effectTemplate = config.singleDesc;
@@ -56,12 +56,11 @@ export default {
     </template>
     <div class="c-reality-glyph-creation">
       <div>
-        Create a level {{ formatInt(realityGlyphLevel) }} Reality Glyph.
-        Rarity will always be {{ formatPercents(1) }} and
-        level scales on your current Reality Resource amount (which is all consumed). All other Alchemy Resources will
-        be unaffected. Reality Glyphs have unique effects, some of which are only available with higher level Glyphs.
-        Reality Glyphs can also be sacrificed to increase all Memory Chunk gain. Like Effarig Glyphs,
-        you cannot equip more than one at the same time.
+        레벨 {{ formatInt(realityGlyphLevel) }} 현실 글리프를 생성합니다.
+        희귀도는 항상 {{ formatPercents(1) }}이며, 레벨은 현재 보유한 현실 연금술 자원의 양에 따라 정해지고
+        이 자원은 모두 소모됩니다. 다른 연금술 자원에는 영향이 없습니다. 현실 글리프에는 고유한 효과가 있으며,
+        일부 효과는 글리프 레벨이 더 높아야 사용할 수 있습니다. 현실 글리프를 희생하면 모든 기억 조각 획득량이
+        증가합니다. 에파리그 글리프와 마찬가지로 한 번에 하나만 장착할 수 있습니다.
       </div>
       <div class="o-available-effects-container">
         <div class="o-available-effects">

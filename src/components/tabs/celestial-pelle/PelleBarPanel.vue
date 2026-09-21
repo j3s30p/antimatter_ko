@@ -54,7 +54,7 @@ export default {
       활성화된 균열은 매초 다른 자원의 {{ formatPercents(decayRate) }}를 소모합니다.
       <br>
       균열 효과는 비활성 상태에서도 적용되며 지금까지 소모한 총량을 기준으로 합니다.
-      <b class="o-strike-warning">Pelle Strike penalties are permanent and remain active even after Armageddon!</b>
+      <b class="o-strike-warning">펠레 타격의 불이익은 영구적이며 아마겟돈 후에도 계속 적용됩니다!</b>
       <div class="c-pelle-bar-container">
         <PelleRift
           v-for="strike in strikes"

@@ -20,9 +20,9 @@ Status values: `not started`, `in progress`, `translated`, `QA complete`.
 | Automator UI and documentation | in progress | Most editor UI, transfer screens, templates, errors, and documentation imported; commands remain English intentionally for script compatibility |
 | Celestials and story dialogue | in progress | Compatible base-game tabs, mechanics, navigation text, and quote data imported; residue and story QA remain |
 | Help and catch-up documentation | translated | All compatible base-game articles plus previously skipped Reality and Nameless Ones articles translated; terminology and layout QA remain |
-| News ticker | in progress | 1,302 previously untouched base-game message properties imported from the reference translation; mixed-language wordplay and a smaller incompatible residue remain |
+| News ticker | in progress | 1,302 base-game properties imported; remaining NEWS translation is being handled separately by the tester and must be merged/validated without parallel edits |
 | Changelog | not started | Final content batch |
-| Release installer and restoration | not started | Must validate Steam version/hash |
+| Release installer and restoration | in progress | Hash-gated installer and backup-based restore scripts added; isolated clean-install/restore test remains |
 | Clean-install release QA | not started | Includes update/restore test |
 
 Update this file whenever a translation batch is committed. An area becomes `QA complete` only after build, residue scan, placeholder validation, and in-game layout review.
@@ -70,6 +70,15 @@ Update this file whenever a translation batch is committed. An area becomes `QA 
   Game screen, and the visible Lai'tela Singularity/Annihilation/Dimension/run text. The two wholly English base-game
   H2P articles for Reality and the Nameless Ones were also translated without importing Endgame-only content. The
   focused ESLint pass and Steam release build passed; translation-audit candidates fell from 8,194 to 8,083.
+- Remaining-system pass: translated visible Glyph creation/sacrifice/effect text, Reality and Imaginary Upgrade
+  requirements, Dilation Upgrades, late Time Studies, Perk Shop, Alchemy resources, Celestial navigation, Lai'tela
+  milestones, Automator human-readable documentation, template names, credits roles, and assorted headers/modals.
+  Automator syntax tokens and internal identifiers remain English intentionally. NEWS is excluded from further parallel
+  editing because the tester is translating it separately. Audit candidates fell further to 7,989 before the latest
+  batch; a fresh final audit remains.
+- Distribution tooling: added an elevation launcher, SHA-256-gated PowerShell installer, and independently callable
+  restore tool. The installer preserves a verified original ASAR, refuses unknown game versions, leaves the native
+  `app.asar.unpacked` sidecar and save data untouched, and verifies the installed payload. Isolated round-trip QA remains.
 
 ## Steam packaging note
 

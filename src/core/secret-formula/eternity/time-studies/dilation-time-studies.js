@@ -44,8 +44,8 @@ export const dilationTimeStudies = [
   {
     id: 6,
     description: () => (Pelle.isDoomed
-      ? "You cannot escape a Doomed Reality"
-      : "Unlock Reality"),
+      ? "종말한 현실에서는 벗어날 수 없습니다"
+      : "현실 해금"),
     cost: 1,
     requirement: () => TimeStudy.timeDimension(8).isBought &&
       player.records.thisReality.maxEP.exponent >= 4000 &&

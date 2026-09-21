@@ -223,8 +223,8 @@ export const realityUpgrades = [
     name: "희귀도의 격차",
     id: 16,
     cost: 1500,
-    requirement: () => `Reality with ${formatInt(4)} Glyphs equipped of uncommon or better rarity
-      (${formatInt(Glyphs.activeWithoutCompanion.countWhere(g => g && g.strength >= 1.5))} equipped)`,
+    requirement: () => `고급 이상 희귀도의 글리프 ${formatInt(4)}개를 장착하고 현실 도달
+      (현재 ${formatInt(Glyphs.activeWithoutCompanion.countWhere(g => g && g.strength >= 1.5))}개 장착)`,
     hasFailed: () => {
       const availableGlyphs = Glyphs.inventory.countWhere(g => g && g.strength >= 1.5);
       const equipped = Glyphs.activeWithoutCompanion.countWhere(g => g.strength >= 1.5);
@@ -241,9 +241,11 @@ export const realityUpgrades = [
     name: "효능의 이중성",
     id: 17,
     cost: 1500,
-    requirement: () => `Reality with ${formatInt(4)} Glyphs equipped, each having at least ${formatInt(2)} effects
-      (${formatInt(Glyphs.activeWithoutCompanion.countWhere(g => g && countValuesFromBitmask(g.effects) >= 2))}
-      equipped)`,
+    requirement: () => {
+      const equipped = Glyphs.activeWithoutCompanion.countWhere(g => g && countValuesFromBitmask(g.effects) >= 2);
+      return `효과가 각각 ${formatInt(2)}개 이상인 글리프 ${formatInt(4)}개를 장착하고 현실 도달
+        (현재 ${formatInt(equipped)}개 장착)`;
+    },
     hasFailed: () => {
       const availableGlyphs = Glyphs.inventory.countWhere(g => g && countValuesFromBitmask(g.effects) >= 2);
       const equipped = Glyphs.activeWithoutCompanion.countWhere(g => countValuesFromBitmask(g.effects) >= 2);
@@ -260,8 +262,8 @@ export const realityUpgrades = [
     name: "영원의 척도",
     id: 18,
     cost: 1500,
-    requirement: () => `Reality with ${formatInt(4)} Glyphs equipped, each at level ${formatInt(10)} or higher
-      (${formatInt(Glyphs.activeWithoutCompanion.countWhere(g => g && g.level >= 10))} equipped)`,
+    requirement: () => `레벨 ${formatInt(10)} 이상인 글리프 ${formatInt(4)}개를 장착하고 현실 도달
+      (현재 ${formatInt(Glyphs.activeWithoutCompanion.countWhere(g => g && g.level >= 10))}개 장착)`,
     hasFailed: () => {
       const availableGlyphs = Glyphs.inventory.countWhere(g => g && g.level >= 10);
       const equipped = Glyphs.activeWithoutCompanion.countWhere(g => g.level >= 10);
@@ -278,8 +280,8 @@ export const realityUpgrades = [
     name: "정화하여 강화",
     id: 19,
     cost: 1500,
-    requirement: () => `Have a total of ${formatInt(30)} or more Glyphs at once
-      (You have ${formatInt(Glyphs.allGlyphs.countWhere(g => g.type !== "companion"))})`,
+    requirement: () => `글리프를 동시에 총 ${formatInt(30)}개 이상 보유
+      (현재 ${formatInt(Glyphs.allGlyphs.countWhere(g => g.type !== "companion"))}개 보유)`,
     hasFailed: () => Glyphs.allGlyphs.countWhere(g => g.type !== "companion") < 30,
     checkRequirement: () => Glyphs.allGlyphs.countWhere(g => g.type !== "companion") >= 30,
     checkEvent: GAME_EVENT.REALITY_RESET_BEFORE,
@@ -305,7 +307,7 @@ export const realityUpgrades = [
     id: 21,
     cost: 100000,
     requirement: () => `${formatInt(Replicanti.galaxies.total + player.galaxies +
-      player.dilation.totalTachyonGalaxies)}/${formatInt(2800)} total Galaxies from all types`,
+      player.dilation.totalTachyonGalaxies)}/${formatInt(2800)} 모든 종류의 은하 합계`,
     checkRequirement: () =>
       Replicanti.galaxies.total + player.galaxies + player.dilation.totalTachyonGalaxies >= 2800,
     checkEvent: GAME_EVENT.GAME_TICK_AFTER,

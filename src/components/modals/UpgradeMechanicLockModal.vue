@@ -23,7 +23,7 @@ export default {
   },
   computed: {
     upgradeStr() {
-      return this.isImaginary ? "Imaginary Upgrade" : "Reality Upgrade";
+      return this.isImaginary ? "허수 업그레이드" : "현실 업그레이드";
     },
     lockEvent() {
       return this.specialLockText ?? this.upgrade.lockEvent;
