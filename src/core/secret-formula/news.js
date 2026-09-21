@@ -6355,7 +6355,7 @@ export const news = [
   },
   {
     id: "ai773",
-    text: "Im gonna leave my milk here for a couple seconds. (milk is displayed for a few seconds longer) (우유를 여기 잠깐 두겠습니다. 실제로는 우유가 몇 초 더 표시됩니다.)"
+    text: "우유를 여기 몇 초 동안 두겠습니다. (우유는 몇 초 더 오래 표시됩니다)"
   },
   {
     id: "ai774",
@@ -6371,11 +6371,11 @@ export const news = [
   },
   {
     id: "ai777",
-    text: "Why is it called a 'Reality' Award if it doesn't exist? (존재하지도 않는데 왜 '현실'상이라고 부를까요?)"
+    text: "존재하지도 않는데 왜 '현실'상이라고 부를까요?"
   },
   {
     id: "ai778",
-    text: "In the beginning, there was nothing. Then the Creator made two, and called the third 'Intelligent Being' (태초에는 아무것도 없었습니다. 창조자는 둘을 만든 뒤 세 번째 것을 '지적 존재'라 불렀습니다.)"
+    text: "태초에는 아무것도 없었습니다. 그러자 창조자는 둘을 만들고, 세 번째 것을 '지적 존재'라 불렀습니다."
   },
   {
     id: "ai779",
@@ -6396,7 +6396,7 @@ export const news = [
   },
   {
     id: "ai783",
-    text: "Hey, what's the deal with the \"Editor's Note\" button? It's anti-ironic... I mean, seriously? People still use that button despite its anti-ironic effects? (저 “편집자 주” 버튼은 대체 뭔가요? 안티아이러니하잖아요... 진심이에요? 그런 안티아이러니 효과가 있는데도 아직 그 버튼을 쓴다고요?)"
+    text: "저 \"편집자 주\" 버튼은 대체 뭔가요? 안티 아이러니하잖아요... 아니, 진심이에요? 그런 안티 아이러니 효과가 있는데도 아직 그 버튼을 쓴다고요?"
   },
   {
     id: "ai784",
@@ -6432,7 +6432,7 @@ export const news = [
   },
   {
     id: "ai792",
-    text: "What do you call a $100 bill? 'Billi Bills' (백 달러 지폐를 뭐라고 부를까요? 'Billi Bills'입니다.)"
+    text: "100달러 지폐를 뭐라고 부를까요? '빌리 빌스'입니다."
   },
   {
     id: "ai793",
@@ -6485,7 +6485,7 @@ export const news = [
   },
   {
     id: "ai805",
-    text: "THe last update, while short, was kinda long. I mean, it was only 5 hours. Hevipelle said it would last for 5 hours, but that was only a few seconds ago. There was a big explosion in the 8th Dimension, and there was no one left to explain how it happened. All we know is that it exploded when Hevipelle touched it, and there was a big crater in the ground. That crater is still there. (지난 업데이트는 짧았지만 좀 길었습니다. 고작 다섯 시간이었으니까요. Hevipelle은 다섯 시간 동안 이어질 거라고 말했지만 그 말은 불과 몇 초 전이었습니다. 여덟 번째 차원에서 큰 폭발이 일어났고, Hevipelle이 그것을 만지자 폭발해 땅에 커다란 구덩이가 생겼다는 것만 알려졌습니다.)"
+    text: "지난 업데이트는 짧았지만 좀 길었습니다. 고작 5시간이었으니까요. Hevipelle는 5시간 동안 이어질 거라고 말했지만 그 말은 불과 몇 초 전이었습니다. 8차원에서 큰 폭발이 일어났고, 어떻게 일어났는지 설명할 사람은 아무도 남지 않았습니다. Hevipelle가 그것을 만지자 폭발했고 땅에 커다란 구덩이가 생겼다는 것만 압니다. 그 구덩이는 아직도 있습니다."
   },
   {
     id: "ai806",
@@ -6497,7 +6497,7 @@ export const news = [
   },
   {
     id: "ai808",
-    text: "The real reason no one has made a joke about why there is no 9th dimension is because the 9th dimension isn't even the most ridiculous of memes. It's the 9th dimension in a nutshell. (아무도 아홉 번째 차원이 없는 이유를 농담으로 삼지 않은 진짜 이유는, 아홉 번째 차원조차 가장 황당한 밈은 아니기 때문입니다. 한마디로 아홉 번째 차원이죠.)"
+    text: "아무도 9차원이 없는 이유를 농담으로 삼지 않은 진짜 이유는, 9차원조차 가장 황당한 밈은 아니기 때문입니다. 한마디로 9차원이죠."
   },
   {
     id: "ai809",
@@ -6533,7 +6533,7 @@ export const news = [
   },
   {
     id: "ai817",
-    text: "\"That's not how you're supposed to play the game\" - Mee6 (“그건 게임을 그렇게 하는 게 아니야.” - 해당 봇)"
+    text: "\"게임은 그렇게 하는 게 아니야.\" - Mee6"
   },
   {
     id: "ai818",
@@ -6541,7 +6541,7 @@ export const news = [
   },
   {
     id: "ai819",
-    text: "Hevi has the best newsticker! GIVE HIM THE CRUNCH (Hevi에게는 최고의 뉴스 티커가 있다! 그에게 크런치를 줘라!)"
+    text: "Hevi에게는 최고의 뉴스 티커가 있다! 그에게 크런치를 줘라!"
   },
   {
     id: "ai820",
@@ -6557,7 +6557,7 @@ export const news = [
   },
   {
     id: "ai823",
-    text: "There's only 4 types of people in this world: those who make games, those who make news, and those who make news again. (세상에는 네 부류의 사람만 있습니다. 게임을 만드는 사람, 뉴스를 만드는 사람, 그리고 또 뉴스를 만드는 사람입니다.)"
+    text: "세상에는 4가지 부류의 사람만 있습니다. 게임을 만드는 사람, 뉴스를 만드는 사람, 그리고 또 뉴스를 만드는 사람입니다."
   },
   {
     id: "ai824",
@@ -6593,11 +6593,11 @@ export const news = [
   },
   {
     id: "ai832",
-    text: "This is the third part of the two part series on the pros and cons of body positivity. (신체 긍정의 장단점을 다루는 두 편짜리 연재의 세 번째 편입니다.)"
+    text: "신체 긍정의 장단점을 다루는 2부작 연재의 세 번째 편입니다."
   },
   {
     id: "ai833",
-    text: "The phrases \"Hevi dies in the 9th Dimension\" and \"I'll never let you down\" are two of the most important phrases in the game. (“Hevi는 아홉 번째 차원에서 죽는다”와 “절대 널 실망시키지 않을게”는 게임에서 가장 중요한 두 문구입니다.)"
+    text: "\"Hevi는 9차원에서 죽는다\"와 \"절대 널 실망시키지 않을게\"는 게임에서 가장 중요한 두 문구입니다."
   },
   {
     id: "ai834",
@@ -6657,7 +6657,7 @@ export const news = [
   },
   {
     id: "ai848",
-    text: "If someone were to add the word \"infinity\" to the end of every sentence in the English version of the game, it would become \"Infinity Challenge: Infinity Edition\". (누군가 게임 영어판의 모든 문장 끝에 “infinity”를 붙이면 “Infinity Challenge: Infinity Edition”이 됩니다.)"
+    text: "누군가 게임 영어판의 모든 문장 끝에 \"무한\"을 붙이면 \"무한 도전: 무한 에디션\"이 됩니다."
   },
   {
     id: "ai849",
@@ -6681,7 +6681,7 @@ export const news = [
   },
   {
     id: "ai854",
-    text: "The official website for the upcoming game, Antimatter Dimensions 2: it's like antimatter dimensions, but with a dash of Discord and a dash of Adele. (출시 예정작 Antimatter Dimensions 후속편의 공식 웹사이트입니다. 반물질 차원에 Discord와 Adele을 조금씩 곁들인 것과 같습니다.)"
+    text: "출시 예정작 반물질 차원 2의 공식 웹사이트입니다. 반물질 차원에 Discord와 Adele을 조금씩 곁들인 것과 같습니다."
   },
   {
     id: "ai855",
@@ -6689,11 +6689,11 @@ export const news = [
   },
   {
     id: "ai856",
-    text: "The only 'right' way to play a game is to not play at all, right? That's what anti-jokes are all about. — Anti-joker (게임을 하는 유일하게 '옳은' 방법은 아예 하지 않는 거죠? 안티농담이란 바로 그런 겁니다. — Anti-joker)"
+    text: "게임을 하는 유일하게 '옳은' 방법은 아예 하지 않는 거죠? 안티 농담이란 바로 그런 겁니다. — 안티 조커"
   },
   {
     id: "ai857",
-    text: "The Bulletin of the Atomic Scientists has just announced the existence of a second class of particles, which are named after the characters from Ghostbusters. (원자과학자회보가 Ghostbusters 등장인물의 이름을 딴 두 번째 입자 부류의 존재를 방금 발표했습니다.)"
+    text: "《원자과학자회보》가 고스트버스터즈 등장인물의 이름을 딴 두 번째 입자 부류의 존재를 방금 발표했습니다."
   },
   {
     id: "ai858",
@@ -6705,7 +6705,7 @@ export const news = [
   },
   {
     id: "ai860",
-    text: "And then there was Jesus, and Hevi, and Hevi was with Him; and the sea gave up its monthly cycle, and it was a great gale. And Hevi and Jesus went up into heaven; and Hevi was filled with the Holy Spirit. And Hevi was clothed with angels, and was numbered with them. And Hevi was taken up into heaven, and glorified and was exalted, and was numbered with them, and was called Wonderful; and His angels rejoiced. (그 뒤 예수와 Hevi가 있었고 Hevi는 그분과 함께했습니다. 바다는 매달의 주기를 내놓았고 거센 돌풍이 일었습니다. Hevi와 예수는 하늘로 올라갔고 Hevi는 성령으로 충만해졌습니다. Hevi는 천사들을 옷처럼 두르고 그들과 함께 헤아려졌습니다. Hevi는 하늘로 들려 올라가 영광과 높임을 받고 그들과 함께 헤아려졌으며 경이로운 이라 불렸습니다. 그의 천사들은 기뻐했습니다.)"
+    text: "그 뒤 예수와 Hevi가 있었고, Hevi는 그분과 함께했습니다. 바다는 매달의 주기를 내놓았고 거센 돌풍이 일었습니다. Hevi와 예수는 하늘로 올라갔고, Hevi는 성령으로 충만해졌습니다. Hevi는 천사들을 옷처럼 두르고 그들과 함께 헤아려졌습니다. Hevi는 하늘로 들려 올라가 영광과 높임을 받고 그들과 함께 헤아려졌으며, 경이로운 이라 불렸습니다. 그의 천사들은 기뻐했습니다."
   },
   {
     id: "ai861",
@@ -6721,7 +6721,7 @@ export const news = [
   },
   {
     id: "ai864",
-    text: "If you're reading this, you probably shouldn't have. If you aren't, then you probably should. (이걸 읽고 있다면 아마 읽지 말았어야 합니다. 읽고 있지 않다면 아마 읽어야 할 겁니다.)"
+    text: "이걸 읽고 있다면 아마 읽지 말았어야 합니다. 읽고 있지 않다면 아마 읽어야 할 겁니다."
   },
   {
     id: "ai865",
@@ -6733,7 +6733,7 @@ export const news = [
   },
   {
     id: "ai867",
-    text: "In the beginning, there was nothing. Then the great Hevi made the game, and there was nothing to play with it. (태초에는 아무것도 없었습니다. 위대한 Hevi가 게임을 만들었지만, 그것을 가지고 놀 것은 아무것도 없었습니다.)"
+    text: "태초에는 아무것도 없었습니다. 그러자 위대한 Hevi가 게임을 만들었지만, 그것을 가지고 놀 것은 아무것도 없었습니다."
   },
   {
     id: "ai868",
@@ -6741,7 +6741,7 @@ export const news = [
   },
   {
     id: "ai869",
-    text: "\"We have 3 kinds of news: warnings, nudges and shade jokes. (우리에게는 세 종류의 뉴스가 있습니다. 경고, 슬쩍 찌르기, 그리고 은근히 까는 농담입니다.)"
+    text: "\"우리에게는 3종류의 뉴스가 있습니다. 경고, 슬쩍 찌르기, 그리고 은근히 까는 농담입니다."
   },
   {
     id: "ai870",
@@ -6769,7 +6769,7 @@ export const news = [
   },
   {
     id: "ai876",
-    text: "The catch? You have to be online for less than 5 hours to claim your reward. (문제가 하나 있습니다. 보상을 받으려면 온라인 접속 시간이 다섯 시간 미만이어야 합니다.)"
+    text: "문제가 하나 있습니다. 보상을 받으려면 온라인 접속 시간이 5시간 미만이어야 합니다."
   },
   {
     id: "ai877",
@@ -6798,11 +6798,11 @@ export const news = [
   },
   {
     id: "ai883",
-    text: "The God-Emperor himself, Hevi, the creator of balance, has a super secret achievement. It is to go flip your superflat apprenticed flatmate! (균형의 창조자이자 신황제인 Hevi에게는 극비 도전과제가 있습니다. 바로 초평면 견습생 룸메이트를 뒤집어 버리는 것입니다!)"
+    text: "균형의 창조자이자 신황제인 Hevi에게는 극비 도전 과제가 있습니다. 바로 초평면 견습생 룸메이트를 뒤집어 버리는 것입니다!"
   },
   {
     id: "ai884",
-    text: "Sonic was born without a heart... but that didn't stop him from being a genius (Sonic은 심장 없이 태어났지만... 그렇다고 천재가 되는 데 방해받지는 않았습니다.)"
+    text: "소닉은 심장 없이 태어났지만... 그렇다고 천재가 되는 데 방해받지는 않았습니다."
   },
   {
     id: "ai885",
@@ -6810,7 +6810,7 @@ export const news = [
   },
   {
     id: "ai886",
-    text: "You haven't unlocked the ninth dimension yet? Just hold M and DROP. (아직 아홉 번째 차원을 해금하지 못했나요? M을 누른 채 DROP 하세요.)"
+    text: "아직 9차원을 해금하지 못했나요? M을 누른 채로 떨어뜨리세요."
   },
   {
     id: "ai887",
@@ -6863,15 +6863,15 @@ export const news = [
   },
   {
     id: "ai899",
-    text: "This is the fifth part of a two-part series looking at how science and magic are linked. Part one will be published on 5 October, part two will be published on 24 October, and you can follow the journey at part three. (과학과 마법의 연관성을 살펴보는 두 편짜리 연재의 다섯 번째 편입니다. 첫 편은 10월 5일에, 둘째 편은 10월 24일에 공개되며 셋째 편에서 여정을 따라갈 수 있습니다.)"
+    text: "과학과 마법의 연관성을 살펴보는 2부작 연재의 다섯 번째 편입니다. 1부는 10월 5일에, 2부는 10월 24일에 공개되며 3부에서 그 여정을 따라갈 수 있습니다."
   },
   {
     id: "ai900",
-    text: "What is 5 hours? A giggle (다섯 시간이란 무엇일까요? 킥킥 웃음입니다.)"
+    text: "5시간이란 무엇일까요? 킥킥 웃음입니다."
   },
   {
     id: "ai901",
-    text: "A new beta test is now available for Antimatter Dimensions, coming in 5 hours. There are no refunds for this test, so please be patient as we try to finalise the test and get it ready for the public. The test will take place in -5 hours in the Antimatter Dimensions Discord. (Antimatter Dimensions의 새 베타 테스트가 공개되며 다섯 시간 뒤에 시작됩니다. 테스트는 Antimatter Dimensions Discord에서 마이너스 다섯 시간 뒤에 진행된다는 모순된 안내입니다.)"
+    text: "반물질 차원의 새 베타 테스트가 공개되며 5시간 뒤에 시작됩니다. 이 테스트는 환불되지 않으니, 테스트를 마무리해 대중에게 공개할 준비를 하는 동안 기다려 주세요. 테스트는 반물질 차원 Discord에서 -5시간 뒤에 진행됩니다."
   },
   {
     id: "ai902",
@@ -6931,7 +6931,7 @@ export const news = [
   },
   {
     id: "ai916",
-    text: "Someday, we shall come upon the day when a man will sit on the head of a dragon and call it a \"Dragonball\". Such a man would then go and perform the Dragon Ball Z: Battle Royale in which he would use Dragon Ball Z: Fusion to create a gigantic dragon that would then consume the universe in the process, thus creating a \"Big Bang\". Such a man would then be rewarded by being \"built again\" and sent back to the \"Heavens\". (언젠가 한 남자가 용의 머리에 앉아 그것을 드래곤볼이라 부르고, 배틀 로얄과 퓨전으로 거대한 용을 만들어 우주를 집어삼키게 해 빅뱅을 일으킨 뒤 다시 만들어져 천국으로 돌아간다는 Dragon Ball 제목·어휘 연쇄 농담입니다.)"
+    text: "언젠가 한 남자가 용의 머리에 앉아 그것을 \"드래곤볼\"이라 부르는 날이 올 겁니다. 그 남자는 드래곤볼 Z: 배틀 로얄을 벌이고, 그 안에서 드래곤볼 Z: 퓨전으로 거대한 용을 만들어 우주를 집어삼키게 함으로써 \"빅뱅\"을 일으킬 겁니다. 그러고는 \"다시 만들어지는\" 보상을 받고 \"천국\"으로 돌아가게 될 겁니다."
   },
   {
     id: "ai917",
@@ -6975,7 +6975,7 @@ export const news = [
   },
   {
     id: "ai927",
-    text: "You are using the wrong version! The reality update is already out! Press Ctrl+Shift+Alt+Del to unlock the 9th Dimension! (잘못된 버전을 사용하고 있습니다! 현실 업데이트는 이미 출시됐습니다! Ctrl+Shift+Alt+Del을 눌러 아홉 번째 차원을 해금하세요!)"
+    text: "잘못된 버전을 사용하고 있습니다! 현실 업데이트는 이미 출시됐습니다! Ctrl+Shift+Alt+Del을 눌러 9차원을 해금하세요!"
   },
   {
     id: "ai928",
@@ -6999,7 +6999,7 @@ export const news = [
   },
   {
     id: "ai933",
-    text: "Dedicated to the great and wonderful man behind the curtain, the great and wonderful name rick roll. RIP, good man. May you rest in peace. (장막 뒤의 위대하고 멋진 남자, 위대하고 멋진 이름 릭롤에게 바칩니다. 좋은 분이여, 편히 잠드소서.)"
+    text: "장막 뒤의 위대하고 멋진 남자, 위대하고 멋진 이름 릭롤에게 바칩니다. 편히 쉬소서, 좋은 분이여. 평안히 잠드시길."
   },
   {
     id: "ai934",
@@ -7015,15 +7015,15 @@ export const news = [
   },
   {
     id: "ai937",
-    text: "A man walks into a bar. The bartender tells him to stay the heck out. The man continues walking. (한 남자가 술집으로 걸어 들어갑니다. 바텐더는 당장 나가라고 말합니다. 남자는 계속 걸어갑니다.)"
+    text: "한 남자가 술집으로 걸어 들어갑니다. 바텐더는 당장 나가 있으라고 말합니다. 남자는 계속 걸어갑니다."
   },
   {
     id: "ai938",
-    text: "The oldest and maybe the most famous game in all of AD, that certainly will be remembered long after you retire, is AD. Ever heard of someone winning the game with more than 2 1's? I have. Ever heard of someone losing it? I have. Ever heard of a 9th dimension existing in AD? I have never. (AD 전체에서 가장 오래되고 아마 가장 유명하며, 여러분이 은퇴한 뒤에도 틀림없이 기억될 게임은 AD입니다. 일 두 개보다 많은 수로 게임을 이긴 사람을 들어 본 적 있나요? 저는 있습니다. 게임에서 진 사람은요? 역시 있습니다. AD에 아홉 번째 차원이 존재한다는 말은요? 그건 한 번도 없습니다.)"
+    text: "AD 전체에서 가장 오래되고 아마 가장 유명하며, 여러분이 은퇴한 뒤에도 틀림없이 기억될 게임은 AD입니다. 1이 2개보다 많은 수로 게임을 이긴 사람을 들어 본 적 있나요? 저는 있습니다. 게임에서 진 사람은요? 역시 있습니다. AD에 9차원이 존재한다는 말은요? 그건 한 번도 없습니다."
   },
   {
     id: "ai939",
-    text: "Greetings, I am the first step of the step ladder. (안녕하세요, 저는 발판 사다리의 첫 번째 발판입니다.)"
+    text: "안녕하세요, 저는 발판 사다리의 첫 번째 발판입니다."
   },
   {
     id: "ai940",
@@ -7063,7 +7063,7 @@ export const news = [
   },
   {
     id: "ai949",
-    text: "The term 'Antimatter Dimensions' is a play on words that literally means 'Antimatter Dimensions' in the dictionary. ('Antimatter Dimensions'라는 말은 사전에서도 글자 그대로 'Antimatter Dimensions'를 뜻한다는 말장난입니다.)"
+    text: "'반물질 차원'이라는 말은 사전에서 글자 그대로 '반물질 차원'을 뜻하는 말장난입니다."
   },
   {
     id: "ai950",
@@ -7107,11 +7107,11 @@ export const news = [
   },
   {
     id: "ai960",
-    text: "I'm surprised you didn't say \"Not my cup of anti-tea.\" (“내 취향이 아니다”라는 관용구의 tea를 anti-tea로 바꾼 말장난을 하지 않아서 놀랐습니다.)"
+    text: "\"내 안티 차 한 잔은 아니군.\"이라고 말하지 않아서 놀랐습니다."
   },
   {
     id: "ai961",
-    text: "I see you are a man of culture as well. I wonder what it is that draws you to speak in such an ungainly, tortured voice? What attracts you to speak in a language no one can understand? I hear your fans rave about your videos, but what draws you to this place? I feel like I know you. You are... you are a man of mystery. One that intrigues me... (당신도 교양 있는 사람이군요. 무엇이 당신을 그토록 어색하고 괴로운 목소리와 아무도 이해할 수 없는 언어로 말하게 하는지 궁금합니다. 팬들이 영상을 극찬한다고 들었지만 당신은 여전히 호기심을 자극하는 수수께끼 같은 사람입니다.)"
+    text: "당신도 교양 있는 사람이군요. 무엇이 당신을 그토록 어색하고 괴로운 목소리로 말하게 하는지 궁금합니다. 무엇이 아무도 이해할 수 없는 언어로 말하게 하나요? 팬들이 당신의 영상을 극찬한다고 들었는데, 무엇이 당신을 이곳으로 이끄나요? 당신을 아는 듯한 기분이 듭니다. 당신은... 수수께끼 같은 사람이군요. 내 호기심을 자극하는 사람..."
   },
   {
     id: "ai962",
@@ -7168,11 +7168,11 @@ export const news = [
   },
   {
     id: "ai975",
-    text: "What arbitrary, subjective, meaningless number comes out of your mouth like a mercury thermometer? 1.79 (수은 온도계처럼 입에서 튀어나오는 자의적이고 주관적이며 무의미한 숫자는 무엇일까요? 답은 일 점 칠구입니다.)"
+    text: "수은 온도계처럼 입에서 튀어나오는 자의적이고 주관적이며 무의미한 숫자는 무엇일까요? 1.79"
   },
   {
     id: "ai976",
-    text: "\"Word on the street is that the word \"bank\" is an anagram of \"bank\" - that makes sense but i'm not there yet\" - Slabdrill (“소문에 따르면 bank라는 단어는 bank의 애너그램이라는데, 말은 되지만 아직 이해하지 못했다” - Slabdrill. 단어의 글자를 전혀 바꾸지 않은 애너그램 농담입니다.)"
+    text: "\"소문에 따르면 'bank'라는 단어는 'bank'의 애너그램이라는데, 말은 되지만 아직 이해하지 못했어.\" - 슬랩드릴"
   },
   {
     id: "ai977",
@@ -7212,7 +7212,7 @@ export const news = [
   },
   {
     id: "ai986",
-    text: "If you ever feel like making an antijoke, just remember that it could be pretty good. (안티 조크를 만들고 싶다면 꽤 괜찮을 수도 있다는 사실만 기억하세요. 기대한 반전을 주지 않는 안티 조크입니다.)"
+    text: "안티 농담을 만들고 싶다면, 꽤 괜찮을 수도 있다는 사실만 기억하세요."
   },
   {
     id: "ai987",
@@ -7224,11 +7224,11 @@ export const news = [
   },
   {
     id: "ai989",
-    text: "The Force is with you. (포스가 함께하길.)"
+    text: "포스가 함께합니다."
   },
   {
     id: "ai990",
-    text: "What if Jesus was an anti-matter ghost? (예수가 반물질 유령이라면 어떨까요?)"
+    text: "예수가 반물질 유령이라면 어떨까요?"
   },
   {
     id: "ai991",
@@ -7240,7 +7240,7 @@ export const news = [
   },
   {
     id: "ai993",
-    text: "What if you wanted to but I told you it would be too painful for you. (당신은 원했지만, 제가 당신에게 너무 고통스러울 거라고 말했다면 어떨까요?)"
+    text: "당신은 그러고 싶었지만, 제가 당신에게 너무 고통스러울 거라고 말했다면 어떨까요?"
   },
   {
     id: "ai994",
@@ -7252,7 +7252,7 @@ export const news = [
   },
   {
     id: "ai996",
-    text: "Hevipelle has broken the 9th wall! Get ready for everything to get pretty dark. (Hevipelle가 아홉 번째 벽을 부쉈습니다! 모든 것이 상당히 어두워질 테니 준비하세요. '네 번째 벽'을 비튼 농담입니다.)"
+    text: "Hevipelle가 제9의 벽을 부쉈습니다! 모든 것이 상당히 어두워질 테니 준비하세요."
   },
   {
     id: "ai997",
