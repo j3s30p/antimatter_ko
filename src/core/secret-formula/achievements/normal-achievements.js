@@ -531,79 +531,79 @@ export const normalAchievements = [
   },
   {
     id: 81,
-    name: "Game Design Is My Passion",
-    get description() { return `Beat Infinity Challenge 5 in ${formatInt(15)} seconds or less.`; },
+    name: "게임 디자인은 내 열정",
+    get description() { return `무한 도전 5를 ${formatInt(15)}초 이내에 완료하세요.`; },
     checkRequirement: () => InfinityChallenge(5).isRunning && Time.thisInfinityRealTime.totalSeconds <= 15,
     checkEvent: GAME_EVENT.BIG_CRUNCH_BEFORE
   },
   {
     id: 82,
-    name: "Anti-antichallenged",
-    get description() { return `Complete all ${formatInt(8)} Infinity Challenges.`; },
+    name: "반(反)반물질 도전 완료",
+    get description() { return `무한 도전 ${formatInt(8)}개를 모두 완료하세요.`; },
     checkRequirement: () => InfinityChallenges.completed.length === 8,
     checkEvent: [GAME_EVENT.INFINITY_CHALLENGE_COMPLETED, GAME_EVENT.REALITY_RESET_AFTER],
   },
   {
     id: 83,
-    name: "YOU CAN GET 50 GALAXIES?!?!",
-    get description() { return `Get ${formatInt(50)} Antimatter Galaxies.`; },
+    name: "은하를 50개나 얻을 수 있다고?!?!",
+    get description() { return `반물질 은하 ${formatInt(50)}개를 획득하세요.`; },
     checkRequirement: () => player.galaxies >= 50,
     checkEvent: GAME_EVENT.GALAXY_RESET_AFTER,
-    get reward() { return `Tickspeed is just over ${formatPercents(0.05)} faster per Antimatter Galaxy.`; },
+    get reward() { return `반물질 은하 하나마다 틱 속도가 ${formatPercents(0.05)}보다 조금 더 빨라집니다.`; },
     effect: () => DC.D0_95.pow(player.galaxies),
     formatEffect: value => `${formatX(value.recip(), 2, 2)}`
   },
   {
     id: 84,
-    name: "I got a few to spare",
-    get description() { return `Reach ${formatPostBreak("1e35000")} antimatter.`; },
+    name: "조금 남아돌아",
+    get description() { return `반물질 ${formatPostBreak("1e35000")}개에 도달하세요.`; },
     checkRequirement: () => Currency.antimatter.exponent >= 35000,
     checkEvent: GAME_EVENT.GAME_TICK_AFTER,
-    reward: "Antimatter Dimensions are stronger the more unspent antimatter you have.",
+    reward: "사용하지 않은 반물질이 많을수록 반물질 차원이 강해집니다.",
     effect: () => Currency.antimatter.value.pow(0.00002).plus(1),
     formatEffect: value => `${formatX(value, 2, 2)}`
   },
   {
     id: 85,
-    name: "ALL YOUR IP ARE BELONG TO US",
-    get description() { return `Big Crunch for ${format(DC.E150)} Infinity Points.`; },
+    name: "너희 IP는 모두 우리의 것이다",
+    get description() { return `빅 크런치 한 번으로 무한 포인트 ${format(DC.E150)}를 획득하세요.`; },
     checkRequirement: () => gainedInfinityPoints().exponent >= 150,
     checkEvent: GAME_EVENT.BIG_CRUNCH_BEFORE,
-    get reward() { return `Additional ${formatX(4)} multiplier to Infinity Points.`; },
+    get reward() { return `무한 포인트에 추가로 ${formatX(4)} 배율을 적용합니다.`; },
     effect: 4
   },
   {
     id: 86,
-    name: "Do you even bend time bro?",
-    get description() { return `Reach ${formatX(1000)} faster per Tickspeed upgrade.`; },
+    name: "시간을 휘기나 하는 거야?",
+    get description() { return `틱 속도 강화 하나당 속도 증가량 ${formatX(1000)}에 도달하세요.`; },
     checkRequirement: () => Tickspeed.multiplier.recip().gte(1000),
     checkEvent: GAME_EVENT.GAME_TICK_AFTER,
-    get reward() { return `All Galaxies are ${formatPercents(0.01)} stronger.`; },
+    get reward() { return `모든 은하가 ${formatPercents(0.01)} 강해집니다.`; },
     effect: 1.01
   },
   {
     id: 87,
-    name: "2 MILLION INFINITIES",
-    get description() { return `Infinity ${format(DC.D2E6)} times.`; },
+    name: "무한 200만 번",
+    get description() { return `무한을 ${format(DC.D2E6)}번 달성하세요.`; },
     checkRequirement: () => Currency.infinities.gt(DC.D2E6),
     checkEvent: GAME_EVENT.GAME_TICK_AFTER,
     get reward() {
-      return `Infinities more than ${formatInt(5)} seconds long
-      give ${formatX(250)} more Infinities.`;
+      return `${formatInt(5)}초보다 오래 걸린 무한에서
+      무한 횟수를 ${formatX(250)} 더 얻습니다.`;
     },
     effect: 250,
     effectCondition: () => Time.thisInfinity.totalSeconds > 5
   },
   {
     id: 88,
-    name: "Yet another infinity reference",
+    name: "또 하나의 무한 레퍼런스",
     get description() {
-      return `Get a ${formatX(Decimal.NUMBER_MAX_VALUE, 1, 0)} multiplier in a single Dimensional Sacrifice.`;
+      return `차원 희생 한 번으로 ${formatX(Decimal.NUMBER_MAX_VALUE, 1, 0)} 배율을 획득하세요.`;
     },
     checkRequirement: () => Sacrifice.nextBoost.gte(Decimal.NUMBER_MAX_VALUE),
     checkEvent: GAME_EVENT.SACRIFICE_RESET_BEFORE,
     get reward() {
-      return `Dimensional Sacrifice is stronger.
+      return `차원 희생이 강해집니다.
       ${Sacrifice.getSacrificeDescription({ "Achievement32": true, "Achievement57": true, "Achievement88": false })} ➜
       ${Sacrifice.getSacrificeDescription({ "Achievement32": true, "Achievement57": true, "Achievement88": true })}`;
     },
@@ -611,15 +611,14 @@ export const normalAchievements = [
   },
   {
     id: 91,
-    name: "Ludicrous Speed",
+    name: "터무니없는 속도",
     get description() {
-      return `Big Crunch for ${format(DC.E200)} Infinity Points in ${formatInt(2)} seconds or less.`;
+      return `${formatInt(2)}초 이내에 빅 크런치 한 번으로 무한 포인트 ${format(DC.E200)}를 획득하세요.`;
     },
     checkRequirement: () => gainedInfinityPoints().exponent >= 200 && Time.thisInfinityRealTime.totalSeconds <= 2,
     checkEvent: GAME_EVENT.BIG_CRUNCH_BEFORE,
     get reward() {
-      return `All Antimatter Dimensions are significantly stronger in the
-      first ${formatInt(5)} seconds of Infinities.`;
+      return `각 무한의 첫 ${formatInt(5)}초 동안 모든 반물질 차원이 크게 강해집니다.`;
     },
     effect: () => Math.max((5 - Time.thisInfinity.totalSeconds) * 60, 1),
     effectCondition: () => Time.thisInfinity.totalSeconds < 5,
@@ -627,15 +626,14 @@ export const normalAchievements = [
   },
   {
     id: 92,
-    name: "I brake for NOBODY!",
+    name: "난 누구 앞에서도 멈추지 않아!",
     get description() {
-      return `Big Crunch for ${format(DC.E250)} Infinity Points in ${formatInt(20)} seconds or less.`;
+      return `${formatInt(20)}초 이내에 빅 크런치 한 번으로 무한 포인트 ${format(DC.E250)}를 획득하세요.`;
     },
     checkRequirement: () => gainedInfinityPoints().exponent >= 250 && Time.thisInfinityRealTime.totalSeconds <= 20,
     checkEvent: GAME_EVENT.BIG_CRUNCH_BEFORE,
     get reward() {
-      return `All Antimatter Dimensions are significantly stronger in the
-      first ${formatInt(60)} seconds of Infinities.`;
+      return `각 무한의 첫 ${formatInt(60)}초 동안 모든 반물질 차원이 크게 강해집니다.`;
     },
     effect: () => Math.max((1 - Time.thisInfinity.totalMinutes) * 100, 1),
     effectCondition: () => Time.thisInfinity.totalMinutes < 1,
@@ -643,27 +641,27 @@ export const normalAchievements = [
   },
   {
     id: 93,
-    name: "MAXIMUM OVERDRIVE",
-    get description() { return `Big Crunch for ${format(DC.E300)} Infinity Points.`; },
+    name: "최대 출력",
+    get description() { return `빅 크런치 한 번으로 무한 포인트 ${format(DC.E300)}를 획득하세요.`; },
     checkRequirement: () => gainedInfinityPoints().exponent >= 300,
     checkEvent: GAME_EVENT.BIG_CRUNCH_BEFORE,
-    get reward() { return `Additional ${formatX(4)} multiplier to Infinity Points.`; },
+    get reward() { return `무한 포인트에 추가로 ${formatX(4)} 배율을 적용합니다.`; },
     effect: 4
   },
   {
     id: 94,
-    name: "4.3333 minutes of Infinity",
-    get description() { return `Reach ${format(DC.E260)} Infinity Power.`; },
+    name: "무한의 4.3333분",
+    get description() { return `무한 동력 ${format(DC.E260)}에 도달하세요.`; },
     checkRequirement: () => Currency.infinityPower.exponent >= 260,
     checkEvent: GAME_EVENT.GAME_TICK_AFTER,
-    reward: "Double Infinity Power gain.",
+    reward: "무한 동력 획득량이 두 배가 됩니다.",
     effect: 2
   },
   {
     id: 95,
-    name: "Is this safe?",
-    get description() { return `Gain ${format(Decimal.NUMBER_MAX_VALUE, 1, 0)} Replicanti in ${formatInt(1)} hour.`; },
-    get reward() { return `You keep your Replicanti and ${formatInt(1)} Replicanti Galaxy on Infinity.`; },
+    name: "이거 안전한 거 맞아?",
+    get description() { return `${formatInt(1)}시간 안에 복제자 ${format(Decimal.NUMBER_MAX_VALUE, 1, 0)}개를 획득하세요.`; },
+    get reward() { return `무한 후에도 복제자와 복제자 은하 ${formatInt(1)}개를 유지합니다.`; },
     checkRequirement: () =>
       (Replicanti.amount.eq(Decimal.NUMBER_MAX_VALUE) || player.replicanti.galaxies > 0) &&
       Time.thisInfinityRealTime.totalHours <= 1,
@@ -671,96 +669,96 @@ export const normalAchievements = [
   },
   {
     id: 96,
-    name: "Time is relative",
-    description: "Go Eternal.",
+    name: "시간은 상대적이다",
+    description: "영원에 도달하세요.",
     checkRequirement: () => true,
     checkEvent: GAME_EVENT.ETERNITY_RESET_BEFORE
   },
   {
     id: 97,
-    name: "Like jumping on a lego",
-    get description() { return `Get the sum of Infinity Challenge times under ${format(6.66, 2, 2)} seconds.`; },
+    name: "레고를 밟은 것처럼",
+    get description() { return `모든 무한 도전 기록의 합계를 ${format(6.66, 2, 2)}초 미만으로 만드세요.`; },
     checkRequirement: () => Time.infinityChallengeSum.totalSeconds < 6.66,
     checkEvent: [GAME_EVENT.BIG_CRUNCH_AFTER, GAME_EVENT.REALITY_RESET_AFTER],
   },
   {
     id: 98,
-    name: "0 degrees from Infinity",
-    description: "Unlock the 8th Infinity Dimension.",
+    name: "무한에서 0도",
+    description: "제8 무한 차원을 해금하세요.",
     checkRequirement: () => InfinityDimension(8).isUnlocked,
     checkEvent: GAME_EVENT.GAME_TICK_AFTER
   },
   {
     id: 101,
-    name: "8 nobody got time for that",
-    description: "Eternity without buying Antimatter Dimensions 1-7.",
+    name: "1~7차원을 살 시간 따윈 없어",
+    description: "제1~7 반물질 차원을 구매하지 않고 영원에 도달하세요.",
     checkRequirement: () => player.requirementChecks.eternity.onlyAD8,
     checkEvent: GAME_EVENT.ETERNITY_RESET_BEFORE
   },
   {
     id: 102,
-    name: "This mile took an eternity",
-    description: "Get all Eternity milestones.",
+    name: "이 이정표엔 영원이 걸렸어",
+    description: "모든 영원 이정표를 획득하세요.",
     checkRequirement: () => EternityMilestone.all.every(m => m.isReached),
     checkEvent: GAME_EVENT.GAME_TICK_AFTER
   },
   {
     id: 103,
-    name: "Tätä saavutusta ei ole olemassa II",
-    get description() { return `Reach ${formatPostBreak(DC.D9_99999E999, 5, 0)} Infinity Points.`; },
+    name: "이 도전 과제는 존재하지 않습니다 II",
+    get description() { return `무한 포인트 ${formatPostBreak(DC.D9_99999E999, 5, 0)}에 도달하세요.`; },
     checkRequirement: () => Currency.infinityPoints.exponent >= 1000,
     checkEvent: GAME_EVENT.GAME_TICK_AFTER,
     get reward() {
-      return `Make the Infinity Point formula better. log(x)/${formatInt(308)} ➜ log(x)/${formatFloat(307.8, 1)}`;
+      return `무한 포인트 공식을 개선합니다. log(x)/${formatInt(308)} ➜ log(x)/${formatFloat(307.8, 1)}`;
     },
     effect: 307.8
   },
   {
     id: 104,
-    name: "That wasn't an eternity",
-    get description() { return `Eternity in under ${formatInt(30)} seconds.`; },
+    name: "그건 영원이라 하기엔 짧았어",
+    get description() { return `${formatInt(30)}초 이내에 영원에 도달하세요.`; },
     checkRequirement: () => Time.thisEternity.totalSeconds <= 30,
     checkEvent: GAME_EVENT.ETERNITY_RESET_BEFORE,
-    get reward() { return `Start Eternities with ${format(5e25)} Infinity Points.`; },
+    get reward() { return `영원을 무한 포인트 ${format(5e25)}와 함께 시작합니다.`; },
     effect: 5e25
   },
   {
     id: 105,
-    name: "Infinite Time",
-    get description() { return `Have ${formatInt(308)} Tickspeed upgrades from Time Dimensions.`; },
+    name: "무한한 시간",
+    get description() { return `시간 차원으로 틱 속도 강화 ${formatInt(308)}개를 획득하세요.`; },
     checkRequirement: () => player.totalTickGained >= 308,
     checkEvent: GAME_EVENT.GAME_TICK_AFTER,
-    reward: "Time Dimensions gain a multiplier based on tickspeed.",
+    reward: "틱 속도에 따라 시간 차원에 배율을 적용합니다.",
     effect: () => Tickspeed.perSecond.pow(0.000005),
     formatEffect: value => `${formatX(value, 2, 2)}`
   },
   {
     id: 106,
-    name: "The swarm",
-    get description() { return `Get ${formatInt(10)} Replicanti Galaxies in ${formatInt(15)} seconds.`; },
+    name: "군집",
+    get description() { return `${formatInt(15)}초 안에 복제자 은하 ${formatInt(10)}개를 획득하세요.`; },
     checkRequirement: () => Replicanti.galaxies.total >= 10 && Time.thisInfinity.totalSeconds <= 15,
     checkEvent: GAME_EVENT.REPLICANTI_TICK_AFTER
   },
   {
     id: 107,
-    name: "Do you really need a guide for this?",
-    get description() { return `Eternity with less than ${formatInt(10)} Infinities.`; },
+    name: "정말 공략이 필요한 거야?",
+    get description() { return `무한 횟수 ${formatInt(10)}회 미만으로 영원에 도달하세요.`; },
     checkRequirement: () => Currency.infinities.lt(10),
     checkEvent: GAME_EVENT.ETERNITY_RESET_BEFORE
   },
   {
     id: 108,
-    name: "We COULD afford 9",
-    get description() { return `Eternity with exactly ${formatInt(9)} Replicanti.`; },
+    name: "9개쯤은 살 수 있었는데",
+    get description() { return `복제자를 정확히 ${formatInt(9)}개 보유한 채 영원에 도달하세요.`; },
     checkRequirement: () => Replicanti.amount.round().eq(9),
     checkEvent: GAME_EVENT.ETERNITY_RESET_BEFORE
   },
   {
     id: 111,
-    name: "Yo dawg, I heard you liked infinities...",
+    name: "이봐, 무한을 좋아한다고 들었는데…",
     get description() {
-      return `Have all your Infinities in your past ${formatInt(10)} Infinities be at least
-      ${format(Decimal.NUMBER_MAX_VALUE, 1, 0)} times higher Infinity Points than the previous one.`;
+      return `최근 무한 ${formatInt(10)}회에서 매번 직전보다 최소
+      ${format(Decimal.NUMBER_MAX_VALUE, 1, 0)}배 많은 무한 포인트를 획득하세요.`;
     },
     checkRequirement: () => {
       if (player.records.recentInfinities.some(i => i[0] === Number.MAX_VALUE)) return false;
@@ -771,103 +769,103 @@ export const normalAchievements = [
       return true;
     },
     checkEvent: GAME_EVENT.BIG_CRUNCH_AFTER,
-    reward: "Your antimatter doesn't reset on Dimension Boosts or Antimatter Galaxies."
+    reward: "차원 부스트나 반물질 은하를 구매해도 반물질이 초기화되지 않습니다."
   },
   {
     id: 112,
-    name: "Never again",
-    get description() { return `Get the sum of Infinity Challenge times below ${formatInt(750)}ms.`; },
+    name: "다시는 안 해",
+    get description() { return `모든 무한 도전 기록의 합계를 ${formatInt(750)}ms 미만으로 만드세요.`; },
     checkRequirement: () => Time.infinityChallengeSum.totalMilliseconds < 750,
     checkEvent: [GAME_EVENT.BIG_CRUNCH_AFTER, GAME_EVENT.REALITY_RESET_AFTER]
   },
   {
     id: 113,
-    name: "Eternities are the new infinity",
-    get description() { return `Eternity in under ${formatInt(250)}ms.`; },
+    name: "이제 영원이 새로운 무한",
+    get description() { return `${formatInt(250)}ms 이내에 영원에 도달하세요.`; },
     checkRequirement: () => Time.thisEternity.totalMilliseconds <= 250,
     checkEvent: GAME_EVENT.ETERNITY_RESET_BEFORE,
-    get reward() { return `Gain ${formatX(2)} more Eternities.`; },
+    get reward() { return `영원 횟수를 ${formatX(2)} 더 얻습니다.`; },
     effect: 2,
   },
   {
     id: 114,
-    name: "You're a mistake",
-    description: "Fail an Eternity Challenge.",
+    name: "넌 실수야",
+    description: "영원 도전에 실패하세요.",
     checkRequirement: () => true,
     checkEvent: GAME_EVENT.CHALLENGE_FAILED,
-    reward: "A fading sense of accomplishment.",
-    effect: () => "Sense of accomplishment (fading)"
+    reward: "희미해지는 성취감.",
+    effect: () => "성취감 (희미해지는 중)"
   },
   {
     id: 115,
-    name: "I wish I had gotten 7 eternities",
-    description: "Start an Infinity Challenge inside an Eternity Challenge.",
+    name: "영원을 7번 했더라면",
+    description: "영원 도전 안에서 무한 도전을 시작하세요.",
     checkEvent: GAME_EVENT.ACHIEVEMENT_EVENT_OTHER,
   },
   {
     id: 116,
-    name: "Do I really need to infinity",
-    get description() { return `Eternity with only ${formatInt(1)} Infinity.`; },
+    name: "정말 무한을 해야 하나",
+    get description() { return `무한을 단 ${formatInt(1)}번만 달성하고 영원에 도달하세요.`; },
     checkRequirement: () => Currency.infinities.lte(1),
     checkEvent: GAME_EVENT.ETERNITY_RESET_BEFORE,
-    reward: "Multiplier to Infinity Points based on Infinities.",
+    reward: "무한 횟수에 따라 무한 포인트에 배율을 적용합니다.",
     effect: () => Decimal.pow(Currency.infinitiesTotal.value.clampMin(1), LOG10_2 / 4).powEffectOf(TimeStudy(31)),
     cap: () => Effarig.eternityCap,
     formatEffect: value => {
       // Since TS31 is already accounted for in the effect prop, we need to "undo" it to display the base value here
       const mult = formatX(value, 2, 2);
       return TimeStudy(31).canBeApplied
-        ? `${formatX(value.pow(1 / TimeStudy(31).effectValue), 2, 1)} (After TS31: ${mult})`
+        ? `${formatX(value.pow(1 / TimeStudy(31).effectValue), 2, 1)} (시간 연구 31 적용 후: ${mult})`
         : mult;
     }
   },
   {
     id: 117,
-    name: "Costco sells Dimboosts now!",
-    get description() { return `Bulk buy ${formatInt(750)} Dimension Boosts at once.`; },
+    name: "이젠 코스트코에서 차원 부스트도 팔아!",
+    get description() { return `차원 부스트 ${formatInt(750)}개를 한 번에 구매하세요.`; },
     checkRequirement: ([bulk]) => bulk >= 750,
     checkEvent: GAME_EVENT.DIMBOOST_AFTER,
     get reward() {
-      return `The multiplier from Dimension Boosts to Antimatter Dimensions is ${formatPercents(0.01)} higher.`;
+      return `차원 부스트가 반물질 차원에 주는 배율이 ${formatPercents(0.01)} 높아집니다.`;
     },
     effect: 1.01
   },
   {
     id: 118,
-    name: "IT'S OVER 9000",
-    get description() { return `Get a total Dimensional Sacrifice multiplier of ${formatPostBreak(DC.E9000)}.`; },
+    name: "9000을 넘었어",
+    get description() { return `총 차원 희생 배율 ${formatPostBreak(DC.E9000)}에 도달하세요.`; },
     checkRequirement: () => Sacrifice.totalBoost.exponent >= 9000,
     checkEvent: GAME_EVENT.SACRIFICE_RESET_AFTER,
-    reward: `Dimensional Sacrifice doesn't reset your Antimatter Dimensions
-      and the Autobuyer activates every tick if turned on.`,
+    reward: `차원 희생 시 반물질 차원이 초기화되지 않으며,
+      희생 자동 구매기를 켜면 매 틱 작동합니다.`,
   },
   {
     id: 121,
-    name: "Can you get infinite IP?",
-    get description() { return `Reach ${formatPostBreak("1e30008")} Infinity Points.`; },
+    name: "무한한 IP를 얻을 수 있을까?",
+    get description() { return `무한 포인트 ${formatPostBreak("1e30008")}에 도달하세요.`; },
     checkRequirement: () => Currency.infinityPoints.exponent >= 30008,
     checkEvent: GAME_EVENT.GAME_TICK_AFTER
   },
   {
     id: 122,
-    name: "You're already dead.",
-    description: "Eternity without buying Antimatter Dimensions 2-8.",
+    name: "넌 이미 죽어 있다.",
+    description: "제2~8 반물질 차원을 구매하지 않고 영원에 도달하세요.",
     checkRequirement: () => player.requirementChecks.eternity.onlyAD1,
     checkEvent: GAME_EVENT.ETERNITY_RESET_BEFORE
   },
   {
     id: 123,
-    name: "5 more eternities until the update",
-    get description() { return `Complete ${formatInt(50)} unique Eternity Challenge tiers.`; },
+    name: "업데이트까지 영원 5번 더",
+    get description() { return `서로 다른 영원 도전 단계 ${formatInt(50)}개를 완료하세요.`; },
     checkRequirement: () => EternityChallenges.completions >= 50,
     checkEvent: GAME_EVENT.ETERNITY_RESET_AFTER
   },
   {
     id: 124,
-    name: "Long lasting relationship",
+    name: "오래가는 관계",
     get description() {
-      return `Have your Infinity Power per second exceed your Infinity Power
-      for ${formatInt(60)} consecutive seconds during a single Infinity.`;
+      return `한 번의 무한에서 초당 무한 동력이 현재 무한 동력보다 높은 상태를
+      ${formatInt(60)}초 연속 유지하세요.`;
     },
     checkRequirement: () => AchievementTimers.marathon2
       .check(
@@ -879,15 +877,15 @@ export const normalAchievements = [
   },
   {
     id: 125,
-    name: "Like feasting on a behind",
+    name: "뒷고기를 실컷 먹은 것처럼",
     get description() {
-      return `Reach ${format(DC.E90)} Infinity Points without having any Infinities
-      or any 1st Antimatter Dimensions in your current Eternity.`;
+      return `이번 영원에서 무한 횟수와 제1 반물질 차원이 하나도 없는 상태로
+      무한 포인트 ${format(DC.E90)}에 도달하세요.`;
     },
     checkRequirement: () => Currency.infinityPoints.exponent >= 90 &&
       player.requirementChecks.eternity.noAD1 && Currency.infinities.eq(0),
     checkEvent: GAME_EVENT.GAME_TICK_AFTER,
-    reward: "Infinity Point multiplier based on time spent this Infinity.",
+    reward: "이번 무한에서 보낸 시간에 따라 무한 포인트에 배율을 적용합니다.",
     effect() {
       const thisInfinity = Time.thisInfinity.totalSeconds * 10 + 1;
       return DC.D2.pow(Math.log(thisInfinity) * Math.min(Math.pow(thisInfinity, 0.11), 500));
@@ -897,41 +895,41 @@ export const normalAchievements = [
   },
   {
     id: 126,
-    name: "Popular music",
-    get description() { return `Have ${formatInt(180)} times more Replicanti Galaxies than Antimatter Galaxies.`; },
+    name: "대중음악",
+    get description() { return `복제자 은하를 반물질 은하보다 ${formatInt(180)}배 많이 보유하세요.`; },
     checkRequirement: () => Replicanti.galaxies.total >= 180 * player.galaxies && player.galaxies > 0,
     checkEvent: GAME_EVENT.GAME_TICK_AFTER,
     get reward() {
-      return `Replicanti Galaxies divide your Replicanti by ${format(Decimal.NUMBER_MAX_VALUE, 1, 0)}
-      instead of resetting them to ${formatInt(1)}.`;
+      return `복제자 은하를 구매할 때 복제자가 ${formatInt(1)}개로 초기화되는 대신
+      ${format(Decimal.NUMBER_MAX_VALUE, 1, 0)}로 나뉩니다.`;
     },
   },
   {
     id: 127,
-    name: "But I wanted another prestige layer...",
-    get description() { return `Reach ${format(Decimal.NUMBER_MAX_VALUE, 1, 0)} Eternity Points.`; },
+    name: "난 또 다른 프레스티지 단계를 원했는데…",
+    get description() { return `영원 포인트 ${format(Decimal.NUMBER_MAX_VALUE, 1, 0)}에 도달하세요.`; },
     checkRequirement: () => Currency.eternityPoints.gte(Decimal.NUMBER_MAX_VALUE),
     checkEvent: GAME_EVENT.GAME_TICK_AFTER
   },
   {
     id: 128,
-    name: "What do I have to do to get rid of you",
-    get description() { return `Reach ${formatPostBreak("1e22000")} Infinity Points without any Time Studies.`; },
+    name: "널 없애려면 뭘 해야 하는 거야",
+    get description() { return `시간 연구 없이 무한 포인트 ${formatPostBreak("1e22000")}에 도달하세요.`; },
     checkRequirement: () => Currency.infinityPoints.exponent >= 22000 && player.timestudy.studies.length === 0,
     checkEvent: GAME_EVENT.GAME_TICK_AFTER,
-    reward: "Time Dimensions are multiplied by the number of Time Studies you have.",
+    reward: "보유한 시간 연구 수만큼 시간 차원에 배율을 적용합니다.",
     effect: () => Math.max(player.timestudy.studies.length, 1),
     formatEffect: value => `${formatX(value)}`
   },
   {
     id: 131,
-    name: "No ethical consumption",
-    get description() { return `Get ${format(DC.D2E9)} Banked Infinities.`; },
+    name: "윤리적인 소비란 없다",
+    get description() { return `저축된 무한 ${format(DC.D2E9)}회를 획득하세요.`; },
     checkRequirement: () => Currency.infinitiesBanked.gt(DC.D2E9),
     checkEvent: [GAME_EVENT.ETERNITY_RESET_AFTER, GAME_EVENT.SAVE_CONVERTED_FROM_PREVIOUS_VERSION],
     get reward() {
-      return `You gain ${formatX(2)} times more Infinities and
-      after Eternity you permanently keep ${formatPercents(0.05)} of your Infinities as Banked Infinities.`;
+      return `무한 횟수를 ${formatX(2)} 더 얻고, 영원 후 무한 횟수의
+      ${formatPercents(0.05)}를 저축된 무한으로 영구 보존합니다.`;
     },
     effects: {
       infinitiesGain: 2,
@@ -941,81 +939,81 @@ export const normalAchievements = [
   },
   {
     id: 132,
-    name: "Unique snowflakes",
+    name: "특별한 눈송이들",
     get description() {
-      return `Have ${formatInt(569)} Antimatter Galaxies without gaining any
-        Replicanti Galaxies in your current Eternity.`;
+      return `이번 영원에서 복제자 은하를 하나도 얻지 않고
+        반물질 은하 ${formatInt(569)}개를 보유하세요.`;
     },
     checkRequirement: () => player.galaxies >= 569 && player.requirementChecks.eternity.noRG,
     checkEvent: GAME_EVENT.GALAXY_RESET_AFTER,
-    reward: "Gain a multiplier to Tachyon Particle and Dilated Time gain based on Antimatter Galaxies.",
+    reward: "반물질 은하에 따라 타키온 입자와 팽창한 시간 획득량에 배율을 적용합니다.",
     effect: () => 1.22 * Math.max(Math.pow(player.galaxies, 0.04), 1),
     formatEffect: value => `${formatX(value, 2, 2)}`
   },
   {
     id: 133,
-    name: "I never liked this infinity stuff anyway",
+    name: "어차피 이 무한이란 건 마음에 안 들었어",
     get description() {
-      return `Reach ${formatPostBreak(DC.E200000)} Infinity Points without
-      buying any Infinity Dimensions or the ${formatX(2)} Infinity Point multiplier.`;
+      return `무한 차원이나 무한 포인트 ${formatX(2)} 강화를 구매하지 않고
+      무한 포인트 ${formatPostBreak(DC.E200000)}에 도달하세요.`;
     },
     checkRequirement: () =>
       Array.dimensionTiers.map(InfinityDimension).every(dim => dim.baseAmount === 0) &&
       player.IPMultPurchases === 0 &&
       Currency.infinityPoints.exponent >= 200000,
     checkEvent: GAME_EVENT.GAME_TICK_AFTER,
-    reward: "You start Eternities with all Infinity Challenges unlocked and completed."
+    reward: "모든 무한 도전이 해금 및 완료된 상태로 영원을 시작합니다."
   },
   {
     id: 134,
-    name: "When will it be enough?",
-    get description() { return `Reach ${formatPostBreak(DC.E18000)} Replicanti.`; },
+    name: "언제쯤이면 충분할까?",
+    get description() { return `복제자 ${formatPostBreak(DC.E18000)}개에 도달하세요.`; },
     checkRequirement: () => Replicanti.amount.exponent >= 18000,
     checkEvent: GAME_EVENT.GAME_TICK_AFTER,
     get reward() {
-      return `You gain Replicanti ${formatInt(2)} times faster under ${format(replicantiCap(), 1)} Replicanti.`;
+      return `복제자가 ${format(replicantiCap(), 1)}개 미만일 때 ${formatInt(2)}배 빠르게 증가합니다.`;
     }
   },
   {
     id: 135,
-    name: "Faster than a potato^286078",
-    get description() { return `Get more than ${formatPostBreak("1e8296262")} ticks per second.`; },
+    name: "감자^286078보다 빠르게",
+    get description() { return `초당 틱 수를 ${formatPostBreak("1e8296262")}보다 높이세요.`; },
     checkRequirement: () => Tickspeed.current.exponent <= -8296262,
     checkEvent: GAME_EVENT.GAME_TICK_AFTER
   },
   {
     id: 136,
-    name: "I told you already, time is relative",
-    description: "Dilate time.",
+    name: "말했잖아, 시간은 상대적이라고",
+    description: "시간을 팽창시키세요.",
     checkEvent: GAME_EVENT.ACHIEVEMENT_EVENT_OTHER,
   },
   {
     id: 137,
-    name: "Now you're thinking with dilation!",
+    name: "이제 팽창으로 생각하는군!",
     get description() {
-      return `Get ${formatPostBreak("1e260000")} antimatter
-      in ${formatInt(1)} minute or less while Dilated.`;
+      return `시간이 팽창한 상태에서 ${formatInt(1)}분 이내에
+      반물질 ${formatPostBreak("1e260000")}개를 획득하세요.`;
     },
     checkRequirement: () =>
       Currency.antimatter.exponent >= 260000 &&
       Time.thisEternity.totalMinutes <= 1 &&
       player.dilation.active,
     checkEvent: GAME_EVENT.GAME_TICK_AFTER,
-    get reward() { return `Gain ${formatX(2)} Dilated Time and Time Theorems while Dilated.`; },
+    get reward() { return `시간 팽창 중 팽창한 시간과 시간 정리를 ${formatX(2)} 더 얻습니다.`; },
     effect: () => (player.dilation.active ? 2 : 1),
   },
   {
     id: 138,
-    name: "This is what I have to do to get rid of you.",
+    name: "널 없애려면 이걸 해야 하는군.",
     get description() {
-      return `Reach ${formatPostBreak("1e26000")} Infinity Points without any Time Studies while Dilated.`;
+      return `시간이 팽창한 상태에서 시간 연구 없이 무한 포인트 ${formatPostBreak("1e26000")}에 도달하세요.`;
     },
     checkRequirement: () =>
       player.timestudy.studies.length === 0 &&
       player.dilation.active &&
       Currency.infinityPoints.exponent >= 26000,
     checkEvent: GAME_EVENT.GAME_TICK_AFTER,
-    reward: "Removes the downsides from Time Study 131 and 133 in the Active and Idle Time Study paths."
+    reward: "활성 및 방치 시간 연구 경로의 시간 연구 131과 133에서 불리한 효과를 제거합니다."
   },
   {
     id: 141,

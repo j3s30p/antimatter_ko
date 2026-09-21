@@ -11,7 +11,7 @@ Status values: `not started`, `in progress`, `translated`, `QA complete`.
 | Early Classic UI | translated | Layout QA remains |
 | Options and common modals | in progress | Gameplay, visual, saving, hotkeys, confirmation, animation, news, info display, notation, visible-tabs, and backup UI translated; unlocked late-game option dialogs remain |
 | Statistics and records | not started | |
-| Achievements | in progress | Main screen chrome and rows 1-6 translated; later rows and secret achievement data remain |
+| Achievements | in progress | Main screen chrome, rows 1-13, and all secret achievement data translated; rows 14-18 remain |
 | Challenges | not started | |
 | Infinity systems | translated | Build and residue scan complete; full unlocked-state layout QA remains |
 | Eternity systems | in progress | Core systems and Time Study interface translated; individual Time Study data remains |
@@ -20,7 +20,7 @@ Status values: `not started`, `in progress`, `translated`, `QA complete`.
 | Automator UI and documentation | not started | Commands remain English |
 | Celestials and story dialogue | not started | |
 | Help and catch-up documentation | in progress | All initially unlocked H2P articles and initial catch-up content translated; later progression articles and catch-up entries remain |
-| News ticker | in progress | Always-visible messages a1-a58 translated; a59 onward and conditional news remain |
+| News ticker | in progress | General messages a1-a140 translated except long-form a112/a113; a378 translated; later and conditional news remain |
 | Changelog | not started | Final content batch |
 | Release installer and restoration | not started | Must validate Steam version/hash |
 | Clean-install release QA | not started | Includes update/restore test |
@@ -38,7 +38,8 @@ Update this file whenever a translation batch is committed. An area becomes `QA 
 ## Current tester-requested batch
 
 - Automation tab: shared controls and all standard autobuyer panels translated, including locked and late-game variants.
-- Achievements: normal/secret achievement screen chrome translated; normal achievement rows 1-6 translated.
+- Achievements: normal/secret achievement screen chrome, normal rows 1-13, and all secret achievement data translated.
+- News ticker: general messages a59-a140 translated except long-form a112/a113; safe runtime package installed and verified.
 - Runtime recovery: a white-screen package was isolated and the original ASAR restored. The failure was caused by
   extracting a renamed backup without a correspondingly renamed `.unpacked` sidecar; no save data was deleted.
 - Save safety: a read-only recovery copy of the Electron user-data directory was created before further runtime work.

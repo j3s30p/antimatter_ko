@@ -267,143 +267,143 @@ export const news = [
   },
   {
     id: "a59",
-    text: `"I thought that I fixed that bug but apparently some update broke it again." -Hevipelle`
+    text: `"그 버그를 고친 줄 알았는데, 아무래도 어떤 업데이트가 또 망가뜨린 모양이야." -Hevipelle`
   },
   {
     id: "a60",
-    text: `"Maybe I'm gay then" -Bootato`
+    text: `"그럼 난 게이인가 보네." -Bootato`
   },
   {
     id: "a61",
-    text: "Breaking news! Hevipelle has just announced that the buy max button is in fact going to be removed!"
+    text: "속보! Hevipelle가 최대 구매 버튼을 정말로 삭제할 예정이라고 방금 발표했습니다!"
   },
   {
     id: "a62",
-    text: "I dedicate this game to my girlfriend."
+    text: "이 게임을 내 여자친구에게 바칩니다."
   },
   {
     id: "a63",
     text:
-      `Antimatter guns don't kill antimatter people, antimatter people kill antimatter people but does that mean
-      that antimatter toaster doesn't toast antimatter toasts, antimatter toast toasts antimatter toasts?`
+      `반물질 총이 반물질 사람을 죽이는 게 아니라 반물질 사람이 반물질 사람을 죽인다. 그렇다면
+      반물질 토스터가 반물질 토스트를 굽는 게 아니라 반물질 토스트가 반물질 토스트를 굽는 걸까?`
   },
   {
     id: "a64",
-    text: "But to an antimatter person, wouldn't they be matter and us antimatter?"
+    text: "하지만 반물질 사람 입장에서는 자신들이 물질이고 우리가 반물질 아닐까?"
   },
   {
     id: "a65",
-    text: "And nothing antimatters."
+    text: "그리고 아무것도 반물질하지 않는다."
   },
   {
     id: "a66",
     text:
-      `School starting up strikes fear in students universe-wide, as schools are no longer segregated between
-      matter and antimatter. Annihilation is prominent.`
+      `학교 개학이 우주 전역의 학생들에게 공포를 안깁니다. 학교가 더 이상 물질과 반물질을
+      분리하지 않기 때문입니다. 소멸 사고가 빈번합니다.`
   },
   {
     id: "a67",
-    text: "Why does no one talk about the 0th dimension?"
+    text: "왜 아무도 제0 차원에 대해서는 말하지 않지?"
   },
   {
     id: "a68",
-    text: "The fatter catter satter on the antimatter."
+    text: "더 뚱뚱한 고양이가 반물질 위에 앉았다."
   },
   {
     id: "a69",
-    text: "Who let the DOgs out?"
+    text: "누가 개들을 풀어놨어?"
   },
   {
     id: "a70",
-    text: "If you can't read this, you disabled the news."
+    text: "이 문장을 읽을 수 없다면 뉴스를 꺼 둔 것입니다."
   },
   {
     id: "a71",
-    text: "Doesn't leave, just mutes the server so he doesn't receive notifications."
+    text: "나가는 게 아니라 알림을 받지 않도록 서버를 음소거할 뿐입니다."
   },
   {
     id: "a72",
-    text: `"Most quotes found online are falsely attributed." -Abraham Lincoln`
+    text: `"인터넷에서 발견되는 인용문의 대부분은 출처가 잘못됐다." -에이브러햄 링컨`
   },
   {
     id: "a73",
-    text: `"It should work now, but it doesn't." -Hevipelle`
+    text: `"이제 작동해야 하는데, 안 되네." -Hevipelle`
   },
   {
     id: "a74",
-    text: "This game doesn't have any errors... they're alternative successes."
+    text: "이 게임에는 오류가 없습니다… 대안적인 성공만 있을 뿐입니다."
   },
   {
     id: "a75",
     text:
-      `A third type of matter has been discovered: null matter. It doesn't do anything and is basically
-      useless. The scientists who discovered it were fired.`
+      `세 번째 종류의 물질인 널 물질이 발견됐습니다. 아무 일도 하지 않아 사실상 쓸모가 없습니다.
+      이를 발견한 과학자들은 해고됐습니다.`
   },
   {
     id: "a76",
-    text: "Your Mother-in-Law keeps nagging you about all these antimatter colliders."
+    text: "장모님이 이 반물질 충돌기들을 두고 계속 잔소리합니다."
   },
   {
     id: "a77",
-    text: "If matter exists, then does antimatter not exist?"
+    text: "물질이 존재한다면 반물질은 존재하지 않는 걸까?"
   },
   {
     id: "a78",
-    text: "Antimatter=Life. Not cobblestone, not dirt, nothing like that. Antimatter."
+    text: "반물질=생명. 조약돌도, 흙도, 그런 것도 아니다. 반물질이다."
   },
   {
     id: "a79",
-    text: "Breaking News: Error Error Error"
+    text: "속보: 오류 오류 오류"
   },
   {
     id: "a80",
-    text: "How much antiwood could an antiwoodchuck chuck if an antiwoodchuck could chuck antiwood?"
+    text: "반물질 우드척이 반물질 나무를 던질 수 있다면 얼마나 던질 수 있을까?"
   },
   {
     id: "a81",
-    text: "Chaos isnt a pit, chaos is a matter."
+    text: "혼돈은 구덩이가 아니라 물질이다."
   },
   {
     id: "a82",
-    text: `"That's because I'm a good game developer and pushed some code that totally works." -Hevipelle`
+    text: `"내가 훌륭한 게임 개발자라서 완벽히 작동하는 코드를 올렸기 때문이지." -Hevipelle`
   },
   {
     id: "a83",
-    text: "What's the matter with anti matter?"
+    text: "반물질에 무슨 문제라도 있어?"
   },
   {
     id: "a84",
-    text: "Doesn't it annoy you when people don't finish their"
+    text: "사람들이 말을 끝까지 하지 않으면 짜증 나지 않"
   },
   {
     id: "a85",
-    text: "Don't anti-quote me on this."
+    text: "이 말은 반인용하지 마세요."
   },
   {
     id: "a86",
-    text: "Antimatter is honest, matter makes up everything."
+    text: "반물질은 정직합니다. 물질은 모든 것을 지어내니까요."
   },
   {
     id: "a87",
     text:
-      `According to no known laws of aviation, there are multiple ways a bee
-      should be able to be swallowed up by antimatter.`
+      `알려진 어떤 항공 법칙에 따르지 않더라도, 벌이 반물질에 삼켜질 방법은
+      여러 가지가 있습니다.`
   },
   {
     id: "a88",
-    text: "You either die as matter or live long enough to be consumed by the antimatter, and then die again."
+    text: "물질로 죽거나, 반물질에 삼켜질 만큼 오래 살아남은 뒤 다시 죽게 됩니다."
   },
   {
     id: "a89",
-    text: "If you gaze long enough into the antimatter, the antimatter gazes back into you."
+    text: "반물질을 오래 들여다보면 반물질도 당신을 들여다봅니다."
   },
   {
     id: "a90",
-    text: `"Always gonna give you up. Always gonna let you down." - anti-Rick Astley`
+    text: `"언제나 널 포기할 거야. 언제나 널 실망시킬 거야." -반(反) 릭 애슬리`
   },
   {
     id: "a91",
-    text: "Antimatter Dimensions: the next update is always 5 hours away. Always."
+    text: "반물질 차원: 다음 업데이트는 언제나 5시간 뒤입니다. 언제나."
   },
   {
     id: "a92",
@@ -422,7 +422,7 @@ export const news = [
           link: "https://trimps.github.io/"
         },
         {
-          name: "Mine Defense (the game's ui is broken on https so make sure you're on http!)",
+          name: "Mine Defense (https에서는 UI가 깨지므로 반드시 http로 접속하세요!)",
           link: "http://scholtek.com/minedefense"
         },
         {
@@ -446,7 +446,7 @@ export const news = [
           link: "https://sneekxy.nmtechgroup.com/monies2/"
         },
         {
-          name: "The First Alkahistorian stages 1, 2, and 3",
+          name: "The First Alkahistorian 1, 2, 3단계",
           link: "https://nagshell.github.io/elemental-inception-incremental/"
         },
         {
@@ -455,104 +455,103 @@ export const news = [
         }
       ];
       const game = games.randomElement();
-      return `An unidentified developer of Antimatter Dimensions would like to
-        recommend that you play <a href="${game.link}" target="_blank">${game.name}</a>`;
+      return `신원이 밝혀지지 않은 반물질 차원 개발자가
+        <a href="${game.link}" target="_blank">${game.name}</a> 플레이를 추천합니다.`;
     },
   },
   {
     id: "a93",
     text:
-      `On a scale of 1 to 10, I rate this game a solid
+      `1점부터 10점까지 평가한다면 이 게임에는 확실하게
       <span style='color: red'>java.lang.IndexOutOfBoundsException</span>`
   },
   {
     id: "a94",
-    text: "To matter or to antimatter, that is the question."
+    text: "물질할 것인가, 반물질할 것인가, 그것이 문제로다."
   },
   {
     id: "a95",
-    text: "Why is everything so Hevi?"
+    text: "왜 모든 게 이렇게 Hevi한 거야?"
   },
   {
     id: "a96",
     text:
-      `It has been scientifically proven ages ago, that cats made of matter are assholes. We have good news,
-      because cats made of antimatter are still assholes.`
+      `물질로 이루어진 고양이는 못된 녀석이라는 사실이 아주 오래전에 과학적으로 증명됐습니다.
+      좋은 소식은 반물질로 이루어진 고양이도 여전히 못된 녀석이라는 것입니다.`
   },
   {
     id: "a97",
-    text: "Nobody once told me the anti-world wasn't gonna roll me."
+    text: "누군가 내게 반세계가 날 덮치지 않을 거라고 말한 적은 없었지."
   },
   {
     id: "a98",
-    text: "Antimatter is like the internet. If you're reading this, you can't have enough of it."
+    text: "반물질은 인터넷과 같습니다. 이 글을 읽고 있다면 아무리 많아도 충분하지 않습니다."
   },
   {
     id: "a99",
     text:
-      `"Antimatter has made time travel possible and I'm here to make the
-      past great again." - 2nd President of the World`
+      `"반물질 덕분에 시간 여행이 가능해졌고, 나는 과거를 다시 위대하게 만들러 왔다."
+      -세계 제2대 대통령`
   },
   {
     id: "a100",
-    text: "Please insert Disc -1 to continue playing Antimatter Dimensions™."
+    text: "반물질 차원™을 계속 플레이하려면 디스크 -1을 넣어 주세요."
   },
   {
     id: "a101",
-    text: "Lore - coming soon™"
+    text: "세계관 - 곧 공개™"
   },
   {
     id: "a102",
-    text: "I was a part of antimatter like you once. But then I got matter in my knee."
+    text: "나도 한때는 너처럼 반물질의 일부였지. 그러다 무릎에 물질을 맞았어."
   },
   {
     id: "a103",
     text:
-      `Antimatter... antimatter never changes... until you get to quantum physics of antimatter,
-      but we don't have enough tachyon particles for that.`,
+      `반물질… 반물질은 절대 변하지 않는다… 반물질 양자 물리학에 도달하기 전까지는.
+      하지만 그러기엔 타키온 입자가 부족하다.`,
     get unlocked() { return PlayerProgress.realityUnlocked() || PlayerProgress.dilationUnlocked(); }
   },
   {
     id: "a104",
-    text: "There is no war in Antimatter Dimensions. Here we are safe. Here we are free."
+    text: "반물질 차원에는 전쟁이 없습니다. 이곳에서 우리는 안전합니다. 이곳에서 우리는 자유롭습니다."
   },
   {
     id: "a105",
-    text: "Antimatter has solved global warming. In unrelated news, the Earth no longer exists."
+    text: "반물질이 지구 온난화를 해결했습니다. 관련 없는 소식으로, 지구는 더 이상 존재하지 않습니다."
   },
   {
     id: "a106",
     text:
-      `Anti-water, anti-Earth, anti-fire, anti-air. Long ago, the four anti-nations lived together in harmony.
-      Then, everything changed when the anti-Fire Nation attacked. Only the anti-Avatar, the master of all 4
-      anti-elements could bring balance to the anti-world, but when the world needed him most, he accidentally
-      touched some regular matter and exploded.`
+      `반물, 반땅, 반불, 반공기. 오래전 네 반국가는 조화를 이루며 살았습니다.
+      그러다 반불의 제국이 공격하면서 모든 것이 달라졌습니다. 네 가지 반원소를 통달한 반아바타만이
+      반세계의 균형을 되찾을 수 있었지만, 세상이 그를 가장 필요로 할 때 실수로 평범한 물질에 닿아 폭발했습니다.`
   },
   {
     id: "a107",
-    text: "If you open an anti-lootbox, are you selling random possessions for in-game currency?"
+    text: "반전리품 상자를 열면 무작위 소지품을 게임 화폐와 바꾸는 걸까?"
   },
   {
     id: "a108",
-    text: "People are beginning to question Hevipelle's existence."
+    text: "사람들이 Hevipelle의 존재를 의심하기 시작했습니다."
   },
   {
     id: "a109",
     text:
-      `Antimatter Dimensions is proud to be sponsored by Lehmä! Now offering - grass eating lessons! Learn what
-      grass is safe to eat and what grass isn't.`,
+      `반물질 차원은 Lehmä의 후원을 자랑스럽게 생각합니다! 지금 풀 먹기 강좌를 제공합니다!
+      어떤 풀이 먹어도 안전하고 어떤 풀은 아닌지 배워 보세요.`,
     isAdvertising: true
   },
   {
     id: "a110",
     text:
-      `It is the year 2422. The update still isn't out. Hevi is working on balancing unfunity dimension dimensions
-      and challenges for the 38th layer of prestige. There are over 100 rows of achievements. They're getting
-      ready to start using breaking_breaking_breaking_infinity.js.`
+      `때는 2422년. 업데이트는 아직 나오지 않았습니다. Hevi는 38번째 프레스티지 단계의 재미없는 무한 차원 차원과
+      도전 밸런스를 조정하고 있습니다. 도전 과제는 100줄을 넘었습니다. 이제
+      breaking_breaking_breaking_infinity.js를 사용할 준비를 하고 있습니다.`
   },
   {
     id: "a111",
-    text: "Import \"Christmas\" for a secret theme."
+    text: "비밀 테마를 사용하려면 \"Christmas\"를 가져오세요."
   },
   {
     id: "a112",
@@ -606,72 +605,72 @@ export const news = [
   {
     id: "a114",
     text:
-      `(Make me sleep) Put me to sleep inside. (I can't sleep) Put me to sleep inside. (Leave me) Whisper my name
-      and give me to the dark. (Make me sleep) Bid my milk to stay. (I can't fall asleep) Before I become done.
-      (Leave me) Leave me to the nothing I've become.`
+      `(날 재워 줘) 내 안을 잠재워 줘. (잠들 수 없어) 내 안을 잠재워 줘. (날 떠나) 내 이름을 속삭이고
+      어둠에 넘겨 줘. (날 재워 줘) 내 우유가 머물게 해 줘. (잠들 수 없어) 내가 끝나 버리기 전에.
+      (날 떠나) 아무것도 아닌 존재가 된 나를 내버려 둬.`
   },
   {
     id: "a115",
     text:
-      `A preview of the next update - loot boxes! Feel a sense of pride and progression as you open cosmic,
-      galactic, and universal lootboxes for chances at rare skins, unique challenges with uniquer rewards,
-      time skips and even new dimensions!`
+      `다음 업데이트 미리 보기 - 전리품 상자! 우주, 은하, 전우주 전리품 상자를 열어 희귀 스킨,
+      더욱 독특한 보상의 특별 도전, 시간 건너뛰기, 심지어 새로운 차원까지 노리며
+      자부심과 성장의 감각을 느껴 보세요!`
   },
   {
     id: "a116",
-    text: "The intent of dimensions is to give a sense of pride and accomplishment."
+    text: "차원의 의도는 자부심과 성취감을 주는 것입니다."
   },
   {
     id: "a117",
-    text: "Refreshing cures cancer."
+    text: "새로고침은 암을 치료합니다."
   },
   {
     id: "a118",
-    text: "I have a 9th, I have a dimension... UHH... IT DOESN'T EXIST!"
+    text: "나에겐 9가 있고, 차원이 있고… 으아… 존재하지 않아!"
   },
   {
     id: "a119",
     text:
-      `Since when did we start reporting stuff like this? Half of it isn't even proper news, it's just jokes and
-      meta-references, it doesn't even make sens-HAHAHA DISREGARD THAT I SUCK CO-`
+      `언제부터 이런 걸 보도하기 시작한 거죠? 절반은 제대로 된 뉴스도 아니고 농담과 메타 레퍼런스뿐이라
+      말도 안 되잖-하하하 방금 말은 무시하세요 저는 형편없-`
   },
   {
     id: "a120",
-    text: "The year is 1944, Hevipelle can't release updates for AD because he doesn't exist."
+    text: "때는 1944년, Hevipelle는 존재하지 않기 때문에 반물질 차원 업데이트를 낼 수 없습니다."
   },
   {
     id: "a121",
-    text: `"THAT DIMENSION DOESN'T EXIST" -GhostBot`
+    text: `"그 차원은 존재하지 않아" -GhostBot`
   },
   {
     id: "a122",
     text:
-      `Most things you know as nuts are actually Drupe seeds or Legumes. Hevipelle on the other hand is quite crazy
-      and can thus be considered a dry uncompartmented fruit.`
+      `여러분이 견과류라고 아는 것 대부분은 사실 핵과의 씨앗이나 콩과 식물입니다. 반면 Hevipelle는 상당히
+      미쳤으므로 건조 비분열과로 볼 수 있습니다.`
   },
   {
     id: "a123",
-    text: "Finland declares that it's starting to import Design."
+    text: "핀란드가 디자인 수입을 시작한다고 발표했습니다."
   },
   {
     id: "a124",
-    text: "All this importing is making me Confused."
+    text: "이렇게 계속 가져오니 혼란스럽군요."
   },
   {
     id: "a125",
     text:
-      `Only today you can call 1-800-ANTIMATTER and get a FREE Infinity Dimension! The package also comes with a
-      COMPLETELY FREE SHIPPING and a FREE HIGH DEFINITION ANTI-V!!! Only today for the low price of 42! Estimated
-      delivery time - 5 hours.`,
+      `오늘 단 하루, 1-800-ANTIMATTER로 전화하면 무한 차원을 무료로 드립니다! 이 상품에는
+      완전 무료 배송과 무료 고화질 ANTI-V까지 포함됩니다!!! 오늘만 단돈 42! 예상 배송 시간은
+      5시간입니다.`,
     isAdvertising: true
   },
   {
     id: "a126",
-    text: "1e420 blaze it."
+    text: "1e420, 불태워라."
   },
   {
     id: "a127",
-    text: "This game doesn't have any bugs, you're just doing it wrong."
+    text: "이 게임에는 버그가 없습니다. 여러분이 잘못하고 있을 뿐입니다."
   },
   {
     id: "a128",
@@ -687,7 +686,7 @@ export const news = [
   },
   {
     id: "a130",
-    text: "Click this to unlock that one secret achievement.",
+    text: "이것을 클릭하면 그 비밀 도전 과제가 해금됩니다.",
     // This next line is needed for this news ticker to unlock
     // the secret achievement.
     onClick: () => undefined
@@ -695,65 +694,61 @@ export const news = [
   {
     id: "a131",
     text:
-      `Warning - We have just been informed that there is a chance of infection with a mind-virus of the Basilisk
-      type, similar to the infamous winking parrot. This particular example is known as 'Fractal Disease Type III'.
-      This is believed to cause a 'crashing' of the mind, similar to a computer crash, due to the mathematical
-      complexity of the image causing mathematical ideas that the mind can't comprehend, a Gondelian shock input
-      eventually leading to crashing through Gondelian spoilers. All who have researched it have eventually died
-      the same way, so it is impossible to tell exactly, but this is the common belief. Regardless, with the
-      introduction of 'design' mode, as well as reports of it's spontaneous appearance, sufficient repetition
-      of this mode's appearance may lead to an image forming in the mind similar to 'Fractal Disease Type III'.
-      With this in mind, we have some suggestions if you find yourself plagued with it. First, refresh immediately
-      and see if that fixes the issue. If not, navigate to options, and change the theme from design to literally
-      anything else. And above all else, Godspeed. We can't afford to lose anymore viewers.`
+      `경고 - 악명 높은 윙크하는 앵무새와 비슷한 바실리스크 계열 정신 바이러스에 감염될 가능성이 있다는
+      정보를 방금 입수했습니다. 이 사례는 '프랙탈 질병 III형'으로 알려져 있습니다. 이미지의 수학적 복잡성이
+      정신이 이해할 수 없는 수학적 관념을 일으키고, 괴델적 충격 입력과 괴델적 스포일러를 거쳐 컴퓨터처럼
+      정신을 '충돌'시킨다고 여겨집니다. 이를 연구한 사람은 모두 결국 같은 방식으로 사망했기에 정확한 원인은
+      알 수 없지만 이것이 일반적인 견해입니다. '디자인' 모드 도입과 함께 이 모드가 저절로 나타난다는 보고가
+      있으며, 충분히 반복해서 보면 '프랙탈 질병 III형'과 비슷한 이미지가 정신에 형성될 수 있습니다.
+      이 증상에 시달린다면 먼저 즉시 새로고침해 문제가 해결되는지 확인하세요. 해결되지 않으면 설정으로 가서
+      디자인 테마를 말 그대로 아무 다른 테마로 바꾸세요. 무엇보다 행운을 빕니다. 더는 시청자를 잃을 수 없습니다.`
   },
   {
     id: "a132",
-    text: "If I have bad English, I'll study English until I have good English."
+    text: "내 영어가 서툴다면, 영어가 능숙해질 때까지 공부하겠습니다."
   },
   {
     id: "a133",
     text:
-      `Someone once told me that antimatter is gonna roll me. I ain't the sharpest atom in the shed. WELL, the
-      tubes start coming and they don't stop coming...`
+      `누군가 반물질이 날 덮칠 거라고 말했지. 난 창고에서 가장 날카로운 원자는 아니었어. 그래, 튜브가
+      밀려오기 시작하면 멈추지 않아…`
   },
   {
     id: "a134",
-    text: "Because of this game I can now use the word \"infinity\" as a verb.",
+    text: "이 게임 덕분에 이제 \"무한\"을 동사로 쓸 수 있습니다.",
     get unlocked() { return PlayerProgress.infinityUnlocked(); }
   },
   {
     id: "a135",
-    text: "Ahhh I love the smell of particle annihilation in the morning."
+    text: "아아, 아침의 입자 소멸 냄새가 정말 좋군."
   },
   {
     id: "a136",
-    text: "The person who said ghosts don't exist obviously doesn't have a Discord."
+    text: "유령은 존재하지 않는다고 말한 사람은 분명 Discord를 안 쓰나 봅니다."
   },
   {
     id: "a137",
-    text: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAntimatter Dimensions was made by some dude from Finland"
+    text: "바아아아아아아아아아아아아아아아아아아아아아아아안물질 차원은 핀란드의 어떤 사람이 만들었습니다"
   },
   {
     id: "a138",
     get text() {
-      return `Check out Avari's newly built actually infinite infinity pool! With an area of
-        ${format(Number.MAX_VALUE, 2)} square megametres, you'll be sure to have infinite fun!`;
+      return `Avari가 새로 지은 진짜 무한한 인피니티 풀을 확인하세요! 면적이
+        ${format(Number.MAX_VALUE, 2)}제곱 메가미터라 무한한 재미가 보장됩니다!`;
     },
     isAdvertising: true
   },
   {
     id: "a139",
-    text: "We have updated our Antimatter Privacy Policy."
+    text: "반물질 개인정보 처리방침을 업데이트했습니다."
   },
   {
     id: "a140",
     text:
-      `Attention all Antimatter Dimensions Gamers, Hevipelle is in great danger, and he needs YOUR help to wipe out
-      all the bad memes in #news-ticker-suggestions. To do this, he needs a dozen new dank memes and a couple of
-      discord bots. To help him, all he needs is your Antimatter card number, the three numbers on the back, and
-      the expiration month and date. But you gotta be quick so that Hevipelle can secure the good memes, and
-      achieve the epic meme R O Y A L.`,
+      `반물질 차원 게이머 여러분, Hevipelle가 큰 위험에 빠졌으며 #news-ticker-suggestions의 나쁜 밈을
+      없애려면 여러분의 도움이 필요합니다. 새롭고 끝내주는 밈 열두 개와 Discord 봇 몇 개가 필요합니다.
+      도우려면 반물질 카드 번호와 뒷면의 숫자 세 자리, 만료 월과 연도를 보내 주세요. 서둘러야 Hevipelle가
+      좋은 밈을 확보하고 장대한 밈 로열에 도달할 수 있습니다.`,
     isAdvertising: true
   },
   {
