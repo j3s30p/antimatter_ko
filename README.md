@@ -3,7 +3,7 @@
 Steam판 **Antimatter Dimensions** 비공식 한국어 패치입니다.
 
 - 대상 게임 버전: Steam 11.5
-- 패치 버전: 0.9.0-rc.2
+- 패치 버전: 0.9.0-rc.3
 - 한글 글꼴: Galmuri9 Regular
 - 클래식 UI와 모던 UI 지원
 - 기존 저장 데이터와 호환
@@ -12,7 +12,7 @@ Steam판 **Antimatter Dimensions** 비공식 한국어 패치입니다.
 
 아래 파일 하나만 받으면 됩니다.
 
-**[AntimatterDimensions_KoreanPatch_0.9.0-rc.2.zip 다운로드](./AntimatterDimensions_KoreanPatch_0.9.0-rc.2.zip)**
+**[AntimatterDimensions_KoreanPatch_0.9.0-rc.3.zip 다운로드](./AntimatterDimensions_KoreanPatch_0.9.0-rc.3.zip)**
 
 > GitHub의 초록색 `Code` 버튼 대신 위 링크의 ZIP을 받으세요.
 
@@ -45,5 +45,5 @@ Steam 업데이트나 무결성 검사를 실행하면 한국어 패치가 제�
 배포 파일 SHA-256:
 
 ```text
-40F5A89DFD6617A787D1631E8C0DF5BCADF7DEF764F7518B1B4C3E354429A26D  resources/app.asar
+6F3751DF6292DCB3E689D606902EE69503707E392481E3B892626559AA487CEB  resources/app.asar
 ```
