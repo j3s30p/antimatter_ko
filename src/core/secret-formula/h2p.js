@@ -263,7 +263,8 @@ ${formatInt(10)}개를 가지고 있으며, 이를 사용해 제1 반물질 차�
 <br>
 <br>
 <b>단축키: 1~8</b>은 해당 차원을 ${formatInt(10)}개 단위로 구매합니다. Shift를 누른 채 차원을 구매하면
-${formatInt(10)}개 대신 ${formatInt(1)}개만 구매하며, <b>M</b>은 모두 최대로 구매합니다.
+${formatInt(10)}개 대신 ${formatInt(1)}개만 구매하며,
+<b>${player.options.maxAllHotkey === "space" ? "Space" : "M"}</b>는 모두 최대로 구매합니다.
 `,
       isUnlocked: () => true,
       tags: ["dims", "normal", "antimatter", "ad"],
@@ -287,7 +288,7 @@ ${formatInt(10)}개 대신 ${formatInt(1)}개만 구매하며, <b>M</b>은 모�
 <br>
 <br>
 <b>단축키: T</b>는 틱스피드 업그레이드를 최대한 구매하고, <b>Shift+T</b>는 하나만 구매합니다.
-<b>M</b>은 모두 최대로 구매합니다.
+<b>${player.options.maxAllHotkey === "space" ? "Space" : "M"}</b>는 모두 최대로 구매합니다.
 `,
       isUnlocked: () => Tickspeed.isUnlocked,
       tags: ["dimension", "earlygame", "time"],

@@ -140,6 +140,11 @@ Update this file whenever a translation batch is committed. An area becomes `QA 
   code fragments, CSS `infinite`, and the intentional upside-down text effect remain unchanged. Focused ESLint,
   abbreviation auditing, the Steam build, exact repacked-bundle hash comparison, and the 304-file Greenworks check
   passed for `1.0.0-rc.4`.
+- Max-all convenience option: added a single saved `M`/`Space` toggle to the hotkey list instead of a general keybinding
+  system. The selected key drives the repeatable max-all action and stays synchronized across the hotkey modal, classic
+  and modern Antimatter Dimension buttons, H2P text, and the related NEWS prompt. Existing saves default to `M` through
+  the standard player-option merge. Focused ESLint, the Steam build, exact repacked-bundle comparison, and the 304-file
+  Greenworks check passed for the local `1.0.0-rc.5` test build.
 
 ## Steam packaging note
 

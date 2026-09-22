@@ -12,7 +12,8 @@ export default {
       visible: [],
       timeStudyUnlocked: false,
       glyphSacUnlocked: false,
-      isElectron: false
+      isElectron: false,
+      maxAllHotkey: "M"
     };
   },
   computed: {
@@ -37,7 +38,8 @@ export default {
       return shortcuts.map(x => x.name);
     },
     shortcutKeys() {
-      return shortcuts.map(x => x.keys.map(key => this.format(key)));
+      return shortcuts.map(x => (x.name === "모두 최대로" ? [this.maxAllHotkey] : x.keys)
+        .map(key => this.format(key)));
     }
   },
   created() {
@@ -58,6 +60,7 @@ export default {
       const progress = PlayerProgress.current;
       this.timeStudyUnlocked = progress.isEternityUnlocked;
       this.glyphSacUnlocked = RealityUpgrade(19).isBought;
+      this.maxAllHotkey = (player.options.maxAllHotkey ?? "m").toUpperCase();
 
       // ElectronRuntime is a global which only exists on Steam (throws a ReferenceError on web)
       try {
@@ -73,6 +76,11 @@ export default {
         default:
           return x.toUpperCase();
       }
+    },
+    toggleMaxAllHotkey() {
+      const nextKey = (player.options.maxAllHotkey ?? "m") === "m" ? "space" : "m";
+      player.options.maxAllHotkey = nextKey;
+      this.maxAllHotkey = nextKey.toUpperCase();
     }
   },
 };
@@ -112,6 +120,17 @@ export default {
         </div>
       </div>
       <div class="l-modal-hotkeys__column l-modal-hotkeys__column--right">
+        <div class="l-modal-hotkeys-row">
+          <span class="c-modal-hotkeys-row__name l-modal-hotkeys-row__name">모두 최대 구매 단축키</span>
+          <kbd>{{ maxAllHotkey }}</kbd>
+        </div>
+        <button
+          class="o-primary-btn c-modal-hotkeys__max-all-toggle"
+          @click="toggleMaxAllHotkey"
+        >
+          {{ maxAllHotkey === "M" ? "Space로 변경" : "M으로 변경" }}
+        </button>
+        <br>
         <div class="l-modal-hotkeys-row">
           <span class="c-modal-hotkeys-row__name l-modal-hotkeys-row__name">보조 키</span>
           <kbd>SHIFT</kbd>
@@ -213,5 +232,12 @@ export default {
 .c-modal-hotkeys__shift-description {
   text-align: left;
   font-size: 1rem;
+}
+
+.c-modal-hotkeys__max-all-toggle {
+  align-self: flex-start;
+  min-width: 12rem;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem 1rem;
 }
 </style>

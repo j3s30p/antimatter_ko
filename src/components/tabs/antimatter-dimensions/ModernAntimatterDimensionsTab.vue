@@ -31,6 +31,7 @@ export default {
       isContinuumActive: false,
       multiplierText: "",
       isFullyAutomated: false,
+      maxAllHotkey: "M",
     };
   },
   computed: {
@@ -73,6 +74,7 @@ export default {
       return this.buyUntil10 ? "10개까지" : "1개 구매";
     },
     update() {
+      this.maxAllHotkey = (player.options.maxAllHotkey ?? "m").toUpperCase();
       this.hasDimensionBoosts = player.dimensionBoosts > 0;
       this.buyUntil10 = player.buyUntil10;
       this.hasContinuum = Laitela.continuumUnlocked;
@@ -126,7 +128,7 @@ export default {
         class="o-primary-btn l-button-container"
         @click="maxAll"
       >
-        모두 최대 구매 (M)
+        모두 최대 구매 ({{ maxAllHotkey }})
       </button>
     </div>
     <span>{{ multiplierText }}</span>

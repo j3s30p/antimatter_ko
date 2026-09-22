@@ -13,6 +13,7 @@ export default {
       currentSacrifice: new Decimal(0),
       sacrificeBoost: new Decimal(0),
       disabledCondition: "",
+      maxAllHotkey: "M",
     };
   },
   computed: {
@@ -22,6 +23,7 @@ export default {
   },
   methods: {
     update() {
+      this.maxAllHotkey = (player.options.maxAllHotkey ?? "m").toUpperCase();
       const isSacrificeUnlocked = Sacrifice.isVisible;
       this.isSacrificeUnlocked = isSacrificeUnlocked;
       if (!isSacrificeUnlocked) return;
@@ -60,7 +62,7 @@ export default {
       class="o-primary-btn--buy-max"
       @click="maxAll"
     >
-      모두 최대 구매 (M)
+      모두 최대 구매 ({{ maxAllHotkey }})
     </PrimaryButton>
   </div>
 </template>

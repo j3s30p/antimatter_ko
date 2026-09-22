@@ -48,7 +48,7 @@ export const shortcuts = [
     name: "모두 최대로",
     keys: ["m"],
     type: "bindRepeatableHotkey",
-    function: () => maxAll(),
+    function: () => triggerMaxAllHotkey("m"),
     visible: true
   }, {
     name: "차원 희생",
@@ -346,6 +346,8 @@ for (const hotkey of shortcuts) {
   GameKeyboard[hotkey.type](hotkey.keys.join("+"), hotkey.function);
 }
 
+GameKeyboard.bindRepeatableHotkey("space", () => triggerMaxAllHotkey("space"));
+
 // We need to know whether the player is holding R or not for the replicanti galaxy
 // The keydown version is above, with the replicantiGalaxyRequest, as otherwise it would be overridden
 GameKeyboard.bind("r", () => setHoldingR(false), "keyup");
@@ -369,6 +371,12 @@ GameKeyboard.bindHotkey("alt+r", () => toggleAutobuyer(Autobuyer.replicantiGalax
 GameKeyboard.bindHotkey("alt+c", () => toggleAutobuyer(Autobuyer.bigCrunch));
 GameKeyboard.bindHotkey("alt+e", () => toggleAutobuyer(Autobuyer.eternity));
 GameKeyboard.bindHotkey("alt+y", () => toggleAutobuyer(Autobuyer.reality));
+
+function triggerMaxAllHotkey(key) {
+  if ((player.options.maxAllHotkey ?? "m") !== key) return undefined;
+  maxAll();
+  return key === "space" ? false : undefined;
+}
 
 (function() {
   function bindDimensionHotkeys(tier) {

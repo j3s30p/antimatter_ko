@@ -787,6 +787,7 @@ window.player = {
     forceCloudOverwrite: false,
     syncSaveIntervals: true,
     hotkeys: true,
+    maxAllHotkey: "m",
     themeClassic: "Normal",
     themeModern: "Normal",
     updateRate: 33,
