@@ -1063,7 +1063,7 @@ export const news = [
       random *= 255;
       const color = `hsl(${random}, 90%, 60%)`;
       return `<span style='color: ${color}; text-shadow: 0 0 0.5rem ${color};
-        animation: a-text-grow 0.4s infinite;'>Disco Time!</span>`;
+        animation: a-text-grow 0.4s infinite;'>디스코 타임!</span>`;
     },
   },
   {
@@ -1287,9 +1287,9 @@ export const news = [
   {
     id: "a230",
     get text() {
-      return `You started playing this game nearly
-        ${TimeSpan.fromMilliseconds(Date.now() - player.records.gameCreatedTime).toString()}
-        ago. Thank you for playing!`;
+      return `이 게임을 시작한 지 약
+        ${TimeSpan.fromMilliseconds(Date.now() - player.records.gameCreatedTime).toString()}이 지났습니다.
+        플레이해 주셔서 감사합니다!`;
     },
     dynamic: true
   },
@@ -1432,8 +1432,8 @@ export const news = [
   (function() {
     let isFlipped = false;
     const normal =
-      `This news message is a test of "News 2.0". News 2.0 will feature things like the ability to
-      click on news messages to flip them upside down!`;
+      `이 뉴스 메시지는 "뉴스 2.0" 시험판입니다. 뉴스 2.0에서는 뉴스 메시지를 클릭해
+      뒤집는 기능 등을 선보일 예정입니다!`;
     const flipped =
       `¡uʍop ǝpᴉsdn ɯǝɥʇ dᴉlɟ oʇ sǝƃɐssǝɯ sʍǝu uo ʞɔᴉlɔ oʇ ʎʇᴉlᴉqɐ ǝɥʇ ǝʞᴉl sƃuᴉɥʇ ǝɹnʇɐǝɟ llᴉʍ 0˙ᄅ
       sʍǝN ˙,,0˙ᄅ sʍǝN,, ɟo ʇsǝʇ ɐ sᴉ ǝƃɐssǝɯ sʍǝu sᴉɥ┴`;
@@ -1760,8 +1760,8 @@ export const news = [
   },
   (function() {
     let wasClicked = false;
-    const normal = "Click on this news message to hard reset your game.";
-    const clicked = "You're crazy. You know what, here. Have a paperclip.";
+    const normal = "이 뉴스 메시지를 클릭하면 게임이 완전히 초기화됩니다.";
+    const clicked = "정말 제정신이 아니군요. 좋아요, 이 종이 클립이나 받으세요.";
     return {
       id: "a296",
       get text() {
@@ -2014,8 +2014,8 @@ export const news = [
   },
   (function() {
     let wasClicked = false;
-    const normal = "Click here to restart your device.";
-    const clicked = "Please give Antimatter Dimensions admin access to your device.";
+    const normal = "여기를 클릭해 기기를 다시 시작하세요.";
+    const clicked = "Antimatter Dimensions에 기기 관리자 권한을 부여해 주세요.";
     return {
       id: "a327",
       get text() {
@@ -2097,8 +2097,8 @@ export const news = [
   },
   (function() {
     let wasClicked = false;
-    const normal = "Read More";
-    const clicked = "More";
+    const normal = "더 읽기";
+    const clicked = "더";
     return {
       id: "a339",
       get text() {
@@ -2133,12 +2133,15 @@ export const news = [
     get text() {
       const fakeProgress = Math.pow(player.records.realTimePlayed, 25);
       // Caps in ~68 years of real playtime then turns into "Infinite%"
+      const currentProgress = format(fakeProgress).replace(/^(?:infinite|infinity)/iu, "무한");
+      const progressPercent = formatPercents(Math.log10(fakeProgress) / Math.log10(Number.MAX_VALUE), 3)
+        .replace(/^(?:infinite|infinity)/iu, "무한");
       return `전역 도전 - 모든 AD 플레이어가 대회용 클립(끝이 사각형인 것으로 구분)을
         ${format(Number.MAX_VALUE, 2)}개 모으면 이벤트 한정 금속 백파이프를 받습니다. 이 백파이프는
         AM/s +2와 함께 틱스피드 업그레이드가 ${format(1e200)}개를 넘을 때 추가 틱스피드를 제공합니다!
         현재 전역 진행도 -
-        ${format(fakeProgress)}/${format(Number.MAX_VALUE, 2)}
-        (${formatPercents(Math.log10(fakeProgress) / Math.log10(Number.MAX_VALUE), 3)})`;
+        ${currentProgress}/${format(Number.MAX_VALUE, 2)}
+        (${progressPercent})`;
     }
   },
   {
@@ -2861,10 +2864,10 @@ export const news = [
     id: "l54",
     get text() {
       const names = [];
-      if (PlayerProgress.infinityUnlocked()) names.push("Infinity");
-      if (PlayerProgress.eternityUnlocked()) names.push("Eternity");
-      if (PlayerProgress.dilationUnlocked()) names.push("Dilation");
-      if (PlayerProgress.realityUnlocked()) names.push("Reality");
+      if (PlayerProgress.infinityUnlocked()) names.push("무한");
+      if (PlayerProgress.eternityUnlocked()) names.push("영원");
+      if (PlayerProgress.dilationUnlocked()) names.push("시간 팽창");
+      if (PlayerProgress.realityUnlocked()) names.push("현실");
 
       const game1Name = names.randomElement();
       let game2Name = names.randomElement();
@@ -3417,7 +3420,7 @@ export const news = [
   },
   {
     id: "ai48",
-    text: "\"Anti-infinity\"라는 용어는 동사이며 명사가 될 수 없습니다. 여기에서 용법을 알아보세요."
+    text: "\"반무한\"이라는 용어는 동사이며 명사가 될 수 없습니다. 여기에서 용법을 알아보세요."
   },
   {
     id: "ai49",
@@ -3529,7 +3532,7 @@ export const news = [
   },
   {
     id: "ai76",
-    get text() { return `Now releasing: Dimsension ${format(Number.MAX_VALUE, 2)} (새 차원을 출시한다는 뜻)`; }
+    get text() { return `새로 출시: 차원션 ${format(Number.MAX_VALUE, 2)} (새 차원을 출시한다는 뜻)`; }
   },
   {
     id: "ai77",
@@ -3621,7 +3624,7 @@ export const news = [
   },
   (function() {
     let wasClicked = false;
-    const normal = "Now holding Infinity!";
+    const normal = "현재 무한을 보유하고 있습니다!";
     const clicked = "<#351477791457542144>";
     return {
       id: "ai99",
@@ -4480,7 +4483,7 @@ export const news = [
   },
   {
     id: "ai308",
-    get text() { return `If you are reading this, that means ${format(Number.MAX_VALUE, 2)} matter to you. (이 문장을 읽는 사람에게 그만큼의 물질이 중요하다는 말장난)`; }
+    get text() { return `이 글을 읽고 있다면 ${format(Number.MAX_VALUE, 2)}만큼의 물질(matter)이 당신에게 중요하다는 뜻입니다.`; }
   },
   {
     id: "ai309",
@@ -6248,7 +6251,7 @@ export const news = [
   },
   {
     id: "ai748",
-    get text() { return `Somebody: "What do you mean, 4 is more than 2?" Me: "Well, I mean, 4 is ${format(Number.MAX_VALUE, 2)}, 2 is 2, etc..." (누군가: "넷이 둘보다 크다는 게 무슨 뜻이야?" 나: "그러니까, 넷은 아주 큰 수고 둘은 둘이라는 뜻이지...")`; }
+    get text() { return `누군가: "4가 2보다 크다는 게 무슨 뜻이야?" 나: "그러니까, 4는 ${format(Number.MAX_VALUE, 2)}이고 2는 2라는 뜻이지..."`; }
   },
   {
     id: "ai749",

@@ -134,6 +134,12 @@ Update this file whenever a translation batch is committed. An area becomes `QA 
   `resources/app.asar`, the Korean installation guide, manifest, attribution, Galmuri license, and repository README.
   The `v0.9.0-rc.4` prerelease asset was downloaded back from GitHub and matched the locally generated ZIP SHA-256
   exactly.
+- NEWS final residue pass: re-audited every player-facing string in `news.js` and localized the remaining click-state
+  messages, dynamic playtime message, progression-name candidates, and English sentence fragments. QA saves which
+  overflow the mock global-progress calculation now display `무한%` instead of `Infinite%`, while URLs, proper names,
+  code fragments, CSS `infinite`, and the intentional upside-down text effect remain unchanged. Focused ESLint,
+  abbreviation auditing, the Steam build, exact repacked-bundle hash comparison, and the 304-file Greenworks check
+  passed for `1.0.0-rc.4`.
 
 ## Steam packaging note
 

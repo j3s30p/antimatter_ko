@@ -22,7 +22,7 @@ export default {
   },
   data() {
     return {
-      patchVersion: "1.0.0-rc.3",
+      patchVersion: "1.0.0-rc.4",
       gameVersion: "Steam 11.5",
       links: LINKS
     };
