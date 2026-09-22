@@ -496,5 +496,39 @@ export const tabs = [
         hidable: true
       }
     ]
+  },
+  {
+    key: "korean-patch",
+    name: "한국어 패치",
+    symbol: "<i class='fas fa-language'></i>",
+    condition: () => true,
+    id: 11,
+    hidable: true,
+    subtabs: [
+      {
+        key: "korean-patch-info",
+        name: "패치 정보",
+        symbol: "<i class='fas fa-info-circle'></i>",
+        component: "KoreanPatchInfoTab",
+        id: 0,
+        hidable: false
+      },
+      {
+        key: "korean-patch-credits",
+        name: "크레딧",
+        symbol: "<i class='fas fa-users'></i>",
+        component: "KoreanPatchCreditsTab",
+        id: 1,
+        hidable: false
+      },
+      {
+        key: "korean-patch-report",
+        name: "오류 제보",
+        symbol: "<i class='fas fa-bug'></i>",
+        component: "KoreanPatchReportTab",
+        id: 2,
+        hidable: false
+      }
+    ]
   }
 ];

@@ -64,7 +64,13 @@ export default {
     @mouseleave="S12Windows.tabs.unsetHoveringTab()"
     @click="tab.show(true); S12Windows.isMinimised = false; S12Windows.tabs.unsetHoveringTab(true);"
   >
+    <span
+      v-if="tab.symbol"
+      class="c-taskbar-icon__font-awesome"
+      v-html="tab.symbol"
+    />
     <img
+      v-else
       class="c-taskbar-icon__image"
       :src="`images/s12/${tab.key}.png`"
     >
@@ -96,6 +102,12 @@ export default {
 
 .c-taskbar-icon:hover {
   background-color: rgba(255, 255, 255, 0.35);
+}
+
+.c-taskbar-icon__font-awesome {
+  color: white;
+  font-size: 2.8rem;
+  text-shadow: 0 0.1rem 0.3rem black;
 }
 
 .c-taskbar-icon--active {

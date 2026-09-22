@@ -18,6 +18,9 @@ import ImaginaryUpgradesTab from "./imaginary-upgrades/ImaginaryUpgradesTab";
 import InfinityChallengesTab from "./infinity-challenges/InfinityChallengesTab";
 import InfinityDimensionsTab from "./infinity-dimensions/InfinityDimensionsTab";
 import InfinityUpgradesTab from "./infinity-upgrades/InfinityUpgradesTab";
+import KoreanPatchCreditsTab from "./korean-patch/KoreanPatchCreditsTab";
+import KoreanPatchInfoTab from "./korean-patch/KoreanPatchInfoTab";
+import KoreanPatchReportTab from "./korean-patch/KoreanPatchReportTab";
 import LaitelaTab from "./celestial-laitela/LaitelaTab";
 import MultiplierBreakdownTab from "./statistics/MultiplierBreakdownTab";
 import NormalAchievementsTab from "./normal-achievements/NormalAchievementsTab";
@@ -70,6 +73,9 @@ const TabComponents = {
   InfinityChallengesTab,
   EternityChallengesTab,
   InfinityUpgradesTab,
+  KoreanPatchInfoTab,
+  KoreanPatchCreditsTab,
+  KoreanPatchReportTab,
   BreakInfinityTab,
   ReplicantiTab,
   TimeStudiesTab,

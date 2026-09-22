@@ -893,9 +893,9 @@ window.player = {
       realityShards: true
     },
     hiddenTabBits: 0,
-    hiddenSubtabBits: Array.repeat(0, 11),
+    hiddenSubtabBits: Array.repeat(0, 12),
     lastOpenTab: 0,
-    lastOpenSubtab: Array.repeat(0, 11),
+    lastOpenSubtab: Array.repeat(0, 12),
     perkLayout: 0,
     perkPhysicsEnabled: true,
     automatorEvents: {

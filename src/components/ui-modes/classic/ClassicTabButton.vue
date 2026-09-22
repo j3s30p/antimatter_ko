@@ -51,6 +51,11 @@ export default {
     class="o-tab-btn"
     @click="tab.show(true)"
   >
+    <span
+      v-if="tab.symbol"
+      class="l-tab-symbol"
+      v-html="tab.symbol"
+    />
     {{ tabName }}
     <div
       v-if="hasNotification"
@@ -71,6 +76,10 @@ export default {
 .o-tab-btn--active {
   height: 3.1rem;
   border-bottom-width: 0.5rem;
+}
+
+.l-tab-symbol {
+  margin-right: 0.5rem;
 }
 
 .s-base--metro .o-tab-btn--active {

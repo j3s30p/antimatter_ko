@@ -67,6 +67,11 @@ export default {
       class="l-tab-btn-inner"
       @click="tab.show(true)"
     >
+      <span
+        v-if="tab.symbol"
+        class="l-tab-symbol"
+        v-html="tab.symbol"
+      />
       {{ tabName }}
       <div
         v-if="hasNotification"
@@ -105,6 +110,10 @@ export default {
 </template>
 
 <style scoped>
+.l-tab-symbol {
+  margin-right: 0.5rem;
+}
+
 .o-tab-btn::before {
   content: "";
   width: 0;
