@@ -1,5 +1,23 @@
 <script>
+import wordShift from "@/core/word-shift";
+
 import ModalWrapper from "@/components/modals/ModalWrapper";
+
+function garbledTemplate(name) {
+  return Array.from(name).map((character, index) => {
+    if (character === " ") return " ";
+    const code = character.charCodeAt(0);
+    return String.fromCharCode(33 + ((code * code + index * index) % 93));
+  }).join("");
+}
+
+function garbleName(template) {
+  const shifted = wordShift.randomCrossWords(template);
+  return Array.from(template).map((character, index) => {
+    if (character === " ") return " ";
+    return shifted[index];
+  }).join("");
+}
 
 function pressedKey(event) {
   const code = event.code.toLowerCase();
@@ -24,7 +42,9 @@ export default {
       editingId: null,
       error: "",
       bindings: {},
-      glitchTick: 0
+      glitchTick: -1,
+      garbledNames: {},
+      garbledTemplates: {}
     };
   },
   computed: {
@@ -35,6 +55,9 @@ export default {
   },
   created() {
     this.refreshBindings();
+    this.garbledTemplates = Object.fromEntries(shortcuts.map(shortcut =>
+      [shortcut.id, garbledTemplate(shortcut.name)]));
+    this.update();
   },
   mounted() {
     window.addEventListener("keydown", this.captureKey, true);
@@ -44,18 +67,18 @@ export default {
   },
   methods: {
     update() {
-      this.glitchTick = Math.floor(Date.now() / 350);
+      const tick = Math.floor(Date.now() / 500);
+      if (tick === this.glitchTick) return;
+      this.glitchTick = tick;
+      this.garbledNames = Object.fromEntries(shortcuts.filter(shortcut => shortcut.editable && this.isLocked(shortcut))
+        .map(shortcut => [shortcut.id, garbleName(this.garbledTemplates[shortcut.id])]));
     },
     isLocked(shortcut) {
       return typeof shortcut.visible === "function" && !shortcut.visible();
     },
     displayName(shortcut) {
       if (!this.isLocked(shortcut)) return shortcut.name;
-      const symbols = ["░", "▒", "▓", "#", "?"];
-      return Array.from(shortcut.name).map((character, index) => {
-        if (character === " ") return " ";
-        return symbols[(index * 3 + this.glitchTick) % symbols.length];
-      }).join("");
+      return this.garbledNames[shortcut.id] || this.garbledTemplates[shortcut.id];
     },
     displayKey(shortcut) {
       return shortcutLabel(this.bindings[shortcut.id] || shortcutBinding(shortcut));
@@ -147,10 +170,7 @@ export default {
           :key="shortcut.id"
           class="c-hotkey-editor__row"
         >
-          <span
-            class="c-hotkey-editor__name"
-            :class="{ 'c-hotkey-editor__name--locked': isLocked(shortcut) }"
-          >
+          <span class="c-hotkey-editor__name">
             <small>{{ shortcut.category }}</small>
             {{ displayName(shortcut) }}
           </span>
@@ -251,11 +271,6 @@ export default {
   display: block;
   color: #aaa;
   font-size: 0.9rem;
-}
-
-.c-hotkey-editor__name--locked {
-  color: #b697c5;
-  text-shadow: 0.07rem 0 #cf7299, -0.07rem 0 #77a6ad;
 }
 
 .c-hotkey-editor__key {

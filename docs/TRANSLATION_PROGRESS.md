@@ -161,6 +161,11 @@ Update this file whenever a translation batch is committed. An area becomes `QA 
   the corresponding game unlock condition becomes true. Focused ESLint and the Steam build passed. The packaged JS
   matched the build and all 304 Greenworks files matched the previous package. Local `1.0.0-rc.7` was installed and
   restarted (SHA256: `195DB100337789290A93A9BF8A3C841B7B714E2C566896C20A9D6FAC65BA1F0A`); user QA is pending.
+- Locked shortcut labels: replaced the standalone symbol rotation with the game's existing `wordShift.randomCrossWords`
+  effect, using the same deterministic garbled-name template and space-preserving layout as obscured achievements.
+  Assigned keys remain readable. Focused ESLint and Steam build passed; packed JS matched the build and all 304
+  Greenworks files were unchanged. Local `1.0.0-rc.8` was installed and restarted (SHA256:
+  `3927F8BE40BFCD1D86830FA18A38FA2BA3622BA5F6A07BC62732E16DE9B8C739`); user QA is pending.
 
 ## Steam packaging note
 
