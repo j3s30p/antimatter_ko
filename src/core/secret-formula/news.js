@@ -1907,10 +1907,13 @@ export const news = [
   {
     id: "a310",
     get text() {
-      const maxAllKey = shortcutLabel(shortcutBinding(shortcuts[3]));
+      const maxAllKey = shortcutBinding(shortcuts[3]);
+      const maxAllPrompt = maxAllKey === null
+        ? "모두 최대 구매 단축키는 지정되지 않았습니다."
+        : `모두 최대 구매하려면 ${shortcutLabel(maxAllKey)}를 누르세요.`;
       return `반물질 차원 자동 고객 지원 전화에 연결됐습니다. 게임에서 버그가 발생한다면 앱을 닫았다가 다시
-      실행해 보세요. 해결되지 않으면 웹 버전은 1번, 모바일 버전은 2번을 누르세요. 조언이 필요하면 3번,
-      모두 최대 구매하려면 ${maxAllKey}, 개발자를 후원하려면 4번, FAQ를 보려면 5번, 손상된 저장 파일을 고치려면 6번,
+      실행해 보세요. 해결되지 않으면 웹 버전은 1번, 모바일 버전은 2번을 누르세요. 조언이 필요하면 3번을 누르세요.
+      ${maxAllPrompt} 개발자를 후원하려면 4번, FAQ를 보려면 5번, 손상된 저장 파일을 고치려면 6번,
       Discord 서버 초대를 받으려면 7번, 변경 기록을 보려면 8번을 누르세요. 다시 들으려면 9번을 누르세요.`;
     }
   },

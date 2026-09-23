@@ -1,8 +1,6 @@
 <script>
 import ModalWrapper from "@/components/modals/ModalWrapper";
 
-const FIXED_GAME_KEYS = new Set(["경의 표하기", "존재하지 않음", "전체 화면", "확대", "축소", "확대/축소 초기화"]);
-
 function pressedKey(event) {
   const code = event.code.toLowerCase();
   if (/^key[a-z]$/u.test(code)) return code.slice(3);
@@ -25,12 +23,13 @@ export default {
       search: "",
       editingId: null,
       error: "",
-      bindings: {}
+      bindings: {},
+      glitchTick: 0
     };
   },
   computed: {
     entries() {
-      return shortcuts.filter(shortcut => !FIXED_GAME_KEYS.has(shortcut.name) &&
+      return shortcuts.filter(shortcut => shortcut.editable &&
         (shortcut.name.includes(this.search.trim()) || shortcut.category.includes(this.search.trim())));
     }
   },
@@ -44,6 +43,20 @@ export default {
     window.removeEventListener("keydown", this.captureKey, true);
   },
   methods: {
+    update() {
+      this.glitchTick = Math.floor(Date.now() / 350);
+    },
+    isLocked(shortcut) {
+      return typeof shortcut.visible === "function" && !shortcut.visible();
+    },
+    displayName(shortcut) {
+      if (!this.isLocked(shortcut)) return shortcut.name;
+      const symbols = ["░", "▒", "▓", "#", "?"];
+      return Array.from(shortcut.name).map((character, index) => {
+        if (character === " ") return " ";
+        return symbols[(index * 3 + this.glitchTick) % symbols.length];
+      }).join("");
+    },
     displayKey(shortcut) {
       return shortcutLabel(this.bindings[shortcut.id] || shortcutBinding(shortcut));
     },
@@ -86,6 +99,11 @@ export default {
       resetShortcutBindings();
       this.refreshBindings();
       this.cancelEdit();
+    },
+    clear(shortcut) {
+      clearShortcutBinding(shortcut);
+      this.refreshBindings();
+      this.cancelEdit();
     }
   }
 };
@@ -98,7 +116,8 @@ export default {
     </template>
     <div class="c-hotkey-editor">
       <p class="c-hotkey-editor__intro">
-        변경할 항목을 누르고 원하는 키 조합을 입력하세요. 이미 사용 중인 조합은 지정할 수 없습니다.
+        변경할 항목을 누르고 키 조합을 입력하거나 해제할 수 있습니다. 이미 사용 중인 키라면 두 기능의 단축키가 맞바뀝니다.
+        미해금 기능의 이름은 글리치로 표시되지만 단축키 배정 상태는 확인할 수 있습니다.
       </p>
       <div class="c-hotkey-editor__toolbar">
         <input
@@ -128,17 +147,28 @@ export default {
           :key="shortcut.id"
           class="c-hotkey-editor__row"
         >
-          <span class="c-hotkey-editor__name">
+          <span
+            class="c-hotkey-editor__name"
+            :class="{ 'c-hotkey-editor__name--locked': isLocked(shortcut) }"
+          >
             <small>{{ shortcut.category }}</small>
-            {{ shortcut.name }}
+            {{ displayName(shortcut) }}
           </span>
           <button
             class="o-primary-btn c-hotkey-editor__key"
             :class="{ 'c-hotkey-editor__key--editing': editingId === shortcut.id }"
-            :aria-label="`${shortcut.name} 단축키 변경`"
+            :aria-label="isLocked(shortcut) ? '미해금 기능 단축키 변경' : `${shortcut.name} 단축키 변경`"
             @click="edit(shortcut)"
           >
             {{ editingId === shortcut.id ? "키를 누르세요…" : displayKey(shortcut) }}
+          </button>
+          <button
+            class="o-primary-btn c-hotkey-editor__cancel"
+            :disabled="bindings[shortcut.id] === null"
+            :aria-label="isLocked(shortcut) ? '미해금 기능 단축키 해제' : `${shortcut.name} 단축키 해제`"
+            @click="clear(shortcut)"
+          >
+            해제
           </button>
           <button
             v-if="editingId === shortcut.id"
@@ -221,6 +251,11 @@ export default {
   display: block;
   color: #aaa;
   font-size: 0.9rem;
+}
+
+.c-hotkey-editor__name--locked {
+  color: #b697c5;
+  text-shadow: 0.07rem 0 #cf7299, -0.07rem 0 #77a6ad;
 }
 
 .c-hotkey-editor__key {

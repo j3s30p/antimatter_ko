@@ -152,6 +152,15 @@ Update this file whenever a translation batch is committed. An area becomes `QA 
   passed. The repacked bundle matched the build, all 304 Greenworks files matched the previous package, and the local
   `1.0.0-rc.6` test build was installed and restarted (SHA256:
   `71CA4AB4AA9A44191858C1B59E13A152E7707D05917EF630BBA9F49BD3B3E6C7`). In-game QA remains with the user.
+- Shortcut conflicts: assigning a key already used by another editable action now swaps the two bindings. For example,
+  assigning `1` to a dimension's single purchase moves its `shift+1` binding to the ten-purchase action. A swap is
+  rejected when the displaced binding is invalid for the other action, or the occupied key belongs to a fixed system
+  shortcut. Every editable action also has an unassign control. Assigning an occupied key to an unassigned action
+  transfers the key and leaves the previous action unassigned. Help and NEWS show the unassigned state. Locked
+  progression actions remain listed with glitched names while their assigned keys stay readable; names resolve when
+  the corresponding game unlock condition becomes true. Focused ESLint and the Steam build passed. The packaged JS
+  matched the build and all 304 Greenworks files matched the previous package. Local `1.0.0-rc.7` was installed and
+  restarted (SHA256: `195DB100337789290A93A9BF8A3C841B7B714E2C566896C20A9D6FAC65BA1F0A`); user QA is pending.
 
 ## Steam packaging note
 

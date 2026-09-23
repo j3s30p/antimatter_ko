@@ -263,7 +263,7 @@ ${formatInt(10)}개를 가지고 있으며, 이를 사용해 제1 반물질 차�
 <br>
 <br>
 각 차원의 구매 단축키는 설정의 단축키 목록에서 확인하고 변경할 수 있습니다.
-<b>${shortcutText("main-3")}</b>는 모두 최대로 구매합니다.
+<b>모두 최대 구매 단축키:</b> ${shortcutText("main-3")}
 `,
       isUnlocked: () => true,
       tags: ["dims", "normal", "antimatter", "ad"],
@@ -286,8 +286,9 @@ ${formatInt(10)}개를 가지고 있으며, 이를 사용해 제1 반물질 차�
 <b>최대로 구매:</b> 현재 반물질로 살 수 있는 틱스피드 업그레이드를 최대한 구매합니다.
 <br>
 <br>
-<b>단축키: ${shortcutText("main-2")}</b>는 틱스피드 업그레이드를 최대한 구매하고,
-<b>${shortcutText("main-1")}</b>는 하나만 구매합니다. <b>${shortcutText("main-3")}</b>는 모두 최대로 구매합니다.
+<b>틱스피드 최대 구매 단축키:</b> ${shortcutText("main-2")}<br>
+<b>틱스피드 1개 구매 단축키:</b> ${shortcutText("main-1")}<br>
+<b>모두 최대 구매 단축키:</b> ${shortcutText("main-3")}
 `,
       isUnlocked: () => Tickspeed.isUnlocked,
       tags: ["dimension", "earlygame", "time"],
@@ -306,7 +307,7 @@ ${formatInt(10)}개를 가지고 있으며, 이를 사용해 제1 반물질 차�
 ${formatX(4)}, 제3 차원은 ${formatX(2)}를 얻고 나머지 차원은 영향을 받지 않습니다.
 <br>
 <br>
-<b>단축키: ${shortcutText("main-5")}</b>는 차원 가속 구매를 시도합니다.
+<b>차원 가속 단축키:</b> ${shortcutText("main-5")}
 `,
       isUnlocked: () => true,
       tags: ["dimboost", "reset", "earlygame"],
@@ -330,7 +331,7 @@ ${formatX(4)}, 제3 차원은 ${formatX(2)}를 얻고 나머지 차원은 영향
 <i>총</i> 비용이 은하마다 ${formatPercents(0.002, 1)}씩 추가로 증가합니다.
 <br>
 <br>
-<b>단축키: ${shortcutText("main-7")}</b>는 반물질 은하 구매를 시도합니다.
+<b>반물질 은하 단축키:</b> ${shortcutText("main-7")}
 `,
       isUnlocked: () => true,
       tags: ["8th", "reset", "galaxy", "earlygame"],
@@ -352,7 +353,7 @@ ${formatX(4)}, 제3 차원은 ${formatX(2)}를 얻고 나머지 차원은 영향
 ${formatX(40)}가 됩니다.
 <br>
 <br>
-<b>단축키: ${shortcutText("main-4")}</b>는 차원 희생을 시도합니다.
+<b>차원 희생 단축키:</b> ${shortcutText("main-4")}
 `,
       isUnlocked: () => Sacrifice.isVisible,
       tags: ["8th", "reset", "earlygame", "gods", "earlygame"],
@@ -398,7 +399,7 @@ ${format(Infinity)}로 표시됩니다.
 "DLC 필요 없음" 도전과제를 완료해야 합니다.
 <br>
 <br>
-<b>단축키: ${shortcutText("main-9")}</b>를 누르면 빅 크런치를 시도합니다.
+<b>빅 크런치 단축키:</b> ${shortcutText("main-9")}
 `,
       isUnlocked: () => PlayerProgress.infinityUnlocked(),
       tags: ["crunch", "big", "upgrades", "ip", "reset", "prestige", "earlygame"],
@@ -479,7 +480,7 @@ ${format(Infinity)}로 표시됩니다.
 <b>모든 자동 구매기 켜기/끄기:</b> 모든 자동 구매기의 개별 설정을 한꺼번에 켜거나 끕니다.
 <br>
 <br>
-<b>단축키: ${shortcutText("main-0")}</b>는 자동 구매기를 일시정지하거나 재개합니다.
+<b>자동 구매기 일시정지/재개 단축키:</b> ${shortcutText("main-0")}<br>
 개별 자동 구매기의 조작 키는 단축키 설정에서 확인하고 변경할 수 있습니다.
 `,
       isUnlocked: () => true,
@@ -580,7 +581,7 @@ ${formatPercents(0.01)}의 확률로 새로운 복제자를 생산합니다. 복
 무료입니다. 다만 반물질 은하와 같은 요소들을 초기화합니다.
 <br>
 <br>
-<b>단축키: ${shortcutText("main-10")}</b>을 누르면 복제자 은하 구매를 시도합니다.
+<b>복제자 은하 단축키:</b> ${shortcutText("main-10")}
 <br>
 복제자는 모든 무한 차원에 배율을 제공하며, 복제자가 ${formatPostBreak(Number.MAX_VALUE, 2)}일 때 최대
 ${formatX(Math.pow(2, 20), 2, 2)}에 도달합니다.
@@ -620,7 +621,7 @@ ${formatPostBreak(Number.MAX_VALUE, 2)} IP에서는 EP ${formatInt(1)}개를 얻
 ${formatPostBreak(DC.E349)} 전까지는 ${formatInt(2)} EP를 얻지 못합니다.
 <br>
 <br>
-<b>단축키: ${shortcutText("main-11")}</b>를 누르면 영원 초기화를 시도합니다.
+<b>영원 초기화 단축키:</b> ${shortcutText("main-11")}
 `,
       isUnlocked: () => PlayerProgress.eternityUnlocked(),
       tags: ["eternal", "ep", "reset", "prestige", "midgame"],
@@ -850,7 +851,7 @@ ${formatPostBreak(DC.C10P16000D3)} EP 이후에는 이 공식으로 선형 증�
 현실마다 정확히 ${formatInt(1)} 특전 포인트를 얻습니다.
 <br>
 <br>
-<b>단축키: ${shortcutText("main-14")}</b>를 누르면 현실 초기화를 시도합니다.
+<b>현실 초기화 단축키:</b> ${shortcutText("main-14")}
 `,
       isUnlocked: () => PlayerProgress.realityUnlocked() || TimeStudy.reality.isBought,
       tags: ["rm", "machines", "glyph", "perk", "reset", "prestige", "endgame", "lategame"],
@@ -963,7 +964,7 @@ ${formatInt(1)}개만 필요합니다.
 덮어쓰이지 않습니다.
 <br>
 <br>
-<b>단축키: ${shortcutText("main-16")}</b>를 누르면 오토메이터를 일시 정지하거나 재개합니다.
+<b>오토메이터 일시정지/재개 단축키:</b> ${shortcutText("main-16")}
 `,
       isUnlocked: () => Player.automatorUnlocked,
       tags: ["automation", "reality", "code", "script", "endgame", "lategame"],
@@ -1093,7 +1094,7 @@ ${formatInt(8)}분이라면, 첫 번째 블랙홀의 간격이 아무리 짧아�
 <b>블랙홀 2:</b> 모든 업그레이드의 초기 비용은 첫 번째 블랙홀보다 ${formatX(1000)} 높지만 비용 배율은 같습니다.
 <br>
 <br>
-<b>단축키: ${shortcutText("main-20")}</b>를 누르면 블랙홀을 일시 정지하거나 재개합니다.
+<b>블랙홀 일시정지/재개 단축키:</b> ${shortcutText("main-20")}
 `,
       isUnlocked: () => player.blackHole[0].unlocked,
       tags: ["reality", "time", "speed", "duration", "interval", "rm", "endgame", "lategame"],
@@ -1664,7 +1665,7 @@ ${Pelle.isDoomed
       접고 숨길 수 있습니다.
       <br>
       <br>
-      <b>단축키: ${shortcutText("main-22")}</b>를 누르면 아마겟돈 초기화를 시도합니다.`
+      <b>아마겟돈 단축키:</b> ${shortcutText("main-22")}`
     : "<span style='color: var(--color-bad);'><b>이 항목의 나머지를 읽으려면 현실을 파멸시켜야 합니다.</b></span>"
 }
 `,
