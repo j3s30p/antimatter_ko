@@ -6,8 +6,7 @@
 - 원작: [Hevipelle(IvarK)와 Antimatter Dimensions 기여자](https://github.com/IvarK/AntimatterDimensionsSourceCode)
 - 한국어 번역 참고:
   [SameMa의 Antimatter Dimensions: Endgame 한국어판](https://github.com/gyeol0710/antimatter-dimensions-endgame-korean),
-  기준 커밋 `4e0f216870eb2551446e79f228b1f6ceacd4701d`
-- 추가 한국어 번역 참고:
+  기준 커밋 `4e0f216870eb2551446e79f228b1f6ceacd4701d`;
   [SeonjiSoup621(Jihuu621)의 ADKorean](https://github.com/Jihuu621/ADKorean)
 - 글꼴: Galmuri9 Regular, SIL Open Font License 1.1
 

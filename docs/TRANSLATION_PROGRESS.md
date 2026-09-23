@@ -171,6 +171,12 @@ Update this file whenever a translation batch is committed. An area becomes `QA 
   Focused ESLint and Steam build passed; packed JS matched the build and all 304 Greenworks files were unchanged.
   Local `1.0.0-rc.9` was installed after fully stopping the prior game process tree and restarted once (SHA256:
   `91731E3985A493F312E4EB780F08C8E9FCD6DBDB08DEF1DE3C04C1B136D44241`); user QA is pending.
+- Stable `1.0.0`: removed the RC suffix from the in-game patch version and public README, and unified the two Korean
+  translation-reference lines in the attribution. Focused ESLint and Steam build passed. The release ZIP contains only
+  the copy-over `resources/app.asar`, Korean installation guide, README, manifest, attribution, and Galmuri license.
+  ZIP payload and manifest SHA256 match (`D3DF8A16D618D7548ADDE7DA10A97050AFA8FF357D20446D855381F91018F0A4`);
+  packed JS matches the build and all 304 Greenworks files are unchanged. The local stable build was installed after
+  fully stopping the prior game process tree and restarted once. Visual/in-game QA remains user-owned.
 
 ## Steam packaging note
 
