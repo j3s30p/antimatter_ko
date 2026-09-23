@@ -12,7 +12,7 @@ function garbledTemplate(name) {
 }
 
 function garbleName(template) {
-  const shifted = wordShift.randomCrossWords(template);
+  const shifted = wordShift.randomCrossWords(template, 1.4);
   return Array.from(template).map((character, index) => {
     if (character === " ") return " ";
     return shifted[index];
@@ -172,7 +172,9 @@ export default {
         >
           <span class="c-hotkey-editor__name">
             <small>{{ shortcut.category }}</small>
-            {{ displayName(shortcut) }}
+            <span :class="{ 'c-hotkey-editor__name--locked': isLocked(shortcut) }">
+              {{ displayName(shortcut) }}
+            </span>
           </span>
           <button
             class="o-primary-btn c-hotkey-editor__key"
@@ -271,6 +273,22 @@ export default {
   display: block;
   color: #aaa;
   font-size: 0.9rem;
+}
+
+.c-hotkey-editor__name--locked {
+  color: #d8c5db;
+  animation: hotkey-glitch 1.1s steps(1, end) infinite;
+}
+
+@keyframes hotkey-glitch {
+  0%, 68%, 100% { text-shadow: 0.08rem 0 #ff5379, -0.08rem 0 #49c8d5; }
+  70% { text-shadow: -0.18rem 0 #ff5379, 0.18rem 0 #49c8d5; }
+  73% { text-shadow: 0.22rem 0 #ff5379, -0.12rem 0 #49c8d5; }
+  76% { text-shadow: -0.08rem 0 #ff5379, 0.08rem 0 #49c8d5; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .c-hotkey-editor__name--locked { animation: none; }
 }
 
 .c-hotkey-editor__key {

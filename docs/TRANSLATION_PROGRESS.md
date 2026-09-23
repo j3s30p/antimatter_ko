@@ -166,6 +166,11 @@ Update this file whenever a translation batch is committed. An area becomes `QA 
   Assigned keys remain readable. Focused ESLint and Steam build passed; packed JS matched the build and all 304
   Greenworks files were unchanged. Local `1.0.0-rc.8` was installed and restarted (SHA256:
   `3927F8BE40BFCD1D86830FA18A38FA2BA3622BA5F6A07BC62732E16DE9B8C739`); user QA is pending.
+- Locked shortcut glitch polish: increased native `wordShift.randomCrossWords` scrambling and added a brief chromatic
+  text-shadow jitter on the obscured action name only, with reduced-motion support. Keys and controls remain readable.
+  Focused ESLint and Steam build passed; packed JS matched the build and all 304 Greenworks files were unchanged.
+  Local `1.0.0-rc.9` was installed after fully stopping the prior game process tree and restarted once (SHA256:
+  `91731E3985A493F312E4EB780F08C8E9FCD6DBDB08DEF1DE3C04C1B136D44241`); user QA is pending.
 
 ## Steam packaging note
 
