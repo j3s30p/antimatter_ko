@@ -3,11 +3,11 @@
 </p>
 
 <h1 align="center">
-  <a href="https://github.com/j3s30p/antimatter_ko/releases/download/v1.0.0-rc.4/AntimatterDimensions_KoreanPatch_1.0.0-rc.4.zip">⬇️ 한국어 패치 다운로드</a>
+  <a href="https://github.com/j3s30p/antimatter_ko/releases/download/v1.0.0/AntimatterDimensions_KoreanPatch_1.0.0.zip">⬇️ 한국어 패치 다운로드</a>
 </h1>
 
 <p align="center">
-  <strong>v1.0.0-rc.4 · Steam 11.5 전용</strong><br>
+  <strong>v1.0.0 · Steam 11.5 전용</strong><br>
   <sub>설치용 ZIP 파일 하나만 받으면 됩니다.</sub>
 </p>
 
@@ -38,7 +38,7 @@ Steam 라이브러리에서 게임을 우클릭한 뒤 **속성 → 설치된 �
 
 | 항목 | 내용 |
 | --- | --- |
-| 최신 공개 버전 | `v1.0.0-rc.4` |
+| 최신 공개 버전 | `v1.0.0` |
 | 대상 게임 | Steam판 `11.5` |
 | 지원 UI | 클래식 UI · 모던 UI |
 | 적용 파일 | `resources/app.asar` |
