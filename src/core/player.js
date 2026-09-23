@@ -788,6 +788,7 @@ window.player = {
     syncSaveIntervals: true,
     hotkeys: true,
     maxAllHotkey: "m",
+    customHotkeys: {},
     themeClassic: "Normal",
     themeModern: "Normal",
     updateRate: 33,

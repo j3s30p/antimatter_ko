@@ -1,243 +1,242 @@
 <script>
 import ModalWrapper from "@/components/modals/ModalWrapper";
 
+const FIXED_GAME_KEYS = new Set(["경의 표하기", "존재하지 않음", "전체 화면", "확대", "축소", "확대/축소 초기화"]);
+
+function pressedKey(event) {
+  const code = event.code.toLowerCase();
+  if (/^key[a-z]$/u.test(code)) return code.slice(3);
+  if (/^(digit|numpad)[0-9]$/u.test(code)) return code.slice(-1);
+  const codes = {
+    space: "space", tab: "tab", enter: "enter", numpadenter: "enter", escape: "esc",
+    arrowup: "up", arrowdown: "down", arrowleft: "left", arrowright: "right",
+    slash: "/", period: ".", comma: ",", minus: "-", equal: "="
+  };
+  if (codes[code]) return codes[code];
+  if (/^f(?:[1-9]|1[0-2])$/u.test(code)) return code;
+  return null;
+}
+
 export default {
   name: "HotkeysModal",
-  components: {
-    ModalWrapper
-  },
+  components: { ModalWrapper },
   data() {
     return {
-      updateIndicies: [],
-      visible: [],
-      timeStudyUnlocked: false,
-      glyphSacUnlocked: false,
-      isElectron: false,
-      maxAllHotkey: "M"
+      search: "",
+      editingId: null,
+      error: "",
+      bindings: {}
     };
   },
   computed: {
-    moreShiftKeyInfo() {
-      const shiftKeyFunctions = [];
-      if (this.timeStudyUnlocked) {
-        shiftKeyFunctions.push("시간 연구 구매 시 해당 지점까지 모두 구매할 때");
-        shiftKeyFunctions.push("시간 연구 트리를 저장할 때");
-      }
-      if (this.glyphSacUnlocked) {
-        shiftKeyFunctions.push("글리프를 정리할 때");
-      }
-      const shiftKeyInfo = makeEnumeration(shiftKeyFunctions);
-      return (shiftKeyInfo === "")
-        ? ""
-        : `Shift를 누른 채 ${shiftKeyInfo} 사용할 수 있습니다.`;
-    },
-    hotkeyCount() {
-      return shortcuts.length;
-    },
-    shortcutNames() {
-      return shortcuts.map(x => x.name);
-    },
-    shortcutKeys() {
-      return shortcuts.map(x => (x.name === "모두 최대로" ? [this.maxAllHotkey] : x.keys)
-        .map(key => this.format(key)));
+    entries() {
+      return shortcuts.filter(shortcut => !FIXED_GAME_KEYS.has(shortcut.name) &&
+        (shortcut.name.includes(this.search.trim()) || shortcut.category.includes(this.search.trim())));
     }
   },
   created() {
-    for (let i = 0; i < this.hotkeyCount; i++) {
-      const visible = shortcuts[i].visible;
-      if (typeof visible === "function") {
-        this.updateIndicies.push(i);
-      } else {
-        this.visible[i] = visible;
-      }
-    }
+    this.refreshBindings();
+  },
+  mounted() {
+    window.addEventListener("keydown", this.captureKey, true);
+  },
+  beforeDestroy() {
+    window.removeEventListener("keydown", this.captureKey, true);
   },
   methods: {
-    update() {
-      for (const index of this.updateIndicies) {
-        this.$set(this.visible, index, shortcuts[index].visible());
-      }
-      const progress = PlayerProgress.current;
-      this.timeStudyUnlocked = progress.isEternityUnlocked;
-      this.glyphSacUnlocked = RealityUpgrade(19).isBought;
-      this.maxAllHotkey = (player.options.maxAllHotkey ?? "m").toUpperCase();
-
-      // ElectronRuntime is a global which only exists on Steam (throws a ReferenceError on web)
-      try {
-        this.isElectron = ElectronRuntime.isActive;
-      } catch {
-        this.isElectron = false;
-      }
+    displayKey(shortcut) {
+      return shortcutLabel(this.bindings[shortcut.id] || shortcutBinding(shortcut));
     },
-    format(x) {
-      switch (x) {
-        case "mod":
-          return "CTRL/⌘";
-        default:
-          return x.toUpperCase();
-      }
+    refreshBindings() {
+      this.bindings = Object.fromEntries(shortcuts.map(shortcut => [shortcut.id, shortcutBinding(shortcut)]));
     },
-    toggleMaxAllHotkey() {
-      const nextKey = (player.options.maxAllHotkey ?? "m") === "m" ? "space" : "m";
-      player.options.maxAllHotkey = nextKey;
-      this.maxAllHotkey = nextKey.toUpperCase();
+    edit(shortcut) {
+      this.editingId = shortcut.id;
+      this.error = "";
+      GameKeyboard.stopSpins();
+    },
+    cancelEdit() {
+      this.editingId = null;
+      this.error = "";
+    },
+    captureKey(event) {
+      if (!this.editingId) return;
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      if (event.repeat) return;
+      const key = pressedKey(event);
+      if (!key) {
+        this.error = "이 키는 단축키로 지정할 수 없습니다.";
+        return;
+      }
+      const modifiers = [];
+      if (event.ctrlKey || event.metaKey) modifiers.push("mod");
+      if (event.altKey) modifiers.push("alt");
+      if (event.shiftKey) modifiers.push("shift");
+      const shortcut = shortcuts.find(item => item.id === this.editingId);
+      const error = setShortcutBinding(shortcut, [...modifiers, key].join("+"));
+      if (error) {
+        this.error = error;
+        return;
+      }
+      this.refreshBindings();
+      this.cancelEdit();
+    },
+    resetAll() {
+      resetShortcutBindings();
+      this.refreshBindings();
+      this.cancelEdit();
     }
-  },
+  }
 };
 </script>
 
 <template>
   <ModalWrapper>
     <template #header>
-      단축키 목록
+      단축키 설정
     </template>
-    <span class="c-modal-hotkeys l-modal-hotkeys">
-      <div class="l-modal-hotkeys__column">
-        <div class="l-modal-hotkeys-row">
-          <span class="c-modal-hotkeys-row__name l-modal-hotkeys-row__name">차원 1개 구매</span>
-          <kbd>SHIFT</kbd><kbd>1</kbd>-<kbd>SHIFT</kbd><kbd>8</kbd>
-        </div>
-        <div class="l-modal-hotkeys-row">
-          <span class="c-modal-hotkeys-row__name l-modal-hotkeys-row__name">차원 10개 구매</span>
-          <kbd>1</kbd>-<kbd>8</kbd>
-        </div>
-        <div
-          v-for="index in hotkeyCount"
-          :key="index"
+    <div class="c-hotkey-editor">
+      <p class="c-hotkey-editor__intro">
+        변경할 항목을 누르고 원하는 키 조합을 입력하세요. 이미 사용 중인 조합은 지정할 수 없습니다.
+      </p>
+      <div class="c-hotkey-editor__toolbar">
+        <input
+          v-model="search"
+          class="c-hotkey-editor__search"
+          type="text"
+          placeholder="기능이나 분류 검색"
+          aria-label="단축키 검색"
         >
-          <span
-            v-if="visible[index - 1]"
-            class="l-modal-hotkeys-row"
-          >
-            <span class="c-modal-hotkeys-row__name l-modal-hotkeys-row__name">{{ shortcutNames[index - 1] }}</span>
-            <kbd
-              v-for="(key, i) in shortcutKeys[index - 1]"
-              :key="i"
-            >
-              {{ key }}
-            </kbd>
-          </span>
-        </div>
-      </div>
-      <div class="l-modal-hotkeys__column l-modal-hotkeys__column--right">
-        <div class="l-modal-hotkeys-row">
-          <span class="c-modal-hotkeys-row__name l-modal-hotkeys-row__name">모두 최대 구매 단축키</span>
-          <kbd>{{ maxAllHotkey }}</kbd>
-        </div>
         <button
-          class="o-primary-btn c-modal-hotkeys__max-all-toggle"
-          @click="toggleMaxAllHotkey"
+          class="o-primary-btn c-hotkey-editor__reset"
+          @click="resetAll"
         >
-          {{ maxAllHotkey === "M" ? "Space로 변경" : "M으로 변경" }}
+          기본값으로 되돌리기
         </button>
-        <br>
-        <div class="l-modal-hotkeys-row">
-          <span class="c-modal-hotkeys-row__name l-modal-hotkeys-row__name">보조 키</span>
-          <kbd>SHIFT</kbd>
-        </div>
-        <span class="c-modal-hotkeys__shift-description">
-          Shift는 일부 요소의 추가 정보를 표시하고 특정 버튼의 기능을 바꾸는 보조 키입니다.
-          <br>
-          {{ moreShiftKeyInfo }}
-        </span>
-        <br>
-        <div class="l-modal-hotkeys-row">
-          <span class="c-modal-hotkeys-row__name l-modal-hotkeys-row__name">자동 구매기 조작</span>
-          <kbd>ALT</kbd>
-        </div>
-        <span class="c-modal-hotkeys__shift-description">
-          Alt와 자동 구매기에 대응하는 키를 함께 누르면 해당 자동 구매기를 켜거나 끕니다.
-          <br>
-          Alt와 Shift를 함께 누르면 반물질 차원 및 틱스피드 자동 구매기의 1개 구매/최대 구매를 전환합니다.
-        </span>
-        <br>
-        <div class="l-modal-hotkeys-row">
-          <span class="c-modal-hotkeys-row__name l-modal-hotkeys-row__name">탭 이동</span>
-          <div>
-            <kbd>←</kbd><kbd>↓</kbd><kbd>↑</kbd><kbd>→</kbd>
-          </div>
-        </div>
-        <span class="c-modal-hotkeys__shift-description">
-          방향키로 게임 페이지를 순환할 수 있습니다. 위·아래 방향키는 탭을,
-          왼쪽·오른쪽 방향키는 현재 탭의 하위 탭을 순환합니다.
-        </span>
-        <br>
-        <div class="l-modal-hotkeys-row">
-          <span class="c-modal-hotkeys-row__name l-modal-hotkeys-row__name">숫자 키패드 지원</span>
-        </div>
-        <span class="c-modal-hotkeys__shift-description">
-          기술적인 이유로 숫자 키패드는 가능하면 차원을 10개 구매하지만 <kbd>SHIFT</kbd>와 함께 눌러도 1개만
-          구매하지 않습니다. 기기에 따라 페이지가 스크롤되거나 게임 탭이 바뀔 수 있습니다.
-          <kbd>ALT</kbd>는 정상적으로 작동합니다.
-        </span>
-        <template v-if="isElectron">
-          <br>
-          <div class="l-modal-hotkeys-row">
-            <span class="c-modal-hotkeys-row__name l-modal-hotkeys-row__name">창 확대/축소</span>
-            <kbd>-</kbd><kbd>0</kbd><kbd>+</kbd>
-          </div>
-          <span class="c-modal-hotkeys__shift-description">
-            <kbd>ctrl</kbd>을 누른 채 <kbd>-</kbd> 또는 <kbd>+</kbd>를 눌러 축소하거나 확대할 수 있습니다.
-            <kbd>ctrl</kbd><kbd>0</kbd>은 배율을 100%로 초기화합니다.
-          </span>
-          <br>
-          <div class="l-modal-hotkeys-row">
-            <span class="c-modal-hotkeys-row__name l-modal-hotkeys-row__name">전체 화면</span>
-            <kbd>F10</kbd>
-          </div>
-          <span class="c-modal-hotkeys__shift-description">
-            <kbd>F10</kbd>을 눌러 전체 화면에 들어가거나 나옵니다.
-          </span>
-        </template>
       </div>
-    </span>
+      <p
+        v-if="error"
+        class="c-hotkey-editor__error"
+        role="alert"
+      >
+        {{ error }}
+      </p>
+      <div class="c-hotkey-editor__list">
+        <div
+          v-for="shortcut in entries"
+          :key="shortcut.id"
+          class="c-hotkey-editor__row"
+        >
+          <span class="c-hotkey-editor__name">
+            <small>{{ shortcut.category }}</small>
+            {{ shortcut.name }}
+          </span>
+          <button
+            class="o-primary-btn c-hotkey-editor__key"
+            :class="{ 'c-hotkey-editor__key--editing': editingId === shortcut.id }"
+            :aria-label="`${shortcut.name} 단축키 변경`"
+            @click="edit(shortcut)"
+          >
+            {{ editingId === shortcut.id ? "키를 누르세요…" : displayKey(shortcut) }}
+          </button>
+          <button
+            v-if="editingId === shortcut.id"
+            class="o-primary-btn c-hotkey-editor__cancel"
+            @click="cancelEdit"
+          >
+            취소
+          </button>
+        </div>
+        <p
+          v-if="entries.length === 0"
+          class="c-hotkey-editor__empty"
+        >
+          검색 결과가 없습니다.
+        </p>
+      </div>
+      <p class="c-hotkey-editor__note">
+        숫자 키패드는 기본 차원 구매 키와 함께 작동합니다. Shift와 Alt는 게임의 보조 조작에도 사용됩니다.
+        Steam의 전체 화면(F10)과 창 확대/축소는 시스템 단축키입니다.
+      </p>
+    </div>
   </ModalWrapper>
 </template>
 
 <style scoped>
-.l-modal-hotkeys__column {
-  display: flex;
-  flex-direction: column;
-  width: 28rem;
-}
-
-.l-modal-hotkeys__column--right {
-  margin-left: 1rem;
-}
-
-.c-modal-hotkeys {
-  font-size: 1.25rem;
-}
-
-.l-modal-hotkeys {
-  display: flex;
-  flex-direction: row;
-}
-
-.l-modal-hotkeys-row {
-  display: flex;
-  flex-direction: row;
-  line-height: 1.6rem;
-  padding-bottom: 0.3rem;
-}
-
-.c-modal-hotkeys-row__name {
+.c-hotkey-editor {
+  width: min(68rem, 85vw);
+  font-size: 1.2rem;
   text-align: left;
 }
 
-.l-modal-hotkeys-row__name {
-  flex: 1 1 auto;
+.c-hotkey-editor__intro,
+.c-hotkey-editor__note {
+  line-height: 1.5;
+  margin: 0.5rem 0 1rem;
 }
 
-.c-modal-hotkeys__shift-description {
-  text-align: left;
+.c-hotkey-editor__note {
+  color: #aaa;
   font-size: 1rem;
+  margin-top: 1rem;
 }
 
-.c-modal-hotkeys__max-all-toggle {
-  align-self: flex-start;
+.c-hotkey-editor__toolbar {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.c-hotkey-editor__search {
+  flex: 1;
+  min-width: 0;
+  padding: 0.5rem;
+}
+
+.c-hotkey-editor__reset,
+.c-hotkey-editor__key,
+.c-hotkey-editor__cancel {
+  padding: 0.5rem 0.8rem;
+}
+
+.c-hotkey-editor__list {
+  max-height: 48vh;
+  overflow-y: auto;
+}
+
+.c-hotkey-editor__row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-bottom: 1px solid #555;
+  padding: 0.5rem 0;
+}
+
+.c-hotkey-editor__name {
+  flex: 1;
+}
+
+.c-hotkey-editor__name small {
+  display: block;
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+.c-hotkey-editor__key {
   min-width: 12rem;
-  margin-bottom: 0.5rem;
-  padding: 0.5rem 1rem;
+}
+
+.c-hotkey-editor__key--editing {
+  border-color: #ffd54f;
+  color: #ffd54f;
+}
+
+.c-hotkey-editor__error {
+  color: #ff7373;
+}
+
+.c-hotkey-editor__empty {
+  text-align: center;
 }
 </style>

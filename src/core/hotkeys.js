@@ -48,7 +48,10 @@ export const shortcuts = [
     name: "모두 최대로",
     keys: ["m"],
     type: "bindRepeatableHotkey",
-    function: () => triggerMaxAllHotkey("m"),
+    function: () => {
+      maxAll();
+      return shortcutBinding(shortcuts[3]) === "space" ? false : undefined;
+    },
     visible: true
   }, {
     name: "차원 희생",
@@ -256,7 +259,7 @@ export const shortcuts = [
     },
     visible: false
   }, {
-    name: "탭 변경",
+    name: "이전 탭으로 이동",
     keys: ["up"],
     type: "bind",
     function: () => {
@@ -265,7 +268,7 @@ export const shortcuts = [
     },
     visible: false
   }, {
-    name: "탭 변경",
+    name: "다음 탭으로 이동",
     keys: ["down"],
     type: "bind",
     function: () => {
@@ -274,7 +277,7 @@ export const shortcuts = [
     },
     visible: false
   }, {
-    name: "하위 탭 변경",
+    name: "이전 하위 탭으로 이동",
     keys: ["left"],
     type: "bind",
     function: () => {
@@ -283,7 +286,7 @@ export const shortcuts = [
     },
     visible: false
   }, {
-    name: "하위 탭 변경",
+    name: "다음 하위 탭으로 이동",
     keys: ["right"],
     type: "bind",
     function: () => {
@@ -342,61 +345,129 @@ export const shortcuts = [
   },
 ];
 
-for (const hotkey of shortcuts) {
-  GameKeyboard[hotkey.type](hotkey.keys.join("+"), hotkey.function);
+shortcuts.forEach((shortcut, index) => {
+  shortcut.id = `main-${index}`;
+  shortcut.category = "게임 및 메뉴";
+});
+
+function addShortcut({ id, name, key, type, action, category }) {
+  shortcuts.push({ id, name, keys: key.split("+"), type, function: action, visible: true, category });
 }
 
-GameKeyboard.bindRepeatableHotkey("space", () => triggerMaxAllHotkey("space"));
+const autobuyerKeys = [
+  ["tickspeed", "틱스피드", "t", () => Autobuyer.tickspeed],
+  ["sacrifice", "차원 희생", "s", () => Autobuyer.sacrifice],
+  ["dimboost", "차원 가속", "d", () => Autobuyer.dimboost],
+  ["galaxy", "반물질 은하", "g", () => Autobuyer.galaxy],
+  ["replicanti", "복제자 은하", "r", () => Autobuyer.replicantiGalaxy],
+  ["crunch", "빅 크런치", "c", () => Autobuyer.bigCrunch],
+  ["eternity", "영원", "e", () => Autobuyer.eternity],
+  ["reality", "현실", "y", () => Autobuyer.reality]
+];
+for (const [id, name, key, buyer] of autobuyerKeys) {
+  addShortcut({
+    id: `auto-${id}`, name: `${name} 자동 구매기 전환`, key: `alt+${key}`, type: "bindHotkey",
+    action: () => toggleAutobuyer(buyer()), category: "자동 구매기"
+  });
+}
+addShortcut({
+  id: "auto-tickspeed-mode", name: "틱스피드 자동 구매 방식", key: "shift+alt+t", type: "bindHotkey",
+  action: () => toggleBuySingles(Autobuyer.tickspeed), category: "자동 구매기"
+});
+Array.range(1, 8).forEach(tier => {
+  addShortcut({
+    id: `dimension-ten-${tier}`, name: `${tier}차 차원 10개 구매`, key: `${tier}`,
+    type: "bindRepeatableHotkey", action: () => buyManyDimension(tier), category: "차원 구매"
+  });
+  addShortcut({
+    id: `dimension-one-${tier}`, name: `${tier}차 차원 1개 구매`, key: `shift+${tier}`,
+    type: "bindRepeatableHotkey", action: () => buyOneDimension(tier), category: "차원 구매"
+  });
+  addShortcut({
+    id: `dimension-auto-${tier}`, name: `${tier}차 차원 자동 구매기`, key: `alt+${tier}`,
+    type: "bindHotkey", action: () => toggleAutobuyer(Autobuyer.antimatterDimension(tier)), category: "자동 구매기"
+  });
+  addShortcut({
+    id: `dimension-auto-mode-${tier}`, name: `${tier}차 차원 자동 구매 방식`, key: `shift+alt+${tier}`,
+    type: "bindHotkey", action: () => toggleBuySingles(Autobuyer.antimatterDimension(tier)), category: "자동 구매기"
+  });
+});
 
-// We need to know whether the player is holding R or not for the replicanti galaxy
-// The keydown version is above, with the replicantiGalaxyRequest, as otherwise it would be overridden
-GameKeyboard.bind("r", () => setHoldingR(false), "keyup");
+const allowedMainKeys = /^(?:[a-z0-9]|space|tab|enter|esc|up|down|left|right|f(?:[1-9]|1[0-2])|\?|\/|\.|,|-|=)$/u;
+const modifierOrder = ["mod", "ctrl", "alt", "shift"];
 
-// Same thing with Shift; we need to double-up on ctrl-shift as well since they're technically different keybinds
-GameKeyboard.bind("shift", () => setShiftKey(true), "keydown");
-GameKeyboard.bind("shift", () => setShiftKey(false), "keyup");
-GameKeyboard.bind("ctrl+shift", () => setShiftKey(true), "keydown");
-GameKeyboard.bind("ctrl+shift", () => setShiftKey(false), "keyup");
-GameKeyboard.bind("alt+shift", () => setShiftKey(true), "keydown");
-GameKeyboard.bind("alt+shift", () => setShiftKey(false), "keyup");
-
-
-GameKeyboard.bindHotkey("alt+t", () => toggleAutobuyer(Autobuyer.tickspeed));
-GameKeyboard.bindHotkey("shift+alt+t", () => toggleBuySingles(Autobuyer.tickspeed));
-GameKeyboard.bindHotkey("alt+s", () => toggleAutobuyer(Autobuyer.sacrifice));
-GameKeyboard.bindHotkey("alt+d", () => toggleAutobuyer(Autobuyer.dimboost));
-GameKeyboard.bindHotkey("alt+g", () => toggleAutobuyer(Autobuyer.galaxy));
-GameKeyboard.bindHotkey("alt+r", () => toggleAutobuyer(Autobuyer.replicantiGalaxy));
-
-GameKeyboard.bindHotkey("alt+c", () => toggleAutobuyer(Autobuyer.bigCrunch));
-GameKeyboard.bindHotkey("alt+e", () => toggleAutobuyer(Autobuyer.eternity));
-GameKeyboard.bindHotkey("alt+y", () => toggleAutobuyer(Autobuyer.reality));
-
-function triggerMaxAllHotkey(key) {
-  if ((player.options.maxAllHotkey ?? "m") !== key) return undefined;
-  maxAll();
-  return key === "space" ? false : undefined;
+export function normalizeShortcutKey(binding) {
+  if (typeof binding !== "string") return null;
+  const parts = binding.toLowerCase().split("+");
+  const key = parts.pop();
+  if (!allowedMainKeys.test(key) || parts.some(part => !modifierOrder.includes(part)) ||
+      new Set(parts).size !== parts.length || (parts.includes("mod") && parts.includes("ctrl"))) return null;
+  return [...modifierOrder.filter(part => parts.includes(part)), key].join("+");
 }
 
-(function() {
-  function bindDimensionHotkeys(tier) {
-    GameKeyboard.bindRepeatableHotkey(`${tier}`, () => buyManyDimension(tier));
-    GameKeyboard.bindRepeatableHotkey(`num${tier}`, () => buyManyDimension(tier));
-    GameKeyboard.bindRepeatableHotkey(`shift+${tier}`, () => buyOneDimension(tier));
-    GameKeyboard.bindRepeatableHotkey(`shift+num${tier}`, () => buyOneDimension(tier));
-    GameKeyboard.bindHotkey(`alt+${tier}`, () => toggleAutobuyer(Autobuyer.antimatterDimension(tier)));
-    GameKeyboard.bindHotkey(`alt+num${tier}`, () => toggleAutobuyer(Autobuyer.antimatterDimension(tier)));
-    GameKeyboard.bindHotkey(`shift+alt+${tier}`, () => toggleBuySingles(Autobuyer.antimatterDimension(tier)));
-    GameKeyboard.bindHotkey(`shift+alt+num${tier}`, () => toggleBuySingles(Autobuyer.antimatterDimension(tier)));
+export function shortcutBinding(shortcut) {
+  const defaults = shortcut.keys.join("+").toLowerCase();
+  const custom = player?.options?.customHotkeys?.[shortcut.id];
+  if (normalizeShortcutKey(custom)) return normalizeShortcutKey(custom);
+  // Keep the earlier M/Space option when an rc.5 save is loaded.
+  if (shortcut.id === "main-3" && player?.options?.maxAllHotkey === "space") return "space";
+  return normalizeShortcutKey(defaults) || defaults;
+}
+
+export function shortcutLabel(binding) {
+  return binding.split("+").map(part => ({ mod: "Ctrl/⌘", space: "Space", esc: "Esc" })[part] ||
+    part.toUpperCase()).join(" + ");
+}
+
+export function shortcutText(id) {
+  const shortcut = shortcuts.find(item => item.id === id);
+  return shortcut ? shortcutLabel(shortcutBinding(shortcut)) : "";
+}
+
+export function setShortcutBinding(shortcut, binding) {
+  const normalized = normalizeShortcutKey(binding);
+  if (!normalized) return "지원하지 않는 키 조합입니다.";
+  if (shortcut.type.startsWith("bindRepeatable") && /^(?:mod|ctrl|alt)\+/u.test(normalized)) {
+    return "연속 입력 단축키에는 Ctrl, Alt를 사용할 수 없습니다.";
   }
-  for (let i = 1; i < 9; i++) bindDimensionHotkeys(i);
-}());
+  const conflict = shortcuts.find(other => other.id !== shortcut.id && shortcutBinding(other) === normalized);
+  if (conflict) return `이미 '${conflict.name}'에 지정된 키입니다.`;
+  player.options.customHotkeys ??= {};
+  player.options.customHotkeys[shortcut.id] = normalized;
+  if (shortcut.id === "main-3") player.options.maxAllHotkey = normalized;
+  bindAllShortcuts();
+  return null;
+}
 
-// A few special GameKeyboards
-GameKeyboard.bind(
-  ["mod+shift+c", "mod+shift+i", "mod+shift+j", "f12"],
-  () => SecretAchievement(23).unlock()
-);
+export function resetShortcutBindings() {
+  player.options.customHotkeys = {};
+  player.options.maxAllHotkey = "m";
+  bindAllShortcuts();
+}
+
+export function bindAllShortcuts() {
+  GameKeyboard.disable();
+  for (const shortcut of shortcuts) {
+    const binding = shortcutBinding(shortcut);
+    GameKeyboard[shortcut.type](binding, shortcut.function);
+    // The keypad is an alias for the default digit action, not a separate setting.
+    if (shortcut.id.startsWith("dimension-") && binding === shortcut.keys.join("+")) {
+      GameKeyboard[shortcut.type](binding.replace(/([1-8])$/u, "num$1"), shortcut.function);
+    }
+  }
+
+  // The held-key state belongs to the Replicanti Galaxy action even when its key changes.
+  GameKeyboard.bind(shortcutBinding(shortcuts[10]), () => setHoldingR(false), "keyup");
+  ["shift", "ctrl+shift", "alt+shift"].forEach(modifier => {
+    GameKeyboard.bind(modifier, () => setShiftKey(true), "keydown");
+    GameKeyboard.bind(modifier, () => setShiftKey(false), "keyup");
+  });
+  GameKeyboard.bind(["mod+shift+c", "mod+shift+i", "mod+shift+j", "f12"],
+    () => SecretAchievement(23).unlock());
+}
+
+bindAllShortcuts();
+EventHub.logic.on(GAME_EVENT.GAME_LOAD, () => bindAllShortcuts());
 
 // Toggle autobuyers
 function toggleAutobuyer(buyer) {

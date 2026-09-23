@@ -23,7 +23,7 @@ export default {
   },
   methods: {
     update() {
-      this.maxAllHotkey = (player.options.maxAllHotkey ?? "m").toUpperCase();
+      this.maxAllHotkey = shortcutLabel(shortcutBinding(shortcuts[3]));
       const isSacrificeUnlocked = Sacrifice.isVisible;
       this.isSacrificeUnlocked = isSacrificeUnlocked;
       if (!isSacrificeUnlocked) return;

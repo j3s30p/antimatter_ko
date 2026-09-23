@@ -145,6 +145,13 @@ Update this file whenever a translation batch is committed. An area becomes `QA 
   and modern Antimatter Dimension buttons, H2P text, and the related NEWS prompt. Existing saves default to `M` through
   the standard player-option merge. Focused ESLint, the Steam build, exact repacked-bundle comparison, and the 304-file
   Greenworks check passed for the local `1.0.0-rc.5` test build.
+- Configurable game hotkeys: unified the game action, dimension purchase, and autobuyer bindings under saved per-action
+  settings. The hotkey modal now captures key combinations, rejects duplicates, supports search and reset, and keeps
+  the max-all button, NEWS, and help text synchronized. Existing `M`/`Space` saves retain their choice. Steam window
+  shortcuts and fixed modifier behavior remain outside the game-action remapping. Focused ESLint and the Steam build
+  passed. The repacked bundle matched the build, all 304 Greenworks files matched the previous package, and the local
+  `1.0.0-rc.6` test build was installed and restarted (SHA256:
+  `71CA4AB4AA9A44191858C1B59E13A152E7707D05917EF630BBA9F49BD3B3E6C7`). In-game QA remains with the user.
 
 ## Steam packaging note
 

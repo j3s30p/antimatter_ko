@@ -100,7 +100,10 @@ export class GameKeyboard {
     if (spin === undefined) {
       spin = new KeySpin(mainKey);
       spins.push(spin);
-      Mousetrap.bind(mainKey, () => spin.start(), "keydown");
+      Mousetrap.bind(mainKey, () => {
+        spin.start();
+        return mainKey === "space" ? false : undefined;
+      }, "keydown");
       Mousetrap.bind(mainKey, () => spin.stop(), "keyup");
     }
 
@@ -114,6 +117,7 @@ export class GameKeyboard {
 
   static disable() {
     this.stopSpins();
+    spins.length = 0;
     Mousetrap.reset();
   }
 }
