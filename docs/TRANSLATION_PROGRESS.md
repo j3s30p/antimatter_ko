@@ -177,6 +177,10 @@ Update this file whenever a translation batch is committed. An area becomes `QA 
   ZIP payload and manifest SHA256 match (`D3DF8A16D618D7548ADDE7DA10A97050AFA8FF357D20446D855381F91018F0A4`);
   packed JS matches the build and all 304 Greenworks files are unchanged. The local stable build was installed after
   fully stopping the prior game process tree and restarted once. Visual/in-game QA remains user-owned.
+- Published stable `v1.0.0` as the latest non-prerelease GitHub Release from `korean-localization`. The public and
+  source README files now describe the configurable-hotkey convenience feature, and the rebuilt six-entry ZIP was
+  downloaded through its public release URL and matched the local ZIP SHA256:
+  `373B85C0122BC4B482BA4693DF7484D8FE9D585B1E234FF1D403D1E6B6C92418`.
 
 ## Steam packaging note
 
