@@ -3,26 +3,17 @@
 </p>
 
 <h1 align="center">
-  <a href="https://github.com/j3s30p/antimatter_ko/releases/download/v1.0.0/AntimatterDimensions_KoreanPatch_1.0.0.zip">⬇️ 한국어 패치 다운로드</a>
+  <a href="https://github.com/j3s30p/antimatter_ko/releases/download/v1.1.0/AntimatterDimensions_KoreanPatch_1.1.0.zip">⬇️ 한국어 패치 다운로드</a>
 </h1>
 
 <p align="center">
-  <strong>v1.0.0 · Steam 11.5 전용</strong><br>
+  <strong>v1.1.0 · Steam 11.5 전용</strong><br>
   <sub>설치용 ZIP 파일 하나만 받으면 됩니다.</sub>
 </p>
 
 > [!IMPORTANT]
 > GitHub의 초록색 **Code** 버튼에서 받는 **Source code**는 설치 파일이 아닙니다.
 > 반드시 위의 **한국어 패치 다운로드** 링크를 이용해 주세요.
-
-## 바이올렛 테마 스냅샷
-
-현재 저장소에는 `1.1.0-violet.20260930` 바이올렛 테마가 포함되어 있습니다. 위의 **v1.0.0 릴리스 ZIP에는 바이올렛이 포함되지 않습니다.**
-
-- [바이올렛 포함 app.asar 다운로드](https://github.com/j3s30p/antimatter_ko/raw/refs/heads/korean-localization/resources/app.asar)
-- [테마 소스·이미지·빌드 안내](https://github.com/j3s30p/antimatter_ko/tree/source/theme-overrides)
-
-게임을 완전히 종료하고 받은 파일을 게임 폴더의 `resources/app.asar`로 교체한 뒤, 설정에서 **바이올렛** 테마를 선택합니다. 이 파일은 물결 배경, 빅크런치 파편, 시간팽창 워프, 블랙홀 가스 흐름과 활성화 연출을 포함합니다.
 
 ## 설치 방법
 
@@ -47,7 +38,7 @@ Steam 라이브러리에서 게임을 우클릭한 뒤 **속성 → 설치된 �
 
 | 항목 | 내용 |
 | --- | --- |
-| 최신 공개 버전 | `v1.0.0` |
+| 최신 공개 버전 | `v1.1.0` |
 | 대상 게임 | Steam판 `11.5` |
 | 지원 UI | 클래식 UI · 모던 UI |
 | 적용 파일 | `resources/app.asar` |
@@ -55,6 +46,15 @@ Steam 라이브러리에서 게임을 우클릭한 뒤 **속성 → 설치된 �
 | 저장 데이터 | 기존 저장과 호환 |
 
 이 패치는 메뉴와 UI, 도움말, NEWS, 도전과제, 설정, 진행 단계별 설명과 메시지 등 번역 대상인 모든 플레이어 노출 문구를 한국어로 제공합니다.
+
+### 바이올렛 테마
+
+한국어 패치에 바이올렛 테마가 함께 포함되어 있습니다. 설치 후 설정의 테마 목록에서 **바이올렛**을 선택하세요.
+
+- 보라색 버튼·진행 게이지와 은은하게 움직이는 픽셀 물결 배경
+- 화면의 금을 따라 깨지는 빅크런치와 시간팽창 진입·해제 워프 연출
+- 가스 흐름과 활성화 효과를 더한 블랙홀, 기존 블롭홀 옵션 지원
+- 현실·셀레스티얼의 고유 색상 및 영원·현실의 기존 연출 유지
 
 ### 추가 편의 기능: 단축키 설정
 
@@ -90,6 +90,7 @@ Steam 라이브러리에서 게임을 우클릭한 뒤 **속성 → 설치된 �
 
 - [번역 진행 기록](https://github.com/j3s30p/antimatter_ko/blob/source/docs/TRANSLATION_PROGRESS.md)
 - [번역 범위](https://github.com/j3s30p/antimatter_ko/blob/source/docs/TRANSLATION_SCOPE.md)
+- [바이올렛 테마 소스·이미지·빌드 안내](https://github.com/j3s30p/antimatter_ko/tree/source/theme-overrides)
 - [용어집](https://github.com/j3s30p/antimatter_ko/blob/source/docs/GLOSSARY.md)
 
 </details>
