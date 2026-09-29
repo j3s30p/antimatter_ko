@@ -15,6 +15,15 @@
 > GitHub의 초록색 **Code** 버튼에서 받는 **Source code**는 설치 파일이 아닙니다.
 > 반드시 위의 **한국어 패치 다운로드** 링크를 이용해 주세요.
 
+## 바이올렛 테마 스냅샷
+
+현재 저장소에는 `1.1.0-violet.20260930` 바이올렛 테마가 포함되어 있습니다. 위의 **v1.0.0 릴리스 ZIP에는 바이올렛이 포함되지 않습니다.**
+
+- [바이올렛 포함 app.asar 다운로드](https://github.com/j3s30p/antimatter_ko/raw/refs/heads/korean-localization/resources/app.asar)
+- [테마 소스·이미지·빌드 안내](https://github.com/j3s30p/antimatter_ko/tree/source/theme-overrides)
+
+게임을 완전히 종료하고 받은 파일을 게임 폴더의 `resources/app.asar`로 교체한 뒤, 설정에서 **바이올렛** 테마를 선택합니다. 이 파일은 물결 배경, 빅크런치 파편, 시간팽창 워프, 블랙홀 가스 흐름과 활성화 연출을 포함합니다.
+
 ## 설치 방법
 
 1. 게임과 백그라운드에 남은 게임 프로세스를 완전히 종료합니다.
@@ -92,6 +101,6 @@ Steam 라이브러리에서 게임을 우클릭한 뒤 **속성 → 설치된 �
 - 한국어 번역 참고: SameMa의 Endgame 한국어판, SeonjiSoup621의 ADKorean
 - 한국어 글꼴: Galmuri9 Regular — SIL Open Font License 1.1
 
-자세한 저작권과 출처 정보는 [ATTRIBUTION.md](ATTRIBUTION.md), 글꼴 라이선스 전문은 [Galmuri OFL 1.1](licenses/Galmuri-OFL-1.1.txt)에서 확인할 수 있습니다.
+자세한 저작권과 출처 정보는 [ATTRIBUTION.md](ATTRIBUTION.md), 글꼴 라이선스 전문은 [Galmuri OFL 1.1](https://github.com/j3s30p/antimatter_ko/blob/korean-localization/licenses/Galmuri-OFL-1.1.txt)에서 확인할 수 있습니다.
 
 이 패치는 비공식 팬 번역이며, 원작 제작진과 공식적으로 제휴하거나 승인을 받은 배포판이 아닙니다.
