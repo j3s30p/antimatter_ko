@@ -43,7 +43,7 @@ D3DF8A16D618D7548ADDE7DA10A97050AFA8FF357D20446D855381F91018F0A4
 node theme-overrides/build-violet-asar.js korean-v1.0.0.asar theme-overrides/violet.css theme-overrides/assets/violet-pixel-wave.png distribution/app.asar
 ```
 
-배포 스냅샷의 식별자는 `1.1.0-violet.20260930`입니다. 현재 게임에 적용한 파일은 기본 브랜치의 [`resources/app.asar`](https://github.com/j3s30p/antimatter_ko/blob/korean-localization/resources/app.asar)에 보관합니다.
+바이올렛은 한국어 패치 정식 버전 `1.1.0`에 포함되어 있습니다. 현재 게임에 적용한 파일은 기본 브랜치의 [`resources/app.asar`](https://github.com/j3s30p/antimatter_ko/blob/korean-localization/resources/app.asar)에 보관합니다.
 
 설치된 최종 파일 SHA-256:
 

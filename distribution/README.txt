@@ -14,6 +14,10 @@ Antimatter Dimensions Steam 한국어 패치
 - 게임 폴더의 resources 폴더를 열고 app.asar를 붙여넣어 덮어씁니다.
 - README.md, ATTRIBUTION.md, licenses, patch-manifest.json, 한글패치_설치방법.txt는 안내 및 고지 파일이므로 게임 폴더에 복사하지 않아도 됩니다.
 
+바이올렛 테마
+- 한국어 패치에 함께 포함되어 있습니다.
+- 설치 후 설정의 테마 목록에서 바이올렛을 선택합니다.
+
 핵심 복사 파일
 - resources\app.asar
 
