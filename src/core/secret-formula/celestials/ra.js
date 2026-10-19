@@ -22,7 +22,7 @@ export const ra = {
     },
     enslaved: {
       id: "enslaved",
-      name: "이름 없는 자들",
+      name: "Enslaved",
       color: "#f1aa7f",
       chunkGain: "시간 조각",
       memoryGain: "총 플레이 시간",

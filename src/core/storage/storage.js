@@ -2,6 +2,7 @@ import * as ADNotations from "@antimatter-dimensions/notations";
 
 import { DEV } from "@/env";
 import { devMigrations } from "./dev-migrations";
+import { migrateKoreanRemembrance } from "./korean-migrations";
 import { migrations } from "./migrations";
 
 import { deepmergeAll } from "@/utility/deepmerge";
@@ -461,6 +462,7 @@ export const GameStorage = {
       player = migrations.patchPostReality(player);
     }
 
+    migrateKoreanRemembrance(player);
     this.saves[this.currentSlot] = player;
     this.lastUpdateOnLoad = player.lastUpdate;
 

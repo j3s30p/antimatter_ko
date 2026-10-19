@@ -38,12 +38,18 @@ Copy-Item -LiteralPath (Join-Path $repoRoot "ATTRIBUTION.md") -Destination (Join
 Copy-Item -LiteralPath (Join-Path $repoRoot "public\licenses\Galmuri-OFL-1.1.txt") `
   -Destination (Join-Path $licensesDir "Galmuri-OFL-1.1.txt")
 Copy-Item -LiteralPath $manifestPath -Destination (Join-Path $stageDir "patch-manifest.json")
+Copy-Item -LiteralPath (Join-Path $repoRoot "CHANGELOG.md") -Destination (Join-Path $stageDir "CHANGELOG.md")
 
 if (Test-Path -LiteralPath $zipPath) {
   Remove-Item -LiteralPath $zipPath -Force
 }
 
 Compress-Archive -Path (Join-Path $stageDir "*") -DestinationPath $zipPath -CompressionLevel Optimal
+$resolvedStage = [IO.Path]::GetFullPath($stageDir)
+$resolvedRelease = [IO.Path]::GetFullPath($releaseDir).TrimEnd([IO.Path]::DirectorySeparatorChar) + [IO.Path]::DirectorySeparatorChar
+if (-not $resolvedStage.StartsWith($resolvedRelease, [StringComparison]::OrdinalIgnoreCase)) {
+  throw "임시 파일 삭제 경로가 릴리스 폴더 밖입니다."
+}
 Remove-Item -LiteralPath $stageDir -Recurse -Force
 
 Write-Host "배포 ZIP 생성 완료: $zipPath"

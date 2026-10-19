@@ -22,7 +22,7 @@ export default {
   },
   data() {
     return {
-      patchVersion: "1.0.0",
+      patchVersion: "1.1.1",
       gameVersion: "Steam 11.5",
       links: LINKS
     };
@@ -103,10 +103,20 @@ export default {
 
           <div class="c-korean-patch-timeline-item">
             <div class="c-korean-patch-section-heading">
+              1.1.1 수정 사항
+            </div>
+            <div class="c-korean-patch-info-main-text">
+              글리프 정제 계산과 툴팁, 자원 이름 표시, 이름 없는 자들의 보상 안내와 회상 호환을 수정했습니다.
+            </div>
+          </div>
+
+          <div class="c-korean-patch-timeline-item">
+            <div class="c-korean-patch-section-heading">
               저장 데이터
             </div>
             <div class="c-korean-patch-info-main-text">
-              로컬 및 Steam Cloud 저장 데이터는 변경하지 않습니다.
+              기존 저장과 호환됩니다. 이전 한국어판에서 선택한 회상 대상도 그대로 이어집니다.
+              이미 잘못된 정제로 사라진 글리프와 자원량은 복원되지 않습니다.
             </div>
           </div>
 

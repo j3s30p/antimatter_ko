@@ -14,6 +14,10 @@ class AlchemyResourceState extends GameMechanicState {
     return this.config.name;
   }
 
+  get displayName() {
+    return this.config.displayName ?? this.name;
+  }
+
   get symbol() {
     return this.config.symbol;
   }
@@ -67,7 +71,7 @@ class AlchemyResourceState extends GameMechanicState {
   }
 
   get lockText() {
-    return `${this.unlockedWith.name} 레벨 ${formatInt(this.unlockedAt)}`;
+    return `${this.unlockedWith.displayName} 레벨 ${formatInt(this.unlockedAt)}`;
   }
 
   get isCustomEffect() {
@@ -97,9 +101,9 @@ class AlchemyResourceState extends GameMechanicState {
 class BasicAlchemyResourceState extends AlchemyResourceState {
   constructor(config) {
     super(config);
-    // The names are capitalized, so we need to convert them to lower case
-    // in order to access highestRefinementValue values which are not capitalized.
-    this._name = config.name.toLowerCase();
+    // Display names are localized; save keys must remain the database's stable English identifiers.
+    this._name = Object.keys(GameDatabase.celestials.alchemy.resources)
+      .find(key => GameDatabase.celestials.alchemy.resources[key].id === config.id);
   }
 
   get highestRefinementValue() {

@@ -184,6 +184,15 @@ Update this file whenever a translation batch is committed. An area becomes `QA 
 
 ## Steam packaging note
 
+- `1.1.1` issue #1 fix (2026-10-19): separated refinement storage keys from translated resource
+  names, restored tooltip rarity/type maps and missing display-name properties, restored the Enslaved internal name,
+  and added an idempotent compatibility conversion for remembrance targets saved by earlier Korean versions.
+  Updated the patch-info screen, README, changelog, installation guide, manifest and Violet rebuild instructions.
+  The final ASAR was rebuilt from source and extracted again. Browser regression checks passed (266 assertions,
+  including 48 tooltip combinations, 150 unlock boundaries, six resource refinements, save serialization, hard-cap
+  behavior and remembrance compatibility). Native sidecar metadata remained identical for all 304 entries.
+  Steam native integration was not tested. The owner reviewed the release materials and approved publication.
+
 The Electron entry point in `main.js` loads `AppFiles/index.html`. Release builds must therefore be overlaid into the
 extracted ASAR's `AppFiles/` directory, not the ASAR root. Verification must inspect `AppFiles/js/app.js` and compare its
 hash with the build output; searching the ASAR root can produce a false positive without changing the live game.

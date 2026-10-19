@@ -1,6 +1,27 @@
 <script>
 import GlyphTooltipEffect from "@/components/GlyphTooltipEffect";
 
+const GLYPH_TYPE_NAMES = {
+  power: "힘",
+  infinity: "무한",
+  replication: "복제",
+  time: "시간",
+  dilation: "팽창",
+  effarig: "에파리그",
+  reality: "현실",
+};
+
+const GLYPH_RARITY_NAMES = {
+  Common: "일반",
+  Uncommon: "고급",
+  Rare: "희귀",
+  Epic: "영웅",
+  Legendary: "전설",
+  Mythical: "신화",
+  Transcendent: "초월",
+  Celestial: "천상",
+};
+
 export default {
   name: "GlyphTooltip",
   components: {
@@ -106,7 +127,7 @@ export default {
       };
     },
     description() {
-      const glyphName = `${this.type.capitalize()}`;
+      const glyphName = GLYPH_TYPE_NAMES[this.type] ?? this.type.capitalize();
       switch (this.type) {
         case "companion":
           return "동료 글리프";

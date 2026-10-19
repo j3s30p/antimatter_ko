@@ -20,6 +20,9 @@ export default {
     pet() {
       return this.petConfig.pet;
     },
+    displayName() {
+      return this.pet.displayName;
+    },
     shiftDown() {
       return ui.view.shiftDown;
     },

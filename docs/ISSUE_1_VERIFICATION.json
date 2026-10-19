@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "assertions": 266,
+  "tooltipCases": 48,
+  "boundaryCases": 150,
+  "refinements": [
+    {
+      "type": "power",
+      "gain": 25,
+      "cap": 500,
+      "savedAmount": 25
+    },
+    {
+      "type": "infinity",
+      "gain": 25,
+      "cap": 500,
+      "savedAmount": 25
+    },
+    {
+      "type": "replication",
+      "gain": 25,
+      "cap": 500,
+      "savedAmount": 25
+    },
+    {
+      "type": "time",
+      "gain": 25,
+      "cap": 500,
+      "savedAmount": 25
+    },
+    {
+      "type": "dilation",
+      "gain": 25,
+      "cap": 500,
+      "savedAmount": 25
+    },
+    {
+      "type": "effarig",
+      "gain": 25,
+      "cap": 500,
+      "savedAmount": 25
+    }
+  ],
+  "specialDescriptions": {
+    "reality": "순수한 현실 글리프",
+    "cursed": "저주받은 글리프",
+    "companion": "동료 글리프"
+  },
+  "renderErrors": [],
+  "version": "1.1.1",
+  "pageErrors": [],
+  "scope": "Extracted Steam release code in isolated headless browser; native Steam integration not tested"
+}
