@@ -3,11 +3,11 @@
 </p>
 
 <h1 align="center">
-  <a href="https://github.com/j3s30p/antimatter_ko/releases/download/v1.1.0/AntimatterDimensions_KoreanPatch_1.1.0.zip">⬇️ 한국어 패치 다운로드</a>
+  <a href="https://github.com/j3s30p/antimatter_ko/releases/download/v1.1.1/AntimatterDimensions_KoreanPatch_1.1.1.zip">⬇️ 한국어 패치 다운로드</a>
 </h1>
 
 <p align="center">
-  <strong>v1.1.0 · Steam 11.5 전용</strong><br>
+  <strong>v1.1.1 · Steam 11.5 전용</strong><br>
   <sub>설치용 ZIP 파일 하나만 받으면 됩니다.</sub>
 </p>
 
@@ -16,6 +16,8 @@
 > 반드시 위의 **한국어 패치 다운로드** 링크를 이용해 주세요.
 
 ## 설치 방법
+
+업데이트 전에는 게임 설정에서 저장을 내보내 백업을 보관해 주세요.
 
 1. 게임과 백그라운드에 남은 게임 프로세스를 완전히 종료합니다.
 2. Steam 라이브러리에서 **Antimatter Dimensions 우클릭 → 관리 → 로컬 파일 보기**를 누릅니다.
@@ -38,12 +40,14 @@ Steam 라이브러리에서 게임을 우클릭한 뒤 **속성 → 설치된 �
 
 | 항목 | 내용 |
 | --- | --- |
-| 최신 공개 버전 | `v1.1.0` |
+| 최신 공개 버전 | `v1.1.1` |
 | 대상 게임 | Steam판 `11.5` |
 | 지원 UI | 클래식 UI · 모던 UI |
 | 적용 파일 | `resources/app.asar` |
 | 한국어 글꼴 | Galmuri9 Regular |
 | 저장 데이터 | 기존 저장과 호환 |
+
+버전별 수정 사항은 [변경 내역](CHANGELOG.md)에서 확인할 수 있습니다.
 
 이 패치는 메뉴와 UI, 도움말, NEWS, 도전과제, 설정, 진행 단계별 설명과 메시지 등 번역 대상인 모든 플레이어 노출 문구를 한국어로 제공합니다.
 
